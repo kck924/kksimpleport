@@ -1,0 +1,247 @@
+.language-breakdown {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+  position: relative;
+  z-index: 1;
+  transition: border-color 0.3s ease;
+}
+
+.language-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.language-bar-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.language-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 140px;
+}
+
+.language-name {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.language-percent {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  font-family: 'JetBrains Mono', monospace;
+  margin-left: auto;
+  transition: color 0.3s ease;
+}
+
+.language-bar-track {
+  flex: 1;
+  height: 5px;
+  background-color: var(--bg-tertiary);
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+/* Card 1 - Cyan */
+.portfolio-card:nth-child(1):hover .language-name {
+  color: #e0f2fe;
+}
+
+.portfolio-card:nth-child(1):hover .language-percent {
+  color: #a5f3fc;
+}
+
+.portfolio-card:nth-child(1):hover .language-bar-track {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.portfolio-card:nth-child(1):hover .language-breakdown {
+  border-color: rgba(34, 211, 238, 0.3);
+}
+
+.portfolio-card:nth-child(1):hover .expand-hint {
+  color: #22d3ee;
+  border-color: #22d3ee;
+  background-color: rgba(6, 182, 212, 0.2);
+}
+
+/* Card 2 - Purple */
+.portfolio-card:nth-child(2):hover .language-name {
+  color: #ede9fe;
+}
+
+.portfolio-card:nth-child(2):hover .language-percent {
+  color: #ddd6fe;
+}
+
+.portfolio-card:nth-child(2):hover .language-bar-track {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.portfolio-card:nth-child(2):hover .language-breakdown {
+  border-color: rgba(196, 181, 253, 0.3);
+}
+
+.portfolio-card:nth-child(2):hover .expand-hint {
+  color: #c4b5fd;
+  border-color: #c4b5fd;
+  background-color: rgba(139, 92, 246, 0.2);
+}
+
+/* Card 3 - Green */
+.portfolio-card:nth-child(3):hover .language-name {
+  color: #d1fae5;
+}
+
+.portfolio-card:nth-child(3):hover .language-percent {
+  color: #a7f3d0;
+}
+
+.portfolio-card:nth-child(3):hover .language-bar-track {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.portfolio-card:nth-child(3):hover .language-breakdown {
+  border-color: rgba(110, 231, 183, 0.3);
+}
+
+.portfolio-card:nth-child(3):hover .expand-hint {
+  color: #6ee7b7;
+  border-color: #6ee7b7;
+  background-color: rgba(16, 185, 129, 0.2);
+}
+
+/* Card 4 - Orange */
+.portfolio-card:nth-child(4):hover .language-name {
+  color: #ffedd5;
+}
+
+.portfolio-card:nth-child(4):hover .language-percent {
+  color: #fed7aa;
+}
+
+.portfolio-card:nth-child(4):hover .language-bar-track {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.portfolio-card:nth-child(4):hover .language-breakdown {
+  border-color: rgba(253, 186, 116, 0.3);
+}
+
+.portfolio-card:nth-child(4):hover .expand-hint {
+  color: #fdba74;
+  border-color: #fdba74;
+  background-color: rgba(251, 146, 60, 0.2);
+}
+
+/* Card 5 - Pink */
+.portfolio-card:nth-child(5):hover .language-name {
+  color: #fce7f3;
+}
+
+.portfolio-card:nth-child(5):hover .language-percent {
+  color: #fbcfe8;
+}
+
+.portfolio-card:nth-child(5):hover .language-bar-track {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.portfolio-card:nth-child(5):hover .language-breakdown {
+  border-color: rgba(249, 168, 212, 0.3);
+}
+
+.portfolio-card:nth-child(5):hover .expand-hint {
+  color: #f9a8d4;
+  border-color: #f9a8d4;
+  background-color: rgba(236, 72, 153, 0.2);
+}
+
+/* Card 6 - Indigo */
+.portfolio-card:nth-child(6):hover .language-name {
+  color: #e0e7ff;
+}
+
+.portfolio-card:nth-child(6):hover .language-percent {
+  color: #c7d2fe;
+}
+
+.portfolio-card:nth-child(6):hover .language-bar-track {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.portfolio-card:nth-child(6):hover .language-breakdown {
+  border-color: rgba(165, 180, 252, 0.3);
+}
+
+.portfolio-card:nth-child(6):hover .expand-hint {
+  color: #a5b4fc;
+  border-color: #a5b4fc;
+  background-color: rgba(99, 102, 241, 0.2);
+}
+
+/* Card 7 - Red */
+.portfolio-card:nth-child(7):hover .language-name {
+  color: #fee2e2;
+}
+
+.portfolio-card:nth-child(7):hover .language-percent {
+  color: #fecaca;
+}
+
+.portfolio-card:nth-child(7):hover .language-bar-track {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.portfolio-card:nth-child(7):hover .language-breakdown {
+  border-color: rgba(252, 165, 165, 0.3);
+}
+
+.portfolio-card:nth-child(7):hover .expand-hint {
+  color: #fca5a5;
+  border-color: #fca5a5;
+  background-color: rgba(239, 68, 68, 0.2);
+}
+
+.language-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.4s cubic-bezier(0.2, 0, 0.1, 1);
+  position: relative;
+  box-shadow: 0 0 8px currentColor;
+  opacity: 0.9;
+}
+
+.language-bar-fill::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
