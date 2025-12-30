@@ -163,6 +163,23 @@ const portfolioData = [
       { name: 'JavaScript (Hooks)', percent: 8.5, color: '#3178c6' },
       { name: 'HTML', percent: 0.4, color: '#fb923c' }
     ]
+  },
+  {
+    id: 10,
+    title: 'OviGoals.com',
+    description: 'Interactive animated data visualization tracking every Alex Ovechkin NHL goal (912+) as he chases Wayne Gretzky\'s all-time record. Features cinematic goal timeline with particle animations, NHL rink shot map, stacking bar charts for top goalies/teams/assists, cumulative career chart with historic player comparisons, embedded milestone video highlights, keyboard controls, and auto-updating data via GitHub Actions.',
+    tags: ['React', 'Framer Motion', 'SVG'],
+    category: 'analytics',
+    date: 'December 2025',
+    tools: 'React, Vite, Framer Motion, Supabase, Vercel',
+    link: 'https://ovigoals.com',
+    image: '/ovi.png',
+    languages: [
+      { name: 'JavaScript (JSX)', percent: 88.7, color: '#00d9ff' },
+      { name: 'CSS', percent: 5.8, color: '#a78bfa' },
+      { name: 'Python', percent: 4.3, color: '#3572A5' },
+      { name: 'YAML/HTML', percent: 1.2, color: '#fb923c' }
+    ]
   }
 ];
 
