@@ -220,7 +220,7 @@ const portfolioData = [
     title: 'Where in Olney?',
     description: 'A daily GeoGuessr-style game for the Olney, Brookeville, Ashton and Sandy Spring, MD community. Each round drops you at a frozen Street View and you pin your guess on the map: five rounds, up to 5,000 points each. Everyone gets the same five locations each day from a seeded shuffle, with streaks, unlimited practice, live community standings (today, week, month and all-time), podium badges and monthly contests.',
     tags: ['JavaScript', 'Leaflet', 'Firebase'],
-    category: ['misc', 'engineering'],
+    category: 'engineering',
     date: 'August 2026',
     tools: 'JavaScript, Leaflet, OpenStreetMap, Google Street View, Firestore, Vercel',
     link: 'https://whereinolney.com',
