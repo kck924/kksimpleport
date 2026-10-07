@@ -214,6 +214,24 @@ const portfolioData = [
       { name: 'HTML', percent: 35.9, color: '#fb923c' },
       { name: 'CSS', percent: 18.0, color: '#a78bfa' }
     ]
+  },
+  {
+    id: 13,
+    title: 'Where in Olney?',
+    description: 'A daily GeoGuessr-style game for the Olney, Brookeville, Ashton and Sandy Spring, MD community. Each round drops you at a frozen Street View and you pin your guess on the map: five rounds, up to 5,000 points each. Everyone gets the same five locations each day from a seeded shuffle, with streaks, unlimited practice, live community standings (today, week, month and all-time), podium badges and monthly contests.',
+    tags: ['JavaScript', 'Leaflet', 'Firebase'],
+    category: ['misc', 'engineering'],
+    date: 'August 2026',
+    tools: 'JavaScript, Leaflet, OpenStreetMap, Google Street View, Firestore, Vercel',
+    link: 'https://whereinolney.com',
+    image: '/whereinolney.png',
+    languages: [
+      { name: 'JavaScript', percent: 66.3, color: '#00d9ff' },
+      { name: 'CSS', percent: 17.0, color: '#a78bfa' },
+      { name: 'HTML', percent: 10.7, color: '#fb923c' },
+      { name: 'Python', percent: 2.8, color: '#3572A5' },
+      { name: 'Firestore rules/JSON', percent: 3.2, color: '#4ade80' }
+    ]
   }
 ];
 
