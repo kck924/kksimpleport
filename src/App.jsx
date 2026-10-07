@@ -180,6 +180,40 @@ const portfolioData = [
       { name: 'Python', percent: 4.3, color: '#3572A5' },
       { name: 'YAML/HTML', percent: 1.2, color: '#fb923c' }
     ]
+  },
+  {
+    id: 11,
+    title: 'Misery Battery: Sports Fandom Misery Index',
+    description: 'Interactive analytics tool that scores how joyful or miserable a sports fandom has been across MLB, the NBA, the NHL and the NFL since 1976. Ranks 98 metro-based fan bases against each other, or any custom set of teams (including team-change histories) against every possible combination of the same leagues and years, on a 100 misery to 100 joy scale. Features season-by-season strips, a scoring engine with tests, a Python data pipeline over 5,600 team-seasons, and share cards rendered in the browser with per-fan-base link previews.',
+    tags: ['JavaScript', 'Python', 'Data Viz'],
+    category: ['analytics', 'misc'],
+    date: 'October 2026',
+    tools: 'JavaScript, Canvas, Python, pandas, NHL API, Firebase',
+    link: 'https://kckdata.com/misery-battery/',
+    image: '/miserybattery.png',
+    languages: [
+      { name: 'JavaScript', percent: 57.1, color: '#00d9ff' },
+      { name: 'CSS', percent: 17.1, color: '#a78bfa' },
+      { name: 'Python', percent: 16.0, color: '#3572A5' },
+      { name: 'HTML', percent: 9.3, color: '#fb923c' },
+      { name: 'Shell', percent: 0.5, color: '#4ade80' }
+    ]
+  },
+  {
+    id: 12,
+    title: 'NHL Has a Refereeing Problem',
+    description: 'Data journalism piece using two seasons of NHL play-by-play to show referees evening up penalty calls: the next call goes against the team that has been called less 60% of the time, rising to 76% at a gap of three, and all 33 regular referees show the effect. Model-adjusted estimates with intervals, interactive charts with tooltips and table views.',
+    tags: ['Data Journalism', 'SVG', 'Statistics'],
+    category: ['analytics', 'misc'],
+    date: 'October 2026',
+    tools: 'NHL play-by-play data, JavaScript, SVG, Firebase',
+    link: 'https://kckdata.com/nhl-refereeing-problem/',
+    image: '/nhlrefs.png',
+    languages: [
+      { name: 'JavaScript', percent: 46.1, color: '#00d9ff' },
+      { name: 'HTML', percent: 35.9, color: '#fb923c' },
+      { name: 'CSS', percent: 18.0, color: '#a78bfa' }
+    ]
   }
 ];
 
@@ -201,6 +235,8 @@ function App() {
     ? sortedProjects.filter(project => !hasCategory(project, 'analytics'))
     : activeView === 'genai'
     ? sortedProjects.filter(project => hasCategory(project, 'genai'))
+    : activeView === 'misc'
+    ? sortedProjects.filter(project => hasCategory(project, 'misc'))
     : sortedProjects;
 
   return (
@@ -254,6 +290,12 @@ function App() {
           Generative AI
         </button>
         <button
+          className={`toggle-btn ${activeView === 'misc' ? 'active' : ''}`}
+          onClick={() => setActiveView('misc')}
+        >
+          Miscellaneous
+        </button>
+        <button
           className={`toggle-btn ${activeView === 'timeline' ? 'active' : ''}`}
           onClick={() => setActiveView('timeline')}
         >
@@ -262,7 +304,7 @@ function App() {
       </div>
 
       <div className="view-content">
-        {activeView === 'all' || activeView === 'non-analytics' || activeView === 'genai' ? (
+        {activeView === 'all' || activeView === 'non-analytics' || activeView === 'genai' || activeView === 'misc' ? (
           <div className="portfolio-view">
             {activeView === 'genai' && (
               <div className="genai-view">
