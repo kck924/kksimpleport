@@ -7,17 +7,6 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;',
 
 drawLogo();
 
-// Temporary light/dark toggle (remembered per browser).
-function setTheme(t) {
-  document.documentElement.dataset.theme = t;
-  $('theme').textContent = t === 'dark' ? 'Light mode' : 'Dark mode';
-  $('theme').setAttribute('aria-pressed', t === 'dark');
-  try { localStorage.setItem('mb-theme', t); } catch { /* storage blocked */ }
-}
-let savedTheme = 'light';
-try { savedTheme = localStorage.getItem('mb-theme') || 'light'; } catch { /* storage blocked */ }
-setTheme(savedTheme);
-$('theme').addEventListener('click', () => setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'));
 
 let data;
 try {

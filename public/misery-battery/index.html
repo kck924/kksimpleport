@@ -397,24 +397,9 @@ details.tbl summary { cursor: pointer; color: var(--ink-2); font: 500 .7rem/1 va
 footer { padding-top: 14px; border-top: 3px solid var(--head); font: 400 .78rem/1.5 var(--font-head); color: var(--ink-3); }
 .loading { font: 500 .9rem/1.4 var(--font-head); color: var(--ink-2); }
 
-/* Temporary dark mode, toggled by the button in the corner (data-theme on <html>). */
-:root[data-theme="dark"] {
-  color-scheme: dark;
-  --bg: #14171c; --ink: #e4e6e9; --ink-2: #b4b9bf; --ink-3: #959ba2; --rule: #343b44; --panel: #1d2229;
-  --hot: #f07a5f; --hot-soft: #6b3328; --misery: #f07a5f; --misery-soft: #7d3b2e; --joy: #5bb8ea; --joy-soft: #2a5878;
-  --bar: #59606a; --link: #6cc4f0;
-  --st0: #434e5b; --st1: #376b92; --st2: #4396cf; --st3: #a3d6f4; --st4: #f2b51f;
-  --head: #f3f4f6; --surface: #1b1f25; --field: #4b535d; --dash: #6b737c; --gmid: #3a4048; --axis: #8a9099;
-  --pill-mis-bg: #4a231c; --pill-mis: #ffb6a5; --pill-joy-bg: #163a50; --pill-joy: #acdcf6;
-}
-:root[data-theme="dark"] :is(.logo, .plogo, .clogo, .slogo) { background: #eef0f2; border-radius: 50%; padding: 3px; }
-.theme-toggle { position: fixed; top: 10px; right: 10px; z-index: 20; font: 600 .75rem/1 var(--font-head); color: #e4e6e9;
-  background: rgba(13,17,23,.85); border: 1px solid rgba(255,255,255,.25); border-radius: 999px; padding: 7px 12px; cursor: pointer; }
-.theme-toggle:focus-visible { outline: 2px solid #00d9ff; outline-offset: 2px; }
 </style>
 </head>
 <body>
-<button class="theme-toggle" id="theme" type="button" aria-pressed="false">Dark mode</button>
 <div class="masthead"><div class="masthead-inner">
   <a class="mast-link" href="/" aria-label="Kevin Klein Data home"><svg id="logo" viewBox="0 0 460 92" role="img" aria-label="Kevin Klein, drawn as a scatterplot"></svg></a>
 </div></div>
