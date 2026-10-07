@@ -49,6 +49,7 @@ const plural = (n, word) => `${n} ${word}${n === 1 ? '' : 's'}`;
 const WEIGHTS = PRESETS.balanced.weights;
 const opts = () => ({ from: state.from, to: state.to, weights: WEIGHTS, leagues: state.leagues });
 const single = id => [{ id, from: firstYear }];
+const CHANGE_HELP = 'Switched teams at some point? Add a change and pick the year you started following a different team, or "No team" for years you sat out. Each team counts only for its own years, and years with no team count as an average season. Following a team that moved needs no change: the Avalanche already include their Quebec Nordiques years.';
 const chosen = () => LGS.map((lg, i) => [lg, state.hist[i]]).filter(([lg]) => state.leagues.includes(lg))
   .map(([lg, h]) => h.length === 1 && h[0].id ? h[0].id : { league: lg, segments: h });
 const NUM = ['', 'one', 'two', 'three', 'four'];
@@ -141,8 +142,11 @@ document.addEventListener('pointerover', e => { const c = e.target.closest(TIPPE
 document.addEventListener('pointerout', e => { if (e.pointerType !== 'touch' && e.target.closest(TIPPED) && !e.relatedTarget?.closest?.(TIPPED)) hideTip(); });
 document.addEventListener('pointerdown', e => { const c = e.target.closest(TIPPED); if (c) showTip(c); else hideTip(); });
 // keyboard focus starts at the latest season; a tap or click keeps the square it landed on
-document.addEventListener('focusin', e => { if (e.target.matches?.('.strip') && !e.target.contains(tipCell)) showTip(e.target.querySelector('i:last-child')); });
-document.addEventListener('focusout', e => { if (e.target.matches?.('.strip')) hideTip(); });
+document.addEventListener('focusin', e => {
+  if (e.target.matches?.('.strip') && !e.target.contains(tipCell)) showTip(e.target.querySelector('i:last-child'));
+  else if (e.target.matches?.('button[data-tip]')) showTip(e.target);
+});
+document.addEventListener('focusout', e => { if (e.target.matches?.('.strip, button[data-tip]')) hideTip(); });
 document.addEventListener('keydown', e => {
   const st = e.target.closest?.('.strip'); if (!st || !tipCell || !st.contains(tipCell)) return;
   const cells = [...st.children], i = cells.indexOf(tipCell);
@@ -229,7 +233,7 @@ $('metro').addEventListener('change', e => {
 $('pickers').innerHTML = LGS.map((lg, i) => `<div class="picker"><label class="lbl" for="pick${i}">${lg}</label>
   <div class="pickrow"><img class="plogo" id="plogo${i}" width="32" height="32" alt=""><select id="pick${i}"></select></div>
   <div class="changes" id="chg${i}"></div>
-  <button type="button" class="addchg" data-i="${i}">+ Team change</button></div>`).join('');
+  <div class="chgrow"><button type="button" class="addchg" data-i="${i}">+ Team change</button><button type="button" class="help" aria-label="What is a team change?" data-tipt="Team changes" data-tip="${esc(CHANGE_HELP)}">?</button></div></div>`).join('');
 LGS.forEach((lg, i) => $('pick' + i).addEventListener('change', e => { state.hist[i][0].id = e.target.value || null; $('metro').value = ''; update(); }));
 // team changes: "from [year] [team | No team]"; the first segment always starts at the beginning of the data
 const sortHist = i => { const [head, ...rest] = state.hist[i]; state.hist[i] = [head, ...rest.sort((a, b) => a.from - b.from)]; };

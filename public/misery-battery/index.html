@@ -242,6 +242,11 @@ figure { margin: 0; padding: 0; }
 .rmchg { font: 600 1rem/1 var(--font-head); border: 1px solid var(--field); background: var(--surface); color: var(--ink-2); border-radius: 3px;
   width: 30px; height: 30px; cursor: pointer; }
 .rmchg:hover { color: var(--misery); border-color: var(--misery); }
+.chgrow { display: flex; align-items: center; gap: 6px; margin-top: 4px; }
+.chgrow .addchg { margin-top: 0; }
+.help { width: 18px; height: 18px; border-radius: 50%; border: 1px solid var(--link); background: var(--surface); color: var(--link);
+  font: 700 .66rem/1 var(--font-head); padding: 0; cursor: help; display: inline-grid; place-items: center; }
+.help:hover, .help:focus-visible { background: var(--link); color: #fff; }
 .addchg { justify-self: start; margin-top: 4px; font: 600 .76rem/1.2 var(--font-head); border: 0; background: none; color: var(--link);
   padding: 2px 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
 .picker[hidden] { display: none !important; }
