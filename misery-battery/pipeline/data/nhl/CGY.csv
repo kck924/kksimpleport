@@ -1,0 +1,50 @@
+franchise,season,team_name,GP,W,L,T,OL,playoff_result,stage
+CGY,1976-77,Atlanta Flames,80,34,34,12,,Lost Preliminary Round,1
+CGY,1977-78,Atlanta Flames,80,34,27,19,,Lost Preliminary Round,1
+CGY,1978-79,Atlanta Flames,80,41,31,8,,Lost Preliminary Round,1
+CGY,1979-80,Atlanta Flames,80,35,32,13,,Lost Preliminary Round,1
+CGY,1980-81,Calgary Flames,80,39,27,14,,Lost Semifinals,2
+CGY,1981-82,Calgary Flames,80,29,34,17,,Lost Division Semifinals,1
+CGY,1982-83,Calgary Flames,80,32,34,14,,Lost Division Finals,1
+CGY,1983-84,Calgary Flames,80,34,32,14,,Lost Division Finals,1
+CGY,1984-85,Calgary Flames,80,41,27,12,,Lost Division Semifinals,1
+CGY,1985-86,Calgary Flames,80,40,31,9,,Lost Stanley Cup Final,3
+CGY,1986-87,Calgary Flames,80,46,31,3,,Lost Division Semifinals,1
+CGY,1987-88,Calgary Flames,80,48,23,9,,Lost Division Finals,1
+CGY,1988-89,Calgary Flames,80,54,17,9,,Won Stanley Cup Final,4
+CGY,1989-90,Calgary Flames,80,42,23,15,,Lost Division Semifinals,1
+CGY,1990-91,Calgary Flames,80,46,26,8,,Lost Division Semifinals,1
+CGY,1991-92,Calgary Flames,80,31,37,12,,,0
+CGY,1992-93,Calgary Flames,84,43,30,11,,Lost Division Semifinals,1
+CGY,1993-94,Calgary Flames,84,42,29,13,,Lost Conference Quarterfinals,1
+CGY,1994-95,Calgary Flames,48,24,17,7,,Lost Conference Quarterfinals,1
+CGY,1995-96,Calgary Flames,82,34,37,11,,Lost Conference Quarterfinals,1
+CGY,1996-97,Calgary Flames,82,32,41,9,,,0
+CGY,1997-98,Calgary Flames,82,26,41,15,,,0
+CGY,1998-99,Calgary Flames,82,30,40,12,,,0
+CGY,1999-00,Calgary Flames,82,31,36,10,5,,0
+CGY,2000-01,Calgary Flames,82,27,36,15,4,,0
+CGY,2001-02,Calgary Flames,82,32,35,12,3,,0
+CGY,2002-03,Calgary Flames,82,29,36,13,4,,0
+CGY,2003-04,Calgary Flames,82,42,30,7,3,Lost Stanley Cup Final,3
+CGY,2005-06,Calgary Flames,82,46,25,,11,Lost Conference Quarterfinals,1
+CGY,2006-07,Calgary Flames,82,43,29,,10,Lost Conference Quarterfinals,1
+CGY,2007-08,Calgary Flames,82,42,30,,10,Lost Conference Quarterfinals,1
+CGY,2008-09,Calgary Flames,82,46,30,,6,Lost Conference Quarterfinals,1
+CGY,2009-10,Calgary Flames,82,40,32,,10,,0
+CGY,2010-11,Calgary Flames,82,41,29,,12,,0
+CGY,2011-12,Calgary Flames,82,37,29,,16,,0
+CGY,2012-13,Calgary Flames,48,19,25,,4,,0
+CGY,2013-14,Calgary Flames,82,35,40,,7,,0
+CGY,2014-15,Calgary Flames,82,45,30,,7,Lost 2nd Round,1
+CGY,2015-16,Calgary Flames,82,35,40,,7,,0
+CGY,2016-17,Calgary Flames,82,45,33,,4,Lost 1st Round,1
+CGY,2017-18,Calgary Flames,82,37,35,,10,,0
+CGY,2018-19,Calgary Flames,82,50,25,,7,Lost 1st Round,1
+CGY,2019-20,Calgary Flames,70,36,27,,7,Lost 1st Round,1
+CGY,2020-21,Calgary Flames,56,26,27,,3,,0
+CGY,2021-22,Calgary Flames,82,50,21,,11,Lost 2nd Round,1
+CGY,2022-23,Calgary Flames,82,38,27,,17,,0
+CGY,2023-24,Calgary Flames,82,38,39,,5,,0
+CGY,2024-25,Calgary Flames,82,41,27,,14,,0
+CGY,2025-26,Calgary Flames,82,34,39,,9,,0

@@ -1,0 +1,47 @@
+franchise,season,team_name,GP,W,L,T,OL,playoff_result,stage
+COL,1979-80,Quebec Nordiques,80,25,44,11,,,0
+COL,1980-81,Quebec Nordiques,80,30,32,18,,Lost Preliminary Round,1
+COL,1981-82,Quebec Nordiques,80,33,31,16,,Lost Conference Finals,2
+COL,1982-83,Quebec Nordiques,80,34,34,12,,Lost Division Semifinals,1
+COL,1983-84,Quebec Nordiques,80,42,28,10,,Lost Division Finals,1
+COL,1984-85,Quebec Nordiques,80,41,30,9,,Lost Conference Finals,2
+COL,1985-86,Quebec Nordiques,80,43,31,6,,Lost Division Semifinals,1
+COL,1986-87,Quebec Nordiques,80,31,39,10,,Lost Division Finals,1
+COL,1987-88,Quebec Nordiques,80,32,43,5,,,0
+COL,1988-89,Quebec Nordiques,80,27,46,7,,,0
+COL,1989-90,Quebec Nordiques,80,12,61,7,,,0
+COL,1990-91,Quebec Nordiques,80,16,50,14,,,0
+COL,1991-92,Quebec Nordiques,80,20,48,12,,,0
+COL,1992-93,Quebec Nordiques,84,47,27,10,,Lost Division Semifinals,1
+COL,1993-94,Quebec Nordiques,84,34,42,8,,,0
+COL,1994-95,Quebec Nordiques,48,30,13,5,,Lost Conference Quarterfinals,1
+COL,1995-96,Colorado Avalanche,82,47,25,10,,Won Stanley Cup Final,4
+COL,1996-97,Colorado Avalanche,82,49,24,9,,Lost Conference Finals,2
+COL,1997-98,Colorado Avalanche,82,39,26,17,,Lost Conference Quarterfinals,1
+COL,1998-99,Colorado Avalanche,82,44,28,10,,Lost Conference Finals,2
+COL,1999-00,Colorado Avalanche,82,42,28,11,1,Lost Conference Finals,2
+COL,2000-01,Colorado Avalanche,82,52,16,10,4,Won Stanley Cup Final,4
+COL,2001-02,Colorado Avalanche,82,45,28,8,1,Lost Conference Finals,2
+COL,2002-03,Colorado Avalanche,82,42,19,13,8,Lost Conference Quarterfinals,1
+COL,2003-04,Colorado Avalanche,82,40,22,13,7,Lost Conference Semifinals,1
+COL,2005-06,Colorado Avalanche,82,43,30,,9,Lost Conference Semifinals,1
+COL,2006-07,Colorado Avalanche,82,44,31,,7,,0
+COL,2007-08,Colorado Avalanche,82,44,31,,7,Lost Conference Semifinals,1
+COL,2008-09,Colorado Avalanche,82,32,45,,5,,0
+COL,2009-10,Colorado Avalanche,82,43,30,,9,Lost Conference Quarterfinals,1
+COL,2010-11,Colorado Avalanche,82,30,44,,8,,0
+COL,2011-12,Colorado Avalanche,82,41,35,,6,,0
+COL,2012-13,Colorado Avalanche,48,16,25,,7,,0
+COL,2013-14,Colorado Avalanche,82,52,22,,8,Lost 1st Round,1
+COL,2014-15,Colorado Avalanche,82,39,31,,12,,0
+COL,2015-16,Colorado Avalanche,82,39,39,,4,,0
+COL,2016-17,Colorado Avalanche,82,22,56,,4,,0
+COL,2017-18,Colorado Avalanche,82,43,30,,9,Lost 1st Round,1
+COL,2018-19,Colorado Avalanche,82,38,30,,14,Lost 2nd Round,1
+COL,2019-20,Colorado Avalanche,70,42,20,,8,Lost 2nd Round,1
+COL,2020-21,Colorado Avalanche,56,39,13,,4,Lost 2nd Round,1
+COL,2021-22,Colorado Avalanche,82,56,19,,7,Won Stanley Cup Final,4
+COL,2022-23,Colorado Avalanche,82,51,24,,7,Lost 1st Round,1
+COL,2023-24,Colorado Avalanche,82,50,25,,7,Lost 2nd Round,1
+COL,2024-25,Colorado Avalanche,82,49,29,,4,Lost 1st Round,1
+COL,2025-26,Colorado Avalanche,82,55,16,,11,Lost Conference Finals,2

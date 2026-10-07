@@ -1,0 +1,4 @@
+raw/
+__pycache__/
+data/team_seasons.csv
+data/misery.json

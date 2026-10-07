@@ -1,0 +1,50 @@
+franchise,season,team_name,GP,W,L,T,OL,playoff_result,stage
+PIT,1976-77,Pittsburgh Penguins,80,34,33,13,,Lost Preliminary Round,1
+PIT,1977-78,Pittsburgh Penguins,80,25,37,18,,,0
+PIT,1978-79,Pittsburgh Penguins,80,36,31,13,,Lost Quarterfinals,1
+PIT,1979-80,Pittsburgh Penguins,80,30,37,13,,Lost Preliminary Round,1
+PIT,1980-81,Pittsburgh Penguins,80,30,37,13,,Lost Preliminary Round,1
+PIT,1981-82,Pittsburgh Penguins,80,31,36,13,,Lost Division Semifinals,1
+PIT,1982-83,Pittsburgh Penguins,80,18,53,9,,,0
+PIT,1983-84,Pittsburgh Penguins,80,16,58,6,,,0
+PIT,1984-85,Pittsburgh Penguins,80,24,51,5,,,0
+PIT,1985-86,Pittsburgh Penguins,80,34,38,8,,,0
+PIT,1986-87,Pittsburgh Penguins,80,30,38,12,,,0
+PIT,1987-88,Pittsburgh Penguins,80,36,35,9,,,0
+PIT,1988-89,Pittsburgh Penguins,80,40,33,7,,Lost Division Finals,1
+PIT,1989-90,Pittsburgh Penguins,80,32,40,8,,,0
+PIT,1990-91,Pittsburgh Penguins,80,41,33,6,,Won Stanley Cup Final,4
+PIT,1991-92,Pittsburgh Penguins,80,39,32,9,,Won Stanley Cup Final,4
+PIT,1992-93,Pittsburgh Penguins,84,56,21,7,,Lost Division Finals,1
+PIT,1993-94,Pittsburgh Penguins,84,44,27,13,,Lost Conference Quarterfinals,1
+PIT,1994-95,Pittsburgh Penguins,48,29,16,3,,Lost Conference Semifinals,1
+PIT,1995-96,Pittsburgh Penguins,82,49,29,4,,Lost Conference Finals,2
+PIT,1996-97,Pittsburgh Penguins,82,38,36,8,,Lost Conference Quarterfinals,1
+PIT,1997-98,Pittsburgh Penguins,82,40,24,18,,Lost Conference Quarterfinals,1
+PIT,1998-99,Pittsburgh Penguins,82,38,30,14,,Lost Conference Semifinals,1
+PIT,1999-00,Pittsburgh Penguins,82,37,31,8,6,Lost Conference Semifinals,1
+PIT,2000-01,Pittsburgh Penguins,82,42,28,9,3,Lost Conference Finals,2
+PIT,2001-02,Pittsburgh Penguins,82,28,41,8,5,,0
+PIT,2002-03,Pittsburgh Penguins,82,27,44,6,5,,0
+PIT,2003-04,Pittsburgh Penguins,82,23,47,8,4,,0
+PIT,2005-06,Pittsburgh Penguins,82,22,46,,14,,0
+PIT,2006-07,Pittsburgh Penguins,82,47,24,,11,Lost Conference Quarterfinals,1
+PIT,2007-08,Pittsburgh Penguins,82,47,27,,8,Lost Stanley Cup Final,3
+PIT,2008-09,Pittsburgh Penguins,82,45,28,,9,Won Stanley Cup Final,4
+PIT,2009-10,Pittsburgh Penguins,82,47,28,,7,Lost Conference Semifinals,1
+PIT,2010-11,Pittsburgh Penguins,82,49,25,,8,Lost Conference Quarterfinals,1
+PIT,2011-12,Pittsburgh Penguins,82,51,25,,6,Lost Conference Quarterfinals,1
+PIT,2012-13,Pittsburgh Penguins,48,36,12,,,Lost Conference Finals,2
+PIT,2013-14,Pittsburgh Penguins,82,51,24,,7,Lost 2nd Round,1
+PIT,2014-15,Pittsburgh Penguins,82,43,27,,12,Lost 1st Round,1
+PIT,2015-16,Pittsburgh Penguins,82,48,26,,8,Won Stanley Cup Final,4
+PIT,2016-17,Pittsburgh Penguins,82,50,21,,11,Won Stanley Cup Final,4
+PIT,2017-18,Pittsburgh Penguins,82,47,29,,6,Lost 2nd Round,1
+PIT,2018-19,Pittsburgh Penguins,82,44,26,,12,Lost 1st Round,1
+PIT,2019-20,Pittsburgh Penguins,69,40,23,,6,Lost Stanley Cup Qualifiers,1
+PIT,2020-21,Pittsburgh Penguins,56,37,16,,3,Lost 1st Round,1
+PIT,2021-22,Pittsburgh Penguins,82,46,25,,11,Lost 1st Round,1
+PIT,2022-23,Pittsburgh Penguins,82,40,31,,11,,0
+PIT,2023-24,Pittsburgh Penguins,82,38,32,,12,,0
+PIT,2024-25,Pittsburgh Penguins,82,34,36,,12,,0
+PIT,2025-26,Pittsburgh Penguins,82,41,25,,16,Lost 1st Round,1

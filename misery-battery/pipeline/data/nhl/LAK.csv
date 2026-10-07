@@ -1,0 +1,50 @@
+franchise,season,team_name,GP,W,L,T,OL,playoff_result,stage
+LAK,1976-77,Los Angeles Kings,80,34,31,15,,Lost Quarterfinals,1
+LAK,1977-78,Los Angeles Kings,80,31,34,15,,Lost Preliminary Round,1
+LAK,1978-79,Los Angeles Kings,80,34,34,12,,Lost Preliminary Round,1
+LAK,1979-80,Los Angeles Kings,80,30,36,14,,Lost Preliminary Round,1
+LAK,1980-81,Los Angeles Kings,80,43,24,13,,Lost Preliminary Round,1
+LAK,1981-82,Los Angeles Kings,80,24,41,15,,Lost Division Finals,1
+LAK,1982-83,Los Angeles Kings,80,27,41,12,,,0
+LAK,1983-84,Los Angeles Kings,80,23,44,13,,,0
+LAK,1984-85,Los Angeles Kings,80,34,32,14,,Lost Division Semifinals,1
+LAK,1985-86,Los Angeles Kings,80,23,49,8,,,0
+LAK,1986-87,Los Angeles Kings,80,31,41,8,,Lost Division Semifinals,1
+LAK,1987-88,Los Angeles Kings,80,30,42,8,,Lost Division Semifinals,1
+LAK,1988-89,Los Angeles Kings,80,42,31,7,,Lost Division Finals,1
+LAK,1989-90,Los Angeles Kings,80,34,39,7,,Lost Division Finals,1
+LAK,1990-91,Los Angeles Kings,80,46,24,10,,Lost Division Finals,1
+LAK,1991-92,Los Angeles Kings,80,35,31,14,,Lost Division Semifinals,1
+LAK,1992-93,Los Angeles Kings,84,39,35,10,,Lost Stanley Cup Final,3
+LAK,1993-94,Los Angeles Kings,84,27,45,12,,,0
+LAK,1994-95,Los Angeles Kings,48,16,23,9,,,0
+LAK,1995-96,Los Angeles Kings,82,24,40,18,,,0
+LAK,1996-97,Los Angeles Kings,82,28,43,11,,,0
+LAK,1997-98,Los Angeles Kings,82,38,33,11,,Lost Conference Quarterfinals,1
+LAK,1998-99,Los Angeles Kings,82,32,45,5,,,0
+LAK,1999-00,Los Angeles Kings,82,39,27,12,4,Lost Conference Quarterfinals,1
+LAK,2000-01,Los Angeles Kings,82,38,28,13,3,Lost Conference Semifinals,1
+LAK,2001-02,Los Angeles Kings,82,40,27,11,4,Lost Conference Quarterfinals,1
+LAK,2002-03,Los Angeles Kings,82,33,37,6,6,,0
+LAK,2003-04,Los Angeles Kings,82,28,29,16,9,,0
+LAK,2005-06,Los Angeles Kings,82,42,35,,5,,0
+LAK,2006-07,Los Angeles Kings,82,27,41,,14,,0
+LAK,2007-08,Los Angeles Kings,82,32,43,,7,,0
+LAK,2008-09,Los Angeles Kings,82,34,37,,11,,0
+LAK,2009-10,Los Angeles Kings,82,46,27,,9,Lost Conference Quarterfinals,1
+LAK,2010-11,Los Angeles Kings,82,46,30,,6,Lost Conference Quarterfinals,1
+LAK,2011-12,Los Angeles Kings,82,40,27,,15,Won Stanley Cup Final,4
+LAK,2012-13,Los Angeles Kings,48,27,16,,5,Lost Conference Finals,2
+LAK,2013-14,Los Angeles Kings,82,46,28,,8,Won Stanley Cup Final,4
+LAK,2014-15,Los Angeles Kings,82,40,27,,15,,0
+LAK,2015-16,Los Angeles Kings,82,48,28,,6,Lost 1st Round,1
+LAK,2016-17,Los Angeles Kings,82,39,35,,8,,0
+LAK,2017-18,Los Angeles Kings,82,45,29,,8,Lost 1st Round,1
+LAK,2018-19,Los Angeles Kings,82,31,42,,9,,0
+LAK,2019-20,Los Angeles Kings,70,29,35,,6,,0
+LAK,2020-21,Los Angeles Kings,56,21,28,,7,,0
+LAK,2021-22,Los Angeles Kings,82,44,27,,11,Lost 1st Round,1
+LAK,2022-23,Los Angeles Kings,82,47,25,,10,Lost 1st Round,1
+LAK,2023-24,Los Angeles Kings,82,44,27,,11,Lost 1st Round,1
+LAK,2024-25,Los Angeles Kings,82,48,25,,9,Lost 1st Round,1
+LAK,2025-26,Los Angeles Kings,82,35,27,,20,Lost 1st Round,1

@@ -1,0 +1,34 @@
+franchise,season,team_name,GP,W,L,T,OL,playoff_result,stage
+TBL,1992-93,Tampa Bay Lightning,84,23,54,7,,,0
+TBL,1993-94,Tampa Bay Lightning,84,30,43,11,,,0
+TBL,1994-95,Tampa Bay Lightning,48,17,28,3,,,0
+TBL,1995-96,Tampa Bay Lightning,82,38,32,12,,Lost Conference Quarterfinals,1
+TBL,1996-97,Tampa Bay Lightning,82,32,40,10,,,0
+TBL,1997-98,Tampa Bay Lightning,82,17,55,10,,,0
+TBL,1998-99,Tampa Bay Lightning,82,19,54,9,,,0
+TBL,1999-00,Tampa Bay Lightning,82,19,47,9,7,,0
+TBL,2000-01,Tampa Bay Lightning,82,24,47,6,5,,0
+TBL,2001-02,Tampa Bay Lightning,82,27,40,11,4,,0
+TBL,2002-03,Tampa Bay Lightning,82,36,25,16,5,Lost Conference Semifinals,1
+TBL,2003-04,Tampa Bay Lightning,82,46,22,8,6,Won Stanley Cup Final,4
+TBL,2005-06,Tampa Bay Lightning,82,43,33,,6,Lost Conference Quarterfinals,1
+TBL,2006-07,Tampa Bay Lightning,82,44,33,,5,Lost Conference Quarterfinals,1
+TBL,2007-08,Tampa Bay Lightning,82,31,42,,9,,0
+TBL,2008-09,Tampa Bay Lightning,82,24,40,,18,,0
+TBL,2009-10,Tampa Bay Lightning,82,34,36,,12,,0
+TBL,2010-11,Tampa Bay Lightning,82,46,25,,11,Lost Conference Finals,2
+TBL,2011-12,Tampa Bay Lightning,82,38,36,,8,,0
+TBL,2012-13,Tampa Bay Lightning,48,18,26,,4,,0
+TBL,2013-14,Tampa Bay Lightning,82,46,27,,9,Lost 1st Round,1
+TBL,2014-15,Tampa Bay Lightning,82,50,24,,8,Lost Stanley Cup Final,3
+TBL,2015-16,Tampa Bay Lightning,82,46,31,,5,Lost Conference Finals,2
+TBL,2016-17,Tampa Bay Lightning,82,42,30,,10,,0
+TBL,2017-18,Tampa Bay Lightning,82,54,23,,5,Lost Conference Finals,2
+TBL,2018-19,Tampa Bay Lightning,82,62,16,,4,Lost 1st Round,1
+TBL,2019-20,Tampa Bay Lightning,70,43,21,,6,Won Stanley Cup Final,4
+TBL,2020-21,Tampa Bay Lightning,56,36,17,,3,Won Stanley Cup Final,4
+TBL,2021-22,Tampa Bay Lightning,82,51,23,,8,Lost Stanley Cup Final,3
+TBL,2022-23,Tampa Bay Lightning,82,46,30,,6,Lost 1st Round,1
+TBL,2023-24,Tampa Bay Lightning,82,45,29,,8,Lost 1st Round,1
+TBL,2024-25,Tampa Bay Lightning,82,47,27,,8,Lost 1st Round,1
+TBL,2025-26,Tampa Bay Lightning,82,50,26,,6,Lost 1st Round,1

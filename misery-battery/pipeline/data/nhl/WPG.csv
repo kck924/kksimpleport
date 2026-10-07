@@ -1,0 +1,27 @@
+franchise,season,team_name,GP,W,L,T,OL,playoff_result,stage
+WPG,1999-00,Atlanta Thrashers,82,14,57,7,4,,0
+WPG,2000-01,Atlanta Thrashers,82,23,45,12,2,,0
+WPG,2001-02,Atlanta Thrashers,82,19,47,11,5,,0
+WPG,2002-03,Atlanta Thrashers,82,31,39,7,5,,0
+WPG,2003-04,Atlanta Thrashers,82,33,37,8,4,,0
+WPG,2005-06,Atlanta Thrashers,82,41,33,,8,,0
+WPG,2006-07,Atlanta Thrashers,82,43,28,,11,Lost Conference Quarterfinals,1
+WPG,2007-08,Atlanta Thrashers,82,34,40,,8,,0
+WPG,2008-09,Atlanta Thrashers,82,35,41,,6,,0
+WPG,2009-10,Atlanta Thrashers,82,35,34,,13,,0
+WPG,2010-11,Atlanta Thrashers,82,34,36,,12,,0
+WPG,2011-12,Winnipeg Jets,82,37,35,,10,,0
+WPG,2012-13,Winnipeg Jets,48,24,21,,3,,0
+WPG,2013-14,Winnipeg Jets,82,37,35,,10,,0
+WPG,2014-15,Winnipeg Jets,82,43,26,,13,Lost 1st Round,1
+WPG,2015-16,Winnipeg Jets,82,35,39,,8,,0
+WPG,2016-17,Winnipeg Jets,82,40,35,,7,,0
+WPG,2017-18,Winnipeg Jets,82,52,20,,10,Lost Conference Finals,2
+WPG,2018-19,Winnipeg Jets,82,47,30,,5,Lost 1st Round,1
+WPG,2019-20,Winnipeg Jets,71,37,28,,6,Lost Stanley Cup Qualifiers,1
+WPG,2020-21,Winnipeg Jets,56,30,23,,3,Lost 2nd Round,1
+WPG,2021-22,Winnipeg Jets,82,39,32,,11,,0
+WPG,2022-23,Winnipeg Jets,82,46,33,,3,Lost 1st Round,1
+WPG,2023-24,Winnipeg Jets,82,52,24,,6,Lost 1st Round,1
+WPG,2024-25,Winnipeg Jets,82,56,22,,4,Lost 2nd Round,1
+WPG,2025-26,Winnipeg Jets,82,35,35,,12,,0

@@ -1,0 +1,35 @@
+franchise,season,team_name,GP,W,L,T,OL,playoff_result,stage
+SJS,1991-92,San Jose Sharks,80,17,58,5,,,0
+SJS,1992-93,San Jose Sharks,84,11,71,2,,,0
+SJS,1993-94,San Jose Sharks,84,33,35,16,,Lost Conference Semifinals,1
+SJS,1994-95,San Jose Sharks,48,19,25,4,,Lost Conference Semifinals,1
+SJS,1995-96,San Jose Sharks,82,20,55,7,,,0
+SJS,1996-97,San Jose Sharks,82,27,47,8,,,0
+SJS,1997-98,San Jose Sharks,82,34,38,10,,Lost Conference Quarterfinals,1
+SJS,1998-99,San Jose Sharks,82,31,33,18,,Lost Conference Quarterfinals,1
+SJS,1999-00,San Jose Sharks,82,35,30,10,7,Lost Conference Semifinals,1
+SJS,2000-01,San Jose Sharks,82,40,27,12,3,Lost Conference Quarterfinals,1
+SJS,2001-02,San Jose Sharks,82,44,27,8,3,Lost Conference Semifinals,1
+SJS,2002-03,San Jose Sharks,82,28,37,9,8,,0
+SJS,2003-04,San Jose Sharks,82,43,21,12,6,Lost Conference Finals,2
+SJS,2005-06,San Jose Sharks,82,44,27,,11,Lost Conference Semifinals,1
+SJS,2006-07,San Jose Sharks,82,51,26,,5,Lost Conference Semifinals,1
+SJS,2007-08,San Jose Sharks,82,49,23,,10,Lost Conference Semifinals,1
+SJS,2008-09,San Jose Sharks,82,53,18,,11,Lost Conference Quarterfinals,1
+SJS,2009-10,San Jose Sharks,82,51,20,,11,Lost Conference Finals,2
+SJS,2010-11,San Jose Sharks,82,48,25,,9,Lost Conference Finals,2
+SJS,2011-12,San Jose Sharks,82,43,29,,10,Lost Conference Quarterfinals,1
+SJS,2012-13,San Jose Sharks,48,25,16,,7,Lost Conference Semifinals,1
+SJS,2013-14,San Jose Sharks,82,51,22,,9,Lost 1st Round,1
+SJS,2014-15,San Jose Sharks,82,40,33,,9,,0
+SJS,2015-16,San Jose Sharks,82,46,30,,6,Lost Stanley Cup Final,3
+SJS,2016-17,San Jose Sharks,82,46,29,,7,Lost 1st Round,1
+SJS,2017-18,San Jose Sharks,82,45,27,,10,Lost 2nd Round,1
+SJS,2018-19,San Jose Sharks,82,46,27,,9,Lost Conference Finals,2
+SJS,2019-20,San Jose Sharks,70,29,36,,5,,0
+SJS,2020-21,San Jose Sharks,56,21,28,,7,,0
+SJS,2021-22,San Jose Sharks,82,32,37,,13,,0
+SJS,2022-23,San Jose Sharks,82,22,44,,16,,0
+SJS,2023-24,San Jose Sharks,82,19,54,,9,,0
+SJS,2024-25,San Jose Sharks,82,20,50,,12,,0
+SJS,2025-26,San Jose Sharks,82,39,35,,8,,0

@@ -1,0 +1,50 @@
+franchise,season,team_name,GP,W,L,T,OL,playoff_result,stage
+VAN,1976-77,Vancouver Canucks,80,25,42,13,,,0
+VAN,1977-78,Vancouver Canucks,80,20,43,17,,,0
+VAN,1978-79,Vancouver Canucks,80,25,42,13,,Lost Preliminary Round,1
+VAN,1979-80,Vancouver Canucks,80,27,37,16,,Lost Preliminary Round,1
+VAN,1980-81,Vancouver Canucks,80,28,32,20,,Lost Preliminary Round,1
+VAN,1981-82,Vancouver Canucks,80,30,33,17,,Lost Stanley Cup Final,3
+VAN,1982-83,Vancouver Canucks,80,30,35,15,,Lost Division Semifinals,1
+VAN,1983-84,Vancouver Canucks,80,32,39,9,,Lost Division Semifinals,1
+VAN,1984-85,Vancouver Canucks,80,25,46,9,,,0
+VAN,1985-86,Vancouver Canucks,80,23,44,13,,Lost Division Semifinals,1
+VAN,1986-87,Vancouver Canucks,80,29,43,8,,,0
+VAN,1987-88,Vancouver Canucks,80,25,46,9,,,0
+VAN,1988-89,Vancouver Canucks,80,33,39,8,,Lost Division Semifinals,1
+VAN,1989-90,Vancouver Canucks,80,25,41,14,,,0
+VAN,1990-91,Vancouver Canucks,80,28,43,9,,Lost Division Semifinals,1
+VAN,1991-92,Vancouver Canucks,80,42,26,12,,Lost Division Finals,1
+VAN,1992-93,Vancouver Canucks,84,46,29,9,,Lost Division Finals,1
+VAN,1993-94,Vancouver Canucks,84,41,40,3,,Lost Stanley Cup Final,3
+VAN,1994-95,Vancouver Canucks,48,18,18,12,,Lost Conference Semifinals,1
+VAN,1995-96,Vancouver Canucks,82,32,35,15,,Lost Conference Quarterfinals,1
+VAN,1996-97,Vancouver Canucks,82,35,40,7,,,0
+VAN,1997-98,Vancouver Canucks,82,25,43,14,,,0
+VAN,1998-99,Vancouver Canucks,82,23,47,12,,,0
+VAN,1999-00,Vancouver Canucks,82,30,29,15,8,,0
+VAN,2000-01,Vancouver Canucks,82,36,28,11,7,Lost Conference Quarterfinals,1
+VAN,2001-02,Vancouver Canucks,82,42,30,7,3,Lost Conference Quarterfinals,1
+VAN,2002-03,Vancouver Canucks,82,45,23,13,1,Lost Conference Semifinals,1
+VAN,2003-04,Vancouver Canucks,82,43,24,10,5,Lost Conference Quarterfinals,1
+VAN,2005-06,Vancouver Canucks,82,42,32,,8,,0
+VAN,2006-07,Vancouver Canucks,82,49,26,,7,Lost Conference Semifinals,1
+VAN,2007-08,Vancouver Canucks,82,39,33,,10,,0
+VAN,2008-09,Vancouver Canucks,82,45,27,,10,Lost Conference Semifinals,1
+VAN,2009-10,Vancouver Canucks,82,49,28,,5,Lost Conference Semifinals,1
+VAN,2010-11,Vancouver Canucks,82,54,19,,9,Lost Stanley Cup Final,3
+VAN,2011-12,Vancouver Canucks,82,51,22,,9,Lost Conference Quarterfinals,1
+VAN,2012-13,Vancouver Canucks,48,26,15,,7,Lost Conference Quarterfinals,1
+VAN,2013-14,Vancouver Canucks,82,36,35,,11,,0
+VAN,2014-15,Vancouver Canucks,82,48,29,,5,Lost 1st Round,1
+VAN,2015-16,Vancouver Canucks,82,31,38,,13,,0
+VAN,2016-17,Vancouver Canucks,82,30,43,,9,,0
+VAN,2017-18,Vancouver Canucks,82,31,40,,11,,0
+VAN,2018-19,Vancouver Canucks,82,35,36,,11,,0
+VAN,2019-20,Vancouver Canucks,69,36,27,,6,Lost 2nd Round,1
+VAN,2020-21,Vancouver Canucks,56,23,29,,4,,0
+VAN,2021-22,Vancouver Canucks,82,40,30,,12,,0
+VAN,2022-23,Vancouver Canucks,82,38,37,,7,,0
+VAN,2023-24,Vancouver Canucks,82,50,23,,9,Lost 2nd Round,1
+VAN,2024-25,Vancouver Canucks,82,38,30,,14,,0
+VAN,2025-26,Vancouver Canucks,82,25,49,,8,,0

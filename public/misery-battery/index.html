@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How joyful or miserable is your sports fandom experience? | Kevin Klein Data</title>
+<meta name="description" content="Pick your MLB, NBA, NHL and NFL teams, or only the sports you follow, and any span since 1976. See where they land between misery and joy, against every possible combination and every local fan base.">
+<meta name="author" content="Kevin Klein">
+<link rel="canonical" href="https://kckdata.com/misery-battery/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Kevin Klein Data">
+<meta property="og:title" content="How joyful or miserable is your sports fandom experience?">
+<meta property="og:description" content="One team from each of MLB, the NBA, the NHL and the NFL, 50 seasons, placed between misery and joy against every possible four-team combination.">
+<meta property="og:url" content="https://kckdata.com/misery-battery/">
+<meta property="og:image" content="https://kckdata.com/misery-battery/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="A misery-to-joy scale with four teams' season-by-season results since 1976">
+<meta name="twitter:image:alt" content="A misery-to-joy scale with four teams' season-by-season results since 1976">
+<meta name="theme-color" content="#0d1117">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How joyful or miserable is your sports fandom experience?">
+<meta name="twitter:description" content="One team from each of MLB, the NBA, the NHL and the NFL, 50 seasons, placed between misery and joy against every possible four-team combination.">
+<meta name="twitter:image" content="https://kckdata.com/misery-battery/og.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=DM+Mono:wght@400;500&display=swap">
+<link rel="modulepreload" href="/misery-battery/misery.js">
+<link rel="preload" href="/misery-battery/misery-data.json" as="fetch" crossorigin>
+<style>
+/* Layout: same 538-style house as /nhl-refereeing-problem/. Dark scatterplot masthead, one 720px column:
+   kicker, headline, byline, serif lede, then the tool. Controls and data use the grotesk; prose uses the serif.
+   Stage scale: grey -> light blue -> dark blue for missed..lost final, gold for a title. Light-only, like the house. */
+:root {
+  color-scheme: light;
+  --bg: #ffffff;
+  --ink: #222222;
+  --ink-2: #555555;
+  --ink-3: #6b6b6b;
+  --rule: #d9d9d9;
+  --panel: #f0f0f0;
+  --hot: #b8321a;
+  --hot-soft: #ecc3b9;
+  --misery: #b8321a;
+  --misery-soft: #e7b3a7;
+  --joy: #0072aa;
+  --joy-soft: #a9cfe6;
+  --bar: #bdbdbd;
+  --link: #0072aa;
+  --mast: #0d1117;
+  --st0: #a9b5c2;
+  --st1: #70a4d2;
+  --st2: #2a75b5;
+  --st3: #0a3f6a;
+  --st4: #f2a900;
+  --font-head: "Libre Franklin", "Franklin Gothic Medium", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-mono: "DM Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --head: #111111;
+  --surface: #ffffff;
+  --field: #b5b5b5;
+  --dash: #a8a8a8;
+  --gmid: #e4e4e4;
+  --axis: #444444;
+  --pill-mis-bg: #f6e0da; --pill-mis: #8f2513;
+  --pill-joy-bg: #dcebf5; --pill-joy: #00557f;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 19px/1.6 var(--font-body); }
+:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+
+.masthead { background: var(--mast); }
+.masthead-inner { max-width: 720px; margin: 0 auto; padding-inline: 20px; padding-block: 10px 6px; }
+.mast-link { display: block; width: min(100%, 460px); margin-inline: auto; color: inherit; border-radius: 4px; }
+.mast-link:focus-visible { outline: 2px solid #00d9ff; outline-offset: 4px; }
+#logo { display: block; width: 100%; height: auto; }
+
+.wrap { max-width: 720px; margin: 0 auto; padding-inline: 20px; padding-block: 36px 72px; display: flex; flex-direction: column; gap: 28px; }
+h1, h2 { font-family: var(--font-head); text-wrap: balance; margin: 0; color: var(--head); }
+h1 { font-size: clamp(2.1rem, 5.6vw, 3.1rem); font-weight: 800; line-height: 1.08; letter-spacing: -.015em; }
+h2 { font-size: 1.6rem; font-weight: 700; line-height: 1.2; letter-spacing: -.005em; }
+p { margin: 0; }
+a { color: var(--link); text-underline-offset: 3px; }
+.kicker { font: 700 .78rem/1 var(--font-head); letter-spacing: .1em; text-transform: uppercase; color: var(--hot); }
+header.stack { display: flex; flex-direction: column; gap: 16px; }
+.byline { font: 400 .82rem/1.5 var(--font-head); color: var(--ink-2); display: flex; flex-wrap: wrap; gap: 4px 14px;
+  padding-block: 10px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.byline b { color: var(--ink); font-weight: 700; }
+.lede strong { font-weight: 600; }
+
+/* ---- controls ---- */
+.ui { font-family: var(--font-head); font-size: .9rem; line-height: 1.45; }
+.controls { display: flex; flex-direction: column; gap: 12px; border-top: 3px solid var(--head); padding-top: 14px; }
+.lbl { font: 700 .7rem/1.2 var(--font-head); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2); }
+.ctl { display: flex; flex-wrap: wrap; gap: 8px 10px; align-items: center; }
+.ctl > .lbl:first-child { min-width: 82px; }
+select, input[type=search] { font: 400 .9rem/1.3 var(--font-head); color: var(--ink); background: var(--surface); border: 1px solid var(--field);
+  border-radius: 3px; padding: 6px 8px; max-width: 100%; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font: 500 .8rem/1.2 var(--font-head); border: 1px solid var(--field); background: var(--surface); color: var(--ink); border-radius: 999px;
+  padding: 5px 11px; cursor: pointer; }
+.chip:hover { border-color: var(--head); }
+.chip[aria-pressed="true"] { background: var(--head); color: var(--bg); border-color: var(--head); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font: 500 .8rem/1.3 var(--font-head); color: var(--ink-2); align-items: center; }
+.sw { display: inline-block; width: 11px; height: 11px; border-radius: 1.5px; vertical-align: -1px; margin-right: 5px; }
+
+.tabs { display: flex; gap: 2px; border-bottom: 1px solid var(--rule); }
+.tab { font: 700 .95rem/1.2 var(--font-head); background: none; border: 0; border-bottom: 3px solid transparent; color: var(--ink-2);
+  padding: 10px 12px; cursor: pointer; margin-bottom: -1px; }
+.tab[aria-selected="true"] { color: var(--head); border-bottom-color: var(--hot); }
+.panel-gap { display: flex; flex-direction: column; gap: 20px; }
+
+.pickers { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 14px; align-items: start; }
+.picker { display: grid; gap: 4px; min-width: 0; }
+.picker select { width: 100%; }
+@media (max-width: 420px) { .pickers { grid-template-columns: 1fr; } }
+
+/* ---- result ---- */
+.result { display: flex; flex-direction: column; gap: 14px; }
+.verdict { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 6px 22px; align-items: center; border-top: 3px solid var(--head); padding-top: 16px; }
+.big { font: 800 clamp(3.4rem, 12vw, 5.2rem)/.9 var(--font-head); letter-spacing: -.03em; font-variant-numeric: tabular-nums; color: var(--hot); }
+.big small { display: block; font: 700 .68rem/1.2 var(--font-head); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2); margin-top: 8px; }
+.tier { font: 800 1.7rem/1 var(--font-head); color: var(--head); letter-spacing: -.01em; }
+.vtext { margin-top: 6px; font-size: 1rem; line-height: 1.5; }
+.vtext b { font-variant-numeric: tabular-nums; font-weight: 600; }
+@media (max-width: 520px) { .verdict { grid-template-columns: 1fr; } }
+.warn { font: 500 .9rem/1.45 var(--font-head); color: var(--hot); }
+.result .warn { border-top: 3px solid var(--head); padding-top: 16px; }
+.actions { display: flex; gap: 10px; align-items: center; }
+.btn { font: 600 .8rem/1.2 var(--font-head); border: 1px solid var(--head); background: var(--surface); color: var(--head); border-radius: 3px; padding: 6px 12px; cursor: pointer; }
+.btn:hover { background: var(--head); color: var(--bg); }
+
+figure { margin: 0; padding: 0; }
+.fig-title { font: 700 1.05rem/1.25 var(--font-head); color: var(--head); }
+.fig-sub { font: 400 .85rem/1.4 var(--font-head); color: var(--ink-2); margin-top: 4px; }
+.fig-head { margin-bottom: 12px; }
+.chart { width: 100%; background: var(--panel); padding: 14px 12px 8px; }
+.hist { width: 100%; height: auto; display: block; overflow: visible; }
+.hist text { fill: var(--ink-2); font-family: var(--font-mono); font-size: 11px; }
+.histcap { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 24px; padding-top: 10px; font: 400 .8rem/1.4 var(--font-head); color: var(--ink-2); }
+.histcap b { color: var(--ink); font-weight: 600; }
+.fig-foot { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: baseline; padding-top: 8px;
+  font: 500 .68rem/1.4 var(--font-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+
+/* ---- team cards ---- */
+.cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 22px; }
+@media (max-width: 640px) { .cards { grid-template-columns: 1fr; } }
+.card { border-top: 1px solid var(--head); padding-top: 10px; display: flex; flex-direction: column; gap: 8px; min-width: 0; font-family: var(--font-head); }
+.ch { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 12px; align-items: start; }
+.cname { font: 700 1.02rem/1.25 var(--font-head); color: var(--head); }
+.cera { font-size: .76rem; color: var(--ink-2); }
+.cscore { text-align: right; font: 800 1.9rem/1 var(--font-head); letter-spacing: -.02em; font-variant-numeric: tabular-nums; color: var(--head); }
+.cscore span { display: block; font: 700 .62rem/1.4 var(--font-head); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2); }
+.pill { display: inline-block; font: 700 .72rem/1.3 var(--font-head); border-radius: 999px; padding: 2px 9px; background: var(--pill-mis-bg); color: var(--pill-mis); }
+.pill.calm { background: var(--panel); color: var(--ink); }
+.stats { display: flex; flex-wrap: wrap; gap: 2px 14px; font-size: .8rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.stats b { color: var(--ink); }
+.strip { display: grid; gap: 1.5px; height: 14px; }
+.strip i { border-radius: 1px; background: var(--st0); min-width: 0; }
+.strip i.x { background: transparent; border: 1px dashed var(--dash); }
+.strip { cursor: default; border-radius: 2px; }
+.strip:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; }
+.strip i.on { outline: 2px solid var(--head); outline-offset: 1px; position: relative; z-index: 1; }
+.stip { position: fixed; z-index: 30; pointer-events: none; background: var(--surface); color: var(--ink); border: 1px solid var(--rule);
+  box-shadow: 0 4px 14px rgba(0,0,0,.14); border-radius: 3px; padding: 7px 10px; font: 400 .78rem/1.4 var(--font-head); max-width: 260px; }
+.stip .t { font: 500 .68rem/1.2 var(--font-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); margin-bottom: 3px; }
+.stip .sw-row { display: flex; align-items: center; gap: 6px; }
+.stip .sw-row i { width: 10px; height: 10px; border-radius: 2px; flex: none; }
+.stip b { font-weight: 700; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.yrs { display: flex; justify-content: space-between; font: 400 .66rem/1.2 var(--font-mono); color: var(--ink-3); margin-top: 3px; }
+.bw { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; border-top: 1px solid var(--rule); padding-top: 10px; margin-top: 2px; }
+.bwx { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.bwl { font: 700 .62rem/1.2 var(--font-head); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); }
+.bwy { display: flex; align-items: center; gap: 6px; font: 800 1.05rem/1.2 var(--font-head); color: var(--head); font-variant-numeric: tabular-nums; }
+.bwy i { width: 10px; height: 10px; border-radius: 2px; flex: none; }
+.bwo { font: 600 .8rem/1.3 var(--font-head); color: var(--ink); }
+.bwr { font: 400 .72rem/1.3 var(--font-mono); color: var(--ink-2); overflow-wrap: anywhere; }
+.bwt { font: 500 .74rem/1.3 var(--font-head); color: var(--ink-2); }
+
+/* ---- rankings ---- */
+.explain { font: 400 1rem/1.55 var(--font-body); }
+.filters { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+.filters input[type=search] { flex: 1 1 260px; min-width: 0; }
+.tog { display: flex; gap: 7px; align-items: center; font: 500 .85rem/1.3 var(--font-head); }
+.tog input { accent-color: var(--head); width: 16px; height: 16px; margin: 0; }
+.list { display: flex; flex-direction: column; }
+.item { border-top: 1px solid var(--rule); padding-block: 16px; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 4px 14px;
+  align-items: start; font-family: var(--font-head); }
+.item:first-child { border-top: 3px solid var(--head); }
+.rank { font: 800 1.9rem/1 var(--font-head); min-width: 2.2ch; color: var(--ink-3); font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
+.item.top .rank { color: var(--hot); }
+.names { font: 700 1rem/1.3 var(--font-head); color: var(--head); }
+.facts { font-size: .8rem; color: var(--ink-2); font-variant-numeric: tabular-nums; margin-top: 2px; }
+.score { text-align: right; }
+.score b { display: block; font: 800 1.9rem/1 var(--font-head); letter-spacing: -.02em; font-variant-numeric: tabular-nums; color: var(--head); }
+.score span { font: 700 .62rem/1.4 var(--font-head); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-2); }
+.slots { grid-column: 1 / -1; display: grid; gap: 6px; margin-top: 10px; }
+.slot { display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: 8px; align-items: center; }
+.lg { font: 500 .7rem/1 var(--font-mono); color: var(--ink-3); }
+.slotbody { min-width: 0; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 3px 10px; align-items: baseline; }
+.slotbody .strip { grid-column: 1 / -1; height: 11px; }
+.tname { font-weight: 600; font-size: .86rem; overflow-wrap: anywhere; }
+.tname small { font-weight: 400; color: var(--ink-2); font-size: .76rem; }
+.lcount { font: 400 .85rem/1.45 var(--font-head); color: var(--ink-2); }
+.lcount:empty { display: none; }
+.bridge { font: 400 .9rem/1.45 var(--font-head); color: var(--ink-2); border-left: 3px solid var(--rule); padding-left: 12px; }
+.bridge b { color: var(--ink); }
+.tname.none { font-weight: 400; font-style: italic; color: var(--ink-3); }
+.tline { font: 400 .7rem/1.2 var(--font-mono); color: var(--ink-3); text-align: right; white-space: nowrap; }
+.load { font: 600 .76rem/1.2 var(--font-head); border: 0; background: none; color: var(--link); padding: 0; cursor: pointer;
+  text-decoration: underline; text-underline-offset: 3px; }
+.more { align-self: center; margin-top: 8px; }
+.empty { color: var(--ink-2); text-align: center; padding: 24px; font-family: var(--font-head); }
+@media (max-width: 520px) {
+  body { font-size: 17.5px; } h2 { font-size: 1.4rem; }
+  .item { grid-template-columns: auto minmax(0, 1fr); }
+  .score { grid-column: 1 / -1; text-align: left; display: flex; gap: 8px; align-items: baseline; }
+  .score b { display: inline; font-size: 1.5rem; }
+  .rank { font-size: 1.6rem; }
+}
+
+/* ---- spectrum + logos ---- */
+.big.joy, .cscore.joy, .score.joy b { color: var(--joy); }
+.big.misery { color: var(--misery); }
+.big.even { color: var(--head); }
+.cscore.misery, .score.misery b { color: var(--misery); }
+.gauge { font-family: var(--font-head); }
+.gbar { position: relative; height: 12px; border-radius: 999px;
+  background: linear-gradient(90deg, var(--misery) 0%, var(--misery-soft) 30%, var(--gmid) 50%, var(--joy-soft) 70%, var(--joy) 100%); }
+.gmark { position: absolute; top: -5px; width: 6px; height: 22px; margin-left: -3px; border-radius: 2px; background: var(--head); box-shadow: 0 0 0 2px var(--surface); }
+.gticks { display: flex; justify-content: space-between; margin-top: 6px; font: 500 .7rem/1.2 var(--font-mono); letter-spacing: .04em; text-transform: uppercase; }
+.gticks span:first-child { color: var(--misery); } .gticks span:last-child { color: var(--joy); } .gticks span:nth-child(2) { color: var(--ink-3); }
+.changes { display: grid; gap: 6px; margin-top: 6px; }
+.changes:empty { display: none; }
+.chg { display: grid; grid-template-columns: 32px auto minmax(0, 1fr) auto; gap: 6px; align-items: center; }
+.chg .lbl { grid-column: 1; text-align: right; font-size: .62rem; }
+.chg select { min-width: 0; }
+.rmchg { font: 600 1rem/1 var(--font-head); border: 1px solid var(--field); background: var(--surface); color: var(--ink-2); border-radius: 3px;
+  width: 30px; height: 30px; cursor: pointer; }
+.rmchg:hover { color: var(--misery); border-color: var(--misery); }
+.addchg { justify-self: start; margin-top: 4px; font: 600 .76rem/1.2 var(--font-head); border: 0; background: none; color: var(--link);
+  padding: 2px 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.picker[hidden] { display: none !important; }
+.pickrow { display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 8px; align-items: center; }
+.plogo { width: 32px; height: 32px; object-fit: contain; }
+.ch:has(.clogo) { grid-template-columns: 40px minmax(0, 1fr) auto; }
+.clogo { width: 40px; height: 40px; object-fit: contain; margin-top: 2px; }
+.lg { display: flex; align-items: center; gap: 4px; }
+.slogo { width: 22px; height: 22px; object-fit: contain; flex: none; }
+.slot { grid-template-columns: 62px minmax(0, 1fr); }
+.ends { display: flex; flex-wrap: wrap; align-items: center; align-content: flex-start; gap: 4px 10px; }
+.ends .lab { font-weight: 700; width: 100%; }
+@media (max-width: 560px) { .histcap { grid-template-columns: 1fr; } }
+.lab.joy { color: var(--joy); } .lab.misery { color: var(--misery); }
+.tm { display: inline-flex; align-items: center; gap: 4px; color: var(--ink); font-weight: 600; }
+.tm img { width: 20px; height: 20px; object-fit: contain; }
+.pill.joy { background: var(--pill-joy-bg); color: var(--pill-joy); }
+.pill.misery { background: var(--pill-mis-bg); color: var(--pill-mis); }
+.item.top.joy .rank { color: var(--joy); }
+.item.top.misery .rank { color: var(--misery); }
+
+/* ---- floating legend (shown while the original has scrolled away and a list or result is on screen) ---- */
+.flegend { position: fixed; z-index: 25; left: 50%; bottom: 14px; transform: translate(-50%, 12px); opacity: 0; pointer-events: none;
+  width: max-content; max-width: calc(100% - 24px); background: var(--surface); border: 1px solid var(--rule); border-radius: 999px;
+  box-shadow: 0 6px 20px rgba(0,0,0,.14); padding: 8px 16px; gap: 4px 14px; justify-content: center; font-size: .75rem;
+  transition: opacity .18s, transform .18s; }
+.flegend.on { opacity: 1; transform: translate(-50%, 0); }
+.flegend .lbl { display: none; }
+@media (max-width: 520px) { .flegend { border-radius: 12px; padding: 7px 12px; gap: 3px 10px; font-size: .7rem; } }
+@media (prefers-reduced-motion: reduce) { .flegend { transition: none; transform: translate(-50%, 0); } }
+
+/* ---- sharing ---- */
+.ico { width: 1.1em; height: 1.1em; vertical-align: -.18em; margin-right: .4em; flex: none; }
+.load.share .ico { margin-right: .25em; }
+.sharebox { display: grid; grid-template-columns: minmax(0, 260px) minmax(0, 1fr); gap: 16px 20px; align-items: center;
+  border: 1px solid var(--rule); border-radius: 8px; padding: 14px; background: var(--panel); }
+.sharethumb { padding: 0; border: 1px solid var(--rule); border-radius: 4px; background: #fff; cursor: pointer; display: block; width: 100%;
+  aspect-ratio: 1200 / 630; overflow: hidden; box-shadow: 0 4px 14px rgba(0,0,0,.10); transition: transform .15s, box-shadow .15s; }
+.sharethumb:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,.16); }
+.sharethumb img { width: 100%; height: 100%; display: block; object-fit: cover; }
+.sharethumb img:not([src]) { visibility: hidden; }
+.sharetitle { font: 800 1.15rem/1.2 var(--font-head); color: var(--head); }
+.sharecopy p { font: 400 .88rem/1.4 var(--font-head); color: var(--ink-2); margin: 4px 0 12px; }
+.sharebtns { display: flex; flex-wrap: wrap; gap: 8px; }
+.sharebtns .btn { display: inline-flex; align-items: center; }
+.btn.quick { background: var(--surface); }
+@media (max-width: 560px) { .sharebox { grid-template-columns: 1fr; } }
+.sharethumb { position: relative; }
+.zoomhint { position: absolute; right: 6px; bottom: 6px; display: inline-flex; align-items: center; font: 700 .7rem/1 var(--font-head);
+  color: #fff; background: rgba(13,17,23,.78); border-radius: 999px; padding: 5px 9px; opacity: 0; transition: opacity .15s; }
+.sharethumb:hover .zoomhint, .sharethumb:focus-visible .zoomhint { opacity: 1; }
+@media (hover: none) { .zoomhint { opacity: 1; } }
+.cardview { border: 0; padding: 0; background: transparent; width: min(1200px, 94vw); max-width: none; max-height: 94vh; overflow: visible; }
+.cardview::backdrop { background: rgba(8,10,14,.78); }
+.cardview img { display: block; width: 100%; height: auto; max-height: calc(94vh - 64px); object-fit: contain; border-radius: 6px;
+  background: #fff; box-shadow: 0 20px 60px rgba(0,0,0,.5); }
+.cvimg { border-radius: 6px; overflow: auto; -webkit-overflow-scrolling: touch; }
+.cvhint { display: none; margin: 8px 0 0; font: 500 .75rem/1.2 var(--font-head); color: #d6d9de; text-align: center; }
+@media (max-width: 760px) {
+  .cvhint { display: block; }
+  .cvimg img { cursor: zoom-in; }
+  .cvimg.zoomed img { width: 1000px; max-width: none; max-height: none; cursor: zoom-out; }
+}
+.cvbar { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
+.cvbar .btn { background: var(--surface); }
+.cvbar .btn.share { background: var(--misery); border-color: var(--misery); color: #fff; }
+.fab { position: fixed; z-index: 26; right: 16px; bottom: 16px; display: inline-flex; align-items: center; gap: 2px;
+  font: 700 .9rem/1 var(--font-head); color: #fff; background: var(--misery); border: 0; border-radius: 999px; padding: 12px 18px;
+  box-shadow: 0 8px 22px rgba(0,0,0,.24); cursor: pointer; opacity: 0; transform: translateY(12px); pointer-events: none;
+  transition: opacity .18s, transform .18s, background .15s; }
+.fab.on { opacity: 1; transform: none; pointer-events: auto; }
+.fab:hover { background: #8f2513; }
+.fab:focus-visible { outline: 2px solid var(--head); outline-offset: 3px; }
+.fab .ico { width: 1.2em; height: 1.2em; margin-right: .35em; }
+@media (max-width: 760px) { body.legend-on .fab { bottom: 84px; } }
+@media (min-width: 761px) { .flegend { max-width: calc(100% - 300px); } }
+@media (prefers-reduced-motion: reduce) { .fab, .sharethumb { transition: none; } }
+.smenu [role=menuitem] { display: flex; align-items: center; }
+
+.btn.share { background: var(--head); color: var(--bg); border-color: var(--head); padding: 8px 16px; font-size: .85rem; }
+.btn.share:hover { background: var(--misery); border-color: var(--misery); color: #fff; }
+.smenu { position: fixed; z-index: 40; min-width: 190px; display: flex; flex-direction: column; padding: 6px; background: var(--surface);
+  border: 1px solid var(--rule); border-radius: 6px; box-shadow: 0 8px 24px rgba(0,0,0,.18); font: 500 .85rem/1.2 var(--font-head); }
+.smenu [role=menuitem] { font: inherit; color: var(--ink); background: none; border: 0; text-align: left; text-decoration: none; padding: 9px 10px; border-radius: 4px; cursor: pointer; }
+.smenu [role=menuitem]:hover, .smenu [role=menuitem]:focus-visible { background: var(--panel); outline: none; }
+.toast { position: fixed; z-index: 50; left: 50%; bottom: 72px; transform: translateX(-50%); background: #111; color: #fff; padding: 10px 16px;
+  border-radius: 999px; font: 600 .85rem/1 var(--font-head); box-shadow: 0 6px 18px rgba(0,0,0,.25); }
+.item.flash { animation: flash 2.4s ease-out 1; }
+@keyframes flash { 0%, 30% { background: color-mix(in srgb, var(--link) 14%, transparent); } 100% { background: transparent; } }
+@media (prefers-reduced-motion: reduce) { .item.flash { animation: none; outline: 2px solid var(--link); } }
+
+/* ---- methodology ---- */
+section.notes { display: flex; flex-direction: column; gap: 14px; padding-top: 20px; }
+/* ---- collapsible methodology + explanatory figures ---- */
+details.method { border-top: 3px solid var(--head); border-bottom: 1px solid var(--rule); }
+details.method > summary { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 0; }
+details.method > summary::-webkit-details-marker { display: none; }
+details.method > summary:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
+.msum { display: flex; flex-direction: column; gap: 4px; }
+.mtag { font: 500 .85rem/1.3 var(--font-head); color: var(--ink-2); }
+.mchev { flex: none; width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--rule); position: relative; }
+.mchev::before { content: ""; position: absolute; left: 50%; top: 44%; width: 9px; height: 9px; border-right: 2px solid var(--head); border-bottom: 2px solid var(--head);
+  transform: translate(-50%, -50%) rotate(45deg); transition: transform .18s; }
+details.method[open] .mchev::before { transform: translate(-50%, -20%) rotate(-135deg); }
+details.method > summary:hover .mchev { border-color: var(--head); }
+.mbody { display: flex; flex-direction: column; gap: 14px; padding-bottom: 24px; }
+.mbody h3 { font: 700 1.15rem/1.25 var(--font-head); color: var(--head); margin: 14px 0 0; display: flex; align-items: center; gap: 10px; }
+.mnum { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--head); color: var(--bg); font: 800 .8rem/1 var(--font-head); flex: none; }
+.mfig { margin: 6px 0 4px; font-family: var(--font-head); }
+.pts { display: grid; grid-template-columns: 118px minmax(0, 1fr) 76px; gap: 10px 12px; align-items: center; }
+.pts .lab { font: 600 .85rem/1.2 var(--font-head); color: var(--ink); }
+.pts .mis { font: 500 .78rem/1.2 var(--font-mono); color: var(--ink-2); text-align: right; font-variant-numeric: tabular-nums; }
+@media (max-width: 520px) { .pts { grid-template-columns: 84px minmax(0, 1fr) 58px; gap: 10px 8px; } .pts .lab { font-size: .74rem; } .pts .mis { font-size: .66rem; } }
+.pts .track { position: relative; height: 20px; }
+.pts .seg { position: absolute; top: 0; height: 100%; border-radius: 0; cursor: default; }
+.pts .seg.base { border-radius: 4px 0 0 4px; }
+.pts .seg.rec { border-radius: 0 4px 4px 0; opacity: .55; }
+.pts .seg.rec.alone { border-radius: 4px; opacity: 1; }
+.pts .hd { font: 600 .66rem/1.2 var(--font-head); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-2); }
+.pts .seg.on { outline: 2px solid var(--head); outline-offset: 1px; z-index: 1; }
+.pts .axis { grid-column: 2; position: relative; height: 18px; font: 400 .7rem/1 var(--font-mono); color: var(--ink-3); }
+.pts .axis span { position: absolute; transform: translateX(-50%); top: 4px; }
+.pts .grid { position: absolute; top: -5px; bottom: -5px; width: 1px; background: var(--rule); }
+.nx { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px 20px; align-items: end; }
+.nx .strip { height: 22px; }
+.nx .yrs { margin-top: 4px; }
+.nx .cmp { display: flex; gap: 18px; }
+.nx .cmp div { display: flex; flex-direction: column; align-items: flex-end; }
+.nx .cmp b { font: 800 1.8rem/1 var(--font-head); color: var(--head); font-variant-numeric: tabular-nums; }
+.nx .cmp b.dim { color: var(--ink-3); text-decoration: line-through; text-decoration-thickness: 2px; }
+.nx .cmp span { font: 600 .68rem/1.3 var(--font-head); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-2); text-align: right; max-width: 120px; }
+@media (max-width: 560px) { .nx { grid-template-columns: 1fr; } .nx .cmp div { align-items: flex-start; } .nx .cmp span { text-align: left; } }
+.tiers { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 2px; }
+.tiers .t { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.tiers .bar { height: 14px; }
+.tiers .t:first-child .bar { border-radius: 4px 0 0 4px; } .tiers .t:last-child .bar { border-radius: 0 4px 4px 0; }
+.tiers b { font: 700 .82rem/1.15 var(--font-head); color: var(--ink); }
+.tiers span { font: 400 .7rem/1.2 var(--font-mono); color: var(--ink-2); }
+@media (max-width: 560px) { .tiers { grid-template-columns: repeat(7, minmax(0, 1fr)); } .tiers b { font-size: .66rem; overflow-wrap: anywhere; } .tiers span { font-size: .6rem; } }
+.lines { display: grid; gap: 16px; }
+.line .lt { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; align-items: baseline; margin-bottom: 6px; }
+.line .lt b { font: 700 .92rem/1.2 var(--font-head); color: var(--ink); }
+.line .strip { height: 16px; }
+.line .segcap { position: relative; height: 16px; margin-top: 4px; font: 500 .68rem/1 var(--font-head); color: var(--ink-2); }
+.line .segcap span { position: absolute; top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-left: 1px solid var(--rule); padding-left: 4px; }
+.mtable { border-collapse: collapse; width: 100%; font: 400 .82rem/1.35 var(--font-head); font-variant-numeric: tabular-nums; margin-top: 6px; }
+.mtable th, .mtable td { text-align: right; padding: 6px 8px; border-bottom: 1px solid var(--rule); }
+.mtable th:first-child, .mtable td:first-child { text-align: left; }
+.mtable th { font: 700 .7rem/1.2 var(--font-head); text-transform: uppercase; letter-spacing: .05em; color: var(--ink-2); border-bottom: 2px solid var(--head); }
+details.tbl summary { cursor: pointer; color: var(--ink-2); font: 500 .7rem/1 var(--font-mono); letter-spacing: .06em; text-transform: uppercase; padding-block: 8px; }
+@media (prefers-reduced-motion: reduce) { .mchev::before { transition: none; } }
+.notes p { font-size: 1rem; line-height: 1.6; }
+footer { padding-top: 14px; border-top: 3px solid var(--head); font: 400 .78rem/1.5 var(--font-head); color: var(--ink-3); }
+.loading { font: 500 .9rem/1.4 var(--font-head); color: var(--ink-2); }
+
+/* Temporary dark mode, toggled by the button in the corner (data-theme on <html>). */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #14171c; --ink: #e4e6e9; --ink-2: #b4b9bf; --ink-3: #959ba2; --rule: #343b44; --panel: #1d2229;
+  --hot: #f07a5f; --hot-soft: #6b3328; --misery: #f07a5f; --misery-soft: #7d3b2e; --joy: #5bb8ea; --joy-soft: #2a5878;
+  --bar: #59606a; --link: #6cc4f0;
+  --st0: #434e5b; --st1: #376b92; --st2: #4396cf; --st3: #a3d6f4; --st4: #f2b51f;
+  --head: #f3f4f6; --surface: #1b1f25; --field: #4b535d; --dash: #6b737c; --gmid: #3a4048; --axis: #8a9099;
+  --pill-mis-bg: #4a231c; --pill-mis: #ffb6a5; --pill-joy-bg: #163a50; --pill-joy: #acdcf6;
+}
+:root[data-theme="dark"] :is(.logo, .plogo, .clogo, .slogo) { background: #eef0f2; border-radius: 50%; padding: 3px; }
+.theme-toggle { position: fixed; top: 10px; right: 10px; z-index: 20; font: 600 .75rem/1 var(--font-head); color: #e4e6e9;
+  background: rgba(13,17,23,.85); border: 1px solid rgba(255,255,255,.25); border-radius: 999px; padding: 7px 12px; cursor: pointer; }
+.theme-toggle:focus-visible { outline: 2px solid #00d9ff; outline-offset: 2px; }
+</style>
+</head>
+<body>
+<button class="theme-toggle" id="theme" type="button" aria-pressed="false">Dark mode</button>
+<div class="masthead"><div class="masthead-inner">
+  <a class="mast-link" href="/" aria-label="Kevin Klein Data home"><svg id="logo" viewBox="0 0 460 92" role="img" aria-label="Kevin Klein, drawn as a scatterplot"></svg></a>
+</div></div>
+<div class="wrap">
+
+<header class="stack">
+  <div class="kicker">MLB · NBA · NHL · NFL</div>
+  <h1>How joyful or miserable is your sports fandom experience?</h1>
+  <div class="byline"><span>By <b>Kevin Klein</b></span><span>Oct. 4, 2026</span><span>Data: 1976–2025 seasons, all four leagues</span></div>
+  <p class="lede">Welcome to the analytics tool that will tell you just how joyful or miserable your sports fandom has been in your lifetime. Simply select your date range, filter for the sports you follow, and select your city or your individual teams. In case you were wondering, this project is the result of an analytics pro indulging his sadistic curiosity about how his 39 years of Baltimore Orioles, Washington Wizards, Washington Redskins/Commanders, and Washington Capitals fandom could be much worse. Spoiler alert: it really couldn’t be much worse.</p>
+</header>
+
+<section class="controls ui" aria-label="Time frame and scoring">
+  <div class="ctl"><span class="lbl" id="sports-lbl">Sports</span><div class="chips" id="sports" role="group" aria-labelledby="sports-lbl"></div></div>
+  <div class="ctl">
+    <span class="lbl">Time frame</span>
+    <label for="from" class="lbl">From</label><select id="from"></select>
+    <label for="to" class="lbl">To</label><select id="to"></select>
+  </div>
+  <div class="ctl"><span class="lbl" aria-hidden="true"></span><div class="chips" id="spans" role="group" aria-label="Quick time frames"></div></div>
+  <div class="legend" id="legend"><span class="lbl">Season squares</span>
+    <span><i class="sw" style="background:var(--st0)"></i>Missed playoffs</span>
+    <span><i class="sw" style="background:var(--st1)"></i>Playoffs</span>
+    <span><i class="sw" style="background:var(--st2)"></i>Final four</span>
+    <span><i class="sw" style="background:var(--st3)"></i>Lost final</span>
+    <span><i class="sw" style="background:var(--st4)"></i>Title</span>
+    <span><i class="sw" style="border:1px dashed var(--dash)"></i>No team (counts as average)</span>
+  </div>
+</section>
+
+<div class="ui">
+  <div class="tabs" role="tablist" aria-label="View">
+    <button class="tab" role="tab" id="tab-rank" aria-controls="rankings" aria-selected="true">Local fandoms</button>
+    <button class="tab" role="tab" id="tab-build" aria-controls="build" aria-selected="false" tabindex="-1">Build your own</button>
+  </div>
+</div>
+
+<section id="rankings" role="tabpanel" aria-labelledby="tab-rank" class="panel-gap">
+  <p class="explain">We know that geography is the number one reason why people end up rooting for a sports team, so these are fan bases built from every team city across the NFL, NBA, MLB, and NHL. Each metro area has possible team combinations built from the teams that play within 60 miles. For instance, people in or around Maryland could feasibly root for Baltimore teams, for D.C. teams, or a combination of both. All such combinations can be found in the rankings. If your teams aren’t all from the same region, click the <a href="#build" class="tablink" data-tab="build">“Build your own”</a> tab above.</p>
+  <div class="ctl ui"><label class="lbl" for="lcity">Start from a city</label><select id="lcity"></select></div>
+  <p class="lcount" id="lcount" role="status"></p>
+  <div class="filters ui">
+    <input id="q" type="search" placeholder="Or search by team or city (e.g. Orioles, Seattle)" aria-label="Filter by team or city">
+    <label class="tog"><input type="checkbox" id="localonly"> Only fan bases with a local team in all four leagues today</label>
+    <label class="tog"><input type="checkbox" id="best"> Most joyful first</label>
+  </div>
+  <div class="list" id="list"><p class="loading">Loading 5,613 team-seasons…</p></div>
+  <button class="btn more ui" id="more" hidden>Show all</button>
+</section>
+
+<section id="build" role="tabpanel" aria-labelledby="tab-build" class="panel-gap ui" hidden>
+  <p class="explain">So you’re one of those people who doesn’t root for the hometown team for some reason, huh? Go ahead and select your rooting interests below, and see how it compares with every possible combination of rooting interests from the same leagues over the same span, from 100 misery (the cruelest fandom combination possible) to 100 joy (sports are fun, actually).</p>
+  <div class="ctl"><label class="lbl" for="metro">Start from a city</label><select id="metro"></select></div>
+  <div class="pickers" id="pickers"></div>
+  <div class="result" id="result" aria-live="polite"></div>
+  <div class="cards" id="cards"></div>
+</section>
+
+<section class="notes" id="methodology">
+<details class="method" id="method">
+  <summary><span class="msum"><h2>How it's scored</h2><span class="mtag">9 points a season, then ranked from 100 misery to 100 joy</span></span><span class="mchev" aria-hidden="true"></span></summary>
+  <div class="mbody">
+  <h3><span class="mnum">1</span>What a season is worth</h3>
+  <p>Each season is worth up to 9 points. A team earns up to 1 point for its regular-season record, scaled by where it finished in its league: 0 for the worst record, 1 for the best. Using league finish, not wins, lets a 17-game NFL season stand beside a 162-game baseball season. It then earns 1 point for making the playoffs, 1 for reaching the final four (the LCS, conference finals or conference championship game), 1 for reaching the final and 5 for winning the title. A season's misery is how far it fell short of 9.</p>
+  <figure class="mfig" id="fig-points" aria-labelledby="fig-points-t">
+    <div class="fig-head"><div class="fig-title" id="fig-points-t">Points a season earns, by how it ended</div><div class="fig-sub">Solid: points for getting that far. Light: the 0–1 point for regular-season finish. Right: the season's misery (0 = perfect, 100 = worst).</div></div>
+    <div class="pts" id="pts" role="img" aria-label="Points by season outcome: missed playoffs 0 to 1 of 9, made playoffs 1 to 2, final four 2 to 3, lost final 3 to 4, won the title 8 to 9."></div>
+    <details class="tbl"><summary>Show table</summary><div id="pts-tbl"></div></details>
+  </figure>
+  <h3><span class="mnum">2</span>From seasons to a score</h3>
+  <p>A team's score is the average of its seasons in the time frame. A fan base's score is the average of its teams. A season with no team to follow counts as that league's average season that year. This covers the years before a franchise existed, after it left, or when a city had no local team. It keeps a short stint from outweighing decades with another team.</p>
+  <figure class="mfig" id="fig-neutral" aria-labelledby="fig-neutral-t">
+    <div class="fig-head"><div class="fig-title" id="fig-neutral-t">Why seasons with no team count as average</div><div class="fig-sub" id="fig-neutral-sub"></div></div>
+    <div id="neutral"></div>
+  </figure>
+  <h3><span class="mnum">3</span>The misery–joy number</h3>
+  <p>The number you see is a rank, not a raw score. It runs from 100 misery to 100 joy, with 0 in the middle. Local fandoms are ranked against one another: the most miserable metro-based fan base is 100 misery and the most joyful is 100 joy. Each is placed by where it falls among every possible combination of the same sports, so a fan base missing a sport is still judged fairly. Build your own ranks your teams against every possible combination of qualified teams, from the cruelest (100 misery) to the luckiest (100 joy). It also shows where you would land among the metro-based fan bases. Each team card ranks one team within its league.</p>
+  <figure class="mfig" id="fig-scale" aria-labelledby="fig-scale-t">
+    <div class="fig-head"><div class="fig-title" id="fig-scale-t">What the number means</div><div class="fig-sub">The scale is a rank: 100 misery is the cruelest option, 100 joy the luckiest, 0 the middle.</div></div>
+    <div id="scale"></div>
+    <details class="tbl"><summary>Show table</summary><div id="scale-tbl"></div></details>
+  </figure>
+  <p>Turn a sport off and only the sports you keep are compared. A baseball-and-hockey fan is ranked against every MLB and NHL pair; a one-sport fan, against that league's teams. Every combination has one team per league, so a league that added or cut playoff spots moves every combination equally.</p>
+  <h3><span class="mnum">4</span>Team changes</h3>
+  <p>If you switched teams, add a team change to that sport. Pick the team and the year you started following it, or choose "No team" for seasons you sat out. Each team counts only for its own years, and seasons with no team count as average. A team you pick brings its whole franchise history: the Grizzlies count both their Vancouver and Memphis years. The Vancouver fan base counts only the six seasons the team played there.</p>
+  <p>Teams that played fewer than half the seasons in the time frame, mostly expansion teams, still get a score. They get no league rank, and they are left out of the comparison with every possible combination.</p>
+  <h3><span class="mnum">5</span>Who a local fan base follows</h3>
+  <p>A local fan base takes on a new team only if it is a true successor: in the same city, and never playing alongside the team it replaces. Houston's NFL line is the Oilers through 1996, average seasons from 1997 to 2001, then the Texans. Baltimore's is the Colts through 1983, then average seasons until the Ravens arrive in 1996. It never includes Washington's team, which was already there as a rival. Quebec's NHL line turns average when the Nordiques leave. A fan base with no team at all in one of your sports during the time frame is left out. Seattle, for example, drops out of 1991–2000 when the NHL is on. A city that never had a team in a sport follows the one team that was closest to it on average over the span, measured from wherever that team played each season. Salt Lake City follows the Broncos, not the Raiders, who only reached nearby Las Vegas in 2020.</p>
+  <figure class="mfig" id="fig-lines" aria-labelledby="fig-lines-t">
+    <div class="fig-head"><div class="fig-title" id="fig-lines-t">Successors carry on; rivals never do</div><div class="fig-sub">Real NFL lines from the local rankings, 1976–2025. Hover a season to see it.</div></div>
+    <div id="lines"></div>
+  </figure>
+  <h3><span class="mnum">6</span>Fine print</h3>
+  <p>The 2004-05 NHL lockout season is skipped. MLB's 1994 season, cut short by a strike, counts as a missed postseason for every team. NBA teams that lose in the play-in count as missing the playoffs.</p>
+  <p>The data covers 50 seasons, 1976 to 2025. It begins with the ABA–NBA merger, the NFL's growth to 28 teams and the NHL's modern four-round playoffs. A year means the season's starting year, so 2025 is the 2025-26 NBA and NHL season. Teams follow the franchise, not the city: the Nationals include the Expos, the Thunder include Seattle and the Colts include Baltimore. Logos are each franchise's current logo. "Local" means within 60 miles of a team's stadium or arena; it is not a survey of real fans.</p>
+  </div>
+</details>
+</section>
+
+<footer>Data: <a href="https://www.retrosheet.org/">Retrosheet</a> (MLB), <a href="https://github.com/fivethirtyeight/nfl-elo-game">FiveThirtyEight</a> and <a href="https://github.com/nflverse">nflverse</a> (NFL), <a href="https://www.basketball-reference.com/">Basketball-Reference</a> (NBA), <a href="https://records.nhl.com/">NHL Records</a> (NHL). The information used here was obtained free of charge from and is copyrighted by Retrosheet. Team names and logos are trademarks of their teams and leagues, used here for identification. Analysis by Kevin Klein.</footer>
+</div>
+
+<div class="toast" id="toast" role="status" hidden></div>
+<dialog class="cardview" id="cardview" aria-label="Your share card">
+  <div class="cvimg" id="cvimg"><img id="cardbig" alt="" width="1200" height="630"></div>
+  <p class="cvhint">Tap the card to zoom in · tap again to fit</p>
+  <div class="cvbar">
+    <div class="sharebtns">
+      <button type="button" class="btn share primary" aria-haspopup="menu" aria-expanded="false"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V3m0 0L7.5 7.5M12 3l4.5 4.5M5 11v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Share</button>
+      <button type="button" class="btn quick" data-quick="image">Save image</button>
+      <button type="button" class="btn quick" data-quick="copy">Copy link</button>
+    </div>
+    <button type="button" class="btn" id="cvclose">Close</button>
+  </div>
+</dialog>
+<script type="module" src="/misery-battery/app.js"></script>
+</body>
+</html>

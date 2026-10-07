@@ -1,0 +1,50 @@
+franchise,season,team_name,GP,W,L,T,OL,playoff_result,stage
+PHI,1976-77,Philadelphia Flyers,80,48,16,16,,Lost Semifinals,2
+PHI,1977-78,Philadelphia Flyers,80,45,20,15,,Lost Semifinals,2
+PHI,1978-79,Philadelphia Flyers,80,40,25,15,,Lost Quarterfinals,1
+PHI,1979-80,Philadelphia Flyers,80,48,12,20,,Lost Stanley Cup Final,3
+PHI,1980-81,Philadelphia Flyers,80,41,24,15,,Lost Quarterfinals,1
+PHI,1981-82,Philadelphia Flyers,80,38,31,11,,Lost Division Semifinals,1
+PHI,1982-83,Philadelphia Flyers,80,49,23,8,,Lost Division Semifinals,1
+PHI,1983-84,Philadelphia Flyers,80,44,26,10,,Lost Division Semifinals,1
+PHI,1984-85,Philadelphia Flyers,80,53,20,7,,Lost Stanley Cup Final,3
+PHI,1985-86,Philadelphia Flyers,80,53,23,4,,Lost Division Semifinals,1
+PHI,1986-87,Philadelphia Flyers,80,46,26,8,,Lost Stanley Cup Final,3
+PHI,1987-88,Philadelphia Flyers,80,38,33,9,,Lost Division Semifinals,1
+PHI,1988-89,Philadelphia Flyers,80,36,36,8,,Lost Conference Finals,2
+PHI,1989-90,Philadelphia Flyers,80,30,39,11,,,0
+PHI,1990-91,Philadelphia Flyers,80,33,37,10,,,0
+PHI,1991-92,Philadelphia Flyers,80,32,37,11,,,0
+PHI,1992-93,Philadelphia Flyers,84,36,37,11,,,0
+PHI,1993-94,Philadelphia Flyers,84,35,39,10,,,0
+PHI,1994-95,Philadelphia Flyers,48,28,16,4,,Lost Conference Finals,2
+PHI,1995-96,Philadelphia Flyers,82,45,24,13,,Lost Conference Semifinals,1
+PHI,1996-97,Philadelphia Flyers,82,45,24,13,,Lost Stanley Cup Final,3
+PHI,1997-98,Philadelphia Flyers,82,42,29,11,,Lost Conference Quarterfinals,1
+PHI,1998-99,Philadelphia Flyers,82,37,26,19,,Lost Conference Quarterfinals,1
+PHI,1999-00,Philadelphia Flyers,82,45,22,12,3,Lost Conference Finals,2
+PHI,2000-01,Philadelphia Flyers,82,43,25,11,3,Lost Conference Quarterfinals,1
+PHI,2001-02,Philadelphia Flyers,82,42,27,10,3,Lost Conference Quarterfinals,1
+PHI,2002-03,Philadelphia Flyers,82,45,20,13,4,Lost Conference Semifinals,1
+PHI,2003-04,Philadelphia Flyers,82,40,21,15,6,Lost Conference Finals,2
+PHI,2005-06,Philadelphia Flyers,82,45,26,,11,Lost Conference Quarterfinals,1
+PHI,2006-07,Philadelphia Flyers,82,22,48,,12,,0
+PHI,2007-08,Philadelphia Flyers,82,42,29,,11,Lost Conference Finals,2
+PHI,2008-09,Philadelphia Flyers,82,44,27,,11,Lost Conference Quarterfinals,1
+PHI,2009-10,Philadelphia Flyers,82,41,35,,6,Lost Stanley Cup Final,3
+PHI,2010-11,Philadelphia Flyers,82,47,23,,12,Lost Conference Semifinals,1
+PHI,2011-12,Philadelphia Flyers,82,47,26,,9,Lost Conference Semifinals,1
+PHI,2012-13,Philadelphia Flyers,48,23,22,,3,,0
+PHI,2013-14,Philadelphia Flyers,82,42,30,,10,Lost 1st Round,1
+PHI,2014-15,Philadelphia Flyers,82,33,31,,18,,0
+PHI,2015-16,Philadelphia Flyers,82,41,27,,14,Lost 1st Round,1
+PHI,2016-17,Philadelphia Flyers,82,39,33,,10,,0
+PHI,2017-18,Philadelphia Flyers,82,42,26,,14,Lost 1st Round,1
+PHI,2018-19,Philadelphia Flyers,82,37,37,,8,,0
+PHI,2019-20,Philadelphia Flyers,69,41,21,,7,Lost 2nd Round,1
+PHI,2020-21,Philadelphia Flyers,56,25,23,,8,,0
+PHI,2021-22,Philadelphia Flyers,82,25,46,,11,,0
+PHI,2022-23,Philadelphia Flyers,82,31,38,,13,,0
+PHI,2023-24,Philadelphia Flyers,82,38,33,,11,,0
+PHI,2024-25,Philadelphia Flyers,82,33,39,,10,,0
+PHI,2025-26,Philadelphia Flyers,82,43,27,,12,Lost 2nd Round,1

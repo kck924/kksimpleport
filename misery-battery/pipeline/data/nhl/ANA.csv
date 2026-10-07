@@ -1,0 +1,33 @@
+franchise,season,team_name,GP,W,L,T,OL,playoff_result,stage
+ANA,1993-94,Mighty Ducks of Anaheim,84,33,46,5,,,0
+ANA,1994-95,Mighty Ducks of Anaheim,48,16,27,5,,,0
+ANA,1995-96,Mighty Ducks of Anaheim,82,35,39,8,,,0
+ANA,1996-97,Mighty Ducks of Anaheim,82,36,33,13,,Lost Conference Semifinals,1
+ANA,1997-98,Mighty Ducks of Anaheim,82,26,43,13,,,0
+ANA,1998-99,Mighty Ducks of Anaheim,82,35,34,13,,Lost Conference Quarterfinals,1
+ANA,1999-00,Mighty Ducks of Anaheim,82,34,33,12,3,,0
+ANA,2000-01,Mighty Ducks of Anaheim,82,25,41,11,5,,0
+ANA,2001-02,Mighty Ducks of Anaheim,82,29,42,8,3,,0
+ANA,2002-03,Mighty Ducks of Anaheim,82,40,27,9,6,Lost Stanley Cup Final,3
+ANA,2003-04,Mighty Ducks of Anaheim,82,29,35,10,8,,0
+ANA,2005-06,Mighty Ducks of Anaheim,82,43,27,,12,Lost Conference Finals,2
+ANA,2006-07,Anaheim Ducks,82,48,20,,14,Won Stanley Cup Final,4
+ANA,2007-08,Anaheim Ducks,82,47,27,,8,Lost Conference Quarterfinals,1
+ANA,2008-09,Anaheim Ducks,82,42,33,,7,Lost Conference Semifinals,1
+ANA,2009-10,Anaheim Ducks,82,39,32,,11,,0
+ANA,2010-11,Anaheim Ducks,82,47,30,,5,Lost Conference Quarterfinals,1
+ANA,2011-12,Anaheim Ducks,82,34,36,,12,,0
+ANA,2012-13,Anaheim Ducks,48,30,12,,6,Lost Conference Quarterfinals,1
+ANA,2013-14,Anaheim Ducks,82,54,20,,8,Lost 2nd Round,1
+ANA,2014-15,Anaheim Ducks,82,51,24,,7,Lost Conference Finals,2
+ANA,2015-16,Anaheim Ducks,82,46,25,,11,Lost 1st Round,1
+ANA,2016-17,Anaheim Ducks,82,46,23,,13,Lost Conference Finals,2
+ANA,2017-18,Anaheim Ducks,82,44,25,,13,Lost 1st Round,1
+ANA,2018-19,Anaheim Ducks,82,35,37,,10,,0
+ANA,2019-20,Anaheim Ducks,71,29,33,,9,,0
+ANA,2020-21,Anaheim Ducks,56,17,30,,9,,0
+ANA,2021-22,Anaheim Ducks,82,31,37,,14,,0
+ANA,2022-23,Anaheim Ducks,82,23,47,,12,,0
+ANA,2023-24,Anaheim Ducks,82,27,50,,5,,0
+ANA,2024-25,Anaheim Ducks,82,35,37,,10,,0
+ANA,2025-26,Anaheim Ducks,82,43,33,,6,Lost 2nd Round,1

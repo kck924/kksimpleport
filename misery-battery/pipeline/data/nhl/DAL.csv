@@ -1,0 +1,50 @@
+franchise,season,team_name,GP,W,L,T,OL,playoff_result,stage
+DAL,1976-77,Minnesota North Stars,80,23,39,18,,Lost Preliminary Round,1
+DAL,1977-78,Minnesota North Stars,80,18,53,9,,,0
+DAL,1978-79,Minnesota North Stars,80,28,40,12,,,0
+DAL,1979-80,Minnesota North Stars,80,36,28,16,,Lost Semifinals,2
+DAL,1980-81,Minnesota North Stars,80,35,28,17,,Lost Stanley Cup Final,3
+DAL,1981-82,Minnesota North Stars,80,37,23,20,,Lost Division Semifinals,1
+DAL,1982-83,Minnesota North Stars,80,40,24,16,,Lost Division Finals,1
+DAL,1983-84,Minnesota North Stars,80,39,31,10,,Lost Conference Finals,2
+DAL,1984-85,Minnesota North Stars,80,25,43,12,,Lost Division Finals,1
+DAL,1985-86,Minnesota North Stars,80,38,33,9,,Lost Division Semifinals,1
+DAL,1986-87,Minnesota North Stars,80,30,40,10,,,0
+DAL,1987-88,Minnesota North Stars,80,19,48,13,,,0
+DAL,1988-89,Minnesota North Stars,80,27,37,16,,Lost Division Semifinals,1
+DAL,1989-90,Minnesota North Stars,80,36,40,4,,Lost Division Semifinals,1
+DAL,1990-91,Minnesota North Stars,80,27,39,14,,Lost Stanley Cup Final,3
+DAL,1991-92,Minnesota North Stars,80,32,42,6,,Lost Division Semifinals,1
+DAL,1992-93,Minnesota North Stars,84,36,38,10,,,0
+DAL,1993-94,Dallas Stars,84,42,29,13,,Lost Conference Semifinals,1
+DAL,1994-95,Dallas Stars,48,17,23,8,,Lost Conference Quarterfinals,1
+DAL,1995-96,Dallas Stars,82,26,42,14,,,0
+DAL,1996-97,Dallas Stars,82,48,26,8,,Lost Conference Quarterfinals,1
+DAL,1997-98,Dallas Stars,82,49,22,11,,Lost Conference Finals,2
+DAL,1998-99,Dallas Stars,82,51,19,12,,Won Stanley Cup Final,4
+DAL,1999-00,Dallas Stars,82,43,23,10,6,Lost Stanley Cup Final,3
+DAL,2000-01,Dallas Stars,82,48,24,8,2,Lost Conference Semifinals,1
+DAL,2001-02,Dallas Stars,82,36,28,13,5,,0
+DAL,2002-03,Dallas Stars,82,46,17,15,4,Lost Conference Semifinals,1
+DAL,2003-04,Dallas Stars,82,41,26,13,2,Lost Conference Quarterfinals,1
+DAL,2005-06,Dallas Stars,82,53,23,,6,Lost Conference Quarterfinals,1
+DAL,2006-07,Dallas Stars,82,50,25,,7,Lost Conference Quarterfinals,1
+DAL,2007-08,Dallas Stars,82,45,30,,7,Lost Conference Finals,2
+DAL,2008-09,Dallas Stars,82,36,35,,11,,0
+DAL,2009-10,Dallas Stars,82,37,31,,14,,0
+DAL,2010-11,Dallas Stars,82,42,29,,11,,0
+DAL,2011-12,Dallas Stars,82,42,35,,5,,0
+DAL,2012-13,Dallas Stars,48,22,22,,4,,0
+DAL,2013-14,Dallas Stars,82,40,31,,11,Lost 1st Round,1
+DAL,2014-15,Dallas Stars,82,41,31,,10,,0
+DAL,2015-16,Dallas Stars,82,50,23,,9,Lost 2nd Round,1
+DAL,2016-17,Dallas Stars,82,34,37,,11,,0
+DAL,2017-18,Dallas Stars,82,42,32,,8,,0
+DAL,2018-19,Dallas Stars,82,43,32,,7,Lost 2nd Round,1
+DAL,2019-20,Dallas Stars,69,37,24,,8,Lost Stanley Cup Final,3
+DAL,2020-21,Dallas Stars,56,23,19,,14,,0
+DAL,2021-22,Dallas Stars,82,46,30,,6,Lost 1st Round,1
+DAL,2022-23,Dallas Stars,82,47,21,,14,Lost Conference Finals,2
+DAL,2023-24,Dallas Stars,82,52,21,,9,Lost Conference Finals,2
+DAL,2024-25,Dallas Stars,82,50,26,,6,Lost Conference Finals,2
+DAL,2025-26,Dallas Stars,82,50,20,,12,Lost 1st Round,1

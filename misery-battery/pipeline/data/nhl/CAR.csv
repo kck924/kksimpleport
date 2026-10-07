@@ -1,0 +1,47 @@
+franchise,season,team_name,GP,W,L,T,OL,playoff_result,stage
+CAR,1979-80,Hartford Whalers,80,27,34,19,,Lost Preliminary Round,1
+CAR,1980-81,Hartford Whalers,80,21,41,18,,,0
+CAR,1981-82,Hartford Whalers,80,21,41,18,,,0
+CAR,1982-83,Hartford Whalers,80,19,54,7,,,0
+CAR,1983-84,Hartford Whalers,80,28,42,10,,,0
+CAR,1984-85,Hartford Whalers,80,30,41,9,,,0
+CAR,1985-86,Hartford Whalers,80,40,36,4,,Lost Division Finals,1
+CAR,1986-87,Hartford Whalers,80,43,30,7,,Lost Division Semifinals,1
+CAR,1987-88,Hartford Whalers,80,35,38,7,,Lost Division Semifinals,1
+CAR,1988-89,Hartford Whalers,80,37,38,5,,Lost Division Semifinals,1
+CAR,1989-90,Hartford Whalers,80,38,33,9,,Lost Division Semifinals,1
+CAR,1990-91,Hartford Whalers,80,31,38,11,,Lost Division Semifinals,1
+CAR,1991-92,Hartford Whalers,80,26,41,13,,Lost Division Semifinals,1
+CAR,1992-93,Hartford Whalers,84,26,52,6,,,0
+CAR,1993-94,Hartford Whalers,84,27,48,9,,,0
+CAR,1994-95,Hartford Whalers,48,19,24,5,,,0
+CAR,1995-96,Hartford Whalers,82,34,39,9,,,0
+CAR,1996-97,Hartford Whalers,82,32,39,11,,,0
+CAR,1997-98,Carolina Hurricanes,82,33,41,8,,,0
+CAR,1998-99,Carolina Hurricanes,82,34,30,18,,Lost Conference Quarterfinals,1
+CAR,1999-00,Carolina Hurricanes,82,37,35,10,,,0
+CAR,2000-01,Carolina Hurricanes,82,38,32,9,3,Lost Conference Quarterfinals,1
+CAR,2001-02,Carolina Hurricanes,82,35,26,16,5,Lost Stanley Cup Final,3
+CAR,2002-03,Carolina Hurricanes,82,22,43,11,6,,0
+CAR,2003-04,Carolina Hurricanes,82,28,34,14,6,,0
+CAR,2005-06,Carolina Hurricanes,82,52,22,,8,Won Stanley Cup Final,4
+CAR,2006-07,Carolina Hurricanes,82,40,34,,8,,0
+CAR,2007-08,Carolina Hurricanes,82,43,33,,6,,0
+CAR,2008-09,Carolina Hurricanes,82,45,30,,7,Lost Conference Finals,2
+CAR,2009-10,Carolina Hurricanes,82,35,37,,10,,0
+CAR,2010-11,Carolina Hurricanes,82,40,31,,11,,0
+CAR,2011-12,Carolina Hurricanes,82,33,33,,16,,0
+CAR,2012-13,Carolina Hurricanes,48,19,25,,4,,0
+CAR,2013-14,Carolina Hurricanes,82,36,35,,11,,0
+CAR,2014-15,Carolina Hurricanes,82,30,41,,11,,0
+CAR,2015-16,Carolina Hurricanes,82,35,31,,16,,0
+CAR,2016-17,Carolina Hurricanes,82,36,31,,15,,0
+CAR,2017-18,Carolina Hurricanes,82,36,35,,11,,0
+CAR,2018-19,Carolina Hurricanes,82,46,29,,7,Lost Conference Finals,2
+CAR,2019-20,Carolina Hurricanes,68,38,25,,5,Lost 1st Round,1
+CAR,2020-21,Carolina Hurricanes,56,36,12,,8,Lost 2nd Round,1
+CAR,2021-22,Carolina Hurricanes,82,54,20,,8,Lost 2nd Round,1
+CAR,2022-23,Carolina Hurricanes,82,52,21,,9,Lost Conference Finals,2
+CAR,2023-24,Carolina Hurricanes,82,52,23,,7,Lost 2nd Round,1
+CAR,2024-25,Carolina Hurricanes,82,47,30,,5,Lost Conference Finals,2
+CAR,2025-26,Carolina Hurricanes,82,53,22,,7,Won Stanley Cup Final,4

@@ -1,0 +1,50 @@
+franchise,season,team_name,GP,W,L,T,OL,playoff_result,stage
+WSH,1976-77,Washington Capitals,80,24,42,14,,,0
+WSH,1977-78,Washington Capitals,80,17,49,14,,,0
+WSH,1978-79,Washington Capitals,80,24,41,15,,,0
+WSH,1979-80,Washington Capitals,80,27,40,13,,,0
+WSH,1980-81,Washington Capitals,80,26,36,18,,,0
+WSH,1981-82,Washington Capitals,80,26,41,13,,,0
+WSH,1982-83,Washington Capitals,80,39,25,16,,Lost Division Semifinals,1
+WSH,1983-84,Washington Capitals,80,48,27,5,,Lost Division Finals,1
+WSH,1984-85,Washington Capitals,80,46,25,9,,Lost Division Semifinals,1
+WSH,1985-86,Washington Capitals,80,50,23,7,,Lost Division Finals,1
+WSH,1986-87,Washington Capitals,80,38,32,10,,Lost Division Semifinals,1
+WSH,1987-88,Washington Capitals,80,38,33,9,,Lost Division Finals,1
+WSH,1988-89,Washington Capitals,80,41,29,10,,Lost Division Semifinals,1
+WSH,1989-90,Washington Capitals,80,36,38,6,,Lost Conference Finals,2
+WSH,1990-91,Washington Capitals,80,37,36,7,,Lost Division Finals,1
+WSH,1991-92,Washington Capitals,80,45,27,8,,Lost Division Semifinals,1
+WSH,1992-93,Washington Capitals,84,43,34,7,,Lost Division Semifinals,1
+WSH,1993-94,Washington Capitals,84,39,35,10,,Lost Conference Semifinals,1
+WSH,1994-95,Washington Capitals,48,22,18,8,,Lost Conference Quarterfinals,1
+WSH,1995-96,Washington Capitals,82,39,32,11,,Lost Conference Quarterfinals,1
+WSH,1996-97,Washington Capitals,82,33,40,9,,,0
+WSH,1997-98,Washington Capitals,82,40,30,12,,Lost Stanley Cup Final,3
+WSH,1998-99,Washington Capitals,82,31,45,6,,,0
+WSH,1999-00,Washington Capitals,82,44,24,12,2,Lost Conference Quarterfinals,1
+WSH,2000-01,Washington Capitals,82,41,27,10,4,Lost Conference Quarterfinals,1
+WSH,2001-02,Washington Capitals,82,36,33,11,2,,0
+WSH,2002-03,Washington Capitals,82,39,29,8,6,Lost Conference Quarterfinals,1
+WSH,2003-04,Washington Capitals,82,23,46,10,3,,0
+WSH,2005-06,Washington Capitals,82,29,41,,12,,0
+WSH,2006-07,Washington Capitals,82,28,40,,14,,0
+WSH,2007-08,Washington Capitals,82,43,31,,8,Lost Conference Quarterfinals,1
+WSH,2008-09,Washington Capitals,82,50,24,,8,Lost Conference Semifinals,1
+WSH,2009-10,Washington Capitals,82,54,15,,13,Lost Conference Quarterfinals,1
+WSH,2010-11,Washington Capitals,82,48,23,,11,Lost Conference Semifinals,1
+WSH,2011-12,Washington Capitals,82,42,32,,8,Lost Conference Semifinals,1
+WSH,2012-13,Washington Capitals,48,27,18,,3,Lost Conference Quarterfinals,1
+WSH,2013-14,Washington Capitals,82,38,30,,14,,0
+WSH,2014-15,Washington Capitals,82,45,26,,11,Lost 2nd Round,1
+WSH,2015-16,Washington Capitals,82,56,18,,8,Lost 2nd Round,1
+WSH,2016-17,Washington Capitals,82,55,19,,8,Lost 2nd Round,1
+WSH,2017-18,Washington Capitals,82,49,26,,7,Won Stanley Cup Final,4
+WSH,2018-19,Washington Capitals,82,48,26,,8,Lost 1st Round,1
+WSH,2019-20,Washington Capitals,69,41,20,,8,Lost 1st Round,1
+WSH,2020-21,Washington Capitals,56,36,15,,5,Lost 1st Round,1
+WSH,2021-22,Washington Capitals,82,44,26,,12,Lost 1st Round,1
+WSH,2022-23,Washington Capitals,82,35,37,,10,,0
+WSH,2023-24,Washington Capitals,82,40,31,,11,Lost 1st Round,1
+WSH,2024-25,Washington Capitals,82,51,22,,9,Lost 2nd Round,1
+WSH,2025-26,Washington Capitals,82,43,30,,9,,0

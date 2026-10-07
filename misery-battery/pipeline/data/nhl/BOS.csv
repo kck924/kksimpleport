@@ -1,0 +1,50 @@
+franchise,season,team_name,GP,W,L,T,OL,playoff_result,stage
+BOS,1976-77,Boston Bruins,80,49,23,8,,Lost Stanley Cup Final,3
+BOS,1977-78,Boston Bruins,80,51,18,11,,Lost Stanley Cup Final,3
+BOS,1978-79,Boston Bruins,80,43,23,14,,Lost Semifinals,2
+BOS,1979-80,Boston Bruins,80,46,21,13,,Lost Quarterfinals,1
+BOS,1980-81,Boston Bruins,80,37,30,13,,Lost Preliminary Round,1
+BOS,1981-82,Boston Bruins,80,43,27,10,,Lost Division Finals,1
+BOS,1982-83,Boston Bruins,80,50,20,10,,Lost Conference Finals,2
+BOS,1983-84,Boston Bruins,80,49,25,6,,Lost Division Semifinals,1
+BOS,1984-85,Boston Bruins,80,36,34,10,,Lost Division Semifinals,1
+BOS,1985-86,Boston Bruins,80,37,31,12,,Lost Division Semifinals,1
+BOS,1986-87,Boston Bruins,80,39,34,7,,Lost Division Semifinals,1
+BOS,1987-88,Boston Bruins,80,44,30,6,,Lost Stanley Cup Final,3
+BOS,1988-89,Boston Bruins,80,37,29,14,,Lost Division Finals,1
+BOS,1989-90,Boston Bruins,80,46,25,9,,Lost Stanley Cup Final,3
+BOS,1990-91,Boston Bruins,80,44,24,12,,Lost Conference Finals,2
+BOS,1991-92,Boston Bruins,80,36,32,12,,Lost Conference Finals,2
+BOS,1992-93,Boston Bruins,84,51,26,7,,Lost Division Semifinals,1
+BOS,1993-94,Boston Bruins,84,42,29,13,,Lost Conference Semifinals,1
+BOS,1994-95,Boston Bruins,48,27,18,3,,Lost Conference Quarterfinals,1
+BOS,1995-96,Boston Bruins,82,40,31,11,,Lost Conference Quarterfinals,1
+BOS,1996-97,Boston Bruins,82,26,47,9,,,0
+BOS,1997-98,Boston Bruins,82,39,30,13,,Lost Conference Quarterfinals,1
+BOS,1998-99,Boston Bruins,82,39,30,13,,Lost Conference Semifinals,1
+BOS,1999-00,Boston Bruins,82,24,33,19,6,,0
+BOS,2000-01,Boston Bruins,82,36,30,8,8,,0
+BOS,2001-02,Boston Bruins,82,43,24,6,9,Lost Conference Quarterfinals,1
+BOS,2002-03,Boston Bruins,82,36,31,11,4,Lost Conference Quarterfinals,1
+BOS,2003-04,Boston Bruins,82,41,19,15,7,Lost Conference Quarterfinals,1
+BOS,2005-06,Boston Bruins,82,29,37,,16,,0
+BOS,2006-07,Boston Bruins,82,35,41,,6,,0
+BOS,2007-08,Boston Bruins,82,41,29,,12,Lost Conference Quarterfinals,1
+BOS,2008-09,Boston Bruins,82,53,19,,10,Lost Conference Semifinals,1
+BOS,2009-10,Boston Bruins,82,39,30,,13,Lost Conference Semifinals,1
+BOS,2010-11,Boston Bruins,82,46,25,,11,Won Stanley Cup Final,4
+BOS,2011-12,Boston Bruins,82,49,29,,4,Lost Conference Quarterfinals,1
+BOS,2012-13,Boston Bruins,48,28,14,,6,Lost Stanley Cup Final,3
+BOS,2013-14,Boston Bruins,82,54,19,,9,Lost 2nd Round,1
+BOS,2014-15,Boston Bruins,82,41,27,,14,,0
+BOS,2015-16,Boston Bruins,82,42,31,,9,,0
+BOS,2016-17,Boston Bruins,82,44,31,,7,Lost 1st Round,1
+BOS,2017-18,Boston Bruins,82,50,20,,12,Lost 2nd Round,1
+BOS,2018-19,Boston Bruins,82,49,24,,9,Lost Stanley Cup Final,3
+BOS,2019-20,Boston Bruins,70,44,14,,12,Lost 2nd Round,1
+BOS,2020-21,Boston Bruins,56,33,16,,7,Lost 2nd Round,1
+BOS,2021-22,Boston Bruins,82,51,26,,5,Lost 1st Round,1
+BOS,2022-23,Boston Bruins,82,65,12,,5,Lost 1st Round,1
+BOS,2023-24,Boston Bruins,82,47,20,,15,Lost 2nd Round,1
+BOS,2024-25,Boston Bruins,82,33,39,,10,,0
+BOS,2025-26,Boston Bruins,82,45,27,,10,Lost 1st Round,1

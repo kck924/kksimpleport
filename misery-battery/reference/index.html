@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Misery Battery Rankings</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Public+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: shared controls (time frame + scoring) on top, then two tabs: build-your-four and local rankings. Scoreboard rows, season strips as the signature detail. */
+:root{
+  --paper:#eef1f4; --card:#ffffff; --ink:#16202b; --muted:#5b6774; --rule:#d5dbe2;
+  --bruise:#8a2846; --bruise-soft:#f3e3e8; --focus:#2856a8; --bar:#b9c6d4;
+  --s0:#dfe4ea; --s1:#a9bfd6; --s2:#5f86b3; --s3:#2c4f7c; --s4:#d9a521;
+  --display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --body:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#11161c; --card:#19212a; --ink:#e6ebf0; --muted:#97a3b0; --rule:#2c3640;
+  --bruise:#e07a98; --bruise-soft:#3a1f29; --focus:#8fb2ec; --bar:#34475c;
+  --s0:#26303a; --s1:#3d5672; --s2:#5f86b3; --s3:#9cbbe0; --s4:#e8b734; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#11161c; --card:#19212a; --ink:#e6ebf0; --muted:#97a3b0; --rule:#2c3640;
+  --bruise:#e07a98; --bruise-soft:#3a1f29; --focus:#8fb2ec; --bar:#34475c;
+  --s0:#26303a; --s1:#3d5672; --s2:#5f86b3; --s3:#9cbbe0; --s4:#e8b734; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:16px;padding-block:28px 56px;display:grid;gap:20px}
+h1{font-family:var(--display);font-weight:900;font-size:clamp(2.4rem,7vw,4.2rem);line-height:.92;letter-spacing:.01em;text-transform:uppercase;margin:0;text-wrap:balance}
+h1 em{font-style:normal;color:var(--bruise)}
+h2{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:1.35rem;margin:0;letter-spacing:.01em}
+.lede{max-width:66ch;margin:0;color:var(--muted)}
+.lede b{color:var(--ink);font-weight:600}
+.panel{background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:16px;display:grid;gap:14px}
+.lbl{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.ctl{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center}
+.ctl > .lbl{min-width:84px}
+select,input[type=search]{font:inherit;color:var(--ink);background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:7px 10px;max-width:100%}
+.chip{font:inherit;border:1px solid var(--rule);background:var(--paper);color:var(--ink);border-radius:999px;padding:4px 11px;font-size:.84rem;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip:hover{border-color:var(--muted)}
+details summary{cursor:pointer;font-size:.88rem;font-weight:600;color:var(--muted)}
+.sliders{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px 18px;margin-top:10px}
+.sl{display:grid;gap:2px}
+.sl label{display:flex;justify-content:space-between;gap:8px;font-size:.84rem;font-weight:600}
+.sl output{font-family:var(--mono);font-weight:400;color:var(--muted)}
+input[type=range]{width:100%;accent-color:var(--bruise)}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--rule)}
+.tab{font:inherit;font-weight:700;background:none;border:0;border-bottom:3px solid transparent;color:var(--muted);padding:8px 12px;cursor:pointer;margin-bottom:-1px}
+.tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--bruise)}
+.pickers{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.picker{display:grid;gap:4px;min-width:0}
+.picker select{width:100%}
+@media (max-width:760px){.pickers{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:420px){.pickers{grid-template-columns:1fr}}
+.verdict{display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 22px;align-items:center}
+.big{font-family:var(--display);font-weight:900;font-size:clamp(3.6rem,12vw,6rem);line-height:.85;font-variant-numeric:tabular-nums;color:var(--bruise)}
+.big small{display:block;font-family:var(--body);font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:6px}
+.tier{font-family:var(--display);font-weight:800;font-size:1.9rem;text-transform:uppercase;line-height:1}
+.vtext{margin:4px 0 0;max-width:60ch}
+.vtext b{font-variant-numeric:tabular-nums}
+@media (max-width:520px){.verdict{grid-template-columns:1fr}}
+.hist{width:100%;height:auto;display:block}
+.hist text{fill:var(--muted);font-family:var(--mono);font-size:10px}
+.histcap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:.8rem;color:var(--muted)}
+.histcap span{min-width:0}
+.histcap b{color:var(--ink);font-weight:600}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:760px){.cards{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:14px 16px;display:grid;gap:8px;min-width:0}
+.ch{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;align-items:start}
+.cname{font-weight:700;font-size:1.02rem}
+.cera{font-size:.78rem;color:var(--muted)}
+.cscore{text-align:right;font-family:var(--display);font-weight:800;font-size:1.9rem;line-height:1;font-variant-numeric:tabular-nums}
+.cscore span{display:block;font-family:var(--body);font-size:.66rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.pill{display:inline-block;font-size:.74rem;font-weight:700;border-radius:999px;padding:2px 9px;background:var(--bruise-soft);color:var(--bruise)}
+.pill.calm{background:var(--s0);color:var(--ink)}
+.stats{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:.82rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.stats b{color:var(--ink)}
+.strip{display:grid;gap:2px;height:14px}
+.strip i{border-radius:1.5px;background:var(--s0)}
+.strip i.x{background:transparent;border:1px dashed var(--rule)}
+.yrs{display:flex;justify-content:space-between;font-family:var(--mono);font-size:.65rem;color:var(--muted)}
+.bw{display:grid;gap:2px;font-size:.8rem;color:var(--muted)}
+.bw b{color:var(--ink);font-weight:600}
+.warn{font-size:.85rem;color:var(--bruise)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.8rem;color:var(--muted);align-items:center}
+.sw{display:inline-block;width:10px;height:10px;border-radius:2px;vertical-align:-1px;margin-right:4px}
+.row2{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
+.row2 input[type=search]{flex:1 1 220px;min-width:0}
+.tog{display:flex;gap:6px;align-items:center;font-size:.88rem}
+.list{display:grid;gap:10px}
+.item{background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:14px 16px;display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:4px 14px;align-items:start}
+.rank{font-family:var(--display);font-weight:800;font-size:2.1rem;line-height:1;min-width:2.2ch;color:var(--muted);font-variant-numeric:tabular-nums}
+.item.top .rank{color:var(--bruise)}
+.metro{font-weight:700;font-size:1rem}
+.facts{font-size:.8rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.score{text-align:right}
+.score b{display:block;font-family:var(--display);font-weight:800;font-size:2rem;line-height:1;font-variant-numeric:tabular-nums}
+.score span{font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.slots{grid-column:1/-1;display:grid;gap:5px;margin-top:8px}
+.slot{display:grid;grid-template-columns:44px minmax(0,1fr);gap:8px;align-items:center}
+.lg{font-family:var(--mono);font-size:.7rem;color:var(--muted)}
+.slotbody{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;align-items:center}
+.slotbody .strip{grid-column:1/-1;height:12px}
+.tname{font-weight:600;font-size:.9rem;overflow-wrap:anywhere}
+.tname small{font-weight:400;color:var(--muted);font-size:.78rem}
+.tline{font-family:var(--mono);font-size:.72rem;color:var(--muted);text-align:right;white-space:nowrap}
+.load{font:inherit;font-size:.8rem;border:1px solid var(--rule);background:var(--paper);color:var(--ink);border-radius:6px;padding:3px 9px;cursor:pointer}
+.more{justify-self:center;font:inherit;border:1px solid var(--rule);background:var(--card);color:var(--ink);border-radius:8px;padding:8px 16px;cursor:pointer}
+.notes{font-size:.86rem;color:var(--muted);max-width:72ch;display:grid;gap:8px}
+.notes h2{color:var(--ink);font-size:1.2rem}
+.notes p{margin:0}
+.empty{color:var(--muted);text-align:center;padding:20px}
+@media (max-width:520px){.item{grid-template-columns:auto minmax(0,1fr)}.score{grid-column:1/-1;text-align:left;display:flex;gap:8px;align-items:baseline}.score b{display:inline;font-size:1.5rem}.rank{font-size:1.7rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header style="display:grid;gap:12px">
+    <h1>How miserable is your <em>battery</em>?</h1>
+    <p class="lede">Pick one team from each of <b>MLB, NBA, NHL and the NFL</b> and a span of seasons. The score measures how far your four teams fell short of a perfect season, averaged over every season in the span. <b>Higher means more miserable.</b> It is compared against every possible four-team combination over the same span.</p>
+  </header>
+
+  <section class="panel" aria-label="Time frame and scoring">
+    <div class="ctl">
+      <span class="lbl">Time frame</span>
+      <label for="from" class="lbl" style="min-width:0">From</label><select id="from"></select>
+      <label for="to" class="lbl" style="min-width:0">To</label><select id="to"></select>
+      <span id="spans" class="ctl"></span>
+    </div>
+    <div class="ctl" id="presets"><span class="lbl">Scoring</span></div>
+    <details id="wdetails"><summary>Adjust scoring weights</summary><div class="sliders" id="sliders"></div></details>
+    <div class="legend"><span class="lbl">Season squares</span>
+      <span><i class="sw" style="background:var(--s0)"></i>Missed playoffs</span>
+      <span><i class="sw" style="background:var(--s1)"></i>Playoffs</span>
+      <span><i class="sw" style="background:var(--s2)"></i>Final four</span>
+      <span><i class="sw" style="background:var(--s3)"></i>Lost final</span>
+      <span><i class="sw" style="background:var(--s4)"></i>Title</span>
+    </div>
+  </section>
+
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" id="tab-build" aria-controls="build" aria-selected="true">Your four teams</button>
+    <button class="tab" role="tab" id="tab-rank" aria-controls="rankings" aria-selected="false">Local rankings</button>
+  </div>
+
+  <section id="build" role="tabpanel" aria-labelledby="tab-build" style="display:grid;gap:16px">
+    <div class="panel">
+      <div class="ctl"><label class="lbl" for="metro">Start from a city</label><select id="metro"></select></div>
+      <div class="pickers" id="pickers"></div>
+    </div>
+    <div class="panel" id="result" aria-live="polite"></div>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <section id="rankings" role="tabpanel" aria-labelledby="tab-rank" hidden style="display:grid;gap:14px">
+    <p class="lede">Every combination a fan could plausibly hold, built from each team city with a <b>60-mile radius</b>. When no team in a league was that close, the fan follows the nearest one. Before a local team existed, or after it left, the fan follows whichever team was local that season.</p>
+    <div class="row2">
+      <input id="q" type="search" placeholder="Filter by team or city (e.g. Orioles, Seattle)" aria-label="Filter by team or city">
+      <label class="tog"><input type="checkbox" id="localonly"> Only fan bases with a local team in all four leagues today</label>
+      <label class="tog"><input type="checkbox" id="best"> Luckiest first</label>
+    </div>
+    <div class="list" id="list"></div>
+    <button class="more" id="more" hidden>Show all</button>
+  </section>
+
+  <section class="notes">
+    <h2>How it's scored</h2>
+    <p>Each season earns points: the team's regular-season standing in its league that year (0 for last, 1 for first, so 162-game and 17-game seasons compare fairly), plus bonuses for making the playoffs, reaching the final four (LCS, conference finals or conference championship), reaching the final and winning it. A season's misery is how far it fell short of a perfect season. A team's score is the average over the seasons it played in the span, and a battery's score is the average of its four teams. The Heartbreak preset also penalizes losing in the final.</p>
+    <p>Teams that played fewer than half the seasons in the span (expansion teams, mostly) still get a score but no league rank, and they are left out of the all-combinations comparison. The NHL lockout season (2004-05) is skipped. MLB 1994 counts as a season with no playoffs for anyone. NBA play-in losers count as missing the playoffs.</p>
+    <p>Data covers 1991 to 2025 (NBA and NHL seasons 1991-92 to 2025-26). MLB from Retrosheet game logs; NFL from nflverse and FiveThirtyEight game files; NBA and NHL from Basketball-Reference and Hockey-Reference franchise histories.</p>
+  </section>
+</div>
+
+<script type="module" src="./app.js"></script>
+</body>
+</html>

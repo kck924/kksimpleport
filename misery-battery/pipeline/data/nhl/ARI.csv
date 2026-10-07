@@ -1,0 +1,45 @@
+franchise,season,team_name,GP,W,L,T,OL,playoff_result,stage
+ARI,1979-80,Winnipeg Jets,80,20,49,11,,,0
+ARI,1980-81,Winnipeg Jets,80,9,57,14,,,0
+ARI,1981-82,Winnipeg Jets,80,33,33,14,,Lost Division Semifinals,1
+ARI,1982-83,Winnipeg Jets,80,33,39,8,,Lost Division Semifinals,1
+ARI,1983-84,Winnipeg Jets,80,31,38,11,,Lost Division Semifinals,1
+ARI,1984-85,Winnipeg Jets,80,43,27,10,,Lost Division Finals,1
+ARI,1985-86,Winnipeg Jets,80,26,47,7,,Lost Division Semifinals,1
+ARI,1986-87,Winnipeg Jets,80,40,32,8,,Lost Division Finals,1
+ARI,1987-88,Winnipeg Jets,80,33,36,11,,Lost Division Semifinals,1
+ARI,1988-89,Winnipeg Jets,80,26,42,12,,,0
+ARI,1989-90,Winnipeg Jets,80,37,32,11,,Lost Division Semifinals,1
+ARI,1990-91,Winnipeg Jets,80,26,43,11,,,0
+ARI,1991-92,Winnipeg Jets,80,33,32,15,,Lost Division Semifinals,1
+ARI,1992-93,Winnipeg Jets,84,40,37,7,,Lost Division Semifinals,1
+ARI,1993-94,Winnipeg Jets,84,24,51,9,,,0
+ARI,1994-95,Winnipeg Jets,48,16,25,7,,,0
+ARI,1995-96,Winnipeg Jets,82,36,40,6,,Lost Conference Quarterfinals,1
+ARI,1996-97,Phoenix Coyotes,82,38,37,7,,Lost Conference Quarterfinals,1
+ARI,1997-98,Phoenix Coyotes,82,35,35,12,,Lost Conference Quarterfinals,1
+ARI,1998-99,Phoenix Coyotes,82,39,31,12,,Lost Conference Quarterfinals,1
+ARI,1999-00,Phoenix Coyotes,82,39,31,8,4,Lost Conference Quarterfinals,1
+ARI,2000-01,Phoenix Coyotes,82,35,27,17,3,,0
+ARI,2001-02,Phoenix Coyotes,82,40,27,9,6,Lost Conference Quarterfinals,1
+ARI,2002-03,Phoenix Coyotes,82,31,35,11,5,,0
+ARI,2003-04,Phoenix Coyotes,82,22,36,18,6,,0
+ARI,2005-06,Phoenix Coyotes,82,38,39,,5,,0
+ARI,2006-07,Phoenix Coyotes,82,31,46,,5,,0
+ARI,2007-08,Phoenix Coyotes,82,38,37,,7,,0
+ARI,2008-09,Phoenix Coyotes,82,36,39,,7,,0
+ARI,2009-10,Phoenix Coyotes,82,50,25,,7,Lost Conference Quarterfinals,1
+ARI,2010-11,Phoenix Coyotes,82,43,26,,13,Lost Conference Quarterfinals,1
+ARI,2011-12,Phoenix Coyotes,82,42,27,,13,Lost Conference Finals,2
+ARI,2012-13,Phoenix Coyotes,48,21,18,,9,,0
+ARI,2013-14,Phoenix Coyotes,82,37,30,,15,,0
+ARI,2014-15,Arizona Coyotes,82,24,50,,8,,0
+ARI,2015-16,Arizona Coyotes,82,35,39,,8,,0
+ARI,2016-17,Arizona Coyotes,82,30,42,,10,,0
+ARI,2017-18,Arizona Coyotes,82,29,41,,12,,0
+ARI,2018-19,Arizona Coyotes,82,39,35,,8,,0
+ARI,2019-20,Arizona Coyotes,70,33,29,,8,Lost 1st Round,1
+ARI,2020-21,Arizona Coyotes,56,24,26,,6,,0
+ARI,2021-22,Arizona Coyotes,82,25,50,,7,,0
+ARI,2022-23,Arizona Coyotes,82,28,40,,14,,0
+ARI,2023-24,Arizona Coyotes,82,36,41,,5,,0

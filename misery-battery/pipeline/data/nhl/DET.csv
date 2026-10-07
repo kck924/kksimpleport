@@ -1,0 +1,50 @@
+franchise,season,team_name,GP,W,L,T,OL,playoff_result,stage
+DET,1976-77,Detroit Red Wings,80,16,55,9,,,0
+DET,1977-78,Detroit Red Wings,80,32,34,14,,Lost Quarterfinals,1
+DET,1978-79,Detroit Red Wings,80,23,41,16,,,0
+DET,1979-80,Detroit Red Wings,80,26,43,11,,,0
+DET,1980-81,Detroit Red Wings,80,19,43,18,,,0
+DET,1981-82,Detroit Red Wings,80,21,47,12,,,0
+DET,1982-83,Detroit Red Wings,80,21,44,15,,,0
+DET,1983-84,Detroit Red Wings,80,31,42,7,,Lost Division Semifinals,1
+DET,1984-85,Detroit Red Wings,80,27,41,12,,Lost Division Semifinals,1
+DET,1985-86,Detroit Red Wings,80,17,57,6,,,0
+DET,1986-87,Detroit Red Wings,80,34,36,10,,Lost Conference Finals,2
+DET,1987-88,Detroit Red Wings,80,41,28,11,,Lost Conference Finals,2
+DET,1988-89,Detroit Red Wings,80,34,34,12,,Lost Division Semifinals,1
+DET,1989-90,Detroit Red Wings,80,28,38,14,,,0
+DET,1990-91,Detroit Red Wings,80,34,38,8,,Lost Division Semifinals,1
+DET,1991-92,Detroit Red Wings,80,43,25,12,,Lost Division Finals,1
+DET,1992-93,Detroit Red Wings,84,47,28,9,,Lost Division Semifinals,1
+DET,1993-94,Detroit Red Wings,84,46,30,8,,Lost Conference Quarterfinals,1
+DET,1994-95,Detroit Red Wings,48,33,11,4,,Lost Stanley Cup Final,3
+DET,1995-96,Detroit Red Wings,82,62,13,7,,Lost Conference Finals,2
+DET,1996-97,Detroit Red Wings,82,38,26,18,,Won Stanley Cup Final,4
+DET,1997-98,Detroit Red Wings,82,44,23,15,,Won Stanley Cup Final,4
+DET,1998-99,Detroit Red Wings,82,43,32,7,,Lost Conference Semifinals,1
+DET,1999-00,Detroit Red Wings,82,48,22,10,2,Lost Conference Semifinals,1
+DET,2000-01,Detroit Red Wings,82,49,20,9,4,Lost Conference Quarterfinals,1
+DET,2001-02,Detroit Red Wings,82,51,17,10,4,Won Stanley Cup Final,4
+DET,2002-03,Detroit Red Wings,82,48,20,10,4,Lost Conference Quarterfinals,1
+DET,2003-04,Detroit Red Wings,82,48,21,11,2,Lost Conference Semifinals,1
+DET,2005-06,Detroit Red Wings,82,58,16,,8,Lost Conference Quarterfinals,1
+DET,2006-07,Detroit Red Wings,82,50,19,,13,Lost Conference Finals,2
+DET,2007-08,Detroit Red Wings,82,54,21,,7,Won Stanley Cup Final,4
+DET,2008-09,Detroit Red Wings,82,51,21,,10,Lost Stanley Cup Final,3
+DET,2009-10,Detroit Red Wings,82,44,24,,14,Lost Conference Semifinals,1
+DET,2010-11,Detroit Red Wings,82,47,25,,10,Lost Conference Semifinals,1
+DET,2011-12,Detroit Red Wings,82,48,28,,6,Lost Conference Quarterfinals,1
+DET,2012-13,Detroit Red Wings,48,24,16,,8,Lost Conference Semifinals,1
+DET,2013-14,Detroit Red Wings,82,39,28,,15,Lost 1st Round,1
+DET,2014-15,Detroit Red Wings,82,43,25,,14,Lost 1st Round,1
+DET,2015-16,Detroit Red Wings,82,41,30,,11,Lost 1st Round,1
+DET,2016-17,Detroit Red Wings,82,33,36,,13,,0
+DET,2017-18,Detroit Red Wings,82,30,39,,13,,0
+DET,2018-19,Detroit Red Wings,82,32,40,,10,,0
+DET,2019-20,Detroit Red Wings,71,17,49,,5,,0
+DET,2020-21,Detroit Red Wings,56,19,27,,10,,0
+DET,2021-22,Detroit Red Wings,82,32,40,,10,,0
+DET,2022-23,Detroit Red Wings,82,35,37,,10,,0
+DET,2023-24,Detroit Red Wings,82,41,32,,9,,0
+DET,2024-25,Detroit Red Wings,82,39,35,,8,,0
+DET,2025-26,Detroit Red Wings,82,41,31,,10,,0

@@ -1,0 +1,50 @@
+franchise,season,team_name,GP,W,L,T,OL,playoff_result,stage
+NYR,1976-77,New York Rangers,80,29,37,14,,,0
+NYR,1977-78,New York Rangers,80,30,37,13,,Lost Preliminary Round,1
+NYR,1978-79,New York Rangers,80,40,29,11,,Lost Stanley Cup Final,3
+NYR,1979-80,New York Rangers,80,38,32,10,,Lost Quarterfinals,1
+NYR,1980-81,New York Rangers,80,30,36,14,,Lost Semifinals,2
+NYR,1981-82,New York Rangers,80,39,27,14,,Lost Division Finals,1
+NYR,1982-83,New York Rangers,80,35,35,10,,Lost Division Finals,1
+NYR,1983-84,New York Rangers,80,42,29,9,,Lost Division Semifinals,1
+NYR,1984-85,New York Rangers,80,26,44,10,,Lost Division Semifinals,1
+NYR,1985-86,New York Rangers,80,36,38,6,,Lost Conference Finals,2
+NYR,1986-87,New York Rangers,80,34,38,8,,Lost Division Semifinals,1
+NYR,1987-88,New York Rangers,80,36,34,10,,,0
+NYR,1988-89,New York Rangers,80,37,35,8,,Lost Division Semifinals,1
+NYR,1989-90,New York Rangers,80,36,31,13,,Lost Division Finals,1
+NYR,1990-91,New York Rangers,80,36,31,13,,Lost Division Semifinals,1
+NYR,1991-92,New York Rangers,80,50,25,5,,Lost Division Finals,1
+NYR,1992-93,New York Rangers,84,34,39,11,,,0
+NYR,1993-94,New York Rangers,84,52,24,8,,Won Stanley Cup Final,4
+NYR,1994-95,New York Rangers,48,22,23,3,,Lost Conference Semifinals,1
+NYR,1995-96,New York Rangers,82,41,27,14,,Lost Conference Semifinals,1
+NYR,1996-97,New York Rangers,82,38,34,10,,Lost Conference Finals,2
+NYR,1997-98,New York Rangers,82,25,39,18,,,0
+NYR,1998-99,New York Rangers,82,33,38,11,,,0
+NYR,1999-00,New York Rangers,82,29,38,12,3,,0
+NYR,2000-01,New York Rangers,82,33,43,5,1,,0
+NYR,2001-02,New York Rangers,82,36,38,4,4,,0
+NYR,2002-03,New York Rangers,82,32,36,10,4,,0
+NYR,2003-04,New York Rangers,82,27,40,7,8,,0
+NYR,2005-06,New York Rangers,82,44,26,,12,Lost Conference Quarterfinals,1
+NYR,2006-07,New York Rangers,82,42,30,,10,Lost Conference Semifinals,1
+NYR,2007-08,New York Rangers,82,42,27,,13,Lost Conference Semifinals,1
+NYR,2008-09,New York Rangers,82,43,30,,9,Lost Conference Quarterfinals,1
+NYR,2009-10,New York Rangers,82,38,33,,11,,0
+NYR,2010-11,New York Rangers,82,44,33,,5,Lost Conference Quarterfinals,1
+NYR,2011-12,New York Rangers,82,51,24,,7,Lost Conference Finals,2
+NYR,2012-13,New York Rangers,48,26,18,,4,Lost Conference Semifinals,1
+NYR,2013-14,New York Rangers,82,45,31,,6,Lost Stanley Cup Final,3
+NYR,2014-15,New York Rangers,82,53,22,,7,Lost Conference Finals,2
+NYR,2015-16,New York Rangers,82,46,27,,9,Lost 1st Round,1
+NYR,2016-17,New York Rangers,82,48,28,,6,Lost 2nd Round,1
+NYR,2017-18,New York Rangers,82,34,39,,9,,0
+NYR,2018-19,New York Rangers,82,32,36,,14,,0
+NYR,2019-20,New York Rangers,70,37,28,,5,Lost Stanley Cup Qualifiers,1
+NYR,2020-21,New York Rangers,56,27,23,,6,,0
+NYR,2021-22,New York Rangers,82,52,24,,6,Lost Conference Finals,2
+NYR,2022-23,New York Rangers,82,47,22,,13,Lost 1st Round,1
+NYR,2023-24,New York Rangers,82,55,23,,4,Lost Conference Finals,2
+NYR,2024-25,New York Rangers,82,39,36,,7,,0
+NYR,2025-26,New York Rangers,82,34,39,,9,,0

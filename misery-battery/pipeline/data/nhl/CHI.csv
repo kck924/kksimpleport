@@ -1,0 +1,50 @@
+franchise,season,team_name,GP,W,L,T,OL,playoff_result,stage
+CHI,1976-77,Chicago Blackhawks,80,26,43,11,,Lost Preliminary Round,1
+CHI,1977-78,Chicago Blackhawks,80,32,29,19,,Lost Quarterfinals,1
+CHI,1978-79,Chicago Blackhawks,80,29,36,15,,Lost Quarterfinals,1
+CHI,1979-80,Chicago Blackhawks,80,34,27,19,,Lost Quarterfinals,1
+CHI,1980-81,Chicago Blackhawks,80,31,33,16,,Lost Preliminary Round,1
+CHI,1981-82,Chicago Blackhawks,80,30,38,12,,Lost Conference Finals,2
+CHI,1982-83,Chicago Blackhawks,80,47,23,10,,Lost Conference Finals,2
+CHI,1983-84,Chicago Blackhawks,80,30,42,8,,Lost Division Semifinals,1
+CHI,1984-85,Chicago Blackhawks,80,38,35,7,,Lost Conference Finals,2
+CHI,1985-86,Chicago Blackhawks,80,39,33,8,,Lost Division Semifinals,1
+CHI,1986-87,Chicago Blackhawks,80,29,37,14,,Lost Division Semifinals,1
+CHI,1987-88,Chicago Blackhawks,80,30,41,9,,Lost Division Semifinals,1
+CHI,1988-89,Chicago Blackhawks,80,27,41,12,,Lost Conference Finals,2
+CHI,1989-90,Chicago Blackhawks,80,41,33,6,,Lost Conference Finals,2
+CHI,1990-91,Chicago Blackhawks,80,49,23,8,,Lost Division Semifinals,1
+CHI,1991-92,Chicago Blackhawks,80,36,29,15,,Lost Stanley Cup Final,3
+CHI,1992-93,Chicago Blackhawks,84,47,25,12,,Lost Division Semifinals,1
+CHI,1993-94,Chicago Blackhawks,84,39,36,9,,Lost Conference Quarterfinals,1
+CHI,1994-95,Chicago Blackhawks,48,24,19,5,,Lost Conference Finals,2
+CHI,1995-96,Chicago Blackhawks,82,40,28,14,,Lost Conference Semifinals,1
+CHI,1996-97,Chicago Blackhawks,82,34,35,13,,Lost Conference Quarterfinals,1
+CHI,1997-98,Chicago Blackhawks,82,30,39,13,,,0
+CHI,1998-99,Chicago Blackhawks,82,29,41,12,,,0
+CHI,1999-00,Chicago Blackhawks,82,33,37,10,2,,0
+CHI,2000-01,Chicago Blackhawks,82,29,40,8,5,,0
+CHI,2001-02,Chicago Blackhawks,82,41,27,13,1,Lost Conference Quarterfinals,1
+CHI,2002-03,Chicago Blackhawks,82,30,33,13,6,,0
+CHI,2003-04,Chicago Blackhawks,82,20,43,11,8,,0
+CHI,2005-06,Chicago Blackhawks,82,26,43,,13,,0
+CHI,2006-07,Chicago Blackhawks,82,31,42,,9,,0
+CHI,2007-08,Chicago Blackhawks,82,40,34,,8,,0
+CHI,2008-09,Chicago Blackhawks,82,46,24,,12,Lost Conference Finals,2
+CHI,2009-10,Chicago Blackhawks,82,52,22,,8,Won Stanley Cup Final,4
+CHI,2010-11,Chicago Blackhawks,82,44,29,,9,Lost Conference Quarterfinals,1
+CHI,2011-12,Chicago Blackhawks,82,45,26,,11,Lost Conference Quarterfinals,1
+CHI,2012-13,Chicago Blackhawks,48,36,7,,5,Won Stanley Cup Final,4
+CHI,2013-14,Chicago Blackhawks,82,46,21,,15,Lost Conference Finals,2
+CHI,2014-15,Chicago Blackhawks,82,48,28,,6,Won Stanley Cup Final,4
+CHI,2015-16,Chicago Blackhawks,82,47,26,,9,Lost 1st Round,1
+CHI,2016-17,Chicago Blackhawks,82,50,23,,9,Lost 1st Round,1
+CHI,2017-18,Chicago Blackhawks,82,33,39,,10,,0
+CHI,2018-19,Chicago Blackhawks,82,36,34,,12,,0
+CHI,2019-20,Chicago Blackhawks,70,32,30,,8,Lost 1st Round,1
+CHI,2020-21,Chicago Blackhawks,56,24,25,,7,,0
+CHI,2021-22,Chicago Blackhawks,82,28,42,,12,,0
+CHI,2022-23,Chicago Blackhawks,82,26,49,,7,,0
+CHI,2023-24,Chicago Blackhawks,82,23,53,,6,,0
+CHI,2024-25,Chicago Blackhawks,82,25,46,,11,,0
+CHI,2025-26,Chicago Blackhawks,82,29,39,,14,,0
