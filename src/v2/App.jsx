@@ -16,7 +16,8 @@ import { PROJECTS } from './lib/projects';
 // flies the logo up into a floating header, which picks up the project controls once the page's own are gone. Lives at /v2/ beside the live homepage.
 const readView = () => (new URLSearchParams(location.search).get('view') === 'grid' ? 'grid' : 'scatter');  // scatter is the default
 // the hero's entrance runs in sequence: the logo draws and its dots land, then the two dials unfurl, then the tagline types
-const CLOCKS_AT = LOGO_DONE_MS, TAGLINE_AT = CLOCKS_AT + 1500;
+// the dials start while the logo's dots are still landing; the tagline still waits for both to finish
+const CLOCKS_AT = LOGO_DONE_MS - 1300, TAGLINE_AT = Math.max(LOGO_DONE_MS, CLOCKS_AT + 950) + 150;
 const smooth = () => (matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth');
 
 export default function App() {
