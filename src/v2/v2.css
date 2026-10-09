@@ -593,3 +593,10 @@ a { color: inherit; }
   .v2-axes.phone .ttl.dir span { font: 400 1.15rem/1 var(--hand); color: var(--ink-2); -webkit-text-stroke: .5px currentColor; paint-order: stroke fill; }
   .v2-peek .again { display: block; margin-top: 10px; font: 500 .78rem/1 var(--mono); color: var(--cyan); }
 }
+@media (max-width: 560px) {
+  /* stacked hero: centre the whole column so the photo, name and dials share one axis */
+  .v2-name { align-items: center; text-align: center; }
+  .v2-nametext { width: 100%; }
+  .v2-logobox { width: 100%; }
+  .v2-contact { justify-content: center; }
+}
