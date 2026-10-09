@@ -1,5 +1,6 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { COLOR, LABEL, MONTH_SHORT, categories, kindOf } from '../lib/projects';
+const SHORT_KIND = { analytics: 'Analytics', misc: 'Misc', genai: 'GenAI', engineering: 'Eng' };
 import { bentoLayout, scatterLayout } from '../lib/layout';
 
 // Every project is one tile, positioned absolutely. "grid" packs them into a bento; "scatter" shrinks the same tiles
@@ -28,6 +29,25 @@ function Axes({ width, box, ticks }) {
       <path className="v2-draw ax ax2" pathLength="1" d={xAxis} />
       <path className="v2-draw ax head h1" pathLength="1" d={`M ${ox - 5} ${top + 8} L ${ox} ${top} L ${ox + 5} ${top + 8}`} />
       <path className="v2-draw ax head h2" pathLength="1" d={`M ${right - 8} ${bottom - 5} L ${right} ${bottom} L ${right - 8} ${bottom + 5}`} />
+    </svg>
+  );
+}
+
+// Phones: the scatter on its side. A time axis runs down the left (drawn on like the desktop's), with faint gridlines
+// across at each tick; the four kinds of project are columns.
+function PhoneAxes({ width, layout }) {
+  const { box, ticks, height } = layout, ox = box.L - 14, top = box.T - 18, bottom = height - 10;
+  const yAxis = `M ${ox} ${top} C ${ox + 1.4} ${top + (bottom - top) * 0.35}, ${ox - 1.6} ${top + (bottom - top) * 0.7}, ${ox} ${bottom}`;
+  return (
+    <svg className="v2-axsvg" width={width} height={height}>
+      <defs>
+        <mask id="v2-grid-reveal" maskUnits="userSpaceOnUse" x="0" y="0" width={width} height={height}>
+          {ticks.map(({ m, y }, i) => <line key={m} className="v2-draw grid" style={{ '--i': i }} pathLength="1" x1={ox} x2={width} y1={y} y2={y} stroke="#fff" strokeWidth="4" />)}
+        </mask>
+      </defs>
+      <g mask="url(#v2-grid-reveal)">{ticks.map(({ m, y }) => <line key={m} className="gl" x1={ox} x2={width} y1={y} y2={y} />)}</g>
+      <path className="v2-draw ax ay" pathLength="1" d={yAxis} />
+      <path className="v2-draw ax head h1" pathLength="1" d={`M ${ox - 5} ${bottom - 8} L ${ox} ${bottom} L ${ox + 5} ${bottom - 8}`} />
     </svg>
   );
 }
@@ -75,6 +95,7 @@ export default function ProjectStage({ projects, mode, filter }) {
   const showPeek = p => {
     if (mode !== 'scatter' || !layout) return;
     const at = layout.pos.get(p.id), stageW = width;
+    if (layout.phone) { setPeek({ id: p.id, x: 0, y: Math.max(10, Math.min(layout.height - 330, at.y + 34)) }); return; }  // full width, just below the dot
     let x = at.x + 34;
     if (x + 290 > stageW) x = at.x - 300;
     setPeek({ id: p.id, x: Math.max(8, x), y: Math.max(10, Math.min(layout.height - 300, at.y - 40)) });
@@ -91,7 +112,17 @@ export default function ProjectStage({ projects, mode, filter }) {
 
   return (
     <div ref={ref} onClick={e => { if (peek && !e.target.closest('.v2-tile')) hidePeek(); }} className={`v2-stage ${mode}${peek ? ' peeking' : ''}${intro !== 'done' ? ` intro intro-${intro}` : ''}`} style={{ height: layout ? layout.height : 600 }}>
-      {mode === 'scatter' && layout && (
+      {mode === 'scatter' && layout?.phone && (
+        <div className="v2-axes phone" aria-hidden="true">
+          <PhoneAxes width={width} layout={layout} />
+          {layout.ticks.map(({ m, y }, i) => (
+            <span key={m} className="tick" style={{ top: y - 7, width: layout.box.L - 20, '--i': i, '--n': 6 }}>{MONTH_SHORT[m % 12]} &rsquo;{String(Math.floor(m / 12)).slice(2)}</span>
+          ))}
+          {layout.cols.map(({ k, x }) => <span key={k} className="colh" style={{ left: x, '--c': COLOR[k] }}>{SHORT_KIND[k]}</span>)}
+          <span className="ttl dir" style={{ left: layout.box.L - 6, right: 0 }}><span>&larr; analysis</span><span>builds &rarr;</span></span>
+        </div>
+      )}
+      {mode === 'scatter' && layout && !layout.phone && (
         <div className="v2-axes" aria-hidden="true">
           {/* open chart, "drawn" on: the axes are pen strokes (a little hand wobble, arrowheads), the dashed month
               gridlines draw top to bottom through a mask, then the labels and handwritten titles write on */}
@@ -128,10 +159,12 @@ export default function ProjectStage({ projects, mode, filter }) {
               <span className="cat"><i />{LABEL[kind]}</span>
               <h3>{p.title}</h3>
               <span className="desc">{p.description}</span>
+              {p.note && <span className="tnote">{p.note}</span>}
               <span className="meta"><span>{p.date}</span><span className="go">open ↗</span></span>
             </span>
             {/* near the right edge the label goes on the dot's left, so it never runs off the chart */}
-            <span className={`lab${mode === 'scatter' && at && at.x > width - 240 ? ' flip' : ''}`} aria-hidden="true">{shortName(p.title)}</span>
+            <span className={`lab${mode === 'scatter' && at && (layout.phone ? at.side === 'left' : at.x > width - 240) ? ' flip' : ''}`}
+              style={layout.phone && at?.room ? { maxWidth: at.room } : undefined} aria-hidden="true">{shortName(p.title)}</span>
           </a>
         );
       })}
@@ -150,7 +183,7 @@ export default function ProjectStage({ projects, mode, filter }) {
 
       {mode === 'scatter' && (
         <div className={`v2-peek${peeked ? ' on' : ''}`} style={peek ? { left: peek.x, top: peek.y } : undefined} aria-hidden="true">
-          {peeked && (<><img src={v2img(peeked.image)} alt="" /><div><b>{peeked.title}</b><p>{peeked.description.slice(0, 150)}…</p></div></>)}
+          {peeked && (<><img src={v2img(peeked.image)} alt="" /><div><b>{peeked.title}</b><p>{peeked.description.slice(0, 150)}…</p>{layout?.phone && <span className="again">Tap the dot again to open ↗</span>}</div></>)}
         </div>
       )}
     </div>

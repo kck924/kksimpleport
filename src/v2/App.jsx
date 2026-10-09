@@ -23,7 +23,8 @@ export default function App() {
   const [mode, setMode] = useState(readView);
   const [filter, setFilter] = useState('all');
   const [stuck, setStuck] = useState(false);
-  const [past, setPast] = useState(false);  // scrolled beyond the end of the projects
+  const [past, setPast] = useState(false);
+  const [inCareer, setInCareer] = useState(false);  // scrolled beyond the end of the projects
   // the floating header only carries the project controls while you're in the projects, and never in the grid (whose
   // own heading and controls stick there instead)
   const [docked, setDocked] = useState(false);
@@ -47,6 +48,8 @@ export default function App() {
       r = 0;
       setStuck(sentinel.current.getBoundingClientRect().top < 64);
       setPast(endSentinel.current.getBoundingClientRect().top < 64);
+      const c = document.querySelector('.v2-career')?.getBoundingClientRect();
+      setInCareer(!!c && c.top < 64 && c.bottom > 120);
     };
     const onScroll = () => { if (!r) r = requestAnimationFrame(check); };
     check();
@@ -124,7 +127,8 @@ export default function App() {
 
   return (
     <div className="v2">
-      <FloatingHeader docked={docked} stuck={stuck && !past && mode !== 'grid'} slotRef={logoSlot} onTop={() => scrollTo({ top: 0, behavior: smooth() })} {...controls} />
+      {/* on phones the header slides away while a section's own sticky heading is up, so only one bar takes the screen */}
+      <FloatingHeader docked={docked} yieldTo={(stuck && !past && mode === 'grid') || inCareer} stuck={stuck && !past && mode !== 'grid'} slotRef={logoSlot} onTop={() => scrollTo({ top: 0, behavior: smooth() })} {...controls} />
       <div className="v2-wrap">
         <header className="v2-hero">
           <div className="v2-herorow">
@@ -143,6 +147,11 @@ export default function App() {
             <div className="v2-clocks" style={{ '--at': `${CLOCKS_AT}ms` }}>
               <MsClock start="2017-01-10" label="Time at Microsoft" />
               <MsClock start="2022-10-01" label="Time in role" />
+              {/* touch screens can't hover the rings for their tooltips, so they get a key */}
+              <div className="v2-ringkey" aria-hidden="true">
+                {[['#a78bfa', 'months'], ['#4ade80', 'days'], ['#fb923c', 'hour'], ['#f472b6', 'min'], ['#fbbf24', 'sec']].map(([c, l]) => <span key={l} style={{ '--c': c }}><i />{l}</span>)}
+                <span><i className="yr" />years</span>
+              </div>
             </div>
           </div>
           <button ref={cue} type="button" className="v2-cue" onClick={() => projects.current.scrollIntoView({ behavior: smooth(), block: 'start' })}>
@@ -171,7 +180,7 @@ export default function App() {
           <div ref={sentinel} className="v2-sentinel" aria-hidden="true" />
           <ProjectStage projects={PROJECTS} mode={mode} filter={filter} />
           {mode === 'scatter' && (
-            <p className="v2-source"><b>Note</b> Vertical position is by category, not a measured score. <b>Source</b> kckdata.com project log</p>
+            <p className="v2-source"><b>Note</b> <span className="v2-desk">Vertical position</span><span className="v2-phone">Column</span> is by category, not a measured score. <b>Source</b> kckdata.com project log</p>
           )}
           <div ref={endSentinel} className="v2-sentinel" aria-hidden="true" />
         </section>
@@ -181,7 +190,7 @@ export default function App() {
         <section className="v2-career" aria-label="Professional timeline">
           <div className="v2-kicker">The career <span>2010 – now</span></div>
           <CareerSpiral />
-          <p className="v2-source"><b>Note</b> Straightened, each step is one move, not a measured scale. Hover a stop for the story.</p>
+          <p className="v2-source"><b>Note</b> Straightened, each step is one move, not a measured scale. <span className="v2-desk">Hover</span><span className="v2-phone">Tap</span> a stop for the story.</p>
         </section>
 
         <BrandsMarquee />

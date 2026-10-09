@@ -437,7 +437,6 @@ a { color: inherit; }
   .v2-clocks { gap: 18px; width: 100%; justify-content: space-around; }
   .v2-clock svg { width: 112px; height: 112px; }
   .v2-clock-years { gap: 3px; } .v2-clock-years i { width: 7px; height: 7px; }
-  .scatter .v2-tile .lab { display: none; }
   .v2-scrawl { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -493,3 +492,104 @@ a { color: inherit; }
 .v2-cs .ring { stroke: rgba(255,255,255,.045); }
 .v2-cs .spoke { stroke: rgba(255,255,255,.05); stroke-dasharray: none; }
 .v2-axes .tick, .v2-cs .tick, .v2-cs .mo { font-family: var(--mono); }
+
+/* ======================================================================================================================
+   Phones (under 640px): layouts made for a tall, touch-only screen rather than shrunk from desktop.
+   ==================================================================================================================== */
+.v2-tile .tnote { display: none; }
+.v2-phone { display: none; }
+@media (max-width: 639px) { .v2-phone { display: inline; } .v2-desk { display: none; } }
+@media (max-width: 639px) {
+  /* -- vertical scatter: time runs down, kinds are columns, every dot labelled -- */
+  .v2-axes.phone .tick { left: 0; text-align: right; font: 500 .75rem/1 var(--mono); color: var(--ink-3); white-space: nowrap; }
+  .v2-axes.phone .colh { position: absolute; top: 34px; translate: -50% 0; font: 600 .72rem/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--c); white-space: nowrap; }
+  .v2-axes.phone .colh:first-of-type { translate: -20% 0; }
+  .v2-axes.phone .colh:last-of-type { translate: -80% 0; }
+  .v2-axes.phone .ttl.dir { position: absolute; top: 2px; display: flex; justify-content: space-between; font: 400 1.1rem/1 var(--hand); color: var(--ink-2); animation: v2-write .55s ease-out .4s both; }
+  .scatter .v2-tile .lab { white-space: normal; width: max-content; font-size: 1.05rem; line-height: 1.05; color: color-mix(in srgb, var(--c) 18%, #fff); }
+  .v2-tile .lab.flip { text-align: right; }
+  .scatter .v2-tile > .lab { pointer-events: auto; }        /* the label is part of the link: tap it or the dot */
+  .scatter .v2-tile::after { inset: -11px; opacity: 0; }    /* a fingertip-sized hit area around the 22px dot */
+  .scatter .v2-tile { pointer-events: auto; }
+  .v2-peek { width: 100%; left: 0 !important; }
+  .v2-peek img { height: 150px; }
+  .v2-peek p { font-size: .88rem; }
+
+  /* -- grid as a feed: one featured card, then compact rows; descriptions always visible -- */
+  .grid .v2-tile { border-radius: 16px; }
+  .grid .v2-tile.feat img, .grid .v2-tile.row img { opacity: 1; z-index: 0; }
+  .grid .v2-tile.feat img { inset: 0 0 auto 0; height: 160px; }
+  .grid .v2-tile.row img { inset: 0 auto 0 0; width: 108px; height: 100%; object-position: top left; }
+  .grid .v2-tile.feat::before, .grid .v2-tile.row::before { display: none; }
+  .grid .v2-tile.feat .body { top: 160px; padding: 14px 16px 14px; backdrop-filter: none; -webkit-backdrop-filter: none; mask-image: none; -webkit-mask-image: none; background: var(--panel-2); }
+  .grid .v2-tile.row .body > * { flex-shrink: 0; }
+  .grid .v2-tile.row .body { top: 0; left: 108px; padding: 12px 14px; display: flex; flex-direction: column; backdrop-filter: none; -webkit-backdrop-filter: none; mask-image: none; -webkit-mask-image: none; background: var(--panel-2); }
+  .grid .v2-tile .cat { font-size: .68rem; }
+  .grid .v2-tile h3 { margin-top: 6px; font-size: 1.02rem; line-height: 1.22; text-shadow: none; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .grid .v2-tile.feat h3 { font-size: 1.3rem; }
+  .grid .v2-tile .desc { max-height: none; margin-top: 5px; font-size: .84rem; line-height: 1.4; color: var(--ink-2); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .grid .v2-tile.row .desc { -webkit-line-clamp: 2; }
+  .grid .v2-tile.feat .desc { -webkit-line-clamp: 3; }
+  .grid .v2-tile .meta { margin-top: auto; padding-top: 6px; font-size: .72rem; }
+  .grid .v2-tile.feat .meta { margin-top: 8px; }
+  .grid .v2-tile .go { opacity: 1; color: var(--cyan); }
+  .grid .v2-tile.row h3 + .desc { -webkit-line-clamp: 2; }
+  .grid .v2-tile .tnote { display: block; position: absolute; right: 12px; top: 10px; font: 400 1.05rem/1 var(--hand); color: var(--green); -webkit-text-stroke: .6px currentColor; paint-order: stroke fill; rotate: -3deg; }
+  .grid .v2-tile.row .tnote { position: static; margin-top: 4px; rotate: -1.5deg; align-self: flex-start; }
+  .grid .v2-tile:hover img { transform: none; }
+  .v2-scrawl { display: none; }   /* the note rides inside its card instead */
+}
+
+/* ---------- phones, part 2: one sticky bar at a time, a compact sticky spiral, readable small type ---------- */
+.v2-ringkey { display: none; }
+@media (max-width: 639px) {
+  .v2-float { transition: transform .3s var(--ease); }
+  .v2-float.yield { transform: translateY(-100%); pointer-events: none; }
+  .v2-phead.sticky, .v2-cs-head { top: 0; }
+  .v2-phead.sticky { padding-top: 10px; }
+
+  /* hero: the dial key, and nothing smaller than 12px */
+  .v2-clocks { flex-wrap: wrap; }
+  .v2-ringkey { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 12px; width: 100%; font: 500 .75rem/1 var(--mono); color: var(--ink-3); }
+  .v2-ringkey span { display: inline-flex; align-items: center; gap: 5px; }
+  .v2-ringkey i { width: 9px; height: 9px; border-radius: 50%; border: 3px solid var(--c); }
+  .v2-ringkey i.yr { border: 0; width: 7px; height: 7px; background: var(--cyan); }
+  .v2-logo .tick { display: none; }
+  .v2-lbl { font-size: .72rem; }
+  .v2-contact a { padding: 11px 14px; }
+
+  /* interlude: a beat, not two screens */
+  .v2-inter { height: 150vh; }
+
+  /* career: the spiral stays stuck under the heading while the list scrolls past it */
+  .v2-cs.narrow .v2-cs-stage { margin-top: 8px; }
+  .v2-cs.narrow .v2-cs-host { position: sticky; top: 54px; z-index: 5; background: var(--bg); padding-bottom: 6px;
+    box-shadow: 0 10px 14px -6px var(--bg); }
+  .v2-cs.narrow .mo, .v2-cs.narrow .yr, .v2-cs.narrow .v2-cs-focus, .v2-cs.narrow .v2-cs-year { display: none; }
+  .v2-cs.narrow .centre { font-size: 18px; }
+  .v2-cs-list .grp ol li { scroll-margin-top: 340px; }
+  .v2-cs-list li.hot .txt { background: rgba(255,255,255,.06); }
+  .v2-cs-list small, .v2-source, .v2-kicker { font-size: .75rem; }
+  .v2-cs-list .blurb { font-size: .88rem !important; }
+}
+@media (max-width: 639px) {
+  /* touch targets: at least 40px tall (the visual stays compact; padding does the work) */
+  .v2-chip, .v2-views button, .v2-controls.compact .v2-chip, .v2-controls.compact .v2-views button { min-height: 40px; }
+  .v2-views { padding: 3px; }
+  .v2 .v2-contact a { min-height: 42px; display: inline-flex; align-items: center; }
+  .v2-float-id { min-height: 44px; }
+  .v2-cs-head .v2-cs-swap { min-height: 40px; }
+  /* small type floor: 12px */
+  .v2-chip small, .v2-axes.phone .colh, .grid .v2-tile .cat, .grid .v2-tile .meta, .v2-cs-list .n { font-size: .75rem; }
+  .v2-views button { font-size: .8rem; }
+  .v2-cs .badge text { font-size: 12px; }
+}
+@media (max-width: 639px) {
+  .v2-controls.compact .v2-views button { font-size: .8rem; }
+  .v2-phead.sticky .v2-views button { padding: 8px 13px; }
+  .v2-float-id { min-width: 44px; }
+}
+@media (max-width: 639px) {
+  .v2-axes.phone .ttl.dir span { font: 400 1.15rem/1 var(--hand); color: var(--ink-2); -webkit-text-stroke: .5px currentColor; paint-order: stroke fill; }
+  .v2-peek .again { display: block; margin-top: 10px; font: 500 .78rem/1 var(--mono); color: var(--cyan); }
+}

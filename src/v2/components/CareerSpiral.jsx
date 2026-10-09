@@ -80,7 +80,7 @@ export default function CareerSpiral() {
       if (W === lastW && vh === lastH) return;
       lastW = W; lastH = vh;
       // side by side only when the 640px spiral and a readable list both fit; otherwise the list stacks underneath
-      const narrow = W < 1060, H = narrow ? Math.min(W, 520) : 640;
+      const narrow = W < 1060, phone = W < 640, H = phone ? Math.min(W, 270) : narrow ? Math.min(W, 520) : 640;  // phones: a compact spiral that stays in view
       const cx = narrow ? W / 2 : H / 2, cy = H / 2, A = (narrow ? Math.min(W, H) : H) / 2 - 34, R0 = A * 0.15, STEP = (A - R0) / ((NOW - T0) / 12);
       const spiral = m => { const a = ((m % 12) / 12) * 2 * Math.PI - Math.PI / 2, r = R0 + (m - T0) / 12 * STEP; return [cx + r * Math.cos(a), cy + r * Math.sin(a)]; };
       const L = 16, R = narrow ? 18 : 40, T = 56, B = 44, t1 = NOW + 8;
@@ -142,8 +142,9 @@ export default function CareerSpiral() {
         el('circle', { class: 'halo', r: 10, fill: 'none', stroke: e.color }, g);  // ripples out while the event is hovered
         el('circle', { r: 10, fill: e.color }, g);
         el('text', {}, g).textContent = i + 1;
-        g.addEventListener('pointerenter', () => setHot(i));
-        g.addEventListener('pointerleave', () => setHot(null));
+        g.addEventListener('pointerenter', ev => { if (ev.pointerType !== 'touch') setHot(i); });
+        g.addEventListener('pointerleave', ev => { if (ev.pointerType !== 'touch') setHot(null); });
+        g.addEventListener('click', () => setHot(h => (h === i ? null : i)));  // touch: tap to select
         return { g, pos, sp: spiral(e.at), st: [sx(e.at), sy(e.level)] };
       });
       runsRef.current = runs;
@@ -202,6 +203,23 @@ export default function CareerSpiral() {
     addEventListener('resize', build);
     return () => { ro.disconnect(); removeEventListener('resize', build); cancelAnimationFrame(raf.current); };
   }, []);
+
+  // phones: the spiral stays stuck above the list, and whichever stop is at reading height lights up on it as you scroll
+  useEffect(() => {
+    if (!layout.narrow || layout.pinned || matchMedia('(min-width: 640px)').matches) return undefined;
+    let r = 0;
+    const pick = () => {
+      r = 0;
+      const box = list.current.getBoundingClientRect(), line = innerHeight * 0.62;
+      if (box.top > line || box.bottom < line - 40) return;
+      let best = null, bd = 1e9;
+      list.current.querySelectorAll('.grp ol li').forEach(li => { const b = li.getBoundingClientRect(), d = Math.abs((b.top + b.bottom) / 2 - line); if (d < bd) { bd = d; best = li; } });
+      if (best) setHot(+best.dataset.i);
+    };
+    const on = () => { if (!r) r = requestAnimationFrame(pick); };
+    addEventListener('scroll', on, { passive: true });
+    return () => { removeEventListener('scroll', on); cancelAnimationFrame(r); };
+  }, [layout.narrow, layout.pinned]);
 
   // hovering an event (its marker or its list entry) spotlights it on the chart: the rest dims, its stretch of the arm
   // gets a light running along it, its marker ripples, and its dates show in the corner. Event 0 is the degree (no
@@ -294,8 +312,9 @@ export default function CareerSpiral() {
                 </div>
                 <ol>
                   {g.events.map(e => (
-                    <li key={e.at} className={hot === e.i ? 'hot' : undefined} data-at={e.at} data-rail={RAIL.li[e.i]} style={{ '--c': e.color }}
-                      onPointerEnter={() => setHot(e.i)} onPointerLeave={() => setHot(null)}>
+                    <li key={e.at} className={hot === e.i ? 'hot' : undefined} data-at={e.at} data-i={e.i} data-rail={RAIL.li[e.i]} style={{ '--c': e.color }}
+                      onPointerEnter={ev => { if (ev.pointerType !== 'touch') setHot(e.i); }} onPointerLeave={ev => { if (ev.pointerType !== 'touch') setHot(null); }}
+                      onClick={() => setHot(h => (h === e.i ? null : e.i))}>
                       <span className="n">{e.i + 1}</span>
                       <span className="txt"><b>{e.title}</b><small>{e.sub}<em>{e.len}</em></small>{e.blurb && <span className="blurb">{e.blurb}</span>}</span>
                     </li>
