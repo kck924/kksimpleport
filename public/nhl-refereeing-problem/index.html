@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NHL has a refereeing problem and their own data shows it | Kevin Klein Data</title>
+<meta name="description" content="Two seasons of NHL play-by-play show referees evening up penalty calls: the next call goes to the team that&#x27;s been called less 60% of the time, and every regular referee does it.">
+<meta name="author" content="Kevin Klein">
+<link rel="canonical" href="https://kckdata.com/nhl-refereeing-problem/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Kevin Klein Data">
+<meta property="og:title" content="NHL has a refereeing problem and their own data shows it">
+<meta property="og:description" content="Two seasons of NHL play-by-play show referees evening up penalty calls: the next call goes to the team that&#x27;s been called less 60% of the time, and every regular referee does it.">
+<meta property="og:url" content="https://kckdata.com/nhl-refereeing-problem/">
+<meta property="og:image" content="https://kckdata.com/nhl-refereeing-problem/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="NHL has a refereeing problem and their own data shows it">
+<meta name="twitter:description" content="Two seasons of NHL play-by-play show referees evening up penalty calls: the next call goes to the team that&#x27;s been called less 60% of the time, and every regular referee does it.">
+<meta name="twitter:image" content="https://kckdata.com/nhl-refereeing-problem/og.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=DM+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a 538-style data-journalism article. Dark masthead carrying the KK scatterplot logo,
+   then one 720px reading column: kicker, heavy grotesk headline, byline, serif body, and charts
+   in the house style (bold title + grey subtitle above, grey plot panel, mono axes, SOURCE line).
+   Deliberately light-only, like 538. */
+:root {
+  color-scheme: light;
+  --bg: #ffffff;
+  --ink: #222222;
+  --ink-2: #555555;
+  --ink-3: #6f6f6f;
+  --rule: #d9d9d9;
+  --panel: #f0f0f0;
+  --surface: #f0f0f0;      /* chart surface: dot rings match the panel */
+  --tip-bg: #ffffff;
+  --grid: #d4d4d4;
+  --kicker: #b8321a;
+  --mast: #0d1117;
+  --s1: #008fd5;
+  --s2: #e8432a;
+  --s1-soft: rgba(0,143,213,.30);
+  --s2-soft: rgba(232,67,42,.30);
+  --font-head: "Libre Franklin", "Franklin Gothic Medium", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-mono: "DM Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 19px/1.6 var(--font-body); }
+
+.masthead { background: var(--mast); }
+.masthead-inner { max-width: 720px; margin: 0 auto; padding-inline: 20px; padding-block: 10px 6px; }
+.mast-link { display: block; width: min(100%, 460px); margin-inline: auto; color: inherit; border-radius: 4px; }
+.mast-link:focus-visible { outline: 2px solid #00d9ff; outline-offset: 4px; }
+#logo { display: block; width: 100%; height: auto; }
+
+.wrap { max-width: 720px; margin: 0 auto; padding-inline: 20px; padding-block: 36px 72px; }
+h1, h2 { font-family: var(--font-head); text-wrap: balance; margin: 0; color: #111; }
+h1 { font-size: clamp(2.1rem, 5.6vw, 3.1rem); font-weight: 800; line-height: 1.08; letter-spacing: -.015em; }
+h2 { font-size: 1.6rem; font-weight: 700; line-height: 1.2; letter-spacing: -.005em; }
+p { margin: 0; }
+a { color: var(--s1); text-underline-offset: 3px; }
+a:focus-visible { outline: 2px solid var(--s1); outline-offset: 2px; border-radius: 2px; }
+.kicker { font: 700 .78rem/1 var(--font-head); letter-spacing: .1em; text-transform: uppercase; color: var(--kicker); }
+header.stack { display: flex; flex-direction: column; gap: 16px; }
+.byline { font: 400 .82rem/1.5 var(--font-head); color: var(--ink-2); display: flex; flex-wrap: wrap; gap: 4px 14px;
+  padding-block: 10px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.byline b { color: var(--ink); font-weight: 700; }
+.intro { display: flex; flex-direction: column; gap: 20px; padding-top: 8px; }
+figure.shot { margin: 4px 0; padding: 0; max-width: 399px; }
+figure.shot img { display: block; width: 100%; height: auto; border-radius: 4px; }
+.shot-slot { border: 1px dashed var(--ink-3); padding: 28px 16px; text-align: center; font: 400 .8rem/1.4 var(--font-mono); color: var(--ink-3); }
+
+.tiles { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0 20px; margin-block: 40px 8px;
+  border-top: 3px solid #111; padding-top: 14px; }
+.tile { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.tile b { font: 800 2.2rem/1 var(--font-head); font-variant-numeric: tabular-nums; color: #111; letter-spacing: -.02em; }
+.tile b.hot { color: var(--kicker); }
+.tile span { font: 400 .78rem/1.4 var(--font-head); color: var(--ink-2); }
+@media (max-width: 640px) { .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; } }
+
+section.finding { display: flex; flex-direction: column; gap: 18px; padding-top: 44px; }
+.finding .tag { font: 500 .72rem/1 var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); }
+.finding .tag i { font-style: normal; }
+.read { font-size: .86rem; font-style: italic; line-height: 1.55; color: var(--ink-2); }
+.read strong { color: var(--ink); }
+.callout { border-left: 3px solid var(--s2); padding-left: 14px; }
+
+figure { margin: 10px 0 6px; padding: 0; position: relative; }
+.fig-title { font: 700 1.05rem/1.25 var(--font-head); color: #111; }
+.fig-sub { font: 400 .85rem/1.4 var(--font-head); color: var(--ink-2); margin-top: 4px; }
+.fig-head { margin-bottom: 12px; }
+.chart { width: 100%; position: relative; background: var(--panel); padding: 14px 10px 6px; }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chart text { font-family: var(--font-mono); font-size: 11px; fill: var(--ink-3); }
+.chart .lbl { font-family: var(--font-head); font-size: 12px; fill: #111; font-weight: 600; }
+.chart .axis-title { font-family: var(--font-head); font-size: 12px; fill: var(--ink-2); font-weight: 500; }
+.chart .gridline { stroke: var(--grid); stroke-width: 1; }
+.chart .baseline { stroke: #444; stroke-width: 1.5; stroke-dasharray: 5 4; fill: none; }
+.chart .hit { fill: transparent; cursor: crosshair; outline: none; }
+.chart .hit:focus-visible { stroke: var(--ink-3); stroke-width: 1; stroke-dasharray: 2 3; }
+.chart .hover-band { fill: #000; opacity: 0; pointer-events: none; }
+.chart .hover-band.on { opacity: .05; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font: 500 .8rem/1.3 var(--font-head); color: var(--ink-2); margin-bottom: 10px; }
+.legend span { display: inline-flex; align-items: center; gap: 7px; }
+.legend i { width: 18px; height: 3px; display: inline-block; }
+.fig-foot { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: baseline; padding-top: 8px;
+  font: 500 .68rem/1.4 var(--font-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+.fig-note { font: 400 .78rem/1.45 var(--font-head); color: var(--ink-3); padding-top: 8px; }
+.tip { position: absolute; pointer-events: none; z-index: 5; background: var(--tip-bg); color: var(--ink);
+  border: 1px solid var(--rule); box-shadow: 0 4px 14px rgba(0,0,0,.12); border-radius: 3px;
+  padding: 8px 10px; font: 400 .78rem/1.4 var(--font-head); min-width: 150px; max-width: 240px; }
+.tip .t { font: 500 .68rem/1.2 var(--font-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); margin-bottom: 4px; }
+.tip .row { display: flex; align-items: center; gap: 8px; }
+.tip .row i { width: 12px; height: 3px; flex: none; }
+.tip .row b { font-variant-numeric: tabular-nums; font-weight: 700; }
+.tip .row em { font-style: normal; color: var(--ink-3); font-size: .72rem; }
+
+details.tbl { margin-top: 4px; }
+details.tbl summary { cursor: pointer; color: var(--ink-2); font: 500 .7rem/1 var(--font-mono); letter-spacing: .06em; text-transform: uppercase; padding-block: 6px; }
+details.tbl summary:focus-visible { outline: 2px solid var(--s1); outline-offset: 2px; }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font: 400 .8rem/1.4 var(--font-head); font-variant-numeric: tabular-nums; }
+th, td { text-align: right; padding: 6px 10px; border-bottom: 1px solid var(--rule); white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; }
+th { font-weight: 700; color: #111; font-size: .7rem; text-transform: uppercase; letter-spacing: .05em; border-bottom: 2px solid #111; }
+
+.closing { padding-top: 48px; }
+.closing p { font-size: 1.1rem; }
+footer { margin-top: 48px; padding-top: 14px; border-top: 3px solid #111; font: 400 .78rem/1.5 var(--font-head); color: var(--ink-3); }
+@media (max-width: 520px) { body { font-size: 17.5px; } h2 { font-size: 1.4rem; } }
+@media (prefers-reduced-motion: no-preference) { .chart .hover-band { transition: opacity .12s; } }
+</style>
+</head>
+<body>
+<div class="masthead"><div class="masthead-inner">
+  <a class="mast-link" href="/" aria-label="Kevin Klein Data home"><svg id="logo" viewBox="0 0 460 92" role="img" aria-label="Kevin Klein, drawn as a scatterplot"></svg></a>
+</div></div>
+<div class="wrap">
+
+<header class="stack">
+  <div class="kicker">NHL · Officiating</div>
+  <h1>NHL has a refereeing problem and their own data shows it</h1>
+  <div class="byline"><span>By <b>Kevin Klein</b></span><span>Oct. 3, 2026</span><span>Data: NHL play-by-play, 2024-25 and 2025-26 regular seasons</span></div>
+  <div class="intro">
+    <p>Last night I watched my Washington Capitals open their 2026-2027 campaign. It was a satisfying romp over the defending Stanley Cup champion Carolina Hurricanes. The Caps raced out to a 4-0 lead early in the game, which prompted me to make the following comment in the Japers' Rink Discord (come hang out with us!).</p>
+    <figure class="shot"><img src="data:image/png;base64,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" width="399" height="128" alt="Discord comment in #caps-game-day-thread, yesterday at 8:14 PM: Time for some manufactured CAR PPs to try to keep things interesting."></figure>
+    <p>The comment proved prescient, because from that point onward the Capitals were whistled for 6 straight penalties, to Carolina's 1. It got me thinking that for this outcome, while admittedly an exaggerated example, to be so easily predictable is a strong indication that the NHL has a refereeing problem. To wit, the refs aren't out there simply evaluating whether players are infracting upon the rules, but are instead attempting to be arbiters of balance, and oftentimes imposing that balance when the players are not.</p>
+    <p>It is a behavior long understood by astute fans, and even <a href="https://www.espn.com/nhl/story/_/id/31127110/referee-tim-peel-banned-hot-mic-call-nashville-predators-penalty" target="_blank" rel="noopener">acknowledged on hot mics by referees in the past</a> (Spoiler alert: When Tim Peel was banned by the NHL in 2021 for being caught on a hot mic saying that he wanted to give the Nashville Predators a penalty early in the 2nd period, he wasn't banned for impropriety; he was banned for accidentally publicly confirming how referees think and what motivates their actions).</p>
+    <p>I wanted to take a look at just how pronounced this incredibly annoying tendency is, so I grabbed play-by-play data for all NHL games from the past two seasons, and took a look. Here are the findings.</p>
+  </div>
+</header>
+
+<div class="tiles" role="list">
+  <div class="tile" role="listitem"><b class="hot">60%</b><span>of calls go against the team with fewer penalties when the count gap is 1 (50% = no make-up effect)</span></div>
+  <div class="tile" role="listitem"><b>0.67</b><span>odds ratio per extra penalty: each one cuts the odds the next call goes against the opponent by 33%</span></div>
+  <div class="tile" role="listitem"><b>2.5</b><span>calls per 60 min in minutes 15–18 of the 3rd in close games, vs 5.4 in the 2nd period</span></div>
+  <div class="tile" role="listitem"><b>100%</b><span>of qualifying referees show statistically significant game management tendencies</span></div>
+</div>
+
+<section class="finding" id="evening-up">
+  <span class="tag">Finding 1</span>
+  <h2>Yes, the game's next call usually goes to the team that's been called less</h2>
+  <p>What the data bears out is that a team that has 1 fewer penalty called against them than their opponent has the next penalty called on them <strong>60%</strong> of the time. If the gap between them and their opponent is 2 penalties, that number jumps to <strong>69%</strong>. If the gap is 3 or more, it jumps to <strong>76%</strong>.</p>
+  <p class="read">These are model-adjusted for score, game time, strength on the ice and season, and averaged over home and away. The raw shares are almost identical (61% at a gap of 1, n = 5,021), so the adjustment isn't driving the result. The pattern holds when all strength-changing penalties are included (13,863 calls).</p>
+  <figure>
+    <div class="fig-head"><div class="fig-title">The team called less gets the next call</div><div class="fig-sub">Probability the next discretionary minor goes against the team with fewer penalties, by penalty-count gap</div></div>
+    <div class="chart" id="c-fewer" role="img" aria-label="Probability the next call goes against the team with fewer penalties, by penalty-count gap"></div>
+    <div class="fig-note">Dots: model estimate with 95% interval. Hollow rings: raw share. Dashed line: 50%, no make-up effect.</div>
+    <div class="fig-foot"><span>Source: NHL play-by-play</span><span>kckdata.com</span></div>
+    <details class="tbl"><summary>Show table</summary><div class="scroll" id="t-fewer"></div></details>
+  </figure>
+</section>
+
+<section class="finding" id="rates">
+  <span class="tag">Finding 2</span>
+  <h2>The trend is even more pronounced in rates</h2>
+  <p>Let's take a look at this using rates, which controls for how long various teams spend in each state. The way to read the below plot is that a team with one fewer penalty than its opponent is called <strong>2.85</strong> times per 60 minutes, versus <strong>2.20</strong> times per 60 when the penalty distribution is even. This is a perfectly clean trend from a penalty differential of -3 up to +3. That's a clean fingerprint of referee influence.</p>
+  <figure>
+    <div class="fig-head"><div class="fig-title">Fewer penalties so far, more calls against</div><div class="fig-sub">Discretionary minors called against a team per 60 minutes, by its penalties minus its opponent's</div></div>
+    <div class="chart" id="c-pd" role="img" aria-label="Calls against a team per 60 minutes by that team's penalty differential"></div>
+    <div class="fig-note">Discretionary minors against a team per 60 minutes, by that team's penalties minus its opponent's so far. ±3 includes larger gaps. Empty-net time and overtime are excluded.</div>
+    <div class="fig-foot"><span>Source: NHL play-by-play</span><span>kckdata.com</span></div>
+    <details class="tbl"><summary>Show table</summary><div class="scroll" id="t-pd"></div></details>
+  </figure>
+</section>
+
+<section class="finding" id="late">
+  <span class="tag">Finding 3</span>
+  <h2>Refs swallow the whistle at the end of close games</h2>
+  <p>So how does this bear out over the course of a game? Well, simply put, the likelihood of a penalty being called decreases as the game goes on. Do you believe the likelihood of a player actually infracting upon the rules decreases as the game goes on? I don't, and so I'd hypothesize that this is again referee game management influence.</p>
+  <p class="read">The last two minutes are too sparse to read. In close games most of that time is played with an empty net, which is excluded because it's a different game state. Hover over the intervals there to see how wide they are.</p>
+  <figure>
+    <div class="fig-head"><div class="fig-title">Fewer whistles late in the third</div><div class="fig-sub">Discretionary minors per 60 minutes, both teams, by game time</div></div>
+    <div class="legend" id="lg-late"></div>
+    <div class="chart" id="c-late" role="img" aria-label="Total call rate per 60 minutes by game time, close versus not-close games"></div>
+    <div class="fig-note">Model-adjusted rate for both teams combined, with 95% intervals, holding strength mix and season at their observed values.</div>
+    <div class="fig-foot"><span>Source: NHL play-by-play</span><span>kckdata.com</span></div>
+    <details class="tbl"><summary>Show table</summary><div class="scroll" id="t-late"></div></details>
+  </figure>
+  <p>Make-up calling also fades as the game goes on.</p>
+  <p class="read">The penalty-differential slope is steepest in the 1st period (-0.63 log-odds per penalty) and flattest in the final two minutes (-0.15). It isn't stronger in close games: the interaction is -0.04 (p = 0.21).</p>
+  <figure>
+    <div class="fig-head"><div class="fig-title">Make-up calling fades as the game goes on</div><div class="fig-sub">Strength of the evening-up effect by game time (log-odds per penalty of differential)</div></div>
+    <div class="chart" id="c-slope" role="img" aria-label="Evening-up slope by game time"></div>
+    <div class="fig-note">Change in log-odds that the call goes against the home team per +1 home penalty differential, with 95% intervals. Further below zero means stronger make-up calling. Zero means none.</div>
+    <div class="fig-foot"><span>Source: NHL play-by-play</span><span>kckdata.com</span></div>
+    <details class="tbl"><summary>Show table</summary><div class="scroll" id="t-slope"></div></details>
+  </figure>
+</section>
+
+<section class="finding" id="score">
+  <span class="tag">Finding 4</span>
+  <h2>Leading teams get called more</h2>
+  <p>Calls go against the leading team <strong>54%</strong> of the time with a one-goal lead and <strong>56%</strong> of the time with a two goal lead. I represent it as a rate in the plot below, which interestingly shows pretty minor effects in penalty call rate for a team that is down in a game to tied, versus a pronounced effect for teams with the lead, and as that lead gets larger. Now it's fair to note that trailing teams push play, hold the puck more, and ostensibly as a result of that draw more real penalties.</p>
+  <p class="read callout">That part is behaviour on the ice, not necessarily the referee, so the penalty-count effect in Finding 1 is better evidence of what referees do. Home teams took 47.9% of all calls.</p>
+  <figure>
+    <div class="fig-head"><div class="fig-title">Leading teams are called more</div><div class="fig-sub">Discretionary minors called against a team per 60 minutes, by its goal differential</div></div>
+    <div class="chart" id="c-sd" role="img" aria-label="Calls against a team per 60 minutes by that team's goal differential"></div>
+    <div class="fig-note">Discretionary minors against a team per 60 minutes, by that team's goal differential. ±3 includes larger leads.</div>
+    <div class="fig-foot"><span>Source: NHL play-by-play</span><span>kckdata.com</span></div>
+    <details class="tbl"><summary>Show table</summary><div class="scroll" id="t-sd"></div></details>
+  </figure>
+</section>
+
+<section class="finding" id="referees">
+  <span class="tag">Finding 5</span>
+  <h2>All referees do this</h2>
+  <p>There are 33 referees who have worked at least 100 games in the NHL over the last two years. All 33 of them show a statistically significant behavior towards using penalties to balance the game. Francis Charron has the highest estimate, but that estimate's interval overlaps every other referee's, so the data can't single out any one referee.</p>
+  <p class="read">Their estimated slopes run from -0.31 to -0.51 around a league value of -0.42: roughly 58% to 63% of calls going against the team with fewer penalties at a 1-penalty gap. Each referee's estimate is pulled toward that league value, which is part of why every one clears zero. The spread between referees (SD 0.10) is about a quarter of the average effect.</p>
+  <p class="read">Crews aren't fixed: the 2,612 games used 732 different referee pairs, and only 1 pair worked 15+ games together. So crew-level estimates would mostly reflect noise. Individual referees are the meaningful unit.</p>
+  <figure>
+    <div class="fig-head"><div class="fig-title">Every regular referee evens up</div><div class="fig-sub">Estimated evening-up effect per referee, 100+ games, 2024-25 and 2025-26</div></div>
+    <div class="chart" id="c-refs" role="img" aria-label="Shrunken evening-up slope by referee"></div>
+    <div class="fig-note">Shrunken estimate per referee with 95% interval. Dashed line: league average. Further left means stronger make-up calling. Hover over a referee to see games, calls and home lean.</div>
+    <div class="fig-foot"><span>Source: NHL play-by-play</span><span>kckdata.com</span></div>
+    <details class="tbl"><summary>Show table</summary><div class="scroll" id="t-refs"></div></details>
+  </figure>
+</section>
+
+<section class="closing" id="wrap-up">
+  <p>Well, there you have it. There are enough confounding factors related to how teams' quality of play changes based on the score state that I couldn't call this proof, but to me it's pretty weighty confirmation of my observation that NHL referees adversely affect fair play by dictating penalty calls not only on what is happening presently in play, but also by what has already happened in play. But you already knew that, didn't you?</p>
+</section>
+
+<footer class="meta">Data: NHL public play-by-play and game officials, 2024-25 and 2025-26 regular seasons (2,612 games). Analysis by Kevin Klein.</footer>
+</div>
+
+<script id="data" type="application/json">{"fewer": [{"gap": "1", "p_against_fewer": 0.6001768906, "approx_lo": 0.5804676725, "approx_hi": 0.6206767461, "raw": 0.6070503884, "n": 5021}, {"gap": "2", "p_against_fewer": 0.686584226, "approx_lo": 0.6528069267, "approx_hi": 0.7165726096, "raw": 0.6917808219, "n": 1898}, {"gap": "3+", "p_against_fewer": 0.7640549921, "approx_lo": 0.7101438105, "approx_hi": 0.8121656489, "raw": 0.7726523888, "n": 607}], "leader": [{"lead": "1", "p_against_leader": 0.5392901616, "approx_lo": 0.5196776687, "approx_hi": 0.5590642797}, {"lead": "2", "p_against_leader": 0.5634912197, "approx_lo": 0.5338987853, "approx_hi": 0.5932312442}, {"lead": "3+", "p_against_leader": 0.5574276525, "approx_lo": 0.5213245739, "approx_hi": 0.5933112802}], "slopes": [{"time_bucket": "P1", "pdiff_logodds_slope_nonclose": -0.6260847336, "se": 0.0560054117}, {"time_bucket": "P2", "pdiff_logodds_slope_nonclose": -0.3843524465, "se": 0.0320373764}, {"time_bucket": "P3 0-10", "pdiff_logodds_slope_nonclose": -0.3328030874, "se": 0.0376754995}, {"time_bucket": "P3 10-15", "pdiff_logodds_slope_nonclose": -0.2425535531, "se": 0.0511199174}, {"time_bucket": "P3 15-18", "pdiff_logodds_slope_nonclose": -0.306258179, "se": 0.0704154751}, {"time_bucket": "P3 18-20", "pdiff_logodds_slope_nonclose": -0.147750049, "se": 0.080733091}], "by_pd": [{"team_pen_diff": "-3", "estimate": 4.1178023183, "lo": 3.7496086188, "hi": 4.4703087932}, {"team_pen_diff": "-2", "estimate": 3.5675492722, "lo": 3.3840906743, "hi": 3.7755595768}, {"team_pen_diff": "-1", "estimate": 2.8537802441, "lo": 2.7513654605, "hi": 2.9556821549}, {"team_pen_diff": "0", "estimate": 2.1950789244, "lo": 2.1356913508, "hi": 2.2615146037}, {"team_pen_diff": "1", "estimate": 1.9011485696, "lo": 1.8210520967, "hi": 1.9855277945}, {"team_pen_diff": "2", "estimate": 1.6107871157, "lo": 1.4814423039, "hi": 1.7515805269}, {"team_pen_diff": "3", "estimate": 1.2228491281, "lo": 1.0100306215, "hi": 1.468155044}], "by_sd": [{"team_score_diff": "-3", "estimate": 2.2143709088, "lo": 2.0524125518, "hi": 2.399145498}, {"team_score_diff": "-2", "estimate": 2.2179493245, "lo": 2.0847168502, "hi": 2.360317096}, {"team_score_diff": "-1", "estimate": 2.1231695688, "lo": 2.0313311023, "hi": 2.2165284894}, {"team_score_diff": "0", "estimate": 2.21157154, "lo": 2.143993591, "hi": 2.2867764276}, {"team_score_diff": "1", "estimate": 2.5598043277, "lo": 2.462432317, "hi": 2.6616144439}, {"team_score_diff": "2", "estimate": 2.8267419133, "lo": 2.6717054473, "hi": 2.9919283491}, {"team_score_diff": "3", "estimate": 2.844466455, "lo": 2.6600178533, "hi": 3.0557539063}], "tbc": [{"time_bucket": "P1", "close": "close (|diff|<=1)", "estimate": 4.6041955841, "lo": 4.4544634837, "hi": 4.7400398783}, {"time_bucket": "P1", "close": "not close", "estimate": 5.3816118739, "lo": 4.9346377158, "hi": 5.9212139286}, {"time_bucket": "P2", "close": "close (|diff|<=1)", "estimate": 5.3791036014, "lo": 5.1954294606, "hi": 5.5786894229}, {"time_bucket": "P2", "close": "not close", "estimate": 5.6141585184, "lo": 5.3849046015, "hi": 5.9024042999}, {"time_bucket": "P3 0-10", "close": "close (|diff|<=1)", "estimate": 3.8892589447, "lo": 3.6763898751, "hi": 4.105583127}, {"time_bucket": "P3 0-10", "close": "not close", "estimate": 4.4927622334, "lo": 4.2242259446, "hi": 4.7822833169}, {"time_bucket": "P3 10-15", "close": "close (|diff|<=1)", "estimate": 3.1280629027, "lo": 2.7654154094, "hi": 3.568216588}, {"time_bucket": "P3 10-15", "close": "not close", "estimate": 4.1054013048, "lo": 3.6722078351, "hi": 4.6532010598}, {"time_bucket": "P3 15-18", "close": "close (|diff|<=1)", "estimate": 2.4839180968, "lo": 1.9528204714, "hi": 3.2132984019}, {"time_bucket": "P3 15-18", "close": "not close", "estimate": 3.3386900943, "lo": 2.7104244906, "hi": 4.0374810225}, {"time_bucket": "P3 18-20", "close": "close (|diff|<=1)", "estimate": 2.8859249975, "lo": 1.7793750099, "hi": 4.5995896012}, {"time_bucket": "P3 18-20", "close": "not close", "estimate": 2.7174075846, "lo": 1.9931942278, "hi": 3.7114197328}], "refs": [{"referee": "Francis Charron", "games": 149, "calls": 726, "pdiff_slope_total": -0.5124109542, "pdiff_slope_dev_sd": 0.082706407, "home_lean": 0.1387804182}, {"referee": "Peter MacDougall", "games": 139, "calls": 639, "pdiff_slope_total": -0.5088283783, "pdiff_slope_dev_sd": 0.0842011688, "home_lean": 0.0376852074}, {"referee": "Furman South", "games": 150, "calls": 654, "pdiff_slope_total": -0.5003843883, "pdiff_slope_dev_sd": 0.0852577957, "home_lean": 0.0781802779}, {"referee": "Pierre Lambert", "games": 148, "calls": 698, "pdiff_slope_total": -0.4714990374, "pdiff_slope_dev_sd": 0.0822655031, "home_lean": 0.0010581545}, {"referee": "Jordan Samuels-Thomas", "games": 105, "calls": 536, "pdiff_slope_total": -0.4656461506, "pdiff_slope_dev_sd": 0.0852927601, "home_lean": 0.0609899066}, {"referee": "Jean Hebert", "games": 135, "calls": 635, "pdiff_slope_total": -0.4628851768, "pdiff_slope_dev_sd": 0.0843428178, "home_lean": 0.0690500205}, {"referee": "Wes McCauley", "games": 150, "calls": 651, "pdiff_slope_total": -0.4625049972, "pdiff_slope_dev_sd": 0.083696789, "home_lean": 0.0354447275}, {"referee": "Carter Sandlak", "games": 142, "calls": 636, "pdiff_slope_total": -0.4594802348, "pdiff_slope_dev_sd": 0.083723619, "home_lean": -0.0356423139}, {"referee": "Chris Lee", "games": 142, "calls": 638, "pdiff_slope_total": -0.4579851561, "pdiff_slope_dev_sd": 0.0830687322, "home_lean": -0.0785636352}, {"referee": "Brandon Blandina", "games": 148, "calls": 687, "pdiff_slope_total": -0.4490750345, "pdiff_slope_dev_sd": 0.0814884994, "home_lean": -0.0803891692}, {"referee": "Kelly Sutherland", "games": 149, "calls": 687, "pdiff_slope_total": -0.4483377938, "pdiff_slope_dev_sd": 0.0829640936, "home_lean": 0.0585598169}, {"referee": "Kendrick Nicholson", "games": 149, "calls": 674, "pdiff_slope_total": -0.4360981666, "pdiff_slope_dev_sd": 0.0818566456, "home_lean": 0.0243877212}, {"referee": "Chris Rooney", "games": 108, "calls": 536, "pdiff_slope_total": -0.435545524, "pdiff_slope_dev_sd": 0.084762462, "home_lean": -0.0883570224}, {"referee": "Michael Markovic", "games": 147, "calls": 761, "pdiff_slope_total": -0.4302401419, "pdiff_slope_dev_sd": 0.079346092, "home_lean": -0.017134597}, {"referee": "Jon McIsaac", "games": 139, "calls": 613, "pdiff_slope_total": -0.4155533894, "pdiff_slope_dev_sd": 0.0828932788, "home_lean": -0.1513402535}, {"referee": "Thomas John Luxmore", "games": 149, "calls": 651, "pdiff_slope_total": -0.4132442432, "pdiff_slope_dev_sd": 0.0824944336, "home_lean": 0.1478725524}, {"referee": "Tom Chmielewski", "games": 136, "calls": 627, "pdiff_slope_total": -0.4119577794, "pdiff_slope_dev_sd": 0.0818492442, "home_lean": -0.03677965}, {"referee": "Brian Pochmara", "games": 116, "calls": 529, "pdiff_slope_total": -0.4097896668, "pdiff_slope_dev_sd": 0.0853769007, "home_lean": -0.0360678217}, {"referee": "Eric Furlatt", "games": 142, "calls": 666, "pdiff_slope_total": -0.4082122479, "pdiff_slope_dev_sd": 0.081069357, "home_lean": -0.0234304284}, {"referee": "Mitch Dunning", "games": 128, "calls": 605, "pdiff_slope_total": -0.4076266902, "pdiff_slope_dev_sd": 0.0832207302, "home_lean": 0.001450768}, {"referee": "Kyle Rehman", "games": 150, "calls": 748, "pdiff_slope_total": -0.4047107676, "pdiff_slope_dev_sd": 0.0798535776, "home_lean": 0.0547192613}, {"referee": "Graham Skilliter", "games": 150, "calls": 682, "pdiff_slope_total": -0.3998778491, "pdiff_slope_dev_sd": 0.0817350614, "home_lean": -0.0015400157}, {"referee": "Justin Kea", "games": 149, "calls": 693, "pdiff_slope_total": -0.3945901963, "pdiff_slope_dev_sd": 0.0817053543, "home_lean": 0.0271745077}, {"referee": "Jake Brenk", "games": 149, "calls": 739, "pdiff_slope_total": -0.3925903398, "pdiff_slope_dev_sd": 0.0788799958, "home_lean": -0.0952642886}, {"referee": "Frederick L'Ecuyer", "games": 148, "calls": 674, "pdiff_slope_total": -0.3755523247, "pdiff_slope_dev_sd": 0.081443103, "home_lean": 0.0531124307}, {"referee": "Garrett Rank", "games": 147, "calls": 687, "pdiff_slope_total": -0.3726786531, "pdiff_slope_dev_sd": 0.0806030721, "home_lean": 0.0012937887}, {"referee": "Cody Beach", "games": 147, "calls": 790, "pdiff_slope_total": -0.3499465774, "pdiff_slope_dev_sd": 0.0767959145, "home_lean": -0.0220343566}, {"referee": "Corey Syvret", "games": 148, "calls": 721, "pdiff_slope_total": -0.3483499655, "pdiff_slope_dev_sd": 0.0791844697, "home_lean": 0.0438346344}, {"referee": "Brandon Schrader", "games": 145, "calls": 671, "pdiff_slope_total": -0.3464053015, "pdiff_slope_dev_sd": 0.0801609317, "home_lean": -0.032930918}, {"referee": "Gord Dwyer", "games": 142, "calls": 689, "pdiff_slope_total": -0.3326369626, "pdiff_slope_dev_sd": 0.0801160981, "home_lean": -0.0173539404}, {"referee": "Trevor Hanson", "games": 148, "calls": 686, "pdiff_slope_total": -0.3178395813, "pdiff_slope_dev_sd": 0.0785944874, "home_lean": -0.19452351}, {"referee": "Francois St-Laurent", "games": 118, "calls": 564, "pdiff_slope_total": -0.3077481119, "pdiff_slope_dev_sd": 0.0828081211, "home_lean": 0.0483947692}, {"referee": "Chris Schlenker", "games": 121, "calls": 585, "pdiff_slope_total": -0.306233442, "pdiff_slope_dev_sd": 0.0812075395, "home_lean": -0.0654208811}], "fe": -0.4165874012505172}</script>
+<script>
+(function () {
+  const D = JSON.parse(document.getElementById("data").textContent);
+  const NS = "http://www.w3.org/2000/svg";
+  const pct = v => (100 * v).toFixed(1) + "%";
+  const f2 = v => (+v).toFixed(2);
+
+  function el(tag, attrs, parent) {
+    const e = document.createElementNS(NS, tag);
+    for (const k in attrs) e.setAttribute(k, attrs[k]);
+    if (parent) parent.appendChild(e);
+    return e;
+  }
+  function makeTip(host) {
+    const t = document.createElement("div");
+    t.className = "tip"; t.hidden = true; host.appendChild(t); return t;
+  }
+  function fillTip(tip, title, rows) {
+    tip.replaceChildren();
+    const h = document.createElement("div"); h.className = "t"; h.textContent = title; tip.appendChild(h);
+    for (const r of rows) {
+      const d = document.createElement("div"); d.className = "row";
+      if (r.color) { const i = document.createElement("i"); i.style.background = r.color; d.appendChild(i); }
+      const b = document.createElement("b"); b.textContent = r.value; d.appendChild(b);
+      if (r.label) { const s = document.createElement("em"); s.textContent = r.label; d.appendChild(s); }
+      tip.appendChild(d);
+    }
+  }
+  function placeTip(tip, host, x, y) {
+    tip.hidden = false;
+    const hw = host.clientWidth, tw = tip.offsetWidth, th = tip.offsetHeight;
+    let left = x + 14; if (left + tw > hw) left = x - tw - 14; if (left < 0) left = 0;
+    let top = y - th - 10; if (top < 0) top = y + 14;
+    tip.style.left = left + "px"; tip.style.top = top + "px";
+  }
+  function niceTicks(lo, hi, n) {
+    const span = hi - lo, step0 = span / n, mag = Math.pow(10, Math.floor(Math.log10(step0)));
+    const step = [1, 2, 2.5, 5, 10].map(m => m * mag).find(s => span / s <= n) || 10 * mag;
+    const out = []; for (let v = Math.ceil(lo / step) * step; v <= hi + 1e-9; v += step) out.push(+v.toFixed(6));
+    return out;
+  }
+  const css = name => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+
+  // Point-and-interval chart over ordinal categories, one or more series.
+  function pointChart(id, opt) {
+    const host = document.getElementById(id);
+    const tip = makeTip(host);
+    function draw() {
+      host.querySelectorAll("svg").forEach(s => s.remove());
+      const W = Math.max(300, host.clientWidth), H = opt.height || 280;
+      const m = { t: 14, r: opt.right || 56, b: 46, l: 54 };
+      const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "presentation" });
+      host.insertBefore(svg, tip);
+      const cats = opt.cats, n = cats.length;
+      const iw = W - m.l - m.r, ih = H - m.t - m.b;
+      const x = i => m.l + iw * (i + 0.5) / n;
+      const y = v => m.t + ih * (1 - (v - opt.yMin) / (opt.yMax - opt.yMin));
+      for (const tv of niceTicks(opt.yMin, opt.yMax, 5)) {
+        el("line", { x1: m.l, x2: W - m.r, y1: y(tv), y2: y(tv), class: "gridline" }, svg);
+        const tx = el("text", { x: m.l - 8, y: y(tv) + 4, "text-anchor": "end" }, svg);
+        tx.textContent = opt.yFmt(tv);
+      }
+      if (opt.ref != null) {
+        el("line", { x1: m.l, x2: W - m.r, y1: y(opt.ref), y2: y(opt.ref), class: "baseline" }, svg);
+        if (opt.refLabel) { const t = el("text", { x: W - m.r, y: y(opt.ref) - 6, "text-anchor": "end" }, svg); t.textContent = opt.refLabel; }
+      }
+      cats.forEach((c, i) => { const t = el("text", { x: x(i), y: H - m.b + 18, "text-anchor": "middle" }, svg); t.textContent = c; });
+      const xt = el("text", { x: m.l + iw / 2, y: H - 6, "text-anchor": "middle", class: "axis-title" }, svg); xt.textContent = opt.xTitle;
+      const yt = el("text", { x: 14, y: m.t + ih / 2, "text-anchor": "middle", class: "axis-title", transform: `rotate(-90 14 ${m.t + ih / 2})` }, svg); yt.textContent = opt.yTitle;
+      const bands = cats.map((c, i) => el("rect", { x: m.l + iw * i / n, y: m.t, width: iw / n, height: ih, class: "hover-band" }, svg));
+      const ends = [];
+      const S = opt.series, off = S.length > 1 ? Math.min(10, iw / n / 6) : 0;
+      S.forEach((s, si) => {
+        const dx = (si - (S.length - 1) / 2) * off, col = css(s.color), soft = css(s.soft);
+        const pts = s.est.map((v, i) => [x(i) + dx, y(v)]);
+        s.lo.forEach((lo, i) => el("line", { x1: pts[i][0], x2: pts[i][0], y1: y(lo), y2: y(s.hi[i]), stroke: soft, "stroke-width": 6, "stroke-linecap": "round" }, svg));
+        el("polyline", { points: pts.map(p => p.join(",")).join(" "), fill: "none", stroke: col, "stroke-width": 3, "stroke-linejoin": "round" }, svg);
+        if (s.raw) s.raw.forEach((v, i) => el("circle", { cx: pts[i][0] + 16, cy: y(v), r: 4.5, fill: css("--surface"), stroke: col, "stroke-width": 1.5 }, svg));
+        pts.forEach(p => el("circle", { cx: p[0], cy: p[1], r: 6, fill: col, stroke: css("--surface"), "stroke-width": 2 }, svg));
+        if (s.labels) s.est.forEach((v, i) => { const t = el("text", { x: pts[i][0] + (s.raw ? 26 : 10), y: pts[i][1] + 4, class: "lbl" }, svg); t.textContent = s.labels(v, i); });
+        if (s.endLabel) ends.push({ x: pts[n - 1][0] + 12, y: pts[n - 1][1] + 4, name: s.name });
+      });
+      // end labels: keep at least 15px apart vertically so converging series stay readable
+      ends.sort((a, b) => a.y - b.y);
+      for (let j = 1; j < ends.length; j++) if (ends[j].y - ends[j - 1].y < 15) {
+        const mid = (ends[j].y + ends[j - 1].y) / 2; ends[j - 1].y = mid - 7.5; ends[j].y = mid + 7.5;
+      }
+      ends.forEach(e => { const t = el("text", { x: e.x, y: e.y, class: "lbl" }, svg); t.textContent = e.name; });
+      cats.forEach((c, i) => {
+        const r = el("rect", { x: m.l + iw * i / n, y: m.t, width: iw / n, height: ih, class: "hit", tabindex: 0 }, svg);
+        r.setAttribute("aria-label", opt.tipTitle(c));
+        const show = (px, py) => {
+          bands.forEach((b, j) => b.classList.toggle("on", j === i));
+          fillTip(tip, opt.tipTitle(c), S.flatMap(s => opt.tipRows(s, i, css(s.color))));
+          placeTip(tip, host, px, py);
+        };
+        r.addEventListener("pointermove", e => { const b = host.getBoundingClientRect(); show(e.clientX - b.left, e.clientY - b.top); });
+        r.addEventListener("focus", () => { const sc = host.clientWidth / W; show(x(i) * sc, y(S[0].est[i]) * sc); });
+        const hide = () => { tip.hidden = true; bands.forEach(b => b.classList.remove("on")); };
+        r.addEventListener("pointerleave", hide); r.addEventListener("blur", hide);
+      });
+    }
+    draw();
+    return draw;
+  }
+
+  function table(id, cols, rows) {
+    const t = document.createElement("table"), th = t.createTHead().insertRow(), tb = t.createTBody();
+    cols.forEach(c => { const h = document.createElement("th"); h.textContent = c[0]; th.appendChild(h); });
+    rows.forEach(r => { const tr = tb.insertRow(); cols.forEach(c => { tr.insertCell().textContent = c[1](r); }); });
+    document.getElementById(id).appendChild(t);
+  }
+
+
+  // Masthead: "KEVIN KLEIN" as a scatterplot (port of the kckdata.com ScatterName logo)
+  (function logo() {
+    const svg = document.getElementById("logo"); if (!svg) return;
+    const P = {
+      K: ["10001","10010","10100","11000","10100","10010","10001"], E: ["11111","10000","10000","11110","10000","10000","11111"],
+      V: ["10001","10001","10001","10001","01010","01010","00100"], I: ["11111","00100","00100","00100","00100","00100","11111"],
+      N: ["10001","11001","10101","10101","10011","10011","10001"], L: ["10000","10000","10000","10000","10000","10000","11111"],
+      " ": ["000","000","000","000","000","000","000"],
+    };
+    const colors = ["#00d9ff", "#a78bfa", "#4ade80", "#fb923c", "#f472b6"];
+    let seed = 20261002; const rnd = () => ((seed = (seed * 1664525 + 1013904223) % 4294967296) / 4294967296);
+    const W = 460, H = 92, m = { l: 28, r: 28, t: 8, b: 10 }, iw = W - m.l - m.r, ih = H - m.t - m.b;
+    const g = el("g", { transform: `translate(${m.l},${m.t})` }, svg);
+    for (let v = 0; v <= 100; v += 25) {
+      const y = ih * (1 - v / 100);
+      el("line", { x1: 0, x2: iw, y1: y, y2: y, stroke: "rgba(255,255,255,.08)", "stroke-dasharray": "2,2" }, g);
+      if (v % 50 === 0) { const t = el("text", { x: -6, y: y + 3, "text-anchor": "end", fill: "rgba(255,255,255,.45)", "font-size": 8, "font-family": "DM Mono, monospace" }, g); t.textContent = v; }
+    }
+    for (let v = 0; v <= 100; v += 20) el("line", { x1: iw * v / 100, x2: iw * v / 100, y1: 0, y2: ih, stroke: "rgba(255,255,255,.08)", "stroke-dasharray": "2,2" }, g);
+    el("line", { x1: 0, x2: 0, y1: 0, y2: ih, stroke: "rgba(255,255,255,.4)" }, g);
+    el("line", { x1: 0, x2: iw, y1: ih, y2: ih, stroke: "rgba(255,255,255,.4)" }, g);
+    const name = "KEVIN KLEIN";
+    let units = 0; for (const ch of name) units += P[ch][0].length + 1; units -= 1;
+    const sp = Math.min((iw - 16) / units, (ih - 8) / 7), x0 = (iw - units * sp) / 2, y0 = (ih - 7 * sp) / 2;
+    const pts = []; let cx = x0;
+    for (const ch of name) {
+      const pat = P[ch];
+      pat.forEach((row, r) => [...row].forEach((on, c) => {
+        if (on === "1") pts.push({ x: cx + c * sp + (rnd() - .5) * 2, y: y0 + r * sp + (rnd() - .5) * 2, r: 1.6 + rnd() * 2.6,
+          fill: colors[Math.floor(rnd() * colors.length)], o: .7 + rnd() * .3, sx: rnd() * iw, sy: rnd() * ih });
+      }));
+      cx += (pat[0].length + 1) * sp;
+    }
+    const still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const dots = pts.map(p => el("circle", { cx: still ? p.x : p.sx, cy: still ? p.y : p.sy, r: p.r, fill: p.fill, opacity: p.o }, g));
+    if (still) return;
+    const t0 = performance.now(), dur = 1300, ease = t => 1 - Math.pow(1 - t, 3);
+    (function step(now) {
+      let done = true;
+      pts.forEach((p, i) => {
+        const t = Math.min(1, Math.max(0, (now - t0 - i * 3) / dur)); if (t < 1) done = false;
+        const e = ease(t); dots[i].setAttribute("cx", p.sx + (p.x - p.sx) * e); dots[i].setAttribute("cy", p.sy + (p.y - p.sy) * e);
+      });
+      if (!done) requestAnimationFrame(step);
+    })(t0);
+  })();
+
+  const draws = [];
+  // 1. Evening up
+  const F = D.fewer;
+  draws.push(pointChart("c-fewer", {
+    cats: F.map(r => r.gap), yMin: 0.45, yMax: 0.85, ref: 0.5, refLabel: "50%: no make-up effect", right: 24,
+    yFmt: v => Math.round(v * 100) + "%", xTitle: "Penalty-count gap before the call", yTitle: "P(call vs team with fewer)",
+    series: [{ name: "Model", color: "--s1", soft: "--s1-soft", est: F.map(r => r.p_against_fewer), lo: F.map(r => r.approx_lo), hi: F.map(r => r.approx_hi), raw: F.map(r => r.raw), labels: v => Math.round(v * 100) + "%" }],
+    tipTitle: c => "Gap of " + c + " penalt" + (c === "1" ? "y" : "ies"),
+    tipRows: (s, i, col) => [{ color: col, value: pct(F[i].p_against_fewer), label: "model, " + pct(F[i].approx_lo) + "–" + pct(F[i].approx_hi) }, { value: pct(F[i].raw), label: "raw share, n = " + F[i].n.toLocaleString() }],
+  }));
+  table("t-fewer", [["Gap", r => r.gap], ["Model", r => pct(r.p_against_fewer)], ["95% low", r => pct(r.approx_lo)], ["95% high", r => pct(r.approx_hi)], ["Raw", r => pct(r.raw)], ["Calls", r => r.n.toLocaleString()]], F);
+
+  // 2. Rate by penalty differential
+  function rateChart(id, rows, key, xTitle, tipWord) {
+    const hi = Math.max(...rows.map(r => r.hi));
+    return pointChart(id, {
+      cats: rows.map(r => (+r[key] > 0 ? "+" : "") + r[key]), yMin: 0, yMax: Math.ceil(hi), right: 24,
+      yFmt: v => v.toFixed(v % 1 ? 1 : 0), xTitle, yTitle: "Calls against per 60 min",
+      series: [{ name: "Rate", color: "--s1", soft: "--s1-soft", est: rows.map(r => r.estimate), lo: rows.map(r => r.lo), hi: rows.map(r => r.hi), labels: v => v.toFixed(2) }],
+      tipTitle: c => tipWord + " " + c,
+      tipRows: (s, i, col) => [{ color: col, value: f2(rows[i].estimate) + " / 60", label: f2(rows[i].lo) + "–" + f2(rows[i].hi) }],
+    });
+  }
+  draws.push(rateChart("c-pd", D.by_pd, "team_pen_diff", "Team's penalties minus opponent's so far", "Penalty differential"));
+  table("t-pd", [["Pen. diff", r => r.team_pen_diff], ["Per 60", r => f2(r.estimate)], ["95% low", r => f2(r.lo)], ["95% high", r => f2(r.hi)]], D.by_pd);
+  draws.push(rateChart("c-sd", D.by_sd, "team_score_diff", "Team's goal differential", "Goal differential"));
+  table("t-sd", [["Goal diff", r => r.team_score_diff], ["Per 60", r => f2(r.estimate)], ["95% low", r => f2(r.lo)], ["95% high", r => f2(r.hi)]], D.by_sd);
+
+  // 3. Late game
+  const TB = ["P1", "P2", "P3 0-10", "P3 10-15", "P3 15-18", "P3 18-20"];
+  const TBL = ["1st", "2nd", "3rd 0–10", "3rd 10–15", "3rd 15–18", "3rd 18–20"];
+  const pick = c => TB.map(tb => D.tbc.find(r => r.time_bucket === tb && r.close.startsWith(c)));
+  const close = pick("close"), notc = pick("not");
+  const lg = document.getElementById("lg-late");
+  [["Close game (goal diff ≤ 1)", "--s1"], ["Not close", "--s2"]].forEach(([t, c]) => {
+    const s = document.createElement("span"), i = document.createElement("i"); i.style.background = `var(${c})`; s.append(i, t); lg.appendChild(s);
+  });
+  draws.push(pointChart("c-late", {
+    cats: TBL, yMin: 0, yMax: Math.ceil(Math.max(...D.tbc.map(r => r.hi))), right: 72, height: 300,
+    yFmt: v => v.toFixed(0), xTitle: "Period (3rd split by minutes elapsed)", yTitle: "Calls per 60 min, both teams",
+    series: [
+      { name: "Close", color: "--s1", soft: "--s1-soft", est: close.map(r => r.estimate), lo: close.map(r => r.lo), hi: close.map(r => r.hi), endLabel: true },
+      { name: "Not close", color: "--s2", soft: "--s2-soft", est: notc.map(r => r.estimate), lo: notc.map(r => r.lo), hi: notc.map(r => r.hi), endLabel: true },
+    ],
+    tipTitle: c => c,
+    tipRows: (s, i, col) => [{ color: col, value: f2(s.est[i]) + " / 60", label: s.name.toLowerCase() + ", " + f2(s.lo[i]) + "–" + f2(s.hi[i]) }],
+  }));
+  table("t-late", [["Time", r => r.time_bucket], ["Game", r => r.close], ["Per 60", r => f2(r.estimate)], ["95% low", r => f2(r.lo)], ["95% high", r => f2(r.hi)]], D.tbc);
+
+  const SL = D.slopes;
+  draws.push(pointChart("c-slope", {
+    cats: TBL, yMin: -0.8, yMax: 0.2, ref: 0, refLabel: "0: no make-up effect", right: 24, height: 260,
+    yFmt: v => v.toFixed(1), xTitle: "Period (3rd split by minutes elapsed)", yTitle: "Log-odds per +1 pen. diff",
+    series: [{ name: "Slope", color: "--s1", soft: "--s1-soft", est: SL.map(r => r.pdiff_logodds_slope_nonclose), lo: SL.map(r => r.pdiff_logodds_slope_nonclose - 1.96 * r.se), hi: SL.map(r => r.pdiff_logodds_slope_nonclose + 1.96 * r.se), labels: v => v.toFixed(2) }],
+    tipTitle: c => c,
+    tipRows: (s, i, col) => [{ color: col, value: f2(s.est[i]), label: "95% " + f2(s.lo[i]) + " to " + f2(s.hi[i]) }],
+  }));
+  table("t-slope", [["Time", r => r.time_bucket], ["Slope", r => f2(r.pdiff_logodds_slope_nonclose)], ["SE", r => f2(r.se)]], SL);
+
+  // 5. Referees: horizontal dot + interval
+  // Horizontal dot + interval, one row per entity.
+  function rowChart(id, o) {
+    const host = document.getElementById(id);
+    function draw() {
+      const tip = host.querySelector(".tip") || makeTip(host);
+      host.querySelectorAll("svg").forEach(s => s.remove());
+      const R = o.rows, W = Math.max(300, host.clientWidth), row = o.series ? 22 : 19;
+      const narrow = W < 520, m = { t: 8, r: 16, b: 44, l: narrow ? o.labelW[0] : o.labelW[1] }, H = m.t + m.b + row * R.length;
+      const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "presentation" }); host.insertBefore(svg, tip);
+      const [lo, hi] = o.domain, iw = W - m.l - m.r;
+      const x = v => m.l + iw * (v - lo) / (hi - lo), y = i => m.t + row * (i + 0.5);
+      for (const tv of niceTicks(lo, hi, narrow ? 4 : 8)) {
+        el("line", { x1: x(tv), x2: x(tv), y1: m.t, y2: H - m.b, class: "gridline" }, svg);
+        const t = el("text", { x: x(tv), y: H - m.b + 16, "text-anchor": "middle" }, svg); t.textContent = o.tickFmt(tv);
+      }
+      el("line", { x1: x(o.ref), x2: x(o.ref), y1: m.t, y2: H - m.b, class: "baseline" }, svg);
+      const xt = el("text", { x: m.l + iw / 2, y: H - 6, "text-anchor": "middle", class: "axis-title" }, svg);
+      xt.textContent = o.axisTitle;
+      // one or more series per row; series are offset vertically within the row
+      const S = o.series || [{ color: "--s1", soft: "--s1-soft", est: o.est, lo: o.lo, hi: o.hi }];
+      const off = S.length > 1 ? 4 : 0;
+      const cols = S.map(z => css(z.color));
+      R.forEach((r, i) => {
+        const band = el("rect", { x: 0, y: y(i) - row / 2, width: W, height: row, class: "hover-band" }, svg);
+        const nm = el("text", { x: m.l - 10, y: y(i) + 4, "text-anchor": "end", class: "lbl" }, svg);
+        nm.textContent = o.label(r, narrow);
+        S.forEach((z, si) => {
+          const yy = y(i) + (si - (S.length - 1) / 2) * 2 * off;
+          el("line", { x1: x(z.lo(r)), x2: x(z.hi(r)), y1: yy, y2: yy, stroke: css(z.soft), "stroke-width": S.length > 1 ? 3 : 5, "stroke-linecap": "round" }, svg);
+          el("circle", { cx: x(z.est(r)), cy: yy, r: S.length > 1 ? 3.5 : 4.5, fill: cols[si], stroke: css("--surface"), "stroke-width": 1.5 }, svg);
+        });
+        const v = S[0].est(r), a = S[0].lo(r), b = S[0].hi(r), col = cols[0];
+        const hit = el("rect", { x: 0, y: y(i) - row / 2, width: W, height: row, class: "hit", tabindex: 0 }, svg);
+        hit.setAttribute("aria-label", o.label(r, false));
+        const show = (px, py) => { band.classList.add("on"); fillTip(tip, o.label(r, false), o.tipRows(r, col, a, b, cols)); placeTip(tip, host, px, py); };
+        hit.addEventListener("pointermove", e => { const bb = host.getBoundingClientRect(); show(e.clientX - bb.left, e.clientY - bb.top); });
+        hit.addEventListener("focus", () => { const sc = host.clientWidth / W; show(x(v) * sc, y(i) * sc); });
+        const hide = () => { tip.hidden = true; band.classList.remove("on"); };
+        hit.addEventListener("pointerleave", hide); hit.addEventListener("blur", hide);
+      });
+    }
+    draw();
+    return draw;
+  }
+
+  draws.push(rowChart("c-refs", {
+    rows: D.refs, domain: [-0.75, 0.05], ref: D.fe, labelW: [120, 168], tickFmt: v => v.toFixed(1),
+    axisTitle: "Make-up slope (log-odds per +1 penalty differential)",
+    label: (r, narrow) => narrow ? r.referee.split(" ").slice(-1)[0] : r.referee,
+    est: r => r.pdiff_slope_total, lo: r => r.pdiff_slope_total - 1.96 * r.pdiff_slope_dev_sd, hi: r => r.pdiff_slope_total + 1.96 * r.pdiff_slope_dev_sd,
+    tipRows: (r, col, a, b) => [
+      { color: col, value: f2(r.pdiff_slope_total), label: "slope, 95% " + f2(a) + " to " + f2(b) },
+      { value: "≈" + pct(1 / (1 + Math.exp(r.pdiff_slope_total))), label: "vs team with fewer, at a gap of 1" },
+      { value: (r.home_lean >= 0 ? "+" : "") + f2(r.home_lean), label: "home lean (log-odds, + = more calls on home)" },
+      { value: r.games + " games", label: r.calls + " calls in sample" },
+    ],
+  }));
+
+  let raf; window.addEventListener("resize", () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(() => draws.forEach(d => d())); });
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => draws.forEach(d => d()));
+  new MutationObserver(() => draws.forEach(d => d())).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+})();
+</script>
+</body>
+</html>

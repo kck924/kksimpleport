@@ -1,14 +1,15 @@
 import { useState, useEffect } from 'react';
 import './ProfileImageRotator.css';
 
-const images = [
+const DEFAULT_IMAGES = [
   '/kevin.jpg',
   '/kkguitar.png',
   '/kkhanks.png',
   '/kkom2.png'
 ];
 
-function ProfileImageRotator() {
+// `images` lets v2 pass its compressed copies; the live homepage uses the defaults
+function ProfileImageRotator({ images = DEFAULT_IMAGES }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -17,7 +18,7 @@ function ProfileImageRotator() {
     }, 4000); // Rotate every 4 seconds
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images.length]);
 
   return (
     <div className="profile-image-container">
