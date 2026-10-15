@@ -350,13 +350,13 @@ footer a { color: var(--ink-2); }
     <div class="prose">
       <p>The strongest objection is in the same data. Eight title-game coaches had a <i>second</i> straight losing season. Only <b id="t-two"></b> led his team back to the playoffs the year after: Jon Gruden, with the 2005 Buccaneers. (Sean Payton's Saints, from section 2, don't count here: they went 8-8 in his third year, not a losing record.) Green Bay also got back, but under Matt LaFleur, after firing Mike McCarthy. And one of the eight was Mike Smith in Atlanta. The Falcons fired him after his second losing year and hired Dan Quinn, who took them to the Super Bowl in his second season.</p>
       <p>But those eight mostly weren't Washington's situation. In seven of them, one quarterback started at least 12 games of the second losing season. The exception was Gruden's 2004 Buccaneers, whose starter made just 10 starts. They were the one team that bounced back under the same coach. Daniels' availability has already been questionable this season. He missed two games with the elbow, and he's now playing on a joint he has dislocated twice, putting off surgery until after the season. Those are circumstances that make more missed time likely, which sets Washington up for another season where it's hard to read the strength of its healthy roster. The other 2026 injuries are at premium positions, too: left tackle Laremy Tunsil (out since camp), top cornerback Trey Amos (IR) and top receiver Terry McLaurin (hamstring).</p>
-      <p>So 1-3-1 is not nothing. If Washington finishes this season with a clearly losing record <i>and</i> Daniels healthy for most of it, the injury explanation is gone and the history above stops helping Quinn. That's the moment to decide: after the season, not now. Teams that fired their coach midseason did slightly worse the next year than teams that waited.</p>
-      <p>And if the team does move on, the data has advice for the search: replacement coaches who kept one of the old coordinators did better than those who cleaned house, and promoting a coordinator to head coach has gone worst of all.</p>
+      <p>So 1-3-1 is not nothing. But a fair verdict on Quinn needs a clean read: a stretch where Daniels and the premium pieces around him are actually on the field. If Washington finishes this season with a clearly losing record <i>and</i> a mostly healthy Daniels, the injury explanation is gone and the history above stops helping Quinn. That's the moment to decide: after the season, not now. Teams that fired their coach midseason did slightly worse the next year than teams that waited.</p>
+      <p>And the decision is bigger than one man. Firing a head coach almost always means replacing his staff: in <b>141 of 175</b> firings since 1996, the new coach replaced both coordinators. That's the most common outcome by far, and one of the worst. Teams whose new coach kept one of the old coordinators made the playoffs more often the next year, and promoting a coordinator to head coach has gone worst of all. For a franchise building around a young quarterback, that upheaval is the real cost of moving on.</p>
     </div>
     <div class="chart">
       <h4>If you fire the coach: what the next staff looked like</h4>
-      <p class="cs">Share of teams that made the playoffs the season after a firing, 1996–2024, by what happened to the old coordinators.</p>
-      <svg class="pre" id="c-coord" role="img" aria-label="Playoff rate after a firing by coordinator continuity"></svg>
+      <p class="cs">All 175 firings from 1996–2024 with a completed next season, by what happened to the old coordinators: how often each happened, and how often those teams made the playoffs the next year. *Only two new coaches kept both coordinators, too few to read much into.</p>
+      <svg class="pre" id="c-coord" role="img" aria-label="How often each coordinator scenario followed a firing, and the next-season playoff rate for each"></svg>
     </div>
 
   </section>
@@ -910,18 +910,28 @@ function drawChurn() {
 
 // ---------- 6. coordinators
 function drawCoord() {
-  const svg = d3.select('#c-coord'), w = W(svg.node()), rowH = 38, m = { t: 6, r: 70, b: 6, l: small() ? 150 : 230 };
-  const rows = D.coords, h = m.t + rowH * rows.length + m.b;
+  // two panels on shared rows: how often each staff scenario happened, and how often those teams made the playoffs
+  const svg = d3.select('#c-coord'), w = W(svg.node()), rowH = 40, sm = small(), m = { t: 30, r: 4, b: 6, l: sm ? 112 : 230 }, gap = sm ? 14 : 36;
+  const rows = D.coords, h = m.t + rowH * rows.length + m.b, pw = (w - m.l - m.r - gap) / 2, valW = sm ? 34 : 44;
   svg.attr('viewBox', `0 0 ${w} ${h}`).attr('height', h).selectAll('*').remove();
-  const x = d3.scaleLinear([0, .5], [m.l, w - m.r]);
+  const share = d => d.n / d.total, thin = d => d.n < 5;
+  const panels = [
+    { x0: m.l, head: sm ? 'How often' : 'How often it happened', v: share, max: d3.max(rows, share), fill: 'var(--ink-3)', txt: d => per(share(d)) },
+    { x0: m.l + pw + gap, head: sm ? 'Playoffs next yr' : 'Made the playoffs next year', v: d => d.playoffs, max: .5, fill: C.fired, txt: d => per(d.playoffs) }];
   const g = svg.append('g').selectAll('g').data(rows).join('g').attr('transform', (d, i) => `translate(0,${m.t + rowH * i})`);
-  g.append('text').attr('class', 'lbl').attr('y', rowH / 2 - 1).text(d => small() ? d.k.replace('Promoted a coordinator to HC', 'Promoted a coord.') : d.k);
-  g.append('text').attr('class', 'lbl2').attr('y', rowH / 2 + 13).text(d => `${d.n} teams`);
-  A(g.append('rect'), 'a-right', (d, i) => i * .12).attr('x', m.l).attr('y', 8).attr('height', rowH - 16).attr('width', d => x(d.playoffs) - m.l).attr('rx', 3).attr('fill', C.fired);
-  A(g.append('text'), 'a-fade', (d, i) => i * .12 + .6).attr('class', 'val').attr('x', d => x(d.playoffs) + 6).attr('y', rowH / 2 + 4).text(d => per(d.playoffs));
+  const short = { 'Replaced both, outside hire': sm ? 'Replaced both' : 'Replaced both, outside hire', 'Promoted a coordinator to HC': sm ? 'Promoted a coord.' : 'Promoted a coordinator to HC' };
+  g.append('text').attr('class', 'lbl').attr('y', rowH / 2 - 1).text(d => short[d.k] || d.k);
+  g.append('text').attr('class', 'lbl2').attr('y', rowH / 2 + 13).text(d => `${d.n} of ${d.total}`);
+  panels.forEach((p, k) => {
+    const x = d3.scaleLinear([0, p.max], [0, pw - valW]);
+    svg.append('text').attr('class', 'lbl2').attr('x', p.x0).attr('y', 14).style('font-weight', 600).text(p.head);
+    A(g.append('rect'), 'a-right', (d, i) => k * .3 + i * .1).attr('x', p.x0).attr('y', 9).attr('height', rowH - 18).attr('width', d => Math.max(2, x(p.v(d)))).attr('rx', 3)
+      .attr('fill', p.fill).attr('opacity', d => k && thin(d) ? .35 : 1);
+    A(g.append('text'), 'a-fade', (d, i) => k * .3 + i * .1 + .5).attr('class', 'val').attr('x', d => p.x0 + Math.max(2, x(p.v(d))) + 5).attr('y', rowH / 2 + 4).text(d => p.txt(d) + (k && thin(d) ? '*' : ''));
+    svg.append('line').attr('class', 'base').attr('x1', p.x0).attr('x2', p.x0).attr('y1', m.t - 4).attr('y2', h);
+  });
   g.append('rect').attr('class', 'hit').attr('width', w).attr('height', rowH)
-    .on('mousemove', (e, d) => showTip(e, `<b>${d.k}</b>${d.n} teams · win % ${pct(d.before)} → ${pct(d.after)}<small>${per(d.playoffs)} made the playoffs</small>`)).on('mouseleave', hideTip);
-  svg.append('line').attr('class', 'base').attr('x1', m.l).attr('x2', m.l).attr('y1', 0).attr('y2', h);
+    .on('mousemove', (e, d) => showTip(e, `<b>${d.k}</b>${d.n} of ${d.total} firings (${per(share(d))}) · win % ${pct(d.before)} → ${pct(d.after)}<small>${per(d.playoffs)} made the playoffs the next year${thin(d) ? ' · only ' + d.n + ' cases' : ''}</small>`)).on('mouseleave', hideTip);
 }
 
 const all = () => { drawHist(); drawWas(); drawRebound(); drawTitle(); drawAgl(); drawInj(); drawQbDis(); drawQb(); drawChurn(); drawCoord(); };
