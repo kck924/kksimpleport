@@ -220,5 +220,22 @@ export const portfolioData = [
       { name: 'Python', percent: 2.8, color: '#3572A5' },
       { name: 'Firestore rules/JSON', percent: 3.2, color: '#4ade80' }
     ]
+  },
+  {
+    id: 14,
+    title: "Don't Fire Dan Quinn",
+    description: 'Data journalism piece arguing the Washington Commanders should keep head coach Dan Quinn, built on a 30-year dataset of all 246 NFL head-coach exits (1996-2025) and what happened the next season: bad teams that kept vs. fired their coach, title-game coaches who slumped, injury-hit teams, young quarterbacks and coordinator turnover. Scroll-driven D3 charts with handwritten annotations traced stroke by stroke, hover tooltips and table views.',
+    tags: ['Data Journalism', 'D3', 'Python'],
+    category: ['analytics', 'misc'],
+    date: 'October 2026',
+    tools: 'D3, JavaScript, Python, pandas, Firebase',
+    link: 'https://kckdata.com/keep-quinn/',
+    image: '/keepquinn.png',
+    languages: [
+      { name: 'JavaScript', percent: 49.8, color: '#00d9ff' },
+      { name: 'HTML', percent: 26.9, color: '#fb923c' },
+      { name: 'CSS', percent: 12.4, color: '#a78bfa' },
+      { name: 'Python', percent: 10.9, color: '#3572A5' }
+    ]
   }
 ];
