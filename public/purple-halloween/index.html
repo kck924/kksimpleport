@@ -1,0 +1,1167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>When Did Purple Become a Halloween Color?</title>
+<meta name="description" content="A century of Halloween postcards, catalogs, picture books and yard displays, measured pixel by pixel. Purple arrived twice: in illustrations in the early 1990s, and in people's yards after 2016.">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2026-10-25">
+<meta property="og:site_name" content="Kevin Klein Data">
+<meta property="og:title" content="When did purple become a Halloween color?">
+<meta property="og:description" content="A century of Halloween postcards, catalogs, picture books and yard displays, measured pixel by pixel.">
+<meta property="og:url" content="https://kckdata.com/purple-halloween/">
+<meta property="og:image" content="https://kckdata.com/purple-halloween/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+@font-face { font-family: 'KKHand'; src: url('/fonts/KKHand.ttf') format('truetype'); font-display: swap; }
+:root {
+  --bg: #fcfcfb; --ink: #1d1d1b; --ink-2: #55534e; --ink-3: #8b887f; --line: #e3e0d8; --rule: #1d1d1b; --panel: #f4f2ec;
+  --purple: #7b3fb0; --purple-soft: #ece2f5; --orange: #ef7d1a; --orange-soft: #fbe7d3;
+  --sans: 'Inter', system-ui, sans-serif; --cond: 'Barlow Condensed', 'Inter', sans-serif; --mono: 'IBM Plex Mono', ui-monospace, monospace; --hand: 'KKHand', 'Inter', sans-serif;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 17px/1.6 var(--sans); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px 80px; }
+@media (max-width: 520px) { .wrap { padding: 0 16px 60px; } }
+.top { display: flex; justify-content: space-between; align-items: center; padding: 16px 0; border-bottom: 1px solid var(--line); font: 500 .74rem/1 var(--mono); text-transform: uppercase; letter-spacing: .08em; }
+.top a { color: var(--ink); text-decoration: none; }
+.top a b { font-family: var(--hand); text-transform: none; font-size: 1.25rem; letter-spacing: 0; font-weight: 400; }
+@media (min-width: 521px) { .top { padding: 20px 0; font-size: .9rem; } .top a b { font-size: 1.75rem; } }
+
+header { padding: 46px 0 10px; max-width: 800px; }
+.kicker { font: 500 .74rem/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--purple); }
+h1 { margin: 12px 0 0; font: 800 clamp(2.1rem, 5.4vw, 3.4rem)/1 var(--sans); letter-spacing: -.03em; text-wrap: balance; }
+/* word painting: Halloween in pumpkin orange, purple lit up like an LED, and color itself turning from one to the other */
+h1 :is(.w-p, .w-o, .w-c) { -webkit-background-clip: text; background-clip: text; color: transparent; padding-bottom: .06em; }
+h1 .w-o { background-image: linear-gradient(180deg, #e8761b, #c4560a); }
+h1 .w-p { background-image: linear-gradient(90deg, #5e2a8f, #8f47cf 55%, #b56ce6); filter: drop-shadow(0 0 .14em rgba(143, 71, 207, .5)); animation: ph-glow 1.5s .35s both, ph-flicker 6.5s 2.4s infinite; }
+h1 .w-c { background-image: linear-gradient(90deg, #d2600c 10%, #7b3fb0 90%); }
+@keyframes ph-glow { 0% { filter: none; opacity: .45; } 8% { filter: drop-shadow(0 0 .14em rgba(143, 71, 207, .5)); opacity: 1; } 13% { filter: none; opacity: .55; }
+  20%, 100% { filter: drop-shadow(0 0 .14em rgba(143, 71, 207, .5)); opacity: 1; } }
+/* then it keeps flickering like a failing LED string: lit most of the time, a hard triple stutter, then a short blackout each cycle */
+@keyframes ph-flicker { 0%, 58%, 100% { opacity: 1; } 60% { opacity: .12; } 61.5% { opacity: .95; } 63% { opacity: .2; } 64.5% { opacity: 1; } 67% { opacity: .35; } 68.5% { opacity: 1; } 84% { opacity: 1; } 85.5% { opacity: .1; } 88% { opacity: .1; } 89.5% { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { h1 .w-p { animation: none; } }
+/* "purple", handwritten as in "bloodlust" on the Quinn page: KKHand in bold purple, traced stroke by stroke (strokes
+   from /fonts/kkhand-strokes.json), then lit and left flickering like an LED string */
+h1 .w-p.hw { position: relative; display: inline-block; background: none; -webkit-background-clip: border-box; background-clip: border-box; color: #7b3fb0;
+  font: 400 1.55em/.8 'KKHand', var(--sans); letter-spacing: .01em; -webkit-text-stroke: .055em currentColor; paint-order: stroke fill; padding: 0 .04em; margin-bottom: .14em; filter: none; animation: none; }
+h1 .w-p .bl { transition: opacity .16s ease; }
+h1 .w-p.writing .bl { opacity: 0; }
+h1 .w-p.writing .bl.in { opacity: 1; }
+h1 .w-p .bl.pen { opacity: 0 !important; }   /* drawn, not typeset (see the script) */
+h1 .w-p.lit svg { filter: drop-shadow(0 0 .08em rgba(143, 71, 207, .45)); }
+h1 .w-p svg { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; }
+h1 .w-p svg path { fill: none; stroke: #7b3fb0; stroke-linecap: round; stroke-linejoin: round; transition: opacity .16s ease; }
+h1 .w-p.lit { text-shadow: 0 0 .1em rgba(143, 71, 207, .6), 0 0 .3em rgba(143, 71, 207, .25); animation: ph-glow-hw 1.1s both, ph-flicker 4.5s .6s infinite; }
+@keyframes ph-glow-hw { 0% { text-shadow: none; } 10% { text-shadow: 0 0 .1em rgba(143, 71, 207, .6), 0 0 .3em rgba(143, 71, 207, .25); } 16% { text-shadow: none; } 26%, 100% { text-shadow: 0 0 .1em rgba(143, 71, 207, .6), 0 0 .3em rgba(143, 71, 207, .25); } }
+@media (prefers-reduced-motion: reduce) { h1 .w-p.lit { animation: none; } }
+.dek { margin: 18px 0 0; font-size: 1.2rem; line-height: 1.5; color: var(--ink-2); }
+.byline { margin-top: 18px; font: 400 .78rem/1.4 var(--mono); color: var(--ink-3); }
+.byline b { color: var(--ink); font-weight: 600; }
+
+.prose { max-width: 680px; }
+.prose p { margin: 14px 0 0; }
+.prose p:first-child { margin-top: 0; }
+.prose .ph3 { margin: 0 0 4px; font: 700 1.35rem/1.15 var(--cond); }
+.prose a, .note a, .method a { color: var(--ink); }
+mark.p { background: var(--purple-soft); color: inherit; padding: 0 3px; font-weight: 600; }
+mark.o { background: var(--orange-soft); color: inherit; padding: 0 3px; font-weight: 600; }
+
+section { margin-top: 68px; }
+.sec-k { padding-top: 10px; border-top: 3px solid var(--rule); font: 500 .74rem/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; }
+.sec-k span { color: var(--ink-3); margin-left: 10px; letter-spacing: .06em; }
+h2 { margin: 14px 0 0; font: 700 2.1rem/1.05 var(--cond); letter-spacing: .005em; max-width: 780px; }
+h2 + .prose { margin-top: 14px; }
+
+.chart { margin-top: 28px; }
+.chart h4 { margin: 0; font: 700 1.35rem/1.1 var(--cond); }
+.chart .cs { margin: 4px 0 0; font-size: .9rem; color: var(--ink-2); max-width: 680px; }
+.chart svg { display: block; width: 100%; overflow: visible; margin-top: 12px; }
+.axis text { font: 400 11px var(--mono); fill: var(--ink-3); }
+.axis line { stroke: var(--line); }
+.rowlab { font: 600 12px var(--sans); fill: var(--ink); }
+.rowsub { font: 400 11px var(--mono); fill: var(--ink-3); }
+.lbl { font: 600 12px var(--sans); }
+.val { font: 600 12px var(--mono); fill: var(--ink); }
+.ann { font: 400 19px var(--hand); fill: var(--ink-2); }
+.ann-line { fill: none; stroke: var(--ink-3); stroke-width: 1.2; }
+.grid line { stroke: var(--line); }
+.base { stroke: var(--ink); stroke-width: 1.4; }
+.stripe { cursor: default; }
+.gapz { fill: url(#nodata); cursor: help; }
+.gapz:hover { fill: url(#nodata-h); }
+/* entrance animations: .pre holds a chart at its first frame until it scrolls into view, .play runs it once */
+:is(.pre, .play) :is(.stripe, .grow, .wave, .wipe, .fade) { animation: var(--a) var(--t, .55s) var(--e, cubic-bezier(.2, .8, .2, 1)) var(--d, 0s) both; transform-box: fill-box; }
+.pre :is(.stripe, .grow, .wave, .wipe, .fade) { animation-play-state: paused; }
+.stripe { --a: ph-drip; --e: cubic-bezier(.3, 1.4, .5, 1); transform-origin: 50% 0; }
+.grow { --a: ph-growx; transform-origin: 0 50%; }
+.wave { --a: ph-growy; --t: .9s; transform-origin: 50% 100%; }
+.wipe { --a: ph-growx; --t: 1.7s; --e: cubic-bezier(.45, 0, .3, 1); transform-origin: 0 50%; }
+.fade { --a: ph-fade; --t: .45s; }
+@keyframes ph-drip { from { transform: scaleY(0); opacity: 0; } 30% { opacity: 1; } }
+@keyframes ph-growx { from { transform: scaleX(0); } }
+@keyframes ph-growy { from { transform: scaleY(0); opacity: 0; } }
+@keyframes ph-fade { from { opacity: 0; transform: translateY(5px); } }
+.stripe.on { outline: none; }
+.sel { fill: none; stroke: var(--ink); stroke-width: 2; pointer-events: none; }
+.key { display: flex; gap: 6px 14px; flex-wrap: wrap; margin-top: 14px; font: 500 .72rem/1 var(--mono); color: var(--ink-2); }
+.key span { display: inline-flex; align-items: center; gap: 6px; }
+.key i { width: 12px; height: 12px; border-radius: 2px; background: var(--c); }
+.key i.ln { width: 18px; height: 3px; border-radius: 2px; }
+
+.tip { position: fixed; z-index: 50; pointer-events: none; opacity: 0; transition: opacity .1s; background: #fff; border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(0,0,0,.14);
+  padding: 9px 11px; border-radius: 4px; font: 400 .8rem/1.35 var(--sans); width: 280px; }
+.tip b { display: block; font-weight: 700; }
+.tip small { display: block; color: var(--ink-3); font-family: var(--mono); font-size: .7rem; margin-top: 3px; }
+.tip .mixbar { display: flex; height: 10px; margin-top: 7px; border-radius: 2px; overflow: hidden; }
+.tip .thumbs { display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px; margin-top: 8px; }
+.tip .thumbs img { width: 100%; height: 86px; object-fit: cover; border-radius: 2px; display: block; background: var(--panel); }
+.tip .pp { font: 600 .8rem var(--mono); color: var(--purple); }
+.tip .scan-hint { display: block; margin-top: 6px; }
+.scan-note { margin: 10px 0 0; font: 400 .74rem/1.4 var(--mono); color: var(--ink-3); }
+.scan-note b { color: var(--purple); font-weight: 600; }
+/* "Halloween pixel scan": the word in black, orange and purple */
+.hlw { font: 400 1.5em/.7 var(--hand); letter-spacing: .01em; text-transform: none;
+  /* bolded with shadows rather than text-stroke: a stroke turns a stray fragment in KKHand's e into a visible ring */
+  text-shadow: .025em 0, -.025em 0, 0 .025em, 0 -.025em, .018em .018em, -.018em .018em, .018em -.018em, -.018em -.018em; }
+.hlw i { font-style: normal; }
+/* the sign-off: KKHand, bolded like .hlw, letters cycling black / orange / purple, each flickering on its own clock */
+.prose .sig { margin-top: 22px; font: 400 2.4rem/1 var(--hand); letter-spacing: .01em;
+  text-shadow: .025em 0, -.025em 0, 0 .025em, 0 -.025em, .018em .018em, -.018em .018em, .018em -.018em, -.018em -.018em; }
+.sig i { font-style: normal; display: inline-block; animation: ph-flicker var(--t) var(--d) infinite; }
+.sig i:nth-of-type(3n+1) { color: #1d1d1b; }
+.sig i:nth-of-type(3n+2) { color: #d8660c; filter: drop-shadow(0 0 .12em rgba(239, 125, 26, .55)); }
+.sig i:nth-of-type(3n) { color: var(--purple); filter: drop-shadow(0 0 .12em rgba(143, 71, 207, .55)); }
+@media (prefers-reduced-motion: reduce) { .sig i { animation: none; } }
+.hlw i:nth-child(1) { color: #1d1d1b; } .hlw i:nth-child(2) { color: #d8660c; } .hlw i:nth-child(3) { color: var(--purple); }
+
+/* the clicked year's samples, below the stripes (touch and keyboard friendly) */
+.picked { margin-top: 18px; padding: 14px 16px; background: var(--panel); border-radius: 4px; display: none; }
+.picked.on { display: block; }
+.picked h5 { margin: 0; font: 700 1.15rem/1.1 var(--cond); }
+.picked .ps { font: 400 .74rem/1.4 var(--mono); color: var(--ink-3); margin-top: 3px; }
+.picked .gal { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; margin-top: 12px; }
+.picked figure { margin: 0; }
+.picked img { width: 100%; height: 130px; object-fit: cover; border-radius: 3px; display: block; }
+.picked figcaption { font: 400 .64rem/1.35 var(--mono); color: var(--ink-3); margin-top: 4px; overflow-wrap: anywhere; }
+.picked figcaption a { color: var(--ink-2); }
+
+.two { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 40px; }
+@media (max-width: 760px) { .two { grid-template-columns: 1fr; gap: 10px; } }
+
+/* then and now */
+.pair { display: grid; grid-template-columns: minmax(0, .78fr) minmax(0, 1.3fr); gap: 14px; margin-top: 34px; align-items: start; }
+.pair figure { margin: 0; }
+.pair img { display: block; width: 100%; height: 340px; object-fit: cover; border-radius: 4px; }
+.pair figcaption { margin-top: 8px; font: 400 .72rem/1.45 var(--mono); color: var(--ink-3); }
+.pair figcaption b { display: block; font: 700 1.05rem/1.2 var(--cond); color: var(--ink); letter-spacing: .01em; }
+.pair figcaption a { color: var(--ink-3); }
+.pair .bar { display: flex; height: 8px; margin: 6px 0 6px; border-radius: 2px; overflow: hidden; }
+@media (max-width: 600px) { .pair { grid-template-columns: 1fr 1fr; gap: 8px; } .pair img { height: 190px; } }
+
+/* photo wall: a row per year, one photo per shoot, most purple first */
+.wall { margin-top: 18px; }
+.wrow { display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 12px; padding: 7px 0; border-top: 1px solid var(--line); align-items: start; }
+.wrow .wy { font: 600 .95rem/1.1 var(--mono); padding-top: 4px; }
+.wrow .wy small { display: block; font: 400 .66rem/1.3 var(--mono); color: var(--ink-3); margin-top: 3px; }
+.wrow .wy small b { color: var(--purple); font-weight: 600; }
+.tiles { display: flex; flex-wrap: wrap; gap: 4px; }
+.tiles a { display: block; width: 66px; height: 50px; border-radius: 3px; overflow: hidden; position: relative; background: var(--panel); outline: 0 solid var(--purple); outline-offset: 1px; }
+.tiles a.pu { outline-width: 3px; }
+.tiles img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.tiles a:hover, .tiles a:focus-visible { outline: 2px solid var(--ink); outline-offset: 1px; }
+.tiles.cv a { width: 40px; height: 54px; }
+.dds { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px 10px; }
+.dds a { display: block; color: inherit; text-decoration: none; }
+.dds .im { display: block; aspect-ratio: 2.3; background: #fff; border-radius: 3px; overflow: hidden; outline: 0 solid var(--purple); outline-offset: 1px; box-shadow: inset 0 0 0 1px var(--line); }
+.dds a.pu .im { outline-width: 3px; }
+.dds a:hover .im, .dds a:focus-visible .im { outline: 2px solid var(--ink); }
+.dds img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.dds .cap { display: flex; justify-content: space-between; gap: 6px; margin-top: 5px; font: 600 .78rem/1.1 var(--mono); }
+.dds .cap span { font-weight: 400; color: var(--ink-3); }
+.dds a.pu .cap span { color: var(--purple); font-weight: 600; }
+.dds .bar { display: block; height: 4px; margin-top: 4px; border-radius: 2px; background: var(--line); overflow: hidden; }
+.dds .bar i { display: block; height: 100%; background: var(--purple); border-radius: 2px; }
+@media (max-width: 600px) { .dds { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px 6px; } .dds .cap { font-size: .66rem; } }
+.tiles .more { align-self: center; font: 400 .7rem/1 var(--mono); color: var(--ink-3); padding-left: 4px; }
+@media (max-width: 600px) { .tiles.cv a { width: 30px; height: 40px; } }
+.pics { position: relative; margin-top: 12px; }
+.seg { display: inline-flex; margin-top: 12px; border: 1px solid var(--line); border-radius: 3px; overflow: hidden; }
+.seg button { font: 500 .68rem/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; padding: 7px 12px; border: 0; background: #fff; color: var(--ink-2); cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: #fff; }
+.pics canvas { display: block; width: 100%; }
+.pics h5 { margin: 18px 0 0; font: 700 1.1rem/1.1 var(--cond); }
+.pics h5 span { font: 400 .72rem/1 var(--mono); color: var(--ink-3); margin-left: 8px; }
+.tip img.big { width: 100%; height: 170px; object-fit: cover; border-radius: 3px; margin-top: 7px; display: block; }
+@media (max-width: 600px) { .wrow { grid-template-columns: 52px minmax(0, 1fr); gap: 8px; } .tiles a { width: 46px; height: 36px; } .wrow .wy { font-size: .8rem; } }
+
+
+.note { margin: 16px 0 0; padding-top: 8px; border-top: 1px solid var(--line); font: 400 .72rem/1.55 var(--mono); color: var(--ink-3); max-width: 780px; }
+.note b { color: var(--ink-2); font-weight: 600; text-transform: uppercase; letter-spacing: .08em; margin-right: 6px; }
+details { margin-top: 12px; }
+summary { cursor: pointer; font: 500 .74rem/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); padding: 6px 0; }
+.tbl { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: .84rem; }
+.tbl th { text-align: right; font: 500 .66rem/1.2 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); padding: 6px 8px; border-bottom: 1px solid var(--rule); }
+.tbl td { text-align: right; padding: 5px 8px; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+.tbl th:first-child, .tbl td:first-child { text-align: left; padding-left: 0; }
+.tbl-wrap { overflow-x: auto; max-height: 420px; }
+.method { margin-top: 56px; padding-top: 10px; border-top: 1px solid var(--line); color: var(--ink-3); font-size: .9em; max-width: 780px; }
+.method summary { list-style: none; font-size: .7rem; letter-spacing: .12em; color: var(--ink-3); padding: 4px 0; }
+.method summary::-webkit-details-marker { display: none; }
+.method summary::before { content: '+'; display: inline-block; width: 1.1em; }
+.method[open] summary::before { content: '−'; }
+.method h3 { color: var(--ink-2); font: 700 1.15rem/1.2 var(--cond); margin: 22px 0 0; }
+.method p { margin: 8px 0 0; }
+footer { margin-top: 70px; padding-top: 14px; border-top: 1px solid var(--line); font: 400 .74rem/1.6 var(--mono); color: var(--ink-3); display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+footer a { color: var(--ink-2); }
+
+/* pixel scanner: what the measurement saw, pixel by pixel (light, chart-like, same tokens as the page) */
+.scan-hint { font: 500 .68rem/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--purple); }
+.sc { position: fixed; inset: 0; z-index: 50; display: none; place-items: center; background: rgba(29, 29, 27, .42); padding: 16px; }
+.sc.on { display: grid; }
+.sc-box { width: min(980px, 100%); max-height: calc(100dvh - 32px); overflow: auto; background: var(--bg); color: var(--ink);
+  border-top: 5px solid var(--purple); border-radius: 2px; box-shadow: 0 18px 50px rgba(0,0,0,.22); font: 400 .78rem/1.45 var(--sans); }
+.sc-hd { display: flex; align-items: baseline; gap: 10px; padding: 14px 18px 12px; border-bottom: 1px solid var(--line); }
+.sc-hd #sc-title { font: 700 1.5rem/1 var(--cond); letter-spacing: .005em; }
+.sc-hd #sc-n { font: 400 .72rem/1 var(--mono); color: var(--ink-3); }
+.sc-hd .sp { flex: 1; }
+.sc-hd > span { white-space: nowrap; }
+.sc-hd button, .sc-modes button { font: 500 .68rem/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--ink); background: #fff; border: 1px solid var(--line); border-radius: 2px; padding: 8px 10px; cursor: pointer; align-self: center; }
+.sc-hd button:hover, .sc-modes button:hover { border-color: var(--ink-3); }
+.sc-box button:focus-visible { outline: 2px solid var(--purple); outline-offset: 1px; }
+.sc-hd button:disabled { opacity: .4; cursor: default; }
+@media (max-width: 600px) { .sc-hd button span { display: none; } .sc-hd #sc-title { font-size: 1.25rem; } }
+.sc-body { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(250px, 1fr); }
+@media (max-width: 720px) { .sc-body { grid-template-columns: 1fr; } }
+.sc-view { position: relative; padding: 16px 18px; border-right: 1px solid var(--line); }
+@media (max-width: 720px) { .sc-view { border-right: 0; border-bottom: 1px solid var(--line); } }
+.sc-stage { position: relative; display: grid; place-items: center; height: min(52vh, 440px); background: var(--panel); }
+@media (max-width: 720px) { .sc-stage { height: 38vh; } }
+.sc-stage canvas { display: block; cursor: crosshair; image-rendering: pixelated; }
+.sc-hud { position: absolute; left: 8px; top: 8px; padding: 5px 8px; background: #fff; border: 1px solid var(--line); font: 400 .64rem/1.4 var(--mono); color: var(--ink-3); pointer-events: none; font-variant-numeric: tabular-nums; letter-spacing: .04em; }
+.sc-hud b { color: var(--purple); font-weight: 600; }
+.sc-probe { position: absolute; pointer-events: none; padding: 6px 8px; background: #fff; border: 1px solid var(--line); box-shadow: 0 6px 18px rgba(0,0,0,.12); font: 400 .66rem/1.4 var(--mono); color: var(--ink-2); white-space: nowrap; opacity: 0; }
+.sc-probe b { color: var(--ink); }
+.sc-modes { display: flex; gap: 6px; margin-top: 10px; flex-wrap: wrap; }
+.sc-modes button[aria-pressed="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+.sc-cap { margin-top: 12px; color: var(--ink-3); font: 400 .7rem/1.5 var(--mono); }
+.sc-cap b { display: block; color: var(--ink); font: 700 1.05rem/1.2 var(--cond); margin-bottom: 2px; }
+.sc-cap a { color: var(--ink-2); white-space: nowrap; }
+.sc-out { padding: 16px 18px; }
+.sc-k { color: var(--ink-3); font: 500 .66rem/1.3 var(--mono); letter-spacing: .1em; text-transform: uppercase; }
+.sc-ln { display: flex; justify-content: space-between; gap: 10px; padding: 5px 0; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+.sc-ln span:first-child { color: var(--ink-2); }
+.sc-ln span:last-child { font: 500 .78rem/1.45 var(--mono); }
+.sc-big { margin: 16px 0 2px; font: 700 3.4rem/.9 var(--cond); color: var(--purple); font-variant-numeric: tabular-nums; }
+.sc-big small { font: 600 .9rem/1 var(--cond); color: var(--ink-2); margin-left: 6px; text-transform: uppercase; letter-spacing: .04em; }
+.sc-eq { color: var(--ink-3); font: 400 .68rem/1.4 var(--mono); }
+.sc-bars { margin-top: 16px; display: grid; gap: 4px; }
+.sc-bar { display: grid; grid-template-columns: 54px minmax(0, 1fr) 46px; gap: 8px; align-items: center; font-size: .74rem; color: var(--ink-2); }
+.sc-bar span:nth-child(2) { border-left: 1px solid var(--ink); }
+.sc-bar i { display: block; height: 10px; border-radius: 0 2px 2px 0; background: var(--c); width: 0; transition: width .12s linear; }
+.sc-bar span:last-child { text-align: right; font: 400 .7rem/1 var(--mono); font-variant-numeric: tabular-nums; color: var(--ink-3); }
+.sc-bar.pu span { color: var(--purple); font-weight: 700; }
+.sc-bar.pu span:last-child { font-weight: 600; }
+.sc-rule { margin-top: 18px; padding-top: 10px; border-top: 1px solid var(--line); color: var(--ink-2); font-size: .76rem; }
+.sc-rule ol { margin: 6px 0 0; padding-left: 1.3em; }
+.sc-rule li + li { margin-top: 3px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top"><a href="/"><b>Kevin Klein</b> · kckdata.com</a></div>
+
+  <header>
+    <div class="kicker">Halloween · Color</div>
+    <h1>When did <span class="w-p">purple</span> become a <span class="w-o">Halloween</span> <span class="w-c">color</span>?</h1>
+    <p class="dek">I measured 3,000 Halloween images across vintage postcards, picture books, catalog pages, pictures of people's front yards, and the last 27 years of Google Doodles to get to the bottom of it.</p>
+    <div class="byline">By <b>Kevin Klein</b> · <time datetime="2026-10-25">Oct. 25, 2026</time></div>
+  </header>
+  <div class="pair" id="pair"></div>
+  <p class="scan-note"><b>▦ <span class="hlw"><i>Hal</i><i>low</i><i>een</i></span> pixel scan:</b> click any picture on this page to watch its purple get counted, pixel by pixel.</p>
+
+  <div class="prose" style="margin-top:30px">
+    <p>When I was a kid, Halloween was <mark class="o">orange</mark> and black. Full stop. But a quick night drive around my community is all the evidence I need to know that is clearly no longer the case. Now, <mark class="p">purple</mark> is everywhere! When did this happen, and why did this happen?</p>
+    <p>To find out, I mined the web for a bunch of assorted Halloween imagery and analyzed each image pixel by pixel to try to figure out when purple staked its claim to our favorite spooky holiday. Here's a top level look at my findings. Don't worry, we'll get closer to each category further down the page.</p>
+  </div>
+
+  <section>
+    <div class="sec-k">The palette <span>1900–2025</span></div>
+    <h2>A century of Halloween colors, one stripe per year</h2>
+    <div class="chart">
+      <p class="cs">Each stripe is the colored part of that year's images, purple at the top. Hover or tap a stripe for its numbers and sample images. Hatched areas are years with no data; hover one to see why.</p>
+      <svg id="stripes" role="img" aria-label="Halloween color palettes by year for four sources; purple appears at the top of stripes from about 1990 in picture books and grows in yard photos after 2016"></svg>
+      <div class="key" id="key"></div>
+      <div class="picked" id="picked" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-k">The trend <span>Purple's share of color</span></div>
+    <h2>Two waves: the books turned purple around 1990, the yards after 2016</h2>
+    <div class="prose">
+      <p>As you can see in the color strips above, we found almost no purple in Halloween-themed postcards from 1900 thru 1939, and although the coverage is spotty, we don't see much purple in catalogs and ads from 1969, until 2020, when that year's catalog pages were a meaningful <mark class="p">15%</mark> purple.</p>
+      <p>We have significantly more coverage across picture books and yard displays. Picture-book covers went from almost no purple in the 1970s to about <mark class="p">5%</mark> by 1992, and then ticked up to 5% to 7% after that. By 2018 to 2021, purple-share on Halloween picture books was up to <mark class="p">9%</mark>.</p>
+      <p>Yard displays stayed orange much longer. In dated photos of American Halloween yards, purple was about 1% of the strong color through 2015. Since then it has quadrupled, and in 2023 more than a quarter of the displays photographed had noticeable purple in them.</p>
+    </div>
+    <div class="chart">
+      <h4>Every cover, yard and poster, by how purple it is</h4>
+      <p class="cs">Each dot is one image, placed at its year and its purple share; filled purple means at least 5% of its color is purple, and the strip at the bottom holds the ones with no purple at all. The line is the five-year average, drawn where a full five years of data exist. Hover to see the picture; click to watch its <span class="hlw"><i>Hal</i><i>low</i><i>een</i></span> pixel scan.</p>
+      <div class="seg" role="group" aria-label="Show images as"><button data-m="dots" aria-pressed="true">Dots</button><button data-m="pics" aria-pressed="false">Pictures</button></div>
+      <div class="pics"><h5>Picture-book covers<span>760 library covers 1971–2017, 136 Open Library covers 2018–2021</span></h5><canvas id="picB" role="img" aria-label="Scatter of 896 picture-book covers, 1971 to 2021, by year and purple share; covers with purple become common after 1990 and the average rises from near 0 to about 6 percent, and higher in the 2018 to 2021 Open Library covers"></canvas>
+        <h5>Yard displays<span>240 photo shoots, 2000–2025</span></h5><canvas id="picP" role="img" aria-label="Scatter of 240 yard display photos by year and purple share; purple photos cluster after 2016"></canvas>
+        <h5>Halloween movie posters<span>163 Halloween movies and seasonal staples, 1976–2025</span></h5><canvas id="picM" role="img" aria-label="Scatter of 163 Halloween movie posters by year and purple share; purple posters cluster between 1985 and 2004, mostly kids' movies, and fade after 2005"></canvas></div>
+      <p class="note"><b>Where the data ends</b>The Internet Archive's lending library holds just three Halloween picture books published after 2017. Its books are scans of physical copies, so recent titles are rare. The shaded years, 2018–2021, use cover images from Open Library instead. Where both sources cover the same years (2010–2017), they agree within half a point: 5.0% vs 4.9% purple for 2010–14, 6.4% vs 6.9% for 2015–17. After 2021 Open Library lists only 1–8 Halloween picture books a year, too few to measure. Yard photos start in 2000 because they come from Wikimedia Commons, which opened in 2004. Only a handful of display photos there are dated before 2007, and recent years are thinner because uploads lag. The poster average is drawn only where five full years of films exist.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-k">The doodles <span>1999–2025</span></div>
+    <h2>Google's Halloween doodle went purple too</h2>
+    <div class="prose"><p>As I was pondering how I could find a consistently published Halloween image that would change year over year, it occurred to me that Google's daily Doodle would likely have an annual Halloween rendition, and they keep good records over there.</p>
+      <p>Sure enough, there's been one every year since 1999. For its first decade it was the usual blue, red, yellow and green letters dressed up with pumpkins, ghosts and a black cat, and 10 of those 11 doodles have no purple at all. Purple arrives with 2010's witch and bats. Since 2017, 7 of 9 doodles are at least 10% purple, mostly in the night skies and the ghosts.</p></div>
+    <div class="chart">
+      <h4>Purple in Google's Halloween doodle, year by year</h4>
+      <p class="cs">Purple's share of each doodle's color. For scale, the gray lines are picture books and yard displays (five-year averages), which never pass 10%. Hover for each year's doodle.</p>
+      <svg id="ddline" role="img" aria-label="Line chart of purple share in Google's Halloween doodles: zero in 10 of 11 years from 1999 to 2009, then spikes to 21 percent in 2010, 63 percent in 2015, 37 percent in 2017 and 80 percent in 2024, far above picture books and yard displays, which stay under 10 percent"></svg>
+    </div>
+    <div class="wall dds" id="doodles"></div>
+    <p class="note"><b>Doodles</b>© Google, via the Google Doodles archive (doodles.google).</p>
+  </section>
+
+  <section>
+    <div class="sec-k">All together <span>Every source, side by side</span></div>
+    <div class="chart">
+      <h4>Purple's share of each source's color</h4>
+      <p class="cs">Five-year rolling average, on a square-root scale so the doodles fit. Photos are measured on their strongly colored pixels only, so compare each line's shape, not its level against the others.</p>
+      <svg id="trend" role="img" aria-label="Line chart of purple share: Google Doodles jump from 0 before 2008 to above 25 percent after 2021; picture books rise from near 0 in the 1970s to about 5 percent by 1992; yard photos rise from about 1 percent before 2015 to 4 to 10 percent after; a dotted extension using Open Library covers takes picture books to about 9 percent by 2019"></svg>
+      <p class="note"><b>Why lines stop</b>Each point averages the five years centered on it, so a line ends two years before its data does. Picture books are dotted from 2015 on, where the average starts to lean on Open Library covers (2018–2021). They end in 2019 because Open Library lists only a handful of Halloween picture books published after 2021. Catalogs stop after 2006: the archive has only two later ones, from 2013 and 2020, too far apart to average. Yard photos start in 2006 because Commons has few dated display photos from before then. Doodles are one image a year, so their average swings with each one. Breaks mark runs of years with no data.</p>
+      <details><summary>Table: purple share by year</summary><div class="tbl-wrap" id="tbl"></div></details>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-k">Why <span>A best guess</span></div>
+    <h2>Family movies and picture books fit the first wave. LEDs fit the second.</h2>
+    <div class="chart" style="max-width:560px">
+      <h4>What's purple in the yard</h4>
+      <p class="cs">Purple's share of strong color in display photos, by what the photo mostly shows.</p>
+      <svg id="types" role="img" aria-label="Purple share by display type: inflatables highest at about 13 percent, then lights, decor and props"></svg>
+    </div>
+    <div class="chart">
+      <h4>Inflatables and lights took off when the yards turned purple</h4>
+      <p class="cs">Three measures on one timeline. Searches are yearly Google search interest in the US, shown as a multiple of each term's 2004–2014 average. Spending is the National Retail Federation's forecast of what Americans would spend on Halloween decorations. Hover for each year.</p>
+      <svg id="ctx" role="img" aria-label="Three stacked charts, 2004 to 2025: Google searches for Halloween inflatables stay flat until 2014, then rise to almost five times that level by 2024; searches for Halloween lights rise to about three times; NRF decoration spending doubles from 2 billion dollars in 2013 to 4.2 billion in 2025; purple in yard displays stays near 1 percent until 2015 and rises to about 7 percent by 2023."></svg>
+      <p class="note"><b>Sources</b>Google Trends, US, 2004–2025, all terms in one request so they share a scale. National Retail Federation and Prosper Insights &amp; Analytics annual Halloween surveys, 2013–2025; before 2013 NRF published per-person spending only. Yard purple is the five-year average from the trend chart above.</p>
+    </div>
+    <div class="prose" style="margin-top:28px">
+      <h3 class="ph3">My best guess at how it happened</h3>
+      <p>So, where does all this information leave us? First, we should be honest about the information we're working with here. Counting pixels on images pulled from the Internet probably isn't the method that provides us the most confidence in our answer. Sample sizes are relatively small, we have timeline gaps, all the good stuff that keeps data pros up at night. That said, the data we do have in evidence here does tell a pretty convincing story about purple cementing itself as a Halloween color alongside the rise of LED lighting and inflatable yard decorations.</p>
+      <p>That's not the explanation you'll usually find. The most-cited one, from <a href="https://www.scientificamerican.com/blog/anthropology-in-practice/how-did-purple-become-a-halloween-color/">an anthropologist writing for Scientific American</a>, is that marketers reached for purple to make Halloween gentler for little kids. The picture-book wave fits that, but the bigger jump came later, and it came in the yards.</p>
+      <p>It makes sense to me, especially on the lighting front. Black doesn't make a good color for outdoor lights at night, and monochrome orange gets boring fast, so it needs a dance partner, and purple contrasts with it well. Add in the time series we explored in this post and the timing is hard to ignore. Purple shows up in front yards in the same years that Americans started spending real money decorating outside. Searches for Halloween inflatables are more than 4x what they were before 2015. Searches for Halloween lights have tripled, and spending on Halloween decorations in general has more than doubled. Somewhere in that time, lights became a standard part of the Halloween yard.</p>
+    </div>
+    <div class="chart" style="max-width:760px">
+      <h4>Orange needs a partner after dark</h4>
+      <p class="cs">Three strings of lights against a night sky. The numbers are color difference (CIELAB ΔE): under about 10 the eye barely separates two colors, and above about 50 they're plainly different.</p>
+      <svg id="glow" role="img" aria-label="Three strings of Halloween lights on a night sky. Orange and black: the black bulbs nearly vanish, differing from the sky by about 6. Orange alone: orange differs from the sky by about 100, but it's one color. Orange and purple: purple differs from the sky by about 100 and from orange by about 150."></svg>
+    </div>
+    <div class="prose" style="margin-top:28px">
+      <p>So my best explanation for how purple became a Halloween color is that it simply came within reach. Once a purple string of lights was as easy to buy as an orange one (or more accurately, once a string of lights could be any color or combination of colors), people put them right next to each other.</p>
+      <p>Hope you enjoyed this.</p>
+      <p class="sig" aria-label="Kevin Klein"><i style="--d:0s;--t:6.5s">K</i><i style="--d:2.1s;--t:5.2s">e</i><i style="--d:0.7s;--t:7.1s">v</i><i style="--d:3.3s;--t:4.8s">i</i><i style="--d:1.4s;--t:6.0s">n</i> <i style="--d:2.7s;--t:5.6s">K</i><i style="--d:0.3s;--t:6.8s">l</i><i style="--d:1.9s;--t:4.6s">e</i><i style="--d:3.8s;--t:7.4s">i</i><i style="--d:1.1s;--t:5.9s">n</i></p>
+    </div>
+  </section>
+
+  <details class="method">
+    <summary>How this was measured</summary>
+    <h3>The images</h3>
+    <p><b>Postcards</b>: 92 Halloween postcards and cards on Wikimedia Commons, mostly 1905–1920; undated golden-age cards count as 1910. <b>Catalogs and ads</b>: about 840 pages from 22 trade catalogs, retail catalogs and store ads in the Internet Archive, 1969–2020 (Tico, Byron Molds, Hallmark, Oriental Trading, Disney, Johnson Smith, Kurt S. Adler, Dollar Tree, Meijer and others). <b>Picture books</b>: covers of 760 Halloween picture books (80 pages or fewer) in the Internet Archive's lending library, 1971–2017. The library often holds several scans of one book; a second scan with the same title, year and cover layout is dropped (85 of them). For 2018–2021, 136 covers from Open Library: works with a Halloween title or subject, 8–48 pages, in English, with coloring, activity and journal titles left out. Lookalike covers count once, and so does a place-name series from one publisher (Sourcebooks' 2019 "Trick or Treat in [State]" books are 50-odd near-identical covers). <b>Yard photos</b>: about 1,050 photos on Wikimedia Commons in the "Halloween decorations in the United States" categories, dated by when they were taken (September to November). <b>Doodles</b>: Google's 27 Halloween homepage doodles, 1999–2025, from doodles.google, measured like the book covers without the white background. Animated doodles are the average of 8 frames across the loop; 2013's was interactive, so only a small still of it survives. They're shown on their own and aren't part of the yearly stripes or averages.</p>
+    <p><b>Movie posters</b>: I started from the 645 films in English Wikipedia's "American films about Halloween," "Halloween horror films" and "Films about witchcraft" categories and judged each one from its Wikipedia summary. I kept 136 Halloween movies (set on or around Halloween, or built on trick-or-treating, costumes, haunted attractions or jack-o'-lanterns) and 30 Halloween-season staples that aren't set at Halloween (<i>Beetlejuice</i>, the <i>Addams Family</i> films, <i>Casper</i>, <i>Coraline</i>, <i>The Craft</i>). The witchcraft-only films (fairy tales, witch trials, European folk horror) are out. Posters are each film's Wikipedia lead image, dated by first release on Wikidata, color posters only, 163 in all.</p>
+    <h3>Which pixels count</h3>
+    <p>Each image is shrunk, converted to the OKLCH color space and binned by hue: black, red, orange, brown, yellow, green, teal, blue, purple (hue 285°–345°) and pink. Red ends at hue 31°. In the yard photos, red decorations measure 17°–28° and real pumpkins 32°–40°, so anything past 31° counts as orange (or brown when it's dark). Black is anything darker than lightness 0.12, plus nearly colorless pixels (chroma under 0.045) up to lightness 0.36, because printed black ink scans as dark charcoal rather than true black. Dark pixels with real color, like a deep-violet robe or a midnight-purple sky, keep their hue. Pale and low-color pixels (white, cream card stock, gray) are left out. For scans, the page background is detected from a ring just inside the edge and removed, so a purple page backdrop doesn't count as purple product. A zero-shot image model (CLIP) drops catalog pages that aren't Halloween merchandise.</p>
+    <p>Photos of real displays need different handling. Dusk light tints a white house lavender, so each photo is first white-balanced against its near-neutral surfaces (walls, pavement, sky), and only strongly colored pixels count. Its numbers are on a different scale from the printed sources, and the trend chart is meant for comparing shapes.</p>
+    <p>The <span class="hlw"><i>Hal</i><i>low</i><i>een</i></span> pixel scan you get by clicking a picture isn't a re-creation. When each image was measured, the label for every pixel it looked at was saved, and the scan replays those labels, so its counts add up to the number used in the charts.</p>
+    <h3>Weighting</h3>
+    <p>Within a catalog, each page counts in proportion to how much color it has, so a purple header on a text page barely registers. Each catalog counts equally within a year. Each day's photo shoot counts once, so one photographer's 40 frames of a single yard don't swamp a year. The <i>Selling Halloween</i> trade magazine is left out of the catalog row because its own page design is purple. Party City's archived website, also tested, was mostly licensed costumes and is left out too.</p>
+    <h3>Limits</h3>
+    <p>Most years before 2007 rest on one to three catalogs, and there's nothing for the 1940s–60s. Commons photos are whatever people chose to upload. That likely tilts toward elaborate displays, and the 2025 count is small (9 shoots). The lending library holds only three Halloween picture books published after 2017, likely because it scans physical copies and new books reach it slowly, so 2018–2021 come from Open Library. Those years rest on 27–48 books each. Resampling the books, the rise from 2010–17 (5.8%) to 2018–21 (9.0%) has a 90% range of about +1 to +6 points, with or without self-published books, so it's probably real but its size is loose. Open Library has too few books after 2021 to use. Postcards thin out after 1920. Their golden age was 1905–1915, and Commons mostly holds cards old enough to be public domain. Yard photos begin in 2000 and are sparse before 2007; Commons opened in 2004. The LED and spending timeline comes from news coverage and industry estimates, not sales of purple lights. Postcards are public domain and the yard photos are freely licensed (credits on hover and on each Commons page). Catalog pages and book covers are copyrighted and appear only as small thumbnails, linked to their Internet Archive pages.</p>
+  </details>
+
+  <footer><span>Kevin Klein · kckdata.com</span><span>Data and images: Wikimedia Commons, Internet Archive, Wikipedia</span></footer>
+</div>
+<div class="tip" id="tip"></div>
+<div class="sc" id="sc" role="dialog" aria-modal="true" aria-labelledby="sc-title">
+  <div class="sc-box">
+    <div class="sc-hd"><span id="sc-title"><span class="hlw"><i>Hal</i><i>low</i><i>een</i></span> pixel scan</span><span id="sc-n"></span><span class="sp"></span>
+      <button id="sc-prev" aria-label="Previous image">‹<span> Prev</span></button><button id="sc-next" aria-label="Next image"><span>Next </span>›</button><button id="sc-x" aria-label="Close">✕</button></div>
+    <div class="sc-body">
+      <div class="sc-view">
+        <div class="sc-stage" id="sc-stage"><canvas id="sc-cv"></canvas><div class="sc-hud" id="sc-hud"></div><div class="sc-probe" id="sc-probe"></div></div>
+        <div class="sc-modes" role="group" aria-label="View"><button data-v="scan" aria-pressed="true">Classified</button><button data-v="purple" aria-pressed="false">Purple only</button><button data-v="photo" aria-pressed="false">Original</button><button id="sc-re">↻ Rescan</button></div>
+        <div class="sc-cap" id="sc-cap"></div>
+      </div>
+      <div class="sc-out" id="sc-out"></div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script>
+document.addEventListener('click', e => { const a = e.target.closest('a[href]'); if (a && a.getAttribute('href') !== '/') { a.target = '_blank'; a.rel = 'noopener'; } }, true);
+</script>
+<script>
+(async () => {
+const D = await (await fetch('data.json')).json();
+const $ = s => document.querySelector(s), tip = $('#tip');
+const SW = { purple: '#7b3fb0', pink: '#e06aa8', red: '#c23a2c', orange: '#ef7d1a', yellow: '#e8c43a', brown: '#7a4a24', green: '#4f9a3c', teal: '#2f9a9a', blue: '#3a5cc0', black: '#1c1a1d' };
+const COLS = D.colors;
+const ROWS = [
+  { k: 'postcards', name: 'Postcards', sub: '92 cards' },
+  { k: 'catalogs', name: 'Catalogs & ads', sub: '22 catalogs' },
+  { k: 'books', name: 'Picture books', sub: '896 covers' },
+  { k: 'photos', name: 'Yard displays', sub: '~1,050 photos' },
+];
+const per = (v, d = 1) => (v * 100).toFixed(v < 0.1 && d ? 1 : 0) + '%';
+const small = () => innerWidth < 600;
+// each chart animates in once, the first time it scrolls into view; redraws after that (resize, toggles) are static
+const RM = matchMedia('(prefers-reduced-motion: reduce)').matches, INTRO = {};
+function intro(el, id, ms, play) {   // 'pre' until it's seen, 'play' while running, '' after (or with reduced motion)
+  if (RM) return '';
+  if (!INTRO[id]) {
+    INTRO[id] = {};
+    const io = new IntersectionObserver(es => { if (!es.some(e => e.isIntersecting)) return; io.disconnect();
+      INTRO[id].t0 = performance.now(); play(); setTimeout(() => { INTRO[id].done = true; }, ms); }, { threshold: 0.3 });
+    io.observe(el);
+  }
+  return INTRO[id].done ? '' : INTRO[id].t0 ? 'play' : 'pre';
+}
+function svgIntro(node, id, ms) {
+  const set = c => { node.classList.remove('pre', 'play'); if (c) node.classList.add(c); };
+  set(intro(node, id, ms, () => { set('play'); setTimeout(() => set(''), ms); }));
+}
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+function showTip(e, html) {
+  tip.innerHTML = html; tip.style.opacity = 1;
+  const r = tip.getBoundingClientRect(); let x = e.clientX + 14, y = e.clientY + 14;
+  if (x + r.width > innerWidth - 8) x = e.clientX - r.width - 14;
+  if (y + r.height > innerHeight - 8) y = Math.max(8, e.clientY - r.height - 14);
+  tip.style.left = Math.max(8, x) + 'px'; tip.style.top = y + 'px';
+}
+const hideTip = () => tip.style.opacity = 0;
+const mixbar = m => `<div class="mixbar">${COLS.filter(c => m[c] > 0.003).map(c => `<i style="flex:${m[c]};background:${SW[c]}"></i>`).join('')}</div>`;
+const rowName = k => ROWS.find(r => r.k === k).name;
+const yearLabel = (k, y, v) => v.span > 1 ? `${y}–${+y + v.span - 1}` : y;
+const nLabel = (k, v) => k === 'photos' ? `${v.n} photo shoot${v.n > 1 ? 's' : ''}` : k === 'catalogs' ? `${v.n} pages · ${v.src.join(', ')}` : k === 'books' ? `${v.n} cover${v.n > 1 ? 's' : ''} · ${v.ol ? 'Open Library' : 'Internet Archive'}` : `${v.n} card${v.n > 1 ? 's' : ''}`;
+const samplesFor = (k, y) => (D.samples[k] || {})[y] || [];
+
+// why a row has no data in a run of years [a, b]
+function gapWhy(k, a, b) {
+  if (k === 'postcards') return 'Halloween postcards peaked around 1905–1915. Wikimedia Commons mostly holds cards old enough to be public domain, so there are none here after the 1930s.';
+  if (k === 'books') return b <= 1970 ? 'The picture-book search starts with books published in 1970.'
+    : 'The lending library has almost nothing after 2017, so 2018–2021 come from Open Library. After 2021 Open Library lists only 1–8 Halloween picture books a year, too few to measure, likely because new books are slow to be catalogued.';
+  if (k === 'photos') return b < 2000 ? 'Yard photos come from Wikimedia Commons, which opened in 2004. Its dated Halloween display photos begin in 2000.'
+    : 'No dated Halloween yard photos on Commons from these years. Before 2007 there are only a handful.';
+  return b < 1969 ? 'No Halloween catalogs from before 1969 turned up in the Internet Archive.'
+    : a > 2020 ? 'The newest Halloween catalog in the Internet Archive is from 2020.'
+    : 'No Halloween catalog or store ad from these years has been scanned into the Internet Archive. This row only has the years someone digitized.';
+}
+
+// ---------- palette stripes: broken axis, 1900-1940 | 1965-2025 ----------
+function drawStripes() {
+  const svg = d3.select('#stripes'); svg.selectAll('*').remove();
+  const W = svg.node().getBoundingClientRect().width, sm = small();
+  const lw = sm ? 0 : 118, rowH = sm ? 54 : 64, gap = sm ? 26 : 14, top = 6;
+  const H = top + ROWS.length * (rowH + gap) + 22;
+  svg.attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+  const plotW = W - lw, brk = 16, wA = (plotW - brk) * 0.22, wB = plotW - brk - wA;
+  const xA = d3.scaleLinear([1900, 1940], [lw, lw + wA]), xB = d3.scaleLinear([1965, 2026], [lw + wA + brk, W]);
+  const X = y => y < 1950 ? xA(y) : xB(y), Wd = (y, s) => y < 1950 ? xA(y + s) - xA(y) : xB(y + s) - xB(y);
+  svgIntro(svg.node(), 'stripes', 2300);
+  const defs = svg.append('defs');
+  [['nodata', '#e4e0d6'], ['nodata-h', '#c9c4b8']].forEach(([id, c]) => {
+    const pt = defs.append('pattern').attr('id', id).attr('width', 6).attr('height', 6).attr('patternUnits', 'userSpaceOnUse').attr('patternTransform', 'rotate(45)');
+    pt.append('rect').attr('width', 6).attr('height', 6).attr('fill', '#f4f2ec'); pt.append('line').attr('x1', 0).attr('y1', 0).attr('x2', 0).attr('y2', 6).attr('stroke', c).attr('stroke-width', 2);
+  });
+  ROWS.forEach((r, i) => {
+    const y0 = top + i * (rowH + gap) + (sm ? 16 : 0);
+    const g = svg.append('g');
+    if (sm) g.append('text').attr('class', 'rowlab').attr('x', 0).attr('y', y0 - 5).text(r.name).append('tspan').attr('class', 'rowsub').attr('dx', 8).text(r.sub);
+    else {
+      g.append('text').attr('class', 'rowlab').attr('x', 0).attr('y', y0 + rowH / 2 - 2).text(r.name);
+      g.append('text').attr('class', 'rowsub').attr('x', 0).attr('y', y0 + rowH / 2 + 13).text(r.sub);
+    }
+    g.append('rect').attr('x', lw).attr('y', y0).attr('width', plotW).attr('height', rowH).attr('fill', '#f4f2ec');
+    // hatched runs of missing years, each with a tooltip saying why
+    const have = new Set(Object.entries(D.rows[r.k]).flatMap(([yr, v]) => d3.range(+yr, +yr + v.span)));
+    [[1900, 1939], [1965, 2025]].forEach(([lo, hi]) => {
+      let a = null;
+      for (let yy = lo; yy <= hi + 1; yy++) {
+        const miss = yy <= hi && !have.has(yy);
+        if (miss && a == null) a = yy;
+        if (!miss && a != null) {
+          const b = yy - 1, why = gapWhy(r.k, a, b), lab = a === b ? a : `${a}–${b}`;
+          g.append('rect').attr('class', 'gapz').attr('x', X(a)).attr('y', y0).attr('width', Math.max(1, X(b + 1) - X(a))).attr('height', rowH).attr('tabindex', 0)
+            .attr('aria-label', `${r.name}, ${lab}: no data. ${why}`)
+            .on('mousemove', e => showTip(e, `<b>${r.name}, ${lab}</b><span class="pp" style="color:var(--ink-2)">No data</span><small style="white-space:normal">${why}</small>`)).on('mouseleave', hideTip)
+            .on('focus', e => { const bb = e.target.getBoundingClientRect(); showTip({ clientX: bb.left + bb.width / 2, clientY: bb.bottom }, `<b>${r.name}, ${lab}</b><small style="white-space:normal">${why}</small>`); }).on('blur', hideTip);
+          a = null;
+        }
+      }
+    });
+    Object.entries(D.rows[r.k]).forEach(([yr, v]) => {
+      const x = X(+yr), w = Math.max(1, Wd(+yr, v.span) - (Wd(+yr, 1) > 4 ? 1 : 0));
+      const s = g.append('g').attr('class', 'stripe').attr('tabindex', 0).style('--d', `${(i * 0.16 + (x - lw) / plotW * 1.1).toFixed(3)}s`)
+        .attr('aria-label', `${r.name} ${yearLabel(r.k, yr, v)}: ${per(v.mix.purple)} purple`);
+      let acc = 0;
+      COLS.forEach(c => { const h = v.mix[c] * rowH; if (h > 0.01) s.append('rect').attr('x', x).attr('y', y0 + acc).attr('width', w).attr('height', h).attr('fill', SW[c]); acc += h; });
+      s.append('rect').attr('x', x - 1).attr('y', y0 - 4).attr('width', w + 2).attr('height', rowH + 8).attr('fill', 'transparent');
+      const html = () => `<b>${rowName(r.k)}, ${yearLabel(r.k, yr, v)}</b><span class="pp">${per(v.mix.purple)} purple</span> · ${per(v.mix.orange, 0)} orange${mixbar(v.mix)}<small>${esc(nLabel(r.k, v))}</small>` +
+        (samplesFor(r.k, yr).length ? `<div class="thumbs">${samplesFor(r.k, yr).slice(0, 4).map(p => `<img src="img/${p.f}" alt="">`).join('')}</div>` : '');
+      s.on('mousemove', e => showTip(e, html())).on('mouseleave', hideTip)
+        .on('click', () => pick(r.k, yr, v)).on('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); pick(r.k, yr, v); } });
+    });
+  });
+  // axis
+  const ay = top + ROWS.length * (rowH + gap) - gap + (sm ? 16 : 0) + 14;
+  const ax = svg.append('g').attr('class', 'axis');
+  [sm ? [1900] : [1900, 1920], sm ? [1970, 1990, 2010] : [1970, 1980, 1990, 2000, 2010, 2020]].forEach((ts, j) => ts.forEach(t =>
+    ax.append('text').attr('x', (j ? xB : xA)(t)).attr('y', ay).attr('text-anchor', t === 1900 ? 'start' : 'middle').text(t)));
+  ax.append('text').attr('x', lw + wA + brk / 2).attr('y', ay).attr('text-anchor', 'middle').text('⁄⁄');
+}
+function pick(k, yr, v) {
+  const el = $('#picked'), sm = samplesFor(k, yr);
+  el.innerHTML = `<h5>${rowName(k)}, ${yearLabel(k, yr, v)}: ${per(v.mix.purple)} purple</h5><div class="ps">${esc(nLabel(k, v))}</div>${mixbar(v.mix).replace('mixbar', 'mixbar" style="display:flex;height:12px;margin-top:8px;border-radius:2px;overflow:hidden')}` +
+    (sm.length ? `<div class="gal">${sm.map((p, i) => `<figure><a href="${p.u}" data-i="${i}"><img src="img/${p.f}" alt="${esc(p.t)}" loading="lazy"></a><figcaption>${esc(p.t.slice(0, 60))} · ${esc(p.a)}${p.l ? ' · ' + esc(p.l) : ''}</figcaption></figure>`).join('')}</div>`
+      : `<div class="ps" style="margin-top:8px">No sample images for this year.</div>`);
+  el.classList.add('on');
+  el.onclick = e => { const a = e.target.closest('a[data-i]'); if (!a) return; e.preventDefault();
+    SCAN.open(sm.map(p => ({ f: p.f, t: clean(p.t), u: p.u, mode: k === 'photos' ? 'photo' : 'fg', cap: `${rowName(k)} · ${yr} · ${p.a}${p.l ? ' · ' + p.l : ''}` })), +a.dataset.i); };
+}
+function key() {
+  $('#key').innerHTML = COLS.map(c => `<span><i style="--c:${SW[c]}"></i>${c}</span>`).join('');
+}
+
+// ---------- trend lines ----------
+const OL_FROM = 2015;   // last picture-book average that's all lending library (window 2013-2017)
+const SER = [
+  { k: 'books', name: 'Picture books', c: '#1d1d1b', dash: null },
+  { k: 'catalogs', name: 'Catalogs & ads', c: '#8b887f', dash: '5 4' },
+  { k: 'photos', name: 'Yard displays', c: '#7b3fb0', dash: null },
+  { k: 'doodles', name: 'Google Doodles', c: '#d8660c', dash: null },
+];
+// doodles get the same centered five-year average as the other sources (one doodle a year)
+D.trend.doodles = (() => { const v = Object.fromEntries(D.doodles.map(d => [d.y, d.mix.purple])), o = {};
+  for (let y = 2001; y <= 2023; y++) o[y] = +d3.mean(d3.range(y - 2, y + 3), k => v[k]).toFixed(4); return o; })();
+function drawTrend() {
+  const svg = d3.select('#trend'); svg.selectAll('*').remove();
+  const W = svg.node().getBoundingClientRect().width, sm = small(), H = sm ? 260 : 320;
+  const m = { t: 14, r: sm ? 40 : 110, b: 26, l: 36 };
+  svg.attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+  const x = d3.scaleLinear([1970, 2025], [m.l, W - m.r]), y = d3.scaleSqrt([0, 0.4], [H - m.b, m.t]);   // square root: the doodles reach 36%, the rest stay under 13%
+  svgIntro(svg.node(), 'trend', 2300);
+  const g = svg.append('g');
+  g.append('clipPath').attr('id', 'trend-wipe').append('rect').attr('class', 'wipe').style('--d', '.35s').attr('x', m.l - 4).attr('y', 0).attr('width', W).attr('height', H);
+  g.append('g').attr('class', 'grid').selectAll('line').data([0.01, 0.05, 0.1, 0.25]).join('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y).attr('y2', y);
+  g.append('g').attr('class', 'axis').selectAll('text').data([0, 0.01, 0.05, 0.1, 0.25]).join('text').attr('x', m.l - 6).attr('y', d => y(d) + 4).attr('text-anchor', 'end').text(d => d ? Math.round(d * 100) + '%' : '0');
+  g.append('g').attr('class', 'axis').selectAll('text').data(sm ? [1970, 1990, 2010] : [1970, 1980, 1990, 2000, 2010, 2020]).join('text').attr('x', x).attr('y', H - 6).attr('text-anchor', 'middle').text(d => d);
+  g.append('line').attr('class', 'base').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(0)).attr('y2', y(0));
+  // the two waves
+  [[1988, 1993, 'Wave 1'], [2016, 2025, 'Wave 2']].forEach(([a, b, t]) => {
+    g.append('rect').attr('class', 'wave').style('--d', a < 2000 ? '.9s' : '1.5s').attr('x', x(a)).attr('width', x(b) - x(a)).attr('y', m.t).attr('height', H - m.b - m.t).attr('fill', '#7b3fb0').attr('opacity', .07);
+    g.append('text').attr('class', 'axis fade').style('--d', a < 2000 ? '1.2s' : '1.8s').attr('x', x(a) + 4).attr('y', m.t + 12).style('font', '500 11px IBM Plex Mono').style('fill', '#7b3fb0').text(t);
+  });
+  const line = d3.line().x(d => x(d[0])).y(d => y(d[1])).defined(d => d[1] != null);
+  const pts = {};
+  SER.forEach(s => {
+    const t = D.trend[s.k], ys = Object.keys(t).map(Number).sort((a, b) => a - b);
+    const data = []; ys.forEach((yr, i) => { if (i && yr - ys[i - 1] > 3) data.push([yr - 1, null]); data.push([yr, t[yr]]); });
+    pts[s.k] = ys.map(yr => [yr, t[yr]]);
+    if (s.k === 'books') {   // from 2016 the five-year window reaches the Open Library years: dotted
+      g.append('path').attr('clip-path', 'url(#trend-wipe)').attr('d', line(data.filter(d => d[0] >= OL_FROM))).attr('fill', 'none').attr('stroke', s.c).attr('stroke-width', 2).attr('stroke-dasharray', '1.5 3.5').attr('stroke-linecap', 'round');
+      data.splice(data.findIndex(d => d[0] > OL_FROM));
+    }
+    g.append('path').attr('clip-path', 'url(#trend-wipe)').attr('d', line(data)).attr('fill', 'none').attr('stroke', s.c).attr('stroke-width', 2).attr('stroke-dasharray', s.dash).attr('stroke-linejoin', 'round');
+    // books are labeled above their plateau and catalogs under theirs, clear of the later lines; the rest at their ends
+    const at = { books: [1997, 0.095], catalogs: [1998, 0.012] }[s.k], last = at || pts[s.k].at(-1);
+    if (!sm) g.append('text').attr('class', 'lbl fade').style('--d', at ? '1.3s' : '1.9s').attr('x', x(last[0]) + (at ? 0 : 6)).attr('text-anchor', at ? 'middle' : 'start').attr('y', y(last[1]) + 4).attr('fill', '#1d1d1b')
+      .text(s.name);
+  });
+  // wave 2: each line's growth from its 2016 average to its last one, marked at both ends
+  const W2 = 2016, grow = { books: 'books', photos: 'photos', doodles: 'doodles' };
+  SER.filter(s => grow[s.k]).forEach(s => {
+    const a = [W2, D.trend[s.k][W2]], z = pts[s.k].at(-1), ch = Math.round((z[1] / a[1] - 1) * 100);
+    g.append('circle').attr('class', 'fade').style('--d', '2.1s').attr('cx', x(a[0])).attr('cy', y(a[1])).attr('r', 3.5).attr('fill', '#fcfcfb').attr('stroke', s.c).attr('stroke-width', 2);
+    g.append('circle').attr('class', 'fade').style('--d', '2.1s').attr('cx', x(z[0])).attr('cy', y(z[1])).attr('r', 3.5).attr('fill', s.c).attr('stroke', '#fcfcfb').attr('stroke-width', 1.5);
+    const t = `+${ch}%`, sub = sm ? '' : ` since ${W2}`, books = s.k === 'books';
+    // books end mid-band: their figure goes above their last point; the others sit under their name at the right
+    const tx = books ? x(z[0]) : x(z[0]) + 6, ty = books ? y(z[1]) - 9 : y(z[1]) + (sm ? 4 : 18);
+    const el = g.append('text').attr('class', 'fade').style('--d', '2.2s').attr('x', tx).attr('y', ty).attr('text-anchor', books ? 'end' : 'start')
+      .attr('paint-order', 'stroke').attr('stroke', '#fcfcfb').attr('stroke-width', 4).attr('stroke-linejoin', 'round');
+    el.append('tspan').style('font', `700 ${sm ? 11 : 13}px Inter`).attr('fill', '#4a1f75').text(t);
+    if (sub) el.append('tspan').style('font', '400 11px "IBM Plex Mono"').attr('fill', '#55534e').text(sub);
+  });
+  // legend (always) under the chart
+  let lg = document.getElementById('trendkey');
+  if (!lg) { lg = document.createElement('div'); lg.id = 'trendkey'; lg.className = 'key'; svg.node().after(lg); }
+  lg.innerHTML = SER.map(s => `<span><i class="ln" style="--c:${s.c};${s.dash ? 'background:repeating-linear-gradient(90deg,' + s.c + ' 0 5px,transparent 5px 9px)' : ''}"></i>${s.name}</span>`).join('')
+    + `<span><i class="ln" style="--c:#1d1d1b;background:repeating-linear-gradient(90deg,#1d1d1b 0 2px,transparent 2px 5px)"></i>Picture books, with Open Library covers</span>`;
+  // crosshair
+  const cross = g.append('line').attr('stroke', '#8b887f').attr('y1', m.t).attr('y2', H - m.b).style('opacity', 0);
+  const dots = g.append('g');
+  svg.append('rect').attr('x', m.l).attr('y', 0).attr('width', W - m.l - m.r + 10).attr('height', H).attr('fill', 'transparent')
+    .on('mousemove', e => {
+      const yr = Math.round(x.invert(d3.pointer(e)[0])); cross.attr('x1', x(yr)).attr('x2', x(yr)).style('opacity', 1);
+      const rows = SER.map(s => [s, D.trend[s.k][yr]]).filter(r => r[1] != null);
+      const missing = SER.filter(s => D.trend[s.k][yr] == null).map(s => [s, trendWhy(s.k, yr)]);
+      dots.selectAll('circle').data(rows).join('circle').attr('cx', x(yr)).attr('cy', d => y(d[1])).attr('r', 4).attr('fill', d => d[0].c).attr('stroke', '#fcfcfb').attr('stroke-width', 2);
+      showTip(e, `<b>${yr}</b>` + rows.map(([s, v]) => `<div style="display:flex;justify-content:space-between;gap:12px"><span><i style="display:inline-block;width:10px;height:3px;background:${s.c};vertical-align:middle;margin-right:6px"></i>${s.name}${s.k === 'books' && yr > OL_FROM ? ' <small style="display:inline">(incl. Open Library)</small>' : ''}</span><span style="font-family:var(--mono)">${per(v)}</span></div>`).join('')
+        + missing.map(([s, w]) => `<div style="color:var(--ink-3);font-size:.72rem;margin-top:3px"><i style="display:inline-block;width:10px;height:3px;background:${s.c};opacity:.4;vertical-align:middle;margin-right:6px"></i>${s.name}: ${w}</div>`).join('') + '<small>Purple share, 5-year rolling</small>');
+    }).on('mouseleave', () => { hideTip(); cross.style('opacity', 0); dots.selectAll('*').remove(); });
+}
+function trendWhy(k, yr) {
+  const ys = Object.keys(D.trend[k]).map(Number), lo = d3.min(ys), hi = d3.max(ys);
+  if (k === 'books') return yr > hi ? 'covers end in 2021' : 'starts in 1973 (data from 1971)';
+  if (k === 'doodles') return yr < lo ? 'one doodle a year from 1999; the average starts in 2001' : 'the average needs two more years of doodles';
+  if (k === 'catalogs') return yr > hi ? 'only 2013 and 2020 after 2006' : yr < lo ? 'too few catalogs before 1990' : 'no catalog this year';
+  return yr < lo ? 'too few dated photos before 2006' : yr > hi ? 'the average needs two more years of photos' : 'no photos this year';
+}
+function table() {
+  const years = [...new Set(SER.flatMap(s => Object.keys(D.trend[s.k])))].map(Number).sort((a, b) => a - b);
+  $('#tbl').innerHTML = `<table class="tbl"><thead><tr><th>Year</th>${SER.map(s => `<th>${s.name}</th>`).join('')}</tr></thead><tbody>${years.map(y => `<tr><td>${y}</td>${SER.map(s => `<td>${D.trend[s.k][y] != null ? per(D.trend[s.k][y]) : '–'}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+}
+
+// ---------- inflatables, lights and spending next to yard purple ----------
+// ---------- orange's dance partners, after dark ----------
+function drawGlow() {
+  const svg = d3.select('#glow'); svg.selectAll('*').remove();
+  const W = svg.node().getBoundingClientRect().width, sm = small();
+  const SKY = '#15131d', OR = '#ff8a1f', PU = '#a052ff', BK = '#1d1b1f';
+  const dE = (a, b) => { const p = d3.lab(a), q = d3.lab(b); return Math.round(Math.hypot(p.l - q.l, p.a - q.a, p.b - q.b)); };
+  const P = [
+    { t: 'Orange + black', c: [OR, BK], s: [`black vs. sky: ${dE(BK, SKY)}`, 'the black bulbs disappear'] },
+    { t: 'Orange alone', c: [OR, OR], s: [`orange vs. sky: ${dE(OR, SKY)}`, 'one color, nothing to play against'] },
+    { t: 'Orange + purple', c: [OR, PU], s: [`purple vs. sky: ${dE(PU, SKY)}`, `purple vs. orange: ${dE(PU, OR)}`] }];
+  const cols = sm ? 1 : 3, gap = 14, pw = (W - gap * (cols - 1)) / cols, ph = 118, lh = 50, H = Math.ceil(3 / cols) * (ph + lh) - (sm ? 0 : 0);
+  svg.attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+  const f = svg.append('defs').append('filter').attr('id', 'gl').attr('x', '-100%').attr('y', '-100%').attr('width', '300%').attr('height', '300%');
+  f.append('feGaussianBlur').attr('stdDeviation', 7);
+  P.forEach((p, i) => {
+    const g = svg.append('g').attr('transform', `translate(${(i % cols) * (pw + gap)},${Math.floor(i / cols) * (ph + lh)})`);
+    g.append('rect').attr('width', pw).attr('height', ph).attr('rx', 6).attr('fill', SKY);
+    g.append('text').attr('x', 12).attr('y', 22).attr('fill', '#cfcbd8').attr('font-size', 13).attr('font-weight', 600).text(p.t);
+    const n = Math.max(6, Math.round(pw / 34)), x0 = 18, x1 = pw - 18, wy = x => 58 + 14 * Math.sin(Math.PI * (x - x0) / ((x1 - x0) / 3)) ** 2;
+    g.append('path').attr('d', d3.line()(d3.range(0, 101).map(k => { const x = x0 + (x1 - x0) * k / 100; return [x, wy(x)]; })))
+      .attr('fill', 'none').attr('stroke', '#3a3644').attr('stroke-width', 1.5);
+    d3.range(n).forEach(k => {
+      const x = x0 + (x1 - x0) * (k + .5) / n, y = wy(x) + 10, c = p.c[k % 2], lit = c !== BK;
+      if (lit) g.append('circle').attr('cx', x).attr('cy', y).attr('r', 11).attr('fill', c).attr('opacity', .75).attr('filter', 'url(#gl)');
+      g.append('ellipse').attr('cx', x).attr('cy', y).attr('rx', 4.5).attr('ry', 6.5).attr('fill', lit ? d3.color(c).brighter(.6) : c);
+    });
+    p.s.forEach((t, j) => g.append('text').attr('x', 2).attr('y', ph + 18 + j * 16).attr('font-size', 12)
+      .attr('font-family', 'var(--mono)').attr('fill', j ? 'var(--ink-2)' : 'var(--ink)').text(t));
+  });
+}
+function drawCtx() {
+  const svg = d3.select('#ctx'); svg.selectAll('*').remove();
+  const C = D.context, W = svg.node().getBoundingClientRect().width, sm = small();
+  const ph = sm ? 92 : 112, gap = 34, m = { t: 22, r: sm ? 44 : 120, b: 24, l: 40 }, H = m.t + 3 * ph + 2 * gap + m.b;
+  svg.attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+  svgIntro(svg.node(), 'ctx', 2000);
+  const x = d3.scaleLinear([2004, 2025], [m.l, W - m.r]), g = svg.append('g');
+  const ser = o => Object.entries(o).map(([y, v]) => [+y, v]).sort((a, b) => a[0] - b[0]);
+  const P = [
+    { t: 'Google searches', y: [0, 5], ticks: [1, 3, 5], f: d => d + '×', lines: [
+      { k: 'inflatable', name: '"Halloween inflatable"', c: '#1d1d1b', d: ser(C.inflatable) },
+      { k: 'lights', name: '"Halloween lights"', c: '#8b887f', dash: '5 4', d: ser(C.lights) }] },
+    { t: 'Halloween decoration spending', y: [0, 4.5], ticks: [2, 4], f: d => '$' + d + 'B', bars: ser(C.nrf) },
+    { t: 'Purple in yard displays', y: [0, 0.08], ticks: [0.04, 0.08], f: d => Math.round(d * 100) + '%', lines: [
+      { k: 'photos', name: 'Five-year average', c: '#7b3fb0', w: 2.5, d: ser(D.trend.photos) }] },
+  ];
+  // wave 2 runs through all three panels
+  g.append('rect').attr('class', 'wave').style('--d', '.2s').attr('x', x(2016)).attr('width', x(2025.5) - x(2016)).attr('y', m.t - 14).attr('height', 3 * ph + 2 * gap + 14).attr('fill', '#7b3fb0').attr('opacity', .07);
+  g.append('text').attr('class', 'axis fade').style('--d', '.5s').attr('x', x(2016) + 4).attr('y', m.t - 3).style('font', '500 11px IBM Plex Mono').style('fill', '#7b3fb0').text('Wave 2');
+  g.append('clipPath').attr('id', 'ctx-wipe').append('rect').attr('class', 'wipe').style('--d', '.35s').attr('x', m.l - 4).attr('y', 0).attr('width', W).attr('height', H);
+  P.forEach((p, i) => {
+    const y0 = m.t + i * (ph + gap), y = d3.scaleLinear(p.y, [y0 + ph, y0 + 14]); p.Y = y;
+    g.append('text').attr('x', m.l).attr('y', y0 + 4).style('font', `700 ${sm ? 12 : 13}px Inter`).attr('fill', '#1d1d1b').text(p.t);
+    g.append('g').attr('class', 'grid').selectAll('line').data(p.ticks).join('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y).attr('y2', y);
+    g.append('g').attr('class', 'axis').selectAll('text').data(p.ticks).join('text').attr('x', m.l - 6).attr('y', d => y(d) + 4).attr('text-anchor', 'end').text(p.f);
+    g.append('line').attr('class', 'base').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(0)).attr('y2', y(0));
+    if (p.bars) {
+      const bw = Math.max(3, (x(2005) - x(2004)) * 0.45);
+      p.bars.forEach(([yr, v], j) => g.append('path').attr('class', 'grow').style('--d', `${0.4 + j * 0.05}s`).style('--t', '.5s')
+        .attr('d', `M${x(yr) - bw / 2},${y(0)}V${y(v) + 2}q0,-2 2,-2h${bw - 4}q2,0 2,2V${y(0)}z`).attr('fill', '#b9a9cc'));
+      const [ly, lv] = p.bars.at(-1), [fy, fv] = p.bars[0];
+      g.append('text').attr('class', 'lbl fade').style('--d', '1.2s').attr('x', x(ly) + bw / 2 + 6).attr('y', y(lv) + 4).attr('fill', '#1d1d1b').text(`$${lv}B`);
+      g.append('text').attr('class', 'lbl fade').style('--d', '.8s').attr('x', x(fy) - bw / 2 - 6).attr('y', y(fv) + 4).attr('text-anchor', 'end').attr('fill', '#1d1d1b').text(`$${fv}B`);
+      if (!sm) g.append('text').attr('class', 'fade').style('--d', '.8s').attr('x', x(2008.5)).attr('y', y(1.2)).attr('text-anchor', 'middle').style('font', '400 11px "IBM Plex Mono"').attr('fill', '#8b887f').text('no national figure before 2013');
+    }
+    (p.lines || []).forEach(L => {
+      g.append('path').attr('clip-path', 'url(#ctx-wipe)').attr('d', d3.line().x(d => x(d[0])).y(d => y(d[1]))(L.d)).attr('fill', 'none').attr('stroke', L.c).attr('stroke-width', L.w || 2).attr('stroke-dasharray', L.dash).attr('stroke-linejoin', 'round');
+      const [ly, lv] = L.d.at(-1);
+      g.append('text').attr('class', 'lbl fade').style('--d', '1.6s').attr('x', x(ly) + 6).attr('y', y(lv) + 4 + (L.k === 'lights' ? 6 : L.k === 'inflatable' ? -4 : 0)).attr('fill', '#1d1d1b')
+        .text(sm ? (L.k === 'photos' ? per(lv) : (lv.toFixed(1) + '×')) : L.k === 'photos' ? per(lv) : `${L.k === 'inflatable' ? 'Inflatables' : 'Lights'} ${lv.toFixed(1)}×`);
+    });
+  });
+  g.append('g').attr('class', 'axis').selectAll('text').data(sm ? [2005, 2015, 2025] : [2005, 2010, 2015, 2020, 2025]).join('text').attr('x', x).attr('y', H - 6).attr('text-anchor', 'middle').text(d => d);
+  // legend for the two search lines
+  let lg = document.getElementById('ctxkey');
+  if (!lg) { lg = document.createElement('div'); lg.id = 'ctxkey'; lg.className = 'key'; svg.node().after(lg); }
+  lg.innerHTML = P[0].lines.map(L => `<span><i class="ln" style="--c:${L.c};${L.dash ? 'background:repeating-linear-gradient(90deg,' + L.c + ' 0 5px,transparent 5px 9px)' : ''}"></i>Searches for ${L.name}</span>`).join('');
+  // crosshair through all three panels
+  const cross = g.append('line').attr('stroke', '#8b887f').attr('y1', m.t).attr('y2', H - m.b).style('opacity', 0), dots = g.append('g');
+  svg.append('rect').attr('x', m.l).attr('y', 0).attr('width', W - m.l - m.r + 10).attr('height', H).attr('fill', 'transparent')
+    .on('mousemove', e => {
+      const yr = Math.max(2004, Math.min(2025, Math.round(x.invert(d3.pointer(e)[0])))); cross.attr('x1', x(yr)).attr('x2', x(yr)).style('opacity', 1);
+      const pts = [...P[0].lines.map(L => [L, P[0].Y, C[L.k][yr]]), [{ c: '#7b3fb0' }, P[2].Y, D.trend.photos[yr]]].filter(d => d[2] != null);
+      dots.selectAll('circle').data(pts).join('circle').attr('cx', x(yr)).attr('cy', d => d[1](d[2])).attr('r', 4).attr('fill', d => d[0].c).attr('stroke', '#fcfcfb').attr('stroke-width', 2);
+      const row = (k, v) => `<div style="display:flex;justify-content:space-between;gap:12px"><span>${k}</span><span style="font-family:var(--mono)">${v}</span></div>`;
+      showTip(e, `<b>${yr}</b>` + row('Inflatable searches', C.inflatable[yr].toFixed(1) + '×') + row('Lights searches', C.lights[yr].toFixed(1) + '×')
+        + row('Decoration spending', C.nrf[yr] != null ? `$${C.nrf[yr]}B` : '–') + row('Purple in yards', D.trend.photos[yr] != null ? per(D.trend.photos[yr]) : '–')
+        + '<small>Searches: multiple of the 2004–14 average · spending: NRF forecast</small>');
+    }).on('mouseleave', () => { hideTip(); cross.style('opacity', 0); dots.selectAll('*').remove(); });
+}
+
+// ---------- purple by display type ----------
+function drawTypes() {
+  const svg = d3.select('#types'); svg.selectAll('*').remove();
+  const T = D.types.filter(t => ['inflatable', 'lights', 'decor', 'prop', 'adult costume'].includes(t.t));
+  const names = { inflatable: 'Inflatables', lights: 'Lights', decor: 'Decor', prop: 'Props, skeletons', 'adult costume': 'Costumed people' };
+  const W = svg.node().getBoundingClientRect().width, bh = 18, gap = 10, lw = 120, H = T.length * (bh + gap);
+  svg.attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+  const x = d3.scaleLinear([0, d3.max(T, t => t.p)], [lw, W - 50]);
+  svgIntro(svg.node(), 'types', 1600);
+  T.forEach((t, i) => {
+    const y0 = i * (bh + gap), g = svg.append('g');
+    g.append('text').attr('class', 'lbl').attr('x', 0).attr('y', y0 + 13).attr('fill', '#1d1d1b').text(names[t.t]);
+    g.append('path').attr('d', `M${lw},${y0} h${Math.max(2, x(t.p) - lw - 4)} a4,4 0 0 1 4,4 v${bh - 8} a4,4 0 0 1 -4,4 h${-Math.max(2, x(t.p) - lw - 4)} z`).attr('fill', '#7b3fb0')
+      .attr('class', 'grow').style('--d', `${i * 0.12}s`).style('--t', '.8s').style('--e', 'cubic-bezier(.3, 1.3, .5, 1)');
+    g.append('text').attr('class', 'val fade').style('--d', `${i * 0.12 + 0.55}s`).attr('x', x(t.p) + 6).attr('y', y0 + 13).text(per(t.p));
+    g.append('rect').attr('x', 0).attr('y', y0 - 4).attr('width', W).attr('height', bh + 8).attr('fill', 'transparent')
+      .on('mousemove', e => showTip(e, `<b>${names[t.t]}</b>${per(t.p)} of strong color is purple<small>${t.n} photos</small>`)).on('mouseleave', hideTip);
+  });
+}
+
+// ---------- pixel scanner: replays the measurement on any image ----------
+// img/s/<f>.png holds the measurement's label for every pixel it looked at: counted pixels are 16 * class index,
+// uncounted ones 192 + 4 * class index, and removed background 252 (see halloween-project/scripts/scanmap.py).
+const CLS = ['black', 'paper', 'gray', 'red', 'orange', 'brown', 'yellow', 'green', 'teal', 'blue', 'purple', 'pink'];
+const CRGB = CLS.map(c => d3.rgb({ paper: '#efe9dc', gray: '#8d8a8f', black: '#1c1a1d' }[c] || SW[c]));
+const NEON = d3.rgb(SW.purple), PI_ = CLS.indexOf('purple');
+const RULES = {
+  photo: ['Shrink the photo to 200 px on its long side.', 'White-balance it against the near-neutral surfaces (walls, pavement, sky), so dusk light doesn\'t turn a white house lavender.', 'Sort every pixel into a color by its hue (OKLCH). Purple is hue 285–345°.', 'Count only strongly colored pixels (chroma ≥ 0.10, not near-black).', 'Purple share = purple pixels ÷ counted pixels.'],
+  fg: ['Shrink the scan to 160 px and blur it slightly so print dots merge.', 'Find the background: the most common color in a ring just inside the edge. Remove every pixel close to it.', 'Sort the rest into colors by hue (OKLCH). Purple is hue 285–345°. White, cream and gray don\'t count.', 'Purple share = purple pixels ÷ colored pixels.'],
+  plain: ['Shrink the image to 160 px.', 'Sort every pixel into a color by its hue (OKLCH). Purple is hue 285–345°. A night-sky background counts.', 'White, cream and gray pixels don\'t count.', 'Purple share = purple pixels ÷ colored pixels.'],
+};
+const SCAN = (() => {
+  const el = $('#sc'), cv = $('#sc-cv'), stage = $('#sc-stage'), probe = $('#sc-probe'), out = $('#sc-out');
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let list = [], i = 0, view = 'scan', job = 0, cur = null, last = null;
+  const decode = v => v === 252 ? { c: -1, k: false, bg: true } : v >= 192 ? { c: (v - 192) >> 2, k: false } : { c: v >> 4, k: true };
+  const load = src => new Promise((ok, no) => { const im = new Image(); im.onload = () => ok(im); im.onerror = no; im.src = src; });
+  async function open(items, at) { list = items; i = at; last = document.activeElement; el.classList.add('on'); document.body.style.overflow = 'hidden'; $('#sc-x').focus({ focusVisible: false }); await show(); }
+  function close() { el.classList.remove('on'); document.body.style.overflow = ''; job++; hideProbe(); if (last) last.focus(); }
+  async function show() {
+    const it = list[i], my = ++job;
+    $('#sc-n').textContent = list.length > 1 ? `· ${i + 1} / ${list.length}` : '';
+    $('#sc-prev').disabled = $('#sc-next').disabled = list.length < 2;
+    $('#sc-cap').innerHTML = `<b>${esc(it.t)}</b>${esc(it.cap)} · <a href="${it.u}" target="_blank" rel="noopener">Source ↗</a>`;
+    out.innerHTML = `<div class="sc-k">Loading…</div>`;
+    let ph, mp;
+    try { [ph, mp] = await Promise.all([load('img/' + it.f), load('img/s/' + it.f.replace('.jpg', '.png'))]); } catch { if (my === job) out.innerHTML = '<div class="sc-k">Scan not available</div>'; return; }
+    if (my !== job) return;
+    const w = mp.naturalWidth, h = mp.naturalHeight, t = document.createElement('canvas'); t.width = w; t.height = h;
+    const tc = t.getContext('2d'); tc.drawImage(mp, 0, 0); const raw = tc.getImageData(0, 0, w, h).data;
+    const lab = new Uint8Array(w * h); for (let k = 0; k < w * h; k++) lab[k] = raw[k * 4];
+    cur = { it, ph, w, h, lab };
+    // fit the stage, in whole screen pixels per measured pixel when it's big enough to read as a grid
+    const sr = stage.getBoundingClientRect(), fit = Math.min((sr.width - 16) / w, (sr.height - 16) / h), z = fit >= 2 ? Math.floor(fit) : fit;
+    cur.z = z; cv.style.width = w * z + 'px'; cv.style.height = h * z + 'px';
+    const dpr = devicePixelRatio || 1; cv.width = Math.round(w * z * dpr); cv.height = Math.round(h * z * dpr);
+    // dim, desaturated copy of the photo for the parts that weren't counted
+    const dim = document.createElement('canvas'); dim.width = w; dim.height = h; const dc = dim.getContext('2d');
+    dc.filter = 'grayscale(1)'; dc.drawImage(ph, 0, 0, w, h); dc.filter = 'none'; dc.fillStyle = 'rgba(244,242,236,.78)'; dc.fillRect(0, 0, w, h); cur.dim = dim;
+    cur.layers = { scan: layer(false), purple: layer(true) };
+    readout(0, true); run(my);
+  }
+  function layer(onlyPurple) {   // the classified view at measurement resolution
+    const { w, h, lab } = cur, c = document.createElement('canvas'); c.width = w; c.height = h;
+    const x = c.getContext('2d'), d = x.createImageData(w, h);
+    for (let k = 0; k < w * h; k++) {
+      const v = decode(lab[k]); if (!v.k) continue;
+      const pu = v.c === PI_, col = pu ? NEON : CRGB[v.c];
+      if (onlyPurple && !pu) continue;
+      d.data[k * 4] = col.r; d.data[k * 4 + 1] = col.g; d.data[k * 4 + 2] = col.b; d.data[k * 4 + 3] = 255;
+    }
+    x.putImageData(d, 0, 0); return c;
+  }
+  function paint(rows) {   // rows: how far the scan line has got
+    const { w, h, z, ph, dim } = cur, c = cv.getContext('2d'), dpr = devicePixelRatio || 1, W = w * z, H = h * z, ry = rows / h * H;
+    c.setTransform(dpr, 0, 0, dpr, 0, 0); c.imageSmoothingEnabled = false; c.clearRect(0, 0, W, H);
+    c.drawImage(ph, 0, 0, W, H);
+    if (view === 'photo') return;
+    if (rows > 0) {
+      c.save(); c.beginPath(); c.rect(0, 0, W, ry); c.clip();
+      c.drawImage(dim, 0, 0, W, H); c.drawImage(cur.layers[view], 0, 0, W, H);
+      if (z >= 3) { c.strokeStyle = 'rgba(252,252,251,.55)'; c.lineWidth = 1; c.beginPath();
+        for (let gx = 0; gx <= w; gx++) { c.moveTo(gx * z + .5, 0); c.lineTo(gx * z + .5, ry); }
+        for (let gy = 0; gy <= rows; gy++) { c.moveTo(0, gy * z + .5); c.lineTo(W, gy * z + .5); } c.stroke(); }
+      c.restore();
+    }
+    if (rows < h) { const g = c.createLinearGradient(0, ry - 26, 0, ry); g.addColorStop(0, 'rgba(123,63,176,0)'); g.addColorStop(1, 'rgba(123,63,176,.22)');
+      c.fillStyle = g; c.fillRect(0, ry - 26, W, 26); c.fillStyle = '#1d1d1b'; c.fillRect(0, ry - 1, W, 2); }
+  }
+  function tally(rows) {
+    const { w, lab } = cur, n = new Array(12).fill(0); let seen = 0, counted = 0, bg = 0;
+    for (let k = 0, e = rows * w; k < e; k++) { const v = decode(lab[k]); seen++; if (v.bg) bg++; else if (v.k) { counted++; n[v.c]++; } }
+    return { n, seen, counted, bg };
+  }
+  function readout(rows, build) {
+    const { it, w, h } = cur, T = tally(rows), share = T.counted ? T.n[PI_] / T.counted : 0, fmt = d3.format(',');
+    const order = CLS.map((c, k) => k).filter(k => !['paper', 'gray', ...(it.mode === 'photo' ? ['black'] : [])].includes(CLS[k]));
+    if (build) {
+      out.innerHTML = `<div class="sc-k">${{ photo: 'Photo', fg: 'Scan, background removed', plain: 'Whole image' }[it.mode]} · ${w}×${h} pixels</div>
+        <div class="sc-ln"><span>Pixels scanned</span><span id="o-seen"></span></div>
+        ${it.mode === 'fg' ? '<div class="sc-ln"><span>Background removed</span><span id="o-bg"></span></div>' : ''}
+        <div class="sc-ln"><span>${it.mode === 'photo' ? 'Strongly colored' : 'Colored'} (counted)</span><span id="o-ct"></span></div>
+        <div class="sc-ln"><span>Purple</span><span id="o-pu"></span></div>
+        <div class="sc-big" id="o-big"></div><div class="sc-eq" id="o-eq"></div>
+        <div class="sc-bars">${order.map(k => `<div class="sc-bar ${k === PI_ ? 'pu' : ''}"><span>${CLS[k]}</span><span><i id="o-b${k}" style="--c:${CRGB[k]}"></i></span><span id="o-v${k}"></span></div>`).join('')}</div>
+        <div class="sc-rule"><div class="sc-k">How this image was measured</div><ol>${RULES[it.mode].map(r => `<li>${r}</li>`).join('')}</ol></div>`;
+    }
+    const set = (id, v) => { const e = document.getElementById(id); if (e) e.textContent = v; };
+    set('o-seen', `${fmt(T.seen)} / ${fmt(w * h)}`); set('o-bg', fmt(T.bg)); set('o-ct', fmt(T.counted)); set('o-pu', fmt(T.n[PI_]));
+    $('#o-big').innerHTML = `${(share * 100).toFixed(1)}%<small>purple</small>`;
+    $('#o-eq').textContent = `${fmt(T.n[PI_])} ÷ ${fmt(T.counted)} counted pixels`;
+    $('#sc-hud').innerHTML = `${rows < h ? `Row ${rows} of ${h}` : 'Scan complete'} · <b>${(share * 100).toFixed(1)}% purple</b>`;
+    const mx = Math.max(1e-9, ...order.map(k => T.n[k]));
+    order.forEach(k => { const f = T.counted ? T.n[k] / T.counted : 0; document.getElementById('o-b' + k).style.width = (T.n[k] / mx * 100) + '%'; set('o-v' + k, (f * 100).toFixed(1) + '%'); });
+  }
+  function run(my) {
+    const { h } = cur, dur = reduce ? 0 : 1300, t0 = performance.now();
+    const step = () => { if (my !== job) return;
+      const r = dur ? Math.min(h, Math.round((performance.now() - t0) / dur * h)) : h;
+      paint(r); readout(r);
+      if (r < h) setTimeout(step, 16); };
+    step();
+  }
+  function hideProbe() { probe.style.opacity = 0; }
+  cv.addEventListener('mousemove', e => {
+    if (!cur) return; const r = cv.getBoundingClientRect(), px = Math.floor((e.clientX - r.left) / cur.z), py = Math.floor((e.clientY - r.top) / cur.z);
+    if (px < 0 || py < 0 || px >= cur.w || py >= cur.h) return hideProbe();
+    const v = decode(cur.lab[py * cur.w + px]), name = v.bg ? 'background' : CLS[v.c];
+    const why = v.bg ? 'removed' : v.k ? (v.c === PI_ ? '<b style="color:#7b3fb0">counted · purple</b>' : 'counted') : ['paper', 'gray'].includes(name) ? 'not counted · no color' : name === 'black' ? 'not counted · too dark' : 'not counted · too faint';
+    probe.innerHTML = `<b>${name[0].toUpperCase() + name.slice(1)}</b> · ${why}<br>pixel ${px}, ${py}`;
+    const sr = stage.getBoundingClientRect(); let lx = e.clientX - sr.left + 14, ly = e.clientY - sr.top + 14;
+    if (lx + 190 > sr.width) lx -= 204; probe.style.left = lx + 'px'; probe.style.top = ly + 'px'; probe.style.opacity = 1;
+  });
+  cv.addEventListener('mouseleave', hideProbe);
+  el.querySelectorAll('.sc-modes [data-v]').forEach(b => b.addEventListener('click', () => {
+    view = b.dataset.v; el.querySelectorAll('.sc-modes [data-v]').forEach(x => x.setAttribute('aria-pressed', x === b)); if (cur) paint(cur.h);
+  }));
+  $('#sc-re').addEventListener('click', () => { if (cur) { if (view === 'photo') { view = 'scan'; el.querySelectorAll('.sc-modes [data-v]').forEach(x => x.setAttribute('aria-pressed', x.dataset.v === 'scan')); } run(++job); } });
+  const go = d => { if (list.length > 1) { i = (i + d + list.length) % list.length; show(); } };
+  $('#sc-prev').addEventListener('click', () => go(-1)); $('#sc-next').addEventListener('click', () => go(1));
+  $('#sc-x').addEventListener('click', close);
+  el.addEventListener('click', e => { if (e.target === el) close(); });
+  addEventListener('keydown', e => { if (!el.classList.contains('on')) return;
+    if (e.key === 'Escape') close(); else if (e.key === 'ArrowRight') go(1); else if (e.key === 'ArrowLeft') go(-1);
+    else if (e.key === 'Tab') { const f = [...el.querySelectorAll('button:not(:disabled), a[href]')], a = f[0], z = f.at(-1);
+      if (e.shiftKey && document.activeElement === a) { e.preventDefault(); z.focus(); } else if (!e.shiftKey && document.activeElement === z) { e.preventDefault(); a.focus(); } } });
+  return { open };
+})();
+const clean = t => t.replace(/^\d{4}-\d\d-\d\d \d\d \d\d \d\d /, '');
+const asWall = p => ({ f: p.f, t: clean(p.t), u: p.u, mode: 'photo', cap: `Yard display · ${p.d} · ${p.a} · ${p.l}` });
+const asCover = p => ({ f: p.f, t: p.t, u: p.u, mode: 'plain', cap: `Picture book · ${p.y} · ${p.ol ? 'Open Library' : 'Internet Archive'}` });
+const asMovie = p => ({ f: p.f, t: p.t, u: p.u, mode: 'plain', cap: `${p.g === 'staple' ? 'Halloween-season staple' : 'Halloween movie'} · ${p.y} · poster via Wikipedia` });
+
+// ---------- then and now ----------
+(() => {
+  const then = D.samples.postcards['1910'].find(p => p.f === '010.jpg') || D.samples.postcards['1910'][0];
+  const now = Object.values(D.wall).flat().find(p => p.f === 'w/235.jpg') || D.wall['2025'][0];
+  const m1910 = D.rows.postcards['1910'].mix;
+  $('#pair').innerHTML = `<figure><a href="${then.u}" data-k="then"><img src="img/then.jpg" alt="A Halloween postcard from about 1910: a grinning jack-o'-lantern, children and black cats"></a>
+    <figcaption><b>About 1910</b><div class="bar">${COLS.filter(c => m1910[c] > .003).map(c => `<i style="flex:${m1910[c]};background:${SW[c]}"></i>`).join('')}</div>Postcards of the 1910s: ${per(m1910.purple)} purple. ${esc(then.a)} · ${esc(then.l)}</figcaption></figure>
+    <figure><a href="${now.u}" data-k="now"><img src="img/now.jpg" alt="A house outlined in purple lights with Halloween inflatables in the yard, 2025"></a>
+    <figcaption><b>${now.d.slice(0, 4)}</b><div class="bar"><i style="flex:${now.p};background:${SW.purple}"></i><i style="flex:${1 - now.p};background:var(--line)"></i></div>A house in Ewing Township, N.J., October ${now.d.slice(0, 4)}: ${per(now.p, 0)} of its strong color is purple. ${esc(now.a)} · ${esc(now.l)}</figcaption></figure>`;
+  const pair = [{ f: 'then.jpg', t: then.t, u: then.u, mode: 'fg', cap: `Postcard · about 1910 · ${then.a} · ${then.l}` }, { ...asWall(now), f: 'now.jpg' }];
+  $('#pair').addEventListener('click', e => { const a = e.target.closest('a[data-k]'); if (!a) return; e.preventDefault(); SCAN.open(pair, a.dataset.k === 'then' ? 0 : 1); });
+})();
+
+// ---------- Google's Halloween doodles ----------
+function drawDoodleLine() {
+  const svg = d3.select('#ddline'); svg.selectAll('*').remove();
+  const W = svg.node().getBoundingClientRect().width, sm = small(), H = sm ? 250 : 300;
+  const m = { t: 18, r: sm ? 14 : 96, b: 26, l: 36 };
+  svg.attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+  const ds = D.doodles, x = d3.scaleLinear([1999, 2025], [m.l, W - m.r]), y = d3.scaleLinear([0, 0.85], [H - m.b, m.t]);
+  svgIntro(svg.node(), 'ddline', 2300);
+  const g = svg.append('g');
+  g.append('clipPath').attr('id', 'dd-wipe').append('rect').attr('class', 'wipe').style('--d', '.2s').attr('x', m.l - 6).attr('y', 0).attr('width', W).attr('height', H);
+  g.append('g').attr('class', 'grid').selectAll('line').data([0.2, 0.4, 0.6, 0.8]).join('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y).attr('y2', y);
+  g.append('g').attr('class', 'axis').selectAll('text').data([0, 0.2, 0.4, 0.6, 0.8]).join('text').attr('x', m.l - 6).attr('y', d => y(d) + 4).attr('text-anchor', 'end').text(d => d ? Math.round(d * 100) + '%' : '0');
+  g.append('g').attr('class', 'axis').selectAll('text').data(sm ? [2000, 2010, 2020] : [2000, 2005, 2010, 2015, 2020, 2025]).join('text').attr('x', x).attr('y', H - 6).attr('text-anchor', 'middle').text(d => d);
+  g.append('line').attr('class', 'base').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(0)).attr('y2', y(0));
+  const line = d3.line().x(d => x(d[0])).y(d => y(d[1])).defined(d => d[1] != null);
+  // for scale: the five-year averages from the trend chart, over the doodle years
+  const ref = [['books', 'Picture books', null], ['photos', 'Yard displays', '4 3']].map(([k, name, dash]) => {
+    const pts = Object.entries(D.trend[k]).map(([yr, v]) => [+yr, v]).filter(d => d[0] >= 1999).sort((a, b) => a[0] - b[0]);
+    g.append('path').attr('clip-path', 'url(#dd-wipe)').attr('d', line(pts)).attr('fill', 'none').attr('stroke', '#8b887f').attr('stroke-width', 1.5).attr('stroke-dasharray', dash);
+    return { k, name, pts };
+  });
+  const pts = ds.map(d => [d.y, d.mix.purple]);
+  g.append('path').attr('clip-path', 'url(#dd-wipe)').attr('d', line(pts)).attr('fill', 'none').attr('stroke', '#7b3fb0').attr('stroke-width', 2).attr('stroke-linejoin', 'round');
+  g.append('g').selectAll('circle').data(ds).join('circle').attr('class', 'fade').style('--d', d => (0.2 + 1.7 * (d.y - 1999) / 26).toFixed(2) + 's')
+    .attr('cx', d => x(d.y)).attr('cy', d => y(d.mix.purple)).attr('r', sm ? 3.5 : 4.5).attr('fill', d => d.mix.purple >= 0.10 ? '#7b3fb0' : '#fcfcfb').attr('stroke', '#7b3fb0').attr('stroke-width', 1.5);
+  // the extremes, labeled
+  // the peaks, labeled: 2010 to its left (2012 sits just right of it), the others above
+  const NOTE = { 2010: ['First purple', 'end'], 2015: ['Global Candy Cup', 'middle'], 2024: ['Magic Cat Academy 3', 'end'] };
+  ds.filter(d => NOTE[d.y] && (!sm || d.y !== 2010)).forEach(d => {
+    const txt = NOTE[d.y][0], anchor = sm && d.y === 2015 ? 'end' : NOTE[d.y][1], v = d.mix.purple, X = x(d.y) + (anchor === 'end' ? -9 : 0), Y = anchor === 'middle' ? y(v) - 24 : y(v) - 6;
+    const t = g.append('text').attr('class', 'fade').style('--d', '2.1s').attr('x', X).attr('y', Y).attr('text-anchor', anchor).style('font', `600 ${sm ? 11 : 12}px Inter`).style('fill', '#1d1d1b');
+    t.append('tspan').text(txt); t.append('tspan').attr('x', X).attr('dy', 14).style('font', `500 ${sm ? 10 : 11}px 'IBM Plex Mono'`).style('fill', '#5e2a8f').text(`${d.y} · ${per(v, 0)}`);
+  });
+  let lg = document.getElementById('ddkey');
+  if (!lg) { lg = document.createElement('div'); lg.id = 'ddkey'; lg.className = 'key'; svg.node().after(lg); }
+  lg.innerHTML = `<span><i class="ln" style="--c:#7b3fb0"></i>Google's Halloween doodle</span><span><i class="ln" style="--c:#8b887f"></i>Picture books, five-year average</span>`
+    + `<span><i class="ln" style="--c:#8b887f;background:repeating-linear-gradient(90deg,#8b887f 0 4px,transparent 4px 7px)"></i>Yard displays, five-year average</span>`;
+  // hover: that year's doodle
+  const cross = g.append('line').attr('stroke', '#8b887f').attr('y1', m.t).attr('y2', H - m.b).style('opacity', 0), hl = g.append('circle').attr('r', 7).attr('fill', 'none').attr('stroke', '#1d1d1b').attr('stroke-width', 2).style('opacity', 0);
+  svg.append('rect').attr('x', m.l - 8).attr('y', 0).attr('width', W - m.l - m.r + 16).attr('height', H).attr('fill', 'transparent').style('cursor', 'pointer')
+    .on('mousemove', e => {
+      const yr = Math.max(1999, Math.min(2025, Math.round(x.invert(d3.pointer(e)[0])))), d = ds.find(p => p.y === yr); if (!d) return;
+      cross.attr('x1', x(yr)).attr('x2', x(yr)).style('opacity', 1); hl.attr('cx', x(yr)).attr('cy', y(d.mix.purple)).style('opacity', 1);
+      const refs = ref.map(r => [r.name, D.trend[r.k][yr]]).filter(r => r[1] != null);
+      showTip(e, `<b>${esc(d.t)}</b><span class="pp">${per(d.mix.purple)} purple</span><img class="big" src="img/${d.f}" alt="" style="background:#fff">`
+        + (refs.length ? `<small>Same year, five-year averages: ${refs.map(([n, v]) => `${n.toLowerCase()} ${per(v)}`).join(', ')}</small>` : '') + '<span class="scan-hint">Click to see the <span class="hlw"><i>Hal</i><i>low</i><i>een</i></span> pixel scan</span>');
+      svg.node().dataset.i = ds.indexOf(d);
+    }).on('mouseleave', () => { hideTip(); cross.style('opacity', 0); hl.style('opacity', 0); })
+    .on('click', e => { const i = svg.node().dataset.i; if (i == null) return; hideTip(); SCAN.open(ds.map(asDoodle), +i); });
+}
+const asDoodle = p => ({ f: p.f, t: p.t, u: p.u, mode: 'plain', cap: `Google Doodle · ${p.y} · © Google${p.n > 1 ? ' · first frame shown' : ''}` });
+(() => {
+  const el = $('#doodles'), ds = D.doodles;
+  el.innerHTML = ds.map((p, i) => `<a href="${p.u}" class="fade${p.mix.purple >= 0.10 ? ' pu' : ''}" style="--d:${(i * 0.05).toFixed(2)}s" data-i="${i}" aria-label="${esc(p.t)}, ${per(p.mix.purple)} purple">`
+    + `<span class="im"><img src="img/${p.f}" alt="" loading="lazy"></span><span class="cap">${p.y}<span>${per(p.mix.purple)}</span></span>`
+    + `<span class="bar"><i class="grow" style="width:${Math.max(p.mix.purple * 100, p.mix.purple ? 2 : 0).toFixed(1)}%;--d:${(i * 0.05 + 0.25).toFixed(2)}s"></i></span></a>`).join('');
+  const set = c => { el.classList.remove('pre', 'play'); if (c) el.classList.add(c); };
+  set(intro(el, 'doodles', 2200, () => { set('play'); setTimeout(() => set(''), 2200); }));
+  el.addEventListener('mousemove', e => {
+    const a = e.target.closest('a'); if (!a) return hideTip();
+    const p = ds[+a.dataset.i];
+    showTip(e, `<b>${esc(p.t)}</b><span class="pp">${per(p.mix.purple)} purple</span><div class="mixbar">${COLS.filter(c => p.mix[c] > .003).map(c => `<i style="flex:${p.mix[c]};background:${SW[c]}"></i>`).join('')}</div><small>${p.n > 1 ? `Animated: average of 8 frames · ` : ''}© Google</small><span class="scan-hint">Click to see the <span class="hlw"><i>Hal</i><i>low</i><i>een</i></span> pixel scan</span>`);
+  });
+  el.addEventListener('mouseleave', hideTip);
+  el.addEventListener('click', e => { const a = e.target.closest('a'); if (!a) return; e.preventDefault(); hideTip(); SCAN.open(ds.map(asDoodle), +a.dataset.i); });
+})();
+
+// ---------- picture scatter: thumbnails placed by year and purple share ----------
+const PIC = {
+  B: [...Object.values(D.covers).flat().map(p => ({ ...p, yr: p.y, kind: 'Picture book', src: 'Internet Archive', as: asCover })),
+      ...D.olcovers.map(p => ({ ...p, ol: 1, yr: p.y, kind: 'Picture book', src: 'Open Library', as: asCover }))],
+  P: Object.values(D.wall).flat().map(p => ({ ...p, yr: +p.d.slice(0, 4), kind: 'Yard display', src: `${p.a} · ${p.l}`, as: asWall })),
+};
+PIC.M = D.movies.filter(p => p.y >= 1975).map(p => ({ ...p, yr: p.y, kind: 'Movie poster', src: `Wikipedia · ${p.g === 'staple' ? 'Halloween-season staple' : 'Halloween movie'}`, as: asMovie }));
+const IMGS = new Map();
+let PICMODE = 'dots';
+const DRAW = {}, PIC_MS = 2400;
+document.querySelectorAll('.seg [data-m]').forEach(b => b.addEventListener('click', () => {
+  PICMODE = b.dataset.m; document.querySelectorAll('.seg [data-m]').forEach(x => x.setAttribute('aria-pressed', x === b)); drawAllPics();
+}));
+function loadImg(f, cb) {
+  if (IMGS.has(f)) { const im = IMGS.get(f); if (im.complete) cb(); else im.addEventListener('load', cb); return; }
+  const im = new Image(); im.src = 'img/' + f; IMGS.set(f, im); im.addEventListener('load', cb);
+}
+const hash = s => { let h = 2166136261; for (const c of s) h = Math.imul(h ^ c.charCodeAt(0), 16777619); return ((h >>> 0) % 10000) / 10000; };
+function drawPics(id, data, x0, x1, groups, shade, accel) {
+  const cv = document.getElementById(id), W = cv.getBoundingClientRect().width, sm = small();
+  const ts = sm ? 12 : 18, band = sm ? 40 : 56, H = sm ? 300 : 400, m = { t: 10, r: 8, b: 22, l: 40 };
+  const dpr = devicePixelRatio || 1; cv.width = W * dpr; cv.height = H * dpr; cv.style.height = H + 'px';
+  const x = d3.scaleLinear([x0 - 0.5, x1 + 0.5], [m.l, W - m.r]);
+  const yTop = m.t, yBot = H - m.b - band - 8;
+  const y = d3.scaleSqrt([0, 0.7], [yBot, yTop]).clamp(true);
+  const pts = data.map(p => { const jx = (hash(p.f) - 0.5) * 0.84, jy = hash(p.f + 'y');
+    const cx = x(p.yr + jx);
+    return { p, cx, cy: p.p < 0.002 ? yBot + 8 + ts / 2 + jy * (band - ts) : y(p.p), at: (cx - m.l) / (W - m.l) * 1100 + hash(p.f + 'd') * 260 }; });
+  // average line: per-image mean over a centered 5-year window
+  const dMax = d3.max(data, p => p.yr), dMin = d3.min(data, p => p.yr);
+  const yrs = d3.range(dMin + 2, dMax - 1), byYr = d3.group(data, p => p.yr);   // whole 5-year windows only
+  const avg = yrs.map(Y => { const w = d3.range(Y - 2, Y + 3).flatMap(k => byYr.get(k) || []); return [Y, w.length >= 8 && byYr.has(Y) ? d3.mean(w, p => p.p) : null]; });
+  const lines = (groups || [{ g: null, color: '#7b3fb0', label: 'average' }]).map(G => {
+    const sub = G.g ? data.filter(p => p.g === G.g) : data, by = d3.group(sub, p => p.yr);
+    return { ...G, avg: yrs.map(Y => { const w = d3.range(Y - 2, Y + 3).flatMap(k => by.get(k) || []); return [Y, w.length >= 8 && by.has(Y) ? d3.mean(w, p => p.p) : null]; }) };
+  });
+  const q = d3.quadtree(pts, d => d.cx, d => d.cy);
+  let hover = null;
+  // intro: points pop in left to right by year, then the average draws across
+  const st = intro(cv, id, PIC_MS, () => { const tick = () => { DRAW[id](); if (performance.now() - INTRO[id].t0 < PIC_MS) requestAnimationFrame(tick); }; tick(); });
+  const clk = () => !st || INTRO[id].done ? 1e9 : INTRO[id].t0 ? performance.now() - INTRO[id].t0 : 0;
+  const pop = k => k <= 0 ? 0 : k >= 1 ? 1 : 1 + 2.7 * (k - 1) ** 3 + 1.7 * (k - 1) ** 2;   // ease-out-back
+  const draw = () => {
+    const T = clk(), K = d => Math.min(1, Math.max(0, (T - d.at) / 380));
+    const c = cv.getContext('2d'); c.setTransform(dpr, 0, 0, dpr, 0, 0); c.clearRect(0, 0, W, H);
+    // labels sit on a thick page-colored halo so the dots behind them don't wash them out
+    const ink = (t, tx, ty, col, hw) => { c.lineJoin = 'round'; c.lineWidth = hw; c.strokeStyle = '#fcfcfb'; c.strokeText(t, tx, ty); c.fillStyle = col; c.fillText(t, tx, ty); };
+    c.font = '400 11px "IBM Plex Mono"'; c.fillStyle = '#8b887f'; c.strokeStyle = '#e3e0d8'; c.lineWidth = 1;
+    [0.01, 0.05, 0.1, 0.25, 0.5].forEach(t => { c.beginPath(); c.moveTo(m.l, y(t)); c.lineTo(W - m.r, y(t)); c.stroke(); c.textAlign = 'right'; c.fillText(Math.round(t * 100) + '%', m.l - 6, y(t) + 4); });
+    if (shade) { c.fillStyle = 'rgba(139,136,127,.1)'; c.fillRect(x(shade[0]), yTop, x(shade[1]) - x(shade[0]), yBot - yTop);
+}
+    c.fillStyle = '#f4f2ec'; c.fillRect(m.l, yBot + 8, W - m.l - m.r, band);
+    c.fillStyle = '#8b887f'; c.textAlign = 'right'; c.fillText('none', m.l - 6, yBot + 8 + band / 2 + 4);
+    c.textAlign = 'center'; const step = sm ? 10 : 5;
+    for (let t = Math.ceil(x0 / step) * step; t <= x1; t += step) c.fillText(t, x(t), H - 6);
+    if (PICMODE === 'dots') {   // gray for little or no purple, filled purple at 5%+, drawn purple last so they sit on top
+      const r = sm ? 2.6 : 3.4;
+      [false, true].forEach(top => pts.forEach(d => { const pu = d.p.p >= 0.05; if (pu !== top) return;
+        const k = K(d); if (!k) return;
+        if (pu && k < 1) { c.beginPath(); c.arc(d.cx, d.cy, r * (1 + 3 * k), 0, 7); c.strokeStyle = `rgba(123,63,176,${(0.5 * (1 - k)).toFixed(3)})`; c.lineWidth = 1.5; c.stroke(); }   // a ripple as purple lands
+        c.beginPath(); c.arc(d.cx, d.cy - (1 - k) * 14, r * pop(k), 0, 7);
+        c.fillStyle = pu ? 'rgba(123,63,176,.8)' : d.cy > yBot ? 'rgba(139,136,127,.38)' : 'rgba(139,136,127,.55)'; c.fill();
+        if (pu) { c.lineWidth = 1; c.strokeStyle = 'rgba(252,252,251,.9)'; c.stroke(); } }));
+    } else pts.forEach(d => { const im = IMGS.get(d.p.f); if (!im || !im.complete || !im.naturalWidth) return;
+      const s = Math.min(im.naturalWidth, im.naturalHeight), k = K(d), z = ts * pop(k); if (!k) return;
+      c.globalAlpha = 0.62 * k;   // pictures recede a little so the average reads first
+      c.drawImage(im, (im.naturalWidth - s) / 2, (im.naturalHeight - s) / 2, s, s, d.cx - z / 2, d.cy - z / 2 - (1 - k) * 14, z, z);
+      c.globalAlpha = 1;
+      if (d.p.p >= 0.05 && d.cy < yBot) { c.strokeStyle = 'rgba(123,63,176,.8)'; c.lineWidth = 1.5; c.strokeRect(d.cx - ts / 2, d.cy - ts / 2, ts, ts); } });
+    // the average, with a light halo so it reads over the pictures
+    const line = d3.line().x(d => x(d[0])).y(d => y(d[1])).defined(d => d[1] != null).context(c);
+    c.lineJoin = 'round';
+    const wk = Math.min(1, Math.max(0, (T - 700) / 1300)), wx = m.l + (W - m.l) * (wk < .5 ? 4 * wk ** 3 : 1 - (-2 * wk + 2) ** 3 / 2), tail = Math.min(1, Math.max(0, (T - 2000) / 300));
+    if (!wk) return;
+    c.save(); c.beginPath(); c.rect(0, 0, wx, H); c.clip();
+    lines.forEach(L => {
+    c.globalAlpha = 1;
+    // averages whose five-year window reaches into a shaded second source are dotted
+    const cut = shade ? shade[0] - 1.5 : Infinity, solid = L.avg.map(d => d[0] <= cut ? d : [d[0], null]), dot = L.avg.map(d => d[0] >= cut - 1 ? d : [d[0], null]);
+    c.beginPath(); line(L.avg); c.strokeStyle = 'rgba(252,252,251,.96)'; c.lineWidth = sm ? 8 : 10; c.stroke();
+    c.beginPath(); line(solid); c.strokeStyle = '#5e2a8f'; c.lineWidth = sm ? 3.5 : 4; c.setLineDash(L.dash || []); c.stroke(); c.setLineDash([]);
+    c.beginPath(); line(dot); c.lineCap = 'round'; c.setLineDash([0.1, 7]); c.stroke(); c.setLineDash([]); c.lineCap = 'butt';
+    const end = L.avg.filter(d => d[1] != null).at(-1);
+    if (wk < 1) { const at = L.avg.filter(d => d[1] != null && x(d[0]) <= wx).at(-1);   // a glowing head leads the line
+      if (at) { c.beginPath(); c.arc(x(at[0]), y(at[1]), sm ? 7 : 9, 0, 7); c.fillStyle = 'rgba(123,63,176,.22)'; c.fill(); c.beginPath(); c.arc(x(at[0]), y(at[1]), sm ? 3.5 : 4.5, 0, 7); c.fillStyle = '#5e2a8f'; c.fill(); } }
+    c.globalAlpha = tail;
+    if (end) { c.beginPath(); c.arc(x(end[0]), y(end[1]), sm ? 4.5 : 5.5, 0, 7); c.fillStyle = '#5e2a8f'; c.fill(); c.lineWidth = 1.5; c.strokeStyle = '#fcfcfb'; c.stroke(); }
+    if (groups) return;   // grouped charts are labeled by the key below them
+    const last = L.avg.filter(d => d[1] != null).at(-1);
+    if (accel && last && accel[1] === last[0]) return;   // the take-off bracket below labels this end instead
+    if (last) { c.font = `700 ${sm ? 12 : 14}px Inter`; c.textAlign = 'left'; const t = `${last[0] - 2}–${String(last[0] + 2).slice(2)} average ${per(last[1])}`, tw = c.measureText(t).width, fits = x(last[0]) + 12 + tw <= W - m.r - 6, lx = fits ? x(last[0]) + 12 : W - m.r - tw - 6, ly = fits ? y(last[1]) + 4 : y(last[1]) - 14;   // no room to the right: sit above the end
+      ink(t, lx, ly, '#4a1f75', 6); }
+    c.globalAlpha = 1;
+    });
+    c.restore();
+    // the take-off: a dashed line holds the starting level across the climb, and a bracket at the end spans the rise
+    const A = accel && lines[0].avg.find(d => d[0] === accel[0]), Z = accel && lines[0].avg.find(d => d[0] === accel[1]);
+    if (A && Z && A[1] != null && Z[1] != null && T > 2100) {
+      c.globalAlpha = Math.min(1, (T - 2100) / 300);
+      const xa = x(A[0]), xz = x(Z[0]), ya = y(A[1]), yz = y(Z[1]), bx = xz + (sm ? 8 : 11), tk = sm ? 4 : 5;
+      c.strokeStyle = '#5e2a8f'; c.lineWidth = 1.5; c.setLineDash([4, 3]);
+      c.beginPath(); c.moveTo(xa, ya); c.lineTo(bx, ya); c.stroke(); c.setLineDash([]);
+      c.beginPath(); c.moveTo(bx - tk, ya); c.lineTo(bx, ya); c.lineTo(bx, yz); c.lineTo(bx - tk, yz); c.stroke();
+      [A, Z].forEach(d => { c.beginPath(); c.arc(x(d[0]), y(d[1]), sm ? 3.5 : 4.5, 0, 7); c.fillStyle = '#5e2a8f'; c.fill(); c.lineWidth = 1.5; c.strokeStyle = '#fcfcfb'; c.stroke(); });
+      const ch = Math.round((Z[1] / A[1] - 1) * 10) * 10, big = `${ch < 0 ? '−' : '+'}${Math.abs(ch)}%`, atEnd = Z === lines[0].avg.filter(d => d[1] != null).at(-1), sub = `${A[0]}–${String(Z[0]).slice(-2)}` + (atEnd ? `: ${per(A[1])} → ${per(Z[1])}` : '');
+      const fb = `700 ${sm ? 18 : 24}px "Barlow Condensed"`, fs = `400 ${sm ? 10 : 11}px "IBM Plex Mono"`;
+      c.font = fb; const bw = c.measureText(big).width; c.font = fs; const w = Math.max(bw, c.measureText(sub).width);
+      const right = bx + 6 + w + 4 <= W - m.r, lx = right ? bx + 6 : bx - w, my = right ? (ya + yz) / 2 : ch < 0 ? Math.min(ya, yz) - (sm ? 20 : 25) : Math.max(ya, yz) + (sm ? 22 : 28);   // right of the bracket; with no room, outside it, on the side away from the line
+      c.textAlign = 'left'; c.font = fb; ink(big, lx, my + (sm ? 1 : 2), '#4a1f75', 6);
+      c.font = fs; ink(sub, lx, my + (sm ? 12 : 15), '#1d1d1b', 4);
+      c.globalAlpha = 1;
+    }
+    if (shade) { c.textAlign = 'center'; c.font = '500 10px "IBM Plex Mono"'; ink(shade[2], (x(shade[0]) + x(shade[1])) / 2, yTop + 10, '#55534e', 4); }   // drawn last so the dots don't cover it
+    if (hover && PICMODE === 'dots') { c.beginPath(); c.arc(hover.cx, hover.cy, sm ? 6 : 7, 0, 7); c.strokeStyle = '#1d1d1b'; c.lineWidth = 2; c.stroke(); }
+    else if (hover) { c.strokeStyle = '#1d1d1b'; c.lineWidth = 2; c.strokeRect(hover.cx - ts / 2 - 1, hover.cy - ts / 2 - 1, ts + 2, ts + 2); }
+  };
+  DRAW[id] = draw;
+  let raf = 0; const redraw = () => { if (!raf) raf = requestAnimationFrame(() => { raf = 0; draw(); }); };
+  // load the thumbnails only when the chart comes near the screen
+  if (PICMODE === 'pics') { const io = new IntersectionObserver(es => { if (!es[0].isIntersecting) return; io.disconnect(); pts.forEach(d => loadImg(d.p.f, redraw)); }, { rootMargin: '400px' }); io.observe(cv); }
+  draw();
+  cv.onmousemove = e => { const r = cv.getBoundingClientRect(), d = q.find(e.clientX - r.left, e.clientY - r.top, ts);
+    if (d !== hover) { hover = d; redraw(); }
+    cv.style.cursor = d ? 'pointer' : 'default';
+    if (!d) return hideTip();
+    showTip(e, `<b>${esc(d.p.t.replace(/^\d{4}-\d\d-\d\d \d\d \d\d \d\d /, ''))}</b><span class="pp">${per(d.p.p)} purple</span> · ${d.p.yr}<img class="big" src="img/${d.p.f}" alt=""><small>${esc(d.p.src)}</small><span class="scan-hint">Click to see the <span class="hlw"><i>Hal</i><i>low</i><i>een</i></span> pixel scan</span>`); };
+  cv.onmouseleave = () => { hover = null; redraw(); hideTip(); };
+  cv.onclick = e => { const r = cv.getBoundingClientRect(), d = hover || q.find(e.clientX - r.left, e.clientY - r.top, ts);   // taps arrive without a hover
+    if (!d) return; hideTip(); SCAN.open(data.map(p => p.as(p)), data.indexOf(d.p)); };
+}
+
+const all = () => { drawStripes(); drawTrend(); drawDoodleLine(); drawTypes(); drawCtx(); drawGlow(); drawAllPics(); };
+function drawAllPics() { drawPics('picB', PIC.B, 1970, 2021, null, [2017.5, 2021.5, 'Open Library'], [1988, 1999]); drawPics('picP', PIC.P, 2004, 2025, null, null, [2017, 2023]); drawPics('picM', PIC.M, 1975, 2025, null, null, [1999, 2022]); }
+key(); table(); all();
+document.fonts.ready.then(() => { drawAllPics(); });
+let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(all, 150); });
+})();
+</script>
+<script>
+// "purple" written out by hand, the way "bloodlust" is on the Quinn page: each letter's pen strokes (the glyph
+// skeleton, in em units with y up from the baseline) are traced with a dash animation, then the letter settles into
+// the real KKHand glyph. The e keeps its drawn stroke instead: KKHand's e has a stray fragment past its tail that the
+// bold outline turns into a little ring. Once written, the word lights up and keeps flickering. Reduced motion: the
+// lit word at once.
+(() => {
+  const el = document.querySelector('h1 .w-p'); if (!el) return;
+  const calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const SPEED = .2 / 30, MIN_STROKE = 90, PEN_LIFT = 110, LETTER_GAP = 140, SETTLE = 260;  // em per ms (bloodlust's pace at its size), then ms
+  const PEN = sp => sp.textContent === 'e', word = el.textContent;
+  let strokes;
+  document.fonts.load('40px KKHand').then(f => {
+    if (!f.length) return;   // no font: keep the gradient word
+    el.setAttribute('aria-label', word);
+    el.innerHTML = [...word].map(c => `<span class="bl${c === 'e' ? ' pen' : ''}" aria-hidden="true">${c}</span>`).join('') + '<i style="display:inline-block;width:0;height:0;vertical-align:baseline"></i>';
+    el.classList.add('hw', 'writing');
+    return fetch('/fonts/kkhand-strokes.json').then(r => r.json()).then(st => { strokes = st;
+      if (calm) { go(true); el.classList.remove('writing'); el.classList.add('lit'); } else setTimeout(() => go(false), 300);
+      let rt, lastS = parseFloat(getComputedStyle(el).fontSize);
+      addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => { const S = parseFloat(getComputedStyle(el).fontSize);
+        if (S !== lastS && !el.classList.contains('writing')) { lastS = S; go(true); } }, 150); });
+    });
+  }).catch(() => { el.classList.remove('writing'); el.classList.add('lit'); });
+  // instant: lay the pen-only letters down at once (reduced motion, or a resize after the writing)
+  const go = instant => {
+    el.querySelector('svg')?.remove();
+    const box = el.getBoundingClientRect(), base = el.querySelector('i').getBoundingClientRect().top - box.top;
+    const size = parseFloat(getComputedStyle(el).fontSize), ns = 'http://www.w3.org/2000/svg';
+    const svg = document.createElementNS(ns, 'svg');
+    svg.setAttribute('width', box.width); svg.setAttribute('height', box.height);
+    el.appendChild(svg);
+    let t = 0;
+    [...el.querySelectorAll('.bl')].forEach((span, k) => {
+      const gx = span.getBoundingClientRect().left - box.left, paths = [], keep = PEN(span);
+      if (instant && !keep) return span.classList.add('in');
+      const g = document.createElementNS(ns, 'g');
+      g.setAttribute('transform', `translate(${gx} ${base}) scale(${size} ${-size})`);
+      g.setAttribute('stroke-width', strokes.width + (.055 * size + 1) / size);
+      svg.appendChild(g);
+      if (k) t += LETTER_GAP;
+      (strokes.glyphs[span.textContent] || []).filter((pts, j) => !(keep && j)).forEach((pts, j) => {
+        const p = document.createElementNS(ns, 'path');
+        p.setAttribute('d', pts.reduce((a, v, i) => a + (i % 2 ? `,${v}` : `${i ? ' L' : 'M'}${v}`), ''));
+        g.appendChild(p);
+        if (instant) return;
+        const len = p.getTotalLength(), dur = Math.max(MIN_STROKE, len / SPEED);
+        if (j) t += PEN_LIFT;
+        p.style.strokeDasharray = `${len} ${len}`; p.style.strokeDashoffset = len; p.style.opacity = 0;
+        p.animate([{ strokeDashoffset: len, opacity: 1 }, { strokeDashoffset: 0, opacity: 1 }], { duration: dur, delay: t, easing: 'ease-in-out', fill: 'forwards' });
+        t += dur; paths.push(p);
+      });
+      if (instant || keep) return;
+      const done = t;
+      setTimeout(() => { span.classList.add('in'); setTimeout(() => paths.forEach(p => { p.getAnimations().forEach(a => a.cancel()); p.remove(); }), SETTLE); }, done);
+    });
+    if (!instant) setTimeout(() => { el.classList.remove('writing'); el.classList.add('lit'); }, t + SETTLE * 2);
+  };
+})();
+</script>
+</body>
+</html>
