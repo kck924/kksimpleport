@@ -76,8 +76,13 @@ mark.p { background: var(--purple-soft); color: inherit; padding: 0 3px; font-we
 mark.o { background: var(--orange-soft); color: inherit; padding: 0 3px; font-weight: 600; }
 
 section { margin-top: 68px; }
-.sec-k { padding-top: 10px; border-top: 3px solid var(--rule); font: 500 .74rem/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; }
-.sec-k span { color: var(--ink-3); margin-left: 10px; letter-spacing: .06em; }
+.sec-k { position: relative; padding-top: 13px; font: 500 .74rem/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; }
+/* the rule draws itself in from the left when the section scrolls into view, and the title fades up after it */
+.sec-k::before { content: ''; position: absolute; left: 0; right: 0; top: 0; height: 3px; background: var(--rule); transform-origin: left; transition: transform .9s cubic-bezier(.65, 0, .35, 1); }
+.sec-k { transition: color .4s .6s; }
+.sec-k.pre { color: transparent; }
+.sec-k.pre::before { transform: scaleX(0); }
+@media (prefers-reduced-motion: reduce) { .sec-k, .sec-k::before { transition: none; } }
 h2 { margin: 14px 0 0; font: 700 2.1rem/1.05 var(--cond); letter-spacing: .005em; max-width: 780px; }
 h2 + .prose { margin-top: 14px; }
 
@@ -295,7 +300,7 @@ footer a { color: var(--ink-2); }
   </div>
 
   <section>
-    <div class="sec-k">The palette <span>1900–2025</span></div>
+    <div class="sec-k">The palette</div>
     <h2>A century of Halloween colors, one stripe per year</h2>
     <div class="chart">
       <p class="cs">Each stripe is the colored part of that year's images, purple at the top. Hover or tap a stripe for its numbers and sample images. Hatched areas are years with no data; hover one to see why.</p>
@@ -306,7 +311,7 @@ footer a { color: var(--ink-2); }
   </section>
 
   <section>
-    <div class="sec-k">The trend <span>Purple's share of color</span></div>
+    <div class="sec-k">The trend</div>
     <h2>Two waves: the books turned purple around 1990, the yards after 2016</h2>
     <div class="prose">
       <p>As you can see in the color strips above, we found almost no purple in Halloween-themed postcards from 1900 thru 1939, and although the coverage is spotty, we don't see much purple in catalogs and ads from 1969, until 2020, when that year's catalog pages were a meaningful <mark class="p">15%</mark> purple.</p>
@@ -325,7 +330,7 @@ footer a { color: var(--ink-2); }
   </section>
 
   <section>
-    <div class="sec-k">The doodles <span>1999–2025</span></div>
+    <div class="sec-k">The doodles</div>
     <h2>Google's Halloween doodle went purple too</h2>
     <div class="prose"><p>As I was pondering how I could find a consistently published Halloween image that would change year over year, it occurred to me that Google's daily Doodle would likely have an annual Halloween rendition, and they keep good records over there.</p>
       <p>Sure enough, there's been one every year since 1999. For its first decade it was the usual blue, red, yellow and green letters dressed up with pumpkins, ghosts and a black cat, and 10 of those 11 doodles have no purple at all. Purple arrives with 2010's witch and bats. Since 2017, 7 of 9 doodles are at least 10% purple, mostly in the night skies and the ghosts.</p></div>
@@ -339,7 +344,7 @@ footer a { color: var(--ink-2); }
   </section>
 
   <section>
-    <div class="sec-k">All together <span>Every source, side by side</span></div>
+    <div class="sec-k">All together</div>
     <div class="chart">
       <h4>Purple's share of each source's color</h4>
       <p class="cs">Five-year rolling average, on a square-root scale so the doodles fit. Photos are measured on their strongly colored pixels only, so compare each line's shape, not its level against the others.</p>
@@ -350,7 +355,7 @@ footer a { color: var(--ink-2); }
   </section>
 
   <section>
-    <div class="sec-k">Why <span>A best guess</span></div>
+    <div class="sec-k">Why</div>
     <h2>Family movies and picture books fit the first wave. LEDs fit the second.</h2>
     <div class="chart" style="max-width:560px">
       <h4>What's purple in the yard</h4>
@@ -1096,6 +1101,11 @@ function drawPics(id, data, x0, x1, groups, shade, accel) {
     if (!d) return; hideTip(); SCAN.open(data.map(p => p.as(p)), data.indexOf(d.p)); };
 }
 
+// section dividers: hidden until they scroll into view, then drawn in
+(() => { if (!('IntersectionObserver' in window)) return;
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.remove('pre'); io.unobserve(e.target); } }), { rootMargin: '0px 0px -12% 0px' });
+  document.querySelectorAll('.sec-k').forEach(el => { el.classList.add('pre'); io.observe(el); });
+})();
 const all = () => { drawStripes(); drawTrend(); drawDoodleLine(); drawTypes(); drawCtx(); drawGlow(); drawAllPics(); };
 function drawAllPics() { drawPics('picB', PIC.B, 1970, 2021, null, [2017.5, 2021.5, 'Open Library'], [1988, 1999]); drawPics('picP', PIC.P, 2004, 2025, null, null, [2017, 2023]); drawPics('picM', PIC.M, 1975, 2025, null, null, [1999, 2022]); }
 key(); table(); all();
