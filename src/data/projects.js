@@ -237,5 +237,22 @@ export const portfolioData = [
       { name: 'CSS', percent: 12.4, color: '#a78bfa' },
       { name: 'Python', percent: 10.9, color: '#3572A5' }
     ]
+  },
+  {
+    id: 15,
+    title: 'When Did Purple Become a Halloween Color?',
+    description: 'Data story that counts the pixels in 3,000 Halloween images (vintage postcards, decoration catalogs, picture book covers, front-yard photos and 27 years of Google Doodles) to date when purple joined orange and black. Finds two waves, picture books around 1990 and yard displays after 2015, and lines the second up with Google Trends searches for inflatables and lights and NRF decoration spending. Interactive D3 charts, a pixel-scan viewer for every image, and handwritten touches.',
+    tags: ['Data Journalism', 'D3', 'Python'],
+    category: ['analytics', 'misc'],
+    date: 'October 2026',
+    tools: 'D3, JavaScript, Python, Pillow, pandas, Firebase',
+    link: 'https://kckdata.com/purple-halloween/',
+    image: '/purplehalloween.png',
+    languages: [
+      { name: 'Python', percent: 38.5, color: '#3572A5' },
+      { name: 'JavaScript', percent: 36.9, color: '#00d9ff' },
+      { name: 'HTML', percent: 12.3, color: '#fb923c' },
+      { name: 'CSS', percent: 12.2, color: '#a78bfa' }
+    ]
   }
 ];
