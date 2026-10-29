@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>How My Resumes Are Made</title>
+<meta name="description" content="Every resume Kevin Klein sends is tailored by a tool he built: scoring picks the experience, AI may suggest wording, and every line is approved by hand. Here's how it works.">
+<meta property="og:title" content="How my resumes are made">
+<meta property="og:description" content="Scoring picks the experience, AI may suggest wording, and every line is approved by hand. Each resume links to a receipt.">
+<meta property="og:url" content="https://kckdata.com/resume/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root { --bg: #fcfcfb; --ink: #1d1d1b; --ink-2: #55534e; --ink-3: #8b887f; --line: #e3e0d8; --panel: #f4f2ec; --acc: #2f5fd0; --acc-soft: #e4ebfa; --good: #2f7d4a; --good-soft: #e3f1e7;
+  --sans: 'Inter', system-ui, sans-serif; --cond: 'Barlow Condensed', 'Inter', sans-serif; --mono: 'IBM Plex Mono', ui-monospace, monospace; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #151514; --ink: #ecebe6; --ink-2: #b9b6ad; --ink-3: #8b887f; --line: #33322e; --panel: #201f1d; --acc: #8fb0ff; --acc-soft: #22304f; --good: #7cc795; --good-soft: #1d3326; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 var(--sans); }
+.top { border-bottom: 3px solid var(--ink); padding: 12px 16px; display: flex; justify-content: space-between; font: 500 .74rem/1 var(--mono); letter-spacing: .1em; text-transform: uppercase; }
+.top a { color: var(--ink); text-decoration: none; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 16px 90px; }
+h1 { margin: 40px 0 0; font: 800 clamp(2.4rem, 8vw, 3.8rem)/.95 var(--cond); }
+.dek { margin: 16px 0 0; font-size: 1.2rem; color: var(--ink-2); }
+.byline { margin-top: 16px; font: 400 .78rem var(--mono); color: var(--ink-3); } .byline b { color: var(--ink); font-weight: 600; }
+.sec { height: 3px; background: var(--ink); margin: 54px 0 14px; }
+h2 { margin: 0; font: 700 2rem/1.05 var(--cond); }
+p { margin: 14px 0 0; }
+a { color: var(--ink); }
+.flow { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 30px; counter-reset: s; }
+@media (max-width: 640px) { .flow { grid-template-columns: 1fr 1fr; } }
+.flow div { background: var(--panel); border-radius: 8px; padding: 12px; font-size: .86rem; line-height: 1.45; position: relative; }
+.flow div::before { counter-increment: s; content: counter(s); display: block; font: 700 1.6rem/1 var(--cond); margin-bottom: 6px; }
+.flow b { display: block; font-size: .95rem; margin-bottom: 2px; }
+.flow .who { display: inline-block; margin-top: 8px; font: 500 .66rem/1.6 var(--mono); text-transform: uppercase; letter-spacing: .06em; padding: 0 6px; border-radius: 9px; background: var(--bg); color: var(--ink-2); }
+.flow .who.ai { background: var(--acc-soft); color: var(--acc); } .flow .who.me { background: var(--good-soft); color: var(--good); }
+.card { margin-top: 20px; border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; background: var(--bg); font-size: .92rem; }
+.card .t { font-weight: 500; }
+.chip { display: inline-block; font: 500 .7rem/1.6 var(--mono); padding: 0 7px; border-radius: 10px; background: var(--acc-soft); color: var(--acc); margin: 6px 4px 0 0; }
+.chip.g { background: var(--panel); color: var(--ink-2); }
+.formula { margin-top: 18px; background: var(--panel); border-radius: 8px; padding: 14px 16px; font: 400 .88rem/1.7 var(--mono); overflow-x: auto; }
+ul.rules { padding-left: 1.1rem; } ul.rules li { margin: 6px 0; }
+pre { margin: 14px 0 0; background: var(--panel); border-radius: 8px; padding: 14px 16px; font: 400 .78rem/1.55 var(--mono); white-space: pre-wrap; overflow-wrap: anywhere; }
+details { margin-top: 14px; } summary { cursor: pointer; font: 500 .8rem var(--mono); letter-spacing: .04em; }
+.cta { display: inline-block; margin-top: 18px; background: var(--ink); color: var(--bg); text-decoration: none; padding: 10px 16px; border-radius: 6px; font-weight: 600; font-size: .95rem; }
+footer { margin-top: 60px; font: 400 .78rem/1.6 var(--mono); color: var(--ink-3); }
+</style>
+</head>
+<body>
+<div class="top"><a href="/">kckdata</a><span>Resume</span></div>
+<main class="wrap">
+  <h1>How my resumes are made</h1>
+  <p class="dek">I tailor every resume I send with a tool I built. A scoring program picks what goes on it, AI may suggest wording, and I approve every line. Each resume links to a receipt that shows how I made it.</p>
+  <div class="byline">By <b>Kevin Klein</b></div>
+
+  <div class="flow">
+    <div><b>One library</b>Everything I've done, as tagged, structured records.<span class="who me">me</span></div>
+    <div><b>Read the job</b>The posting becomes weighted requirements.<span class="who">rules or AI, checked by me</span></div>
+    <div><b>Score and pick</b>Each line is chosen for what it adds.<span class="who">arithmetic, no AI</span></div>
+    <div><b>Word and approve</b>AI may reword; I accept or reject each change.<span class="who ai">AI suggests</span> <span class="who me">me</span></div>
+  </div>
+
+  <div class="sec"></div>
+  <h2>Why do it this way</h2>
+  <p>Tailoring a resume by hand means rewriting the same document for every application, and it's easy to lose track of what you claimed where. Handing the whole job to an AI is faster, but you get fluent text you can't fully vouch for.</p>
+  <p>I wanted something in between, where I can explain every choice and the facts never change. AI does the one part it's good at: matching my wording to the posting's. I'm a data person, so I treated it as a data problem.</p>
+
+  <div class="sec"></div>
+  <h2>Built around how screening works now</h2>
+  <p>Before writing any code I read up on the other side of the process: what applicant tracking systems and AI screeners do with a resume.</p>
+  <ul class="rules">
+    <li>A resume is parsed before anyone reads it. Greenhouse's AI matching sends a resume that "could not be processed by AI" to manual review (<a href="https://support.greenhouse.io/hc/en-us/articles/41396009937307-Talent-Matching">Greenhouse</a>), and practitioners report that columns, tables and contact details in page headers are what parsers drop (<a href="https://www.shashiworks.com/ats-workday-greenhouse-taleo.html">overview</a>). My resumes use one column, keep contact details in the body, use standard section names, date every role, and carry real text in both the PDF and Word versions. I check each PDF by extracting its text and reading it back.</li>
+    <li>Employers score against weighted criteria. In Greenhouse, the hiring team sets skills, experience and job titles with an importance for each, and the tool reports exact and similar keyword matches separately (<a href="https://support.greenhouse.io/hc/en-us/articles/41131886674075">Greenhouse</a>). My scoring weights the job's requirements the same way, and the skills line uses the posting's wording when it's a true name for something I do.</li>
+    <li>Most automatic rejections come from knockout questions, not content scores: in a small survey of 25 recruiters, most screened with questions on work authorization, certifications or location, and only 2 said their system auto-rejects for any other reason (<a href="https://enhancv.com/blog/does-ats-reject-resumes/">Enhancv</a>). Wording can't fix a knockout question, so the tool flags years, degree, clearance, location and work-authorization asks before I apply.</li>
+    <li>Screeners look for manipulation. Researchers found prompt injections hidden in at least 1% of about 200,000 resumes (<a href="https://finance.yahoo.com/technology/ai/articles/job-seekers-hide-invisible-instructions-100000545.html">reporting</a>). Nothing on my resumes is hidden, and the AI disclosure is printed on the page.</li>
+    <li>Recruiters distrust generic AI writing, but most don't object to AI help with drafting: in a Resume Genius survey of 625 hiring managers, an AI-generated resume was the top red flag (<a href="https://www.cnbc.com/make-it/2024/04/08/3-resume-red-flags-recruiters-look-out-for-and-how-to-avoid-them.html">CNBC</a>), while about half say AI for drafting or proofreading is fine (<a href="https://topresume.com/career-advice/ai-in-hiring-survey">TopResume</a>). AI only rewords lines I wrote, the tool flags stock AI phrasing, I approve every change, and the receipt shows each one.</li>
+    <li>Automated screening has known failure modes. Filters have screened out qualified people over gaps and credentials (<a href="https://www.library.hbs.edu/working-knowledge/how-to-tap-the-talent-automated-hr-platforms-miss">Harvard Business School</a>), and language models ranking resumes have shown race and gender bias (<a href="https://www.washington.edu/news/2024/10/31/ai-bias-resume-screening-race-gender/">University of Washington</a>). My scoring uses only what I've done, nothing about me as a person.</li>
+  </ul>
+
+  <div class="sec"></div>
+  <h2>1. One library of experience</h2>
+  <p>I keep a library of my experience and build each resume from it. Every accomplishment is a record: the role it belongs to, the line itself, the skills it shows, and whether it has a measured result. A single entry looks like this:</p>
+  <div class="card"><div class="t">Built a brand overlap dashboard for a top retail account in about a day; such requests used to take weeks</div>
+    <span class="chip">Dashboards</span><span class="chip">Advertising</span><span class="chip g">measured result</span><span class="chip g">2017–2020 role</span></div>
+  <p>Skills come from a fixed list with two kinds of other names. True synonyms can be printed: if a posting says "time series forecasting," that's what my skills line says. Related terms only count toward a match: a posting that asks for Tableau gives credit to my dashboard work, but the resume never claims Tableau. And a skill only appears on the page if at least one line of my experience shows it.</p>
+
+  <div class="sec"></div>
+  <h2>2. Reading the job</h2>
+  <p>The tool breaks the posting into requirements, each with a weight: <b>3</b> for a must-have, <b>2</b> for a responsibility, <b>1</b> for a nice-to-have, and half a point more when it names a skill. It drops benefits and boilerplate.</p>
+  <p>Hard filters (years, degrees and fields of study, clearances, location, work authorization, and any policy on AI in applications) become separate screening checks. They don't change what's picked; they tell me whether to apply at all.</p>
+  <p>Plain rules (section headings and the skill list) can do this, or AI can; AI is better at splitting run-on bullets and spotting what a posting stresses. Either way I read the list and fix it before anything is chosen. I never publish the posting itself, only the paraphrased requirements.</p>
+
+  <div class="sec"></div>
+  <h2>3. Scoring and picking</h2>
+  <p>No AI is involved in choosing. Each line gets a match score against each requirement, mostly from shared skills and a little from shared words:</p>
+  <div class="formula">match = min(1, 0.6 × shared skills + 0.15 × shared words)<br>
+    value = Σ weight × match<br>
+    &nbsp;&nbsp;× recency (1.0 for current work, 8% less per year, never under 0.5)<br>
+    &nbsp;&nbsp;× 1.1 if it has a measured result</div>
+  <p>Then the tool picks lines one at a time, each time taking the one that adds the most <i>uncovered</i> weight. Once a line answers a requirement, that requirement counts half as much for the next pick, so a resume doesn't spend five lines proving SQL and none on leading a team. Every role keeps at least one line so there are no holes in the timeline, and older roles get fewer lines.</p>
+  <p>The result is a fit score, the share of the job's weighted requirements the resume answers, and a list of gaps.</p>
+
+  <div class="sec"></div>
+  <h2>4. What AI is allowed to do</h2>
+  <p>Once the tool has chosen the lines, AI may reword them toward the job's language. Its instructions say to change wording only, and the tool checks every suggestion before I see it:</p>
+  <ul class="rules">
+    <li>Every number must match the original; the tool flags a new or missing one.</li>
+    <li>Nothing on my never-list (things I won't claim) may appear.</li>
+    <li>A line can't grow by more than a quarter.</li>
+    <li>The tool flags writing that reads as machine-made: stock words like <i>leverage</i> or <i>seamless</i>, "not just X but Y," trailing clauses that claim an effect ("…, driving growth"), dashes, "served as" where "was" would do, and the passive voice. The list draws on Strunk and White and on Wikipedia's <a href="https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing">signs of AI writing</a>. The lines in my library pass the same checks.</li>
+    <li>I accept, edit or reject each change, including ones with no flags.</li>
+  </ul>
+  <p>These are the exact instructions AI gets, loaded from the same file the tool uses:</p>
+  <details open><summary>Instructions for rewording</summary><pre id="pRewrite">Loading…</pre></details>
+  <details><summary>Instructions for reading a job posting</summary><pre id="pParse">Loading…</pre></details>
+
+  <div class="sec"></div>
+  <h2>5. Receipts</h2>
+  <p>Every resume ends with a short link to its receipt: the requirements as I read them, which line answers which, the gaps, what was left out and why, and a before-and-after of every line AI reworded.</p>
+  <a class="cta" href="/resume/r/example">See an example receipt</a>
+  <p>The scoring code is public too: <a href="/resume/engine.js">engine.js</a> runs in the tool that builds every resume, unchanged.</p>
+
+  <footer>kckdata.com · <a href="/">More projects</a></footer>
+</main>
+<script type="module">
+import { PARSE, REWRITE } from '/resume/prompts.js';
+document.getElementById('pRewrite').textContent = REWRITE;
+document.getElementById('pParse').textContent = PARSE;
+</script>
+</body>
+</html>

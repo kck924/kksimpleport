@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Resume Receipt</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* match strength is one hue, light to dark (s1 = too weak to count ... s4 = strong); "chosen" is the accent, "left out" a neutral */
+:root { --bg: #fcfcfb; --ink: #1d1d1b; --ink-2: #55534e; --ink-3: #8b887f; --line: #e3e0d8; --panel: #f4f2ec; --acc: #2f5fd0; --acc-soft: #e4ebfa;
+  --good: #2f7d4a; --good-soft: #e3f1e7; --bad: #b3352a; --bad-soft: #f8e1de;
+  --s1: #e9e7e0; --s2: #c3d3f5; --s3: #789be6; --s4: #2f5fd0; --keep: #9fb7ee; --out: #cfccc3;
+  --sans: 'Inter', system-ui, sans-serif; --cond: 'Barlow Condensed', 'Inter', sans-serif; --mono: 'IBM Plex Mono', ui-monospace, monospace; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #151514; --ink: #ecebe6; --ink-2: #b9b6ad; --ink-3: #8b887f; --line: #33322e; --panel: #201f1d; --acc: #8fb0ff; --acc-soft: #22304f; --good: #7cc795; --good-soft: #1d3326; --bad: #f08a80; --bad-soft: #3d221f;
+  --s1: #2b2a27; --s2: #2c3f6b; --s3: #4f76d4; --s4: #9db9ff; --keep: #3d5799; --out: #4a4944; } }
+:root[data-theme="dark"] { --bg: #151514; --ink: #ecebe6; --ink-2: #b9b6ad; --ink-3: #8b887f; --line: #33322e; --panel: #201f1d; --acc: #8fb0ff; --acc-soft: #22304f; --good: #7cc795; --good-soft: #1d3326; --bad: #f08a80; --bad-soft: #3d221f;
+  --s1: #2b2a27; --s2: #2c3f6b; --s3: #4f76d4; --s4: #9db9ff; --keep: #3d5799; --out: #4a4944; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 var(--sans); }
+.top { border-bottom: 3px solid var(--ink); padding: 12px 16px; display: flex; justify-content: space-between; align-items: center; font: 500 .74rem/1 var(--mono); letter-spacing: .1em; text-transform: uppercase; }
+.top a { color: var(--ink); text-decoration: none; }
+/* the link to the letter: a solid pill; on hover a brighter colour fills the letters left to right and the pill glows */
+.top a.why { --txt: #fff; --fill: #ffe27a; font-weight: 700; color: var(--txt); background: var(--acc); padding: 8px 14px; margin: -8px 0; border-radius: 999px;
+  box-shadow: 0 2px 10px color-mix(in srgb, var(--acc) 35%, transparent); transition: transform .2s, box-shadow .3s; }
+.top a.why span { background: linear-gradient(90deg, var(--fill) 50%, var(--txt) 50%) 100% 0 / 200% 100% no-repeat; -webkit-background-clip: text; background-clip: text; color: transparent;
+  transition: background-position .45s cubic-bezier(.45,.05,.3,1), filter .3s; }
+.top a.why:hover, .top a.why:focus-visible { transform: translateY(-1px);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--acc) 30%, transparent), 0 0 22px color-mix(in srgb, var(--acc) 75%, transparent), 0 0 46px color-mix(in srgb, var(--acc) 40%, transparent); }
+.top a.why:hover span, .top a.why:focus-visible span { background-position: 0 0; filter: drop-shadow(0 0 5px color-mix(in srgb, var(--fill) 80%, transparent)); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .top a.why { --txt: var(--bg); --fill: #fff; } }
+:root[data-theme="dark"] .top a.why { --txt: var(--bg); --fill: #fff; }
+@media (prefers-reduced-motion: reduce) { .top a.why, .top a.why span { transition: none; } }
+.wrap { max-width: 920px; margin: 0 auto; padding: 0 16px 80px; }
+h1 { margin: 34px 0 0; font: 800 clamp(2rem, 6vw, 3rem)/1 var(--cond); }
+.dek { margin: 12px 0 0; color: var(--ink-2); font-size: 1.08rem; max-width: 680px; }
+.dek a, .note a, footer a, .cs a { color: var(--ink); }
+@font-face { font-family: 'KKHand'; src: url('/fonts/KKHand.ttf') format('truetype'); font-display: swap; }
+/* section headings in Kevin's handwriting; KKHand has one weight, so the bold is a stroke around each letter */
+h2 { margin: 52px 0 4px; font: 400 2.35rem/1.15 'KKHand', var(--cond); letter-spacing: .02em; -webkit-text-stroke: 2.1px currentColor; paint-order: stroke fill; padding-top: 12px; border-top: 3px solid var(--ink); }
+.cs { margin: 0 0 16px; color: var(--ink-2); font-size: .92rem; max-width: 680px; }
+.chip { display: inline-block; font: 500 .7rem/1.6 var(--mono); padding: 0 7px; border-radius: 10px; background: var(--panel); color: var(--ink-2); margin: 1px 3px 1px 0; white-space: nowrap; }
+.chip.ok { background: var(--good-soft); color: var(--good); } .chip.gap { background: var(--bad-soft); color: var(--bad); } .chip.ai { background: var(--acc-soft); color: var(--acc); }
+a.chip { text-decoration: none; }
+
+/* hero: the fit score and the bar it comes from */
+.hero { margin-top: 30px; display: grid; grid-template-columns: auto 1fr; gap: 6px 22px; align-items: end; }
+.big { font: 800 clamp(3.6rem, 13vw, 5.6rem)/.82 var(--cond); }
+.big small { font-size: .42em; font-weight: 700; color: var(--ink-2); margin-left: 2px; }
+.hero p { margin: 0; font-size: .95rem; color: var(--ink-2); max-width: 440px; }
+.fitbar { grid-column: 1 / -1; display: flex; gap: 2px; height: 30px; margin-top: 12px; }
+.fitbar > div { position: relative; background: var(--panel); border-radius: 3px; overflow: hidden; cursor: default; }
+.fitbar > div > i { position: absolute; inset: 0 auto 0 0; background: var(--acc); }
+.fitbar > div.gap { background: var(--bad-soft); }
+.fitbar > div.gap::after { content: '×'; position: absolute; inset: 0; display: grid; place-items: center; color: var(--bad); font: 600 .8rem var(--mono); }
+.fitbar > div:hover, .fitbar > div:focus { outline: 2px solid var(--ink); outline-offset: 1px; }
+.facts { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 4px 18px; margin-top: 10px; font: 400 .78rem/1.5 var(--mono); color: var(--ink-2); }
+.facts b { color: var(--ink); font-weight: 600; }
+.key { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 10px 0 0; font-size: .78rem; color: var(--ink-2); }
+.key span { display: inline-flex; align-items: center; gap: 6px; }
+.key i { width: 14px; height: 14px; border-radius: 3px; background: var(--c); display: inline-grid; place-items: center; font: 600 .62rem var(--mono); font-style: normal; color: var(--bad); }
+
+/* the matrix: resume lines (rows, grouped by role) against requirements (columns) */
+.mxwrap { overflow-x: auto; margin: 0 -16px; padding: 0 16px 6px; overscroll-behavior-x: contain; }
+.mx { --lab: min(300px, 40vw); --cw: 22px; display: grid; grid-template-columns: var(--lab) repeat(var(--n), var(--cw)); gap: 2px; width: max-content; }
+.mx .lab { position: sticky; left: 0; z-index: 1; background: var(--bg); padding-right: 8px; font-size: .8rem; line-height: 22px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--ink); text-decoration: none; }
+.mx .lab b { font: 500 .7rem var(--mono); color: var(--ink-3); margin-right: 6px; }
+.mx a.lab:hover { color: var(--acc); }
+.mx .rh { grid-column: 1 / -1; margin-top: 8px; font: 600 .74rem/1.4 var(--mono); color: var(--ink-2); text-transform: uppercase; letter-spacing: .05em; }
+.mx .rh span { position: sticky; left: 0; }
+.mx .c { height: 22px; border-radius: 3px; background: var(--bg); box-shadow: inset 0 0 0 1px var(--line); }
+.mx .c[data-b="1"] { background: var(--s1); box-shadow: none; } .mx .c[data-b="2"] { background: var(--s2); box-shadow: none; }
+.mx .c[data-b="3"] { background: var(--s3); box-shadow: none; } .mx .c[data-b="4"] { background: var(--s4); box-shadow: none; }
+.mx .c:hover, .mx .col:hover { outline: 2px solid var(--ink); outline-offset: 1px; }
+.mx .col { height: 46px; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; gap: 3px; cursor: default; }
+.mx .col i { width: 8px; background: var(--ink-3); border-radius: 2px 2px 0 0; }
+.mx .col span { font: 500 .58rem/1 var(--mono); color: var(--ink-3); }
+.mx .col.gap span { color: var(--bad); font-weight: 600; }
+.mx .best { height: 22px; border-radius: 3px; display: grid; place-items: center; font: 600 .7rem var(--mono); }
+.mx .best.gap { background: var(--bad-soft); color: var(--bad); }
+.mx .foot { border-top: 2px solid var(--ink); padding-top: 4px; }
+.mx .best.foot { border-radius: 0 0 3px 3px; }
+
+/* how lines were chosen: every candidate's standalone score */
+.sc { display: grid; grid-template-columns: min(300px, 42%) 1fr; gap: 3px 10px; align-items: center; }
+.sc .lab { font-size: .8rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--ink); text-decoration: none; }
+.sc .lab b { font: 500 .7rem var(--mono); color: var(--ink-3); margin-right: 6px; }
+.sc .lab.out { color: var(--ink-2); }
+.sc .bar { display: flex; align-items: center; gap: 6px; height: 18px; cursor: default; }
+.sc .bar i { height: 12px; min-width: 2px; border-radius: 0 3px 3px 0; background: var(--c); }
+.sc .bar span { font: 500 .7rem var(--mono); color: var(--ink-2); }
+.sc .bar:hover i { outline: 2px solid var(--ink); outline-offset: 1px; }
+.sc .cut { grid-column: 1 / -1; border-top: 1px dashed var(--ink-3); margin: 6px 0 2px; font: 500 .68rem/1.8 var(--mono); color: var(--ink-3); text-transform: uppercase; letter-spacing: .06em; }
+
+details.tv { margin-top: 14px; font-size: .9rem; } details.tv > summary { cursor: pointer; color: var(--ink-2); font: 500 .76rem var(--mono); text-transform: uppercase; letter-spacing: .06em; }
+.req { display: grid; grid-template-columns: 2.2rem 1fr; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.req .id, .line .id { font: 500 .74rem/1.9 var(--mono); color: var(--ink-3); }
+.req .k { font: 500 .7rem var(--mono); color: var(--ink-3); text-transform: uppercase; letter-spacing: .06em; }
+.role { margin-top: 22px; }
+.role h3 { margin: 0 0 4px; font: 600 1rem/1.3 var(--sans); } .role h3 span { color: var(--ink-3); font-weight: 400; }
+.line { display: grid; grid-template-columns: 2.2rem 1fr; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--line); scroll-margin-top: 20px; }
+.line:target { background: var(--acc-soft); }
+.line .meta { margin-top: 4px; font-size: .8rem; color: var(--ink-2); }
+.line del { background: var(--bad-soft); color: var(--bad); } .line ins { background: var(--good-soft); color: var(--good); text-decoration: none; }
+.line details { margin-top: 5px; font-size: .86rem; } .line summary { cursor: pointer; color: var(--acc); font-size: .8rem; }
+.left { padding: 8px 0; border-bottom: 1px solid var(--line); font-size: .92rem; } .left span { color: var(--ink-3); font-size: .8rem; }
+.note { margin-top: 26px; font-size: .86rem; color: var(--ink-2); background: var(--panel); border-radius: 8px; padding: 12px 14px; }
+footer { margin-top: 40px; font: 400 .78rem/1.6 var(--mono); color: var(--ink-3); }
+.miss { margin-top: 60px; color: var(--ink-2); }
+
+#tip { position: fixed; z-index: 10; max-width: 320px; pointer-events: none; background: var(--ink); color: var(--bg); border-radius: 6px; padding: 8px 10px; font-size: .8rem; line-height: 1.4; box-shadow: 0 4px 16px rgba(0,0,0,.18); opacity: 0; transition: opacity .1s; }
+#tip.on { opacity: 1; }
+#tip b { font-weight: 600; } #tip .m { display: block; margin-top: 4px; font: 500 .7rem var(--mono); opacity: .75; }
+@media (max-width: 560px) { .mx { --cw: 20px; } .hero { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="top"><a href="/">kckdata</a><a class="why" href="/resume/hello/"><span>Why I apply this way</span></a></div>
+<main class="wrap" id="app"><p class="miss">Loading receipt…</p></main>
+<div id="tip" role="tooltip"></div>
+<script>
+(async () => {
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const id = new URLSearchParams(location.search).get('id') || location.pathname.replace(/\/+$/, '').split('/').pop();
+  const app = document.getElementById('app');
+  let R;
+  try { if (!/^[a-z0-9]{4,16}$/.test(id)) throw 0; const r = await fetch(`/resume/r/data/${id}.json`); if (!r.ok) throw 0; R = await r.json(); }
+  catch { app.innerHTML = `<h1>Receipt not found</h1><p class="miss">There's no receipt at this address. Check the link on the resume, or read <a href="/resume/hello/">why I apply this way</a>.</p>`; return; }
+
+  // a word-level diff of the original line against the published one
+  const diff = (a, b) => { const A = a.split(/(\s+)/), B = b.split(/(\s+)/), n = A.length, m = B.length, L = Array.from({ length: n + 1 }, () => new Uint16Array(m + 1));
+    for (let i = n - 1; i >= 0; i--) for (let j = m - 1; j >= 0; j--) L[i][j] = A[i] === B[j] ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1]);
+    let o = '', i = 0, j = 0; while (i < n && j < m) { if (A[i] === B[j]) { o += esc(A[i]); i++; j++; } else if (L[i + 1][j] >= L[i][j + 1]) o += `<del>${esc(A[i++])}</del>`; else o += `<ins>${esc(B[j++])}</ins>`; }
+    while (i < n) o += `<del>${esc(A[i++])}</del>`; while (j < m) o += `<ins>${esc(B[j++])}</ins>`; return o; };
+  const date = new Date(R.created + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  const ai = R.picks.filter(p => p.rewritten).length, gaps = R.requirements.filter(r => r.gap).length;
+  const where = R.job.company ? ` at ${esc(R.job.company)}` : '';
+  document.title = `Resume receipt: ${R.job.title || 'a job'}`;
+  const byRole = R.roles.map(role => ({ role, ps: R.picks.filter(p => p.role === role.id) })).filter(g => g.ps.length);
+  // lines are numbered in the order they appear on the page
+  const lines = byRole.flatMap(g => g.ps), lineNo = {}; lines.forEach((p, i) => lineNo[p.id] = 'L' + (i + 1));
+
+  // match strength, as the engine scores it: a shared skill is worth .6, a shared posting word .15, capped at 1.
+  // Below .3 (one or two shared words) a match doesn't count toward coverage.
+  const S = {}; lines.forEach(p => p.matched.forEach(m => S[p.id + ' ' + m.req] = m.m));
+  const bin = m => m >= .9 ? 4 : m >= .6 ? 3 : m >= .3 ? 2 : m > 0 ? 1 : 0;
+  const word = ['no match', 'too weak to count', 'partial match', 'good match', 'strong match'];
+  const best = r => Math.max(0, ...lines.map(p => S[p.id + ' ' + r.id] || 0).filter(m => m >= .3));
+  const W = R.requirements.reduce((s, r) => s + r.weight, 0), maxW = Math.max(...R.requirements.map(r => r.weight));
+
+  // tooltips: each hover target carries an index into this list
+  const tips = [], tip = h => (tips.push(h), `data-t="${tips.length - 1}" tabindex="0"`);
+  const reqTip = r => `<b>${r.id}</b> · ${esc(r.kind)} · weight ${r.weight}<br>${esc(r.text)}`;
+
+  const fitbar = R.requirements.map(r => { const b = Math.min(1, best(r));
+    return `<div class="${r.gap ? 'gap' : ''}" style="flex:${r.weight}" ${tip(`${reqTip(r)}<span class="m">${r.gap ? 'gap: no line answers it' : `best match ${b.toFixed(2)} · ${r.coveredBy.length} line${r.coveredBy.length === 1 ? '' : 's'}`}</span>`)}><i style="width:${b * 100}%"></i></div>`; }).join('');
+
+  const matrix = `<div class="mx" style="--n:${R.requirements.length}">
+    <div class="lab" style="line-height:1.3;align-self:end;white-space:normal;font-size:.72rem;color:var(--ink-3)">Requirement weight →</div>
+    ${R.requirements.map(r => `<div class="col ${r.gap ? 'gap' : ''}" ${tip(reqTip(r))}><i style="height:${r.weight / maxW * 26}px"></i><span>${r.id.replace(/^r/, '')}</span></div>`).join('')}
+    ${byRole.map(({ role, ps }) => `<div class="rh"><span>${esc(role.title)} · ${esc(role.org)}</span></div>
+      ${ps.map(p => `<a class="lab" href="#${p.id}" title="${esc(p.final)}"><b>${lineNo[p.id]}</b>${esc(p.final)}</a>
+        ${R.requirements.map(r => { const m = S[p.id + ' ' + r.id] || 0;
+          return `<div class="c" data-b="${bin(m)}" ${tip(`<b>${lineNo[p.id]} × ${r.id}</b>: ${word[bin(m)]}${m ? ` (${m.toFixed(2)})` : ''}<br>${esc(p.final)}<span class="m">${r.id}: ${esc(r.text)}</span>`)}></div>`; }).join('')}`).join('')}`).join('')}
+    <div class="lab foot" style="font-weight:600">Best match</div>
+    ${R.requirements.map(r => { const b = best(r);
+      return r.gap ? `<div class="best gap foot" ${tip(`${reqTip(r)}<span class="m">gap: no line answers it</span>`)}>×</div>`
+        : `<div class="c foot best" data-b="${bin(b)}" ${tip(`${reqTip(r)}<span class="m">${word[bin(b)]} (${b.toFixed(2)}) from ${r.coveredBy.map(i => lineNo[i]).join(', ')}</span>`)}></div>`; }).join('')}
+  </div>`;
+
+  // every line's standalone score, chosen and left out, highest first; the engine picks by added coverage instead
+  const keep = p => p.reason === 'keeps the timeline whole';
+  const cands = [...lines.map(p => ({ no: lineNo[p.id], id: p.id, text: p.final, score: p.score, kind: keep(p) ? 'keep' : 'pick', why: p.reason })),
+    ...R.leftOut.map(x => ({ text: x.text, score: x.score, kind: 'out', why: x.why }))].sort((a, b) => b.score - a.score);
+  const maxS = Math.max(...cands.map(c => c.score));
+  const color = { pick: 'var(--acc)', keep: 'var(--keep)', out: 'var(--out)' }, said = { pick: 'Chosen', keep: 'Chosen to keep the timeline whole', out: 'Left out' };
+  const scores = `<div class="sc">${cands.map(c => `${c.id ? `<a class="lab" href="#${c.id}" title="${esc(c.text)}"><b>${c.no}</b>${esc(c.text)}</a>` : `<span class="lab out" title="${esc(c.text)}"><b>—</b>${esc(c.text)}</span>`}
+    <div class="bar" ${tip(`<b>${said[c.kind]}</b>${c.kind === 'out' ? `: ${esc(c.why)}` : ''}<br>${esc(c.text)}<span class="m">score ${c.score}</span>`)}><i style="--c:${color[c.kind]};width:${c.score / maxS * 82}%"></i><span>${Math.round(c.score)}</span></div>`).join('')}</div>`;
+  const covered = R.requirements.length - gaps, strong = R.requirements.filter(r => best(r) >= .9).length;
+  const outranked = cands.filter(c => c.kind !== 'out' && R.leftOut.some(x => x.score > c.score)).length;
+
+  app.innerHTML = `
+    <h1>Receipt: ${esc(R.job.title || 'a job')}${where}</h1>
+    ${R.example ? `<p class="note" style="margin-top:16px">This is an example${R.placeholder ? ' built from placeholder experience' : ''}, for a sample job posting, made with rules only and no AI. Real receipts look the same.</p>` : ''}
+    <p class="dek">I wrote the program that built this resume, as a working example of how I put AI to use. For this job it read the posting${R.method.parsedBy === 'claude' ? ' with help from AI, which I checked' : ''}, scored my past work against it, and picked ${R.picks.length} lines. ${ai ? `AI suggested new wording for ${ai}, and I approved each change.` : 'I read every one before sending.'} I explain why I apply this way in <a href="/resume/hello/">a short note</a>.</p>
+
+    <div class="hero">
+      <div class="big">${R.fit}<small>%</small></div>
+      <p>of what the posting asks for has an answer on the resume. Requirements the posting stresses count for more.</p>
+      <div class="fitbar" aria-label="Fit by requirement">${fitbar}</div>
+      <div class="key" style="grid-column:1/-1;margin-top:2px">
+        <span>One block per requirement: wider counts for more, and the fill is how well the best line matches.</span>
+        <span><i style="--c:var(--bad-soft)">×</i>Gap</span></div>
+      <div class="facts"><span><b>${R.requirements.length}</b> requirements, read ${R.method.parsedBy === 'claude' ? 'by AI and checked by me' : 'by rules'}</span>
+        <span><b>${R.picks.length}</b> lines chosen</span><span><b>${ai}</b> reworded by AI${R.method.rewrittenBy ? ` (${esc(R.method.rewrittenBy)})` : ''}</span><span><b>${gaps}</b> gap${gaps === 1 ? '' : 's'}</span></div>
+    </div>
+
+    <h2>Which lines answer which requirements</h2>
+    <p class="cs">${covered} of ${R.requirements.length} requirements have a line that answers them${strong ? `, ${strong} of them strongly` : ''}.${gaps ? ` Nothing on the resume answers the other ${gaps}, marked ×.` : ''} A line matches best when it shows a skill the requirement names; sharing a few words counts for less.</p>
+    <div class="mxwrap">${matrix}</div>
+    <div class="key">${[1, 2, 3, 4].map(b => `<span><i style="--c:var(--s${b})"></i>${word[b][0].toUpperCase() + word[b].slice(1)}</span>`).join('')}<span><i style="--c:var(--bad-soft)">×</i>Gap</span><span>Hover a square to see both texts.</span></div>
+    <details class="tv"><summary>Every requirement, as text</summary>
+      <p class="cs" style="margin-top:10px">${R.method.parsedBy === 'claude' ? 'Paraphrased from the posting' : 'Shortened from the posting'}. Weights: 3 if required, 2 for a responsibility, 1 if preferred, and half a point more when it names a skill.</p>
+      ${R.requirements.map(r => `<div class="req"><span class="id">${r.id}</span><div><div>${esc(r.text)}</div>
+        <div><span class="k">${esc(r.kind)} · weight ${r.weight}</span> ${r.gap ? '<span class="chip gap">gap</span>' : r.coveredBy.map(id => `<a class="chip ok" href="#${id}">${lineNo[id]}</a>`).join('')}</div></div></div>`).join('')}
+    </details>
+
+    <h2>How my program chose the lines</h2>
+    <p class="cs">${outranked ? `${outranked} of the chosen lines score lower than some it left out. ` : ''}It adds one line at a time, always the one that answers the most that's still unanswered. A strong line that repeats earlier picks loses its place to one that adds something new, and every role keeps at least one line so the timeline has no holes.</p>
+    ${scores}
+    <div class="key">${Object.keys(color).map(k => `<span><i style="--c:${color[k]}"></i>${said[k]}${k === 'out' ? ` (the ${R.leftOut.length} strongest)` : ''}</span>`).join('')}<span>Bar length is a line's score for this job on its own.</span></div>
+    ${R.leftOut.length ? `<details class="tv"><summary>The left-out lines, as text</summary>
+      ${R.leftOut.map(x => `<div class="left">${esc(x.text)}<br><span>${esc(x.why)} · score ${x.score}</span></div>`).join('')}</details>` : ''}
+
+    <h2>What went on the resume</h2>
+    <p class="cs">${R.picks.length} lines from ${byRole.length} roles${ai ? `. AI reworded ${ai}; open any of them to see the edit.` : ', none reworded by AI for this job.'}</p>
+    ${byRole.map(({ role, ps }) => `<div class="role"><h3>${esc(role.title)} <span>· ${esc(role.org)}</span></h3>
+      ${ps.map(p => `<div class="line" id="${p.id}"><span class="id">${lineNo[p.id]}</span><div><div>${esc(p.final)}</div>
+        <div class="meta">${p.rewritten ? '<span class="chip ai">AI reworded</span>' : ''}${p.matched.filter(m => m.m >= .3).map(m => `<span class="chip" title="${esc(m.text)}">${m.req}</span>`).join('') || '<span class="chip">no direct match</span>'} ${esc(p.reason)} · score ${p.score}</div>
+        ${p.rewritten ? `<details><summary>See the edit</summary>${diff(p.original, p.final)}</details>` : ''}</div></div>`).join('')}</div>`).join('')}
+
+    ${(R.checks || []).length ? `<h2>Screening checks</h2>
+      ${R.checks.map(c => `<div class="left">${c.status === 'ok' ? '<span class="chip ok">meets</span>' : c.status === 'warn' ? '<span class="chip gap">short</span>' : '<span class="chip">note</span>'} ${esc(c.detail)}</div>`).join('')}` : ''}
+
+    <p class="note">I don't publish the posting itself, only ${R.method.parsedBy === 'claude' ? 'my paraphrase of its requirements' : 'its requirements, shortened'}. <a href="/resume/engine.js">The scoring code</a>, <a href="/resume/prompts.js">the exact instructions AI gets</a> and <a href="/resume/">an explanation of the method</a> are all public.</p>
+    <footer>Receipt ${esc(R.id)} · ${date} · engine ${esc(R.version)}</footer>`;
+
+  // one tooltip for the page, following the pointer (or the focused element, by keyboard)
+  const T = document.getElementById('tip');
+  const show = (el, x, y) => { T.innerHTML = tips[el.dataset.t]; T.classList.add('on');
+    const w = T.offsetWidth, h = T.offsetHeight; T.style.left = Math.max(8, Math.min(innerWidth - w - 8, x + 14)) + 'px'; T.style.top = (y + h + 24 > innerHeight ? y - h - 12 : y + 16) + 'px'; };
+  const at = e => { const el = e.target.closest('[data-t]'); el ? show(el, e.clientX, e.clientY) : T.classList.remove('on'); };
+  app.addEventListener('pointermove', at); app.addEventListener('pointerdown', at);
+  app.addEventListener('pointerleave', () => T.classList.remove('on'));
+  app.addEventListener('focusin', e => { const el = e.target.closest('[data-t]'); if (el) { const b = el.getBoundingClientRect(); show(el, b.left, b.bottom); } });
+  app.addEventListener('focusout', () => T.classList.remove('on'));
+  addEventListener('scroll', () => T.classList.remove('on'), { passive: true });
+  if (location.hash) document.querySelector(location.hash)?.scrollIntoView();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,967 @@
+{
+ "id": "example",
+ "version": "1.1",
+ "created": "2026-10-26",
+ "job": {
+  "title": "Senior Manager, Advertising Analytics",
+  "company": "a streaming company"
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 14
+ },
+ "fit": 91,
+ "roles": [
+  {
+   "id": "role-a",
+   "org": "[Placeholder] Example Corp",
+   "title": "Director, Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "role-b",
+   "org": "[Placeholder] Sample Media",
+   "title": "Senior Manager, Insights",
+   "section": "experience"
+  },
+  {
+   "id": "role-c",
+   "org": "[Placeholder] Demo Retail",
+   "title": "Data Analyst",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "8+ years in analytics, with 3+ years managing people",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "b4",
+    "a1",
+    "a7"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "Expert SQL; Python or R for statistical analysis",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "c1",
+    "c2",
+    "p6",
+    "a6",
+    "b3",
+    "p3",
+    "a2",
+    "b2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "Experience with experimentation and causal inference",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "a2",
+    "b2",
+    "c1",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Strong communication and data storytelling with executive audiences",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "b1",
+    "c3",
+    "p6",
+    "a3",
+    "a4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "In this role you will lead a team of analysts who measure how advertisers perform on our platform.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "a1",
+    "a2",
+    "a7",
+    "b1",
+    "a3",
+    "b4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "Own the measurement framework and KPIs for our ad business",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "a3",
+    "a1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "Design and analyze A/B tests and incrementality studies for advertisers",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "a2",
+    "b2",
+    "b1",
+    "a1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r8",
+   "text": "Partner with sales, product and executives to turn insights into decisions",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "b1",
+    "a4",
+    "c3",
+    "a3",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "Build self-serve dashboards in Tableau or Power BI",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "b3",
+    "a6",
+    "a3",
+    "a2",
+    "p3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r10",
+   "text": "Lead and grow a team of analysts and data scientists",
+   "kind": "responsibility",
+   "weight": 2,
+   "coveredBy": [
+    "a1",
+    "a7"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r11",
+   "text": "Experience with forecasting revenue",
+   "kind": "preferred",
+   "weight": 1.5,
+   "coveredBy": [
+    "c1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "Familiarity with LLMs or generative AI tools",
+   "kind": "preferred",
+   "weight": 1.5,
+   "coveredBy": [
+    "a6",
+    "p3",
+    "p4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r13",
+   "text": "Ad tech or streaming media background",
+   "kind": "preferred",
+   "weight": 1.5,
+   "coveredBy": [
+    "a2",
+    "b1",
+    "a1"
+   ],
+   "gap": false
+  }
+ ],
+ "picks": [
+  {
+   "id": "a2",
+   "role": "role-a",
+   "original": "Built the experimentation platform used for 400+ advertiser lift studies a year, cutting time to result from 6 weeks to 10 days",
+   "final": "Built the experimentation platform used for 400+ advertiser lift studies a year, cutting time to result from 6 weeks to 10 days",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 16.83,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Expert SQL; Python or R for statistical analysis",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Experience with experimentation and causal inference",
+     "skills": [
+      "stats",
+      "experimentation"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "In this role you will lead a team of analysts who measure how advertisers perform on our platform.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r7",
+     "text": "Design and analyze A/B tests and incrementality studies for advertisers",
+     "skills": [
+      "experimentation",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Build self-serve dashboards in Tableau or Power BI",
+     "skills": [
+      "data-products"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Ad tech or streaming media background",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "b1",
+   "role": "role-b",
+   "original": "Ran audience and campaign analytics for a $200M ad business, presenting findings to the CRO monthly",
+   "final": "Ran audience and campaign analytics for a $200M ad business, presenting findings to the CRO monthly",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 6.74,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in analytics, with 3+ years managing people",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Strong communication and data storytelling with executive audiences",
+     "skills": [
+      "stakeholders",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "In this role you will lead a team of analysts who measure how advertisers perform on our platform.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Own the measurement framework and KPIs for our ad business",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "Design and analyze A/B tests and incrementality studies for advertisers",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Partner with sales, product and executives to turn insights into decisions",
+     "skills": [
+      "stakeholders",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "Experience with forecasting revenue",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Ad tech or streaming media background",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "c1",
+   "role": "role-c",
+   "original": "Built store-level sales forecasts in R that informed inventory for 120 locations",
+   "final": "Built store-level sales forecasts in R that informed inventory for 120 locations",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 3.91,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Expert SQL; Python or R for statistical analysis",
+     "skills": [
+      "r",
+      "stats"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Experience with experimentation and causal inference",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Partner with sales, product and executives to turn insights into decisions",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "Experience with forecasting revenue",
+     "skills": [
+      "forecasting"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "a1",
+   "role": "role-a",
+   "original": "Lead a team of 12 analysts and data scientists supporting advertiser measurement across 3 product lines",
+   "final": "Lead a team of 12 analysts and data scientists supporting advertiser measurement across 3 product lines",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 12.49,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in analytics, with 3+ years managing people",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Strong communication and data storytelling with executive audiences",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "In this role you will lead a team of analysts who measure how advertisers perform on our platform.",
+     "skills": [
+      "measurement",
+      "advertising",
+      "leadership"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "Own the measurement framework and KPIs for our ad business",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Design and analyze A/B tests and incrementality studies for advertisers",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Partner with sales, product and executives to turn insights into decisions",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Lead and grow a team of analysts and data scientists",
+     "skills": [],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Ad tech or streaming media background",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "a6",
+   "role": "role-a",
+   "original": "Introduced LLM-assisted query tools that let account teams answer their own data questions",
+   "final": "Introduced LLM-assisted query tools that let account teams answer their own data questions",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 6.83,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Expert SQL; Python or R for statistical analysis",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Strong communication and data storytelling with executive audiences",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Build self-serve dashboards in Tableau or Power BI",
+     "skills": [
+      "data-products"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r10",
+     "text": "Lead and grow a team of analysts and data scientists",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Familiarity with LLMs or generative AI tools",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "a3",
+   "role": "role-a",
+   "original": "Set the KPI framework executives use in quarterly business reviews, replacing 40 conflicting reports with one source of truth",
+   "final": "Set the KPI framework executives use in quarterly business reviews, replacing 40 conflicting reports with one source of truth",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 11.25,
+   "matched": [
+    {
+     "req": "r4",
+     "text": "Strong communication and data storytelling with executive audiences",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "In this role you will lead a team of analysts who measure how advertisers perform on our platform.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Own the measurement framework and KPIs for our ad business",
+     "skills": [
+      "measurement"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "Partner with sales, product and executives to turn insights into decisions",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Build self-serve dashboards in Tableau or Power BI",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "a7",
+   "role": "role-a",
+   "original": "Hired and mentored 8 analysts and coached 3 into lead roles",
+   "final": "Hired and mentored 8 analysts and coached 3 into lead roles",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 5.44,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in analytics, with 3+ years managing people",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "In this role you will lead a team of analysts who measure how advertisers perform on our platform.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r10",
+     "text": "Lead and grow a team of analysts and data scientists",
+     "skills": [],
+     "m": 0.3
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "role": "role-b",
+   "original": "Designed A/B tests on pricing and packaging that raised yield 8%",
+   "final": "Designed A/B tests on pricing and packaging that raised yield 8%",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 4.76,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Expert SQL; Python or R for statistical analysis",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Experience with experimentation and causal inference",
+     "skills": [
+      "stats",
+      "experimentation"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Design and analyze A/B tests and incrementality studies for advertisers",
+     "skills": [
+      "experimentation"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "Experience with forecasting revenue",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "a4",
+   "role": "role-a",
+   "original": "Partner with sales and product leaders to size and prioritize the analytics roadmap",
+   "final": "Partner with sales and product leaders to size and prioritize the analytics roadmap",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 6.02,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in analytics, with 3+ years managing people",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Strong communication and data storytelling with executive audiences",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "In this role you will lead a team of analysts who measure how advertisers perform on our platform.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Partner with sales, product and executives to turn insights into decisions",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Lead and grow a team of analysts and data scientists",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "Experience with forecasting revenue",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "role": "role-b",
+   "original": "Built Power BI dashboards used by 300 sellers, with automated SQL pipelines behind them",
+   "final": "Built Power BI dashboards used by 300 sellers, with automated SQL pipelines behind them",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 2.93,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Expert SQL; Python or R for statistical analysis",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Build self-serve dashboards in Tableau or Power BI",
+     "skills": [
+      "dashboards",
+      "powerbi"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "role": "role-c",
+   "original": "Analyzed loyalty-program retention and presented recommendations to merchandising leads",
+   "final": "Analyzed loyalty-program retention and presented recommendations to merchandising leads",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 3.34,
+   "matched": [
+    {
+     "req": "r4",
+     "text": "Strong communication and data storytelling with executive audiences",
+     "skills": [
+      "stakeholders",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "In this role you will lead a team of analysts who measure how advertisers perform on our platform.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Partner with sales, product and executives to turn insights into decisions",
+     "skills": [
+      "stakeholders",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Lead and grow a team of analysts and data scientists",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "role": "role-b",
+   "original": "Managed a team of 4 analysts",
+   "final": "Managed a team of 4 analysts",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 2.2,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in analytics, with 3+ years managing people",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "In this role you will lead a team of analysts who measure how advertisers perform on our platform.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Lead and grow a team of analysts and data scientists",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "role": "role-c",
+   "original": "Automated weekly Excel reporting with SQL and Python, saving 15 analyst hours a week",
+   "final": "Automated weekly Excel reporting with SQL and Python, saving 15 analyst hours a week",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 2.3,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Expert SQL; Python or R for statistical analysis",
+     "skills": [
+      "sql",
+      "python"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "In this role you will lead a team of analysts who measure how advertisers perform on our platform.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Lead and grow a team of analysts and data scientists",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "role": "proj",
+   "original": "Baseball LLM Semantic Layer: natural-language questions over baseball stats through an LLM and a semantic layer",
+   "final": "Baseball LLM Semantic Layer: natural-language questions over baseball stats through an LLM and a semantic layer",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 5.03,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Expert SQL; Python or R for statistical analysis",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Build self-serve dashboards in Tableau or Power BI",
+     "skills": [
+      "data-products"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Familiarity with LLMs or generative AI tools",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p6",
+   "role": "proj",
+   "original": "NHL Has a Refereeing Problem: statistical analysis of penalty calls and game state",
+   "final": "NHL Has a Refereeing Problem: statistical analysis of penalty calls and game state",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 9.72,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Expert SQL; Python or R for statistical analysis",
+     "skills": [
+      "python",
+      "stats"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Experience with experimentation and causal inference",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Strong communication and data storytelling with executive audiences",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Partner with sales, product and executives to turn insights into decisions",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p4",
+   "role": "proj",
+   "original": "Robuttal: an arena where AI models debate each other, judged by users",
+   "final": "Robuttal: an arena where AI models debate each other, judged by users",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 0.9,
+   "matched": [
+    {
+     "req": "r12",
+     "text": "Familiarity with LLMs or generative AI tools",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "When Did Purple Become a Halloween Color?: pixel analysis of 3,000 images with Python and D3",
+   "why": "role already full",
+   "score": 8.1
+  },
+  {
+   "text": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "why": "role already full",
+   "score": 7.57
+  },
+  {
+   "text": "Shipped a revenue forecast model within 2% of actuals for 6 straight quarters",
+   "why": "role already full",
+   "score": 4.37
+  },
+  {
+   "text": "Beasts of Bellevue: full-stack fantasy football analytics dashboard with 40+ components, built in React",
+   "why": "role already full",
+   "score": 2.64
+  },
+  {
+   "text": "Moved reporting from desktop spreadsheets to a cloud warehouse",
+   "why": "role already full",
+   "score": 1.36
+  }
+ ],
+ "skills": [
+  "Causal inference",
+  "Ad tech",
+  "Experimentation",
+  "Team leadership",
+  "Stakeholder management",
+  "Data storytelling",
+  "Measurement",
+  "SQL",
+  "Python",
+  "R",
+  "Dashboards",
+  "Power BI",
+  "Data products",
+  "Forecasting",
+  "Generative AI"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for up to 8+ years; the experience on file spans 12 years."
+  }
+ ],
+ "example": true,
+ "placeholder": true
+}

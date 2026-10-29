@@ -9,8 +9,23 @@
     ],
     "rewrites": [
       {
+        "source": "/resume/r/**",
+        "destination": "/resume/r/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "/resume/**",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
       }
     ]
   }

@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Kevin Klein</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap">
+<link rel="preload" href="/fonts/KKHand.ttf" as="font" type="font/ttf" crossorigin>
+<style>
+/* the portfolio's palette and Kevin's handwriting font (KKHand), so this reads as part of kckdata.com */
+@font-face { font-family: 'KKHand'; src: url('/fonts/KKHand.ttf') format('truetype'); font-display: swap; }
+:root { --bg: #080b12; --panel: #0f1420; --line: #1e2636; --ink: #e8ebf1; --ink-2: #a3adbd; --ink-3: #6b7383;
+  --cyan: #00d9ff; --violet: #a78bfa; --green: #4ade80; --pink: #f472b6;
+  --hand: 'KKHand', 'Inter', sans-serif; --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif; --mono: 'JetBrains Mono', ui-monospace, monospace;
+  color-scheme: dark; }
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font: 400 1.12rem/1.75 var(--sans); -webkit-font-smoothing: antialiased; min-height: 100svh;
+  background-image: radial-gradient(circle at 12% 0%, rgba(0,217,255,.08), transparent 38%), radial-gradient(circle at 92% 6%, rgba(244,114,182,.07), transparent 34%); }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+.top { max-width: 1240px; margin: 0 auto; padding: 22px 24px 0; font: 600 .7rem/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; }
+.top a { color: var(--ink-3); text-decoration: none; } .top a:hover { color: var(--cyan); }
+main { max-width: 640px; margin: 0 auto; padding: 8vh 24px 90px; }
+p { margin: 0 0 1.35em; color: #d5dae3; }
+.hi { display: block; width: max-content; margin: 0 0 .25em -.04em; font: 400 clamp(3.4rem, 12vw, 5rem)/1.05 var(--hand); color: var(--cyan); letter-spacing: .02em;
+  -webkit-text-stroke: 2.2px currentColor; paint-order: stroke fill; transform: rotate(-2deg); transform-origin: left bottom;
+  text-shadow: 0 0 26px color-mix(in srgb, var(--cyan) 42%, transparent); }
+
+/* handwriting traced stroke by stroke, as with "bloodlust" in the Dan Quinn piece (strokes from /fonts/kkhand-strokes.json) */
+.pen { position: relative; }
+.pen .bl { transition: opacity .16s ease; }
+.pen.writing .bl { opacity: 0; }
+.pen.writing .bl.in { opacity: 1; }
+.pen svg { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; }
+.pen svg path { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; transition: opacity .16s ease; }
+
+/* the photo, pinned up like a print */
+.snap { float: right; width: 210px; margin: .3em -70px 1em 28px; padding: 9px 9px 34px; background: #f3f1ea; border-radius: 3px; transform: rotate(3deg);
+  box-shadow: 0 14px 34px rgba(0,0,0,.45), 0 2px 6px rgba(0,0,0,.3); }
+.snap img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 1px; }
+.snap::before { content: ''; position: absolute; top: -12px; left: 50%; width: 86px; height: 24px; transform: translateX(-50%) rotate(-4deg);
+  background: rgba(167,139,250,.35); backdrop-filter: blur(1px); }
+.snap { position: relative; }
+
+/* a hand-drawn underline that draws itself when it scrolls into view */
+.mark { background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 12' preserveAspectRatio='none'%3E%3Cpath d='M2 8 C 30 3, 60 10, 95 6 S 160 3, 198 7' fill='none' stroke='%23f472b6' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat 0 100% / 0% .5em;
+  padding-bottom: .18em; transition: background-size 1.2s cubic-bezier(.45,.05,.3,1); -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.mark.on { background-size: 100% .5em; }
+
+.sig { display: block; width: max-content; margin-top: .4em; font: 400 3.1rem/1.1 var(--hand); color: var(--green); letter-spacing: .02em;
+  -webkit-text-stroke: 1.6px currentColor; paint-order: stroke fill; text-shadow: 0 0 18px color-mix(in srgb, var(--green) 35%, transparent);
+  transform: rotate(-3deg); transform-origin: left; }
+.sig .under { position: absolute; left: -.1em; right: -.25em; top: 100%; width: calc(100% + .35em); height: .42em; margin-top: -.06em; overflow: visible; pointer-events: none; }
+.sig .under path { fill: none; stroke: currentColor; stroke-width: 2.6px; stroke-linecap: round; vector-effect: non-scaling-stroke; stroke-dasharray: 1 1; stroke-dashoffset: 0;
+  filter: drop-shadow(0 0 6px color-mix(in srgb, var(--green) 45%, transparent)); }
+/* a phrase set in KKHand inside the running text; the font runs small, so it's scaled up to sit with Inter */
+.inhand { font: 400 1.78em/.8 var(--hand); color: var(--violet); letter-spacing: .02em; -webkit-text-stroke: 1.2px currentColor; paint-order: stroke fill;
+  text-shadow: 0 0 14px color-mix(in srgb, var(--violet) 35%, transparent); white-space: nowrap; }
+@media (max-width: 560px) { .inhand { white-space: normal; } }
+.home { display: inline-block; margin-top: 46px; font: 600 .74rem/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); text-decoration: none;
+  border-top: 1px solid var(--line); padding-top: 14px; } .home:hover { color: var(--cyan); }
+
+/* the first print sits up by the greeting, tilted the other way, its tape at a different angle */
+.snap.up { margin-top: 1.4em; transform: rotate(-3.5deg); }
+.snap.up img { object-position: 50% 30%; }
+.snap.up::before { left: 38%; transform: translateX(-50%) rotate(5deg); background: rgba(0,217,255,.28); }
+@media (max-width: 860px) { .snap { margin-right: 0; } }
+@media (max-width: 560px) { body { font-size: 1.04rem; } main { padding-top: 5vh; } .snap { float: none; display: block; width: min(240px, 70%); margin: .6em auto 1.6em; }
+  .snap.up { float: right; width: 40%; margin: 4.2em 0 .6em 14px; padding: 6px 6px 22px; } }
+@media (prefers-reduced-motion: reduce) { .mark { transition: none; } }
+</style>
+</head>
+<body>
+<nav class="top"><a href="/">kckdata</a></nav>
+<main>
+  <figure class="snap up"><img src="/v2img/kkguitar.webp" alt="Kevin Klein playing guitar" width="360" height="407"></figure>
+  <p><span class="hi pen" aria-label="Hi there,">Hi there,</span> …and thanks for being curious enough about me as a candidate to find this page. I’ve created this page to express a little bit about why I’m currently approaching the process of resume distribution in this AI-forward way. I promise that every word and every idea on this page came direct from my fingertips — no AI middleware here. Yep, even that emdash in the last sentence was me.</p>
+
+  <p>So why am I doing things this way? Well for starters, because I’ve spent a lot of time on the other side of the hiring process, and I’m fortunate enough to have obtained a feel for the market that way. I’m a hiring manager at a large global tech company, and have posted and filled several positions in the last six months. I’ve seen the way a job can attract thousands of applicants in days, and I’ve seen the way that lifeless AI-resumes dominate the pile but do manage a reasonable degree of success navigating the automatic qualification check systems. Marketplaces are two-sided, and the applicant side of the job market has clearly dictated that it’s a numbers game.</p>
+
+  <p>But still, that’s a lousy experience on the hiring side. It feels at best impersonal, at worst actively dishonest. And yet, this is the way the wind is blowing. So how can I put the wind at my back in a way that doesn’t compromise my values? I’m a stats guy, so I view the notion of there being a “numbers game” component to this as something of an immutable truth. Within that constraint, however, I see the opportunity to stand out by simultaneously showcasing effective application of this nascent, powerful technology, while still preserving humanity of thought and experience for all involved.</p>
+
+  <figure class="snap"><img src="/v2img/kevin.webp" alt="Kevin Klein with a dog" width="360" height="360"></figure>
+  <p>That’s why my website has pictures of my dog on it, and my digital projects are all accompanied by <span class="inhand">my actual physical handwriting</span>. Because as interested as I am in growing technically in the age of AI, and expanding my understanding of what teams, individuals, and organizations are capable of achieving, <span class="mark">human heart needs to still be pumping the lifeblood.</span></p>
+
+  <p>Thanks again for finding this page, and if I sound like someone you’re interested in having a conversation with, you know how to get ahold of me!</p>
+
+  <span class="sig pen" aria-label="Kevin Klein">Kevin Klein</span>
+  <a class="home" href="/">kckdata.com</a>
+</main>
+<script>
+// handwriting written out stroke by stroke: each letter's pen strokes (the glyph skeleton, in em units with y up from
+// the baseline) are traced with a dash animation, then the letter settles into the real KKHand glyph. Same method as
+// "bloodlust" in /keep-quinn/. The greeting writes itself on load, the signature when it scrolls into view.
+// Reduced motion, or missing stroke data, just shows the glyphs.
+const strokes = fetch('/fonts/kkhand-strokes.json').then(r => r.json());
+const SPEED = .2, MIN_STROKE = 90, PEN_LIFT = 110, LETTER_GAP = 140, WORD_GAP = 260, SETTLE = 260;  // px per ms, then ms
+const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+function prep(el) {
+  el.innerHTML = [...el.textContent].map(c => `<span class="bl">${c}</span>`).join('') + '<i style="display:inline-block;width:0;height:0;vertical-align:baseline"></i>';
+  el.classList.add('writing');
+}
+function write(el, S, pace = 1) {  // pace: share of the normal time each stroke, lift and gap takes
+  // offsets, not screen rects: both are rotated a little, and offsets measure in their own unrotated box
+  const base = el.querySelector('i').offsetTop;
+  const size = parseFloat(getComputedStyle(el).fontSize), ns = 'http://www.w3.org/2000/svg';
+  const svg = document.createElementNS(ns, 'svg');
+  svg.setAttribute('width', el.offsetWidth); svg.setAttribute('height', el.offsetHeight);
+  el.appendChild(svg);
+  let t = 0;
+  [...el.querySelectorAll('.bl')].forEach((span, k) => {
+    const paths = [], g = document.createElementNS(ns, 'g');
+    if (span.textContent === ' ') { t += WORD_GAP * pace; span.classList.add('in'); return; }
+    g.setAttribute('transform', `translate(${span.offsetLeft} ${base}) scale(${size} ${-size})`);
+    g.setAttribute('stroke-width', S.width + 3.4 / size);
+    svg.appendChild(g);
+    if (k) t += LETTER_GAP * pace;
+    (S.glyphs[span.textContent] || []).forEach((pts, j) => {
+      const p = document.createElementNS(ns, 'path');
+      p.setAttribute('d', pts.reduce((a, v, i) => a + (i % 2 ? `,${v}` : `${i ? ' L' : 'M'}${v}`), ''));
+      g.appendChild(p);
+      const len = p.getTotalLength(), dur = Math.max(MIN_STROKE, len * size / SPEED) * pace;
+      if (j) t += PEN_LIFT * pace;
+      p.style.strokeDasharray = `${len} ${len}`; p.style.strokeDashoffset = len; p.style.opacity = 0;
+      p.animate([{ strokeDashoffset: len, opacity: 1 }, { strokeDashoffset: 0, opacity: 1 }], { duration: dur, delay: t, easing: 'ease-in-out', fill: 'forwards' });
+      t += dur; paths.push(p);
+    });
+    const done = t;
+    setTimeout(() => { span.classList.add('in'); setTimeout(() => paths.forEach(p => { p.getAnimations().forEach(a => a.cancel()); p.style.opacity = 0; }), SETTLE); }, done);
+  });
+  setTimeout(() => { el.classList.remove('writing'); svg.remove(); }, t + SETTLE * 2);
+  return t;
+}
+// two quick pen strokes under the signature, the second shorter and a little lower; drawn after the name
+function underline(el, delay) {
+  const ns = 'http://www.w3.org/2000/svg', svg = document.createElementNS(ns, 'svg');
+  svg.setAttribute('class', 'under'); svg.setAttribute('viewBox', '0 0 200 26'); svg.setAttribute('preserveAspectRatio', 'none');
+  svg.innerHTML = '<path pathLength="1" d="M2 13 C 30 8, 70 15, 110 10 S 175 3, 199 1"/><path pathLength="1" d="M22 23 C 55 18, 110 24, 150 19 S 176 16, 184 13"/>';
+  el.appendChild(svg);
+  if (still) return;
+  [...svg.children].forEach((p, i) => p.animate([{ strokeDashoffset: 1 }, { strokeDashoffset: 0 }],
+    { duration: i ? 300 : 380, delay: delay + (i ? 380 + 140 : 0), easing: 'cubic-bezier(.5,0,.3,1)', fill: 'both' }));
+}
+const hi = document.querySelector('.hi'), sig = document.querySelector('.sig');
+if (!still) {
+  [hi, sig].forEach(prep);
+  const ready = Promise.all([strokes, document.fonts.load('20px KKHand')]).then(([S]) => S);
+  ready.then(S => setTimeout(() => write(hi, S, .8), 300)).catch(() => hi.classList.remove('writing'));
+  // half visible, not fully: the signature is tilted, and a rotated box can measure a hair under 100% visible forever
+  const io = new IntersectionObserver(es => { if (!es[0].isIntersecting) return; io.disconnect();
+    ready.then(S => setTimeout(() => underline(sig, write(sig, S) + 200), 250)).catch(() => { sig.classList.remove('writing'); underline(sig, 0); }); }, { threshold: .5 });
+  io.observe(sig);
+} else underline(sig, 0);
+// the underline under "human heart..." draws itself once it's on screen
+const mo = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); mo.unobserve(e.target); } }), { threshold: .6 });
+document.querySelectorAll('.mark').forEach(el => mo.observe(el));
+</script>
+</body>
+</html>
