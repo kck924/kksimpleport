@@ -3,15 +3,15 @@
  "version": "1.5",
  "created": "2026-10-29",
  "job": {
-  "title": "Senior Director, Analytics and Data Science, Core Product & Growth",
-  "company": "Life360"
+  "title": "Head of Solutions Strategy & Analytics",
+  "company": "Sentilink"
  },
  "method": {
   "parsedBy": "rules",
   "rewrittenBy": null,
   "budget": 14
  },
- "fit": 75,
+ "fit": 65,
  "roles": [
   {
    "id": "ms-dir",
@@ -59,306 +59,320 @@
  "requirements": [
   {
    "id": "r1",
-   "text": "10+ years in analytics, data science, or decision science, including 5+ years in people management in a senior leadership role.",
+   "text": "8+ years of total professional experience, including 5+ years of people management",
    "kind": "required",
    "weight": 3.5,
    "coveredBy": [
-    "d1",
-    "m7",
-    "s1",
-    "m12",
     "m9",
-    "h1"
+    "m1",
+    "d1",
+    "m8",
+    "s1",
+    "e5"
    ],
    "gap": false
   },
   {
    "id": "r2",
-   "text": "Deep expertise in inferential and causal analytics. Able to lead ML practitioners.",
+   "text": "A track record of leading teams and developing talent, with the executive presence to influence senior stakeholders.",
    "kind": "required",
    "weight": 3.5,
    "coveredBy": [
-    "e11",
+    "m9",
+    "m1",
+    "t4",
+    "a1",
+    "x2",
     "d1",
-    "s1"
+    "m17",
+    "s1",
+    "m11",
+    "m15",
+    "m8",
+    "e5"
    ],
    "gap": false
   },
   {
    "id": "r3",
-   "text": "Expert knowledge of engagement, retention, churn, and cohort metrics.",
+   "text": "Strong data and analytics fundamentals, with the judgment to know which analysis matters and the storytelling skill to make it land.",
    "kind": "required",
    "weight": 3.5,
    "coveredBy": [
-    "a1",
-    "d1",
-    "x2",
+    "m8",
+    "m11",
+    "e5",
     "m9",
-    "h1",
-    "e11"
+    "m17",
+    "t4",
+    "n2",
+    "p6"
    ],
    "gap": false
   },
   {
    "id": "r4",
-   "text": "Experience forecasting a company-level metric and being held to it.",
+   "text": "Exceptional communication and interpersonal skills, and the ability to present complex business cases in a clear, accessible way.",
    "kind": "required",
    "weight": 3.5,
    "coveredBy": [
     "t4",
-    "d1",
-    "a1",
-    "x2",
-    "h1"
+    "n2",
+    "m8",
+    "m17",
+    "m11",
+    "m9",
+    "e5",
+    "p6"
    ],
    "gap": false
   },
   {
    "id": "r5",
-   "text": "SQL, plus Python or R.",
+   "text": "Exposure to a sales or commercial environment, and a consultative approach to working with partners.",
    "kind": "required",
    "weight": 3.5,
    "coveredBy": [
+    "m9",
+    "m17",
+    "m11",
+    "m1",
+    "t4",
     "a1",
-    "p3",
-    "m10",
-    "p4",
-    "p2",
-    "s1"
+    "x2",
+    "m15"
    ],
    "gap": false
   },
   {
    "id": "r6",
-   "text": "Experience with Databricks, third party experimentation tools (e.g. Statsig), Tableau or similar BI tools, and AI native BI tools (e.g. Hex, AI/BI).",
+   "text": "Fluency with Google Docs, Sheets, and Slides; hands-on comfort with SQL and/or Python is a plus.",
    "kind": "required",
    "weight": 3.5,
    "coveredBy": [
-    "m10",
-    "m12",
-    "d1",
-    "m7",
-    "s1",
-    "m9",
-    "t4",
-    "m11",
-    "s2",
     "p3",
-    "p4"
+    "a1",
+    "m10",
+    "p4",
+    "p6"
    ],
    "gap": false
   },
   {
    "id": "r7",
-   "text": "Hands-on with coding agents (Claude Code or equivalent) in your own analytical work.",
+   "text": "A background in consulting, financial services, analytics, and/or a high-growth startup environment.",
    "kind": "required",
-   "weight": 3.5,
+   "weight": 3,
    "coveredBy": [
-    "p3",
-    "p4",
-    "s2",
     "d1",
-    "m7",
-    "m10",
-    "m9",
-    "m12",
-    "m11"
+    "m1"
    ],
    "gap": false
   },
   {
    "id": "r8",
-   "text": "Own the MAU driver model and the forecast.",
-   "kind": "responsibility",
-   "weight": 2.5,
-   "coveredBy": [
-    "e11",
-    "t4",
-    "p4",
-    "s1",
-    "n2"
-   ],
-   "gap": false
+   "text": "Comfort with ambiguity, a bias toward driving work independently, and a quick-learner mindset.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
   },
   {
    "id": "r9",
-   "text": "Own the exploratory work that drives the strategy to grow MAU.",
-   "kind": "responsibility",
-   "weight": 2.5,
+   "text": "Genuine enthusiasm for becoming an expert on financial services, fraud, and identity.",
+   "kind": "required",
+   "weight": 3,
    "coveredBy": [
-    "d1",
-    "m7",
-    "m12",
-    "h1"
+    "m1",
+    "d1"
    ],
    "gap": false
   },
   {
    "id": "r10",
-   "text": "Partner with your Revenue counterpart and Data Engineering leadership to define common metrics, align on experimentation standards, and introduce unified operating practices acr\u2026",
-   "kind": "responsibility",
-   "weight": 2.5,
-   "coveredBy": [
-    "a1",
-    "x2",
-    "m12",
-    "d1",
-    "m7",
-    "m9",
-    "m11",
-    "h1",
-    "t4"
-   ],
-   "gap": false
+   "text": "A bachelor's degree (any field); an MBA or advanced degree is a plus.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
   },
   {
    "id": "r11",
-   "text": "Build the operating model that gets the team into the roadmap conversation early, with a view on what to build and what to test.",
-   "kind": "responsibility",
-   "weight": 2.5,
-   "coveredBy": [
-    "e11",
-    "p4",
-    "d1",
-    "m7",
-    "s1",
-    "n2",
-    "m12",
-    "h1"
-   ],
-   "gap": false
+   "text": "Candidates must be legally authorized to work in the United States and must live in the United States.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
   },
   {
    "id": "r12",
-   "text": "Use agents and automated analysis daily, and expect the same of the team.",
-   "kind": "responsibility",
-   "weight": 2.5,
-   "coveredBy": [
-    "p3",
-    "p4"
-   ],
-   "gap": false
-  },
-  {
-   "id": "r13",
-   "text": "Shape how the team works AI-native: what gets delegated to agents, what gets automated, and what stays human judgment.",
-   "kind": "responsibility",
-   "weight": 2.5,
-   "coveredBy": [
-    "p3",
-    "p4",
-    "d1",
-    "m7",
-    "m10",
-    "m9",
-    "m12",
-    "m11",
-    "s2"
-   ],
-   "gap": false
-  },
-  {
-   "id": "r14",
-   "text": "Undisclosed use of AI not previously discussed with or approved by your Recruiter may impact your candidacy.",
+   "text": "As the Head of Solutions Analytics, you'll lead a team of business analysts and data scientists who are deeply embedded in SentiLink's sales process and our partner relationship\u2026",
    "kind": "other",
    "weight": 2,
    "coveredBy": [
-    "d1",
-    "m7",
-    "m10",
     "m9",
-    "m12",
-    "m11",
-    "s2",
-    "p3",
-    "p4"
-   ],
-   "gap": false
-  },
-  {
-   "id": "r15",
-   "text": "The Data & Analytics Team (DnA) is a 60+ person organization spanning data engineering, analytics engineering, analytics/decision science, and data science/ML. The science teams\u2026",
-   "kind": "other",
-   "weight": 2,
-   "coveredBy": [
-    "m12",
+    "m1",
+    "d1",
     "s1",
-    "d1",
+    "m11",
+    "m8",
+    "m17",
+    "e5",
+    "t4",
+    "a1",
+    "m15",
     "x2"
    ],
    "gap": false
   },
   {
-   "id": "r16",
-   "text": "You and your team will be responsible for understanding the drivers behind MAU: why members come, why they stay, and why they return. The team partners with product, marketing, \u2026",
+   "id": "r13",
+   "text": "You're a hands-on leader who pairs analytical judgment with exceptional communication skills, and who builds trusted relationships as a coach, mentor, and strategic partner, bot\u2026",
    "kind": "other",
    "weight": 2,
    "coveredBy": [
-    "m7",
-    "x2",
     "m9",
-    "d1",
-    "a1",
-    "m12",
+    "m1",
     "t4",
+    "d1",
+    "m8",
+    "m17",
     "m11",
-    "h1"
-   ],
-   "gap": false
-  },
-  {
-   "id": "r17",
-   "text": "Our data is unusual for a consumer company. Life360 measures families and circles rather than individuals, so one member's behavior affects another's, which makes measurement a \u2026",
-   "kind": "other",
-   "weight": 2,
-   "coveredBy": [
-    "d1",
+    "m15",
+    "e5",
+    "s1",
     "a1",
     "x2",
-    "m9",
-    "h1",
-    "e11"
+    "n2",
+    "p6"
    ],
    "gap": false
   },
   {
-   "id": "r18",
-   "text": "You will report to the Head of Data and work closely with counterparts leading Revenue Analytics and Data Science, and with the leaders of Data Engineering.",
+   "id": "r14",
+   "text": "Partner with account executives on discovery, and meet with partners to shape fraud and identity strategies that mitigate risk.",
    "kind": "other",
    "weight": 2,
    "coveredBy": [
+    "m17",
+    "m15",
     "x2",
-    "s1",
-    "m12",
-    "m10",
+    "m9",
     "t4",
+    "a1",
     "d1",
+    "m1",
     "m11"
    ],
    "gap": false
   },
   {
-   "id": "r19",
-   "text": "Lead and develop the decision scientists and data scientists on the team, and set the quality bar for both disciplines.",
-   "kind": "responsibility",
+   "id": "r15",
+   "text": "Translate analysis into compelling, executive-ready narratives and presentations aligned to the value of the proposed solution.",
+   "kind": "other",
    "weight": 2,
    "coveredBy": [
+    "m9",
+    "t4",
+    "n2",
+    "m8",
+    "m17",
+    "m11",
+    "m1",
+    "a1",
+    "x2",
+    "m15",
+    "e5",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r16",
+   "text": "Act as the analytical and technical thought partner to the sales team, ensuring alignment with each partner's needs.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m9",
+    "m1",
+    "m17",
+    "m11",
+    "t4",
+    "a1",
+    "x2",
+    "m15"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r17",
+   "text": "Build, coach, and scale the Solutions Analytics team, establishing best practices and raising the bar across the group.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m8",
     "d1",
-    "m12"
+    "s1",
+    "e5",
+    "m9",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r18",
+   "text": "Expand the team's scope beyond pre-sales retros into pipeline analytics and deeper, ongoing partner consulting.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m17",
+    "m9",
+    "m11",
+    "m15",
+    "m1",
+    "t4",
+    "a1",
+    "x2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "Design and execute analysis for white papers and other industry materials \u2014 surfacing relevant insights, such as emerging fraud tactics, and collaborating on publishing.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m9",
+    "m8",
+    "m11",
+    "t4",
+    "n2",
+    "m17",
+    "e5",
+    "p6"
    ],
    "gap": false
   },
   {
    "id": "r20",
-   "text": "Establish how an analysis gets scoped, run, reviewed, and written up, so its quality does not depend on who picked up the request.",
-   "kind": "responsibility",
+   "text": "Develop and maintain durable, trusted relationships with partners over the full lifecycle.",
+   "kind": "other",
    "weight": 2,
-   "coveredBy": [],
-   "gap": true
+   "coveredBy": [
+    "m9",
+    "m1",
+    "t4",
+    "a1",
+    "x2",
+    "m17",
+    "m11",
+    "m15"
+   ],
+   "gap": false
   },
   {
    "id": "r21",
-   "text": "Life360 delivers peace of mind and enhances everyday family life with seamless coordination for all the moments that matter, big and small. By continuing to innovate and deliver\u2026",
+   "text": "SentiLink helps institutions and protects customers by accurately resolving identities and flagging fraud risk. Each day, we verify more than 3 million identities, flagging 150k\u2026",
    "kind": "other",
    "weight": 1.5,
    "coveredBy": [],
@@ -366,392 +380,382 @@
   },
   {
    "id": "r22",
-   "text": "Life360 has more than 500 (and growing!) remote-first employees. For more information, please visit life360.com.",
+   "text": "At SentiLink, you'll work alongside smart, highly collaborative colleagues who respect each other's time and judgment, take ownership, and follow through on their commitments. T\u2026",
    "kind": "other",
    "weight": 1.5,
    "coveredBy": [],
    "gap": true
-  },
-  {
-   "id": "r23",
-   "text": "Life360 is a Remote First company, which means a remote work environment will be the primary experience for all employees. All positions, unless otherwise specified, can be perf\u2026",
-   "kind": "other",
-   "weight": 1.5,
-   "coveredBy": [],
-   "gap": true
-  },
-  {
-   "id": "r24",
-   "text": "Familiarity with experiment design to identify and control for network effects.",
-   "kind": "preferred",
-   "weight": 1.5,
-   "coveredBy": [],
-   "gap": true
-  },
-  {
-   "id": "r25",
-   "text": "Experience leading a team that reports to you but sits embedded with product and engineering teams.",
-   "kind": "preferred",
-   "weight": 1.5,
-   "coveredBy": [
-    "s1",
-    "d1",
-    "m7",
-    "m10",
-    "m9",
-    "m12",
-    "t4",
-    "h1",
-    "x2"
-   ],
-   "gap": false
   }
  ],
  "picks": [
   {
-   "id": "d1",
+   "id": "m9",
    "role": "ms-dir",
-   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
-   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
    "rewritten": false,
    "reason": "keeps the timeline whole",
-   "score": 43.68,
+   "score": 43.97,
    "matched": [
     {
      "req": "r1",
-     "text": "10+ years in analytics, data science, or decision science, including 5+ years in people management in a senior leadership role.",
+     "text": "8+ years of total professional experience, including 5+ years of people management",
      "skills": [
       "leadership"
      ],
-     "m": 0.9
+     "m": 0.6
     },
     {
      "req": "r2",
-     "text": "Deep expertise in inferential and causal analytics. Able to lead ML practitioners.",
-     "skills": [],
-     "m": 0.3
+     "text": "A track record of leading teams and developing talent, with the executive presence to influence senior stakeholders.",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
     },
     {
      "req": "r3",
-     "text": "Expert knowledge of engagement, retention, churn, and cohort metrics.",
+     "text": "Strong data and analytics fundamentals, with the judgment to know which analysis matters and the storytelling skill to make it land.",
      "skills": [
-      "measurement"
+      "storytelling"
      ],
-     "m": 0.6
+     "m": 0.9
     },
     {
      "req": "r4",
-     "text": "Experience forecasting a company-level metric and being held to it.",
+     "text": "Exceptional communication and interpersonal skills, and the ability to present complex business cases in a clear, accessible way.",
      "skills": [
-      "measurement"
+      "storytelling"
      ],
      "m": 0.6
     },
     {
-     "req": "r6",
-     "text": "Experience with Databricks, third party experimentation tools (e.g. Statsig), Tableau or similar BI tools, and AI native BI tools (e.g. Hex, AI/BI).",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r7",
-     "text": "Hands-on with coding agents (Claude Code or equivalent) in your own analytical work.",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r9",
-     "text": "Own the exploratory work that drives the strategy to grow MAU.",
-     "skills": [
-      "strategy"
-     ],
-     "m": 0.75
-    },
-    {
-     "req": "r10",
-     "text": "Partner with your Revenue counterpart and Data Engineering leadership to define common metrics, align on experimentation standards, and introduce unified operating practices acr\u2026",
-     "skills": [
-      "measurement"
-     ],
-     "m": 0.75
-    },
-    {
-     "req": "r11",
-     "text": "Build the operating model that gets the team into the roadmap conversation early, with a view on what to build and what to test.",
-     "skills": [
-      "strategy"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r13",
-     "text": "Shape how the team works AI-native: what gets delegated to agents, what gets automated, and what stays human judgment.",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r14",
-     "text": "Undisclosed use of AI not previously discussed with or approved by your Recruiter may impact your candidacy.",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r15",
-     "text": "The Data & Analytics Team (DnA) is a 60+ person organization spanning data engineering, analytics engineering, analytics/decision science, and data science/ML. The science teams\u2026",
-     "skills": [],
-     "m": 0.3
-    },
-    {
-     "req": "r16",
-     "text": "You and your team will be responsible for understanding the drivers behind MAU: why members come, why they stay, and why they return. The team partners with product, marketing, \u2026",
-     "skills": [
-      "strategy"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r17",
-     "text": "Our data is unusual for a consumer company. Life360 measures families and circles rather than individuals, so one member's behavior affects another's, which makes measurement a \u2026",
-     "skills": [
-      "measurement"
-     ],
-     "m": 0.9
-    },
-    {
-     "req": "r18",
-     "text": "You will report to the Head of Data and work closely with counterparts leading Revenue Analytics and Data Science, and with the leaders of Data Engineering.",
-     "skills": [],
-     "m": 0.3
-    },
-    {
-     "req": "r19",
-     "text": "Lead and develop the decision scientists and data scientists on the team, and set the quality bar for both disciplines.",
-     "skills": [],
-     "m": 0.3
-    },
-    {
-     "req": "r25",
-     "text": "Experience leading a team that reports to you but sits embedded with product and engineering teams.",
-     "skills": [
-      "leadership"
-     ],
-     "m": 0.75
-    }
-   ]
-  },
-  {
-   "id": "m7",
-   "role": "ms-head",
-   "original": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
-   "final": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
-   "rewritten": false,
-   "reason": "keeps the timeline whole",
-   "score": 25.28,
-   "matched": [
-    {
-     "req": "r1",
-     "text": "10+ years in analytics, data science, or decision science, including 5+ years in people management in a senior leadership role.",
-     "skills": [
-      "leadership"
-     ],
-     "m": 0.9
-    },
-    {
-     "req": "r2",
-     "text": "Deep expertise in inferential and causal analytics. Able to lead ML practitioners.",
-     "skills": [],
-     "m": 0.15
-    },
-    {
-     "req": "r6",
-     "text": "Experience with Databricks, third party experimentation tools (e.g. Statsig), Tableau or similar BI tools, and AI native BI tools (e.g. Hex, AI/BI).",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r7",
-     "text": "Hands-on with coding agents (Claude Code or equivalent) in your own analytical work.",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r9",
-     "text": "Own the exploratory work that drives the strategy to grow MAU.",
-     "skills": [
-      "strategy"
-     ],
-     "m": 0.75
-    },
-    {
-     "req": "r10",
-     "text": "Partner with your Revenue counterpart and Data Engineering leadership to define common metrics, align on experimentation standards, and introduce unified operating practices acr\u2026",
+     "req": "r5",
+     "text": "Exposure to a sales or commercial environment, and a consultative approach to working with partners.",
      "skills": [
       "stakeholders"
      ],
      "m": 0.75
     },
     {
-     "req": "r11",
-     "text": "Build the operating model that gets the team into the roadmap conversation early, with a view on what to build and what to test.",
+     "req": "r7",
+     "text": "A background in consulting, financial services, analytics, and/or a high-growth startup environment.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "As the Head of Solutions Analytics, you'll lead a team of business analysts and data scientists who are deeply embedded in SentiLink's sales process and our partner relationship\u2026",
      "skills": [
-      "strategy"
+      "leadership",
+      "stakeholders"
      ],
-     "m": 0.6
+     "m": 1
     },
     {
      "req": "r13",
-     "text": "Shape how the team works AI-native: what gets delegated to agents, what gets automated, and what stays human judgment.",
+     "text": "You're a hands-on leader who pairs analytical judgment with exceptional communication skills, and who builds trusted relationships as a coach, mentor, and strategic partner, bot\u2026",
      "skills": [
-      "genai"
+      "leadership",
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Partner with account executives on discovery, and meet with partners to shape fraud and identity strategies that mitigate risk.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Translate analysis into compelling, executive-ready narratives and presentations aligned to the value of the proposed solution.",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "Act as the analytical and technical thought partner to the sales team, ensuring alignment with each partner's needs.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Build, coach, and scale the Solutions Analytics team, establishing best practices and raising the bar across the group.",
+     "skills": [
+      "leadership"
      ],
      "m": 0.6
     },
     {
-     "req": "r14",
-     "text": "Undisclosed use of AI not previously discussed with or approved by your Recruiter may impact your candidacy.",
+     "req": "r18",
+     "text": "Expand the team's scope beyond pre-sales retros into pipeline analytics and deeper, ongoing partner consulting.",
      "skills": [
-      "genai"
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Design and execute analysis for white papers and other industry materials \u2014 surfacing relevant insights, such as emerging fraud tactics, and collaborating on publishing.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Develop and maintain durable, trusted relationships with partners over the full lifecycle.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "SentiLink helps institutions and protects customers by accurately resolving identities and flagging fraud risk. Each day, we verify more than 3 million identities, flagging 150k\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m1",
+   "role": "ms-head",
+   "original": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "final": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 31.88,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years of total professional experience, including 5+ years of people management",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "A track record of leading teams and developing talent, with the executive presence to influence senior stakeholders.",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Exposure to a sales or commercial environment, and a consultative approach to working with partners.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "A background in consulting, financial services, analytics, and/or a high-growth startup environment.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r9",
+     "text": "Genuine enthusiasm for becoming an expert on financial services, fraud, and identity.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r12",
+     "text": "As the Head of Solutions Analytics, you'll lead a team of business analysts and data scientists who are deeply embedded in SentiLink's sales process and our partner relationship\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "You're a hands-on leader who pairs analytical judgment with exceptional communication skills, and who builds trusted relationships as a coach, mentor, and strategic partner, bot\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Partner with account executives on discovery, and meet with partners to shape fraud and identity strategies that mitigate risk.",
+     "skills": [
+      "stakeholders"
      ],
      "m": 0.6
     },
     {
      "req": "r15",
-     "text": "The Data & Analytics Team (DnA) is a 60+ person organization spanning data engineering, analytics engineering, analytics/decision science, and data science/ML. The science teams\u2026",
-     "skills": [],
-     "m": 0.15
+     "text": "Translate analysis into compelling, executive-ready narratives and presentations aligned to the value of the proposed solution.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
     },
     {
      "req": "r16",
-     "text": "You and your team will be responsible for understanding the drivers behind MAU: why members come, why they stay, and why they return. The team partners with product, marketing, \u2026",
+     "text": "Act as the analytical and technical thought partner to the sales team, ensuring alignment with each partner's needs.",
      "skills": [
-      "stakeholders",
-      "strategy"
+      "stakeholders"
      ],
-     "m": 1
+     "m": 0.75
     },
     {
      "req": "r17",
-     "text": "Our data is unusual for a consumer company. Life360 measures families and circles rather than individuals, so one member's behavior affects another's, which makes measurement a \u2026",
-     "skills": [],
-     "m": 0.15
+     "text": "Build, coach, and scale the Solutions Analytics team, establishing best practices and raising the bar across the group.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
     },
     {
      "req": "r18",
-     "text": "You will report to the Head of Data and work closely with counterparts leading Revenue Analytics and Data Science, and with the leaders of Data Engineering.",
-     "skills": [],
-     "m": 0.15
+     "text": "Expand the team's scope beyond pre-sales retros into pipeline analytics and deeper, ongoing partner consulting.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
     },
     {
-     "req": "r25",
-     "text": "Experience leading a team that reports to you but sits embedded with product and engineering teams.",
+     "req": "r20",
+     "text": "Develop and maintain durable, trusted relationships with partners over the full lifecycle.",
      "skills": [
-      "leadership"
+      "stakeholders"
      ],
      "m": 0.6
     }
    ]
   },
   {
-   "id": "s1",
+   "id": "t4",
    "role": "ms-sal",
-   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
-   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "original": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "final": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
    "rewritten": false,
    "reason": "keeps the timeline whole",
-   "score": 15.83,
+   "score": 18.67,
    "matched": [
     {
-     "req": "r1",
-     "text": "10+ years in analytics, data science, or decision science, including 5+ years in people management in a senior leadership role.",
+     "req": "r2",
+     "text": "A track record of leading teams and developing talent, with the executive presence to influence senior stakeholders.",
      "skills": [
-      "leadership"
+      "stakeholders"
      ],
-     "m": 0.9
+     "m": 0.75
     },
     {
-     "req": "r2",
-     "text": "Deep expertise in inferential and causal analytics. Able to lead ML practitioners.",
-     "skills": [],
-     "m": 0.3
+     "req": "r3",
+     "text": "Strong data and analytics fundamentals, with the judgment to know which analysis matters and the storytelling skill to make it land.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Exceptional communication and interpersonal skills, and the ability to present complex business cases in a clear, accessible way.",
+     "skills": [
+      "storytelling",
+      "speaking"
+     ],
+     "m": 1
     },
     {
      "req": "r5",
-     "text": "SQL, plus Python or R.",
+     "text": "Exposure to a sales or commercial environment, and a consultative approach to working with partners.",
      "skills": [
-      "r"
+      "stakeholders"
      ],
      "m": 0.6
     },
     {
-     "req": "r6",
-     "text": "Experience with Databricks, third party experimentation tools (e.g. Statsig), Tableau or similar BI tools, and AI native BI tools (e.g. Hex, AI/BI).",
+     "req": "r12",
+     "text": "As the Head of Solutions Analytics, you'll lead a team of business analysts and data scientists who are deeply embedded in SentiLink's sales process and our partner relationship\u2026",
      "skills": [
-      "dashboards"
+      "stakeholders"
      ],
-     "m": 0.6
+     "m": 0.75
     },
     {
-     "req": "r8",
-     "text": "Own the MAU driver model and the forecast.",
+     "req": "r13",
+     "text": "You're a hands-on leader who pairs analytical judgment with exceptional communication skills, and who builds trusted relationships as a coach, mentor, and strategic partner, bot\u2026",
      "skills": [
-      "stats"
+      "storytelling",
+      "stakeholders"
      ],
-     "m": 0.6
+     "m": 1
     },
     {
-     "req": "r10",
-     "text": "Partner with your Revenue counterpart and Data Engineering leadership to define common metrics, align on experimentation standards, and introduce unified operating practices acr\u2026",
-     "skills": [],
-     "m": 0.15
-    },
-    {
-     "req": "r11",
-     "text": "Build the operating model that gets the team into the roadmap conversation early, with a view on what to build and what to test.",
+     "req": "r14",
+     "text": "Partner with account executives on discovery, and meet with partners to shape fraud and identity strategies that mitigate risk.",
      "skills": [
-      "stats"
+      "stakeholders"
      ],
-     "m": 0.6
+     "m": 0.75
     },
     {
      "req": "r15",
-     "text": "The Data & Analytics Team (DnA) is a 60+ person organization spanning data engineering, analytics engineering, analytics/decision science, and data science/ML. The science teams\u2026",
-     "skills": [],
-     "m": 0.45
+     "text": "Translate analysis into compelling, executive-ready narratives and presentations aligned to the value of the proposed solution.",
+     "skills": [
+      "storytelling",
+      "stakeholders",
+      "speaking"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "Act as the analytical and technical thought partner to the sales team, ensuring alignment with each partner's needs.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
     },
     {
      "req": "r18",
-     "text": "You will report to the Head of Data and work closely with counterparts leading Revenue Analytics and Data Science, and with the leaders of Data Engineering.",
+     "text": "Expand the team's scope beyond pre-sales retros into pipeline analytics and deeper, ongoing partner consulting.",
      "skills": [
-      "dashboards"
+      "stakeholders"
      ],
-     "m": 0.9
+     "m": 0.6
     },
     {
      "req": "r19",
-     "text": "Lead and develop the decision scientists and data scientists on the team, and set the quality bar for both disciplines.",
-     "skills": [],
-     "m": 0.15
+     "text": "Design and execute analysis for white papers and other industry materials \u2014 surfacing relevant insights, such as emerging fraud tactics, and collaborating on publishing.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
     },
     {
-     "req": "r25",
-     "text": "Experience leading a team that reports to you but sits embedded with product and engineering teams.",
+     "req": "r20",
+     "text": "Develop and maintain durable, trusted relationships with partners over the full lifecycle.",
      "skills": [
-      "leadership",
-      "dashboards"
+      "stakeholders"
      ],
-     "m": 1
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "SentiLink helps institutions and protects customers by accurately resolving identities and flagging fraud risk. Each day, we verify more than 3 million identities, flagging 150k\u2026",
+     "skills": [],
+     "m": 0.15
     }
    ]
   },
@@ -762,93 +766,99 @@
    "final": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
    "rewritten": false,
    "reason": "keeps the timeline whole",
-   "score": 9.83,
+   "score": 10.81,
    "matched": [
     {
-     "req": "r1",
-     "text": "10+ years in analytics, data science, or decision science, including 5+ years in people management in a senior leadership role.",
-     "skills": [],
-     "m": 0.15
-    },
-    {
-     "req": "r3",
-     "text": "Expert knowledge of engagement, retention, churn, and cohort metrics.",
+     "req": "r2",
+     "text": "A track record of leading teams and developing talent, with the executive presence to influence senior stakeholders.",
      "skills": [
-      "measurement"
+      "stakeholders"
      ],
      "m": 0.75
     },
     {
-     "req": "r4",
-     "text": "Experience forecasting a company-level metric and being held to it.",
-     "skills": [
-      "measurement"
-     ],
-     "m": 0.6
+     "req": "r3",
+     "text": "Strong data and analytics fundamentals, with the judgment to know which analysis matters and the storytelling skill to make it land.",
+     "skills": [],
+     "m": 0.15
     },
     {
      "req": "r5",
-     "text": "SQL, plus Python or R.",
-     "skills": [
-      "sql",
-      "r"
-     ],
-     "m": 1
-    },
-    {
-     "req": "r9",
-     "text": "Own the exploratory work that drives the strategy to grow MAU.",
-     "skills": [],
-     "m": 0.15
-    },
-    {
-     "req": "r10",
-     "text": "Partner with your Revenue counterpart and Data Engineering leadership to define common metrics, align on experimentation standards, and introduce unified operating practices acr\u2026",
-     "skills": [
-      "measurement",
-      "stakeholders"
-     ],
-     "m": 1
-    },
-    {
-     "req": "r15",
-     "text": "The Data & Analytics Team (DnA) is a 60+ person organization spanning data engineering, analytics engineering, analytics/decision science, and data science/ML. The science teams\u2026",
-     "skills": [],
-     "m": 0.15
-    },
-    {
-     "req": "r16",
-     "text": "You and your team will be responsible for understanding the drivers behind MAU: why members come, why they stay, and why they return. The team partners with product, marketing, \u2026",
+     "text": "Exposure to a sales or commercial environment, and a consultative approach to working with partners.",
      "skills": [
       "stakeholders"
      ],
      "m": 0.6
     },
     {
-     "req": "r17",
-     "text": "Our data is unusual for a consumer company. Life360 measures families and circles rather than individuals, so one member's behavior affects another's, which makes measurement a \u2026",
+     "req": "r6",
+     "text": "Fluency with Google Docs, Sheets, and Slides; hands-on comfort with SQL and/or Python is a plus.",
      "skills": [
-      "measurement"
+      "sql"
      ],
-     "m": 0.9
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Genuine enthusiasm for becoming an expert on financial services, fraud, and identity.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "As the Head of Solutions Analytics, you'll lead a team of business analysts and data scientists who are deeply embedded in SentiLink's sales process and our partner relationship\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "You're a hands-on leader who pairs analytical judgment with exceptional communication skills, and who builds trusted relationships as a coach, mentor, and strategic partner, bot\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Partner with account executives on discovery, and meet with partners to shape fraud and identity strategies that mitigate risk.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Translate analysis into compelling, executive-ready narratives and presentations aligned to the value of the proposed solution.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Act as the analytical and technical thought partner to the sales team, ensuring alignment with each partner's needs.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
     },
     {
      "req": "r18",
-     "text": "You will report to the Head of Data and work closely with counterparts leading Revenue Analytics and Data Science, and with the leaders of Data Engineering.",
-     "skills": [],
-     "m": 0.15
+     "text": "Expand the team's scope beyond pre-sales retros into pipeline analytics and deeper, ongoing partner consulting.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
     },
     {
-     "req": "r19",
-     "text": "Lead and develop the decision scientists and data scientists on the team, and set the quality bar for both disciplines.",
-     "skills": [],
-     "m": 0.15
-    },
-    {
-     "req": "r22",
-     "text": "Life360 has more than 500 (and growing!) remote-first employees. For more information, please visit life360.com.",
-     "skills": [],
-     "m": 0.15
+     "req": "r20",
+     "text": "Develop and maintain durable, trusted relationships with partners over the full lifecycle.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
     }
    ]
   },
@@ -859,68 +869,79 @@
    "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
    "rewritten": false,
    "reason": "keeps the timeline whole",
-   "score": 5.87,
+   "score": 6.18,
    "matched": [
     {
-     "req": "r3",
-     "text": "Expert knowledge of engagement, retention, churn, and cohort metrics.",
+     "req": "r2",
+     "text": "A track record of leading teams and developing talent, with the executive presence to influence senior stakeholders.",
      "skills": [
-      "measurement"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r4",
-     "text": "Experience forecasting a company-level metric and being held to it.",
-     "skills": [
-      "measurement"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r10",
-     "text": "Partner with your Revenue counterpart and Data Engineering leadership to define common metrics, align on experimentation standards, and introduce unified operating practices acr\u2026",
-     "skills": [
-      "measurement",
       "stakeholders"
      ],
-     "m": 1
+     "m": 0.75
     },
     {
-     "req": "r15",
-     "text": "The Data & Analytics Team (DnA) is a 60+ person organization spanning data engineering, analytics engineering, analytics/decision science, and data science/ML. The science teams\u2026",
-     "skills": [],
-     "m": 0.3
+     "req": "r5",
+     "text": "Exposure to a sales or commercial environment, and a consultative approach to working with partners.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
     },
     {
-     "req": "r16",
-     "text": "You and your team will be responsible for understanding the drivers behind MAU: why members come, why they stay, and why they return. The team partners with product, marketing, \u2026",
+     "req": "r12",
+     "text": "As the Head of Solutions Analytics, you'll lead a team of business analysts and data scientists who are deeply embedded in SentiLink's sales process and our partner relationship\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "You're a hands-on leader who pairs analytical judgment with exceptional communication skills, and who builds trusted relationships as a coach, mentor, and strategic partner, bot\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Partner with account executives on discovery, and meet with partners to shape fraud and identity strategies that mitigate risk.",
      "skills": [
       "stakeholders"
      ],
      "m": 0.9
     },
     {
-     "req": "r17",
-     "text": "Our data is unusual for a consumer company. Life360 measures families and circles rather than individuals, so one member's behavior affects another's, which makes measurement a \u2026",
+     "req": "r15",
+     "text": "Translate analysis into compelling, executive-ready narratives and presentations aligned to the value of the proposed solution.",
      "skills": [
-      "measurement"
+      "stakeholders"
      ],
-     "m": 0.75
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Act as the analytical and technical thought partner to the sales team, ensuring alignment with each partner's needs.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
     },
     {
      "req": "r18",
-     "text": "You will report to the Head of Data and work closely with counterparts leading Revenue Analytics and Data Science, and with the leaders of Data Engineering.",
+     "text": "Expand the team's scope beyond pre-sales retros into pipeline analytics and deeper, ongoing partner consulting.",
      "skills": [
-      "revenue"
+      "stakeholders"
      ],
-     "m": 1
+     "m": 0.6
     },
     {
-     "req": "r25",
-     "text": "Experience leading a team that reports to you but sits embedded with product and engineering teams.",
-     "skills": [],
-     "m": 0.3
+     "req": "r20",
+     "text": "Develop and maintain durable, trusted relationships with partners over the full lifecycle.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
     }
    ]
   },
@@ -931,27 +952,149 @@
    "final": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
    "rewritten": false,
    "reason": "keeps the timeline whole",
-   "score": 1.65,
+   "score": 5.64,
    "matched": [
     {
-     "req": "r8",
-     "text": "Own the MAU driver model and the forecast.",
+     "req": "r3",
+     "text": "Strong data and analytics fundamentals, with the judgment to know which analysis matters and the storytelling skill to make it land.",
      "skills": [
-      "stats"
+      "storytelling"
      ],
-     "m": 0.6
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Exceptional communication and interpersonal skills, and the ability to present complex business cases in a clear, accessible way.",
+     "skills": [
+      "storytelling",
+      "speaking"
+     ],
+     "m": 1
     },
     {
      "req": "r11",
-     "text": "Build the operating model that gets the team into the roadmap conversation early, with a view on what to build and what to test.",
+     "text": "Candidates must be legally authorized to work in the United States and must live in the United States.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "You're a hands-on leader who pairs analytical judgment with exceptional communication skills, and who builds trusted relationships as a coach, mentor, and strategic partner, bot\u2026",
      "skills": [
-      "stats"
+      "storytelling"
      ],
      "m": 0.6
     },
     {
+     "req": "r14",
+     "text": "Partner with account executives on discovery, and meet with partners to shape fraud and identity strategies that mitigate risk.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Translate analysis into compelling, executive-ready narratives and presentations aligned to the value of the proposed solution.",
+     "skills": [
+      "storytelling",
+      "speaking"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Design and execute analysis for white papers and other industry materials \u2014 surfacing relevant insights, such as emerging fraud tactics, and collaborating on publishing.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 24.92,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years of total professional experience, including 5+ years of people management",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "A track record of leading teams and developing talent, with the executive presence to influence senior stakeholders.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Strong data and analytics fundamentals, with the judgment to know which analysis matters and the storytelling skill to make it land.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "A background in consulting, financial services, analytics, and/or a high-growth startup environment.",
+     "skills": [],
+     "m": 0.45
+    },
+    {
+     "req": "r9",
+     "text": "Genuine enthusiasm for becoming an expert on financial services, fraud, and identity.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r12",
+     "text": "As the Head of Solutions Analytics, you'll lead a team of business analysts and data scientists who are deeply embedded in SentiLink's sales process and our partner relationship\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "You're a hands-on leader who pairs analytical judgment with exceptional communication skills, and who builds trusted relationships as a coach, mentor, and strategic partner, bot\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Partner with account executives on discovery, and meet with partners to shape fraud and identity strategies that mitigate risk.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
      "req": "r17",
-     "text": "Our data is unusual for a consumer company. Life360 measures families and circles rather than individuals, so one member's behavior affects another's, which makes measurement a \u2026",
+     "text": "Build, coach, and scale the Solutions Analytics team, establishing best practices and raising the bar across the group.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Expand the team's scope beyond pre-sales retros into pipeline analytics and deeper, ongoing partner consulting.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "Develop and maintain durable, trusted relationships with partners over the full lifecycle.",
      "skills": [],
      "m": 0.15
     }
@@ -964,109 +1107,297 @@
    "final": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
    "rewritten": false,
    "reason": "highest added coverage",
-   "score": 23.29,
+   "score": 6.58,
    "matched": [
     {
-     "req": "r3",
-     "text": "Expert knowledge of engagement, retention, churn, and cohort metrics.",
+     "req": "r2",
+     "text": "A track record of leading teams and developing talent, with the executive presence to influence senior stakeholders.",
      "skills": [],
      "m": 0.15
     },
     {
      "req": "r4",
-     "text": "Experience forecasting a company-level metric and being held to it.",
+     "text": "Exceptional communication and interpersonal skills, and the ability to present complex business cases in a clear, accessible way.",
      "skills": [],
      "m": 0.15
     },
     {
-     "req": "r5",
-     "text": "SQL, plus Python or R.",
+     "req": "r6",
+     "text": "Fluency with Google Docs, Sheets, and Slides; hands-on comfort with SQL and/or Python is a plus.",
      "skills": [
       "sql"
      ],
      "m": 0.75
     },
     {
-     "req": "r6",
-     "text": "Experience with Databricks, third party experimentation tools (e.g. Statsig), Tableau or similar BI tools, and AI native BI tools (e.g. Hex, AI/BI).",
+     "req": "r12",
+     "text": "As the Head of Solutions Analytics, you'll lead a team of business analysts and data scientists who are deeply embedded in SentiLink's sales process and our partner relationship\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "Develop and maintain durable, trusted relationships with partners over the full lifecycle.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m8",
+   "role": "ms-head",
+   "original": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "final": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 21.53,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years of total professional experience, including 5+ years of people management",
      "skills": [
-      "genai",
-      "dashboards"
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "A track record of leading teams and developing talent, with the executive presence to influence senior stakeholders.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Strong data and analytics fundamentals, with the judgment to know which analysis matters and the storytelling skill to make it land.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Exceptional communication and interpersonal skills, and the ability to present complex business cases in a clear, accessible way.",
+     "skills": [
+      "storytelling",
+      "speaking"
      ],
      "m": 1
     },
     {
      "req": "r7",
-     "text": "Hands-on with coding agents (Claude Code or equivalent) in your own analytical work.",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r10",
-     "text": "Partner with your Revenue counterpart and Data Engineering leadership to define common metrics, align on experimentation standards, and introduce unified operating practices acr\u2026",
+     "text": "A background in consulting, financial services, analytics, and/or a high-growth startup environment.",
      "skills": [],
      "m": 0.15
     },
     {
      "req": "r12",
-     "text": "Use agents and automated analysis daily, and expect the same of the team.",
-     "skills": [],
-     "m": 0.15
+     "text": "As the Head of Solutions Analytics, you'll lead a team of business analysts and data scientists who are deeply embedded in SentiLink's sales process and our partner relationship\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
     },
     {
      "req": "r13",
-     "text": "Shape how the team works AI-native: what gets delegated to agents, what gets automated, and what stays human judgment.",
+     "text": "You're a hands-on leader who pairs analytical judgment with exceptional communication skills, and who builds trusted relationships as a coach, mentor, and strategic partner, bot\u2026",
      "skills": [
-      "genai"
+      "leadership",
+      "storytelling"
      ],
-     "m": 0.6
+     "m": 1
     },
     {
-     "req": "r14",
-     "text": "Undisclosed use of AI not previously discussed with or approved by your Recruiter may impact your candidacy.",
+     "req": "r15",
+     "text": "Translate analysis into compelling, executive-ready narratives and presentations aligned to the value of the proposed solution.",
      "skills": [
-      "genai"
+      "storytelling",
+      "speaking"
      ],
-     "m": 0.6
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Build, coach, and scale the Solutions Analytics team, establishing best practices and raising the bar across the group.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
     },
     {
      "req": "r18",
-     "text": "You will report to the Head of Data and work closely with counterparts leading Revenue Analytics and Data Science, and with the leaders of Data Engineering.",
-     "skills": [
-      "dashboards"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r19",
-     "text": "Lead and develop the decision scientists and data scientists on the team, and set the quality bar for both disciplines.",
+     "text": "Expand the team's scope beyond pre-sales retros into pipeline analytics and deeper, ongoing partner consulting.",
      "skills": [],
      "m": 0.15
     },
     {
-     "req": "r25",
-     "text": "Experience leading a team that reports to you but sits embedded with product and engineering teams.",
+     "req": "r19",
+     "text": "Design and execute analysis for white papers and other industry materials \u2014 surfacing relevant insights, such as emerging fraud tactics, and collaborating on publishing.",
      "skills": [
-      "dashboards"
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "SentiLink helps institutions and protects customers by accurately resolving identities and flagging fraud risk. Each day, we verify more than 3 million identities, flagging 150k\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m17",
+   "role": "ms-head",
+   "original": "Ran a roundtable with a regional sales VP's leadership team to answer their doubts about advanced analytics",
+   "final": "Ran a roundtable with a regional sales VP's leadership team to answer their doubts about advanced analytics",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 22.02,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "A track record of leading teams and developing talent, with the executive presence to influence senior stakeholders.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Strong data and analytics fundamentals, with the judgment to know which analysis matters and the storytelling skill to make it land.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r4",
+     "text": "Exceptional communication and interpersonal skills, and the ability to present complex business cases in a clear, accessible way.",
+     "skills": [
+      "storytelling",
+      "speaking"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Exposure to a sales or commercial environment, and a consultative approach to working with partners.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "A background in consulting, financial services, analytics, and/or a high-growth startup environment.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "A bachelor's degree (any field); an MBA or advanced degree is a plus.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "As the Head of Solutions Analytics, you'll lead a team of business analysts and data scientists who are deeply embedded in SentiLink's sales process and our partner relationship\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r13",
+     "text": "You're a hands-on leader who pairs analytical judgment with exceptional communication skills, and who builds trusted relationships as a coach, mentor, and strategic partner, bot\u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Partner with account executives on discovery, and meet with partners to shape fraud and identity strategies that mitigate risk.",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r15",
+     "text": "Translate analysis into compelling, executive-ready narratives and presentations aligned to the value of the proposed solution.",
+     "skills": [
+      "storytelling",
+      "stakeholders",
+      "speaking"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "Act as the analytical and technical thought partner to the sales team, ensuring alignment with each partner's needs.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Build, coach, and scale the Solutions Analytics team, establishing best practices and raising the bar across the group.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Expand the team's scope beyond pre-sales retros into pipeline analytics and deeper, ongoing partner consulting.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r19",
+     "text": "Design and execute analysis for white papers and other industry materials \u2014 surfacing relevant insights, such as emerging fraud tactics, and collaborating on publishing.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Develop and maintain durable, trusted relationships with partners over the full lifecycle.",
+     "skills": [
+      "stakeholders"
      ],
      "m": 0.6
     }
    ]
   },
   {
-   "id": "m9",
-   "role": "ms-dir",
-   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
-   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "id": "s1",
+   "role": "ms-sal",
+   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
    "rewritten": false,
    "reason": "highest added coverage",
-   "score": 27.84,
+   "score": 11.94,
    "matched": [
     {
      "req": "r1",
-     "text": "10+ years in analytics, data science, or decision science, including 5+ years in people management in a senior leadership role.",
+     "text": "8+ years of total professional experience, including 5+ years of people management",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "A track record of leading teams and developing talent, with the executive presence to influence senior stakeholders.",
      "skills": [
       "leadership"
      ],
@@ -1074,286 +1405,63 @@
     },
     {
      "req": "r3",
-     "text": "Expert knowledge of engagement, retention, churn, and cohort metrics.",
-     "skills": [
-      "product-analytics"
-     ],
-     "m": 0.6
+     "text": "Strong data and analytics fundamentals, with the judgment to know which analysis matters and the storytelling skill to make it land.",
+     "skills": [],
+     "m": 0.15
     },
     {
-     "req": "r6",
-     "text": "Experience with Databricks, third party experimentation tools (e.g. Statsig), Tableau or similar BI tools, and AI native BI tools (e.g. Hex, AI/BI).",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
+     "req": "r4",
+     "text": "Exceptional communication and interpersonal skills, and the ability to present complex business cases in a clear, accessible way.",
+     "skills": [],
+     "m": 0.15
     },
     {
      "req": "r7",
-     "text": "Hands-on with coding agents (Claude Code or equivalent) in your own analytical work.",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
+     "text": "A background in consulting, financial services, analytics, and/or a high-growth startup environment.",
+     "skills": [],
+     "m": 0.15
     },
     {
-     "req": "r10",
-     "text": "Partner with your Revenue counterpart and Data Engineering leadership to define common metrics, align on experimentation standards, and introduce unified operating practices acr\u2026",
-     "skills": [
-      "stakeholders"
-     ],
-     "m": 0.75
+     "req": "r11",
+     "text": "Candidates must be legally authorized to work in the United States and must live in the United States.",
+     "skills": [],
+     "m": 0.15
     },
     {
      "req": "r12",
-     "text": "Use agents and automated analysis daily, and expect the same of the team.",
-     "skills": [],
-     "m": 0.15
-    },
-    {
-     "req": "r13",
-     "text": "Shape how the team works AI-native: what gets delegated to agents, what gets automated, and what stays human judgment.",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r14",
-     "text": "Undisclosed use of AI not previously discussed with or approved by your Recruiter may impact your candidacy.",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r16",
-     "text": "You and your team will be responsible for understanding the drivers behind MAU: why members come, why they stay, and why they return. The team partners with product, marketing, \u2026",
-     "skills": [
-      "stakeholders"
-     ],
-     "m": 0.75
-    },
-    {
-     "req": "r17",
-     "text": "Our data is unusual for a consumer company. Life360 measures families and circles rather than individuals, so one member's behavior affects another's, which makes measurement a \u2026",
-     "skills": [
-      "product-analytics"
-     ],
-     "m": 0.75
-    },
-    {
-     "req": "r20",
-     "text": "Establish how an analysis gets scoped, run, reviewed, and written up, so its quality does not depend on who picked up the request.",
-     "skills": [],
-     "m": 0.15
-    },
-    {
-     "req": "r25",
-     "text": "Experience leading a team that reports to you but sits embedded with product and engineering teams.",
+     "text": "As the Head of Solutions Analytics, you'll lead a team of business analysts and data scientists who are deeply embedded in SentiLink's sales process and our partner relationship\u2026",
      "skills": [
       "leadership"
-     ],
-     "m": 0.6
-    }
-   ]
-  },
-  {
-   "id": "m12",
-   "role": "ms-dir",
-   "original": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
-   "final": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
-   "rewritten": false,
-   "reason": "highest added coverage",
-   "score": 25.38,
-   "matched": [
-    {
-     "req": "r1",
-     "text": "10+ years in analytics, data science, or decision science, including 5+ years in people management in a senior leadership role.",
-     "skills": [
-      "leadership"
-     ],
-     "m": 0.9
-    },
-    {
-     "req": "r6",
-     "text": "Experience with Databricks, third party experimentation tools (e.g. Statsig), Tableau or similar BI tools, and AI native BI tools (e.g. Hex, AI/BI).",
-     "skills": [
-      "genai",
-      "pipelines"
      ],
      "m": 1
     },
     {
-     "req": "r7",
-     "text": "Hands-on with coding agents (Claude Code or equivalent) in your own analytical work.",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r9",
-     "text": "Own the exploratory work that drives the strategy to grow MAU.",
-     "skills": [
-      "strategy"
-     ],
-     "m": 0.75
-    },
-    {
-     "req": "r10",
-     "text": "Partner with your Revenue counterpart and Data Engineering leadership to define common metrics, align on experimentation standards, and introduce unified operating practices acr\u2026",
-     "skills": [
-      "pipelines"
-     ],
-     "m": 0.9
-    },
-    {
-     "req": "r11",
-     "text": "Build the operating model that gets the team into the roadmap conversation early, with a view on what to build and what to test.",
-     "skills": [
-      "strategy"
-     ],
-     "m": 0.6
-    },
-    {
      "req": "r13",
-     "text": "Shape how the team works AI-native: what gets delegated to agents, what gets automated, and what stays human judgment.",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r14",
-     "text": "Undisclosed use of AI not previously discussed with or approved by your Recruiter may impact your candidacy.",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r15",
-     "text": "The Data & Analytics Team (DnA) is a 60+ person organization spanning data engineering, analytics engineering, analytics/decision science, and data science/ML. The science teams\u2026",
-     "skills": [
-      "pipelines"
-     ],
-     "m": 0.75
-    },
-    {
-     "req": "r16",
-     "text": "You and your team will be responsible for understanding the drivers behind MAU: why members come, why they stay, and why they return. The team partners with product, marketing, \u2026",
-     "skills": [
-      "strategy"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r17",
-     "text": "Our data is unusual for a consumer company. Life360 measures families and circles rather than individuals, so one member's behavior affects another's, which makes measurement a \u2026",
-     "skills": [],
-     "m": 0.15
-    },
-    {
-     "req": "r18",
-     "text": "You will report to the Head of Data and work closely with counterparts leading Revenue Analytics and Data Science, and with the leaders of Data Engineering.",
-     "skills": [
-      "pipelines"
-     ],
-     "m": 0.75
-    },
-    {
-     "req": "r19",
-     "text": "Lead and develop the decision scientists and data scientists on the team, and set the quality bar for both disciplines.",
-     "skills": [],
-     "m": 0.3
-    },
-    {
-     "req": "r25",
-     "text": "Experience leading a team that reports to you but sits embedded with product and engineering teams.",
+     "text": "You're a hands-on leader who pairs analytical judgment with exceptional communication skills, and who builds trusted relationships as a coach, mentor, and strategic partner, bot\u2026",
      "skills": [
       "leadership"
      ],
-     "m": 0.6
-    }
-   ]
-  },
-  {
-   "id": "t4",
-   "role": "ms-sal",
-   "original": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
-   "final": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
-   "rewritten": false,
-   "reason": "highest added coverage",
-   "score": 10.53,
-   "matched": [
-    {
-     "req": "r4",
-     "text": "Experience forecasting a company-level metric and being held to it.",
-     "skills": [
-      "forecasting"
-     ],
-     "m": 0.9
-    },
-    {
-     "req": "r6",
-     "text": "Experience with Databricks, third party experimentation tools (e.g. Statsig), Tableau or similar BI tools, and AI native BI tools (e.g. Hex, AI/BI).",
-     "skills": [
-      "dashboards"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r8",
-     "text": "Own the MAU driver model and the forecast.",
-     "skills": [
-      "forecasting"
-     ],
-     "m": 0.9
-    },
-    {
-     "req": "r10",
-     "text": "Partner with your Revenue counterpart and Data Engineering leadership to define common metrics, align on experimentation standards, and introduce unified operating practices acr\u2026",
-     "skills": [
-      "stakeholders"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r11",
-     "text": "Build the operating model that gets the team into the roadmap conversation early, with a view on what to build and what to test.",
-     "skills": [],
-     "m": 0.15
+     "m": 0.75
     },
     {
      "req": "r16",
-     "text": "You and your team will be responsible for understanding the drivers behind MAU: why members come, why they stay, and why they return. The team partners with product, marketing, \u2026",
-     "skills": [
-      "stakeholders"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r18",
-     "text": "You will report to the Head of Data and work closely with counterparts leading Revenue Analytics and Data Science, and with the leaders of Data Engineering.",
-     "skills": [
-      "dashboards"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r21",
-     "text": "Life360 delivers peace of mind and enhances everyday family life with seamless coordination for all the moments that matter, big and small. By continuing to innovate and deliver\u2026",
+     "text": "Act as the analytical and technical thought partner to the sales team, ensuring alignment with each partner's needs.",
      "skills": [],
      "m": 0.15
     },
     {
-     "req": "r25",
-     "text": "Experience leading a team that reports to you but sits embedded with product and engineering teams.",
+     "req": "r17",
+     "text": "Build, coach, and scale the Solutions Analytics team, establishing best practices and raising the bar across the group.",
      "skills": [
-      "dashboards"
+      "leadership"
      ],
-     "m": 0.6
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Expand the team's scope beyond pre-sales retros into pipeline analytics and deeper, ongoing partner consulting.",
+     "skills": [],
+     "m": 0.15
     }
    ]
   },
@@ -1364,340 +1472,338 @@
    "final": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
    "rewritten": false,
    "reason": "highest added coverage",
-   "score": 16.77,
+   "score": 33.02,
    "matched": [
-    {
-     "req": "r1",
-     "text": "10+ years in analytics, data science, or decision science, including 5+ years in people management in a senior leadership role.",
-     "skills": [],
-     "m": 0.15
-    },
-    {
-     "req": "r6",
-     "text": "Experience with Databricks, third party experimentation tools (e.g. Statsig), Tableau or similar BI tools, and AI native BI tools (e.g. Hex, AI/BI).",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r7",
-     "text": "Hands-on with coding agents (Claude Code or equivalent) in your own analytical work.",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r10",
-     "text": "Partner with your Revenue counterpart and Data Engineering leadership to define common metrics, align on experimentation standards, and introduce unified operating practices acr\u2026",
-     "skills": [
-      "stakeholders"
-     ],
-     "m": 0.75
-    },
-    {
-     "req": "r12",
-     "text": "Use agents and automated analysis daily, and expect the same of the team.",
-     "skills": [],
-     "m": 0.15
-    },
-    {
-     "req": "r13",
-     "text": "Shape how the team works AI-native: what gets delegated to agents, what gets automated, and what stays human judgment.",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r14",
-     "text": "Undisclosed use of AI not previously discussed with or approved by your Recruiter may impact your candidacy.",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r15",
-     "text": "The Data & Analytics Team (DnA) is a 60+ person organization spanning data engineering, analytics engineering, analytics/decision science, and data science/ML. The science teams\u2026",
-     "skills": [],
-     "m": 0.15
-    },
-    {
-     "req": "r16",
-     "text": "You and your team will be responsible for understanding the drivers behind MAU: why members come, why they stay, and why they return. The team partners with product, marketing, \u2026",
-     "skills": [
-      "stakeholders"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r17",
-     "text": "Our data is unusual for a consumer company. Life360 measures families and circles rather than individuals, so one member's behavior affects another's, which makes measurement a \u2026",
-     "skills": [],
-     "m": 0.15
-    },
-    {
-     "req": "r18",
-     "text": "You will report to the Head of Data and work closely with counterparts leading Revenue Analytics and Data Science, and with the leaders of Data Engineering.",
-     "skills": [],
-     "m": 0.3
-    },
-    {
-     "req": "r19",
-     "text": "Lead and develop the decision scientists and data scientists on the team, and set the quality bar for both disciplines.",
-     "skills": [],
-     "m": 0.15
-    },
-    {
-     "req": "r20",
-     "text": "Establish how an analysis gets scoped, run, reviewed, and written up, so its quality does not depend on who picked up the request.",
-     "skills": [],
-     "m": 0.15
-    },
-    {
-     "req": "r25",
-     "text": "Experience leading a team that reports to you but sits embedded with product and engineering teams.",
-     "skills": [],
-     "m": 0.15
-    }
-   ]
-  },
-  {
-   "id": "s2",
-   "role": "ms-sal",
-   "original": "As Analytical Director, built the media analytics org's first AI-assisted analytics prototypes",
-   "final": "As Analytical Director, built the media analytics org's first AI-assisted analytics prototypes",
-   "rewritten": false,
-   "reason": "highest added coverage",
-   "score": 8.42,
-   "matched": [
-    {
-     "req": "r1",
-     "text": "10+ years in analytics, data science, or decision science, including 5+ years in people management in a senior leadership role.",
-     "skills": [],
-     "m": 0.15
-    },
     {
      "req": "r2",
-     "text": "Deep expertise in inferential and causal analytics. Able to lead ML practitioners.",
-     "skills": [],
-     "m": 0.15
-    },
-    {
-     "req": "r6",
-     "text": "Experience with Databricks, third party experimentation tools (e.g. Statsig), Tableau or similar BI tools, and AI native BI tools (e.g. Hex, AI/BI).",
+     "text": "A track record of leading teams and developing talent, with the executive presence to influence senior stakeholders.",
      "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r7",
-     "text": "Hands-on with coding agents (Claude Code or equivalent) in your own analytical work.",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.75
-    },
-    {
-     "req": "r13",
-     "text": "Shape how the team works AI-native: what gets delegated to agents, what gets automated, and what stays human judgment.",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r14",
-     "text": "Undisclosed use of AI not previously discussed with or approved by your Recruiter may impact your candidacy.",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r15",
-     "text": "The Data & Analytics Team (DnA) is a 60+ person organization spanning data engineering, analytics engineering, analytics/decision science, and data science/ML. The science teams\u2026",
-     "skills": [],
-     "m": 0.15
-    },
-    {
-     "req": "r18",
-     "text": "You will report to the Head of Data and work closely with counterparts leading Revenue Analytics and Data Science, and with the leaders of Data Engineering.",
-     "skills": [],
-     "m": 0.15
-    },
-    {
-     "req": "r22",
-     "text": "Life360 has more than 500 (and growing!) remote-first employees. For more information, please visit life360.com.",
-     "skills": [],
-     "m": 0.15
-    },
-    {
-     "req": "r23",
-     "text": "Life360 is a Remote First company, which means a remote work environment will be the primary experience for all employees. All positions, unless otherwise specified, can be perf\u2026",
-     "skills": [],
-     "m": 0.15
-    }
-   ]
-  },
-  {
-   "id": "h1",
-   "role": "ms-head",
-   "original": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
-   "final": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
-   "rewritten": false,
-   "reason": "highest added coverage",
-   "score": 17.31,
-   "matched": [
-    {
-     "req": "r1",
-     "text": "10+ years in analytics, data science, or decision science, including 5+ years in people management in a senior leadership role.",
-     "skills": [
-      "leadership"
+      "stakeholders"
      ],
      "m": 0.75
     },
     {
      "req": "r3",
-     "text": "Expert knowledge of engagement, retention, churn, and cohort metrics.",
+     "text": "Strong data and analytics fundamentals, with the judgment to know which analysis matters and the storytelling skill to make it land.",
      "skills": [
-      "measurement"
+      "storytelling"
      ],
-     "m": 0.6
+     "m": 1
     },
     {
      "req": "r4",
-     "text": "Experience forecasting a company-level metric and being held to it.",
+     "text": "Exceptional communication and interpersonal skills, and the ability to present complex business cases in a clear, accessible way.",
      "skills": [
-      "measurement"
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Exposure to a sales or commercial environment, and a consultative approach to working with partners.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "A background in consulting, financial services, analytics, and/or a high-growth startup environment.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Genuine enthusiasm for becoming an expert on financial services, fraud, and identity.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "As the Head of Solutions Analytics, you'll lead a team of business analysts and data scientists who are deeply embedded in SentiLink's sales process and our partner relationship\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "You're a hands-on leader who pairs analytical judgment with exceptional communication skills, and who builds trusted relationships as a coach, mentor, and strategic partner, bot\u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Partner with account executives on discovery, and meet with partners to shape fraud and identity strategies that mitigate risk.",
+     "skills": [
+      "stakeholders"
      ],
      "m": 0.6
     },
     {
-     "req": "r9",
-     "text": "Own the exploratory work that drives the strategy to grow MAU.",
+     "req": "r15",
+     "text": "Translate analysis into compelling, executive-ready narratives and presentations aligned to the value of the proposed solution.",
      "skills": [
-      "strategy"
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "Act as the analytical and technical thought partner to the sales team, ensuring alignment with each partner's needs.",
+     "skills": [
+      "stakeholders"
      ],
      "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Expand the team's scope beyond pre-sales retros into pipeline analytics and deeper, ongoing partner consulting.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Design and execute analysis for white papers and other industry materials \u2014 surfacing relevant insights, such as emerging fraud tactics, and collaborating on publishing.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Develop and maintain durable, trusted relationships with partners over the full lifecycle.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "SentiLink helps institutions and protects customers by accurately resolving identities and flagging fraud risk. Each day, we verify more than 3 million identities, flagging 150k\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m15",
+   "role": "ms-dir",
+   "original": "Represented the analytics team in shaping an AI survey with an outside agency before fielding, and brought team members into the research",
+   "final": "Represented the analytics team in shaping an AI survey with an outside agency before fielding, and brought team members into the research",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 15.35,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "A track record of leading teams and developing talent, with the executive presence to influence senior stakeholders.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Strong data and analytics fundamentals, with the judgment to know which analysis matters and the storytelling skill to make it land.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Exposure to a sales or commercial environment, and a consultative approach to working with partners.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "A background in consulting, financial services, analytics, and/or a high-growth startup environment.",
+     "skills": [],
+     "m": 0.15
     },
     {
      "req": "r10",
-     "text": "Partner with your Revenue counterpart and Data Engineering leadership to define common metrics, align on experimentation standards, and introduce unified operating practices acr\u2026",
+     "text": "A bachelor's degree (any field); an MBA or advanced degree is a plus.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "As the Head of Solutions Analytics, you'll lead a team of business analysts and data scientists who are deeply embedded in SentiLink's sales process and our partner relationship\u2026",
      "skills": [
-      "measurement"
+      "stakeholders"
      ],
      "m": 0.75
     },
     {
-     "req": "r11",
-     "text": "Build the operating model that gets the team into the roadmap conversation early, with a view on what to build and what to test.",
+     "req": "r13",
+     "text": "You're a hands-on leader who pairs analytical judgment with exceptional communication skills, and who builds trusted relationships as a coach, mentor, and strategic partner, bot\u2026",
      "skills": [
+      "stakeholders",
       "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Partner with account executives on discovery, and meet with partners to shape fraud and identity strategies that mitigate risk.",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r15",
+     "text": "Translate analysis into compelling, executive-ready narratives and presentations aligned to the value of the proposed solution.",
+     "skills": [
+      "stakeholders"
      ],
      "m": 0.6
     },
     {
      "req": "r16",
-     "text": "You and your team will be responsible for understanding the drivers behind MAU: why members come, why they stay, and why they return. The team partners with product, marketing, \u2026",
+     "text": "Act as the analytical and technical thought partner to the sales team, ensuring alignment with each partner's needs.",
      "skills": [
-      "strategy"
+      "stakeholders"
      ],
      "m": 0.6
     },
     {
      "req": "r17",
-     "text": "Our data is unusual for a consumer company. Life360 measures families and circles rather than individuals, so one member's behavior affects another's, which makes measurement a \u2026",
+     "text": "Build, coach, and scale the Solutions Analytics team, establishing best practices and raising the bar across the group.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Expand the team's scope beyond pre-sales retros into pipeline analytics and deeper, ongoing partner consulting.",
      "skills": [
-      "measurement"
+      "stakeholders"
      ],
      "m": 0.75
     },
     {
-     "req": "r25",
-     "text": "Experience leading a team that reports to you but sits embedded with product and engineering teams.",
+     "req": "r20",
+     "text": "Develop and maintain durable, trusted relationships with partners over the full lifecycle.",
      "skills": [
-      "leadership"
+      "stakeholders"
      ],
      "m": 0.6
     }
    ]
   },
   {
-   "id": "e11",
+   "id": "e5",
    "role": "ms-al",
-   "original": "Built a network-science proof of concept for search funnels that became a planned playbook deliverable",
-   "final": "Built a network-science proof of concept for search funnels that became a planned playbook deliverable",
+   "original": "Wrote training on time-series decomposition (MACD) and data distributions for the whole analytics org",
+   "final": "Wrote training on time-series decomposition (MACD) and data distributions for the whole analytics org",
    "rewritten": false,
    "reason": "highest added coverage",
-   "score": 5.01,
+   "score": 9.84,
    "matched": [
     {
      "req": "r1",
-     "text": "10+ years in analytics, data science, or decision science, including 5+ years in people management in a senior leadership role.",
-     "skills": [],
-     "m": 0.15
+     "text": "8+ years of total professional experience, including 5+ years of people management",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
     },
     {
      "req": "r2",
-     "text": "Deep expertise in inferential and causal analytics. Able to lead ML practitioners.",
+     "text": "A track record of leading teams and developing talent, with the executive presence to influence senior stakeholders.",
      "skills": [
-      "ml"
+      "leadership"
      ],
      "m": 0.6
     },
     {
      "req": "r3",
-     "text": "Expert knowledge of engagement, retention, churn, and cohort metrics.",
+     "text": "Strong data and analytics fundamentals, with the judgment to know which analysis matters and the storytelling skill to make it land.",
      "skills": [
-      "product-analytics"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r8",
-     "text": "Own the MAU driver model and the forecast.",
-     "skills": [
-      "stats",
-      "ml"
+      "storytelling"
      ],
      "m": 1
     },
     {
-     "req": "r11",
-     "text": "Build the operating model that gets the team into the roadmap conversation early, with a view on what to build and what to test.",
+     "req": "r4",
+     "text": "Exceptional communication and interpersonal skills, and the ability to present complex business cases in a clear, accessible way.",
      "skills": [
-      "stats",
-      "ml"
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "A background in consulting, financial services, analytics, and/or a high-growth startup environment.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "Candidates must be legally authorized to work in the United States and must live in the United States.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "As the Head of Solutions Analytics, you'll lead a team of business analysts and data scientists who are deeply embedded in SentiLink's sales process and our partner relationship\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r13",
+     "text": "You're a hands-on leader who pairs analytical judgment with exceptional communication skills, and who builds trusted relationships as a coach, mentor, and strategic partner, bot\u2026",
+     "skills": [
+      "leadership",
+      "storytelling"
      ],
      "m": 1
     },
     {
      "req": "r15",
-     "text": "The Data & Analytics Team (DnA) is a 60+ person organization spanning data engineering, analytics engineering, analytics/decision science, and data science/ML. The science teams\u2026",
-     "skills": [],
-     "m": 0.15
+     "text": "Translate analysis into compelling, executive-ready narratives and presentations aligned to the value of the proposed solution.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
     },
     {
      "req": "r17",
-     "text": "Our data is unusual for a consumer company. Life360 measures families and circles rather than individuals, so one member's behavior affects another's, which makes measurement a \u2026",
+     "text": "Build, coach, and scale the Solutions Analytics team, establishing best practices and raising the bar across the group.",
      "skills": [
-      "product-analytics"
+      "leadership"
      ],
      "m": 0.75
     },
     {
      "req": "r18",
-     "text": "You will report to the Head of Data and work closely with counterparts leading Revenue Analytics and Data Science, and with the leaders of Data Engineering.",
+     "text": "Expand the team's scope beyond pre-sales retros into pipeline analytics and deeper, ongoing partner consulting.",
      "skills": [],
      "m": 0.15
     },
     {
-     "req": "r24",
-     "text": "Familiarity with experiment design to identify and control for network effects.",
+     "req": "r19",
+     "text": "Design and execute analysis for white papers and other industry materials \u2014 surfacing relevant insights, such as emerging fraud tactics, and collaborating on publishing.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "At SentiLink, you'll work alongside smart, highly collaborative colleagues who respect each other's time and judgment, take ownership, and follow through on their commitments. T\u2026",
      "skills": [],
      "m": 0.15
     }
@@ -1710,64 +1816,16 @@
    "final": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
    "rewritten": false,
    "reason": "highest added coverage",
-   "score": 17.52,
+   "score": 4.2,
    "matched": [
     {
-     "req": "r5",
-     "text": "SQL, plus Python or R.",
+     "req": "r6",
+     "text": "Fluency with Google Docs, Sheets, and Slides; hands-on comfort with SQL and/or Python is a plus.",
      "skills": [
       "sql",
       "python"
      ],
      "m": 1
-    },
-    {
-     "req": "r6",
-     "text": "Experience with Databricks, third party experimentation tools (e.g. Statsig), Tableau or similar BI tools, and AI native BI tools (e.g. Hex, AI/BI).",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r7",
-     "text": "Hands-on with coding agents (Claude Code or equivalent) in your own analytical work.",
-     "skills": [
-      "genai",
-      "llm-apps"
-     ],
-     "m": 1
-    },
-    {
-     "req": "r12",
-     "text": "Use agents and automated analysis daily, and expect the same of the team.",
-     "skills": [
-      "llm-apps"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r13",
-     "text": "Shape how the team works AI-native: what gets delegated to agents, what gets automated, and what stays human judgment.",
-     "skills": [
-      "genai",
-      "llm-apps"
-     ],
-     "m": 1
-    },
-    {
-     "req": "r14",
-     "text": "Undisclosed use of AI not previously discussed with or approved by your Recruiter may impact your candidacy.",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r20",
-     "text": "Establish how an analysis gets scoped, run, reviewed, and written up, so its quality does not depend on who picked up the request.",
-     "skills": [],
-     "m": 0.15
     }
    ]
   },
@@ -1778,108 +1836,108 @@
    "final": "Robuttal: an arena where AI models from several providers debate, judged by AI with fairness audits and Elo rankings; built with Python, FastAPI and Next.js",
    "rewritten": false,
    "reason": "highest added coverage",
-   "score": 18.89,
+   "score": 4.54,
    "matched": [
     {
-     "req": "r5",
-     "text": "SQL, plus Python or R.",
-     "skills": [
-      "python"
-     ],
-     "m": 0.75
+     "req": "r3",
+     "text": "Strong data and analytics fundamentals, with the judgment to know which analysis matters and the storytelling skill to make it land.",
+     "skills": [],
+     "m": 0.15
     },
     {
      "req": "r6",
-     "text": "Experience with Databricks, third party experimentation tools (e.g. Statsig), Tableau or similar BI tools, and AI native BI tools (e.g. Hex, AI/BI).",
+     "text": "Fluency with Google Docs, Sheets, and Slides; hands-on comfort with SQL and/or Python is a plus.",
      "skills": [
-      "genai"
-     ],
-     "m": 0.6
-    },
-    {
-     "req": "r7",
-     "text": "Hands-on with coding agents (Claude Code or equivalent) in your own analytical work.",
-     "skills": [
-      "genai",
-      "llm-apps"
-     ],
-     "m": 1
-    },
-    {
-     "req": "r8",
-     "text": "Own the MAU driver model and the forecast.",
-     "skills": [
-      "stats"
+      "python"
      ],
      "m": 0.75
     },
     {
      "req": "r11",
-     "text": "Build the operating model that gets the team into the roadmap conversation early, with a view on what to build and what to test.",
-     "skills": [
-      "stats"
-     ],
-     "m": 0.75
-    },
-    {
-     "req": "r12",
-     "text": "Use agents and automated analysis daily, and expect the same of the team.",
-     "skills": [
-      "llm-apps"
-     ],
-     "m": 0.6
+     "text": "Candidates must be legally authorized to work in the United States and must live in the United States.",
+     "skills": [],
+     "m": 0.15
     },
     {
      "req": "r13",
-     "text": "Shape how the team works AI-native: what gets delegated to agents, what gets automated, and what stays human judgment.",
-     "skills": [
-      "genai",
-      "llm-apps"
-     ],
-     "m": 1
+     "text": "You're a hands-on leader who pairs analytical judgment with exceptional communication skills, and who builds trusted relationships as a coach, mentor, and strategic partner, bot\u2026",
+     "skills": [],
+     "m": 0.15
     },
     {
-     "req": "r14",
-     "text": "Undisclosed use of AI not previously discussed with or approved by your Recruiter may impact your candidacy.",
-     "skills": [
-      "genai"
-     ],
-     "m": 0.6
+     "req": "r22",
+     "text": "At SentiLink, you'll work alongside smart, highly collaborative colleagues who respect each other's time and judgment, take ownership, and follow through on their commitments. T\u2026",
+     "skills": [],
+     "m": 0.15
     }
    ]
   },
   {
-   "id": "p2",
+   "id": "p6",
    "role": "proj",
-   "original": "When Did Purple Become a Halloween Color?: pixel analysis of 3,000 images, from vintage postcards to 27 years of Google Doodles, with Python and D3",
-   "final": "When Did Purple Become a Halloween Color?: pixel analysis of 3,000 images, from vintage postcards to 27 years of Google Doodles, with Python and D3",
+   "original": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "final": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
    "rewritten": false,
    "reason": "highest added coverage",
-   "score": 3.88,
+   "score": 14.07,
    "matched": [
     {
-     "req": "r5",
-     "text": "SQL, plus Python or R.",
+     "req": "r3",
+     "text": "Strong data and analytics fundamentals, with the judgment to know which analysis matters and the storytelling skill to make it land.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Exceptional communication and interpersonal skills, and the ability to present complex business cases in a clear, accessible way.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Fluency with Google Docs, Sheets, and Slides; hands-on comfort with SQL and/or Python is a plus.",
      "skills": [
       "python"
      ],
      "m": 0.75
     },
     {
-     "req": "r12",
-     "text": "Use agents and automated analysis daily, and expect the same of the team.",
+     "req": "r11",
+     "text": "Candidates must be legally authorized to work in the United States and must live in the United States.",
      "skills": [],
      "m": 0.15
     },
     {
-     "req": "r20",
-     "text": "Establish how an analysis gets scoped, run, reviewed, and written up, so its quality does not depend on who picked up the request.",
-     "skills": [],
-     "m": 0.15
+     "req": "r13",
+     "text": "You're a hands-on leader who pairs analytical judgment with exceptional communication skills, and who builds trusted relationships as a coach, mentor, and strategic partner, bot\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Translate analysis into compelling, executive-ready narratives and presentations aligned to the value of the proposed solution.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Design and execute analysis for white papers and other industry materials \u2014 surfacing relevant insights, such as emerging fraud tactics, and collaborating on publishing.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
     },
     {
      "req": "r21",
-     "text": "Life360 delivers peace of mind and enhances everyday family life with seamless coordination for all the moments that matter, big and small. By continuing to innovate and deliver\u2026",
+     "text": "SentiLink helps institutions and protects customers by accurately resolving identities and flagging fraud risk. Each day, we verify more than 3 million identities, flagging 150k\u2026",
      "skills": [],
      "m": 0.15
     }
@@ -1888,74 +1946,75 @@
  ],
  "leftOut": [
   {
-   "text": "Added Microsoft Clarity behavioral data to the team's query-pathing tool",
+   "text": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
    "why": "others covered the same ground better",
-   "score": 13.7
+   "score": 27.4
   },
   {
-   "text": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
-   "why": "others covered the same ground better",
-   "score": 13.28
-  },
-  {
-   "text": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
-   "why": "others covered the same ground better",
-   "score": 12.36
-  },
-  {
-   "text": "Built a travel COVID risk map from CDC, state regulation, population and search data, refreshed every two weeks, that a major client's CMO asked for regularly",
+   "text": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
    "why": "role already full",
-   "score": 11.26
+   "score": 24.95
   },
   {
    "text": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
    "why": "others covered the same ground better",
-   "score": 10.75
+   "score": 20.37
   },
   {
-   "text": "Gave analysts a framework for using AI at every step of an analysis, from idea to finished work",
-   "why": "others covered the same ground better",
-   "score": 10.56
-  },
-  {
-   "text": "Took over measurement of a cross-Microsoft partner program, defined its scope, won direct access to the data cube, and showed leadership the program's positive returns",
+   "text": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
    "why": "role already full",
-   "score": 10.07
+   "score": 20.18
   },
   {
-   "text": "Led analysts in building a ZIP-code inclusion metric from US Census data that joins to internal advertising data",
+   "text": "Secured new MSN content datasets, built an MSN insights prototype with the team, and took it to sellers and marketing once MSN leaders approved it",
    "why": "others covered the same ground better",
-   "score": 9.79
+   "score": 20.03
+  },
+  {
+   "text": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "why": "others covered the same ground better",
+   "score": 16.22
+  },
+  {
+   "text": "Beat client-engagement targets in both verticals in 2024 (119% and 125%) and met them in late 2023 with automotive at about half capacity",
+   "why": "others covered the same ground better",
+   "score": 15.3
+  },
+  {
+   "text": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "why": "role already full",
+   "score": 14.77
   }
  ],
  "skills": [
-  "Measurement",
-  "Generative AI",
-  "Data pipelines",
-  "Machine learning",
-  "LLM applications",
-  "Dashboards",
-  "Strategy",
-  "Forecasting",
-  "Product analytics",
-  "People management",
-  "Statistics",
   "Stakeholder management",
+  "People management",
+  "Data storytelling",
+  "Public speaking",
+  "Strategy",
   "SQL",
-  "R",
-  "Python",
-  "Revenue Analytics"
+  "Python"
  ],
  "checks": [
   {
    "kind": "years",
    "status": "ok",
-   "detail": "Asks for 10+ years; I have 12."
+   "detail": "Asks for 8+ years; I have 12."
   },
   {
    "kind": "degree",
-   "status": "warn",
-   "detail": "Mentions a PhD; mine: a bachelor's."
+   "status": "info",
+   "detail": "Mentions a master's (as preferred or with an equivalent); mine: a bachelor's."
+  },
+  {
+   "kind": "authorization",
+   "status": "info",
+   "detail": "Asks about work authorization or sponsorship."
+  },
+  {
+   "kind": "location",
+   "status": "info",
+   "detail": "Mentions \"in-office\"; I check it against where I'd work."
   }
  ]
 }
