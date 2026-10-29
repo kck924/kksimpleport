@@ -1,0 +1,2313 @@
+{
+ "id": "z66digwz",
+ "version": "1.4",
+ "created": "2026-10-28",
+ "job": {
+  "title": "Principal, Marketing Analytics",
+  "company": ""
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 14
+ },
+ "fit": 76,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "Bachelor\\u2019s degree or equivalent in a quantitative or technical field, such as Economics, Statistics, Engineering, or Computer Science.<\\/li>",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "n2",
+    "t1",
+    "t11",
+    "p6",
+    "p1",
+    "p4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "10+ years in marketing or GTM analytics at a B2B company.<\\/li>",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "x2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "n2",
+    "t11",
+    "p6",
+    "p1",
+    "p4",
+    "s1",
+    "t1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Experience with account-based strategy, motions, and frameworks, and with marketing lifecycle and deal lifecycle analytics.<\\/li>",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m7",
+    "d1",
+    "m4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "n2",
+    "p6",
+    "p1",
+    "x2",
+    "t11",
+    "m7",
+    "t1",
+    "a1",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "a1",
+    "m10",
+    "p6",
+    "p1",
+    "p4",
+    "s1",
+    "t1",
+    "n2",
+    "t11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "Python or R skills, with clean, tested code.<\\/li>",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "p6",
+    "p1",
+    "p4",
+    "s1",
+    "a1",
+    "e6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r8",
+   "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "t1",
+    "t11",
+    "s1",
+    "x2",
+    "n2",
+    "p6",
+    "p4",
+    "d1",
+    "a1",
+    "m16",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "Knowledge of machine learning models, and the ability to help build and use them in production.<\\/li>",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "p6",
+    "p4",
+    "s1",
+    "t1",
+    "n2",
+    "t11",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r10",
+   "text": "Experience mentoring and developing others.<\\/li><\\/ul>",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "s1",
+    "d1",
+    "m4",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r11",
+   "text": "Bachelor\\u2019s degree or equivalent in a quantitative or technical field, such as Economics, Statistics, Engineering, or Computer Science.<\\/li>",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "n2",
+    "t1",
+    "t11",
+    "p6",
+    "p1",
+    "p4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "10+ years in marketing or GTM analytics at a B2B company.<\\/li>",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "x2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r13",
+   "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "n2",
+    "t11",
+    "p6",
+    "p1",
+    "p4",
+    "s1",
+    "t1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r14",
+   "text": "Experience with account-based strategy, motions, and frameworks, and with marketing lifecycle and deal lifecycle analytics.<\\/li>",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m7",
+    "d1",
+    "m4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r15",
+   "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "n2",
+    "p6",
+    "p1",
+    "x2",
+    "t11",
+    "m7",
+    "t1",
+    "a1",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r16",
+   "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "a1",
+    "m10",
+    "p6",
+    "p1",
+    "p4",
+    "s1",
+    "t1",
+    "n2",
+    "t11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r17",
+   "text": "Python or R skills, with clean, tested code.<\\/li>",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "p6",
+    "p1",
+    "p4",
+    "s1",
+    "a1",
+    "e6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r18",
+   "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "t1",
+    "t11",
+    "s1",
+    "x2",
+    "n2",
+    "p6",
+    "p4",
+    "d1",
+    "a1",
+    "m16",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "Knowledge of machine learning models, and the ability to help build and use them in production.<\\/li>",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "p6",
+    "p4",
+    "s1",
+    "t1",
+    "n2",
+    "t11",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r20",
+   "text": "Experience mentoring and developing others.<\\/li><\\/ul>",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "s1",
+    "d1",
+    "m4",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r21",
+   "text": "Experience designing data and analytics architecture, and recommending which tools and platforms to build, buy, or retire.<\\/li>",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [
+    "m4",
+    "m16"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r22",
+   "text": "Experience building business cases, including cost, value, and total cost of ownership, and influencing senior leaders to reach agreement.<\\/li>",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r23",
+   "text": "A consultative style. You can uncover business pain points and turn them into analysis plans that lead to decisions.<\\/li>",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r24",
+   "text": "Experience designing data and analytics architecture, and recommending which tools and platforms to build, buy, or retire.<\\/li>",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [
+    "m4",
+    "m16"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r25",
+   "text": "Experience building business cases, including cost, value, and total cost of ownership, and influencing senior leaders to reach agreement.<\\/li>",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [
+    "s1"
+   ],
+   "gap": false
+  }
+ ],
+ "picks": [
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 33.57,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "10+ years in marketing or GTM analytics at a B2B company.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Experience with account-based strategy, motions, and frameworks, and with marketing lifecycle and deal lifecycle analytics.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Experience mentoring and developing others.<\\/li><\\/ul>",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "10+ years in marketing or GTM analytics at a B2B company.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Experience with account-based strategy, motions, and frameworks, and with marketing lifecycle and deal lifecycle analytics.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "Experience mentoring and developing others.<\\/li><\\/ul>",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "A consultative style. You can uncover business pain points and turn them into analysis plans that lead to decisions.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "role": "ms-head",
+   "original": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "final": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 21.45,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "10+ years in marketing or GTM analytics at a B2B company.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Experience with account-based strategy, motions, and frameworks, and with marketing lifecycle and deal lifecycle analytics.<\\/li>",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r5",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Experience mentoring and developing others.<\\/li><\\/ul>",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "10+ years in marketing or GTM analytics at a B2B company.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Experience with account-based strategy, motions, and frameworks, and with marketing lifecycle and deal lifecycle analytics.<\\/li>",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r15",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Experience mentoring and developing others.<\\/li><\\/ul>",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Experience designing data and analytics architecture, and recommending which tools and platforms to build, buy, or retire.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Experience designing data and analytics architecture, and recommending which tools and platforms to build, buy, or retire.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "role": "ms-sal",
+   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 38.22,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor\\u2019s degree or equivalent in a quantitative or technical field, such as Economics, Statistics, Engineering, or Computer Science.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r2",
+     "text": "10+ years in marketing or GTM analytics at a B2B company.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Experience with account-based strategy, motions, and frameworks, and with marketing lifecycle and deal lifecycle analytics.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Python or R skills, with clean, tested code.<\\/li>",
+     "skills": [
+      "r"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Knowledge of machine learning models, and the ability to help build and use them in production.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Experience mentoring and developing others.<\\/li><\\/ul>",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Bachelor\\u2019s degree or equivalent in a quantitative or technical field, such as Economics, Statistics, Engineering, or Computer Science.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r12",
+     "text": "10+ years in marketing or GTM analytics at a B2B company.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Experience with account-based strategy, motions, and frameworks, and with marketing lifecycle and deal lifecycle analytics.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Python or R skills, with clean, tested code.<\\/li>",
+     "skills": [
+      "r"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Knowledge of machine learning models, and the ability to help build and use them in production.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Experience mentoring and developing others.<\\/li><\\/ul>",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Experience designing data and analytics architecture, and recommending which tools and platforms to build, buy, or retire.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r22",
+     "text": "Experience building business cases, including cost, value, and total cost of ownership, and influencing senior leaders to reach agreement.<\\/li>",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r23",
+     "text": "A consultative style. You can uncover business pain points and turn them into analysis plans that lead to decisions.<\\/li>",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r24",
+     "text": "Experience designing data and analytics architecture, and recommending which tools and platforms to build, buy, or retire.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Experience building business cases, including cost, value, and total cost of ownership, and influencing senior leaders to reach agreement.<\\/li>",
+     "skills": [],
+     "m": 0.3
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "role": "ms-al",
+   "original": "Created the Marketplace Rebound Gauge, a traffic-light signal of COVID recovery built on moving-average clustering, used in every vertical and later in EMEA",
+   "final": "Created the Marketplace Rebound Gauge, a traffic-light signal of COVID recovery built on moving-average clustering, used in every vertical and later in EMEA",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 20.38,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor\\u2019s degree or equivalent in a quantitative or technical field, such as Economics, Statistics, Engineering, or Computer Science.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "stats",
+      "measurement"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Knowledge of machine learning models, and the ability to help build and use them in production.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Bachelor\\u2019s degree or equivalent in a quantitative or technical field, such as Economics, Statistics, Engineering, or Computer Science.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "stats",
+      "measurement"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Knowledge of machine learning models, and the ability to help build and use them in production.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 8.5,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor\\u2019s degree or equivalent in a quantitative or technical field, such as Economics, Statistics, Engineering, or Computer Science.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "10+ years in marketing or GTM analytics at a B2B company.<\\/li>",
+     "skills": [
+      "revenue"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Experience with account-based strategy, motions, and frameworks, and with marketing lifecycle and deal lifecycle analytics.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Bachelor\\u2019s degree or equivalent in a quantitative or technical field, such as Economics, Statistics, Engineering, or Computer Science.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "10+ years in marketing or GTM analytics at a B2B company.<\\/li>",
+     "skills": [
+      "revenue"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Experience with account-based strategy, motions, and frameworks, and with marketing lifecycle and deal lifecycle analytics.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "role": "hanapin",
+   "original": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "final": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 16.1,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor\\u2019s degree or equivalent in a quantitative or technical field, such as Economics, Statistics, Engineering, or Computer Science.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Experience with account-based strategy, motions, and frameworks, and with marketing lifecycle and deal lifecycle analytics.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [
+      "storytelling",
+      "speaking"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Knowledge of machine learning models, and the ability to help build and use them in production.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Bachelor\\u2019s degree or equivalent in a quantitative or technical field, such as Economics, Statistics, Engineering, or Computer Science.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Experience with account-based strategy, motions, and frameworks, and with marketing lifecycle and deal lifecycle analytics.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [
+      "storytelling",
+      "speaking"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Knowledge of machine learning models, and the ability to help build and use them in production.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 31.43,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "10+ years in marketing or GTM analytics at a B2B company.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Experience with account-based strategy, motions, and frameworks, and with marketing lifecycle and deal lifecycle analytics.<\\/li>",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r8",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Experience mentoring and developing others.<\\/li><\\/ul>",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "10+ years in marketing or GTM analytics at a B2B company.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Experience with account-based strategy, motions, and frameworks, and with marketing lifecycle and deal lifecycle analytics.<\\/li>",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r18",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Experience mentoring and developing others.<\\/li><\\/ul>",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Experience designing data and analytics architecture, and recommending which tools and platforms to build, buy, or retire.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r22",
+     "text": "Experience building business cases, including cost, value, and total cost of ownership, and influencing senior leaders to reach agreement.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "A consultative style. You can uncover business pain points and turn them into analysis plans that lead to decisions.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Experience designing data and analytics architecture, and recommending which tools and platforms to build, buy, or retire.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Experience building business cases, including cost, value, and total cost of ownership, and influencing senior leaders to reach agreement.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "a1",
+   "role": "ms-al",
+   "original": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
+   "final": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 13.67,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Experience with account-based strategy, motions, and frameworks, and with marketing lifecycle and deal lifecycle analytics.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r7",
+     "text": "Python or R skills, with clean, tested code.<\\/li>",
+     "skills": [
+      "r"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Experience with account-based strategy, motions, and frameworks, and with marketing lifecycle and deal lifecycle analytics.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r17",
+     "text": "Python or R skills, with clean, tested code.<\\/li>",
+     "skills": [
+      "r"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Experience designing data and analytics architecture, and recommending which tools and platforms to build, buy, or retire.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Experience designing data and analytics architecture, and recommending which tools and platforms to build, buy, or retire.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "role": "ms-dir",
+   "original": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "final": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 11.78,
+   "matched": [
+    {
+     "req": "r6",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Experience mentoring and developing others.<\\/li><\\/ul>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Experience mentoring and developing others.<\\/li><\\/ul>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r22",
+     "text": "Experience building business cases, including cost, value, and total cost of ownership, and influencing senior leaders to reach agreement.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "A consultative style. You can uncover business pain points and turn them into analysis plans that lead to decisions.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Experience building business cases, including cost, value, and total cost of ownership, and influencing senior leaders to reach agreement.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "t11",
+   "role": "ms-sal",
+   "original": "Used a market concentration index to show senior stakeholders where advertisers faced market risk, and taught the method to peers",
+   "final": "Used a market concentration index to show senior stakeholders where advertisers faced market risk, and taught the method to peers",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 20.26,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor\\u2019s degree or equivalent in a quantitative or technical field, such as Economics, Statistics, Engineering, or Computer Science.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "10+ years in marketing or GTM analytics at a B2B company.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Experience with account-based strategy, motions, and frameworks, and with marketing lifecycle and deal lifecycle analytics.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "stats",
+      "measurement"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Knowledge of machine learning models, and the ability to help build and use them in production.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Bachelor\\u2019s degree or equivalent in a quantitative or technical field, such as Economics, Statistics, Engineering, or Computer Science.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "10+ years in marketing or GTM analytics at a B2B company.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Experience with account-based strategy, motions, and frameworks, and with marketing lifecycle and deal lifecycle analytics.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "stats",
+      "measurement"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Knowledge of machine learning models, and the ability to help build and use them in production.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Experience building business cases, including cost, value, and total cost of ownership, and influencing senior leaders to reach agreement.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Experience building business cases, including cost, value, and total cost of ownership, and influencing senior leaders to reach agreement.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "role": "ms-al",
+   "original": "Wrote R scripts and a tutorial for pulling Twitter data by keyword, hashtag or handle; the whole org got them, and the retail team built a dashboard on them",
+   "final": "Wrote R scripts and a tutorial for pulling Twitter data by keyword, hashtag or handle; the whole org got them, and the retail team built a dashboard on them",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 3.74,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "Python or R skills, with clean, tested code.<\\/li>",
+     "skills": [
+      "r"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Python or R skills, with clean, tested code.<\\/li>",
+     "skills": [
+      "r"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Experience designing data and analytics architecture, and recommending which tools and platforms to build, buy, or retire.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Experience designing data and analytics architecture, and recommending which tools and platforms to build, buy, or retire.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "role": "ms-head",
+   "original": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "final": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 17.03,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "10+ years in marketing or GTM analytics at a B2B company.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Experience with account-based strategy, motions, and frameworks, and with marketing lifecycle and deal lifecycle analytics.<\\/li>",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r9",
+     "text": "Knowledge of machine learning models, and the ability to help build and use them in production.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Experience mentoring and developing others.<\\/li><\\/ul>",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "10+ years in marketing or GTM analytics at a B2B company.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Experience with account-based strategy, motions, and frameworks, and with marketing lifecycle and deal lifecycle analytics.<\\/li>",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r19",
+     "text": "Knowledge of machine learning models, and the ability to help build and use them in production.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "Experience mentoring and developing others.<\\/li><\\/ul>",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Experience designing data and analytics architecture, and recommending which tools and platforms to build, buy, or retire.<\\/li>",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r22",
+     "text": "Experience building business cases, including cost, value, and total cost of ownership, and influencing senior leaders to reach agreement.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Experience designing data and analytics architecture, and recommending which tools and platforms to build, buy, or retire.<\\/li>",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r25",
+     "text": "Experience building business cases, including cost, value, and total cost of ownership, and influencing senior leaders to reach agreement.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m1",
+   "role": "ms-head",
+   "original": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "final": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 14.8,
+   "matched": [
+    {
+     "req": "r5",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Experience mentoring and developing others.<\\/li><\\/ul>",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Experience mentoring and developing others.<\\/li><\\/ul>",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Experience building business cases, including cost, value, and total cost of ownership, and influencing senior leaders to reach agreement.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "A consultative style. You can uncover business pain points and turn them into analysis plans that lead to decisions.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Experience building business cases, including cost, value, and total cost of ownership, and influencing senior leaders to reach agreement.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m16",
+   "role": "ms-head",
+   "original": "Led analysts in building a ZIP-code inclusion metric from US Census data that joins to internal advertising data",
+   "final": "Led analysts in building a ZIP-code inclusion metric from US Census data that joins to internal advertising data",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 9.19,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "Python or R skills, with clean, tested code.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Knowledge of machine learning models, and the ability to help build and use them in production.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Python or R skills, with clean, tested code.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Knowledge of machine learning models, and the ability to help build and use them in production.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r21",
+     "text": "Experience designing data and analytics architecture, and recommending which tools and platforms to build, buy, or retire.<\\/li>",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r22",
+     "text": "Experience building business cases, including cost, value, and total cost of ownership, and influencing senior leaders to reach agreement.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Experience designing data and analytics architecture, and recommending which tools and platforms to build, buy, or retire.<\\/li>",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r25",
+     "text": "Experience building business cases, including cost, value, and total cost of ownership, and influencing senior leaders to reach agreement.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "p6",
+   "role": "proj",
+   "original": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "final": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 45.31,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor\\u2019s degree or equivalent in a quantitative or technical field, such as Economics, Statistics, Engineering, or Computer Science.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [
+      "storytelling",
+      "data-journalism"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Python or R skills, with clean, tested code.<\\/li>",
+     "skills": [
+      "python"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Knowledge of machine learning models, and the ability to help build and use them in production.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Bachelor\\u2019s degree or equivalent in a quantitative or technical field, such as Economics, Statistics, Engineering, or Computer Science.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [
+      "storytelling",
+      "data-journalism"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Python or R skills, with clean, tested code.<\\/li>",
+     "skills": [
+      "python"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Knowledge of machine learning models, and the ability to help build and use them in production.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "role": "proj",
+   "original": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "final": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 39.88,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor\\u2019s degree or equivalent in a quantitative or technical field, such as Economics, Statistics, Engineering, or Computer Science.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [
+      "storytelling",
+      "data-journalism"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Python or R skills, with clean, tested code.<\\/li>",
+     "skills": [
+      "python"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Knowledge of machine learning models, and the ability to help build and use them in production.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Bachelor\\u2019s degree or equivalent in a quantitative or technical field, such as Economics, Statistics, Engineering, or Computer Science.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Proficient presentation skills, with the ability to explain methods, trade-offs, and results to executives and non-technical teams.<\\/li>",
+     "skills": [
+      "storytelling",
+      "data-journalism"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Python or R skills, with clean, tested code.<\\/li>",
+     "skills": [
+      "python"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Knowledge of machine learning models, and the ability to help build and use them in production.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Experience designing data and analytics architecture, and recommending which tools and platforms to build, buy, or retire.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Experience designing data and analytics architecture, and recommending which tools and platforms to build, buy, or retire.<\\/li>",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "p4",
+   "role": "proj",
+   "original": "Robuttal: an arena where AI models from several providers debate, judged by AI with fairness audits and Elo rankings; built with Python, FastAPI and Next.js",
+   "final": "Robuttal: an arena where AI models from several providers debate, judged by AI with fairness audits and Elo rankings; built with Python, FastAPI and Next.js",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 33.5,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor\\u2019s degree or equivalent in a quantitative or technical field, such as Economics, Statistics, Engineering, or Computer Science.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Python or R skills, with clean, tested code.<\\/li>",
+     "skills": [
+      "python"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Knowledge of machine learning models, and the ability to help build and use them in production.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Bachelor\\u2019s degree or equivalent in a quantitative or technical field, such as Economics, Statistics, Engineering, or Computer Science.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Funnel economics and performance modeling experience across sales and marketing data.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Extensive SQL and dbt (or similar), data modeling, and cloud data warehouse experience, preferably BigQuery.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Python or R skills, with clean, tested code.<\\/li>",
+     "skills": [
+      "python"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Hands-on experience with attribution, incrementality testing, and\\/or marketing mix modeling, plus applied statistics.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Knowledge of machine learning models, and the ability to help build and use them in production.<\\/li>",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Misery Battery: scores 98 metro sports fan bases on joy and misery across four leagues since 1976, for any custom set of teams",
+   "why": "role already full",
+   "score": 25.99
+  },
+  {
+   "text": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "why": "others covered the same ground better",
+   "score": 23.43
+  },
+  {
+   "text": "Trading Champion: trading analytics in React and TypeScript with candlestick charts, win-rate distributions and expectancy calculations",
+   "why": "role already full",
+   "score": 19.2
+  },
+  {
+   "text": "Wrote training on time-series decomposition (MACD) and data distributions for the whole analytics org",
+   "why": "role already full",
+   "score": 18.41
+  },
+  {
+   "text": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "why": "others covered the same ground better",
+   "score": 18.07
+  },
+  {
+   "text": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "why": "others covered the same ground better",
+   "score": 17.56
+  },
+  {
+   "text": "Analyzed how travel demand tracked US inflation using external data, work that grew into a full deliverable for sales",
+   "why": "others covered the same ground better",
+   "score": 17.44
+  },
+  {
+   "text": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "why": "others covered the same ground better",
+   "score": 16.23
+  }
+ ],
+ "skills": [
+  "Statistics",
+  "Machine learning",
+  "Team leadership",
+  "Measurement",
+  "Data storytelling",
+  "SQL",
+  "R",
+  "Python",
+  "Product analytics",
+  "Revenue analytics",
+  "Stakeholder management",
+  "Strategy",
+  "Public speaking",
+  "Data modeling",
+  "BigQuery",
+  "Cloud",
+  "Data journalism"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 10+ years; I have 12."
+  },
+  {
+   "kind": "location",
+   "status": "info",
+   "detail": "Mentions \"Onsite\"; I check it against where I'd work."
+  }
+ ]
+}
