@@ -1,0 +1,722 @@
+{
+ "id": "3xdyket3",
+ "version": "1.4",
+ "created": "2026-10-28",
+ "job": {
+  "title": "Head of Global Analytics & Insights",
+  "company": "Ladders"
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 14
+ },
+ "fit": 39,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "12+ years in analytics, insights, or decision science, with 5+ years in leadership roles",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m8",
+    "t3",
+    "m14",
+    "m9",
+    "n2",
+    "m11",
+    "p6",
+    "d1",
+    "s1",
+    "m7",
+    "m4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "Fluency in advanced analytics and experimentation methods",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r3",
+   "text": "Experience in multi-channel retail or consumer goods, particularly DTC and wholesale",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r4",
+   "text": "Proven track record of influencing commercial outcomes through analytics",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [
+    "m7"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "Experience building and evolving analytics organizations and capabilities",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [
+    "m4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "For our client, we are seeking a Head of Global Analytics & Insights to join the team of a leader in the Retail & Consumer Goods space.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m8",
+    "t3",
+    "m14",
+    "m9",
+    "s1",
+    "m7",
+    "m4",
+    "n2",
+    "m11",
+    "p6",
+    "h2"
+   ],
+   "gap": false
+  }
+ ],
+ "picks": [
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 7.38,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years in analytics, insights, or decision science, with 5+ years in leadership roles",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r2",
+     "text": "Fluency in advanced analytics and experimentation methods",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Proven track record of influencing commercial outcomes through analytics",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Experience building and evolving analytics organizations and capabilities",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "For our client, we are seeking a Head of Global Analytics & Insights to join the team of a leader in the Retail & Consumer Goods space.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "m8",
+   "role": "ms-head",
+   "original": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "final": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 6.65,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years in analytics, insights, or decision science, with 5+ years in leadership roles",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r2",
+     "text": "Fluency in advanced analytics and experimentation methods",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Proven track record of influencing commercial outcomes through analytics",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Experience building and evolving analytics organizations and capabilities",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "For our client, we are seeking a Head of Global Analytics & Insights to join the team of a leader in the Retail & Consumer Goods space.",
+     "skills": [
+      "leadership",
+      "storytelling"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "role": "ms-sal",
+   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 4.16,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years in analytics, insights, or decision science, with 5+ years in leadership roles",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r2",
+     "text": "Fluency in advanced analytics and experimentation methods",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Proven track record of influencing commercial outcomes through analytics",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Experience building and evolving analytics organizations and capabilities",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "For our client, we are seeking a Head of Global Analytics & Insights to join the team of a leader in the Retail & Consumer Goods space.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "role": "ms-al",
+   "original": "Created Bite-Sized Insights, a short format adopted across verticals and regions; the first put the team on record about COVID a month before the travel industry",
+   "final": "Created Bite-Sized Insights, a short format adopted across verticals and regions; the first put the team on record about COVID a month before the travel industry",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 3.84,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years in analytics, insights, or decision science, with 5+ years in leadership roles",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r4",
+     "text": "Proven track record of influencing commercial outcomes through analytics",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "For our client, we are seeking a Head of Global Analytics & Insights to join the team of a leader in the Retail & Consumer Goods space.",
+     "skills": [
+      "leadership",
+      "storytelling"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "x1",
+   "role": "deluxe",
+   "original": "Managed search and display advertising on Google, Bing and Yahoo for 11 direct-to-consumer brands, and coordinated it with the affiliate and SEO programs",
+   "final": "Managed search and display advertising on Google, Bing and Yahoo for 11 direct-to-consumer brands, and coordinated it with the affiliate and SEO programs",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 0.45,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Experience in multi-channel retail or consumer goods, particularly DTC and wholesale",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "For our client, we are seeking a Head of Global Analytics & Insights to join the team of a leader in the Retail & Consumer Goods space.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "role": "hanapin",
+   "original": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "final": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 1.65,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years in analytics, insights, or decision science, with 5+ years in leadership roles",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "For our client, we are seeking a Head of Global Analytics & Insights to join the team of a leader in the Retail & Consumer Goods space.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "role": "ms-head",
+   "original": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "final": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 5.7,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years in analytics, insights, or decision science, with 5+ years in leadership roles",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r2",
+     "text": "Fluency in advanced analytics and experimentation methods",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Proven track record of influencing commercial outcomes through analytics",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r5",
+     "text": "Experience building and evolving analytics organizations and capabilities",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "For our client, we are seeking a Head of Global Analytics & Insights to join the team of a leader in the Retail & Consumer Goods space.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m14",
+   "role": "ms-head",
+   "original": "Took over a late, multi-team Copilot insights project for Cannes 2025, gave it structure and simplified it to keep it on schedule",
+   "final": "Took over a late, multi-team Copilot insights project for Cannes 2025, gave it structure and simplified it to keep it on schedule",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 4.64,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years in analytics, insights, or decision science, with 5+ years in leadership roles",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r3",
+     "text": "Experience in multi-channel retail or consumer goods, particularly DTC and wholesale",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "For our client, we are seeking a Head of Global Analytics & Insights to join the team of a leader in the Retail & Consumer Goods space.",
+     "skills": [
+      "leadership",
+      "storytelling"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "role": "ms-head",
+   "original": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "final": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 4.93,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years in analytics, insights, or decision science, with 5+ years in leadership roles",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r2",
+     "text": "Fluency in advanced analytics and experimentation methods",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Proven track record of influencing commercial outcomes through analytics",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Experience building and evolving analytics organizations and capabilities",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r6",
+     "text": "For our client, we are seeking a Head of Global Analytics & Insights to join the team of a leader in the Retail & Consumer Goods space.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "role": "ms-dir",
+   "original": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "final": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 4.97,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years in analytics, insights, or decision science, with 5+ years in leadership roles",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "Fluency in advanced analytics and experimentation methods",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "For our client, we are seeking a Head of Global Analytics & Insights to join the team of a leader in the Retail & Consumer Goods space.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 7.12,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years in analytics, insights, or decision science, with 5+ years in leadership roles",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "For our client, we are seeking a Head of Global Analytics & Insights to join the team of a leader in the Retail & Consumer Goods space.",
+     "skills": [
+      "leadership",
+      "storytelling"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "role": "ms-al",
+   "original": "Wrote R scripts and a tutorial for pulling Twitter data by keyword, hashtag or handle; the whole org got them, and the retail team built a dashboard on them",
+   "final": "Wrote R scripts and a tutorial for pulling Twitter data by keyword, hashtag or handle; the whole org got them, and the retail team built a dashboard on them",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 0.39,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Experience in multi-channel retail or consumer goods, particularly DTC and wholesale",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "For our client, we are seeking a Head of Global Analytics & Insights to join the team of a leader in the Retail & Consumer Goods space.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "role": "ms-head",
+   "original": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "final": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 2.58,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years in analytics, insights, or decision science, with 5+ years in leadership roles",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "Fluency in advanced analytics and experimentation methods",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Proven track record of influencing commercial outcomes through analytics",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Experience building and evolving analytics organizations and capabilities",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "For our client, we are seeking a Head of Global Analytics & Insights to join the team of a leader in the Retail & Consumer Goods space.",
+     "skills": [],
+     "m": 0.3
+    }
+   ]
+  },
+  {
+   "id": "p5",
+   "role": "proj",
+   "original": "Beasts of Bellevue: full-stack fantasy football analytics dashboard with 40+ components, built in React and deployed on Firebase",
+   "final": "Beasts of Bellevue: full-stack fantasy football analytics dashboard with 40+ components, built in React and deployed on Firebase",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 2.23,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years in analytics, insights, or decision science, with 5+ years in leadership roles",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "Fluency in advanced analytics and experimentation methods",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Proven track record of influencing commercial outcomes through analytics",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Experience building and evolving analytics organizations and capabilities",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "For our client, we are seeking a Head of Global Analytics & Insights to join the team of a leader in the Retail & Consumer Goods space.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "p6",
+   "role": "proj",
+   "original": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "final": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 3.99,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years in analytics, insights, or decision science, with 5+ years in leadership roles",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "For our client, we are seeking a Head of Global Analytics & Insights to join the team of a leader in the Retail & Consumer Goods space.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "why": "others covered the same ground better",
+   "score": 5.67
+  },
+  {
+   "text": "Ran a roundtable with a regional sales VP's leadership team to answer their doubts about advanced analytics",
+   "why": "role already full",
+   "score": 5.46
+  },
+  {
+   "text": "Secured new MSN content datasets, built an MSN insights prototype with the team, and took it to sellers and marketing once MSN leaders approved it",
+   "why": "role already full",
+   "score": 4.07
+  },
+  {
+   "text": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "why": "others covered the same ground better",
+   "score": 3.96
+  },
+  {
+   "text": "When Did Purple Become a Halloween Color?: pixel analysis of 3,000 images, from vintage postcards to 27 years of Google Doodles, with Python and D3",
+   "why": "others covered the same ground better",
+   "score": 3.63
+  },
+  {
+   "text": "Wrote training on time-series decomposition (MACD) and data distributions for the whole analytics org",
+   "why": "others covered the same ground better",
+   "score": 3.42
+  },
+  {
+   "text": "Developed query network analysis and taught it on the org's training call; teams in 6 verticals used it",
+   "why": "others covered the same ground better",
+   "score": 3.17
+  },
+  {
+   "text": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "why": "others covered the same ground better",
+   "score": 2.94
+  }
+ ],
+ "skills": [
+  "Data storytelling",
+  "Team leadership"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 12+ years; I have 12."
+  }
+ ]
+}
