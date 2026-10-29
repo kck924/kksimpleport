@@ -1,0 +1,1603 @@
+{
+ "id": "khs4k5rb",
+ "version": "1.5",
+ "created": "2026-10-29",
+ "job": {
+  "title": "Analytics Engineer",
+  "company": "Reddit"
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 14
+ },
+ "fit": 67,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "3+ years of experience working with large-scale ETL systems (implementation, strategy, and maintenance), building clean, maintainable code and systems (Python preferred) in a pr\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m12",
+    "m7",
+    "m15",
+    "h2",
+    "d1",
+    "t10",
+    "p14",
+    "p1",
+    "p3",
+    "m19"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "Strong programming proficiency in Python, SQL, Spark, Scala, etc.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "p3",
+    "a1",
+    "m10",
+    "p14",
+    "p1",
+    "m12",
+    "m19"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "Experience with data modeling, ETL and ELT concepts, and patterns for efficient data governance. Experience with manipulating massive-scale structured and unstructured data.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "e11",
+    "m12",
+    "m19",
+    "p1",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Experience with data workflows (such as Airflow), data modeling, front-end or back-end engineering.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "e11",
+    "m12",
+    "m19",
+    "p1",
+    "s1",
+    "p3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "Experience in data analysis and dashboard design.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "m10",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "Proven track record of cross-functional execution and collaboration.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m7",
+    "a1",
+    "x2",
+    "n1",
+    "m11",
+    "m15",
+    "h2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "Agentic AI-assisted development experience.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "p14",
+    "p3",
+    "m12",
+    "m10",
+    "m11",
+    "m7",
+    "m15",
+    "d1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r8",
+   "text": "Excellent communication skills to collaborate with cross-functional stakeholders at all levels of the company, of differing levels of technical acumen.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m11",
+    "m7",
+    "a1",
+    "x2",
+    "n1",
+    "m15",
+    "h2",
+    "m12",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "Bachelor's degree in computer science or a quant educational field",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r10",
+   "text": "Deep understanding of technical and functional designs for relational and MPP Databases.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r11",
+   "text": "Self-starter, ability to work independently and autonomously, as well as part of a team.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r12",
+   "text": "Check out our r/RedditEng post to learn more about the team, and what we do: https://www.reddit.com/r/RedditEng/comments/1mnmf71/analytics_engineering_reddit/",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r13",
+   "text": "Successful candidates have a strong track record of understanding and deeply caring about the purpose of data to support business goals, and can act as an effective conduit betw\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m12",
+    "m19",
+    "m7",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r14",
+   "text": "Manage a portfolio of data products that deliver high-quality, trustworthy data",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m11",
+    "m19",
+    "m10",
+    "p14"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r15",
+   "text": "Develop and maintain robust data pipelines and workflows for data ingestion, processing, and transformation. Work closely with engineering to ensure the quality and reliability \u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m12",
+    "m19"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r16",
+   "text": "Develop and implement data quality checks, conduct QA and implement monitoring routines",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r17",
+   "text": "Create tools and applications for internal use that streamline data analysis and reporting. Drive widespread adoption of these tools and applications with a relentless focus on \u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "s1",
+    "m10",
+    "m11",
+    "m12",
+    "m19"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r18",
+   "text": "Serve as a thought partner for data scientists, engineering managers, and leadership on data foundations, communicating and shaping the data foundations roadmap and strategy for\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m12",
+    "m7",
+    "m15",
+    "h2",
+    "d1",
+    "t10",
+    "s1",
+    "a1",
+    "x2",
+    "n1",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "Be a key contributor and collaborator to the success of data quality, performance, reliability, and automation initiatives.",
+   "kind": "other",
+   "weight": 1.5,
+   "coveredBy": [
+    "m12",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r20",
+   "text": "Create and manage new data integrations across internal and external systems",
+   "kind": "other",
+   "weight": 1.5,
+   "coveredBy": [],
+   "gap": true
+  }
+ ],
+ "picks": [
+  {
+   "id": "m12",
+   "role": "ms-dir",
+   "original": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "final": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 25.93,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "3+ years of experience working with large-scale ETL systems (implementation, strategy, and maintenance), building clean, maintainable code and systems (Python preferred) in a pr\u2026",
+     "skills": [
+      "strategy",
+      "pipelines"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r2",
+     "text": "Strong programming proficiency in Python, SQL, Spark, Scala, etc.",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Experience with data modeling, ETL and ELT concepts, and patterns for efficient data governance. Experience with manipulating massive-scale structured and unstructured data.",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Experience with data workflows (such as Airflow), data modeling, front-end or back-end engineering.",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Experience in data analysis and dashboard design.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "Agentic AI-assisted development experience.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Excellent communication skills to collaborate with cross-functional stakeholders at all levels of the company, of differing levels of technical acumen.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Successful candidates have a strong track record of understanding and deeply caring about the purpose of data to support business goals, and can act as an effective conduit betw\u2026",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r14",
+     "text": "Manage a portfolio of data products that deliver high-quality, trustworthy data",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Develop and maintain robust data pipelines and workflows for data ingestion, processing, and transformation. Work closely with engineering to ensure the quality and reliability \u2026",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r16",
+     "text": "Develop and implement data quality checks, conduct QA and implement monitoring routines",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Create tools and applications for internal use that streamline data analysis and reporting. Drive widespread adoption of these tools and applications with a relentless focus on \u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r18",
+     "text": "Serve as a thought partner for data scientists, engineering managers, and leadership on data foundations, communicating and shaping the data foundations roadmap and strategy for\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Be a key contributor and collaborator to the success of data quality, performance, reliability, and automation initiatives.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r20",
+     "text": "Create and manage new data integrations across internal and external systems",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "role": "ms-head",
+   "original": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "final": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 16.58,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "3+ years of experience working with large-scale ETL systems (implementation, strategy, and maintenance), building clean, maintainable code and systems (Python preferred) in a pr\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Proven track record of cross-functional execution and collaboration.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Agentic AI-assisted development experience.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Excellent communication skills to collaborate with cross-functional stakeholders at all levels of the company, of differing levels of technical acumen.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Successful candidates have a strong track record of understanding and deeply caring about the purpose of data to support business goals, and can act as an effective conduit betw\u2026",
+     "skills": [],
+     "m": 0.45
+    },
+    {
+     "req": "r18",
+     "text": "Serve as a thought partner for data scientists, engineering managers, and leadership on data foundations, communicating and shaping the data foundations roadmap and strategy for\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "role": "ms-sal",
+   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 10.5,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Experience with data modeling, ETL and ELT concepts, and patterns for efficient data governance. Experience with manipulating massive-scale structured and unstructured data.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Experience with data workflows (such as Airflow), data modeling, front-end or back-end engineering.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Experience in data analysis and dashboard design.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Excellent communication skills to collaborate with cross-functional stakeholders at all levels of the company, of differing levels of technical acumen.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Deep understanding of technical and functional designs for relational and MPP Databases.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Successful candidates have a strong track record of understanding and deeply caring about the purpose of data to support business goals, and can act as an effective conduit betw\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Create tools and applications for internal use that streamline data analysis and reporting. Drive widespread adoption of these tools and applications with a relentless focus on \u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Serve as a thought partner for data scientists, engineering managers, and leadership on data foundations, communicating and shaping the data foundations roadmap and strategy for\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "a1",
+   "role": "ms-al",
+   "original": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
+   "final": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 7.72,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Strong programming proficiency in Python, SQL, Spark, Scala, etc.",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Experience with data modeling, ETL and ELT concepts, and patterns for efficient data governance. Experience with manipulating massive-scale structured and unstructured data.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Experience with data workflows (such as Airflow), data modeling, front-end or back-end engineering.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Experience in data analysis and dashboard design.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Proven track record of cross-functional execution and collaboration.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Excellent communication skills to collaborate with cross-functional stakeholders at all levels of the company, of differing levels of technical acumen.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Successful candidates have a strong track record of understanding and deeply caring about the purpose of data to support business goals, and can act as an effective conduit betw\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Manage a portfolio of data products that deliver high-quality, trustworthy data",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Develop and maintain robust data pipelines and workflows for data ingestion, processing, and transformation. Work closely with engineering to ensure the quality and reliability \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Develop and implement data quality checks, conduct QA and implement monitoring routines",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Create tools and applications for internal use that streamline data analysis and reporting. Drive widespread adoption of these tools and applications with a relentless focus on \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Serve as a thought partner for data scientists, engineering managers, and leadership on data foundations, communicating and shaping the data foundations roadmap and strategy for\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Be a key contributor and collaborator to the success of data quality, performance, reliability, and automation initiatives.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "Create and manage new data integrations across internal and external systems",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 3.65,
+   "matched": [
+    {
+     "req": "r4",
+     "text": "Experience with data workflows (such as Airflow), data modeling, front-end or back-end engineering.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Proven track record of cross-functional execution and collaboration.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Excellent communication skills to collaborate with cross-functional stakeholders at all levels of the company, of differing levels of technical acumen.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Check out our r/RedditEng post to learn more about the team, and what we do: https://www.reddit.com/r/RedditEng/comments/1mnmf71/analytics_engineering_reddit/",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Successful candidates have a strong track record of understanding and deeply caring about the purpose of data to support business goals, and can act as an effective conduit betw\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Develop and maintain robust data pipelines and workflows for data ingestion, processing, and transformation. Work closely with engineering to ensure the quality and reliability \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Create tools and applications for internal use that streamline data analysis and reporting. Drive widespread adoption of these tools and applications with a relentless focus on \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Serve as a thought partner for data scientists, engineering managers, and leadership on data foundations, communicating and shaping the data foundations roadmap and strategy for\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "n1",
+   "role": "hanapin",
+   "original": "Ran client relationships and strategy for search and display accounts on Google Ads, Bing Ads and Yahoo, including optimization, monitoring and reporting",
+   "final": "Ran client relationships and strategy for search and display accounts on Google Ads, Bing Ads and Yahoo, including optimization, monitoring and reporting",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 4.04,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "3+ years of experience working with large-scale ETL systems (implementation, strategy, and maintenance), building clean, maintainable code and systems (Python preferred) in a pr\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Proven track record of cross-functional execution and collaboration.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Excellent communication skills to collaborate with cross-functional stakeholders at all levels of the company, of differing levels of technical acumen.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Develop and implement data quality checks, conduct QA and implement monitoring routines",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Create tools and applications for internal use that streamline data analysis and reporting. Drive widespread adoption of these tools and applications with a relentless focus on \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Serve as a thought partner for data scientists, engineering managers, and leadership on data foundations, communicating and shaping the data foundations roadmap and strategy for\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "role": "ms-dir",
+   "original": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "final": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 19.52,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Strong programming proficiency in Python, SQL, Spark, Scala, etc.",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Experience in data analysis and dashboard design.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Agentic AI-assisted development experience.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Successful candidates have a strong track record of understanding and deeply caring about the purpose of data to support business goals, and can act as an effective conduit betw\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Manage a portfolio of data products that deliver high-quality, trustworthy data",
+     "skills": [
+      "data-products"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Develop and maintain robust data pipelines and workflows for data ingestion, processing, and transformation. Work closely with engineering to ensure the quality and reliability \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Develop and implement data quality checks, conduct QA and implement monitoring routines",
+     "skills": [
+      "anomaly"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r17",
+     "text": "Create tools and applications for internal use that streamline data analysis and reporting. Drive widespread adoption of these tools and applications with a relentless focus on \u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "role": "ms-dir",
+   "original": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "final": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 20.93,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Experience with data modeling, ETL and ELT concepts, and patterns for efficient data governance. Experience with manipulating massive-scale structured and unstructured data.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Experience with data workflows (such as Airflow), data modeling, front-end or back-end engineering.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Experience in data analysis and dashboard design.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r6",
+     "text": "Proven track record of cross-functional execution and collaboration.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Agentic AI-assisted development experience.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Excellent communication skills to collaborate with cross-functional stakeholders at all levels of the company, of differing levels of technical acumen.",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "Successful candidates have a strong track record of understanding and deeply caring about the purpose of data to support business goals, and can act as an effective conduit betw\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r14",
+     "text": "Manage a portfolio of data products that deliver high-quality, trustworthy data",
+     "skills": [
+      "data-products"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Develop and maintain robust data pipelines and workflows for data ingestion, processing, and transformation. Work closely with engineering to ensure the quality and reliability \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Develop and implement data quality checks, conduct QA and implement monitoring routines",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Create tools and applications for internal use that streamline data analysis and reporting. Drive widespread adoption of these tools and applications with a relentless focus on \u2026",
+     "skills": [],
+     "m": 0.45
+    },
+    {
+     "req": "r18",
+     "text": "Serve as a thought partner for data scientists, engineering managers, and leadership on data foundations, communicating and shaping the data foundations roadmap and strategy for\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Be a key contributor and collaborator to the success of data quality, performance, reliability, and automation initiatives.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r20",
+     "text": "Create and manage new data integrations across internal and external systems",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m15",
+   "role": "ms-dir",
+   "original": "Represented the analytics team in shaping an AI survey with an outside agency before fielding, and brought team members into the research",
+   "final": "Represented the analytics team in shaping an AI survey with an outside agency before fielding, and brought team members into the research",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 10.71,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "3+ years of experience working with large-scale ETL systems (implementation, strategy, and maintenance), building clean, maintainable code and systems (Python preferred) in a pr\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Proven track record of cross-functional execution and collaboration.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Agentic AI-assisted development experience.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Excellent communication skills to collaborate with cross-functional stakeholders at all levels of the company, of differing levels of technical acumen.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Bachelor's degree in computer science or a quant educational field",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Serve as a thought partner for data scientists, engineering managers, and leadership on data foundations, communicating and shaping the data foundations roadmap and strategy for\u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "m19",
+   "role": "ms-head",
+   "original": "Added Microsoft Clarity behavioral data to the team's query-pathing tool",
+   "final": "Added Microsoft Clarity behavioral data to the team's query-pathing tool",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 13.6,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "3+ years of experience working with large-scale ETL systems (implementation, strategy, and maintenance), building clean, maintainable code and systems (Python preferred) in a pr\u2026",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "Strong programming proficiency in Python, SQL, Spark, Scala, etc.",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Experience with data modeling, ETL and ELT concepts, and patterns for efficient data governance. Experience with manipulating massive-scale structured and unstructured data.",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Experience with data workflows (such as Airflow), data modeling, front-end or back-end engineering.",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Experience in data analysis and dashboard design.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Successful candidates have a strong track record of understanding and deeply caring about the purpose of data to support business goals, and can act as an effective conduit betw\u2026",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Manage a portfolio of data products that deliver high-quality, trustworthy data",
+     "skills": [
+      "data-products"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Develop and maintain robust data pipelines and workflows for data ingestion, processing, and transformation. Work closely with engineering to ensure the quality and reliability \u2026",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r16",
+     "text": "Develop and implement data quality checks, conduct QA and implement monitoring routines",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Create tools and applications for internal use that streamline data analysis and reporting. Drive widespread adoption of these tools and applications with a relentless focus on \u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r18",
+     "text": "Serve as a thought partner for data scientists, engineering managers, and leadership on data foundations, communicating and shaping the data foundations roadmap and strategy for\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "Be a key contributor and collaborator to the success of data quality, performance, reliability, and automation initiatives.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "Create and manage new data integrations across internal and external systems",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "role": "ms-head",
+   "original": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "final": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 11.36,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "3+ years of experience working with large-scale ETL systems (implementation, strategy, and maintenance), building clean, maintainable code and systems (Python preferred) in a pr\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Experience with data workflows (such as Airflow), data modeling, front-end or back-end engineering.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Proven track record of cross-functional execution and collaboration.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Excellent communication skills to collaborate with cross-functional stakeholders at all levels of the company, of differing levels of technical acumen.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Check out our r/RedditEng post to learn more about the team, and what we do: https://www.reddit.com/r/RedditEng/comments/1mnmf71/analytics_engineering_reddit/",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Successful candidates have a strong track record of understanding and deeply caring about the purpose of data to support business goals, and can act as an effective conduit betw\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Manage a portfolio of data products that deliver high-quality, trustworthy data",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Develop and maintain robust data pipelines and workflows for data ingestion, processing, and transformation. Work closely with engineering to ensure the quality and reliability \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Serve as a thought partner for data scientists, engineering managers, and leadership on data foundations, communicating and shaping the data foundations roadmap and strategy for\u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 11.1,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "3+ years of experience working with large-scale ETL systems (implementation, strategy, and maintenance), building clean, maintainable code and systems (Python preferred) in a pr\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Agentic AI-assisted development experience.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Serve as a thought partner for data scientists, engineering managers, and leadership on data foundations, communicating and shaping the data foundations roadmap and strategy for\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "role": "ms-al",
+   "original": "Built a network-science proof of concept for search funnels that became a planned playbook deliverable",
+   "final": "Built a network-science proof of concept for search funnels that became a planned playbook deliverable",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 3.22,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Experience with data modeling, ETL and ELT concepts, and patterns for efficient data governance. Experience with manipulating massive-scale structured and unstructured data.",
+     "skills": [
+      "stats",
+      "ml"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Experience with data workflows (such as Airflow), data modeling, front-end or back-end engineering.",
+     "skills": [
+      "stats",
+      "ml"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Bachelor's degree in computer science or a quant educational field",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Successful candidates have a strong track record of understanding and deeply caring about the purpose of data to support business goals, and can act as an effective conduit betw\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "t10",
+   "role": "ms-sal",
+   "original": "Designed and ran a pilot matching analytics products to sales needs, to make the case for new headcount",
+   "final": "Designed and ran a pilot matching analytics products to sales needs, to make the case for new headcount",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 3.21,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "3+ years of experience working with large-scale ETL systems (implementation, strategy, and maintenance), building clean, maintainable code and systems (Python preferred) in a pr\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Experience in data analysis and dashboard design.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Deep understanding of technical and functional designs for relational and MPP Databases.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Manage a portfolio of data products that deliver high-quality, trustworthy data",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Serve as a thought partner for data scientists, engineering managers, and leadership on data foundations, communicating and shaping the data foundations roadmap and strategy for\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "p14",
+   "role": "proj",
+   "original": "Resume curator: scores my experience against each job posting, lets Claude suggest wording that I approve line by line, and publishes a receipt for every choice",
+   "final": "Resume curator: scores my experience against each job posting, lets Claude suggest wording that I approve line by line, and publishes a receipt for every choice",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 11.44,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "3+ years of experience working with large-scale ETL systems (implementation, strategy, and maintenance), building clean, maintainable code and systems (Python preferred) in a pr\u2026",
+     "skills": [
+      "python"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Strong programming proficiency in Python, SQL, Spark, Scala, etc.",
+     "skills": [
+      "python"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Agentic AI-assisted development experience.",
+     "skills": [
+      "genai",
+      "llm-apps"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r12",
+     "text": "Check out our r/RedditEng post to learn more about the team, and what we do: https://www.reddit.com/r/RedditEng/comments/1mnmf71/analytics_engineering_reddit/",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Manage a portfolio of data products that deliver high-quality, trustworthy data",
+     "skills": [
+      "data-products"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "role": "proj",
+   "original": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "final": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 16.91,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "3+ years of experience working with large-scale ETL systems (implementation, strategy, and maintenance), building clean, maintainable code and systems (Python preferred) in a pr\u2026",
+     "skills": [
+      "python"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Strong programming proficiency in Python, SQL, Spark, Scala, etc.",
+     "skills": [
+      "python"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Experience with data modeling, ETL and ELT concepts, and patterns for efficient data governance. Experience with manipulating massive-scale structured and unstructured data.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Experience with data workflows (such as Airflow), data modeling, front-end or back-end engineering.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Experience in data analysis and dashboard design.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Excellent communication skills to collaborate with cross-functional stakeholders at all levels of the company, of differing levels of technical acumen.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Successful candidates have a strong track record of understanding and deeply caring about the purpose of data to support business goals, and can act as an effective conduit betw\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Manage a portfolio of data products that deliver high-quality, trustworthy data",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Develop and maintain robust data pipelines and workflows for data ingestion, processing, and transformation. Work closely with engineering to ensure the quality and reliability \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Develop and implement data quality checks, conduct QA and implement monitoring routines",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Create tools and applications for internal use that streamline data analysis and reporting. Drive widespread adoption of these tools and applications with a relentless focus on \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Serve as a thought partner for data scientists, engineering managers, and leadership on data foundations, communicating and shaping the data foundations roadmap and strategy for\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "Be a key contributor and collaborator to the success of data quality, performance, reliability, and automation initiatives.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "Create and manage new data integrations across internal and external systems",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "role": "proj",
+   "original": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "final": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 14.07,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "3+ years of experience working with large-scale ETL systems (implementation, strategy, and maintenance), building clean, maintainable code and systems (Python preferred) in a pr\u2026",
+     "skills": [
+      "python"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Strong programming proficiency in Python, SQL, Spark, Scala, etc.",
+     "skills": [
+      "sql",
+      "python"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Experience with data workflows (such as Airflow), data modeling, front-end or back-end engineering.",
+     "skills": [
+      "react"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Agentic AI-assisted development experience.",
+     "skills": [
+      "genai",
+      "llm-apps"
+     ],
+     "m": 1
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Robuttal: an arena where AI models from several providers debate, judged by AI with fairness audits and Elo rankings; built with Python, FastAPI and Next.js",
+   "why": "role already full",
+   "score": 15.4
+  },
+  {
+   "text": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "why": "role already full",
+   "score": 15.25
+  },
+  {
+   "text": "Misery Battery: scores 98 metro sports fan bases on joy and misery across four leagues since 1976, for any custom set of teams",
+   "why": "role already full",
+   "score": 10.54
+  },
+  {
+   "text": "OviGoals.com: animated visualization of all 912+ Alex Ovechkin goals, with a rink shot map and career comparisons",
+   "why": "role already full",
+   "score": 10.1
+  },
+  {
+   "text": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "why": "others covered the same ground better",
+   "score": 9.53
+  },
+  {
+   "text": "Took over measurement of a cross-Microsoft partner program, defined its scope, won direct access to the data cube, and showed leadership the program's positive returns",
+   "why": "others covered the same ground better",
+   "score": 9.26
+  },
+  {
+   "text": "When Did Purple Become a Halloween Color?: pixel analysis of 3,000 images, from vintage postcards to 27 years of Google Doodles, with Python and D3",
+   "why": "role already full",
+   "score": 8.99
+  },
+  {
+   "text": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "why": "role already full",
+   "score": 8.88
+  }
+ ],
+ "skills": [
+  "Data pipelines",
+  "Stakeholder management",
+  "Statistics",
+  "Python",
+  "Machine learning",
+  "Dashboards",
+  "Strategy",
+  "Data storytelling",
+  "Generative AI",
+  "SQL",
+  "LLM applications",
+  "React",
+  "Team leadership",
+  "Anomaly detection",
+  "Data products"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 3+ years; I have 12."
+  },
+  {
+   "kind": "degree",
+   "status": "ok",
+   "detail": "Mentions a bachelor's; mine: a bachelor's."
+  },
+  {
+   "kind": "field",
+   "status": "warn",
+   "detail": "Names a field of study (computer science); mine: B.A., Jazz Guitar Performance, so my experience has to cover this one."
+  }
+ ]
+}
