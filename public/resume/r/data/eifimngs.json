@@ -1,0 +1,1220 @@
+{
+ "id": "eifimngs",
+ "version": "1.5",
+ "created": "2026-10-29",
+ "job": {
+  "title": "Senior Director, Data Science Job Details | Paramount",
+  "company": ""
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 14
+ },
+ "fit": 69,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "Bachelor's degree in a quantitative field (Statistics, Economics, Data Science, or Computer Science).",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "n2",
+    "t1",
+    "t9",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "10+ years in data science/analytics. This covers hands-on and team-leading work. It spans causal inference methods (diff-in-diff, propensity matching, instrumental variables, up\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "d1",
+    "m1",
+    "p6",
+    "t1",
+    "n2",
+    "m3",
+    "t9",
+    "e3",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "Experience designing and analyzing A/B tests and experiments at scale, handling common pitfalls (novelty and network effects, selection bias).",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "t9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Built or run LTV, survival, or churn models. Turned them into financial metrics (ARPU, retention curves).",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "t1",
+    "t9",
+    "d1",
+    "t2",
+    "m16",
+    "p6",
+    "s1",
+    "x2",
+    "n2",
+    "e3",
+    "m10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "Strong SQL skills and a stats language (Python or R) for causal modeling.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "p6",
+    "t1",
+    "n2",
+    "m10",
+    "t9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "A proven track record leading and growing a team of data scientists or analysts.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "m1",
+    "s1",
+    "m3",
+    "e3",
+    "m16"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "A clear communicator who can present complex work to senior leaders and shape decisions.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "n2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r8",
+   "text": "Know pricing awareness/elasticity work. Design smart promos.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "x2",
+    "m3",
+    "t5"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "Skilled in subscriber/customer journey mapping.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "t2",
+    "m16",
+    "p8",
+    "p12"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r10",
+   "text": "Skilled in Bayesian or ML-based causal techniques (e.g., double machine learning, causal forests).",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "t1",
+    "n2",
+    "t9",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r11",
+   "text": "Familiarity with cloud data warehousing/BI tools (e.g., BigQuery, Databricks, Looker, Tableau).",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m10",
+    "t2",
+    "p12",
+    "s1",
+    "p8"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "Skydance is a next-generation global media and entertainment company, comprised of three business segments: Studios, Direct-to-Consumer, and TV Media. Skydance's portfolio unite\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "m10",
+    "m11",
+    "p6",
+    "m1",
+    "t1",
+    "n2",
+    "t2",
+    "m3",
+    "m16",
+    "t9",
+    "t5"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r13",
+   "text": "Experience working across Marketing, Product, and Finance teams.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [
+    "x2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r14",
+   "text": "CBS News and Stations",
+   "kind": "other",
+   "weight": 1.5,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r15",
+   "text": "Paramount Networks International",
+   "kind": "other",
+   "weight": 1.5,
+   "coveredBy": [],
+   "gap": true
+  }
+ ],
+ "picks": [
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 19.92,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "10+ years in data science/analytics. This covers hands-on and team-leading work. It spans causal inference methods (diff-in-diff, propensity matching, instrumental variables, up\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r4",
+     "text": "Built or run LTV, survival, or churn models. Turned them into financial metrics (ARPU, retention curves).",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "A proven track record leading and growing a team of data scientists or analysts.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r7",
+     "text": "A clear communicator who can present complex work to senior leaders and shape decisions.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Skydance is a next-generation global media and entertainment company, comprised of three business segments: Studios, Direct-to-Consumer, and TV Media. Skydance's portfolio unite\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m1",
+   "role": "ms-head",
+   "original": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "final": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 12.75,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "10+ years in data science/analytics. This covers hands-on and team-leading work. It spans causal inference methods (diff-in-diff, propensity matching, instrumental variables, up\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Built or run LTV, survival, or churn models. Turned them into financial metrics (ARPU, retention curves).",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "A proven track record leading and growing a team of data scientists or analysts.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "A clear communicator who can present complex work to senior leaders and shape decisions.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Skydance is a next-generation global media and entertainment company, comprised of three business segments: Studios, Direct-to-Consumer, and TV Media. Skydance's portfolio unite\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "role": "ms-sal",
+   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 19.06,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor's degree in a quantitative field (Statistics, Economics, Data Science, or Computer Science).",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "10+ years in data science/analytics. This covers hands-on and team-leading work. It spans causal inference methods (diff-in-diff, propensity matching, instrumental variables, up\u2026",
+     "skills": [
+      "leadership",
+      "stats"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Built or run LTV, survival, or churn models. Turned them into financial metrics (ARPU, retention curves).",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Strong SQL skills and a stats language (Python or R) for causal modeling.",
+     "skills": [
+      "stats",
+      "r"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "A proven track record leading and growing a team of data scientists or analysts.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "A clear communicator who can present complex work to senior leaders and shape decisions.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Skilled in Bayesian or ML-based causal techniques (e.g., double machine learning, causal forests).",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Familiarity with cloud data warehousing/BI tools (e.g., BigQuery, Databricks, Looker, Tableau).",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Skydance is a next-generation global media and entertainment company, comprised of three business segments: Studios, Direct-to-Consumer, and TV Media. Skydance's portfolio unite\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "role": "ms-al",
+   "original": "Created the Marketplace Rebound Gauge, a traffic-light signal of COVID recovery built on moving-average clustering, used in every vertical and later in EMEA",
+   "final": "Created the Marketplace Rebound Gauge, a traffic-light signal of COVID recovery built on moving-average clustering, used in every vertical and later in EMEA",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 10.57,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor's degree in a quantitative field (Statistics, Economics, Data Science, or Computer Science).",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "10+ years in data science/analytics. This covers hands-on and team-leading work. It spans causal inference methods (diff-in-diff, propensity matching, instrumental variables, up\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Built or run LTV, survival, or churn models. Turned them into financial metrics (ARPU, retention curves).",
+     "skills": [
+      "stats",
+      "measurement"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Strong SQL skills and a stats language (Python or R) for causal modeling.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Skilled in Bayesian or ML-based causal techniques (e.g., double machine learning, causal forests).",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Skydance is a next-generation global media and entertainment company, comprised of three business segments: Studios, Direct-to-Consumer, and TV Media. Skydance's portfolio unite\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 2.53,
+   "matched": [
+    {
+     "req": "r4",
+     "text": "Built or run LTV, survival, or churn models. Turned them into financial metrics (ARPU, retention curves).",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Know pricing awareness/elasticity work. Design smart promos.",
+     "skills": [
+      "revenue"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Experience working across Marketing, Product, and Finance teams.",
+     "skills": [],
+     "m": 0.3
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "role": "hanapin",
+   "original": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "final": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 7.87,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor's degree in a quantitative field (Statistics, Economics, Data Science, or Computer Science).",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "10+ years in data science/analytics. This covers hands-on and team-leading work. It spans causal inference methods (diff-in-diff, propensity matching, instrumental variables, up\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Built or run LTV, survival, or churn models. Turned them into financial metrics (ARPU, retention curves).",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Strong SQL skills and a stats language (Python or R) for causal modeling.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "A clear communicator who can present complex work to senior leaders and shape decisions.",
+     "skills": [
+      "speaking"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Skilled in Bayesian or ML-based causal techniques (e.g., double machine learning, causal forests).",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Skydance is a next-generation global media and entertainment company, comprised of three business segments: Studios, Direct-to-Consumer, and TV Media. Skydance's portfolio unite\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "role": "ms-dir",
+   "original": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "final": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 15.09,
+   "matched": [
+    {
+     "req": "r4",
+     "text": "Built or run LTV, survival, or churn models. Turned them into financial metrics (ARPU, retention curves).",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r5",
+     "text": "Strong SQL skills and a stats language (Python or R) for causal modeling.",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Familiarity with cloud data warehousing/BI tools (e.g., BigQuery, Databricks, Looker, Tableau).",
+     "skills": [
+      "sql",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r12",
+     "text": "Skydance is a next-generation global media and entertainment company, comprised of three business segments: Studios, Direct-to-Consumer, and TV Media. Skydance's portfolio unite\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "role": "ms-sal",
+   "original": "Built a travel COVID risk map from CDC, state regulation, population and search data, refreshed every two weeks, that a major client's CMO asked for regularly",
+   "final": "Built a travel COVID risk map from CDC, state regulation, population and search data, refreshed every two weeks, that a major client's CMO asked for regularly",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 9,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor's degree in a quantitative field (Statistics, Economics, Data Science, or Computer Science).",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "10+ years in data science/analytics. This covers hands-on and team-leading work. It spans causal inference methods (diff-in-diff, propensity matching, instrumental variables, up\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Built or run LTV, survival, or churn models. Turned them into financial metrics (ARPU, retention curves).",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "A proven track record leading and growing a team of data scientists or analysts.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Skilled in subscriber/customer journey mapping.",
+     "skills": [
+      "geospatial"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Familiarity with cloud data warehousing/BI tools (e.g., BigQuery, Databricks, Looker, Tableau).",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Skydance is a next-generation global media and entertainment company, comprised of three business segments: Studios, Direct-to-Consumer, and TV Media. Skydance's portfolio unite\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "role": "ms-head",
+   "original": "Brought the team's client books to 107% of revenue quota (+$23M) while adding a health and wellness vertical",
+   "final": "Brought the team's client books to 107% of revenue quota (+$23M) while adding a health and wellness vertical",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 10.2,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "10+ years in data science/analytics. This covers hands-on and team-leading work. It spans causal inference methods (diff-in-diff, propensity matching, instrumental variables, up\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "A proven track record leading and growing a team of data scientists or analysts.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Know pricing awareness/elasticity work. Design smart promos.",
+     "skills": [
+      "revenue"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Skydance is a next-generation global media and entertainment company, comprised of three business segments: Studios, Direct-to-Consumer, and TV Media. Skydance's portfolio unite\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m16",
+   "role": "ms-head",
+   "original": "Led analysts in building a ZIP-code inclusion metric from US Census data that joins to internal advertising data",
+   "final": "Led analysts in building a ZIP-code inclusion metric from US Census data that joins to internal advertising data",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 7.82,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor's degree in a quantitative field (Statistics, Economics, Data Science, or Computer Science).",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "10+ years in data science/analytics. This covers hands-on and team-leading work. It spans causal inference methods (diff-in-diff, propensity matching, instrumental variables, up\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Built or run LTV, survival, or churn models. Turned them into financial metrics (ARPU, retention curves).",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "A proven track record leading and growing a team of data scientists or analysts.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r9",
+     "text": "Skilled in subscriber/customer journey mapping.",
+     "skills": [
+      "geospatial"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Familiarity with cloud data warehousing/BI tools (e.g., BigQuery, Databricks, Looker, Tableau).",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Skydance is a next-generation global media and entertainment company, comprised of three business segments: Studios, Direct-to-Consumer, and TV Media. Skydance's portfolio unite\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "t9",
+   "role": "ms-al",
+   "original": "Built an audience of travelers who canceled because of COVID and analyzed their decision paths, and used statistical tests to show the value of in-market audiences; both fed a webinar for travel clients",
+   "final": "Built an audience of travelers who canceled because of COVID and analyzed their decision paths, and used statistical tests to show the value of in-market audiences; both fed a webinar for travel clients",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 7.75,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor's degree in a quantitative field (Statistics, Economics, Data Science, or Computer Science).",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "10+ years in data science/analytics. This covers hands-on and team-leading work. It spans causal inference methods (diff-in-diff, propensity matching, instrumental variables, up\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Experience designing and analyzing A/B tests and experiments at scale, handling common pitfalls (novelty and network effects, selection bias).",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r4",
+     "text": "Built or run LTV, survival, or churn models. Turned them into financial metrics (ARPU, retention curves).",
+     "skills": [
+      "stats",
+      "measurement",
+      "product-analytics"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Strong SQL skills and a stats language (Python or R) for causal modeling.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "A clear communicator who can present complex work to senior leaders and shape decisions.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Skilled in Bayesian or ML-based causal techniques (e.g., double machine learning, causal forests).",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Skydance is a next-generation global media and entertainment company, comprised of three business segments: Studios, Direct-to-Consumer, and TV Media. Skydance's portfolio unite\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Experience working across Marketing, Product, and Finance teams.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "role": "ms-sal",
+   "original": "Helped Expedia beat its H1 2022 quota by about $9M, pacing at 123%, across 10 client engagements built on advanced analytics",
+   "final": "Helped Expedia beat its H1 2022 quota by about $9M, pacing at 123%, across 10 client engagements built on advanced analytics",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 3.89,
+   "matched": [
+    {
+     "req": "r4",
+     "text": "Built or run LTV, survival, or churn models. Turned them into financial metrics (ARPU, retention curves).",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Know pricing awareness/elasticity work. Design smart promos.",
+     "skills": [
+      "revenue"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Skydance is a next-generation global media and entertainment company, comprised of three business segments: Studios, Direct-to-Consumer, and TV Media. Skydance's portfolio unite\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "role": "ms-dir",
+   "original": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "final": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 7.8,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor's degree in a quantitative field (Statistics, Economics, Data Science, or Computer Science).",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "10+ years in data science/analytics. This covers hands-on and team-leading work. It spans causal inference methods (diff-in-diff, propensity matching, instrumental variables, up\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r4",
+     "text": "Built or run LTV, survival, or churn models. Turned them into financial metrics (ARPU, retention curves).",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "A proven track record leading and growing a team of data scientists or analysts.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "Familiarity with cloud data warehousing/BI tools (e.g., BigQuery, Databricks, Looker, Tableau).",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Skydance is a next-generation global media and entertainment company, comprised of three business segments: Studios, Direct-to-Consumer, and TV Media. Skydance's portfolio unite\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "CBS News and Stations",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "role": "ms-al",
+   "original": "Developed query network analysis and taught it on the org's training call; teams in 6 verticals used it",
+   "final": "Developed query network analysis and taught it on the org's training call; teams in 6 verticals used it",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 5.2,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "10+ years in data science/analytics. This covers hands-on and team-leading work. It spans causal inference methods (diff-in-diff, propensity matching, instrumental variables, up\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Experience designing and analyzing A/B tests and experiments at scale, handling common pitfalls (novelty and network effects, selection bias).",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Built or run LTV, survival, or churn models. Turned them into financial metrics (ARPU, retention curves).",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "A proven track record leading and growing a team of data scientists or analysts.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Skydance is a next-generation global media and entertainment company, comprised of three business segments: Studios, Direct-to-Consumer, and TV Media. Skydance's portfolio unite\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Paramount Networks International",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "p8",
+   "role": "proj",
+   "original": "MCPS School Boundary Viewer: interactive map of 25+ years of school boundary changes with time travel and address lookup, in React and Mapbox",
+   "final": "MCPS School Boundary Viewer: interactive map of 25+ years of school boundary changes with time travel and address lookup, in React and Mapbox",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 4.16,
+   "matched": [
+    {
+     "req": "r9",
+     "text": "Skilled in subscriber/customer journey mapping.",
+     "skills": [
+      "geospatial"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Familiarity with cloud data warehousing/BI tools (e.g., BigQuery, Databricks, Looker, Tableau).",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p6",
+   "role": "proj",
+   "original": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "final": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 18.85,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor's degree in a quantitative field (Statistics, Economics, Data Science, or Computer Science).",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "10+ years in data science/analytics. This covers hands-on and team-leading work. It spans causal inference methods (diff-in-diff, propensity matching, instrumental variables, up\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Built or run LTV, survival, or churn models. Turned them into financial metrics (ARPU, retention curves).",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Strong SQL skills and a stats language (Python or R) for causal modeling.",
+     "skills": [
+      "stats",
+      "python"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Skilled in Bayesian or ML-based causal techniques (e.g., double machine learning, causal forests).",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Skydance is a next-generation global media and entertainment company, comprised of three business segments: Studios, Direct-to-Consumer, and TV Media. Skydance's portfolio unite\u2026",
+     "skills": [
+      "sports"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "p12",
+   "role": "proj",
+   "original": "Where in Olney?: daily map-guessing game with Street View rounds, seeded daily locations and streaks, on Leaflet and Firebase",
+   "final": "Where in Olney?: daily map-guessing game with Street View rounds, seeded daily locations and streaks, on Leaflet and Firebase",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 2.83,
+   "matched": [
+    {
+     "req": "r9",
+     "text": "Skilled in subscriber/customer journey mapping.",
+     "skills": [
+      "geospatial"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Familiarity with cloud data warehousing/BI tools (e.g., BigQuery, Databricks, Looker, Tableau).",
+     "skills": [
+      "cloud"
+     ],
+     "m": 0.75
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "why": "role already full",
+   "score": 18.29
+  },
+  {
+   "text": "Robuttal: an arena where AI models from several providers debate, judged by AI with fairness audits and Elo rankings; built with Python, FastAPI and Next.js",
+   "why": "role already full",
+   "score": 14.82
+  },
+  {
+   "text": "Misery Battery: scores 98 metro sports fan bases on joy and misery across four leagues since 1976, for any custom set of teams",
+   "why": "role already full",
+   "score": 14.38
+  },
+  {
+   "text": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "why": "role already full",
+   "score": 12.81
+  },
+  {
+   "text": "Trading Champion: trading analytics in React and TypeScript with candlestick charts, win-rate distributions and expectancy calculations",
+   "why": "role already full",
+   "score": 10.5
+  },
+  {
+   "text": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "why": "others covered the same ground better",
+   "score": 9.24
+  },
+  {
+   "text": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "why": "others covered the same ground better",
+   "score": 9.01
+  },
+  {
+   "text": "Used a market concentration index to show senior stakeholders where advertisers faced market risk, and taught the method to peers",
+   "why": "role already full",
+   "score": 8.52
+  }
+ ],
+ "skills": [
+  "Statistics",
+  "Machine learning",
+  "Team leadership",
+  "SQL",
+  "Measurement",
+  "Advertising",
+  "R",
+  "Python",
+  "Dashboards",
+  "Product analytics",
+  "Revenue analytics",
+  "Public speaking",
+  "Data pipelines",
+  "BigQuery",
+  "Cloud",
+  "Geospatial analysis",
+  "Sports analytics"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 10+ years; I have 12."
+  },
+  {
+   "kind": "degree",
+   "status": "ok",
+   "detail": "Mentions a bachelor's; mine: a bachelor's."
+  },
+  {
+   "kind": "field",
+   "status": "warn",
+   "detail": "Names a field of study (quantitative, statistics, economics, data science, computer science); mine: B.A., Jazz Guitar Performance, so my experience has to cover this one."
+  }
+ ]
+}
