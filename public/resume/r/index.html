@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>Resume Receipt</title>
+<!-- Google tag (gtag.js), set up by hand so the page view waits until the page knows what it's showing.
+     Only kckdata.com loads it, so local previews never count. -->
+<script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}
+if (/(^|\.)kckdata\.com$/.test(location.hostname)) { const s = document.createElement('script'); s.async = true; s.src = 'https://www.googletagmanager.com/gtag/js?id=G-ZT1S7MVVBW'; document.head.append(s); }
+gtag('js', new Date()); gtag('config', 'G-ZT1S7MVVBW', { send_page_view: false });</script>
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -126,9 +131,13 @@ footer { margin-top: 40px; font: 400 .78rem/1.6 var(--mono); color: var(--ink-3)
   const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   const id = new URLSearchParams(location.search).get('id') || location.pathname.replace(/\/+$/, '').split('/').pop();
   const app = document.getElementById('app');
+  // links to the hello page say which receipt they came from, so analytics can show it
+  const hello = `/resume/hello/?from=${encodeURIComponent(id)}`;
+  document.querySelector('.top a.why').href = hello;
   let R;
   try { if (!/^[a-z0-9]{4,16}$/.test(id)) throw 0; const r = await fetch(`/resume/r/data/${id}.json`); if (!r.ok) throw 0; R = await r.json(); }
-  catch { app.innerHTML = `<h1>Receipt not found</h1><p class="miss">There's no receipt at this address. Check the link on the resume, or read <a href="/resume/hello/">why I apply this way</a>.</p>`; return; }
+  catch { app.innerHTML = `<h1>Receipt not found</h1><p class="miss">There's no receipt at this address. Check the link on the resume, or read <a href="${hello}">why I apply this way</a>.</p>`;
+    gtag('event', 'page_view', { page_title: `Receipt not found: ${id}` }); return; }
 
   // a word-level diff of the original line against the published one
   const diff = (a, b) => { const A = a.split(/(\s+)/), B = b.split(/(\s+)/), n = A.length, m = B.length, L = Array.from({ length: n + 1 }, () => new Uint16Array(m + 1));
@@ -139,6 +148,7 @@ footer { margin-top: 40px; font: 400 .78rem/1.6 var(--mono); color: var(--ink-3)
   const ai = R.picks.filter(p => p.rewritten).length, gaps = R.requirements.filter(r => r.gap).length;
   const where = R.job.company ? ` at ${esc(R.job.company)}` : '';
   document.title = `Resume receipt: ${R.job.title || 'a job'}`;
+  gtag('event', 'page_view', { page_title: `Receipt: ${R.job.title || 'a job'}${R.job.company ? ' at ' + R.job.company : ''}` });
   const byRole = R.roles.map(role => ({ role, ps: R.picks.filter(p => p.role === role.id) })).filter(g => g.ps.length);
   // lines are numbered in the order they appear on the page
   const lines = byRole.flatMap(g => g.ps), lineNo = {}; lines.forEach((p, i) => lineNo[p.id] = 'L' + (i + 1));
@@ -185,7 +195,7 @@ footer { margin-top: 40px; font: 400 .78rem/1.6 var(--mono); color: var(--ink-3)
   app.innerHTML = `
     <h1>Receipt: ${esc(R.job.title || 'a job')}${where}</h1>
     ${R.example ? `<p class="note" style="margin-top:16px">This is an example${R.placeholder ? ' built from placeholder experience' : ''}, for a sample job posting, made with rules only and no AI. Real receipts look the same.</p>` : ''}
-    <p class="dek">I wrote the program that built this resume, as a working example of how I put AI to use. For this job it read the posting${R.method.parsedBy === 'claude' ? ' with help from AI, which I checked' : ''}, scored my past work against it, and picked ${R.picks.length} lines. ${ai ? `AI suggested new wording for ${ai}, and I approved each change.` : 'I read every one before sending.'} I explain why I apply this way in <a href="/resume/hello/">a short note</a>.</p>
+    <p class="dek">I wrote the program that built this resume, as a working example of how I put AI to use. For this job it read the posting${R.method.parsedBy === 'claude' ? ' with help from AI, which I checked' : ''}, scored my past work against it, and picked ${R.picks.length} lines. ${ai ? `AI suggested new wording for ${ai}, and I approved each change.` : 'I read every one before sending.'} I explain why I apply this way in <a href="${hello}">a short note</a>.</p>
 
     <div class="hero">
       <div class="big">${R.fit}<small>%</small></div>

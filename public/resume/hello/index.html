@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>Kevin Klein</title>
+<!-- Google tag (gtag.js), set up by hand: the page view says where the visitor came from (see the end of the page).
+     Only kckdata.com loads it, so local previews never count. -->
+<script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}
+if (/(^|\.)kckdata\.com$/.test(location.hostname)) { const s = document.createElement('script'); s.async = true; s.src = 'https://www.googletagmanager.com/gtag/js?id=G-ZT1S7MVVBW'; document.head.append(s); }
+gtag('js', new Date()); gtag('config', 'G-ZT1S7MVVBW', { send_page_view: false });</script>
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -159,6 +164,20 @@ if (!still) {
 // the underline under "human heart..." draws itself once it's on screen
 const mo = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); mo.unobserve(e.target); } }), { threshold: .6 });
 document.querySelectorAll('.mark').forEach(el => mo.observe(el));
+</script>
+<script>
+// the page view's title names where the visitor came from, so it shows in GA's Pages report without any setup:
+// a receipt's link adds ?from=<receipt id> (named by its job), otherwise the referring page or site, or "direct"
+// (typed, bookmarked, or opened from an email or app that hides the referrer)
+(async () => {
+  const id = new URLSearchParams(location.search).get('from'), ref = document.referrer ? new URL(document.referrer) : null;
+  let from = !ref ? 'direct' : ref.hostname === location.hostname ? ref.pathname : ref.hostname.replace(/^www\./, '');
+  if (id && /^[a-z0-9]{4,16}$/.test(id)) {
+    from = `receipt ${id}`;
+    try { const j = (await (await fetch(`/resume/r/data/${id}.json`)).json()).job; from += `: ${j.title}${j.company ? ' at ' + j.company : ''}`; } catch {}
+  }
+  gtag('event', 'page_view', { page_title: `Why I apply (from ${from})` });
+})();
 </script>
 </body>
 </html>
