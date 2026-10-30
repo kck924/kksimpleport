@@ -1,0 +1,1828 @@
+{
+ "id": "w9y2ghj7",
+ "version": "1.5",
+ "created": "2026-10-30",
+ "job": {
+  "title": "Manager - Measurement Science & Analytics",
+  "company": "Netflix"
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 14
+ },
+ "fit": 64,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "Hire and coach a team of senior individual contributors, giving them the context and room to lead their own work.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "s1",
+    "m1",
+    "m8",
+    "h1",
+    "m9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "Make sure each metric has a clear owner and is well maintained. Team members own individual metrics; you support them and get involved when a decision needs it.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "h1",
+    "d1",
+    "t1",
+    "x2",
+    "t11",
+    "t6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "Develop a view on how our measurement should change over time, and shape it with business leaders in Content, Finance, and Product.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "x2",
+    "h1",
+    "t1",
+    "t11",
+    "t6",
+    "s1",
+    "m13"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Help partners work out what to measure when new questions come up, and how much rigor the answer needs.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "x2",
+    "t6",
+    "d1",
+    "h1",
+    "t1",
+    "t11",
+    "m9",
+    "m1",
+    "m13",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "Set and maintain the practices the broader organization uses to build and validate measurements.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "h1",
+    "t1",
+    "x2",
+    "t11",
+    "t6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "Work with data engineering and product teams so that established metrics are reliable and well documented for the people who use them.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "x2",
+    "t6",
+    "d1",
+    "h1",
+    "t1",
+    "t11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "3+ years managing technical teams, ideally with a mix of technical skill sets, with a track record of hiring well and helping people grow",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "s1",
+    "d1",
+    "h1",
+    "m9",
+    "m1",
+    "m8"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r8",
+   "text": "A strong coach who gives candid feedback with care, helps people see where they can grow, and develops senior individual contributors into leaders",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "s1",
+    "m1",
+    "m8",
+    "h1",
+    "m9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "An advanced degree in statistics, economics, or another quantitative field, or equivalent experience",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "s1",
+    "n2",
+    "t1",
+    "t11",
+    "e11",
+    "p6",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r10",
+   "text": "A background as a hands-on data scientist, with depth in areas such as statistical modeling, causal inference, or experimentation",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "e11",
+    "p6",
+    "p1",
+    "s1",
+    "t1",
+    "n2",
+    "t11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r11",
+   "text": "Experience designing and validating metrics, including proxy metrics, checking a metric against the outcome it stands in for, and understanding its variance",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "h1",
+    "t1",
+    "x2",
+    "t11",
+    "t6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "Experience running metrics in production across organizations, including definitions, governance, and change management",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "h1",
+    "t1",
+    "x2",
+    "t11",
+    "t6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r13",
+   "text": "Experience explaining analysis and its limits to senior, non-technical audiences",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "p6",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r14",
+   "text": "Inclusion is a Netflix value and we strive to host a meaningful interview experience for all candidates. If you want an accommodation/adjustment for a disability or any other re\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "m1",
+    "t6",
+    "d1",
+    "h1",
+    "s1",
+    "x2",
+    "m13",
+    "m11",
+    "m8"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r15",
+   "text": "At Netflix, our mission is to entertain the world. Together, we are writing the next episode - pushing the boundaries of storytelling, global fandom and making the unimaginable \u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m9",
+    "t1",
+    "n2",
+    "t11",
+    "m13",
+    "m11",
+    "m8",
+    "p6",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r16",
+   "text": "Content & Games Data Science and Engineering (DSE) is the data science and engineering organization for Netflix's content and games businesses. We work closely with leaders in C\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "t1",
+    "e11",
+    "m13",
+    "s1",
+    "m11",
+    "p6",
+    "p1",
+    "n2",
+    "t11",
+    "x2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r17",
+   "text": "We're looking for a manager to lead MSA, a team of senior data practitioners with a mix of technical skill sets. We want someone who can go deep on methodology with the team and\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "s1",
+    "d1",
+    "m1",
+    "t6",
+    "h1",
+    "m9",
+    "m8",
+    "p9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r18",
+   "text": "Hold a high bar for the quality of the team's science and analysis, and give direct, useful feedback on methodology.",
+   "kind": "responsibility",
+   "weight": 2,
+   "coveredBy": [
+    "p9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "Comfort working on problems that haven't been defined yet",
+   "kind": "responsibility",
+   "weight": 2,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r20",
+   "text": "A deep curiosity about the mix of art and science that goes into making great content; experience in entertainment is a plus but not required",
+   "kind": "responsibility",
+   "weight": 2,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r21",
+   "text": "Enthusiasm for and compatibility with Netflix culture",
+   "kind": "responsibility",
+   "weight": 2,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r22",
+   "text": "Netflix is a unique culture and environment. Learn more here.",
+   "kind": "responsibility",
+   "weight": 2,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r23",
+   "text": "Job is open for no less than 7 days and will be removed when the position is filled.",
+   "kind": "responsibility",
+   "weight": 2,
+   "coveredBy": [],
+   "gap": true
+  }
+ ],
+ "picks": [
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 35.02,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Hire and coach a team of senior individual contributors, giving them the context and room to lead their own work.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Make sure each metric has a clear owner and is well maintained. Team members own individual metrics; you support them and get involved when a decision needs it.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Develop a view on how our measurement should change over time, and shape it with business leaders in Content, Finance, and Product.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r4",
+     "text": "Help partners work out what to measure when new questions come up, and how much rigor the answer needs.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Set and maintain the practices the broader organization uses to build and validate measurements.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r6",
+     "text": "Work with data engineering and product teams so that established metrics are reliable and well documented for the people who use them.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "3+ years managing technical teams, ideally with a mix of technical skill sets, with a track record of hiring well and helping people grow",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "A strong coach who gives candid feedback with care, helps people see where they can grow, and develops senior individual contributors into leaders",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Experience designing and validating metrics, including proxy metrics, checking a metric against the outcome it stands in for, and understanding its variance",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Experience running metrics in production across organizations, including definitions, governance, and change management",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Inclusion is a Netflix value and we strive to host a meaningful interview experience for all candidates. If you want an accommodation/adjustment for a disability or any other re\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "At Netflix, our mission is to entertain the world. Together, we are writing the next episode - pushing the boundaries of storytelling, global fandom and making the unimaginable \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Content & Games Data Science and Engineering (DSE) is the data science and engineering organization for Netflix's content and games businesses. We work closely with leaders in C\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "We're looking for a manager to lead MSA, a team of senior data practitioners with a mix of technical skill sets. We want someone who can go deep on methodology with the team and\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "h1",
+   "role": "ms-head",
+   "original": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "final": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 21.2,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Hire and coach a team of senior individual contributors, giving them the context and room to lead their own work.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "Make sure each metric has a clear owner and is well maintained. Team members own individual metrics; you support them and get involved when a decision needs it.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Develop a view on how our measurement should change over time, and shape it with business leaders in Content, Finance, and Product.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Help partners work out what to measure when new questions come up, and how much rigor the answer needs.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Set and maintain the practices the broader organization uses to build and validate measurements.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Work with data engineering and product teams so that established metrics are reliable and well documented for the people who use them.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "3+ years managing technical teams, ideally with a mix of technical skill sets, with a track record of hiring well and helping people grow",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "A strong coach who gives candid feedback with care, helps people see where they can grow, and develops senior individual contributors into leaders",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Experience designing and validating metrics, including proxy metrics, checking a metric against the outcome it stands in for, and understanding its variance",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Experience running metrics in production across organizations, including definitions, governance, and change management",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Inclusion is a Netflix value and we strive to host a meaningful interview experience for all candidates. If you want an accommodation/adjustment for a disability or any other re\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "We're looking for a manager to lead MSA, a team of senior data practitioners with a mix of technical skill sets. We want someone who can go deep on methodology with the team and\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "role": "ms-sal",
+   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 14.71,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Hire and coach a team of senior individual contributors, giving them the context and room to lead their own work.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Develop a view on how our measurement should change over time, and shape it with business leaders in Content, Finance, and Product.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r7",
+     "text": "3+ years managing technical teams, ideally with a mix of technical skill sets, with a track record of hiring well and helping people grow",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "A strong coach who gives candid feedback with care, helps people see where they can grow, and develops senior individual contributors into leaders",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "An advanced degree in statistics, economics, or another quantitative field, or equivalent experience",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "A background as a hands-on data scientist, with depth in areas such as statistical modeling, causal inference, or experimentation",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Experience explaining analysis and its limits to senior, non-technical audiences",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Inclusion is a Netflix value and we strive to host a meaningful interview experience for all candidates. If you want an accommodation/adjustment for a disability or any other re\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Content & Games Data Science and Engineering (DSE) is the data science and engineering organization for Netflix's content and games businesses. We work closely with leaders in C\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "We're looking for a manager to lead MSA, a team of senior data practitioners with a mix of technical skill sets. We want someone who can go deep on methodology with the team and\u2026",
+     "skills": [
+      "leadership",
+      "dashboards"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "role": "ms-al",
+   "original": "Created the Marketplace Rebound Gauge, a traffic-light signal of COVID recovery built on moving-average clustering, used in every vertical and later in EMEA",
+   "final": "Created the Marketplace Rebound Gauge, a traffic-light signal of COVID recovery built on moving-average clustering, used in every vertical and later in EMEA",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 13.2,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Make sure each metric has a clear owner and is well maintained. Team members own individual metrics; you support them and get involved when a decision needs it.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Develop a view on how our measurement should change over time, and shape it with business leaders in Content, Finance, and Product.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Help partners work out what to measure when new questions come up, and how much rigor the answer needs.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Set and maintain the practices the broader organization uses to build and validate measurements.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Work with data engineering and product teams so that established metrics are reliable and well documented for the people who use them.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "An advanced degree in statistics, economics, or another quantitative field, or equivalent experience",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "A background as a hands-on data scientist, with depth in areas such as statistical modeling, causal inference, or experimentation",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Experience designing and validating metrics, including proxy metrics, checking a metric against the outcome it stands in for, and understanding its variance",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Experience running metrics in production across organizations, including definitions, governance, and change management",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "At Netflix, our mission is to entertain the world. Together, we are writing the next episode - pushing the boundaries of storytelling, global fandom and making the unimaginable \u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Content & Games Data Science and Engineering (DSE) is the data science and engineering organization for Netflix's content and games businesses. We work closely with leaders in C\u2026",
+     "skills": [
+      "stats",
+      "data-products"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 6.79,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Make sure each metric has a clear owner and is well maintained. Team members own individual metrics; you support them and get involved when a decision needs it.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Develop a view on how our measurement should change over time, and shape it with business leaders in Content, Finance, and Product.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r4",
+     "text": "Help partners work out what to measure when new questions come up, and how much rigor the answer needs.",
+     "skills": [
+      "measurement",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Set and maintain the practices the broader organization uses to build and validate measurements.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Work with data engineering and product teams so that established metrics are reliable and well documented for the people who use them.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Experience designing and validating metrics, including proxy metrics, checking a metric against the outcome it stands in for, and understanding its variance",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Experience running metrics in production across organizations, including definitions, governance, and change management",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Inclusion is a Netflix value and we strive to host a meaningful interview experience for all candidates. If you want an accommodation/adjustment for a disability or any other re\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Content & Games Data Science and Engineering (DSE) is the data science and engineering organization for Netflix's content and games businesses. We work closely with leaders in C\u2026",
+     "skills": [],
+     "m": 0.3
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "role": "hanapin",
+   "original": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "final": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 3.04,
+   "matched": [
+    {
+     "req": "r9",
+     "text": "An advanced degree in statistics, economics, or another quantitative field, or equivalent experience",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "A background as a hands-on data scientist, with depth in areas such as statistical modeling, causal inference, or experimentation",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "At Netflix, our mission is to entertain the world. Together, we are writing the next episode - pushing the boundaries of storytelling, global fandom and making the unimaginable \u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Content & Games Data Science and Engineering (DSE) is the data science and engineering organization for Netflix's content and games businesses. We work closely with leaders in C\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 18.75,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Hire and coach a team of senior individual contributors, giving them the context and room to lead their own work.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Help partners work out what to measure when new questions come up, and how much rigor the answer needs.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "3+ years managing technical teams, ideally with a mix of technical skill sets, with a track record of hiring well and helping people grow",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "A strong coach who gives candid feedback with care, helps people see where they can grow, and develops senior individual contributors into leaders",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Experience explaining analysis and its limits to senior, non-technical audiences",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Inclusion is a Netflix value and we strive to host a meaningful interview experience for all candidates. If you want an accommodation/adjustment for a disability or any other re\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r15",
+     "text": "At Netflix, our mission is to entertain the world. Together, we are writing the next episode - pushing the boundaries of storytelling, global fandom and making the unimaginable \u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r17",
+     "text": "We're looking for a manager to lead MSA, a team of senior data practitioners with a mix of technical skill sets. We want someone who can go deep on methodology with the team and\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Hold a high bar for the quality of the team's science and analysis, and give direct, useful feedback on methodology.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m1",
+   "role": "ms-head",
+   "original": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "final": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 17.91,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Hire and coach a team of senior individual contributors, giving them the context and room to lead their own work.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Make sure each metric has a clear owner and is well maintained. Team members own individual metrics; you support them and get involved when a decision needs it.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Develop a view on how our measurement should change over time, and shape it with business leaders in Content, Finance, and Product.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Help partners work out what to measure when new questions come up, and how much rigor the answer needs.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "3+ years managing technical teams, ideally with a mix of technical skill sets, with a track record of hiring well and helping people grow",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "A strong coach who gives candid feedback with care, helps people see where they can grow, and develops senior individual contributors into leaders",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Inclusion is a Netflix value and we strive to host a meaningful interview experience for all candidates. If you want an accommodation/adjustment for a disability or any other re\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "Content & Games Data Science and Engineering (DSE) is the data science and engineering organization for Netflix's content and games businesses. We work closely with leaders in C\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "We're looking for a manager to lead MSA, a team of senior data practitioners with a mix of technical skill sets. We want someone who can go deep on methodology with the team and\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "t11",
+   "role": "ms-sal",
+   "original": "Used a market concentration index to show senior stakeholders where advertisers faced market risk, and taught the method to peers",
+   "final": "Used a market concentration index to show senior stakeholders where advertisers faced market risk, and taught the method to peers",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 11.47,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Hire and coach a team of senior individual contributors, giving them the context and room to lead their own work.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "Make sure each metric has a clear owner and is well maintained. Team members own individual metrics; you support them and get involved when a decision needs it.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Develop a view on how our measurement should change over time, and shape it with business leaders in Content, Finance, and Product.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Help partners work out what to measure when new questions come up, and how much rigor the answer needs.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Set and maintain the practices the broader organization uses to build and validate measurements.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Work with data engineering and product teams so that established metrics are reliable and well documented for the people who use them.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "A strong coach who gives candid feedback with care, helps people see where they can grow, and develops senior individual contributors into leaders",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "An advanced degree in statistics, economics, or another quantitative field, or equivalent experience",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "A background as a hands-on data scientist, with depth in areas such as statistical modeling, causal inference, or experimentation",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Experience designing and validating metrics, including proxy metrics, checking a metric against the outcome it stands in for, and understanding its variance",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Experience running metrics in production across organizations, including definitions, governance, and change management",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Experience explaining analysis and its limits to senior, non-technical audiences",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "At Netflix, our mission is to entertain the world. Together, we are writing the next episode - pushing the boundaries of storytelling, global fandom and making the unimaginable \u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Content & Games Data Science and Engineering (DSE) is the data science and engineering organization for Netflix's content and games businesses. We work closely with leaders in C\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "We're looking for a manager to lead MSA, a team of senior data practitioners with a mix of technical skill sets. We want someone who can go deep on methodology with the team and\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "role": "ms-sal",
+   "original": "Took over measurement of a cross-Microsoft partner program, defined its scope, won direct access to the data cube, and showed leadership the program's positive returns",
+   "final": "Took over measurement of a cross-Microsoft partner program, defined its scope, won direct access to the data cube, and showed leadership the program's positive returns",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 10.57,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Make sure each metric has a clear owner and is well maintained. Team members own individual metrics; you support them and get involved when a decision needs it.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Develop a view on how our measurement should change over time, and shape it with business leaders in Content, Finance, and Product.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Help partners work out what to measure when new questions come up, and how much rigor the answer needs.",
+     "skills": [
+      "measurement",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Set and maintain the practices the broader organization uses to build and validate measurements.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Work with data engineering and product teams so that established metrics are reliable and well documented for the people who use them.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "A background as a hands-on data scientist, with depth in areas such as statistical modeling, causal inference, or experimentation",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "Experience designing and validating metrics, including proxy metrics, checking a metric against the outcome it stands in for, and understanding its variance",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Experience running metrics in production across organizations, including definitions, governance, and change management",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Inclusion is a Netflix value and we strive to host a meaningful interview experience for all candidates. If you want an accommodation/adjustment for a disability or any other re\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Content & Games Data Science and Engineering (DSE) is the data science and engineering organization for Netflix's content and games businesses. We work closely with leaders in C\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "We're looking for a manager to lead MSA, a team of senior data practitioners with a mix of technical skill sets. We want someone who can go deep on methodology with the team and\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Hold a high bar for the quality of the team's science and analysis, and give direct, useful feedback on methodology.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "Comfort working on problems that haven't been defined yet",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m13",
+   "role": "ms-head",
+   "original": "Secured new MSN content datasets, built an MSN insights prototype with the team, and took it to sellers and marketing once MSN leaders approved it",
+   "final": "Secured new MSN content datasets, built an MSN insights prototype with the team, and took it to sellers and marketing once MSN leaders approved it",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 7.73,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Hire and coach a team of senior individual contributors, giving them the context and room to lead their own work.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Develop a view on how our measurement should change over time, and shape it with business leaders in Content, Finance, and Product.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r4",
+     "text": "Help partners work out what to measure when new questions come up, and how much rigor the answer needs.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "A strong coach who gives candid feedback with care, helps people see where they can grow, and develops senior individual contributors into leaders",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Inclusion is a Netflix value and we strive to host a meaningful interview experience for all candidates. If you want an accommodation/adjustment for a disability or any other re\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "At Netflix, our mission is to entertain the world. Together, we are writing the next episode - pushing the boundaries of storytelling, global fandom and making the unimaginable \u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Content & Games Data Science and Engineering (DSE) is the data science and engineering organization for Netflix's content and games businesses. We work closely with leaders in C\u2026",
+     "skills": [
+      "data-products"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r17",
+     "text": "We're looking for a manager to lead MSA, a team of senior data practitioners with a mix of technical skill sets. We want someone who can go deep on methodology with the team and\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "A deep curiosity about the mix of art and science that goes into making great content; experience in entertainment is a plus but not required",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "role": "ms-dir",
+   "original": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "final": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 10.53,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Develop a view on how our measurement should change over time, and shape it with business leaders in Content, Finance, and Product.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Help partners work out what to measure when new questions come up, and how much rigor the answer needs.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Work with data engineering and product teams so that established metrics are reliable and well documented for the people who use them.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "A background as a hands-on data scientist, with depth in areas such as statistical modeling, causal inference, or experimentation",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Experience explaining analysis and its limits to senior, non-technical audiences",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Inclusion is a Netflix value and we strive to host a meaningful interview experience for all candidates. If you want an accommodation/adjustment for a disability or any other re\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "At Netflix, our mission is to entertain the world. Together, we are writing the next episode - pushing the boundaries of storytelling, global fandom and making the unimaginable \u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Content & Games Data Science and Engineering (DSE) is the data science and engineering organization for Netflix's content and games businesses. We work closely with leaders in C\u2026",
+     "skills": [
+      "data-products"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "We're looking for a manager to lead MSA, a team of senior data practitioners with a mix of technical skill sets. We want someone who can go deep on methodology with the team and\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Hold a high bar for the quality of the team's science and analysis, and give direct, useful feedback on methodology.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m8",
+   "role": "ms-head",
+   "original": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "final": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 10.63,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Hire and coach a team of senior individual contributors, giving them the context and room to lead their own work.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Set and maintain the practices the broader organization uses to build and validate measurements.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "3+ years managing technical teams, ideally with a mix of technical skill sets, with a track record of hiring well and helping people grow",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "A strong coach who gives candid feedback with care, helps people see where they can grow, and develops senior individual contributors into leaders",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Experience explaining analysis and its limits to senior, non-technical audiences",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Inclusion is a Netflix value and we strive to host a meaningful interview experience for all candidates. If you want an accommodation/adjustment for a disability or any other re\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "At Netflix, our mission is to entertain the world. Together, we are writing the next episode - pushing the boundaries of storytelling, global fandom and making the unimaginable \u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "We're looking for a manager to lead MSA, a team of senior data practitioners with a mix of technical skill sets. We want someone who can go deep on methodology with the team and\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Hold a high bar for the quality of the team's science and analysis, and give direct, useful feedback on methodology.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "role": "ms-al",
+   "original": "Built a network-science proof of concept for search funnels that became a planned playbook deliverable",
+   "final": "Built a network-science proof of concept for search funnels that became a planned playbook deliverable",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 2.75,
+   "matched": [
+    {
+     "req": "r9",
+     "text": "An advanced degree in statistics, economics, or another quantitative field, or equivalent experience",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "A background as a hands-on data scientist, with depth in areas such as statistical modeling, causal inference, or experimentation",
+     "skills": [
+      "stats",
+      "ml"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "Content & Games Data Science and Engineering (DSE) is the data science and engineering organization for Netflix's content and games businesses. We work closely with leaders in C\u2026",
+     "skills": [
+      "stats",
+      "ml"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Hold a high bar for the quality of the team's science and analysis, and give direct, useful feedback on methodology.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "A deep curiosity about the mix of art and science that goes into making great content; experience in entertainment is a plus but not required",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "p6",
+   "role": "proj",
+   "original": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "final": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 9.89,
+   "matched": [
+    {
+     "req": "r9",
+     "text": "An advanced degree in statistics, economics, or another quantitative field, or equivalent experience",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "A background as a hands-on data scientist, with depth in areas such as statistical modeling, causal inference, or experimentation",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Experience explaining analysis and its limits to senior, non-technical audiences",
+     "skills": [
+      "data-journalism"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "At Netflix, our mission is to entertain the world. Together, we are writing the next episode - pushing the boundaries of storytelling, global fandom and making the unimaginable \u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Content & Games Data Science and Engineering (DSE) is the data science and engineering organization for Netflix's content and games businesses. We work closely with leaders in C\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Comfort working on problems that haven't been defined yet",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "role": "proj",
+   "original": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "final": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 10.23,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Hire and coach a team of senior individual contributors, giving them the context and room to lead their own work.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Work with data engineering and product teams so that established metrics are reliable and well documented for the people who use them.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "A strong coach who gives candid feedback with care, helps people see where they can grow, and develops senior individual contributors into leaders",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "An advanced degree in statistics, economics, or another quantitative field, or equivalent experience",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "A background as a hands-on data scientist, with depth in areas such as statistical modeling, causal inference, or experimentation",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Experience explaining analysis and its limits to senior, non-technical audiences",
+     "skills": [
+      "data-journalism"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "At Netflix, our mission is to entertain the world. Together, we are writing the next episode - pushing the boundaries of storytelling, global fandom and making the unimaginable \u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Content & Games Data Science and Engineering (DSE) is the data science and engineering organization for Netflix's content and games businesses. We work closely with leaders in C\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "We're looking for a manager to lead MSA, a team of senior data practitioners with a mix of technical skill sets. We want someone who can go deep on methodology with the team and\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "p9",
+   "role": "proj",
+   "original": "ColorIsData: browser-based color science tool with spectral analysis, WCAG contrast testing and color-vision-deficiency simulation",
+   "final": "ColorIsData: browser-based color science tool with spectral analysis, WCAG contrast testing and color-vision-deficiency simulation",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 1.94,
+   "matched": [
+    {
+     "req": "r13",
+     "text": "Experience explaining analysis and its limits to senior, non-technical audiences",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Content & Games Data Science and Engineering (DSE) is the data science and engineering organization for Netflix's content and games businesses. We work closely with leaders in C\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "We're looking for a manager to lead MSA, a team of senior data practitioners with a mix of technical skill sets. We want someone who can go deep on methodology with the team and\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Hold a high bar for the quality of the team's science and analysis, and give direct, useful feedback on methodology.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r20",
+     "text": "A deep curiosity about the mix of art and science that goes into making great content; experience in entertainment is a plus but not required",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Led analysts in building a ZIP-code inclusion metric from US Census data that joins to internal advertising data",
+   "why": "others covered the same ground better",
+   "score": 13.6
+  },
+  {
+   "text": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "why": "others covered the same ground better",
+   "score": 13.53
+  },
+  {
+   "text": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "why": "others covered the same ground better",
+   "score": 13.46
+  },
+  {
+   "text": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "why": "others covered the same ground better",
+   "score": 13.3
+  },
+  {
+   "text": "Built a travel COVID risk map from CDC, state regulation, population and search data, refreshed every two weeks, that a major client's CMO asked for regularly",
+   "why": "role already full",
+   "score": 12.55
+  },
+  {
+   "text": "Added Microsoft Clarity behavioral data to the team's query-pathing tool",
+   "why": "others covered the same ground better",
+   "score": 12.25
+  },
+  {
+   "text": "Coached analysts to 3 promotions and moved much of the team from junior to senior band",
+   "why": "others covered the same ground better",
+   "score": 10.5
+  },
+  {
+   "text": "Analyzed how travel demand tracked US inflation using external data, work that grew into a full deliverable for sales",
+   "why": "role already full",
+   "score": 10.36
+  }
+ ],
+ "skills": [
+  "Measurement",
+  "Team leadership",
+  "Statistical modeling",
+  "Stakeholder management",
+  "Machine learning",
+  "Data pipelines",
+  "Cloud",
+  "Data journalism",
+  "Data storytelling",
+  "Dashboards",
+  "Data products"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 3+ years; I have 12."
+  }
+ ]
+}
