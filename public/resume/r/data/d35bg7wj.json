@@ -1,0 +1,2291 @@
+{
+ "id": "d35bg7wj",
+ "version": "1.5",
+ "created": "2026-10-30",
+ "job": {
+  "title": "Director, Analytics",
+  "company": "Zeta Global"
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 14
+ },
+ "fit": 77,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "10+ years of professional experience\u202fin analytics, marketing measurement, data science, media analytics, or a related discipline, with demonstrated progression in responsibility\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "t1",
+    "n1",
+    "h2",
+    "x2",
+    "m11",
+    "m2",
+    "m3",
+    "m1",
+    "m10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "Strong client-facing experience with excellent presentation, communication, and stakeholder-management skills, including the ability to command an audience and serve as a model \u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "t1",
+    "m11",
+    "m9",
+    "h2",
+    "p6",
+    "p1",
+    "n1",
+    "m2",
+    "m1",
+    "x2",
+    "m7",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "Demonstrated subject matter expertise in one or more analytics, measurement, media, or industry domains, with the ability to share knowledge and elevate the capabilities of others.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "t1",
+    "n1",
+    "x2",
+    "h2",
+    "m1",
+    "m11",
+    "m10",
+    "m2",
+    "m3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Working familiarity with\u202fPython, SQL, Tableau or comparable analytical and visualization tools, as well as experience working with predictive analytics and/or ML/AI models.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "m10",
+    "p6",
+    "p1",
+    "p3",
+    "t1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "Proven ability to\u202ftranslate complex analytics into compelling stories and actionable recommendations\u202ffor client and business audiences.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [
+    "s1",
+    "h2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "3+ years in analytics leadership roles, ideally with team management experience.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [
+    "d1",
+    "s1",
+    "m7",
+    "m4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "Ability to operate independently, make sound decisions in support of clients and the business, give and receive feedback effectively, and challenge existing approaches construct\u2026",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r8",
+   "text": "Bachelor\u2019s degree required; Master\u2019s preferred in Business Analytics, Data Science, Economics, or related fields.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [
+    "s1",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "Experience in Retail, Financial Services, Telecom, or Travel verticals is a plus.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [
+    "m4",
+    "d1",
+    "m1",
+    "h2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r10",
+   "text": "Zeta Global is seeking a\u202fstrategic, client-facing Director\u202fto join our ZX Data Science & Analytics team. This role is ideal for an experienced analytics leader who excels at \u202ftr\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "s1",
+    "m7",
+    "m4",
+    "m9",
+    "h2",
+    "m1",
+    "m11",
+    "m2",
+    "m3",
+    "p1",
+    "t1",
+    "p6",
+    "n1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r11",
+   "text": "This position reports to the VP of Data Science & Analytics.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "s1",
+    "m10",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "Lead with Storytelling:\u202fTranslate complex analytics and media performance into clear, persuasive narratives that connect insights to client business priorities and inspire action.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "t1",
+    "m11",
+    "m9",
+    "h2",
+    "m1",
+    "n1",
+    "m10",
+    "m2",
+    "m3",
+    "p6",
+    "p1",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r13",
+   "text": "Shape Client Strategy:\u202fDevelop analytics approaches aligned with client objectives, using insights to inform acquisition, retention, lifetime value, media, and optimization stra\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "m1",
+    "t1",
+    "n1",
+    "m11",
+    "m7",
+    "m9",
+    "h2",
+    "m2",
+    "m4",
+    "m10",
+    "m3",
+    "x2",
+    "p6",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r14",
+   "text": "Drive Measurement Excellence:\u202fApply and advocate for best-in-class measurement methodologies, including Test/Holdout-based incrementality measurement. Help clients and internal \u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "n1",
+    "d1",
+    "t1",
+    "x2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r15",
+   "text": "Scale Best Practices:\u202fIdentify learnings across clients, campaigns, and categories and translate them into repeatable best practices, frameworks, and recommendations that improv\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "h2",
+    "d1",
+    "n1",
+    "m2",
+    "m3",
+    "m1",
+    "t1",
+    "m11",
+    "m10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r16",
+   "text": "Team Leadership: manage and develop a team of analysts, including coaching, onboarding, workload prioritization, performance management, feedback, recognition, and career develo\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "m4",
+    "m9",
+    "m2",
+    "s1",
+    "h2",
+    "m3",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r17",
+   "text": "Lead Strategic Initiatives:\u202fServe as analytics lead and subject matter expert for select strategic initiatives, helping define solutions, align stakeholders, and move work from \u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m1",
+    "m7",
+    "h2",
+    "d1",
+    "x2",
+    "n1",
+    "m11",
+    "m4",
+    "m9",
+    "m2",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r18",
+   "text": "Collaborate Cross-Functionally:\u202fPartner effectively with Sales, Client Services, Client Development, Operations, and other teams to solve client challenges, improve processes, a\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "h2",
+    "m1",
+    "m7",
+    "m9",
+    "m2",
+    "n1",
+    "m11",
+    "x2",
+    "d1",
+    "m4",
+    "s1",
+    "m3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "Innovate with AI:\u202fSupport the development, application, and adoption of predictive and adaptive ML/AI solutions, helping translate model outputs into clear business recommendati\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m10",
+    "s1",
+    "m11",
+    "m7",
+    "m9",
+    "p6",
+    "d1",
+    "t1",
+    "p1",
+    "p3"
+   ],
+   "gap": false
+  }
+ ],
+ "picks": [
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 48.22,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of professional experience\u202fin analytics, marketing measurement, data science, media analytics, or a related discipline, with demonstrated progression in responsibility\u2026",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Demonstrated subject matter expertise in one or more analytics, measurement, media, or industry domains, with the ability to share knowledge and elevate the capabilities of others.",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Working familiarity with\u202fPython, SQL, Tableau or comparable analytical and visualization tools, as well as experience working with predictive analytics and/or ML/AI models.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Proven ability to\u202ftranslate complex analytics into compelling stories and actionable recommendations\u202ffor client and business audiences.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "3+ years in analytics leadership roles, ideally with team management experience.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r8",
+     "text": "Bachelor\u2019s degree required; Master\u2019s preferred in Business Analytics, Data Science, Economics, or related fields.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Experience in Retail, Financial Services, Telecom, or Travel verticals is a plus.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r10",
+     "text": "Zeta Global is seeking a\u202fstrategic, client-facing Director\u202fto join our ZX Data Science & Analytics team. This role is ideal for an experienced analytics leader who excels at \u202ftr\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "This position reports to the VP of Data Science & Analytics.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Lead with Storytelling:\u202fTranslate complex analytics and media performance into clear, persuasive narratives that connect insights to client business priorities and inspire action.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "Shape Client Strategy:\u202fDevelop analytics approaches aligned with client objectives, using insights to inform acquisition, retention, lifetime value, media, and optimization stra\u2026",
+     "skills": [
+      "advertising",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Drive Measurement Excellence:\u202fApply and advocate for best-in-class measurement methodologies, including Test/Holdout-based incrementality measurement. Help clients and internal \u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Scale Best Practices:\u202fIdentify learnings across clients, campaigns, and categories and translate them into repeatable best practices, frameworks, and recommendations that improv\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Team Leadership: manage and develop a team of analysts, including coaching, onboarding, workload prioritization, performance management, feedback, recognition, and career develo\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Lead Strategic Initiatives:\u202fServe as analytics lead and subject matter expert for select strategic initiatives, helping define solutions, align stakeholders, and move work from \u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r18",
+     "text": "Collaborate Cross-Functionally:\u202fPartner effectively with Sales, Client Services, Client Development, Operations, and other teams to solve client challenges, improve processes, a\u2026",
+     "skills": [],
+     "m": 0.45
+    },
+    {
+     "req": "r19",
+     "text": "Innovate with AI:\u202fSupport the development, application, and adoption of predictive and adaptive ML/AI solutions, helping translate model outputs into clear business recommendati\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m1",
+   "role": "ms-head",
+   "original": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "final": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 36.85,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of professional experience\u202fin analytics, marketing measurement, data science, media analytics, or a related discipline, with demonstrated progression in responsibility\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "Strong client-facing experience with excellent presentation, communication, and stakeholder-management skills, including the ability to command an audience and serve as a model \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Demonstrated subject matter expertise in one or more analytics, measurement, media, or industry domains, with the ability to share knowledge and elevate the capabilities of others.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Working familiarity with\u202fPython, SQL, Tableau or comparable analytical and visualization tools, as well as experience working with predictive analytics and/or ML/AI models.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "3+ years in analytics leadership roles, ideally with team management experience.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "Ability to operate independently, make sound decisions in support of clients and the business, give and receive feedback effectively, and challenge existing approaches construct\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Experience in Retail, Financial Services, Telecom, or Travel verticals is a plus.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r10",
+     "text": "Zeta Global is seeking a\u202fstrategic, client-facing Director\u202fto join our ZX Data Science & Analytics team. This role is ideal for an experienced analytics leader who excels at \u202ftr\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r12",
+     "text": "Lead with Storytelling:\u202fTranslate complex analytics and media performance into clear, persuasive narratives that connect insights to client business priorities and inspire action.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Shape Client Strategy:\u202fDevelop analytics approaches aligned with client objectives, using insights to inform acquisition, retention, lifetime value, media, and optimization stra\u2026",
+     "skills": [
+      "advertising",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r15",
+     "text": "Scale Best Practices:\u202fIdentify learnings across clients, campaigns, and categories and translate them into repeatable best practices, frameworks, and recommendations that improv\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Team Leadership: manage and develop a team of analysts, including coaching, onboarding, workload prioritization, performance management, feedback, recognition, and career develo\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Lead Strategic Initiatives:\u202fServe as analytics lead and subject matter expert for select strategic initiatives, helping define solutions, align stakeholders, and move work from \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Collaborate Cross-Functionally:\u202fPartner effectively with Sales, Client Services, Client Development, Operations, and other teams to solve client challenges, improve processes, a\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r19",
+     "text": "Innovate with AI:\u202fSupport the development, application, and adoption of predictive and adaptive ML/AI solutions, helping translate model outputs into clear business recommendati\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "role": "ms-sal",
+   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 21.44,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of professional experience\u202fin analytics, marketing measurement, data science, media analytics, or a related discipline, with demonstrated progression in responsibility\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "Strong client-facing experience with excellent presentation, communication, and stakeholder-management skills, including the ability to command an audience and serve as a model \u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Demonstrated subject matter expertise in one or more analytics, measurement, media, or industry domains, with the ability to share knowledge and elevate the capabilities of others.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Working familiarity with\u202fPython, SQL, Tableau or comparable analytical and visualization tools, as well as experience working with predictive analytics and/or ML/AI models.",
+     "skills": [
+      "stats",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Proven ability to\u202ftranslate complex analytics into compelling stories and actionable recommendations\u202ffor client and business audiences.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r6",
+     "text": "3+ years in analytics leadership roles, ideally with team management experience.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r7",
+     "text": "Ability to operate independently, make sound decisions in support of clients and the business, give and receive feedback effectively, and challenge existing approaches construct\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Bachelor\u2019s degree required; Master\u2019s preferred in Business Analytics, Data Science, Economics, or related fields.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r10",
+     "text": "Zeta Global is seeking a\u202fstrategic, client-facing Director\u202fto join our ZX Data Science & Analytics team. This role is ideal for an experienced analytics leader who excels at \u202ftr\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "This position reports to the VP of Data Science & Analytics.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Lead with Storytelling:\u202fTranslate complex analytics and media performance into clear, persuasive narratives that connect insights to client business priorities and inspire action.",
+     "skills": [],
+     "m": 0.45
+    },
+    {
+     "req": "r13",
+     "text": "Shape Client Strategy:\u202fDevelop analytics approaches aligned with client objectives, using insights to inform acquisition, retention, lifetime value, media, and optimization stra\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Drive Measurement Excellence:\u202fApply and advocate for best-in-class measurement methodologies, including Test/Holdout-based incrementality measurement. Help clients and internal \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Scale Best Practices:\u202fIdentify learnings across clients, campaigns, and categories and translate them into repeatable best practices, frameworks, and recommendations that improv\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Team Leadership: manage and develop a team of analysts, including coaching, onboarding, workload prioritization, performance management, feedback, recognition, and career develo\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r17",
+     "text": "Lead Strategic Initiatives:\u202fServe as analytics lead and subject matter expert for select strategic initiatives, helping define solutions, align stakeholders, and move work from \u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r18",
+     "text": "Collaborate Cross-Functionally:\u202fPartner effectively with Sales, Client Services, Client Development, Operations, and other teams to solve client challenges, improve processes, a\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r19",
+     "text": "Innovate with AI:\u202fSupport the development, application, and adoption of predictive and adaptive ML/AI solutions, helping translate model outputs into clear business recommendati\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "role": "ms-al",
+   "original": "Created the Marketplace Rebound Gauge, a traffic-light signal of COVID recovery built on moving-average clustering, used in every vertical and later in EMEA",
+   "final": "Created the Marketplace Rebound Gauge, a traffic-light signal of COVID recovery built on moving-average clustering, used in every vertical and later in EMEA",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 17.78,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of professional experience\u202fin analytics, marketing measurement, data science, media analytics, or a related discipline, with demonstrated progression in responsibility\u2026",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r2",
+     "text": "Strong client-facing experience with excellent presentation, communication, and stakeholder-management skills, including the ability to command an audience and serve as a model \u2026",
+     "skills": [
+      "stats",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Demonstrated subject matter expertise in one or more analytics, measurement, media, or industry domains, with the ability to share knowledge and elevate the capabilities of others.",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Working familiarity with\u202fPython, SQL, Tableau or comparable analytical and visualization tools, as well as experience working with predictive analytics and/or ML/AI models.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Experience in Retail, Financial Services, Telecom, or Travel verticals is a plus.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Zeta Global is seeking a\u202fstrategic, client-facing Director\u202fto join our ZX Data Science & Analytics team. This role is ideal for an experienced analytics leader who excels at \u202ftr\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Lead with Storytelling:\u202fTranslate complex analytics and media performance into clear, persuasive narratives that connect insights to client business priorities and inspire action.",
+     "skills": [
+      "advertising",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "Shape Client Strategy:\u202fDevelop analytics approaches aligned with client objectives, using insights to inform acquisition, retention, lifetime value, media, and optimization stra\u2026",
+     "skills": [
+      "advertising",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Drive Measurement Excellence:\u202fApply and advocate for best-in-class measurement methodologies, including Test/Holdout-based incrementality measurement. Help clients and internal \u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Scale Best Practices:\u202fIdentify learnings across clients, campaigns, and categories and translate them into repeatable best practices, frameworks, and recommendations that improv\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Innovate with AI:\u202fSupport the development, application, and adoption of predictive and adaptive ML/AI solutions, helping translate model outputs into clear business recommendati\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 6.99,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of professional experience\u202fin analytics, marketing measurement, data science, media analytics, or a related discipline, with demonstrated progression in responsibility\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r2",
+     "text": "Strong client-facing experience with excellent presentation, communication, and stakeholder-management skills, including the ability to command an audience and serve as a model \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Demonstrated subject matter expertise in one or more analytics, measurement, media, or industry domains, with the ability to share knowledge and elevate the capabilities of others.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "This position reports to the VP of Data Science & Analytics.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Shape Client Strategy:\u202fDevelop analytics approaches aligned with client objectives, using insights to inform acquisition, retention, lifetime value, media, and optimization stra\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Drive Measurement Excellence:\u202fApply and advocate for best-in-class measurement methodologies, including Test/Holdout-based incrementality measurement. Help clients and internal \u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Lead Strategic Initiatives:\u202fServe as analytics lead and subject matter expert for select strategic initiatives, helping define solutions, align stakeholders, and move work from \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Collaborate Cross-Functionally:\u202fPartner effectively with Sales, Client Services, Client Development, Operations, and other teams to solve client challenges, improve processes, a\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "n1",
+   "role": "hanapin",
+   "original": "Ran client relationships and strategy for search and display accounts on Google Ads, Bing Ads and Yahoo, including optimization, monitoring and reporting",
+   "final": "Ran client relationships and strategy for search and display accounts on Google Ads, Bing Ads and Yahoo, including optimization, monitoring and reporting",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 13.85,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of professional experience\u202fin analytics, marketing measurement, data science, media analytics, or a related discipline, with demonstrated progression in responsibility\u2026",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r2",
+     "text": "Strong client-facing experience with excellent presentation, communication, and stakeholder-management skills, including the ability to command an audience and serve as a model \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r3",
+     "text": "Demonstrated subject matter expertise in one or more analytics, measurement, media, or industry domains, with the ability to share knowledge and elevate the capabilities of others.",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Proven ability to\u202ftranslate complex analytics into compelling stories and actionable recommendations\u202ffor client and business audiences.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "Ability to operate independently, make sound decisions in support of clients and the business, give and receive feedback effectively, and challenge existing approaches construct\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Zeta Global is seeking a\u202fstrategic, client-facing Director\u202fto join our ZX Data Science & Analytics team. This role is ideal for an experienced analytics leader who excels at \u202ftr\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r11",
+     "text": "This position reports to the VP of Data Science & Analytics.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Lead with Storytelling:\u202fTranslate complex analytics and media performance into clear, persuasive narratives that connect insights to client business priorities and inspire action.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Shape Client Strategy:\u202fDevelop analytics approaches aligned with client objectives, using insights to inform acquisition, retention, lifetime value, media, and optimization stra\u2026",
+     "skills": [
+      "advertising",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Drive Measurement Excellence:\u202fApply and advocate for best-in-class measurement methodologies, including Test/Holdout-based incrementality measurement. Help clients and internal \u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r15",
+     "text": "Scale Best Practices:\u202fIdentify learnings across clients, campaigns, and categories and translate them into repeatable best practices, frameworks, and recommendations that improv\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Team Leadership: manage and develop a team of analysts, including coaching, onboarding, workload prioritization, performance management, feedback, recognition, and career develo\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Lead Strategic Initiatives:\u202fServe as analytics lead and subject matter expert for select strategic initiatives, helping define solutions, align stakeholders, and move work from \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Collaborate Cross-Functionally:\u202fPartner effectively with Sales, Client Services, Client Development, Operations, and other teams to solve client challenges, improve processes, a\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Innovate with AI:\u202fSupport the development, application, and adoption of predictive and adaptive ML/AI solutions, helping translate model outputs into clear business recommendati\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "role": "ms-dir",
+   "original": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "final": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 34.25,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of professional experience\u202fin analytics, marketing measurement, data science, media analytics, or a related discipline, with demonstrated progression in responsibility\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Strong client-facing experience with excellent presentation, communication, and stakeholder-management skills, including the ability to command an audience and serve as a model \u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Demonstrated subject matter expertise in one or more analytics, measurement, media, or industry domains, with the ability to share knowledge and elevate the capabilities of others.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Proven ability to\u202ftranslate complex analytics into compelling stories and actionable recommendations\u202ffor client and business audiences.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "Ability to operate independently, make sound decisions in support of clients and the business, give and receive feedback effectively, and challenge existing approaches construct\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Bachelor\u2019s degree required; Master\u2019s preferred in Business Analytics, Data Science, Economics, or related fields.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r9",
+     "text": "Experience in Retail, Financial Services, Telecom, or Travel verticals is a plus.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Zeta Global is seeking a\u202fstrategic, client-facing Director\u202fto join our ZX Data Science & Analytics team. This role is ideal for an experienced analytics leader who excels at \u202ftr\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r11",
+     "text": "This position reports to the VP of Data Science & Analytics.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r12",
+     "text": "Lead with Storytelling:\u202fTranslate complex analytics and media performance into clear, persuasive narratives that connect insights to client business priorities and inspire action.",
+     "skills": [
+      "advertising",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "Shape Client Strategy:\u202fDevelop analytics approaches aligned with client objectives, using insights to inform acquisition, retention, lifetime value, media, and optimization stra\u2026",
+     "skills": [
+      "advertising",
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Drive Measurement Excellence:\u202fApply and advocate for best-in-class measurement methodologies, including Test/Holdout-based incrementality measurement. Help clients and internal \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Scale Best Practices:\u202fIdentify learnings across clients, campaigns, and categories and translate them into repeatable best practices, frameworks, and recommendations that improv\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Team Leadership: manage and develop a team of analysts, including coaching, onboarding, workload prioritization, performance management, feedback, recognition, and career develo\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Lead Strategic Initiatives:\u202fServe as analytics lead and subject matter expert for select strategic initiatives, helping define solutions, align stakeholders, and move work from \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Collaborate Cross-Functionally:\u202fPartner effectively with Sales, Client Services, Client Development, Operations, and other teams to solve client challenges, improve processes, a\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Innovate with AI:\u202fSupport the development, application, and adoption of predictive and adaptive ML/AI solutions, helping translate model outputs into clear business recommendati\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "role": "ms-dir",
+   "original": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "final": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 30.11,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of professional experience\u202fin analytics, marketing measurement, data science, media analytics, or a related discipline, with demonstrated progression in responsibility\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Demonstrated subject matter expertise in one or more analytics, measurement, media, or industry domains, with the ability to share knowledge and elevate the capabilities of others.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Working familiarity with\u202fPython, SQL, Tableau or comparable analytical and visualization tools, as well as experience working with predictive analytics and/or ML/AI models.",
+     "skills": [
+      "sql",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Proven ability to\u202ftranslate complex analytics into compelling stories and actionable recommendations\u202ffor client and business audiences.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "Ability to operate independently, make sound decisions in support of clients and the business, give and receive feedback effectively, and challenge existing approaches construct\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Bachelor\u2019s degree required; Master\u2019s preferred in Business Analytics, Data Science, Economics, or related fields.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Zeta Global is seeking a\u202fstrategic, client-facing Director\u202fto join our ZX Data Science & Analytics team. This role is ideal for an experienced analytics leader who excels at \u202ftr\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "This position reports to the VP of Data Science & Analytics.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Lead with Storytelling:\u202fTranslate complex analytics and media performance into clear, persuasive narratives that connect insights to client business priorities and inspire action.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Shape Client Strategy:\u202fDevelop analytics approaches aligned with client objectives, using insights to inform acquisition, retention, lifetime value, media, and optimization stra\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Drive Measurement Excellence:\u202fApply and advocate for best-in-class measurement methodologies, including Test/Holdout-based incrementality measurement. Help clients and internal \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Scale Best Practices:\u202fIdentify learnings across clients, campaigns, and categories and translate them into repeatable best practices, frameworks, and recommendations that improv\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Team Leadership: manage and develop a team of analysts, including coaching, onboarding, workload prioritization, performance management, feedback, recognition, and career develo\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Collaborate Cross-Functionally:\u202fPartner effectively with Sales, Client Services, Client Development, Operations, and other teams to solve client challenges, improve processes, a\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "Innovate with AI:\u202fSupport the development, application, and adoption of predictive and adaptive ML/AI solutions, helping translate model outputs into clear business recommendati\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.9
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "role": "ms-head",
+   "original": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "final": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 27.95,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of professional experience\u202fin analytics, marketing measurement, data science, media analytics, or a related discipline, with demonstrated progression in responsibility\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "Strong client-facing experience with excellent presentation, communication, and stakeholder-management skills, including the ability to command an audience and serve as a model \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Demonstrated subject matter expertise in one or more analytics, measurement, media, or industry domains, with the ability to share knowledge and elevate the capabilities of others.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Working familiarity with\u202fPython, SQL, Tableau or comparable analytical and visualization tools, as well as experience working with predictive analytics and/or ML/AI models.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Proven ability to\u202ftranslate complex analytics into compelling stories and actionable recommendations\u202ffor client and business audiences.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "3+ years in analytics leadership roles, ideally with team management experience.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r7",
+     "text": "Ability to operate independently, make sound decisions in support of clients and the business, give and receive feedback effectively, and challenge existing approaches construct\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Bachelor\u2019s degree required; Master\u2019s preferred in Business Analytics, Data Science, Economics, or related fields.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Zeta Global is seeking a\u202fstrategic, client-facing Director\u202fto join our ZX Data Science & Analytics team. This role is ideal for an experienced analytics leader who excels at \u202ftr\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "This position reports to the VP of Data Science & Analytics.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Lead with Storytelling:\u202fTranslate complex analytics and media performance into clear, persuasive narratives that connect insights to client business priorities and inspire action.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Shape Client Strategy:\u202fDevelop analytics approaches aligned with client objectives, using insights to inform acquisition, retention, lifetime value, media, and optimization stra\u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r15",
+     "text": "Scale Best Practices:\u202fIdentify learnings across clients, campaigns, and categories and translate them into repeatable best practices, frameworks, and recommendations that improv\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Team Leadership: manage and develop a team of analysts, including coaching, onboarding, workload prioritization, performance management, feedback, recognition, and career develo\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Lead Strategic Initiatives:\u202fServe as analytics lead and subject matter expert for select strategic initiatives, helping define solutions, align stakeholders, and move work from \u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Collaborate Cross-Functionally:\u202fPartner effectively with Sales, Client Services, Client Development, Operations, and other teams to solve client challenges, improve processes, a\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r19",
+     "text": "Innovate with AI:\u202fSupport the development, application, and adoption of predictive and adaptive ML/AI solutions, helping translate model outputs into clear business recommendati\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "role": "ms-head",
+   "original": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "final": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 17.92,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of professional experience\u202fin analytics, marketing measurement, data science, media analytics, or a related discipline, with demonstrated progression in responsibility\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Demonstrated subject matter expertise in one or more analytics, measurement, media, or industry domains, with the ability to share knowledge and elevate the capabilities of others.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Working familiarity with\u202fPython, SQL, Tableau or comparable analytical and visualization tools, as well as experience working with predictive analytics and/or ML/AI models.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Proven ability to\u202ftranslate complex analytics into compelling stories and actionable recommendations\u202ffor client and business audiences.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "3+ years in analytics leadership roles, ideally with team management experience.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r8",
+     "text": "Bachelor\u2019s degree required; Master\u2019s preferred in Business Analytics, Data Science, Economics, or related fields.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Experience in Retail, Financial Services, Telecom, or Travel verticals is a plus.",
+     "skills": [],
+     "m": 0.45
+    },
+    {
+     "req": "r10",
+     "text": "Zeta Global is seeking a\u202fstrategic, client-facing Director\u202fto join our ZX Data Science & Analytics team. This role is ideal for an experienced analytics leader who excels at \u202ftr\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "This position reports to the VP of Data Science & Analytics.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Lead with Storytelling:\u202fTranslate complex analytics and media performance into clear, persuasive narratives that connect insights to client business priorities and inspire action.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Shape Client Strategy:\u202fDevelop analytics approaches aligned with client objectives, using insights to inform acquisition, retention, lifetime value, media, and optimization stra\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r15",
+     "text": "Scale Best Practices:\u202fIdentify learnings across clients, campaigns, and categories and translate them into repeatable best practices, frameworks, and recommendations that improv\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Team Leadership: manage and develop a team of analysts, including coaching, onboarding, workload prioritization, performance management, feedback, recognition, and career develo\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Lead Strategic Initiatives:\u202fServe as analytics lead and subject matter expert for select strategic initiatives, helping define solutions, align stakeholders, and move work from \u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Collaborate Cross-Functionally:\u202fPartner effectively with Sales, Client Services, Client Development, Operations, and other teams to solve client challenges, improve processes, a\u2026",
+     "skills": [],
+     "m": 0.45
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 31.15,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of professional experience\u202fin analytics, marketing measurement, data science, media analytics, or a related discipline, with demonstrated progression in responsibility\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "Strong client-facing experience with excellent presentation, communication, and stakeholder-management skills, including the ability to command an audience and serve as a model \u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "3+ years in analytics leadership roles, ideally with team management experience.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Zeta Global is seeking a\u202fstrategic, client-facing Director\u202fto join our ZX Data Science & Analytics team. This role is ideal for an experienced analytics leader who excels at \u202ftr\u2026",
+     "skills": [
+      "leadership",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r12",
+     "text": "Lead with Storytelling:\u202fTranslate complex analytics and media performance into clear, persuasive narratives that connect insights to client business priorities and inspire action.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r13",
+     "text": "Shape Client Strategy:\u202fDevelop analytics approaches aligned with client objectives, using insights to inform acquisition, retention, lifetime value, media, and optimization stra\u2026",
+     "skills": [
+      "storytelling",
+      "product-analytics",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "Team Leadership: manage and develop a team of analysts, including coaching, onboarding, workload prioritization, performance management, feedback, recognition, and career develo\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Lead Strategic Initiatives:\u202fServe as analytics lead and subject matter expert for select strategic initiatives, helping define solutions, align stakeholders, and move work from \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Collaborate Cross-Functionally:\u202fPartner effectively with Sales, Client Services, Client Development, Operations, and other teams to solve client challenges, improve processes, a\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r19",
+     "text": "Innovate with AI:\u202fSupport the development, application, and adoption of predictive and adaptive ML/AI solutions, helping translate model outputs into clear business recommendati\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "role": "ms-head",
+   "original": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "final": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 31.55,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of professional experience\u202fin analytics, marketing measurement, data science, media analytics, or a related discipline, with demonstrated progression in responsibility\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r2",
+     "text": "Strong client-facing experience with excellent presentation, communication, and stakeholder-management skills, including the ability to command an audience and serve as a model \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Demonstrated subject matter expertise in one or more analytics, measurement, media, or industry domains, with the ability to share knowledge and elevate the capabilities of others.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Working familiarity with\u202fPython, SQL, Tableau or comparable analytical and visualization tools, as well as experience working with predictive analytics and/or ML/AI models.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Proven ability to\u202ftranslate complex analytics into compelling stories and actionable recommendations\u202ffor client and business audiences.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r6",
+     "text": "3+ years in analytics leadership roles, ideally with team management experience.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "Ability to operate independently, make sound decisions in support of clients and the business, give and receive feedback effectively, and challenge existing approaches construct\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Bachelor\u2019s degree required; Master\u2019s preferred in Business Analytics, Data Science, Economics, or related fields.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Experience in Retail, Financial Services, Telecom, or Travel verticals is a plus.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r10",
+     "text": "Zeta Global is seeking a\u202fstrategic, client-facing Director\u202fto join our ZX Data Science & Analytics team. This role is ideal for an experienced analytics leader who excels at \u202ftr\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "This position reports to the VP of Data Science & Analytics.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Lead with Storytelling:\u202fTranslate complex analytics and media performance into clear, persuasive narratives that connect insights to client business priorities and inspire action.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r13",
+     "text": "Shape Client Strategy:\u202fDevelop analytics approaches aligned with client objectives, using insights to inform acquisition, retention, lifetime value, media, and optimization stra\u2026",
+     "skills": [
+      "advertising",
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Drive Measurement Excellence:\u202fApply and advocate for best-in-class measurement methodologies, including Test/Holdout-based incrementality measurement. Help clients and internal \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Scale Best Practices:\u202fIdentify learnings across clients, campaigns, and categories and translate them into repeatable best practices, frameworks, and recommendations that improv\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r16",
+     "text": "Team Leadership: manage and develop a team of analysts, including coaching, onboarding, workload prioritization, performance management, feedback, recognition, and career develo\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r17",
+     "text": "Lead Strategic Initiatives:\u202fServe as analytics lead and subject matter expert for select strategic initiatives, helping define solutions, align stakeholders, and move work from \u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Collaborate Cross-Functionally:\u202fPartner effectively with Sales, Client Services, Client Development, Operations, and other teams to solve client challenges, improve processes, a\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Innovate with AI:\u202fSupport the development, application, and adoption of predictive and adaptive ML/AI solutions, helping translate model outputs into clear business recommendati\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "role": "ms-dir",
+   "original": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "final": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 32.64,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of professional experience\u202fin analytics, marketing measurement, data science, media analytics, or a related discipline, with demonstrated progression in responsibility\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Strong client-facing experience with excellent presentation, communication, and stakeholder-management skills, including the ability to command an audience and serve as a model \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r3",
+     "text": "Demonstrated subject matter expertise in one or more analytics, measurement, media, or industry domains, with the ability to share knowledge and elevate the capabilities of others.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Proven ability to\u202ftranslate complex analytics into compelling stories and actionable recommendations\u202ffor client and business audiences.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "3+ years in analytics leadership roles, ideally with team management experience.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "Ability to operate independently, make sound decisions in support of clients and the business, give and receive feedback effectively, and challenge existing approaches construct\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Zeta Global is seeking a\u202fstrategic, client-facing Director\u202fto join our ZX Data Science & Analytics team. This role is ideal for an experienced analytics leader who excels at \u202ftr\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Lead with Storytelling:\u202fTranslate complex analytics and media performance into clear, persuasive narratives that connect insights to client business priorities and inspire action.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Shape Client Strategy:\u202fDevelop analytics approaches aligned with client objectives, using insights to inform acquisition, retention, lifetime value, media, and optimization stra\u2026",
+     "skills": [
+      "advertising",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Drive Measurement Excellence:\u202fApply and advocate for best-in-class measurement methodologies, including Test/Holdout-based incrementality measurement. Help clients and internal \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Scale Best Practices:\u202fIdentify learnings across clients, campaigns, and categories and translate them into repeatable best practices, frameworks, and recommendations that improv\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Team Leadership: manage and develop a team of analysts, including coaching, onboarding, workload prioritization, performance management, feedback, recognition, and career develo\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Lead Strategic Initiatives:\u202fServe as analytics lead and subject matter expert for select strategic initiatives, helping define solutions, align stakeholders, and move work from \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Collaborate Cross-Functionally:\u202fPartner effectively with Sales, Client Services, Client Development, Operations, and other teams to solve client challenges, improve processes, a\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r19",
+     "text": "Innovate with AI:\u202fSupport the development, application, and adoption of predictive and adaptive ML/AI solutions, helping translate model outputs into clear business recommendati\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "role": "ms-head",
+   "original": "Brought the team's client books to 107% of revenue quota (+$23M) while adding a health and wellness vertical",
+   "final": "Brought the team's client books to 107% of revenue quota (+$23M) while adding a health and wellness vertical",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 22.22,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of professional experience\u202fin analytics, marketing measurement, data science, media analytics, or a related discipline, with demonstrated progression in responsibility\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Strong client-facing experience with excellent presentation, communication, and stakeholder-management skills, including the ability to command an audience and serve as a model \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Demonstrated subject matter expertise in one or more analytics, measurement, media, or industry domains, with the ability to share knowledge and elevate the capabilities of others.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Proven ability to\u202ftranslate complex analytics into compelling stories and actionable recommendations\u202ffor client and business audiences.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "3+ years in analytics leadership roles, ideally with team management experience.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "Ability to operate independently, make sound decisions in support of clients and the business, give and receive feedback effectively, and challenge existing approaches construct\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Experience in Retail, Financial Services, Telecom, or Travel verticals is a plus.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Zeta Global is seeking a\u202fstrategic, client-facing Director\u202fto join our ZX Data Science & Analytics team. This role is ideal for an experienced analytics leader who excels at \u202ftr\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Lead with Storytelling:\u202fTranslate complex analytics and media performance into clear, persuasive narratives that connect insights to client business priorities and inspire action.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Shape Client Strategy:\u202fDevelop analytics approaches aligned with client objectives, using insights to inform acquisition, retention, lifetime value, media, and optimization stra\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Drive Measurement Excellence:\u202fApply and advocate for best-in-class measurement methodologies, including Test/Holdout-based incrementality measurement. Help clients and internal \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Scale Best Practices:\u202fIdentify learnings across clients, campaigns, and categories and translate them into repeatable best practices, frameworks, and recommendations that improv\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Team Leadership: manage and develop a team of analysts, including coaching, onboarding, workload prioritization, performance management, feedback, recognition, and career develo\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r18",
+     "text": "Collaborate Cross-Functionally:\u202fPartner effectively with Sales, Client Services, Client Development, Operations, and other teams to solve client challenges, improve processes, a\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r19",
+     "text": "Innovate with AI:\u202fSupport the development, application, and adoption of predictive and adaptive ML/AI solutions, helping translate model outputs into clear business recommendati\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "p6",
+   "role": "proj",
+   "original": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "final": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 16.64,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Strong client-facing experience with excellent presentation, communication, and stakeholder-management skills, including the ability to command an audience and serve as a model \u2026",
+     "skills": [
+      "stats",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Working familiarity with\u202fPython, SQL, Tableau or comparable analytical and visualization tools, as well as experience working with predictive analytics and/or ML/AI models.",
+     "skills": [
+      "stats",
+      "python"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Zeta Global is seeking a\u202fstrategic, client-facing Director\u202fto join our ZX Data Science & Analytics team. This role is ideal for an experienced analytics leader who excels at \u202ftr\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Lead with Storytelling:\u202fTranslate complex analytics and media performance into clear, persuasive narratives that connect insights to client business priorities and inspire action.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Shape Client Strategy:\u202fDevelop analytics approaches aligned with client objectives, using insights to inform acquisition, retention, lifetime value, media, and optimization stra\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Innovate with AI:\u202fSupport the development, application, and adoption of predictive and adaptive ML/AI solutions, helping translate model outputs into clear business recommendati\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "role": "proj",
+   "original": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "final": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 17.52,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of professional experience\u202fin analytics, marketing measurement, data science, media analytics, or a related discipline, with demonstrated progression in responsibility\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "Strong client-facing experience with excellent presentation, communication, and stakeholder-management skills, including the ability to command an audience and serve as a model \u2026",
+     "skills": [
+      "stats",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Working familiarity with\u202fPython, SQL, Tableau or comparable analytical and visualization tools, as well as experience working with predictive analytics and/or ML/AI models.",
+     "skills": [
+      "stats",
+      "python"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Proven ability to\u202ftranslate complex analytics into compelling stories and actionable recommendations\u202ffor client and business audiences.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Bachelor\u2019s degree required; Master\u2019s preferred in Business Analytics, Data Science, Economics, or related fields.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Zeta Global is seeking a\u202fstrategic, client-facing Director\u202fto join our ZX Data Science & Analytics team. This role is ideal for an experienced analytics leader who excels at \u202ftr\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "This position reports to the VP of Data Science & Analytics.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Lead with Storytelling:\u202fTranslate complex analytics and media performance into clear, persuasive narratives that connect insights to client business priorities and inspire action.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Shape Client Strategy:\u202fDevelop analytics approaches aligned with client objectives, using insights to inform acquisition, retention, lifetime value, media, and optimization stra\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Team Leadership: manage and develop a team of analysts, including coaching, onboarding, workload prioritization, performance management, feedback, recognition, and career develo\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "Innovate with AI:\u202fSupport the development, application, and adoption of predictive and adaptive ML/AI solutions, helping translate model outputs into clear business recommendati\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "role": "proj",
+   "original": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "final": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 6,
+   "matched": [
+    {
+     "req": "r4",
+     "text": "Working familiarity with\u202fPython, SQL, Tableau or comparable analytical and visualization tools, as well as experience working with predictive analytics and/or ML/AI models.",
+     "skills": [
+      "sql",
+      "python"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Innovate with AI:\u202fSupport the development, application, and adoption of predictive and adaptive ML/AI solutions, helping translate model outputs into clear business recommendati\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "why": "role already full",
+   "score": 21.42
+  },
+  {
+   "text": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "why": "role already full",
+   "score": 20.54
+  },
+  {
+   "text": "Beat client-engagement targets in both verticals in 2024 (119% and 125%) and met them in late 2023 with automotive at about half capacity",
+   "why": "role already full",
+   "score": 20.18
+  },
+  {
+   "text": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "why": "role already full",
+   "score": 19.61
+  },
+  {
+   "text": "Built a travel COVID risk map from CDC, state regulation, population and search data, refreshed every two weeks, that a major client's CMO asked for regularly",
+   "why": "others covered the same ground better",
+   "score": 18.81
+  },
+  {
+   "text": "Ran a roundtable with a regional sales VP's leadership team to answer their doubts about advanced analytics",
+   "why": "role already full",
+   "score": 18.01
+  },
+  {
+   "text": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
+   "why": "others covered the same ground better",
+   "score": 16.5
+  },
+  {
+   "text": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "why": "others covered the same ground better",
+   "score": 15.06
+  }
+ ],
+ "skills": [
+  "Advertising",
+  "Data storytelling",
+  "Stakeholder management",
+  "Strategy",
+  "Statistics",
+  "Measurement",
+  "Machine learning",
+  "Dashboards",
+  "Team Leadership",
+  "SQL",
+  "Python",
+  "Public speaking",
+  "Generative AI",
+  "Excel",
+  "Product analytics"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 10+ years; I have 12."
+  }
+ ]
+}
