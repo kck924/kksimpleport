@@ -1,0 +1,2567 @@
+{
+ "id": "yq9vqwhs",
+ "version": "1.5",
+ "created": "2026-10-30",
+ "job": {
+  "title": "Marketing Analytics Director  | United States | Remote",
+  "company": "Grafana Labs"
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 14
+ },
+ "fit": 86,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "Strategic GTM Partnership: Serve as the primary strategic partner to the GTM Leadership team (VP of Demand Gen, VP of Regional and Events, Head of Marketing Ops, CMO, Revenue Op\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "x2",
+    "m11",
+    "h2",
+    "m12",
+    "a1",
+    "d1",
+    "m4",
+    "t4",
+    "m13",
+    "t2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "Dual-Track Target Setting: Architect and own a sophisticated forecasting framework that balances top-of-funnel volume with high-intent lead quality, optimized for Grafana Cloud \u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "t4",
+    "m13",
+    "p3",
+    "m9",
+    "d1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "Predictive Modeling and ROI: Develop and maintain machine learning models (Attribution, MMM, LTV) to predict campaign impact and steer budget allocation toward the highest-ROI c\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "t2",
+    "a1",
+    "n2",
+    "d1",
+    "m10",
+    "p4",
+    "x2",
+    "m11",
+    "h2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Data Warehouse Architecture: Oversee the structure of marketing data within Google BigQuery, ensuring a scalable single source of truth that connects product usage data with mar\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "p3",
+    "a1",
+    "m10",
+    "h2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "Causal Inference and Inflection Hunting: Move beyond descriptive analytics to perform causal inference and predictive trend analysis. When the data shows an anomaly, whether a 3\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "n2",
+    "m11",
+    "a1",
+    "t2",
+    "d1",
+    "m10",
+    "h2",
+    "p4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "Executive Storytelling: Transform technical data outputs into clear, compelling narratives for the executive team and board. Deliver a succinct read and go deep where pushed.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "t4",
+    "m13",
+    "m11",
+    "n2",
+    "m12",
+    "a1",
+    "m7",
+    "x2",
+    "h2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "Utilizing AI and Automation",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m12",
+    "m9",
+    "m7",
+    "d1",
+    "m10",
+    "m11",
+    "p3",
+    "p4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r8",
+   "text": "Agentic Insights: Deploy LLM-powered agents (Claude Code, MCP-based tooling, or comparable) to monitor BigQuery datasets and automatically flag quality shifts in the funnel befo\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "m12",
+    "m10",
+    "m13",
+    "m11",
+    "p3",
+    "p4",
+    "a1",
+    "d1",
+    "m7",
+    "n2",
+    "t4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "Autonomous Workflows: Implement orchestration patterns (N8N, custom MCP servers, or equivalent) to build self-healing data pipelines and automated responses to market signals, s\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m12",
+    "m10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r10",
+   "text": "Predictive Quality Scoring: Build and deploy AI-driven scoring models that separate high-value potential users from low-signal volume, helping Sales and Marketing prioritize eff\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "d1",
+    "m12",
+    "p4",
+    "m10",
+    "m4",
+    "m11",
+    "h2",
+    "n2",
+    "p3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r11",
+   "text": "8+ years in Marketing Analytics, GTM Strategy, or Data Science, with at least 2 years in a lead architect capacity (IC track or player-coach; people management not required) wit\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m7",
+    "d1",
+    "m12",
+    "m4",
+    "h2",
+    "m9",
+    "t2",
+    "a1",
+    "x2",
+    "m11",
+    "n2",
+    "m10",
+    "m13"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "Demonstrated history as a force multiplier. You can point to specific tooling, rituals, evaluator systems, or frameworks you built that made other analysts or the broader org me\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "t2",
+    "m10",
+    "t4",
+    "p10",
+    "m4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r13",
+   "text": "Data Science and Engineering: Mastery of SQL and Python required. Deep experience architecting data environments in Google BigQuery, Snowflake, or similar warehouses.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "p3",
+    "a1",
+    "m10",
+    "p4",
+    "p10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r14",
+   "text": "Hands-on AI fluency as a builder, not a user. You have built and shipped agentic systems with Claude Code, MCP, or comparable tools. You understand where LLMs fail and how to de\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "p3",
+    "p4",
+    "m9",
+    "m10",
+    "m7",
+    "d1",
+    "m12",
+    "m11",
+    "m4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r15",
+   "text": "Automation Proficiency: Hands-on experience building complex logic and integrations using N8N, custom API orchestration, or MCP-based tooling.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "p3",
+    "p4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r16",
+   "text": "Visualization and BI: Advanced proficiency in modern data stack visualization tools (Grafana, Looker, Tableau) to build executive-grade dashboards.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "t4",
+    "t2",
+    "p10",
+    "a1",
+    "m10",
+    "m11",
+    "m9",
+    "m7",
+    "x2",
+    "m13",
+    "h2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r17",
+   "text": "Strategic Acumen: Proven ability to create structure in highly ambiguous environments and build target-setting frameworks from scratch.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m4",
+    "m7",
+    "d1",
+    "m12",
+    "h2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r18",
+   "text": "Executive presence with experience presenting to executive and board audiences, including sound judgment about what data is and isn't ready to share up the chain.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "t4",
+    "a1",
+    "m11",
+    "m9",
+    "m7",
+    "x2",
+    "n2",
+    "m13",
+    "h2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "You will architect a dual-track target-setting framework that balances high-velocity top-of-funnel growth with deep-funnel quality, ensuring GTM resources are directed toward hi\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m9",
+    "x2",
+    "m13"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r20",
+   "text": "You will be expected to engineer the underlying data schemas, design predictive models, and implement the BI frameworks that shape our global GTM strategy. We are looking for a \u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "x2",
+    "d1",
+    "m12",
+    "m10",
+    "t4",
+    "m11",
+    "h2",
+    "p4",
+    "a1",
+    "m4",
+    "t2",
+    "n2",
+    "m13",
+    "p3",
+    "p10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r21",
+   "text": "MarTech Ecosystem: Deep familiarity with connectivity between Salesforce, marketing automation, and product-led data streams.",
+   "kind": "responsibility",
+   "weight": 2,
+   "coveredBy": [
+    "m9",
+    "m12",
+    "h2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r22",
+   "text": "We\u2019re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an \u2026",
+   "kind": "other",
+   "weight": 1.5,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r23",
+   "text": "You may not meet every requirement, and that\u2019s okay. If this role excites you, we\u2019d love you to raise your hand for what could be a truly career-defining opportunity.",
+   "kind": "other",
+   "weight": 1.5,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r24",
+   "text": "Education: Bachelor's or Master's degree in a quantitative field (Data Science, CS, Statistics, Business Analytics). MBA or MS in Data Science is a significant plus.",
+   "kind": "preferred",
+   "weight": 1.5,
+   "coveredBy": [
+    "n2",
+    "p4",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r25",
+   "text": "Transparent Communication \u2013 Expect open decision-making and regular company-wide updates.",
+   "kind": "preferred",
+   "weight": 1.5,
+   "coveredBy": [
+    "n2",
+    "m11",
+    "m9",
+    "m12",
+    "t4",
+    "m13"
+   ],
+   "gap": false
+  }
+ ],
+ "picks": [
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 42.12,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Strategic GTM Partnership: Serve as the primary strategic partner to the GTM Leadership team (VP of Demand Gen, VP of Regional and Events, Head of Marketing Ops, CMO, Revenue Op\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r2",
+     "text": "Dual-Track Target Setting: Architect and own a sophisticated forecasting framework that balances top-of-funnel volume with high-intent lead quality, optimized for Grafana Cloud \u2026",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Data Warehouse Architecture: Oversee the structure of marketing data within Google BigQuery, ensuring a scalable single source of truth that connects product usage data with mar\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Causal Inference and Inflection Hunting: Move beyond descriptive analytics to perform causal inference and predictive trend analysis. When the data shows an anomaly, whether a 3\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Executive Storytelling: Transform technical data outputs into clear, compelling narratives for the executive team and board. Deliver a succinct read and go deep where pushed.",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Utilizing AI and Automation",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Agentic Insights: Deploy LLM-powered agents (Claude Code, MCP-based tooling, or comparable) to monitor BigQuery datasets and automatically flag quality shifts in the funnel befo\u2026",
+     "skills": [
+      "storytelling",
+      "genai",
+      "product-analytics"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Autonomous Workflows: Implement orchestration patterns (N8N, custom MCP servers, or equivalent) to build self-healing data pipelines and automated responses to market signals, s\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Predictive Quality Scoring: Build and deploy AI-driven scoring models that separate high-value potential users from low-signal volume, helping Sales and Marketing prioritize eff\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "8+ years in Marketing Analytics, GTM Strategy, or Data Science, with at least 2 years in a lead architect capacity (IC track or player-coach; people management not required) wit\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r12",
+     "text": "Demonstrated history as a force multiplier. You can point to specific tooling, rituals, evaluator systems, or frameworks you built that made other analysts or the broader org me\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Hands-on AI fluency as a builder, not a user. You have built and shipped agentic systems with Claude Code, MCP, or comparable tools. You understand where LLMs fail and how to de\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Visualization and BI: Advanced proficiency in modern data stack visualization tools (Grafana, Looker, Tableau) to build executive-grade dashboards.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Executive presence with experience presenting to executive and board audiences, including sound judgment about what data is and isn't ready to share up the chain.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "You will architect a dual-track target-setting framework that balances high-velocity top-of-funnel growth with deep-funnel quality, ensuring GTM resources are directed toward hi\u2026",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r20",
+     "text": "You will be expected to engineer the underlying data schemas, design predictive models, and implement the BI frameworks that shape our global GTM strategy. We are looking for a \u2026",
+     "skills": [
+      "genai",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "MarTech Ecosystem: Deep familiarity with connectivity between Salesforce, marketing automation, and product-led data streams.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r22",
+     "text": "We\u2019re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Transparent Communication \u2013 Expect open decision-making and regular company-wide updates.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "role": "ms-head",
+   "original": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "final": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 27.89,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Strategic GTM Partnership: Serve as the primary strategic partner to the GTM Leadership team (VP of Demand Gen, VP of Regional and Events, Head of Marketing Ops, CMO, Revenue Op\u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r2",
+     "text": "Dual-Track Target Setting: Architect and own a sophisticated forecasting framework that balances top-of-funnel volume with high-intent lead quality, optimized for Grafana Cloud \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Causal Inference and Inflection Hunting: Move beyond descriptive analytics to perform causal inference and predictive trend analysis. When the data shows an anomaly, whether a 3\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Executive Storytelling: Transform technical data outputs into clear, compelling narratives for the executive team and board. Deliver a succinct read and go deep where pushed.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Utilizing AI and Automation",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Agentic Insights: Deploy LLM-powered agents (Claude Code, MCP-based tooling, or comparable) to monitor BigQuery datasets and automatically flag quality shifts in the funnel befo\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Predictive Quality Scoring: Build and deploy AI-driven scoring models that separate high-value potential users from low-signal volume, helping Sales and Marketing prioritize eff\u2026",
+     "skills": [
+      "genai",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "8+ years in Marketing Analytics, GTM Strategy, or Data Science, with at least 2 years in a lead architect capacity (IC track or player-coach; people management not required) wit\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r12",
+     "text": "Demonstrated history as a force multiplier. You can point to specific tooling, rituals, evaluator systems, or frameworks you built that made other analysts or the broader org me\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Hands-on AI fluency as a builder, not a user. You have built and shipped agentic systems with Claude Code, MCP, or comparable tools. You understand where LLMs fail and how to de\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Visualization and BI: Advanced proficiency in modern data stack visualization tools (Grafana, Looker, Tableau) to build executive-grade dashboards.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Strategic Acumen: Proven ability to create structure in highly ambiguous environments and build target-setting frameworks from scratch.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Executive presence with experience presenting to executive and board audiences, including sound judgment about what data is and isn't ready to share up the chain.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "You will architect a dual-track target-setting framework that balances high-velocity top-of-funnel growth with deep-funnel quality, ensuring GTM resources are directed toward hi\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "You will be expected to engineer the underlying data schemas, design predictive models, and implement the BI frameworks that shape our global GTM strategy. We are looking for a \u2026",
+     "skills": [
+      "genai",
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Education: Bachelor's or Master's degree in a quantitative field (Data Science, CS, Statistics, Business Analytics). MBA or MS in Data Science is a significant plus.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "role": "ms-sal",
+   "original": "Built a travel COVID risk map from CDC, state regulation, population and search data, refreshed every two weeks, that a major client's CMO asked for regularly",
+   "final": "Built a travel COVID risk map from CDC, state regulation, population and search data, refreshed every two weeks, that a major client's CMO asked for regularly",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 13.06,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Strategic GTM Partnership: Serve as the primary strategic partner to the GTM Leadership team (VP of Demand Gen, VP of Regional and Events, Head of Marketing Ops, CMO, Revenue Op\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r3",
+     "text": "Predictive Modeling and ROI: Develop and maintain machine learning models (Attribution, MMM, LTV) to predict campaign impact and steer budget allocation toward the highest-ROI c\u2026",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Data Warehouse Architecture: Oversee the structure of marketing data within Google BigQuery, ensuring a scalable single source of truth that connects product usage data with mar\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Causal Inference and Inflection Hunting: Move beyond descriptive analytics to perform causal inference and predictive trend analysis. When the data shows an anomaly, whether a 3\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Executive Storytelling: Transform technical data outputs into clear, compelling narratives for the executive team and board. Deliver a succinct read and go deep where pushed.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Autonomous Workflows: Implement orchestration patterns (N8N, custom MCP servers, or equivalent) to build self-healing data pipelines and automated responses to market signals, s\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "8+ years in Marketing Analytics, GTM Strategy, or Data Science, with at least 2 years in a lead architect capacity (IC track or player-coach; people management not required) wit\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Demonstrated history as a force multiplier. You can point to specific tooling, rituals, evaluator systems, or frameworks you built that made other analysts or the broader org me\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r13",
+     "text": "Data Science and Engineering: Mastery of SQL and Python required. Deep experience architecting data environments in Google BigQuery, Snowflake, or similar warehouses.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Hands-on AI fluency as a builder, not a user. You have built and shipped agentic systems with Claude Code, MCP, or comparable tools. You understand where LLMs fail and how to de\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Visualization and BI: Advanced proficiency in modern data stack visualization tools (Grafana, Looker, Tableau) to build executive-grade dashboards.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r18",
+     "text": "Executive presence with experience presenting to executive and board audiences, including sound judgment about what data is and isn't ready to share up the chain.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "You will be expected to engineer the underlying data schemas, design predictive models, and implement the BI frameworks that shape our global GTM strategy. We are looking for a \u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "MarTech Ecosystem: Deep familiarity with connectivity between Salesforce, marketing automation, and product-led data streams.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Education: Bachelor's or Master's degree in a quantitative field (Data Science, CS, Statistics, Business Analytics). MBA or MS in Data Science is a significant plus.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Transparent Communication \u2013 Expect open decision-making and regular company-wide updates.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "a1",
+   "role": "ms-al",
+   "original": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
+   "final": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 14.24,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Strategic GTM Partnership: Serve as the primary strategic partner to the GTM Leadership team (VP of Demand Gen, VP of Regional and Events, Head of Marketing Ops, CMO, Revenue Op\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Predictive Modeling and ROI: Develop and maintain machine learning models (Attribution, MMM, LTV) to predict campaign impact and steer budget allocation toward the highest-ROI c\u2026",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Data Warehouse Architecture: Oversee the structure of marketing data within Google BigQuery, ensuring a scalable single source of truth that connects product usage data with mar\u2026",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Causal Inference and Inflection Hunting: Move beyond descriptive analytics to perform causal inference and predictive trend analysis. When the data shows an anomaly, whether a 3\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r6",
+     "text": "Executive Storytelling: Transform technical data outputs into clear, compelling narratives for the executive team and board. Deliver a succinct read and go deep where pushed.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Agentic Insights: Deploy LLM-powered agents (Claude Code, MCP-based tooling, or comparable) to monitor BigQuery datasets and automatically flag quality shifts in the funnel befo\u2026",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Autonomous Workflows: Implement orchestration patterns (N8N, custom MCP servers, or equivalent) to build self-healing data pipelines and automated responses to market signals, s\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "8+ years in Marketing Analytics, GTM Strategy, or Data Science, with at least 2 years in a lead architect capacity (IC track or player-coach; people management not required) wit\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Data Science and Engineering: Mastery of SQL and Python required. Deep experience architecting data environments in Google BigQuery, Snowflake, or similar warehouses.",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r16",
+     "text": "Visualization and BI: Advanced proficiency in modern data stack visualization tools (Grafana, Looker, Tableau) to build executive-grade dashboards.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Executive presence with experience presenting to executive and board audiences, including sound judgment about what data is and isn't ready to share up the chain.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "You will be expected to engineer the underlying data schemas, design predictive models, and implement the BI frameworks that shape our global GTM strategy. We are looking for a \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r21",
+     "text": "MarTech Ecosystem: Deep familiarity with connectivity between Salesforce, marketing automation, and product-led data streams.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Education: Bachelor's or Master's degree in a quantitative field (Data Science, CS, Statistics, Business Analytics). MBA or MS in Data Science is a significant plus.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 7.19,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Strategic GTM Partnership: Serve as the primary strategic partner to the GTM Leadership team (VP of Demand Gen, VP of Regional and Events, Head of Marketing Ops, CMO, Revenue Op\u2026",
+     "skills": [
+      "revenue",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Predictive Modeling and ROI: Develop and maintain machine learning models (Attribution, MMM, LTV) to predict campaign impact and steer budget allocation toward the highest-ROI c\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Data Warehouse Architecture: Oversee the structure of marketing data within Google BigQuery, ensuring a scalable single source of truth that connects product usage data with mar\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Executive Storytelling: Transform technical data outputs into clear, compelling narratives for the executive team and board. Deliver a succinct read and go deep where pushed.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Agentic Insights: Deploy LLM-powered agents (Claude Code, MCP-based tooling, or comparable) to monitor BigQuery datasets and automatically flag quality shifts in the funnel befo\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Autonomous Workflows: Implement orchestration patterns (N8N, custom MCP servers, or equivalent) to build self-healing data pipelines and automated responses to market signals, s\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Predictive Quality Scoring: Build and deploy AI-driven scoring models that separate high-value potential users from low-signal volume, helping Sales and Marketing prioritize eff\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "8+ years in Marketing Analytics, GTM Strategy, or Data Science, with at least 2 years in a lead architect capacity (IC track or player-coach; people management not required) wit\u2026",
+     "skills": [
+      "revenue"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Data Science and Engineering: Mastery of SQL and Python required. Deep experience architecting data environments in Google BigQuery, Snowflake, or similar warehouses.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Visualization and BI: Advanced proficiency in modern data stack visualization tools (Grafana, Looker, Tableau) to build executive-grade dashboards.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Executive presence with experience presenting to executive and board audiences, including sound judgment about what data is and isn't ready to share up the chain.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "You will architect a dual-track target-setting framework that balances high-velocity top-of-funnel growth with deep-funnel quality, ensuring GTM resources are directed toward hi\u2026",
+     "skills": [
+      "revenue"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "You will be expected to engineer the underlying data schemas, design predictive models, and implement the BI frameworks that shape our global GTM strategy. We are looking for a \u2026",
+     "skills": [
+      "revenue",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "MarTech Ecosystem: Deep familiarity with connectivity between Salesforce, marketing automation, and product-led data streams.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "You may not meet every requirement, and that\u2019s okay. If this role excites you, we\u2019d love you to raise your hand for what could be a truly career-defining opportunity.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "role": "hanapin",
+   "original": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "final": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 8.54,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Strategic GTM Partnership: Serve as the primary strategic partner to the GTM Leadership team (VP of Demand Gen, VP of Regional and Events, Head of Marketing Ops, CMO, Revenue Op\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Predictive Modeling and ROI: Develop and maintain machine learning models (Attribution, MMM, LTV) to predict campaign impact and steer budget allocation toward the highest-ROI c\u2026",
+     "skills": [
+      "stats",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Causal Inference and Inflection Hunting: Move beyond descriptive analytics to perform causal inference and predictive trend analysis. When the data shows an anomaly, whether a 3\u2026",
+     "skills": [
+      "stats",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "Executive Storytelling: Transform technical data outputs into clear, compelling narratives for the executive team and board. Deliver a succinct read and go deep where pushed.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r8",
+     "text": "Agentic Insights: Deploy LLM-powered agents (Claude Code, MCP-based tooling, or comparable) to monitor BigQuery datasets and automatically flag quality shifts in the funnel befo\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Predictive Quality Scoring: Build and deploy AI-driven scoring models that separate high-value potential users from low-signal volume, helping Sales and Marketing prioritize eff\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "8+ years in Marketing Analytics, GTM Strategy, or Data Science, with at least 2 years in a lead architect capacity (IC track or player-coach; people management not required) wit\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Executive presence with experience presenting to executive and board audiences, including sound judgment about what data is and isn't ready to share up the chain.",
+     "skills": [
+      "speaking"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "You will be expected to engineer the underlying data schemas, design predictive models, and implement the BI frameworks that shape our global GTM strategy. We are looking for a \u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "Education: Bachelor's or Master's degree in a quantitative field (Data Science, CS, Statistics, Business Analytics). MBA or MS in Data Science is a significant plus.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Transparent Communication \u2013 Expect open decision-making and regular company-wide updates.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 35.48,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Strategic GTM Partnership: Serve as the primary strategic partner to the GTM Leadership team (VP of Demand Gen, VP of Regional and Events, Head of Marketing Ops, CMO, Revenue Op\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Dual-Track Target Setting: Architect and own a sophisticated forecasting framework that balances top-of-funnel volume with high-intent lead quality, optimized for Grafana Cloud \u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r3",
+     "text": "Predictive Modeling and ROI: Develop and maintain machine learning models (Attribution, MMM, LTV) to predict campaign impact and steer budget allocation toward the highest-ROI c\u2026",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Causal Inference and Inflection Hunting: Move beyond descriptive analytics to perform causal inference and predictive trend analysis. When the data shows an anomaly, whether a 3\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Utilizing AI and Automation",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Agentic Insights: Deploy LLM-powered agents (Claude Code, MCP-based tooling, or comparable) to monitor BigQuery datasets and automatically flag quality shifts in the funnel befo\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Predictive Quality Scoring: Build and deploy AI-driven scoring models that separate high-value potential users from low-signal volume, helping Sales and Marketing prioritize eff\u2026",
+     "skills": [
+      "genai",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "8+ years in Marketing Analytics, GTM Strategy, or Data Science, with at least 2 years in a lead architect capacity (IC track or player-coach; people management not required) wit\u2026",
+     "skills": [
+      "leadership",
+      "advertising",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r12",
+     "text": "Demonstrated history as a force multiplier. You can point to specific tooling, rituals, evaluator systems, or frameworks you built that made other analysts or the broader org me\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Hands-on AI fluency as a builder, not a user. You have built and shipped agentic systems with Claude Code, MCP, or comparable tools. You understand where LLMs fail and how to de\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Strategic Acumen: Proven ability to create structure in highly ambiguous environments and build target-setting frameworks from scratch.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "You will architect a dual-track target-setting framework that balances high-velocity top-of-funnel growth with deep-funnel quality, ensuring GTM resources are directed toward hi\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "You will be expected to engineer the underlying data schemas, design predictive models, and implement the BI frameworks that shape our global GTM strategy. We are looking for a \u2026",
+     "skills": [
+      "genai",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r22",
+     "text": "We\u2019re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Education: Bachelor's or Master's degree in a quantitative field (Data Science, CS, Statistics, Business Analytics). MBA or MS in Data Science is a significant plus.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m12",
+   "role": "ms-dir",
+   "original": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "final": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 28.02,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Strategic GTM Partnership: Serve as the primary strategic partner to the GTM Leadership team (VP of Demand Gen, VP of Regional and Events, Head of Marketing Ops, CMO, Revenue Op\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r4",
+     "text": "Data Warehouse Architecture: Oversee the structure of marketing data within Google BigQuery, ensuring a scalable single source of truth that connects product usage data with mar\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Causal Inference and Inflection Hunting: Move beyond descriptive analytics to perform causal inference and predictive trend analysis. When the data shows an anomaly, whether a 3\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Executive Storytelling: Transform technical data outputs into clear, compelling narratives for the executive team and board. Deliver a succinct read and go deep where pushed.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r7",
+     "text": "Utilizing AI and Automation",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Agentic Insights: Deploy LLM-powered agents (Claude Code, MCP-based tooling, or comparable) to monitor BigQuery datasets and automatically flag quality shifts in the funnel befo\u2026",
+     "skills": [
+      "storytelling",
+      "genai"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Autonomous Workflows: Implement orchestration patterns (N8N, custom MCP servers, or equivalent) to build self-healing data pipelines and automated responses to market signals, s\u2026",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r10",
+     "text": "Predictive Quality Scoring: Build and deploy AI-driven scoring models that separate high-value potential users from low-signal volume, helping Sales and Marketing prioritize eff\u2026",
+     "skills": [
+      "genai",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "8+ years in Marketing Analytics, GTM Strategy, or Data Science, with at least 2 years in a lead architect capacity (IC track or player-coach; people management not required) wit\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r12",
+     "text": "Demonstrated history as a force multiplier. You can point to specific tooling, rituals, evaluator systems, or frameworks you built that made other analysts or the broader org me\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Data Science and Engineering: Mastery of SQL and Python required. Deep experience architecting data environments in Google BigQuery, Snowflake, or similar warehouses.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Hands-on AI fluency as a builder, not a user. You have built and shipped agentic systems with Claude Code, MCP, or comparable tools. You understand where LLMs fail and how to de\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Automation Proficiency: Hands-on experience building complex logic and integrations using N8N, custom API orchestration, or MCP-based tooling.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Visualization and BI: Advanced proficiency in modern data stack visualization tools (Grafana, Looker, Tableau) to build executive-grade dashboards.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Strategic Acumen: Proven ability to create structure in highly ambiguous environments and build target-setting frameworks from scratch.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Executive presence with experience presenting to executive and board audiences, including sound judgment about what data is and isn't ready to share up the chain.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "You will be expected to engineer the underlying data schemas, design predictive models, and implement the BI frameworks that shape our global GTM strategy. We are looking for a \u2026",
+     "skills": [
+      "genai",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "MarTech Ecosystem: Deep familiarity with connectivity between Salesforce, marketing automation, and product-led data streams.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r24",
+     "text": "Education: Bachelor's or Master's degree in a quantitative field (Data Science, CS, Statistics, Business Analytics). MBA or MS in Data Science is a significant plus.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Transparent Communication \u2013 Expect open decision-making and regular company-wide updates.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "role": "ms-dir",
+   "original": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "final": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 37.88,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Predictive Modeling and ROI: Develop and maintain machine learning models (Attribution, MMM, LTV) to predict campaign impact and steer budget allocation toward the highest-ROI c\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Data Warehouse Architecture: Oversee the structure of marketing data within Google BigQuery, ensuring a scalable single source of truth that connects product usage data with mar\u2026",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Causal Inference and Inflection Hunting: Move beyond descriptive analytics to perform causal inference and predictive trend analysis. When the data shows an anomaly, whether a 3\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Utilizing AI and Automation",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Agentic Insights: Deploy LLM-powered agents (Claude Code, MCP-based tooling, or comparable) to monitor BigQuery datasets and automatically flag quality shifts in the funnel befo\u2026",
+     "skills": [
+      "genai",
+      "sql",
+      "anomaly"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Autonomous Workflows: Implement orchestration patterns (N8N, custom MCP servers, or equivalent) to build self-healing data pipelines and automated responses to market signals, s\u2026",
+     "skills": [
+      "anomaly"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Predictive Quality Scoring: Build and deploy AI-driven scoring models that separate high-value potential users from low-signal volume, helping Sales and Marketing prioritize eff\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "8+ years in Marketing Analytics, GTM Strategy, or Data Science, with at least 2 years in a lead architect capacity (IC track or player-coach; people management not required) wit\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Demonstrated history as a force multiplier. You can point to specific tooling, rituals, evaluator systems, or frameworks you built that made other analysts or the broader org me\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r13",
+     "text": "Data Science and Engineering: Mastery of SQL and Python required. Deep experience architecting data environments in Google BigQuery, Snowflake, or similar warehouses.",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Hands-on AI fluency as a builder, not a user. You have built and shipped agentic systems with Claude Code, MCP, or comparable tools. You understand where LLMs fail and how to de\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Visualization and BI: Advanced proficiency in modern data stack visualization tools (Grafana, Looker, Tableau) to build executive-grade dashboards.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "You will be expected to engineer the underlying data schemas, design predictive models, and implement the BI frameworks that shape our global GTM strategy. We are looking for a \u2026",
+     "skills": [
+      "genai",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Education: Bachelor's or Master's degree in a quantitative field (Data Science, CS, Statistics, Business Analytics). MBA or MS in Data Science is a significant plus.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "role": "ms-head",
+   "original": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "final": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 15.89,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Strategic GTM Partnership: Serve as the primary strategic partner to the GTM Leadership team (VP of Demand Gen, VP of Regional and Events, Head of Marketing Ops, CMO, Revenue Op\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Causal Inference and Inflection Hunting: Move beyond descriptive analytics to perform causal inference and predictive trend analysis. When the data shows an anomaly, whether a 3\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Autonomous Workflows: Implement orchestration patterns (N8N, custom MCP servers, or equivalent) to build self-healing data pipelines and automated responses to market signals, s\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Predictive Quality Scoring: Build and deploy AI-driven scoring models that separate high-value potential users from low-signal volume, helping Sales and Marketing prioritize eff\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "8+ years in Marketing Analytics, GTM Strategy, or Data Science, with at least 2 years in a lead architect capacity (IC track or player-coach; people management not required) wit\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r12",
+     "text": "Demonstrated history as a force multiplier. You can point to specific tooling, rituals, evaluator systems, or frameworks you built that made other analysts or the broader org me\u2026",
+     "skills": [],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Hands-on AI fluency as a builder, not a user. You have built and shipped agentic systems with Claude Code, MCP, or comparable tools. You understand where LLMs fail and how to de\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r15",
+     "text": "Automation Proficiency: Hands-on experience building complex logic and integrations using N8N, custom API orchestration, or MCP-based tooling.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Visualization and BI: Advanced proficiency in modern data stack visualization tools (Grafana, Looker, Tableau) to build executive-grade dashboards.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Strategic Acumen: Proven ability to create structure in highly ambiguous environments and build target-setting frameworks from scratch.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r20",
+     "text": "You will be expected to engineer the underlying data schemas, design predictive models, and implement the BI frameworks that shape our global GTM strategy. We are looking for a \u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r24",
+     "text": "Education: Bachelor's or Master's degree in a quantitative field (Data Science, CS, Statistics, Business Analytics). MBA or MS in Data Science is a significant plus.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "role": "ms-sal",
+   "original": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "final": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 16.32,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Strategic GTM Partnership: Serve as the primary strategic partner to the GTM Leadership team (VP of Demand Gen, VP of Regional and Events, Head of Marketing Ops, CMO, Revenue Op\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Dual-Track Target Setting: Architect and own a sophisticated forecasting framework that balances top-of-funnel volume with high-intent lead quality, optimized for Grafana Cloud \u2026",
+     "skills": [
+      "forecasting"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Predictive Modeling and ROI: Develop and maintain machine learning models (Attribution, MMM, LTV) to predict campaign impact and steer budget allocation toward the highest-ROI c\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Executive Storytelling: Transform technical data outputs into clear, compelling narratives for the executive team and board. Deliver a succinct read and go deep where pushed.",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "Agentic Insights: Deploy LLM-powered agents (Claude Code, MCP-based tooling, or comparable) to monitor BigQuery datasets and automatically flag quality shifts in the funnel befo\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Autonomous Workflows: Implement orchestration patterns (N8N, custom MCP servers, or equivalent) to build self-healing data pipelines and automated responses to market signals, s\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Predictive Quality Scoring: Build and deploy AI-driven scoring models that separate high-value potential users from low-signal volume, helping Sales and Marketing prioritize eff\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Demonstrated history as a force multiplier. You can point to specific tooling, rituals, evaluator systems, or frameworks you built that made other analysts or the broader org me\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r14",
+     "text": "Hands-on AI fluency as a builder, not a user. You have built and shipped agentic systems with Claude Code, MCP, or comparable tools. You understand where LLMs fail and how to de\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Automation Proficiency: Hands-on experience building complex logic and integrations using N8N, custom API orchestration, or MCP-based tooling.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Visualization and BI: Advanced proficiency in modern data stack visualization tools (Grafana, Looker, Tableau) to build executive-grade dashboards.",
+     "skills": [
+      "dashboards",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Executive presence with experience presenting to executive and board audiences, including sound judgment about what data is and isn't ready to share up the chain.",
+     "skills": [
+      "stakeholders",
+      "speaking"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r20",
+     "text": "You will be expected to engineer the underlying data schemas, design predictive models, and implement the BI frameworks that shape our global GTM strategy. We are looking for a \u2026",
+     "skills": [
+      "dashboards",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r22",
+     "text": "We\u2019re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Transparent Communication \u2013 Expect open decision-making and regular company-wide updates.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m13",
+   "role": "ms-head",
+   "original": "Secured new MSN content datasets, built an MSN insights prototype with the team, and took it to sellers and marketing once MSN leaders approved it",
+   "final": "Secured new MSN content datasets, built an MSN insights prototype with the team, and took it to sellers and marketing once MSN leaders approved it",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 16.54,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Strategic GTM Partnership: Serve as the primary strategic partner to the GTM Leadership team (VP of Demand Gen, VP of Regional and Events, Head of Marketing Ops, CMO, Revenue Op\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Dual-Track Target Setting: Architect and own a sophisticated forecasting framework that balances top-of-funnel volume with high-intent lead quality, optimized for Grafana Cloud \u2026",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Data Warehouse Architecture: Oversee the structure of marketing data within Google BigQuery, ensuring a scalable single source of truth that connects product usage data with mar\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Executive Storytelling: Transform technical data outputs into clear, compelling narratives for the executive team and board. Deliver a succinct read and go deep where pushed.",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "Agentic Insights: Deploy LLM-powered agents (Claude Code, MCP-based tooling, or comparable) to monitor BigQuery datasets and automatically flag quality shifts in the funnel befo\u2026",
+     "skills": [
+      "storytelling",
+      "product-analytics"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Autonomous Workflows: Implement orchestration patterns (N8N, custom MCP servers, or equivalent) to build self-healing data pipelines and automated responses to market signals, s\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Predictive Quality Scoring: Build and deploy AI-driven scoring models that separate high-value potential users from low-signal volume, helping Sales and Marketing prioritize eff\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "8+ years in Marketing Analytics, GTM Strategy, or Data Science, with at least 2 years in a lead architect capacity (IC track or player-coach; people management not required) wit\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r12",
+     "text": "Demonstrated history as a force multiplier. You can point to specific tooling, rituals, evaluator systems, or frameworks you built that made other analysts or the broader org me\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Hands-on AI fluency as a builder, not a user. You have built and shipped agentic systems with Claude Code, MCP, or comparable tools. You understand where LLMs fail and how to de\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Visualization and BI: Advanced proficiency in modern data stack visualization tools (Grafana, Looker, Tableau) to build executive-grade dashboards.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Executive presence with experience presenting to executive and board audiences, including sound judgment about what data is and isn't ready to share up the chain.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "You will architect a dual-track target-setting framework that balances high-velocity top-of-funnel growth with deep-funnel quality, ensuring GTM resources are directed toward hi\u2026",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "You will be expected to engineer the underlying data schemas, design predictive models, and implement the BI frameworks that shape our global GTM strategy. We are looking for a \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "MarTech Ecosystem: Deep familiarity with connectivity between Salesforce, marketing automation, and product-led data streams.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Transparent Communication \u2013 Expect open decision-making and regular company-wide updates.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "role": "ms-dir",
+   "original": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "final": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 35.59,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Strategic GTM Partnership: Serve as the primary strategic partner to the GTM Leadership team (VP of Demand Gen, VP of Regional and Events, Head of Marketing Ops, CMO, Revenue Op\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Predictive Modeling and ROI: Develop and maintain machine learning models (Attribution, MMM, LTV) to predict campaign impact and steer budget allocation toward the highest-ROI c\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Data Warehouse Architecture: Oversee the structure of marketing data within Google BigQuery, ensuring a scalable single source of truth that connects product usage data with mar\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Causal Inference and Inflection Hunting: Move beyond descriptive analytics to perform causal inference and predictive trend analysis. When the data shows an anomaly, whether a 3\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "Executive Storytelling: Transform technical data outputs into clear, compelling narratives for the executive team and board. Deliver a succinct read and go deep where pushed.",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Utilizing AI and Automation",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Agentic Insights: Deploy LLM-powered agents (Claude Code, MCP-based tooling, or comparable) to monitor BigQuery datasets and automatically flag quality shifts in the funnel befo\u2026",
+     "skills": [
+      "storytelling",
+      "genai"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Autonomous Workflows: Implement orchestration patterns (N8N, custom MCP servers, or equivalent) to build self-healing data pipelines and automated responses to market signals, s\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Predictive Quality Scoring: Build and deploy AI-driven scoring models that separate high-value potential users from low-signal volume, helping Sales and Marketing prioritize eff\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "8+ years in Marketing Analytics, GTM Strategy, or Data Science, with at least 2 years in a lead architect capacity (IC track or player-coach; people management not required) wit\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Demonstrated history as a force multiplier. You can point to specific tooling, rituals, evaluator systems, or frameworks you built that made other analysts or the broader org me\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Data Science and Engineering: Mastery of SQL and Python required. Deep experience architecting data environments in Google BigQuery, Snowflake, or similar warehouses.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Hands-on AI fluency as a builder, not a user. You have built and shipped agentic systems with Claude Code, MCP, or comparable tools. You understand where LLMs fail and how to de\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Visualization and BI: Advanced proficiency in modern data stack visualization tools (Grafana, Looker, Tableau) to build executive-grade dashboards.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Executive presence with experience presenting to executive and board audiences, including sound judgment about what data is and isn't ready to share up the chain.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "You will be expected to engineer the underlying data schemas, design predictive models, and implement the BI frameworks that shape our global GTM strategy. We are looking for a \u2026",
+     "skills": [
+      "genai",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "MarTech Ecosystem: Deep familiarity with connectivity between Salesforce, marketing automation, and product-led data streams.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Education: Bachelor's or Master's degree in a quantitative field (Data Science, CS, Statistics, Business Analytics). MBA or MS in Data Science is a significant plus.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r25",
+     "text": "Transparent Communication \u2013 Expect open decision-making and regular company-wide updates.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "role": "ms-head",
+   "original": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "final": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 20.82,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Strategic GTM Partnership: Serve as the primary strategic partner to the GTM Leadership team (VP of Demand Gen, VP of Regional and Events, Head of Marketing Ops, CMO, Revenue Op\u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Predictive Modeling and ROI: Develop and maintain machine learning models (Attribution, MMM, LTV) to predict campaign impact and steer budget allocation toward the highest-ROI c\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Data Warehouse Architecture: Oversee the structure of marketing data within Google BigQuery, ensuring a scalable single source of truth that connects product usage data with mar\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r5",
+     "text": "Causal Inference and Inflection Hunting: Move beyond descriptive analytics to perform causal inference and predictive trend analysis. When the data shows an anomaly, whether a 3\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Executive Storytelling: Transform technical data outputs into clear, compelling narratives for the executive team and board. Deliver a succinct read and go deep where pushed.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Autonomous Workflows: Implement orchestration patterns (N8N, custom MCP servers, or equivalent) to build self-healing data pipelines and automated responses to market signals, s\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Predictive Quality Scoring: Build and deploy AI-driven scoring models that separate high-value potential users from low-signal volume, helping Sales and Marketing prioritize eff\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "8+ years in Marketing Analytics, GTM Strategy, or Data Science, with at least 2 years in a lead architect capacity (IC track or player-coach; people management not required) wit\u2026",
+     "skills": [
+      "advertising",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "Data Science and Engineering: Mastery of SQL and Python required. Deep experience architecting data environments in Google BigQuery, Snowflake, or similar warehouses.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Visualization and BI: Advanced proficiency in modern data stack visualization tools (Grafana, Looker, Tableau) to build executive-grade dashboards.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Strategic Acumen: Proven ability to create structure in highly ambiguous environments and build target-setting frameworks from scratch.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Executive presence with experience presenting to executive and board audiences, including sound judgment about what data is and isn't ready to share up the chain.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "You will be expected to engineer the underlying data schemas, design predictive models, and implement the BI frameworks that shape our global GTM strategy. We are looking for a \u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "MarTech Ecosystem: Deep familiarity with connectivity between Salesforce, marketing automation, and product-led data streams.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r24",
+     "text": "Education: Bachelor's or Master's degree in a quantitative field (Data Science, CS, Statistics, Business Analytics). MBA or MS in Data Science is a significant plus.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "role": "proj",
+   "original": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "final": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 21.54,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Dual-Track Target Setting: Architect and own a sophisticated forecasting framework that balances top-of-funnel volume with high-intent lead quality, optimized for Grafana Cloud \u2026",
+     "skills": [
+      "cloud"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Data Warehouse Architecture: Oversee the structure of marketing data within Google BigQuery, ensuring a scalable single source of truth that connects product usage data with mar\u2026",
+     "skills": [
+      "sql",
+      "bigquery"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Utilizing AI and Automation",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Agentic Insights: Deploy LLM-powered agents (Claude Code, MCP-based tooling, or comparable) to monitor BigQuery datasets and automatically flag quality shifts in the funnel befo\u2026",
+     "skills": [
+      "genai",
+      "sql",
+      "bigquery",
+      "llm-apps"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Autonomous Workflows: Implement orchestration patterns (N8N, custom MCP servers, or equivalent) to build self-healing data pipelines and automated responses to market signals, s\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Predictive Quality Scoring: Build and deploy AI-driven scoring models that separate high-value potential users from low-signal volume, helping Sales and Marketing prioritize eff\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Data Science and Engineering: Mastery of SQL and Python required. Deep experience architecting data environments in Google BigQuery, Snowflake, or similar warehouses.",
+     "skills": [
+      "sql",
+      "python",
+      "bigquery"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Hands-on AI fluency as a builder, not a user. You have built and shipped agentic systems with Claude Code, MCP, or comparable tools. You understand where LLMs fail and how to de\u2026",
+     "skills": [
+      "genai",
+      "llm-apps"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r15",
+     "text": "Automation Proficiency: Hands-on experience building complex logic and integrations using N8N, custom API orchestration, or MCP-based tooling.",
+     "skills": [
+      "web-dev"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "You will be expected to engineer the underlying data schemas, design predictive models, and implement the BI frameworks that shape our global GTM strategy. We are looking for a \u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p4",
+   "role": "proj",
+   "original": "Robuttal: an arena where AI models from several providers debate, judged by AI with fairness audits and Elo rankings; built with Python, FastAPI and Next.js",
+   "final": "Robuttal: an arena where AI models from several providers debate, judged by AI with fairness audits and Elo rankings; built with Python, FastAPI and Next.js",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 21.34,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Predictive Modeling and ROI: Develop and maintain machine learning models (Attribution, MMM, LTV) to predict campaign impact and steer budget allocation toward the highest-ROI c\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Causal Inference and Inflection Hunting: Move beyond descriptive analytics to perform causal inference and predictive trend analysis. When the data shows an anomaly, whether a 3\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Utilizing AI and Automation",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Agentic Insights: Deploy LLM-powered agents (Claude Code, MCP-based tooling, or comparable) to monitor BigQuery datasets and automatically flag quality shifts in the funnel befo\u2026",
+     "skills": [
+      "genai",
+      "llm-apps"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Predictive Quality Scoring: Build and deploy AI-driven scoring models that separate high-value potential users from low-signal volume, helping Sales and Marketing prioritize eff\u2026",
+     "skills": [
+      "stats",
+      "genai"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r12",
+     "text": "Demonstrated history as a force multiplier. You can point to specific tooling, rituals, evaluator systems, or frameworks you built that made other analysts or the broader org me\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Data Science and Engineering: Mastery of SQL and Python required. Deep experience architecting data environments in Google BigQuery, Snowflake, or similar warehouses.",
+     "skills": [
+      "python"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Hands-on AI fluency as a builder, not a user. You have built and shipped agentic systems with Claude Code, MCP, or comparable tools. You understand where LLMs fail and how to de\u2026",
+     "skills": [
+      "genai",
+      "llm-apps"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r15",
+     "text": "Automation Proficiency: Hands-on experience building complex logic and integrations using N8N, custom API orchestration, or MCP-based tooling.",
+     "skills": [
+      "web-dev"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Executive presence with experience presenting to executive and board audiences, including sound judgment about what data is and isn't ready to share up the chain.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "You will be expected to engineer the underlying data schemas, design predictive models, and implement the BI frameworks that shape our global GTM strategy. We are looking for a \u2026",
+     "skills": [
+      "stats",
+      "genai"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Education: Bachelor's or Master's degree in a quantitative field (Data Science, CS, Statistics, Business Analytics). MBA or MS in Data Science is a significant plus.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p10",
+   "role": "proj",
+   "original": "OviGoals.com: animated visualization of all 912+ Alex Ovechkin goals, with a rink shot map and career comparisons",
+   "final": "OviGoals.com: animated visualization of all 912+ Alex Ovechkin goals, with a rink shot map and career comparisons",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 6.53,
+   "matched": [
+    {
+     "req": "r12",
+     "text": "Demonstrated history as a force multiplier. You can point to specific tooling, rituals, evaluator systems, or frameworks you built that made other analysts or the broader org me\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Data Science and Engineering: Mastery of SQL and Python required. Deep experience architecting data environments in Google BigQuery, Snowflake, or similar warehouses.",
+     "skills": [
+      "python"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Visualization and BI: Advanced proficiency in modern data stack visualization tools (Grafana, Looker, Tableau) to build executive-grade dashboards.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r20",
+     "text": "You will be expected to engineer the underlying data schemas, design predictive models, and implement the BI frameworks that shape our global GTM strategy. We are looking for a \u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "You may not meet every requirement, and that\u2019s okay. If this role excites you, we\u2019d love you to raise your hand for what could be a truly career-defining opportunity.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "why": "role already full",
+   "score": 20.13
+  },
+  {
+   "text": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "why": "role already full",
+   "score": 19.83
+  },
+  {
+   "text": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "why": "role already full",
+   "score": 17.61
+  },
+  {
+   "text": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "why": "others covered the same ground better",
+   "score": 17.03
+  },
+  {
+   "text": "Ran a roundtable with a regional sales VP's leadership team to answer their doubts about advanced analytics",
+   "why": "others covered the same ground better",
+   "score": 16.87
+  },
+  {
+   "text": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "why": "others covered the same ground better",
+   "score": 15.07
+  },
+  {
+   "text": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "why": "others covered the same ground better",
+   "score": 12.7
+  },
+  {
+   "text": "Created the Marketplace Rebound Gauge, a traffic-light signal of COVID recovery built on moving-average clustering, used in every vertical and later in EMEA",
+   "why": "others covered the same ground better",
+   "score": 11.78
+  }
+ ],
+ "skills": [
+  "LLMs",
+  "Stakeholder management",
+  "Strategy",
+  "Statistics",
+  "Revenue analytics",
+  "Marketing Analytics",
+  "SQL",
+  "BigQuery",
+  "Dashboards",
+  "Machine learning",
+  "Product analytics",
+  "Data storytelling",
+  "Anomaly detection",
+  "LLM applications",
+  "People management",
+  "Measurement",
+  "Python",
+  "Forecasting",
+  "Presenting",
+  "Data pipelines",
+  "Cloud",
+  "Full-stack development"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 8+ years; I have 12."
+  },
+  {
+   "kind": "degree",
+   "status": "warn",
+   "detail": "Mentions a master's; mine: a bachelor's."
+  },
+  {
+   "kind": "field",
+   "status": "warn",
+   "detail": "Names a field of study (quantitative, data science, statistics, business, analytics); mine: B.A., Jazz Guitar Performance, so my experience has to cover this one."
+  }
+ ]
+}
