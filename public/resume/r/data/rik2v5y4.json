@@ -1,0 +1,3318 @@
+{
+ "id": "rik2v5y4",
+ "version": "1.5",
+ "created": "2026-10-30",
+ "job": {
+  "title": "Senior Director, Marketing Intelligence",
+  "company": "Fetch"
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 14
+ },
+ "fit": 92,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "12+ years of progressive experience in marketing intelligence, consumer insights, audience strategy, market research, strategic planning, analytics, or related disciplines, incl\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m7",
+    "t3",
+    "d1",
+    "m12",
+    "h2",
+    "m15",
+    "m4",
+    "h1",
+    "m9",
+    "t4",
+    "n2",
+    "m11",
+    "p6",
+    "p1",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "Demonstrated success building, leading, and scaling an insights, intelligence, audience research, or related function.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "t3",
+    "m12",
+    "m9",
+    "t4",
+    "n2",
+    "m11",
+    "p6",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "Deep expertise in audience segmentation, personas, voice of consumer, market research, behavioral intelligence, and translating research into marketing strategy.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m15",
+    "h2",
+    "m7",
+    "t3",
+    "d1",
+    "m12",
+    "m4",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Proven ability to synthesize proprietary first-party data, third-party research, qualitative insights, and cultural and market signals into strategic recommendations.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "t3",
+    "m12",
+    "m9",
+    "m11",
+    "h2",
+    "m15",
+    "h1",
+    "p1",
+    "m7",
+    "t4",
+    "n2",
+    "d1",
+    "m4",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "Experience influencing senior and executive leaders, shaping consequential marketing decisions, and advising on complex business trade-offs.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "x2",
+    "m11",
+    "h2",
+    "m1",
+    "m15",
+    "m7",
+    "t4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "Strong ability to turn complex research and data into compelling strategic narratives, presentations, and recommendations that influence action.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "t4",
+    "t3",
+    "n2",
+    "m12",
+    "m11",
+    "h2",
+    "m15",
+    "m1",
+    "p1",
+    "x2",
+    "d1",
+    "m4",
+    "h1",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "Experience defining multi-year functional strategies, prioritizing investments, and building scalable research capabilities and operating models.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m15",
+    "m4",
+    "m7",
+    "t3",
+    "d1",
+    "m12",
+    "h2",
+    "h1",
+    "p6",
+    "n2",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r8",
+   "text": "Demonstrated success developing high-performing teams, mentoring senior talent, and creating organizational leverage through others.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "t3",
+    "m9",
+    "m7",
+    "d1",
+    "m12",
+    "m1",
+    "m4",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "Experience partnering across Brand, Consumer Marketing, Product Marketing, Growth, and B2B or Partner Marketing.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "h2",
+    "m9",
+    "x2",
+    "m7",
+    "t4",
+    "m11",
+    "m1",
+    "m15"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r10",
+   "text": "Strong judgment, executive communication, and ability to navigate ambiguity, competing priorities, and incomplete information",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "t4",
+    "m11",
+    "m7",
+    "t3",
+    "x2",
+    "n2",
+    "m12",
+    "h2",
+    "m1",
+    "m15",
+    "p6",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r11",
+   "text": "Deep curiosity about people, culture, markets, brands, technology, and the forces shaping consumer behavior and business growth.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [
+    "m9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "As Fetch continues to scale across its consumer and partner businesses, one of our greatest advantages is our ability to understand people, markets, and culture through a combin\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "m1",
+    "h2",
+    "x2",
+    "d1",
+    "m12",
+    "m11",
+    "t4",
+    "t3",
+    "m15",
+    "m4",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r13",
+   "text": "This is more than a traditional research role. The Senior Director will build a strategic intelligence capability that anticipates emerging opportunities, challenges assumptions\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m7",
+    "t3",
+    "d1",
+    "m12",
+    "m4",
+    "h1",
+    "m9",
+    "h2",
+    "m1",
+    "m15"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r14",
+   "text": "Marketing Intelligence Strategy & Audience Understanding",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "h2",
+    "m7",
+    "t3",
+    "d1",
+    "m12",
+    "m15",
+    "m4",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r15",
+   "text": "Set the multi-year vision and strategy for Marketing Intelligence, defining how the capability evolves to support Fetch's consumer, partner, and broader business priorities.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m7",
+    "d1",
+    "m12",
+    "h2",
+    "m15",
+    "h1",
+    "m9",
+    "t3",
+    "x2",
+    "m11",
+    "m1",
+    "m4",
+    "t4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r16",
+   "text": "Direct the integration of proprietary first-party behavioral data, third-party research, qualitative insights, social intelligence, and cultural and competitive signals to devel\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "t3",
+    "m12",
+    "m9",
+    "m11",
+    "p1",
+    "t4",
+    "n2",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r17",
+   "text": "Determine the research methodologies, data sources, technology, AI-enabled tools, and external partnerships needed to support Marketing's evolving intelligence needs.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m12",
+    "m9",
+    "m7",
+    "m11",
+    "m15",
+    "d1",
+    "p3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r18",
+   "text": "Strategic Marketing Intelligence & Data Storytelling",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "t3",
+    "m12",
+    "m9",
+    "m11",
+    "p1",
+    "t4",
+    "n2",
+    "h2",
+    "p6",
+    "m7",
+    "d1",
+    "m15",
+    "m4",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "Serve as a strategic advisor to senior Marketing and cross-functional leaders, translating intelligence into recommendations that shape audience prioritization, positioning, cam\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m7",
+    "d1",
+    "m11",
+    "h2",
+    "m1",
+    "m15",
+    "m9",
+    "t3",
+    "x2",
+    "m12",
+    "m4",
+    "h1",
+    "t4",
+    "n2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r20",
+   "text": "Partner across Brand, Consumer Marketing, Product Marketing, Growth, B2B Marketing, and The Rewards Lab to embed audience and market intelligence into strategic planning, creati\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m7",
+    "x2",
+    "h2",
+    "m15",
+    "m9",
+    "m1",
+    "t4",
+    "t3",
+    "d1",
+    "m12",
+    "m11",
+    "m4",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r21",
+   "text": "Establish Fetch's proprietary behavioral data as a differentiated intelligence asset, uncovering human truths, consumer trends, and market opportunities that strengthen marketin\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "t3",
+    "m12",
+    "m9",
+    "m11",
+    "h2",
+    "p1",
+    "m7",
+    "t4",
+    "n2",
+    "d1",
+    "m15",
+    "m4",
+    "h1",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r22",
+   "text": "Develop compelling insight platforms, audience narratives, and evidence-based recommendations that inform consumer campaigns, product marketing, growth strategies, and partner-f\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "t4",
+    "t3",
+    "n2",
+    "d1",
+    "m12",
+    "m11",
+    "h2",
+    "m1",
+    "m15",
+    "h1",
+    "x2",
+    "m4",
+    "p6",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r23",
+   "text": "Identify emerging audience, category, and market opportunities, partnering with B2B Marketing to provide the intelligence that fuels vertical strategies, Fetch Finds, thought le\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m7",
+    "t3",
+    "h2",
+    "m15",
+    "m4",
+    "m9",
+    "d1",
+    "m12",
+    "h1",
+    "x2",
+    "m1",
+    "t4",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r24",
+   "text": "Advise leadership on strategic trade-offs across audiences, markets, initiatives, and investments, clearly articulating opportunities, risks, and the business implications of di\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m7",
+    "t3",
+    "d1",
+    "m12",
+    "h2",
+    "m4",
+    "h1",
+    "m15",
+    "m9",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r25",
+   "text": "Anticipate strategic questions the organization is not yet asking and proactively surface intelligence that could meaningfully influence Fetch's direction.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m7",
+    "h2",
+    "m15",
+    "m1",
+    "m9",
+    "t4",
+    "t3",
+    "x2",
+    "d1",
+    "m12",
+    "m11",
+    "m4",
+    "h1"
+   ],
+   "gap": false
+  }
+ ],
+ "picks": [
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 78.54,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years of progressive experience in marketing intelligence, consumer insights, audience strategy, market research, strategic planning, analytics, or related disciplines, incl\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r2",
+     "text": "Demonstrated success building, leading, and scaling an insights, intelligence, audience research, or related function.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Deep expertise in audience segmentation, personas, voice of consumer, market research, behavioral intelligence, and translating research into marketing strategy.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to synthesize proprietary first-party data, third-party research, qualitative insights, and cultural and market signals into strategic recommendations.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Experience influencing senior and executive leaders, shaping consequential marketing decisions, and advising on complex business trade-offs.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Strong ability to turn complex research and data into compelling strategic narratives, presentations, and recommendations that influence action.",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "Demonstrated success developing high-performing teams, mentoring senior talent, and creating organizational leverage through others.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Experience partnering across Brand, Consumer Marketing, Product Marketing, Growth, and B2B or Partner Marketing.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r10",
+     "text": "Strong judgment, executive communication, and ability to navigate ambiguity, competing priorities, and incomplete information",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "Deep curiosity about people, culture, markets, brands, technology, and the forces shaping consumer behavior and business growth.",
+     "skills": [],
+     "m": 0.45
+    },
+    {
+     "req": "r12",
+     "text": "As Fetch continues to scale across its consumer and partner businesses, one of our greatest advantages is our ability to understand people, markets, and culture through a combin\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "This is more than a traditional research role. The Senior Director will build a strategic intelligence capability that anticipates emerging opportunities, challenges assumptions\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Marketing Intelligence Strategy & Audience Understanding",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Set the multi-year vision and strategy for Marketing Intelligence, defining how the capability evolves to support Fetch's consumer, partner, and broader business priorities.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Direct the integration of proprietary first-party behavioral data, third-party research, qualitative insights, social intelligence, and cultural and competitive signals to devel\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Determine the research methodologies, data sources, technology, AI-enabled tools, and external partnerships needed to support Marketing's evolving intelligence needs.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Strategic Marketing Intelligence & Data Storytelling",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r19",
+     "text": "Serve as a strategic advisor to senior Marketing and cross-functional leaders, translating intelligence into recommendations that shape audience prioritization, positioning, cam\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r20",
+     "text": "Partner across Brand, Consumer Marketing, Product Marketing, Growth, B2B Marketing, and The Rewards Lab to embed audience and market intelligence into strategic planning, creati\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r21",
+     "text": "Establish Fetch's proprietary behavioral data as a differentiated intelligence asset, uncovering human truths, consumer trends, and market opportunities that strengthen marketin\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r22",
+     "text": "Develop compelling insight platforms, audience narratives, and evidence-based recommendations that inform consumer campaigns, product marketing, growth strategies, and partner-f\u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Identify emerging audience, category, and market opportunities, partnering with B2B Marketing to provide the intelligence that fuels vertical strategies, Fetch Finds, thought le\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r24",
+     "text": "Advise leadership on strategic trade-offs across audiences, markets, initiatives, and investments, clearly articulating opportunities, risks, and the business implications of di\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r25",
+     "text": "Anticipate strategic questions the organization is not yet asking and proactively surface intelligence that could meaningfully influence Fetch's direction.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "role": "ms-head",
+   "original": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "final": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 66.65,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years of progressive experience in marketing intelligence, consumer insights, audience strategy, market research, strategic planning, analytics, or related disciplines, incl\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Deep expertise in audience segmentation, personas, voice of consumer, market research, behavioral intelligence, and translating research into marketing strategy.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to synthesize proprietary first-party data, third-party research, qualitative insights, and cultural and market signals into strategic recommendations.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Experience influencing senior and executive leaders, shaping consequential marketing decisions, and advising on complex business trade-offs.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Strong ability to turn complex research and data into compelling strategic narratives, presentations, and recommendations that influence action.",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Experience defining multi-year functional strategies, prioritizing investments, and building scalable research capabilities and operating models.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Demonstrated success developing high-performing teams, mentoring senior talent, and creating organizational leverage through others.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Experience partnering across Brand, Consumer Marketing, Product Marketing, Growth, and B2B or Partner Marketing.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Strong judgment, executive communication, and ability to navigate ambiguity, competing priorities, and incomplete information",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "As Fetch continues to scale across its consumer and partner businesses, one of our greatest advantages is our ability to understand people, markets, and culture through a combin\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "This is more than a traditional research role. The Senior Director will build a strategic intelligence capability that anticipates emerging opportunities, challenges assumptions\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Marketing Intelligence Strategy & Audience Understanding",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Set the multi-year vision and strategy for Marketing Intelligence, defining how the capability evolves to support Fetch's consumer, partner, and broader business priorities.",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Determine the research methodologies, data sources, technology, AI-enabled tools, and external partnerships needed to support Marketing's evolving intelligence needs.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Strategic Marketing Intelligence & Data Storytelling",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Serve as a strategic advisor to senior Marketing and cross-functional leaders, translating intelligence into recommendations that shape audience prioritization, positioning, cam\u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r20",
+     "text": "Partner across Brand, Consumer Marketing, Product Marketing, Growth, B2B Marketing, and The Rewards Lab to embed audience and market intelligence into strategic planning, creati\u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "Establish Fetch's proprietary behavioral data as a differentiated intelligence asset, uncovering human truths, consumer trends, and market opportunities that strengthen marketin\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Develop compelling insight platforms, audience narratives, and evidence-based recommendations that inform consumer campaigns, product marketing, growth strategies, and partner-f\u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Identify emerging audience, category, and market opportunities, partnering with B2B Marketing to provide the intelligence that fuels vertical strategies, Fetch Finds, thought le\u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Advise leadership on strategic trade-offs across audiences, markets, initiatives, and investments, clearly articulating opportunities, risks, and the business implications of di\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Anticipate strategic questions the organization is not yet asking and proactively surface intelligence that could meaningfully influence Fetch's direction.",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "role": "ms-sal",
+   "original": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "final": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 28.38,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years of progressive experience in marketing intelligence, consumer insights, audience strategy, market research, strategic planning, analytics, or related disciplines, incl\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "Demonstrated success building, leading, and scaling an insights, intelligence, audience research, or related function.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to synthesize proprietary first-party data, third-party research, qualitative insights, and cultural and market signals into strategic recommendations.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Experience influencing senior and executive leaders, shaping consequential marketing decisions, and advising on complex business trade-offs.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Strong ability to turn complex research and data into compelling strategic narratives, presentations, and recommendations that influence action.",
+     "skills": [
+      "storytelling",
+      "stakeholders",
+      "speaking"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Experience defining multi-year functional strategies, prioritizing investments, and building scalable research capabilities and operating models.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Experience partnering across Brand, Consumer Marketing, Product Marketing, Growth, and B2B or Partner Marketing.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Strong judgment, executive communication, and ability to navigate ambiguity, competing priorities, and incomplete information",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r12",
+     "text": "As Fetch continues to scale across its consumer and partner businesses, one of our greatest advantages is our ability to understand people, markets, and culture through a combin\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Set the multi-year vision and strategy for Marketing Intelligence, defining how the capability evolves to support Fetch's consumer, partner, and broader business priorities.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Direct the integration of proprietary first-party behavioral data, third-party research, qualitative insights, social intelligence, and cultural and competitive signals to devel\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Strategic Marketing Intelligence & Data Storytelling",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Serve as a strategic advisor to senior Marketing and cross-functional leaders, translating intelligence into recommendations that shape audience prioritization, positioning, cam\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Partner across Brand, Consumer Marketing, Product Marketing, Growth, B2B Marketing, and The Rewards Lab to embed audience and market intelligence into strategic planning, creati\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Establish Fetch's proprietary behavioral data as a differentiated intelligence asset, uncovering human truths, consumer trends, and market opportunities that strengthen marketin\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Develop compelling insight platforms, audience narratives, and evidence-based recommendations that inform consumer campaigns, product marketing, growth strategies, and partner-f\u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Identify emerging audience, category, and market opportunities, partnering with B2B Marketing to provide the intelligence that fuels vertical strategies, Fetch Finds, thought le\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Anticipate strategic questions the organization is not yet asking and proactively surface intelligence that could meaningfully influence Fetch's direction.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "role": "ms-al",
+   "original": "Created Bite-Sized Insights, a short format adopted across verticals and regions; the first put the team on record about COVID a month before the travel industry",
+   "final": "Created Bite-Sized Insights, a short format adopted across verticals and regions; the first put the team on record about COVID a month before the travel industry",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 34.22,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years of progressive experience in marketing intelligence, consumer insights, audience strategy, market research, strategic planning, analytics, or related disciplines, incl\u2026",
+     "skills": [
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r2",
+     "text": "Demonstrated success building, leading, and scaling an insights, intelligence, audience research, or related function.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Deep expertise in audience segmentation, personas, voice of consumer, market research, behavioral intelligence, and translating research into marketing strategy.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to synthesize proprietary first-party data, third-party research, qualitative insights, and cultural and market signals into strategic recommendations.",
+     "skills": [
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "Strong ability to turn complex research and data into compelling strategic narratives, presentations, and recommendations that influence action.",
+     "skills": [
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Experience defining multi-year functional strategies, prioritizing investments, and building scalable research capabilities and operating models.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Demonstrated success developing high-performing teams, mentoring senior talent, and creating organizational leverage through others.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Strong judgment, executive communication, and ability to navigate ambiguity, competing priorities, and incomplete information",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "As Fetch continues to scale across its consumer and partner businesses, one of our greatest advantages is our ability to understand people, markets, and culture through a combin\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "This is more than a traditional research role. The Senior Director will build a strategic intelligence capability that anticipates emerging opportunities, challenges assumptions\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Marketing Intelligence Strategy & Audience Understanding",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Set the multi-year vision and strategy for Marketing Intelligence, defining how the capability evolves to support Fetch's consumer, partner, and broader business priorities.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Direct the integration of proprietary first-party behavioral data, third-party research, qualitative insights, social intelligence, and cultural and competitive signals to devel\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r18",
+     "text": "Strategic Marketing Intelligence & Data Storytelling",
+     "skills": [
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Serve as a strategic advisor to senior Marketing and cross-functional leaders, translating intelligence into recommendations that shape audience prioritization, positioning, cam\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Partner across Brand, Consumer Marketing, Product Marketing, Growth, B2B Marketing, and The Rewards Lab to embed audience and market intelligence into strategic planning, creati\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Establish Fetch's proprietary behavioral data as a differentiated intelligence asset, uncovering human truths, consumer trends, and market opportunities that strengthen marketin\u2026",
+     "skills": [
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r22",
+     "text": "Develop compelling insight platforms, audience narratives, and evidence-based recommendations that inform consumer campaigns, product marketing, growth strategies, and partner-f\u2026",
+     "skills": [
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Identify emerging audience, category, and market opportunities, partnering with B2B Marketing to provide the intelligence that fuels vertical strategies, Fetch Finds, thought le\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Advise leadership on strategic trade-offs across audiences, markets, initiatives, and investments, clearly articulating opportunities, risks, and the business implications of di\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Anticipate strategic questions the organization is not yet asking and proactively surface intelligence that could meaningfully influence Fetch's direction.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 12.36,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years of progressive experience in marketing intelligence, consumer insights, audience strategy, market research, strategic planning, analytics, or related disciplines, incl\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Deep expertise in audience segmentation, personas, voice of consumer, market research, behavioral intelligence, and translating research into marketing strategy.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to synthesize proprietary first-party data, third-party research, qualitative insights, and cultural and market signals into strategic recommendations.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Experience influencing senior and executive leaders, shaping consequential marketing decisions, and advising on complex business trade-offs.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Strong ability to turn complex research and data into compelling strategic narratives, presentations, and recommendations that influence action.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Experience partnering across Brand, Consumer Marketing, Product Marketing, Growth, and B2B or Partner Marketing.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Strong judgment, executive communication, and ability to navigate ambiguity, competing priorities, and incomplete information",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Deep curiosity about people, culture, markets, brands, technology, and the forces shaping consumer behavior and business growth.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "As Fetch continues to scale across its consumer and partner businesses, one of our greatest advantages is our ability to understand people, markets, and culture through a combin\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "This is more than a traditional research role. The Senior Director will build a strategic intelligence capability that anticipates emerging opportunities, challenges assumptions\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Marketing Intelligence Strategy & Audience Understanding",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Set the multi-year vision and strategy for Marketing Intelligence, defining how the capability evolves to support Fetch's consumer, partner, and broader business priorities.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Direct the integration of proprietary first-party behavioral data, third-party research, qualitative insights, social intelligence, and cultural and competitive signals to devel\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Determine the research methodologies, data sources, technology, AI-enabled tools, and external partnerships needed to support Marketing's evolving intelligence needs.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Strategic Marketing Intelligence & Data Storytelling",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "Serve as a strategic advisor to senior Marketing and cross-functional leaders, translating intelligence into recommendations that shape audience prioritization, positioning, cam\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Partner across Brand, Consumer Marketing, Product Marketing, Growth, B2B Marketing, and The Rewards Lab to embed audience and market intelligence into strategic planning, creati\u2026",
+     "skills": [
+      "revenue",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "Establish Fetch's proprietary behavioral data as a differentiated intelligence asset, uncovering human truths, consumer trends, and market opportunities that strengthen marketin\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r22",
+     "text": "Develop compelling insight platforms, audience narratives, and evidence-based recommendations that inform consumer campaigns, product marketing, growth strategies, and partner-f\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r23",
+     "text": "Identify emerging audience, category, and market opportunities, partnering with B2B Marketing to provide the intelligence that fuels vertical strategies, Fetch Finds, thought le\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r24",
+     "text": "Advise leadership on strategic trade-offs across audiences, markets, initiatives, and investments, clearly articulating opportunities, risks, and the business implications of di\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Anticipate strategic questions the organization is not yet asking and proactively surface intelligence that could meaningfully influence Fetch's direction.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "role": "hanapin",
+   "original": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "final": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 11.63,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years of progressive experience in marketing intelligence, consumer insights, audience strategy, market research, strategic planning, analytics, or related disciplines, incl\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "Demonstrated success building, leading, and scaling an insights, intelligence, audience research, or related function.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to synthesize proprietary first-party data, third-party research, qualitative insights, and cultural and market signals into strategic recommendations.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Strong ability to turn complex research and data into compelling strategic narratives, presentations, and recommendations that influence action.",
+     "skills": [
+      "storytelling",
+      "speaking"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Experience defining multi-year functional strategies, prioritizing investments, and building scalable research capabilities and operating models.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Strong judgment, executive communication, and ability to navigate ambiguity, competing priorities, and incomplete information",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Direct the integration of proprietary first-party behavioral data, third-party research, qualitative insights, social intelligence, and cultural and competitive signals to devel\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Strategic Marketing Intelligence & Data Storytelling",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Serve as a strategic advisor to senior Marketing and cross-functional leaders, translating intelligence into recommendations that shape audience prioritization, positioning, cam\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Establish Fetch's proprietary behavioral data as a differentiated intelligence asset, uncovering human truths, consumer trends, and market opportunities that strengthen marketin\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Develop compelling insight platforms, audience narratives, and evidence-based recommendations that inform consumer campaigns, product marketing, growth strategies, and partner-f\u2026",
+     "skills": [
+      "advertising",
+      "storytelling"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 69.92,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years of progressive experience in marketing intelligence, consumer insights, audience strategy, market research, strategic planning, analytics, or related disciplines, incl\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r2",
+     "text": "Demonstrated success building, leading, and scaling an insights, intelligence, audience research, or related function.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Deep expertise in audience segmentation, personas, voice of consumer, market research, behavioral intelligence, and translating research into marketing strategy.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to synthesize proprietary first-party data, third-party research, qualitative insights, and cultural and market signals into strategic recommendations.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Experience influencing senior and executive leaders, shaping consequential marketing decisions, and advising on complex business trade-offs.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Strong ability to turn complex research and data into compelling strategic narratives, presentations, and recommendations that influence action.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Experience defining multi-year functional strategies, prioritizing investments, and building scalable research capabilities and operating models.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Demonstrated success developing high-performing teams, mentoring senior talent, and creating organizational leverage through others.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Strong judgment, executive communication, and ability to navigate ambiguity, competing priorities, and incomplete information",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "As Fetch continues to scale across its consumer and partner businesses, one of our greatest advantages is our ability to understand people, markets, and culture through a combin\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "This is more than a traditional research role. The Senior Director will build a strategic intelligence capability that anticipates emerging opportunities, challenges assumptions\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Marketing Intelligence Strategy & Audience Understanding",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Set the multi-year vision and strategy for Marketing Intelligence, defining how the capability evolves to support Fetch's consumer, partner, and broader business priorities.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Determine the research methodologies, data sources, technology, AI-enabled tools, and external partnerships needed to support Marketing's evolving intelligence needs.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Strategic Marketing Intelligence & Data Storytelling",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Serve as a strategic advisor to senior Marketing and cross-functional leaders, translating intelligence into recommendations that shape audience prioritization, positioning, cam\u2026",
+     "skills": [
+      "advertising",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r20",
+     "text": "Partner across Brand, Consumer Marketing, Product Marketing, Growth, B2B Marketing, and The Rewards Lab to embed audience and market intelligence into strategic planning, creati\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Establish Fetch's proprietary behavioral data as a differentiated intelligence asset, uncovering human truths, consumer trends, and market opportunities that strengthen marketin\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Develop compelling insight platforms, audience narratives, and evidence-based recommendations that inform consumer campaigns, product marketing, growth strategies, and partner-f\u2026",
+     "skills": [
+      "advertising",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Identify emerging audience, category, and market opportunities, partnering with B2B Marketing to provide the intelligence that fuels vertical strategies, Fetch Finds, thought le\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r24",
+     "text": "Advise leadership on strategic trade-offs across audiences, markets, initiatives, and investments, clearly articulating opportunities, risks, and the business implications of di\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Anticipate strategic questions the organization is not yet asking and proactively surface intelligence that could meaningfully influence Fetch's direction.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m12",
+   "role": "ms-dir",
+   "original": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "final": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 57.56,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years of progressive experience in marketing intelligence, consumer insights, audience strategy, market research, strategic planning, analytics, or related disciplines, incl\u2026",
+     "skills": [
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r2",
+     "text": "Demonstrated success building, leading, and scaling an insights, intelligence, audience research, or related function.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Deep expertise in audience segmentation, personas, voice of consumer, market research, behavioral intelligence, and translating research into marketing strategy.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to synthesize proprietary first-party data, third-party research, qualitative insights, and cultural and market signals into strategic recommendations.",
+     "skills": [
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "Strong ability to turn complex research and data into compelling strategic narratives, presentations, and recommendations that influence action.",
+     "skills": [
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Experience defining multi-year functional strategies, prioritizing investments, and building scalable research capabilities and operating models.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Demonstrated success developing high-performing teams, mentoring senior talent, and creating organizational leverage through others.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Strong judgment, executive communication, and ability to navigate ambiguity, competing priorities, and incomplete information",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "As Fetch continues to scale across its consumer and partner businesses, one of our greatest advantages is our ability to understand people, markets, and culture through a combin\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "This is more than a traditional research role. The Senior Director will build a strategic intelligence capability that anticipates emerging opportunities, challenges assumptions\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Marketing Intelligence Strategy & Audience Understanding",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Set the multi-year vision and strategy for Marketing Intelligence, defining how the capability evolves to support Fetch's consumer, partner, and broader business priorities.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "Direct the integration of proprietary first-party behavioral data, third-party research, qualitative insights, social intelligence, and cultural and competitive signals to devel\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r17",
+     "text": "Determine the research methodologies, data sources, technology, AI-enabled tools, and external partnerships needed to support Marketing's evolving intelligence needs.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r18",
+     "text": "Strategic Marketing Intelligence & Data Storytelling",
+     "skills": [
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Serve as a strategic advisor to senior Marketing and cross-functional leaders, translating intelligence into recommendations that shape audience prioritization, positioning, cam\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Partner across Brand, Consumer Marketing, Product Marketing, Growth, B2B Marketing, and The Rewards Lab to embed audience and market intelligence into strategic planning, creati\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Establish Fetch's proprietary behavioral data as a differentiated intelligence asset, uncovering human truths, consumer trends, and market opportunities that strengthen marketin\u2026",
+     "skills": [
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r22",
+     "text": "Develop compelling insight platforms, audience narratives, and evidence-based recommendations that inform consumer campaigns, product marketing, growth strategies, and partner-f\u2026",
+     "skills": [
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Identify emerging audience, category, and market opportunities, partnering with B2B Marketing to provide the intelligence that fuels vertical strategies, Fetch Finds, thought le\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r24",
+     "text": "Advise leadership on strategic trade-offs across audiences, markets, initiatives, and investments, clearly articulating opportunities, risks, and the business implications of di\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Anticipate strategic questions the organization is not yet asking and proactively surface intelligence that could meaningfully influence Fetch's direction.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "role": "ms-dir",
+   "original": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "final": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 53.63,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years of progressive experience in marketing intelligence, consumer insights, audience strategy, market research, strategic planning, analytics, or related disciplines, incl\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "Demonstrated success building, leading, and scaling an insights, intelligence, audience research, or related function.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to synthesize proprietary first-party data, third-party research, qualitative insights, and cultural and market signals into strategic recommendations.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Experience influencing senior and executive leaders, shaping consequential marketing decisions, and advising on complex business trade-offs.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Strong ability to turn complex research and data into compelling strategic narratives, presentations, and recommendations that influence action.",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Experience partnering across Brand, Consumer Marketing, Product Marketing, Growth, and B2B or Partner Marketing.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Strong judgment, executive communication, and ability to navigate ambiguity, competing priorities, and incomplete information",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "Deep curiosity about people, culture, markets, brands, technology, and the forces shaping consumer behavior and business growth.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "As Fetch continues to scale across its consumer and partner businesses, one of our greatest advantages is our ability to understand people, markets, and culture through a combin\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "This is more than a traditional research role. The Senior Director will build a strategic intelligence capability that anticipates emerging opportunities, challenges assumptions\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Set the multi-year vision and strategy for Marketing Intelligence, defining how the capability evolves to support Fetch's consumer, partner, and broader business priorities.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Direct the integration of proprietary first-party behavioral data, third-party research, qualitative insights, social intelligence, and cultural and competitive signals to devel\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Determine the research methodologies, data sources, technology, AI-enabled tools, and external partnerships needed to support Marketing's evolving intelligence needs.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Strategic Marketing Intelligence & Data Storytelling",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r19",
+     "text": "Serve as a strategic advisor to senior Marketing and cross-functional leaders, translating intelligence into recommendations that shape audience prioritization, positioning, cam\u2026",
+     "skills": [
+      "advertising",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r20",
+     "text": "Partner across Brand, Consumer Marketing, Product Marketing, Growth, B2B Marketing, and The Rewards Lab to embed audience and market intelligence into strategic planning, creati\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Establish Fetch's proprietary behavioral data as a differentiated intelligence asset, uncovering human truths, consumer trends, and market opportunities that strengthen marketin\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r22",
+     "text": "Develop compelling insight platforms, audience narratives, and evidence-based recommendations that inform consumer campaigns, product marketing, growth strategies, and partner-f\u2026",
+     "skills": [
+      "advertising",
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Identify emerging audience, category, and market opportunities, partnering with B2B Marketing to provide the intelligence that fuels vertical strategies, Fetch Finds, thought le\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "Advise leadership on strategic trade-offs across audiences, markets, initiatives, and investments, clearly articulating opportunities, risks, and the business implications of di\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Anticipate strategic questions the organization is not yet asking and proactively surface intelligence that could meaningfully influence Fetch's direction.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "role": "ms-head",
+   "original": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "final": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 52.83,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years of progressive experience in marketing intelligence, consumer insights, audience strategy, market research, strategic planning, analytics, or related disciplines, incl\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Deep expertise in audience segmentation, personas, voice of consumer, market research, behavioral intelligence, and translating research into marketing strategy.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to synthesize proprietary first-party data, third-party research, qualitative insights, and cultural and market signals into strategic recommendations.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Experience influencing senior and executive leaders, shaping consequential marketing decisions, and advising on complex business trade-offs.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Strong ability to turn complex research and data into compelling strategic narratives, presentations, and recommendations that influence action.",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Experience defining multi-year functional strategies, prioritizing investments, and building scalable research capabilities and operating models.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Experience partnering across Brand, Consumer Marketing, Product Marketing, Growth, and B2B or Partner Marketing.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Strong judgment, executive communication, and ability to navigate ambiguity, competing priorities, and incomplete information",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Deep curiosity about people, culture, markets, brands, technology, and the forces shaping consumer behavior and business growth.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "As Fetch continues to scale across its consumer and partner businesses, one of our greatest advantages is our ability to understand people, markets, and culture through a combin\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r13",
+     "text": "This is more than a traditional research role. The Senior Director will build a strategic intelligence capability that anticipates emerging opportunities, challenges assumptions\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Marketing Intelligence Strategy & Audience Understanding",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r15",
+     "text": "Set the multi-year vision and strategy for Marketing Intelligence, defining how the capability evolves to support Fetch's consumer, partner, and broader business priorities.",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "Direct the integration of proprietary first-party behavioral data, third-party research, qualitative insights, social intelligence, and cultural and competitive signals to devel\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Determine the research methodologies, data sources, technology, AI-enabled tools, and external partnerships needed to support Marketing's evolving intelligence needs.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Strategic Marketing Intelligence & Data Storytelling",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Serve as a strategic advisor to senior Marketing and cross-functional leaders, translating intelligence into recommendations that shape audience prioritization, positioning, cam\u2026",
+     "skills": [
+      "advertising",
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r20",
+     "text": "Partner across Brand, Consumer Marketing, Product Marketing, Growth, B2B Marketing, and The Rewards Lab to embed audience and market intelligence into strategic planning, creati\u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "Establish Fetch's proprietary behavioral data as a differentiated intelligence asset, uncovering human truths, consumer trends, and market opportunities that strengthen marketin\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r22",
+     "text": "Develop compelling insight platforms, audience narratives, and evidence-based recommendations that inform consumer campaigns, product marketing, growth strategies, and partner-f\u2026",
+     "skills": [
+      "advertising",
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Identify emerging audience, category, and market opportunities, partnering with B2B Marketing to provide the intelligence that fuels vertical strategies, Fetch Finds, thought le\u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Advise leadership on strategic trade-offs across audiences, markets, initiatives, and investments, clearly articulating opportunities, risks, and the business implications of di\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Anticipate strategic questions the organization is not yet asking and proactively surface intelligence that could meaningfully influence Fetch's direction.",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "m1",
+   "role": "ms-head",
+   "original": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "final": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 48.61,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years of progressive experience in marketing intelligence, consumer insights, audience strategy, market research, strategic planning, analytics, or related disciplines, incl\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r2",
+     "text": "Demonstrated success building, leading, and scaling an insights, intelligence, audience research, or related function.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to synthesize proprietary first-party data, third-party research, qualitative insights, and cultural and market signals into strategic recommendations.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Experience influencing senior and executive leaders, shaping consequential marketing decisions, and advising on complex business trade-offs.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Strong ability to turn complex research and data into compelling strategic narratives, presentations, and recommendations that influence action.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Demonstrated success developing high-performing teams, mentoring senior talent, and creating organizational leverage through others.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Experience partnering across Brand, Consumer Marketing, Product Marketing, Growth, and B2B or Partner Marketing.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Strong judgment, executive communication, and ability to navigate ambiguity, competing priorities, and incomplete information",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "As Fetch continues to scale across its consumer and partner businesses, one of our greatest advantages is our ability to understand people, markets, and culture through a combin\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "This is more than a traditional research role. The Senior Director will build a strategic intelligence capability that anticipates emerging opportunities, challenges assumptions\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Set the multi-year vision and strategy for Marketing Intelligence, defining how the capability evolves to support Fetch's consumer, partner, and broader business priorities.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Determine the research methodologies, data sources, technology, AI-enabled tools, and external partnerships needed to support Marketing's evolving intelligence needs.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Strategic Marketing Intelligence & Data Storytelling",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "Serve as a strategic advisor to senior Marketing and cross-functional leaders, translating intelligence into recommendations that shape audience prioritization, positioning, cam\u2026",
+     "skills": [
+      "advertising",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r20",
+     "text": "Partner across Brand, Consumer Marketing, Product Marketing, Growth, B2B Marketing, and The Rewards Lab to embed audience and market intelligence into strategic planning, creati\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Develop compelling insight platforms, audience narratives, and evidence-based recommendations that inform consumer campaigns, product marketing, growth strategies, and partner-f\u2026",
+     "skills": [
+      "advertising",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Identify emerging audience, category, and market opportunities, partnering with B2B Marketing to provide the intelligence that fuels vertical strategies, Fetch Finds, thought le\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r24",
+     "text": "Advise leadership on strategic trade-offs across audiences, markets, initiatives, and investments, clearly articulating opportunities, risks, and the business implications of di\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r25",
+     "text": "Anticipate strategic questions the organization is not yet asking and proactively surface intelligence that could meaningfully influence Fetch's direction.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m15",
+   "role": "ms-dir",
+   "original": "Represented the analytics team in shaping an AI survey with an outside agency before fielding, and brought team members into the research",
+   "final": "Represented the analytics team in shaping an AI survey with an outside agency before fielding, and brought team members into the research",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 46.31,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years of progressive experience in marketing intelligence, consumer insights, audience strategy, market research, strategic planning, analytics, or related disciplines, incl\u2026",
+     "skills": [
+      "strategy",
+      "survey"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r2",
+     "text": "Demonstrated success building, leading, and scaling an insights, intelligence, audience research, or related function.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Deep expertise in audience segmentation, personas, voice of consumer, market research, behavioral intelligence, and translating research into marketing strategy.",
+     "skills": [
+      "strategy",
+      "survey"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to synthesize proprietary first-party data, third-party research, qualitative insights, and cultural and market signals into strategic recommendations.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Experience influencing senior and executive leaders, shaping consequential marketing decisions, and advising on complex business trade-offs.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Strong ability to turn complex research and data into compelling strategic narratives, presentations, and recommendations that influence action.",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Experience defining multi-year functional strategies, prioritizing investments, and building scalable research capabilities and operating models.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r9",
+     "text": "Experience partnering across Brand, Consumer Marketing, Product Marketing, Growth, and B2B or Partner Marketing.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Strong judgment, executive communication, and ability to navigate ambiguity, competing priorities, and incomplete information",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Deep curiosity about people, culture, markets, brands, technology, and the forces shaping consumer behavior and business growth.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "As Fetch continues to scale across its consumer and partner businesses, one of our greatest advantages is our ability to understand people, markets, and culture through a combin\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "This is more than a traditional research role. The Senior Director will build a strategic intelligence capability that anticipates emerging opportunities, challenges assumptions\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Marketing Intelligence Strategy & Audience Understanding",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Set the multi-year vision and strategy for Marketing Intelligence, defining how the capability evolves to support Fetch's consumer, partner, and broader business priorities.",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "Direct the integration of proprietary first-party behavioral data, third-party research, qualitative insights, social intelligence, and cultural and competitive signals to devel\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Determine the research methodologies, data sources, technology, AI-enabled tools, and external partnerships needed to support Marketing's evolving intelligence needs.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Strategic Marketing Intelligence & Data Storytelling",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Serve as a strategic advisor to senior Marketing and cross-functional leaders, translating intelligence into recommendations that shape audience prioritization, positioning, cam\u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r20",
+     "text": "Partner across Brand, Consumer Marketing, Product Marketing, Growth, B2B Marketing, and The Rewards Lab to embed audience and market intelligence into strategic planning, creati\u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "Establish Fetch's proprietary behavioral data as a differentiated intelligence asset, uncovering human truths, consumer trends, and market opportunities that strengthen marketin\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Develop compelling insight platforms, audience narratives, and evidence-based recommendations that inform consumer campaigns, product marketing, growth strategies, and partner-f\u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Identify emerging audience, category, and market opportunities, partnering with B2B Marketing to provide the intelligence that fuels vertical strategies, Fetch Finds, thought le\u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Advise leadership on strategic trade-offs across audiences, markets, initiatives, and investments, clearly articulating opportunities, risks, and the business implications of di\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Anticipate strategic questions the organization is not yet asking and proactively surface intelligence that could meaningfully influence Fetch's direction.",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "role": "ms-head",
+   "original": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "final": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 42.69,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years of progressive experience in marketing intelligence, consumer insights, audience strategy, market research, strategic planning, analytics, or related disciplines, incl\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r2",
+     "text": "Demonstrated success building, leading, and scaling an insights, intelligence, audience research, or related function.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Deep expertise in audience segmentation, personas, voice of consumer, market research, behavioral intelligence, and translating research into marketing strategy.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to synthesize proprietary first-party data, third-party research, qualitative insights, and cultural and market signals into strategic recommendations.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Strong ability to turn complex research and data into compelling strategic narratives, presentations, and recommendations that influence action.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Experience defining multi-year functional strategies, prioritizing investments, and building scalable research capabilities and operating models.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r8",
+     "text": "Demonstrated success developing high-performing teams, mentoring senior talent, and creating organizational leverage through others.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "As Fetch continues to scale across its consumer and partner businesses, one of our greatest advantages is our ability to understand people, markets, and culture through a combin\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "This is more than a traditional research role. The Senior Director will build a strategic intelligence capability that anticipates emerging opportunities, challenges assumptions\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Marketing Intelligence Strategy & Audience Understanding",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Set the multi-year vision and strategy for Marketing Intelligence, defining how the capability evolves to support Fetch's consumer, partner, and broader business priorities.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Strategic Marketing Intelligence & Data Storytelling",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Serve as a strategic advisor to senior Marketing and cross-functional leaders, translating intelligence into recommendations that shape audience prioritization, positioning, cam\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Partner across Brand, Consumer Marketing, Product Marketing, Growth, B2B Marketing, and The Rewards Lab to embed audience and market intelligence into strategic planning, creati\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Establish Fetch's proprietary behavioral data as a differentiated intelligence asset, uncovering human truths, consumer trends, and market opportunities that strengthen marketin\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Develop compelling insight platforms, audience narratives, and evidence-based recommendations that inform consumer campaigns, product marketing, growth strategies, and partner-f\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r23",
+     "text": "Identify emerging audience, category, and market opportunities, partnering with B2B Marketing to provide the intelligence that fuels vertical strategies, Fetch Finds, thought le\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Advise leadership on strategic trade-offs across audiences, markets, initiatives, and investments, clearly articulating opportunities, risks, and the business implications of di\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Anticipate strategic questions the organization is not yet asking and proactively surface intelligence that could meaningfully influence Fetch's direction.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "h1",
+   "role": "ms-head",
+   "original": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "final": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 43.72,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years of progressive experience in marketing intelligence, consumer insights, audience strategy, market research, strategic planning, analytics, or related disciplines, incl\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r2",
+     "text": "Demonstrated success building, leading, and scaling an insights, intelligence, audience research, or related function.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Deep expertise in audience segmentation, personas, voice of consumer, market research, behavioral intelligence, and translating research into marketing strategy.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to synthesize proprietary first-party data, third-party research, qualitative insights, and cultural and market signals into strategic recommendations.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Strong ability to turn complex research and data into compelling strategic narratives, presentations, and recommendations that influence action.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Experience defining multi-year functional strategies, prioritizing investments, and building scalable research capabilities and operating models.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Demonstrated success developing high-performing teams, mentoring senior talent, and creating organizational leverage through others.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "As Fetch continues to scale across its consumer and partner businesses, one of our greatest advantages is our ability to understand people, markets, and culture through a combin\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "This is more than a traditional research role. The Senior Director will build a strategic intelligence capability that anticipates emerging opportunities, challenges assumptions\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Marketing Intelligence Strategy & Audience Understanding",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Set the multi-year vision and strategy for Marketing Intelligence, defining how the capability evolves to support Fetch's consumer, partner, and broader business priorities.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r16",
+     "text": "Direct the integration of proprietary first-party behavioral data, third-party research, qualitative insights, social intelligence, and cultural and competitive signals to devel\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Determine the research methodologies, data sources, technology, AI-enabled tools, and external partnerships needed to support Marketing's evolving intelligence needs.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Strategic Marketing Intelligence & Data Storytelling",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Serve as a strategic advisor to senior Marketing and cross-functional leaders, translating intelligence into recommendations that shape audience prioritization, positioning, cam\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Partner across Brand, Consumer Marketing, Product Marketing, Growth, B2B Marketing, and The Rewards Lab to embed audience and market intelligence into strategic planning, creati\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Establish Fetch's proprietary behavioral data as a differentiated intelligence asset, uncovering human truths, consumer trends, and market opportunities that strengthen marketin\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Develop compelling insight platforms, audience narratives, and evidence-based recommendations that inform consumer campaigns, product marketing, growth strategies, and partner-f\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r23",
+     "text": "Identify emerging audience, category, and market opportunities, partnering with B2B Marketing to provide the intelligence that fuels vertical strategies, Fetch Finds, thought le\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r24",
+     "text": "Advise leadership on strategic trade-offs across audiences, markets, initiatives, and investments, clearly articulating opportunities, risks, and the business implications of di\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Anticipate strategic questions the organization is not yet asking and proactively surface intelligence that could meaningfully influence Fetch's direction.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p6",
+   "role": "proj",
+   "original": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "final": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 24.05,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years of progressive experience in marketing intelligence, consumer insights, audience strategy, market research, strategic planning, analytics, or related disciplines, incl\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "Demonstrated success building, leading, and scaling an insights, intelligence, audience research, or related function.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to synthesize proprietary first-party data, third-party research, qualitative insights, and cultural and market signals into strategic recommendations.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Strong ability to turn complex research and data into compelling strategic narratives, presentations, and recommendations that influence action.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Experience defining multi-year functional strategies, prioritizing investments, and building scalable research capabilities and operating models.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Strong judgment, executive communication, and ability to navigate ambiguity, competing priorities, and incomplete information",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Direct the integration of proprietary first-party behavioral data, third-party research, qualitative insights, social intelligence, and cultural and competitive signals to devel\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Strategic Marketing Intelligence & Data Storytelling",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Establish Fetch's proprietary behavioral data as a differentiated intelligence asset, uncovering human truths, consumer trends, and market opportunities that strengthen marketin\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Develop compelling insight platforms, audience narratives, and evidence-based recommendations that inform consumer campaigns, product marketing, growth strategies, and partner-f\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "role": "proj",
+   "original": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "final": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 3.33,
+   "matched": [
+    {
+     "req": "r6",
+     "text": "Strong ability to turn complex research and data into compelling strategic narratives, presentations, and recommendations that influence action.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "As Fetch continues to scale across its consumer and partner businesses, one of our greatest advantages is our ability to understand people, markets, and culture through a combin\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Determine the research methodologies, data sources, technology, AI-enabled tools, and external partnerships needed to support Marketing's evolving intelligence needs.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Anticipate strategic questions the organization is not yet asking and proactively surface intelligence that could meaningfully influence Fetch's direction.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "role": "proj",
+   "original": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "final": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 24.91,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "12+ years of progressive experience in marketing intelligence, consumer insights, audience strategy, market research, strategic planning, analytics, or related disciplines, incl\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "Demonstrated success building, leading, and scaling an insights, intelligence, audience research, or related function.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to synthesize proprietary first-party data, third-party research, qualitative insights, and cultural and market signals into strategic recommendations.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Strong ability to turn complex research and data into compelling strategic narratives, presentations, and recommendations that influence action.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Experience defining multi-year functional strategies, prioritizing investments, and building scalable research capabilities and operating models.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Strong judgment, executive communication, and ability to navigate ambiguity, competing priorities, and incomplete information",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "As Fetch continues to scale across its consumer and partner businesses, one of our greatest advantages is our ability to understand people, markets, and culture through a combin\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "This is more than a traditional research role. The Senior Director will build a strategic intelligence capability that anticipates emerging opportunities, challenges assumptions\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Direct the integration of proprietary first-party behavioral data, third-party research, qualitative insights, social intelligence, and cultural and competitive signals to devel\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Determine the research methodologies, data sources, technology, AI-enabled tools, and external partnerships needed to support Marketing's evolving intelligence needs.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Strategic Marketing Intelligence & Data Storytelling",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r21",
+     "text": "Establish Fetch's proprietary behavioral data as a differentiated intelligence asset, uncovering human truths, consumer trends, and market opportunities that strengthen marketin\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r22",
+     "text": "Develop compelling insight platforms, audience narratives, and evidence-based recommendations that inform consumer campaigns, product marketing, growth strategies, and partner-f\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Ran a roundtable with a regional sales VP's leadership team to answer their doubts about advanced analytics",
+   "why": "role already full",
+   "score": 44.55
+  },
+  {
+   "text": "Secured new MSN content datasets, built an MSN insights prototype with the team, and took it to sellers and marketing once MSN leaders approved it",
+   "why": "role already full",
+   "score": 41.93
+  },
+  {
+   "text": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "why": "role already full",
+   "score": 35.34
+  },
+  {
+   "text": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "why": "role already full",
+   "score": 27.37
+  },
+  {
+   "text": "Beat client-engagement targets in both verticals in 2024 (119% and 125%) and met them in late 2023 with automotive at about half capacity",
+   "why": "role already full",
+   "score": 21.98
+  },
+  {
+   "text": "Designed and ran a pilot matching analytics products to sales needs, to make the case for new headcount",
+   "why": "others covered the same ground better",
+   "score": 20.85
+  },
+  {
+   "text": "When Did Purple Become a Halloween Color?: pixel analysis of 3,000 images, from vintage postcards to 27 years of Google Doodles, with Python and D3",
+   "why": "role already full",
+   "score": 18.98
+  },
+  {
+   "text": "Used a market concentration index to show senior stakeholders where advertisers faced market risk, and taught the method to peers",
+   "why": "others covered the same ground better",
+   "score": 18.27
+  }
+ ],
+ "skills": [
+  "Strategy",
+  "Stakeholder management",
+  "Data Storytelling",
+  "Team leadership",
+  "Survey research",
+  "Advertising",
+  "Statistics",
+  "Machine learning",
+  "Public speaking",
+  "Generative AI",
+  "Revenue analytics"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 12+ years; I have 12."
+  }
+ ]
+}
