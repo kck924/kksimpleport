@@ -1,0 +1,2567 @@
+{
+ "id": "8mse6x2i",
+ "version": "1.5",
+ "created": "2026-10-30",
+ "job": {
+  "title": "Director, Analytics and Business Intelligence ",
+  "company": "Runpod"
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 14
+ },
+ "fit": 81,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "8+ years of experience in analytics, business intelligence, or data science, including ownership of business-critical metrics with executive visibility.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "a1",
+    "x2",
+    "n1",
+    "m11",
+    "m10",
+    "d1",
+    "m7",
+    "m17",
+    "m19",
+    "m9",
+    "h1",
+    "m14"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "3+ years of experience managing analytics or BI teams, with a track record of hiring, developing, and retaining strong practitioners.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "m7",
+    "d1",
+    "m10",
+    "m9",
+    "m12",
+    "h1",
+    "m14"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "Deep hands-on fluency in SQL and modern analytics engineering practices, including dbt or equivalent, with enough warehouse expertise to make sound modeling and performance trad\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "p3",
+    "s1",
+    "a1",
+    "m10",
+    "p4",
+    "m12",
+    "m19",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Experience with usage-based, consumption, or marketplace business models and the metrics that govern them, including utilization, unit economics, expansion and contraction on us\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "p4",
+    "d1",
+    "a1",
+    "x2",
+    "n1",
+    "m19",
+    "h1",
+    "p1",
+    "m10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "Demonstrated ability to define a metric layer from a messy starting point and drive organization-wide adoption.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "a1",
+    "x2",
+    "n1",
+    "m19",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "Proven ability to thrive in startup environments as a proactive partner to the business.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m11",
+    "m7",
+    "a1",
+    "x2",
+    "n1",
+    "m9",
+    "m17",
+    "m14"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "Strong communication and stakeholder management skills, including the ability to challenge assumptions with data while maintaining strong relationships.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "m11",
+    "m17",
+    "m14",
+    "a1",
+    "n1",
+    "m7",
+    "x2",
+    "m12",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r8",
+   "text": "Ability to work effectively across Product, Finance, Data Engineering, Security, Go-to-Market, and Supply.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "x2",
+    "m12",
+    "m19"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "Strong judgment and urgency, with the ability to determine when a fast, directionally correct answer is more valuable than a perfect answer delivered too late.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r10",
+   "text": "Ability to approach questions objectively, form a view from evidence and data, and optimize for what is best for the business.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r11",
+   "text": "As Director, Analytics and Business Intelligence, you will lead and grow Runpod's analytics function, owning how the company measures itself and how insights reach decision-make\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "s1",
+    "x2",
+    "m9",
+    "m12",
+    "m11",
+    "m17",
+    "h1",
+    "m14",
+    "a1",
+    "m10",
+    "n1",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "Lead, coach, and grow a team of analysts and BI practitioners, including hiring, career development, prioritization, and raising the technical bar of the work.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "s1",
+    "m12",
+    "h1",
+    "m9",
+    "m10",
+    "m17",
+    "m14"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r13",
+   "text": "Drive company strategy proactively from a data perspective by identifying the data levers that can transform the business, quantifying opportunities, and delivering clear paths \u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m12",
+    "d1",
+    "m7",
+    "m17",
+    "h1",
+    "s1",
+    "a1",
+    "m11",
+    "m19"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r14",
+   "text": "Own Runpod's core metric layer, defining and maintaining consistent definitions for utilization, retention, net revenue retention, margin, and marketplace supply/demand health.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m19",
+    "x2",
+    "d1",
+    "a1",
+    "n1",
+    "m9",
+    "h1",
+    "m10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r15",
+   "text": "Set the analytics roadmap in partnership with Product, Finance, and GTM leadership, balancing recurring reporting needs with deeper analysis that changes decisions.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "s1",
+    "x2",
+    "m12",
+    "m17",
+    "h1",
+    "m10",
+    "m9",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r16",
+   "text": "Drive analysis of consumption-based revenue and customer behavior, including cohort retention, expansion and churn on usage, savings plan adoption, spot vs. reserved mix, and se\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m9",
+    "m19",
+    "p3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r17",
+   "text": "Build the self-serve analytics layer so stakeholders can answer routine questions independently, reserving the team's capacity for higher-judgment work.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m11",
+    "m17",
+    "m7",
+    "a1",
+    "x2",
+    "n1",
+    "m9",
+    "m14",
+    "m19",
+    "m10",
+    "p3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r18",
+   "text": "Partner closely with Data Engineering on modeling, data quality, freshness, and SOC 2 requirements for the analytics platform.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m7",
+    "s1",
+    "a1",
+    "x2",
+    "m12",
+    "m11",
+    "m17",
+    "m19",
+    "p4",
+    "p1",
+    "n1",
+    "m9",
+    "m14"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "Establish experimentation and measurement practices, including guardrails for interpreting results.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "a1",
+    "x2",
+    "n1",
+    "m19",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r20",
+   "text": "Represent analytics in executive and board-level reporting, translating ambiguous business questions into analysis and clear recommendations.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m11",
+    "s1",
+    "m7",
+    "x2",
+    "n1",
+    "m9",
+    "m17",
+    "m10",
+    "a1",
+    "m14"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r21",
+   "text": "Advanced degree in Statistics, Economics, Computer Science, Mathematics, or a related field, or equivalent significant industry experience in analytics leadership.",
+   "kind": "preferred",
+   "weight": 1.5,
+   "coveredBy": [
+    "s1",
+    "p4",
+    "p1",
+    "m17",
+    "d1",
+    "m7"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r22",
+   "text": "Generous medical, dental & vision plans \u2014 we cover 100% for all employees and partial for dependents.",
+   "kind": "preferred",
+   "weight": 1.5,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "m12",
+    "m17",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r23",
+   "text": "Most roles are remote work first with inclusive, collaborative teams utilizing Slack as the main form of internal communication.",
+   "kind": "preferred",
+   "weight": 1.5,
+   "coveredBy": [
+    "m9",
+    "m12",
+    "m11",
+    "m17",
+    "m14",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r24",
+   "text": "Join a passionate team on the cutting edge of AI infrastructure \u2014 where culture, learning, and ownership are at the heart of how we scale.",
+   "kind": "preferred",
+   "weight": 1.5,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "m9",
+    "m12",
+    "m11",
+    "m14",
+    "m10",
+    "p3",
+    "p4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r25",
+   "text": "Meaningful equity in a fast-growing company \u2014 your impact drives our growth, and you share in the upside.",
+   "kind": "preferred",
+   "weight": 1,
+   "coveredBy": [],
+   "gap": true
+  }
+ ],
+ "picks": [
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 39.35,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years of experience in analytics, business intelligence, or data science, including ownership of business-critical metrics with executive visibility.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "3+ years of experience managing analytics or BI teams, with a track record of hiring, developing, and retaining strong practitioners.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Deep hands-on fluency in SQL and modern analytics engineering practices, including dbt or equivalent, with enough warehouse expertise to make sound modeling and performance trad\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Experience with usage-based, consumption, or marketplace business models and the metrics that govern them, including utilization, unit economics, expansion and contraction on us\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Demonstrated ability to define a metric layer from a messy starting point and drive organization-wide adoption.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "As Director, Analytics and Business Intelligence, you will lead and grow Runpod's analytics function, owning how the company measures itself and how insights reach decision-make\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r12",
+     "text": "Lead, coach, and grow a team of analysts and BI practitioners, including hiring, career development, prioritization, and raising the technical bar of the work.",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "Drive company strategy proactively from a data perspective by identifying the data levers that can transform the business, quantifying opportunities, and delivering clear paths \u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r14",
+     "text": "Own Runpod's core metric layer, defining and maintaining consistent definitions for utilization, retention, net revenue retention, margin, and marketplace supply/demand health.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Set the analytics roadmap in partnership with Product, Finance, and GTM leadership, balancing recurring reporting needs with deeper analysis that changes decisions.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Build the self-serve analytics layer so stakeholders can answer routine questions independently, reserving the team's capacity for higher-judgment work.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Partner closely with Data Engineering on modeling, data quality, freshness, and SOC 2 requirements for the analytics platform.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "Establish experimentation and measurement practices, including guardrails for interpreting results.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Represent analytics in executive and board-level reporting, translating ambiguous business questions into analysis and clear recommendations.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r21",
+     "text": "Advanced degree in Statistics, Economics, Computer Science, Mathematics, or a related field, or equivalent significant industry experience in analytics leadership.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r22",
+     "text": "Generous medical, dental & vision plans \u2014 we cover 100% for all employees and partial for dependents.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r24",
+     "text": "Join a passionate team on the cutting edge of AI infrastructure \u2014 where culture, learning, and ownership are at the heart of how we scale.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "role": "ms-head",
+   "original": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "final": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 33.07,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years of experience in analytics, business intelligence, or data science, including ownership of business-critical metrics with executive visibility.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "3+ years of experience managing analytics or BI teams, with a track record of hiring, developing, and retaining strong practitioners.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r3",
+     "text": "Deep hands-on fluency in SQL and modern analytics engineering practices, including dbt or equivalent, with enough warehouse expertise to make sound modeling and performance trad\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to thrive in startup environments as a proactive partner to the business.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Strong communication and stakeholder management skills, including the ability to challenge assumptions with data while maintaining strong relationships.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "As Director, Analytics and Business Intelligence, you will lead and grow Runpod's analytics function, owning how the company measures itself and how insights reach decision-make\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r12",
+     "text": "Lead, coach, and grow a team of analysts and BI practitioners, including hiring, career development, prioritization, and raising the technical bar of the work.",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "Drive company strategy proactively from a data perspective by identifying the data levers that can transform the business, quantifying opportunities, and delivering clear paths \u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r15",
+     "text": "Set the analytics roadmap in partnership with Product, Finance, and GTM leadership, balancing recurring reporting needs with deeper analysis that changes decisions.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r17",
+     "text": "Build the self-serve analytics layer so stakeholders can answer routine questions independently, reserving the team's capacity for higher-judgment work.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r18",
+     "text": "Partner closely with Data Engineering on modeling, data quality, freshness, and SOC 2 requirements for the analytics platform.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Represent analytics in executive and board-level reporting, translating ambiguous business questions into analysis and clear recommendations.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Advanced degree in Statistics, Economics, Computer Science, Mathematics, or a related field, or equivalent significant industry experience in analytics leadership.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r22",
+     "text": "Generous medical, dental & vision plans \u2014 we cover 100% for all employees and partial for dependents.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "Join a passionate team on the cutting edge of AI infrastructure \u2014 where culture, learning, and ownership are at the heart of how we scale.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "role": "ms-sal",
+   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 24.04,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years of experience in analytics, business intelligence, or data science, including ownership of business-critical metrics with executive visibility.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r2",
+     "text": "3+ years of experience managing analytics or BI teams, with a track record of hiring, developing, and retaining strong practitioners.",
+     "skills": [
+      "leadership",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Deep hands-on fluency in SQL and modern analytics engineering practices, including dbt or equivalent, with enough warehouse expertise to make sound modeling and performance trad\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Experience with usage-based, consumption, or marketplace business models and the metrics that govern them, including utilization, unit economics, expansion and contraction on us\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to thrive in startup environments as a proactive partner to the business.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Ability to approach questions objectively, form a view from evidence and data, and optimize for what is best for the business.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "As Director, Analytics and Business Intelligence, you will lead and grow Runpod's analytics function, owning how the company measures itself and how insights reach decision-make\u2026",
+     "skills": [
+      "leadership",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r12",
+     "text": "Lead, coach, and grow a team of analysts and BI practitioners, including hiring, career development, prioritization, and raising the technical bar of the work.",
+     "skills": [
+      "leadership",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "Drive company strategy proactively from a data perspective by identifying the data levers that can transform the business, quantifying opportunities, and delivering clear paths \u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r15",
+     "text": "Set the analytics roadmap in partnership with Product, Finance, and GTM leadership, balancing recurring reporting needs with deeper analysis that changes decisions.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r17",
+     "text": "Build the self-serve analytics layer so stakeholders can answer routine questions independently, reserving the team's capacity for higher-judgment work.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Partner closely with Data Engineering on modeling, data quality, freshness, and SOC 2 requirements for the analytics platform.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Represent analytics in executive and board-level reporting, translating ambiguous business questions into analysis and clear recommendations.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r21",
+     "text": "Advanced degree in Statistics, Economics, Computer Science, Mathematics, or a related field, or equivalent significant industry experience in analytics leadership.",
+     "skills": [
+      "stats"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "a1",
+   "role": "ms-al",
+   "original": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
+   "final": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 16.5,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years of experience in analytics, business intelligence, or data science, including ownership of business-critical metrics with executive visibility.",
+     "skills": [
+      "measurement",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Deep hands-on fluency in SQL and modern analytics engineering practices, including dbt or equivalent, with enough warehouse expertise to make sound modeling and performance trad\u2026",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Experience with usage-based, consumption, or marketplace business models and the metrics that govern them, including utilization, unit economics, expansion and contraction on us\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Demonstrated ability to define a metric layer from a messy starting point and drive organization-wide adoption.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to thrive in startup environments as a proactive partner to the business.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Strong communication and stakeholder management skills, including the ability to challenge assumptions with data while maintaining strong relationships.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r8",
+     "text": "Ability to work effectively across Product, Finance, Data Engineering, Security, Go-to-Market, and Supply.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Strong judgment and urgency, with the ability to determine when a fast, directionally correct answer is more valuable than a perfect answer delivered too late.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Ability to approach questions objectively, form a view from evidence and data, and optimize for what is best for the business.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "As Director, Analytics and Business Intelligence, you will lead and grow Runpod's analytics function, owning how the company measures itself and how insights reach decision-make\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Lead, coach, and grow a team of analysts and BI practitioners, including hiring, career development, prioritization, and raising the technical bar of the work.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Drive company strategy proactively from a data perspective by identifying the data levers that can transform the business, quantifying opportunities, and delivering clear paths \u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r14",
+     "text": "Own Runpod's core metric layer, defining and maintaining consistent definitions for utilization, retention, net revenue retention, margin, and marketplace supply/demand health.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Build the self-serve analytics layer so stakeholders can answer routine questions independently, reserving the team's capacity for higher-judgment work.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Partner closely with Data Engineering on modeling, data quality, freshness, and SOC 2 requirements for the analytics platform.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Establish experimentation and measurement practices, including guardrails for interpreting results.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Represent analytics in executive and board-level reporting, translating ambiguous business questions into analysis and clear recommendations.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Meaningful equity in a fast-growing company \u2014 your impact drives our growth, and you share in the upside.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 12.62,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years of experience in analytics, business intelligence, or data science, including ownership of business-critical metrics with executive visibility.",
+     "skills": [
+      "measurement",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Deep hands-on fluency in SQL and modern analytics engineering practices, including dbt or equivalent, with enough warehouse expertise to make sound modeling and performance trad\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Experience with usage-based, consumption, or marketplace business models and the metrics that govern them, including utilization, unit economics, expansion and contraction on us\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Demonstrated ability to define a metric layer from a messy starting point and drive organization-wide adoption.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to thrive in startup environments as a proactive partner to the business.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Strong communication and stakeholder management skills, including the ability to challenge assumptions with data while maintaining strong relationships.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Ability to work effectively across Product, Finance, Data Engineering, Security, Go-to-Market, and Supply.",
+     "skills": [
+      "revenue"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "As Director, Analytics and Business Intelligence, you will lead and grow Runpod's analytics function, owning how the company measures itself and how insights reach decision-make\u2026",
+     "skills": [
+      "revenue",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Own Runpod's core metric layer, defining and maintaining consistent definitions for utilization, retention, net revenue retention, margin, and marketplace supply/demand health.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Set the analytics roadmap in partnership with Product, Finance, and GTM leadership, balancing recurring reporting needs with deeper analysis that changes decisions.",
+     "skills": [
+      "revenue"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r16",
+     "text": "Drive analysis of consumption-based revenue and customer behavior, including cohort retention, expansion and churn on usage, savings plan adoption, spot vs. reserved mix, and se\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Build the self-serve analytics layer so stakeholders can answer routine questions independently, reserving the team's capacity for higher-judgment work.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Partner closely with Data Engineering on modeling, data quality, freshness, and SOC 2 requirements for the analytics platform.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Establish experimentation and measurement practices, including guardrails for interpreting results.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Represent analytics in executive and board-level reporting, translating ambiguous business questions into analysis and clear recommendations.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "n1",
+   "role": "hanapin",
+   "original": "Ran client relationships and strategy for search and display accounts on Google Ads, Bing Ads and Yahoo, including optimization, monitoring and reporting",
+   "final": "Ran client relationships and strategy for search and display accounts on Google Ads, Bing Ads and Yahoo, including optimization, monitoring and reporting",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 12.15,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years of experience in analytics, business intelligence, or data science, including ownership of business-critical metrics with executive visibility.",
+     "skills": [
+      "measurement",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Experience with usage-based, consumption, or marketplace business models and the metrics that govern them, including utilization, unit economics, expansion and contraction on us\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Demonstrated ability to define a metric layer from a messy starting point and drive organization-wide adoption.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to thrive in startup environments as a proactive partner to the business.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Strong communication and stakeholder management skills, including the ability to challenge assumptions with data while maintaining strong relationships.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r10",
+     "text": "Ability to approach questions objectively, form a view from evidence and data, and optimize for what is best for the business.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "As Director, Analytics and Business Intelligence, you will lead and grow Runpod's analytics function, owning how the company measures itself and how insights reach decision-make\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Drive company strategy proactively from a data perspective by identifying the data levers that can transform the business, quantifying opportunities, and delivering clear paths \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Own Runpod's core metric layer, defining and maintaining consistent definitions for utilization, retention, net revenue retention, margin, and marketplace supply/demand health.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Set the analytics roadmap in partnership with Product, Finance, and GTM leadership, balancing recurring reporting needs with deeper analysis that changes decisions.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Build the self-serve analytics layer so stakeholders can answer routine questions independently, reserving the team's capacity for higher-judgment work.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Partner closely with Data Engineering on modeling, data quality, freshness, and SOC 2 requirements for the analytics platform.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Establish experimentation and measurement practices, including guardrails for interpreting results.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Represent analytics in executive and board-level reporting, translating ambiguous business questions into analysis and clear recommendations.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 39.04,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years of experience in analytics, business intelligence, or data science, including ownership of business-critical metrics with executive visibility.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "3+ years of experience managing analytics or BI teams, with a track record of hiring, developing, and retaining strong practitioners.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Deep hands-on fluency in SQL and modern analytics engineering practices, including dbt or equivalent, with enough warehouse expertise to make sound modeling and performance trad\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Demonstrated ability to define a metric layer from a messy starting point and drive organization-wide adoption.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to thrive in startup environments as a proactive partner to the business.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Strong communication and stakeholder management skills, including the ability to challenge assumptions with data while maintaining strong relationships.",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "Ability to work effectively across Product, Finance, Data Engineering, Security, Go-to-Market, and Supply.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "As Director, Analytics and Business Intelligence, you will lead and grow Runpod's analytics function, owning how the company measures itself and how insights reach decision-make\u2026",
+     "skills": [
+      "leadership",
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r12",
+     "text": "Lead, coach, and grow a team of analysts and BI practitioners, including hiring, career development, prioritization, and raising the technical bar of the work.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Drive company strategy proactively from a data perspective by identifying the data levers that can transform the business, quantifying opportunities, and delivering clear paths \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Own Runpod's core metric layer, defining and maintaining consistent definitions for utilization, retention, net revenue retention, margin, and marketplace supply/demand health.",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Set the analytics roadmap in partnership with Product, Finance, and GTM leadership, balancing recurring reporting needs with deeper analysis that changes decisions.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r16",
+     "text": "Drive analysis of consumption-based revenue and customer behavior, including cohort retention, expansion and churn on usage, savings plan adoption, spot vs. reserved mix, and se\u2026",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Build the self-serve analytics layer so stakeholders can answer routine questions independently, reserving the team's capacity for higher-judgment work.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Partner closely with Data Engineering on modeling, data quality, freshness, and SOC 2 requirements for the analytics platform.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Represent analytics in executive and board-level reporting, translating ambiguous business questions into analysis and clear recommendations.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Advanced degree in Statistics, Economics, Computer Science, Mathematics, or a related field, or equivalent significant industry experience in analytics leadership.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "Most roles are remote work first with inclusive, collaborative teams utilizing Slack as the main form of internal communication.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "Join a passionate team on the cutting edge of AI infrastructure \u2014 where culture, learning, and ownership are at the heart of how we scale.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Meaningful equity in a fast-growing company \u2014 your impact drives our growth, and you share in the upside.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m12",
+   "role": "ms-dir",
+   "original": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "final": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 25.49,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years of experience in analytics, business intelligence, or data science, including ownership of business-critical metrics with executive visibility.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "3+ years of experience managing analytics or BI teams, with a track record of hiring, developing, and retaining strong practitioners.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Deep hands-on fluency in SQL and modern analytics engineering practices, including dbt or equivalent, with enough warehouse expertise to make sound modeling and performance trad\u2026",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Demonstrated ability to define a metric layer from a messy starting point and drive organization-wide adoption.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "Strong communication and stakeholder management skills, including the ability to challenge assumptions with data while maintaining strong relationships.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Ability to work effectively across Product, Finance, Data Engineering, Security, Go-to-Market, and Supply.",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Ability to approach questions objectively, form a view from evidence and data, and optimize for what is best for the business.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "As Director, Analytics and Business Intelligence, you will lead and grow Runpod's analytics function, owning how the company measures itself and how insights reach decision-make\u2026",
+     "skills": [
+      "leadership",
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r12",
+     "text": "Lead, coach, and grow a team of analysts and BI practitioners, including hiring, career development, prioritization, and raising the technical bar of the work.",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "Drive company strategy proactively from a data perspective by identifying the data levers that can transform the business, quantifying opportunities, and delivering clear paths \u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r15",
+     "text": "Set the analytics roadmap in partnership with Product, Finance, and GTM leadership, balancing recurring reporting needs with deeper analysis that changes decisions.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r18",
+     "text": "Partner closely with Data Engineering on modeling, data quality, freshness, and SOC 2 requirements for the analytics platform.",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Advanced degree in Statistics, Economics, Computer Science, Mathematics, or a related field, or equivalent significant industry experience in analytics leadership.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r22",
+     "text": "Generous medical, dental & vision plans \u2014 we cover 100% for all employees and partial for dependents.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "Most roles are remote work first with inclusive, collaborative teams utilizing Slack as the main form of internal communication.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "Join a passionate team on the cutting edge of AI infrastructure \u2014 where culture, learning, and ownership are at the heart of how we scale.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "role": "ms-dir",
+   "original": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "final": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 30,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years of experience in analytics, business intelligence, or data science, including ownership of business-critical metrics with executive visibility.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r3",
+     "text": "Deep hands-on fluency in SQL and modern analytics engineering practices, including dbt or equivalent, with enough warehouse expertise to make sound modeling and performance trad\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Experience with usage-based, consumption, or marketplace business models and the metrics that govern them, including utilization, unit economics, expansion and contraction on us\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Demonstrated ability to define a metric layer from a messy starting point and drive organization-wide adoption.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to thrive in startup environments as a proactive partner to the business.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Strong communication and stakeholder management skills, including the ability to challenge assumptions with data while maintaining strong relationships.",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "Ability to work effectively across Product, Finance, Data Engineering, Security, Go-to-Market, and Supply.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Ability to approach questions objectively, form a view from evidence and data, and optimize for what is best for the business.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r11",
+     "text": "As Director, Analytics and Business Intelligence, you will lead and grow Runpod's analytics function, owning how the company measures itself and how insights reach decision-make\u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "Drive company strategy proactively from a data perspective by identifying the data levers that can transform the business, quantifying opportunities, and delivering clear paths \u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r15",
+     "text": "Set the analytics roadmap in partnership with Product, Finance, and GTM leadership, balancing recurring reporting needs with deeper analysis that changes decisions.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r16",
+     "text": "Drive analysis of consumption-based revenue and customer behavior, including cohort retention, expansion and churn on usage, savings plan adoption, spot vs. reserved mix, and se\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Build the self-serve analytics layer so stakeholders can answer routine questions independently, reserving the team's capacity for higher-judgment work.",
+     "skills": [
+      "data-products",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Partner closely with Data Engineering on modeling, data quality, freshness, and SOC 2 requirements for the analytics platform.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Represent analytics in executive and board-level reporting, translating ambiguous business questions into analysis and clear recommendations.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Most roles are remote work first with inclusive, collaborative teams utilizing Slack as the main form of internal communication.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "Join a passionate team on the cutting edge of AI infrastructure \u2014 where culture, learning, and ownership are at the heart of how we scale.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m17",
+   "role": "ms-head",
+   "original": "Ran a roundtable with a regional sales VP's leadership team to answer their doubts about advanced analytics",
+   "final": "Ran a roundtable with a regional sales VP's leadership team to answer their doubts about advanced analytics",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 19.87,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years of experience in analytics, business intelligence, or data science, including ownership of business-critical metrics with executive visibility.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "3+ years of experience managing analytics or BI teams, with a track record of hiring, developing, and retaining strong practitioners.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Deep hands-on fluency in SQL and modern analytics engineering practices, including dbt or equivalent, with enough warehouse expertise to make sound modeling and performance trad\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to thrive in startup environments as a proactive partner to the business.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Strong communication and stakeholder management skills, including the ability to challenge assumptions with data while maintaining strong relationships.",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Strong judgment and urgency, with the ability to determine when a fast, directionally correct answer is more valuable than a perfect answer delivered too late.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "As Director, Analytics and Business Intelligence, you will lead and grow Runpod's analytics function, owning how the company measures itself and how insights reach decision-make\u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r12",
+     "text": "Lead, coach, and grow a team of analysts and BI practitioners, including hiring, career development, prioritization, and raising the technical bar of the work.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Drive company strategy proactively from a data perspective by identifying the data levers that can transform the business, quantifying opportunities, and delivering clear paths \u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r15",
+     "text": "Set the analytics roadmap in partnership with Product, Finance, and GTM leadership, balancing recurring reporting needs with deeper analysis that changes decisions.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r17",
+     "text": "Build the self-serve analytics layer so stakeholders can answer routine questions independently, reserving the team's capacity for higher-judgment work.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Partner closely with Data Engineering on modeling, data quality, freshness, and SOC 2 requirements for the analytics platform.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Represent analytics in executive and board-level reporting, translating ambiguous business questions into analysis and clear recommendations.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Advanced degree in Statistics, Economics, Computer Science, Mathematics, or a related field, or equivalent significant industry experience in analytics leadership.",
+     "skills": [],
+     "m": 0.45
+    },
+    {
+     "req": "r22",
+     "text": "Generous medical, dental & vision plans \u2014 we cover 100% for all employees and partial for dependents.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "Most roles are remote work first with inclusive, collaborative teams utilizing Slack as the main form of internal communication.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m19",
+   "role": "ms-head",
+   "original": "Added Microsoft Clarity behavioral data to the team's query-pathing tool",
+   "final": "Added Microsoft Clarity behavioral data to the team's query-pathing tool",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 16.99,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years of experience in analytics, business intelligence, or data science, including ownership of business-critical metrics with executive visibility.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Deep hands-on fluency in SQL and modern analytics engineering practices, including dbt or equivalent, with enough warehouse expertise to make sound modeling and performance trad\u2026",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Experience with usage-based, consumption, or marketplace business models and the metrics that govern them, including utilization, unit economics, expansion and contraction on us\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Demonstrated ability to define a metric layer from a messy starting point and drive organization-wide adoption.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Strong communication and stakeholder management skills, including the ability to challenge assumptions with data while maintaining strong relationships.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Ability to work effectively across Product, Finance, Data Engineering, Security, Go-to-Market, and Supply.",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Ability to approach questions objectively, form a view from evidence and data, and optimize for what is best for the business.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Drive company strategy proactively from a data perspective by identifying the data levers that can transform the business, quantifying opportunities, and delivering clear paths \u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r14",
+     "text": "Own Runpod's core metric layer, defining and maintaining consistent definitions for utilization, retention, net revenue retention, margin, and marketplace supply/demand health.",
+     "skills": [
+      "measurement",
+      "product-analytics"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "Drive analysis of consumption-based revenue and customer behavior, including cohort retention, expansion and churn on usage, savings plan adoption, spot vs. reserved mix, and se\u2026",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Build the self-serve analytics layer so stakeholders can answer routine questions independently, reserving the team's capacity for higher-judgment work.",
+     "skills": [
+      "data-products"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Partner closely with Data Engineering on modeling, data quality, freshness, and SOC 2 requirements for the analytics platform.",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Establish experimentation and measurement practices, including guardrails for interpreting results.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "h1",
+   "role": "ms-head",
+   "original": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "final": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 21.56,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years of experience in analytics, business intelligence, or data science, including ownership of business-critical metrics with executive visibility.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "3+ years of experience managing analytics or BI teams, with a track record of hiring, developing, and retaining strong practitioners.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Experience with usage-based, consumption, or marketplace business models and the metrics that govern them, including utilization, unit economics, expansion and contraction on us\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Demonstrated ability to define a metric layer from a messy starting point and drive organization-wide adoption.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "As Director, Analytics and Business Intelligence, you will lead and grow Runpod's analytics function, owning how the company measures itself and how insights reach decision-make\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r12",
+     "text": "Lead, coach, and grow a team of analysts and BI practitioners, including hiring, career development, prioritization, and raising the technical bar of the work.",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "Drive company strategy proactively from a data perspective by identifying the data levers that can transform the business, quantifying opportunities, and delivering clear paths \u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r14",
+     "text": "Own Runpod's core metric layer, defining and maintaining consistent definitions for utilization, retention, net revenue retention, margin, and marketplace supply/demand health.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Set the analytics roadmap in partnership with Product, Finance, and GTM leadership, balancing recurring reporting needs with deeper analysis that changes decisions.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Establish experimentation and measurement practices, including guardrails for interpreting results.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Advanced degree in Statistics, Economics, Computer Science, Mathematics, or a related field, or equivalent significant industry experience in analytics leadership.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r22",
+     "text": "Generous medical, dental & vision plans \u2014 we cover 100% for all employees and partial for dependents.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m14",
+   "role": "ms-head",
+   "original": "Took over a late, multi-team Copilot insights project for Cannes 2025, gave it structure and simplified it to keep it on schedule",
+   "final": "Took over a late, multi-team Copilot insights project for Cannes 2025, gave it structure and simplified it to keep it on schedule",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 16.54,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years of experience in analytics, business intelligence, or data science, including ownership of business-critical metrics with executive visibility.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "3+ years of experience managing analytics or BI teams, with a track record of hiring, developing, and retaining strong practitioners.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to thrive in startup environments as a proactive partner to the business.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Strong communication and stakeholder management skills, including the ability to challenge assumptions with data while maintaining strong relationships.",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Strong judgment and urgency, with the ability to determine when a fast, directionally correct answer is more valuable than a perfect answer delivered too late.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "As Director, Analytics and Business Intelligence, you will lead and grow Runpod's analytics function, owning how the company measures itself and how insights reach decision-make\u2026",
+     "skills": [
+      "leadership",
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r12",
+     "text": "Lead, coach, and grow a team of analysts and BI practitioners, including hiring, career development, prioritization, and raising the technical bar of the work.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Drive company strategy proactively from a data perspective by identifying the data levers that can transform the business, quantifying opportunities, and delivering clear paths \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Set the analytics roadmap in partnership with Product, Finance, and GTM leadership, balancing recurring reporting needs with deeper analysis that changes decisions.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Build the self-serve analytics layer so stakeholders can answer routine questions independently, reserving the team's capacity for higher-judgment work.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Partner closely with Data Engineering on modeling, data quality, freshness, and SOC 2 requirements for the analytics platform.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Represent analytics in executive and board-level reporting, translating ambiguous business questions into analysis and clear recommendations.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Advanced degree in Statistics, Economics, Computer Science, Mathematics, or a related field, or equivalent significant industry experience in analytics leadership.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "Most roles are remote work first with inclusive, collaborative teams utilizing Slack as the main form of internal communication.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "Join a passionate team on the cutting edge of AI infrastructure \u2014 where culture, learning, and ownership are at the heart of how we scale.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "role": "ms-dir",
+   "original": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "final": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 31.07,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years of experience in analytics, business intelligence, or data science, including ownership of business-critical metrics with executive visibility.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r2",
+     "text": "3+ years of experience managing analytics or BI teams, with a track record of hiring, developing, and retaining strong practitioners.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Deep hands-on fluency in SQL and modern analytics engineering practices, including dbt or equivalent, with enough warehouse expertise to make sound modeling and performance trad\u2026",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Experience with usage-based, consumption, or marketplace business models and the metrics that govern them, including utilization, unit economics, expansion and contraction on us\u2026",
+     "skills": [],
+     "m": 0.45
+    },
+    {
+     "req": "r5",
+     "text": "Demonstrated ability to define a metric layer from a messy starting point and drive organization-wide adoption.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to thrive in startup environments as a proactive partner to the business.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Ability to approach questions objectively, form a view from evidence and data, and optimize for what is best for the business.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "As Director, Analytics and Business Intelligence, you will lead and grow Runpod's analytics function, owning how the company measures itself and how insights reach decision-make\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Lead, coach, and grow a team of analysts and BI practitioners, including hiring, career development, prioritization, and raising the technical bar of the work.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Drive company strategy proactively from a data perspective by identifying the data levers that can transform the business, quantifying opportunities, and delivering clear paths \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Own Runpod's core metric layer, defining and maintaining consistent definitions for utilization, retention, net revenue retention, margin, and marketplace supply/demand health.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r15",
+     "text": "Set the analytics roadmap in partnership with Product, Finance, and GTM leadership, balancing recurring reporting needs with deeper analysis that changes decisions.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Build the self-serve analytics layer so stakeholders can answer routine questions independently, reserving the team's capacity for higher-judgment work.",
+     "skills": [
+      "data-products"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Represent analytics in executive and board-level reporting, translating ambiguous business questions into analysis and clear recommendations.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r24",
+     "text": "Join a passionate team on the cutting edge of AI infrastructure \u2014 where culture, learning, and ownership are at the heart of how we scale.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "role": "proj",
+   "original": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "final": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 9.33,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Deep hands-on fluency in SQL and modern analytics engineering practices, including dbt or equivalent, with enough warehouse expertise to make sound modeling and performance trad\u2026",
+     "skills": [
+      "sql",
+      "bigquery"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Demonstrated ability to define a metric layer from a messy starting point and drive organization-wide adoption.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Ability to approach questions objectively, form a view from evidence and data, and optimize for what is best for the business.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Own Runpod's core metric layer, defining and maintaining consistent definitions for utilization, retention, net revenue retention, margin, and marketplace supply/demand health.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Drive analysis of consumption-based revenue and customer behavior, including cohort retention, expansion and churn on usage, savings plan adoption, spot vs. reserved mix, and se\u2026",
+     "skills": [
+      "cloud"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Build the self-serve analytics layer so stakeholders can answer routine questions independently, reserving the team's capacity for higher-judgment work.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r20",
+     "text": "Represent analytics in executive and board-level reporting, translating ambiguous business questions into analysis and clear recommendations.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Join a passionate team on the cutting edge of AI infrastructure \u2014 where culture, learning, and ownership are at the heart of how we scale.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p4",
+   "role": "proj",
+   "original": "Robuttal: an arena where AI models from several providers debate, judged by AI with fairness audits and Elo rankings; built with Python, FastAPI and Next.js",
+   "final": "Robuttal: an arena where AI models from several providers debate, judged by AI with fairness audits and Elo rankings; built with Python, FastAPI and Next.js",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 10.23,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Deep hands-on fluency in SQL and modern analytics engineering practices, including dbt or equivalent, with enough warehouse expertise to make sound modeling and performance trad\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Experience with usage-based, consumption, or marketplace business models and the metrics that govern them, including utilization, unit economics, expansion and contraction on us\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Strong judgment and urgency, with the ability to determine when a fast, directionally correct answer is more valuable than a perfect answer delivered too late.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Build the self-serve analytics layer so stakeholders can answer routine questions independently, reserving the team's capacity for higher-judgment work.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Partner closely with Data Engineering on modeling, data quality, freshness, and SOC 2 requirements for the analytics platform.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Advanced degree in Statistics, Economics, Computer Science, Mathematics, or a related field, or equivalent significant industry experience in analytics leadership.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "Join a passionate team on the cutting edge of AI infrastructure \u2014 where culture, learning, and ownership are at the heart of how we scale.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "role": "proj",
+   "original": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "final": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 14.77,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years of experience in analytics, business intelligence, or data science, including ownership of business-critical metrics with executive visibility.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Deep hands-on fluency in SQL and modern analytics engineering practices, including dbt or equivalent, with enough warehouse expertise to make sound modeling and performance trad\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Experience with usage-based, consumption, or marketplace business models and the metrics that govern them, including utilization, unit economics, expansion and contraction on us\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Strong communication and stakeholder management skills, including the ability to challenge assumptions with data while maintaining strong relationships.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Ability to work effectively across Product, Finance, Data Engineering, Security, Go-to-Market, and Supply.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Ability to approach questions objectively, form a view from evidence and data, and optimize for what is best for the business.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "As Director, Analytics and Business Intelligence, you will lead and grow Runpod's analytics function, owning how the company measures itself and how insights reach decision-make\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Lead, coach, and grow a team of analysts and BI practitioners, including hiring, career development, prioritization, and raising the technical bar of the work.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Drive company strategy proactively from a data perspective by identifying the data levers that can transform the business, quantifying opportunities, and delivering clear paths \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Partner closely with Data Engineering on modeling, data quality, freshness, and SOC 2 requirements for the analytics platform.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Advanced degree in Statistics, Economics, Computer Science, Mathematics, or a related field, or equivalent significant industry experience in analytics leadership.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "Most roles are remote work first with inclusive, collaborative teams utilizing Slack as the main form of internal communication.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "why": "role already full",
+   "score": 25.27
+  },
+  {
+   "text": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "why": "role already full",
+   "score": 22.64
+  },
+  {
+   "text": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "why": "others covered the same ground better",
+   "score": 18.65
+  },
+  {
+   "text": "Took over measurement of a cross-Microsoft partner program, defined its scope, won direct access to the data cube, and showed leadership the program's positive returns",
+   "why": "others covered the same ground better",
+   "score": 18.59
+  },
+  {
+   "text": "Built a travel COVID risk map from CDC, state regulation, population and search data, refreshed every two weeks, that a major client's CMO asked for regularly",
+   "why": "others covered the same ground better",
+   "score": 17.24
+  },
+  {
+   "text": "Secured new MSN content datasets, built an MSN insights prototype with the team, and took it to sellers and marketing once MSN leaders approved it",
+   "why": "role already full",
+   "score": 16.77
+  },
+  {
+   "text": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "why": "role already full",
+   "score": 15.97
+  },
+  {
+   "text": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "why": "role already full",
+   "score": 14.97
+  }
+ ],
+ "skills": [
+  "Stakeholder management",
+  "Business Intelligence",
+  "Measurement",
+  "Statistics",
+  "Strategy",
+  "Machine learning",
+  "Data pipelines",
+  "Team leadership",
+  "Revenue analytics",
+  "Data storytelling",
+  "Product analytics",
+  "SQL",
+  "BigQuery",
+  "Self-serve analytics",
+  "Cloud",
+  "Generative AI"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 8+ years; I have 12."
+  }
+ ]
+}
