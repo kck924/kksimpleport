@@ -1,0 +1,1909 @@
+{
+ "id": "xc6z7jsr",
+ "version": "1.5",
+ "created": "2026-10-30",
+ "job": {
+  "title": "Sr Director, Data Science and Analytics",
+  "company": "Servicetitan"
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 14
+ },
+ "fit": 71,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "8+ years in data science or applied AI/ML, with 5+ years leading and growing teams.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "d1",
+    "m12",
+    "m1",
+    "m9",
+    "m7",
+    "m14",
+    "a1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "Strong background managing analytics teams",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m7",
+    "s1",
+    "d1",
+    "m9",
+    "m12",
+    "m14",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "Demonstrated track record in influencing internal operational decisions based on ML systems (e.g. forecasts and lead scores).",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "t4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Strong foundation in statistics and ML, plus depth in modern AI: LLMs, agentic systems, orchestration (e.g., tool use, MCP), retrieval, and the evaluation practices these require.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "p14",
+    "p3",
+    "s1",
+    "n2",
+    "m9",
+    "m7",
+    "d1",
+    "m12",
+    "m11",
+    "m14",
+    "m15",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "Fluency in SQL and Python; familiarity with modern data and AI stacks (cloud warehouses, dbt, LLM/agent deployment pipelines).",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m12",
+    "p14",
+    "p3",
+    "a1",
+    "m19",
+    "p1",
+    "m11",
+    "m9",
+    "m7",
+    "d1",
+    "m14",
+    "m15"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "Proven ability to partner with non-technical executives and translate ambiguous business problems into tractable work.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "x2",
+    "m11",
+    "t4",
+    "m7",
+    "a1",
+    "m14",
+    "m15",
+    "m1",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "Proven expertise in analytics- driving decisions through deep analysis.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r8",
+   "text": "Comfort operating in a fast-moving, data-rich environment where decisions carry real operational and cost consequences.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r9",
+   "text": "Own the data science and applied AI roadmap for G&A\u2014agentic systems, forecasting, lead scoring, and decision-support that improve throughput, reliability, and unit economics. Bu\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m7",
+    "d1",
+    "m12",
+    "m15",
+    "p14",
+    "p3",
+    "m11",
+    "t4",
+    "m9",
+    "m14",
+    "m1",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r10",
+   "text": "Partner with operations, and product leadership to identify high-leverage problems, frame them, and translate them into operational decisions and shipped AI capabilities.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "m11",
+    "m14",
+    "m15",
+    "d1",
+    "m12",
+    "m1",
+    "a1",
+    "x2",
+    "t4",
+    "p14",
+    "p3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r11",
+   "text": "Responsible for our finance analytics team that supports all of finance - accounting, FP&A, and pricing.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "x2",
+    "m7"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "Collaborate with data engineering, machine learning engineering, and platform teams on the infrastructure, data quality, orchestration, tooling, and guardrails these systems dep\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m19",
+    "m12"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r13",
+   "text": "Communicate findings and recommendations to executive stakeholders, balancing technical depth with business clarity.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "m11",
+    "m14",
+    "t4",
+    "m7",
+    "a1",
+    "x2",
+    "m15",
+    "m1",
+    "n2",
+    "m12",
+    "p1",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r14",
+   "text": "Champion an AI/agent-first way of working within the team\u2014both as a hands-on technical leader (e.g., Claude Code) and by inventing agentic systems that make the team faster.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "p14",
+    "p3",
+    "d1",
+    "m9",
+    "m7",
+    "m12",
+    "m11",
+    "m14",
+    "m15",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r15",
+   "text": "This role has significant latitude to work on and invent new high ROI projects- the only limit is your creativity.",
+   "kind": "responsibility",
+   "weight": 2,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r16",
+   "text": "Lead, hire, and develop a data science and analytics team executing on operational and product-facing work; set standards for technical rigor, evaluation, and production quality.",
+   "kind": "responsibility",
+   "weight": 2,
+   "coveredBy": [
+    "s1",
+    "d1",
+    "m12"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r17",
+   "text": "Use of AI Technology:",
+   "kind": "preferred",
+   "weight": 1.5,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "d1",
+    "m12",
+    "m11",
+    "m14",
+    "m15",
+    "p14",
+    "p3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r18",
+   "text": "We use technology, including automated and AI-assisted tools, to support certain aspects of our recruitment process. These tools are designed to improve efficiency and enhance t\u2026",
+   "kind": "preferred",
+   "weight": 1.5,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "d1",
+    "m12",
+    "m14",
+    "m11",
+    "m1",
+    "s1",
+    "m15",
+    "p14",
+    "p3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "Background in B2B SaaS, marketplaces, logistics, or field operations.",
+   "kind": "preferred",
+   "weight": 1,
+   "coveredBy": [],
+   "gap": true
+  }
+ ],
+ "picks": [
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 33.69,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in data science or applied AI/ML, with 5+ years leading and growing teams.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "Strong background managing analytics teams",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Strong foundation in statistics and ML, plus depth in modern AI: LLMs, agentic systems, orchestration (e.g., tool use, MCP), retrieval, and the evaluation practices these require.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Fluency in SQL and Python; familiarity with modern data and AI stacks (cloud warehouses, dbt, LLM/agent deployment pipelines).",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to partner with non-technical executives and translate ambiguous business problems into tractable work.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Proven expertise in analytics- driving decisions through deep analysis.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Own the data science and applied AI roadmap for G&A\u2014agentic systems, forecasting, lead scoring, and decision-support that improve throughput, reliability, and unit economics. Bu\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Partner with operations, and product leadership to identify high-leverage problems, frame them, and translate them into operational decisions and shipped AI capabilities.",
+     "skills": [
+      "genai",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "Communicate findings and recommendations to executive stakeholders, balancing technical depth with business clarity.",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Champion an AI/agent-first way of working within the team\u2014both as a hands-on technical leader (e.g., Claude Code) and by inventing agentic systems that make the team faster.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Use of AI Technology:",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "We use technology, including automated and AI-assisted tools, to support certain aspects of our recruitment process. These tools are designed to improve efficiency and enhance t\u2026",
+     "skills": [
+      "leadership",
+      "genai"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "role": "ms-head",
+   "original": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "final": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 30.69,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in data science or applied AI/ML, with 5+ years leading and growing teams.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "Strong background managing analytics teams",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Demonstrated track record in influencing internal operational decisions based on ML systems (e.g. forecasts and lead scores).",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Strong foundation in statistics and ML, plus depth in modern AI: LLMs, agentic systems, orchestration (e.g., tool use, MCP), retrieval, and the evaluation practices these require.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Fluency in SQL and Python; familiarity with modern data and AI stacks (cloud warehouses, dbt, LLM/agent deployment pipelines).",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to partner with non-technical executives and translate ambiguous business problems into tractable work.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Proven expertise in analytics- driving decisions through deep analysis.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Own the data science and applied AI roadmap for G&A\u2014agentic systems, forecasting, lead scoring, and decision-support that improve throughput, reliability, and unit economics. Bu\u2026",
+     "skills": [
+      "genai",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Partner with operations, and product leadership to identify high-leverage problems, frame them, and translate them into operational decisions and shipped AI capabilities.",
+     "skills": [
+      "genai",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "Responsible for our finance analytics team that supports all of finance - accounting, FP&A, and pricing.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r13",
+     "text": "Communicate findings and recommendations to executive stakeholders, balancing technical depth with business clarity.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Champion an AI/agent-first way of working within the team\u2014both as a hands-on technical leader (e.g., Claude Code) and by inventing agentic systems that make the team faster.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Lead, hire, and develop a data science and analytics team executing on operational and product-facing work; set standards for technical rigor, evaluation, and production quality.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Use of AI Technology:",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "We use technology, including automated and AI-assisted tools, to support certain aspects of our recruitment process. These tools are designed to improve efficiency and enhance t\u2026",
+     "skills": [
+      "leadership",
+      "genai"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "role": "ms-sal",
+   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 13.93,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in data science or applied AI/ML, with 5+ years leading and growing teams.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Strong background managing analytics teams",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Demonstrated track record in influencing internal operational decisions based on ML systems (e.g. forecasts and lead scores).",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Strong foundation in statistics and ML, plus depth in modern AI: LLMs, agentic systems, orchestration (e.g., tool use, MCP), retrieval, and the evaluation practices these require.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to partner with non-technical executives and translate ambiguous business problems into tractable work.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r7",
+     "text": "Proven expertise in analytics- driving decisions through deep analysis.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Own the data science and applied AI roadmap for G&A\u2014agentic systems, forecasting, lead scoring, and decision-support that improve throughput, reliability, and unit economics. Bu\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Partner with operations, and product leadership to identify high-leverage problems, frame them, and translate them into operational decisions and shipped AI capabilities.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "Responsible for our finance analytics team that supports all of finance - accounting, FP&A, and pricing.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Communicate findings and recommendations to executive stakeholders, balancing technical depth with business clarity.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r14",
+     "text": "Champion an AI/agent-first way of working within the team\u2014both as a hands-on technical leader (e.g., Claude Code) and by inventing agentic systems that make the team faster.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r16",
+     "text": "Lead, hire, and develop a data science and analytics team executing on operational and product-facing work; set standards for technical rigor, evaluation, and production quality.",
+     "skills": [],
+     "m": 0.45
+    },
+    {
+     "req": "r18",
+     "text": "We use technology, including automated and AI-assisted tools, to support certain aspects of our recruitment process. These tools are designed to improve efficiency and enhance t\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "a1",
+   "role": "ms-al",
+   "original": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
+   "final": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 7.21,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in data science or applied AI/ML, with 5+ years leading and growing teams.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r5",
+     "text": "Fluency in SQL and Python; familiarity with modern data and AI stacks (cloud warehouses, dbt, LLM/agent deployment pipelines).",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to partner with non-technical executives and translate ambiguous business problems into tractable work.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Comfort operating in a fast-moving, data-rich environment where decisions carry real operational and cost consequences.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Own the data science and applied AI roadmap for G&A\u2014agentic systems, forecasting, lead scoring, and decision-support that improve throughput, reliability, and unit economics. Bu\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Partner with operations, and product leadership to identify high-leverage problems, frame them, and translate them into operational decisions and shipped AI capabilities.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Responsible for our finance analytics team that supports all of finance - accounting, FP&A, and pricing.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Collaborate with data engineering, machine learning engineering, and platform teams on the infrastructure, data quality, orchestration, tooling, and guardrails these systems dep\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Communicate findings and recommendations to executive stakeholders, balancing technical depth with business clarity.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Lead, hire, and develop a data science and analytics team executing on operational and product-facing work; set standards for technical rigor, evaluation, and production quality.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 3.88,
+   "matched": [
+    {
+     "req": "r6",
+     "text": "Proven ability to partner with non-technical executives and translate ambiguous business problems into tractable work.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Partner with operations, and product leadership to identify high-leverage problems, frame them, and translate them into operational decisions and shipped AI capabilities.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Responsible for our finance analytics team that supports all of finance - accounting, FP&A, and pricing.",
+     "skills": [
+      "revenue"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r12",
+     "text": "Collaborate with data engineering, machine learning engineering, and platform teams on the infrastructure, data quality, orchestration, tooling, and guardrails these systems dep\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Communicate findings and recommendations to executive stakeholders, balancing technical depth with business clarity.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "role": "hanapin",
+   "original": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "final": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 2.25,
+   "matched": [
+    {
+     "req": "r4",
+     "text": "Strong foundation in statistics and ML, plus depth in modern AI: LLMs, agentic systems, orchestration (e.g., tool use, MCP), retrieval, and the evaluation practices these require.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Responsible for our finance analytics team that supports all of finance - accounting, FP&A, and pricing.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Communicate findings and recommendations to executive stakeholders, balancing technical depth with business clarity.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 33.58,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in data science or applied AI/ML, with 5+ years leading and growing teams.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Strong background managing analytics teams",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Demonstrated track record in influencing internal operational decisions based on ML systems (e.g. forecasts and lead scores).",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Strong foundation in statistics and ML, plus depth in modern AI: LLMs, agentic systems, orchestration (e.g., tool use, MCP), retrieval, and the evaluation practices these require.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Fluency in SQL and Python; familiarity with modern data and AI stacks (cloud warehouses, dbt, LLM/agent deployment pipelines).",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Proven expertise in analytics- driving decisions through deep analysis.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Own the data science and applied AI roadmap for G&A\u2014agentic systems, forecasting, lead scoring, and decision-support that improve throughput, reliability, and unit economics. Bu\u2026",
+     "skills": [
+      "genai",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Partner with operations, and product leadership to identify high-leverage problems, frame them, and translate them into operational decisions and shipped AI capabilities.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Responsible for our finance analytics team that supports all of finance - accounting, FP&A, and pricing.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Champion an AI/agent-first way of working within the team\u2014both as a hands-on technical leader (e.g., Claude Code) and by inventing agentic systems that make the team faster.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Lead, hire, and develop a data science and analytics team executing on operational and product-facing work; set standards for technical rigor, evaluation, and production quality.",
+     "skills": [],
+     "m": 0.45
+    },
+    {
+     "req": "r17",
+     "text": "Use of AI Technology:",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "We use technology, including automated and AI-assisted tools, to support certain aspects of our recruitment process. These tools are designed to improve efficiency and enhance t\u2026",
+     "skills": [
+      "leadership",
+      "genai"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "m12",
+   "role": "ms-dir",
+   "original": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "final": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 25.74,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in data science or applied AI/ML, with 5+ years leading and growing teams.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Strong background managing analytics teams",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Strong foundation in statistics and ML, plus depth in modern AI: LLMs, agentic systems, orchestration (e.g., tool use, MCP), retrieval, and the evaluation practices these require.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Fluency in SQL and Python; familiarity with modern data and AI stacks (cloud warehouses, dbt, LLM/agent deployment pipelines).",
+     "skills": [
+      "genai",
+      "pipelines"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "Comfort operating in a fast-moving, data-rich environment where decisions carry real operational and cost consequences.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Own the data science and applied AI roadmap for G&A\u2014agentic systems, forecasting, lead scoring, and decision-support that improve throughput, reliability, and unit economics. Bu\u2026",
+     "skills": [
+      "genai",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Partner with operations, and product leadership to identify high-leverage problems, frame them, and translate them into operational decisions and shipped AI capabilities.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Responsible for our finance analytics team that supports all of finance - accounting, FP&A, and pricing.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Collaborate with data engineering, machine learning engineering, and platform teams on the infrastructure, data quality, orchestration, tooling, and guardrails these systems dep\u2026",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Communicate findings and recommendations to executive stakeholders, balancing technical depth with business clarity.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Champion an AI/agent-first way of working within the team\u2014both as a hands-on technical leader (e.g., Claude Code) and by inventing agentic systems that make the team faster.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Lead, hire, and develop a data science and analytics team executing on operational and product-facing work; set standards for technical rigor, evaluation, and production quality.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r17",
+     "text": "Use of AI Technology:",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "We use technology, including automated and AI-assisted tools, to support certain aspects of our recruitment process. These tools are designed to improve efficiency and enhance t\u2026",
+     "skills": [
+      "leadership",
+      "genai"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "role": "ms-dir",
+   "original": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "final": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 25.8,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in data science or applied AI/ML, with 5+ years leading and growing teams.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Strong foundation in statistics and ML, plus depth in modern AI: LLMs, agentic systems, orchestration (e.g., tool use, MCP), retrieval, and the evaluation practices these require.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Fluency in SQL and Python; familiarity with modern data and AI stacks (cloud warehouses, dbt, LLM/agent deployment pipelines).",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to partner with non-technical executives and translate ambiguous business problems into tractable work.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Proven expertise in analytics- driving decisions through deep analysis.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Comfort operating in a fast-moving, data-rich environment where decisions carry real operational and cost consequences.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Own the data science and applied AI roadmap for G&A\u2014agentic systems, forecasting, lead scoring, and decision-support that improve throughput, reliability, and unit economics. Bu\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Partner with operations, and product leadership to identify high-leverage problems, frame them, and translate them into operational decisions and shipped AI capabilities.",
+     "skills": [
+      "genai",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r12",
+     "text": "Collaborate with data engineering, machine learning engineering, and platform teams on the infrastructure, data quality, orchestration, tooling, and guardrails these systems dep\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Communicate findings and recommendations to executive stakeholders, balancing technical depth with business clarity.",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Champion an AI/agent-first way of working within the team\u2014both as a hands-on technical leader (e.g., Claude Code) and by inventing agentic systems that make the team faster.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Lead, hire, and develop a data science and analytics team executing on operational and product-facing work; set standards for technical rigor, evaluation, and production quality.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Use of AI Technology:",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "We use technology, including automated and AI-assisted tools, to support certain aspects of our recruitment process. These tools are designed to improve efficiency and enhance t\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m14",
+   "role": "ms-head",
+   "original": "Took over a late, multi-team Copilot insights project for Cannes 2025, gave it structure and simplified it to keep it on schedule",
+   "final": "Took over a late, multi-team Copilot insights project for Cannes 2025, gave it structure and simplified it to keep it on schedule",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 17.55,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in data science or applied AI/ML, with 5+ years leading and growing teams.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "Strong background managing analytics teams",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Strong foundation in statistics and ML, plus depth in modern AI: LLMs, agentic systems, orchestration (e.g., tool use, MCP), retrieval, and the evaluation practices these require.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Fluency in SQL and Python; familiarity with modern data and AI stacks (cloud warehouses, dbt, LLM/agent deployment pipelines).",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to partner with non-technical executives and translate ambiguous business problems into tractable work.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Own the data science and applied AI roadmap for G&A\u2014agentic systems, forecasting, lead scoring, and decision-support that improve throughput, reliability, and unit economics. Bu\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Partner with operations, and product leadership to identify high-leverage problems, frame them, and translate them into operational decisions and shipped AI capabilities.",
+     "skills": [
+      "genai",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "Communicate findings and recommendations to executive stakeholders, balancing technical depth with business clarity.",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Champion an AI/agent-first way of working within the team\u2014both as a hands-on technical leader (e.g., Claude Code) and by inventing agentic systems that make the team faster.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "This role has significant latitude to work on and invent new high ROI projects- the only limit is your creativity.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Use of AI Technology:",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "We use technology, including automated and AI-assisted tools, to support certain aspects of our recruitment process. These tools are designed to improve efficiency and enhance t\u2026",
+     "skills": [
+      "leadership",
+      "genai"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "role": "ms-sal",
+   "original": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "final": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 9.08,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Demonstrated track record in influencing internal operational decisions based on ML systems (e.g. forecasts and lead scores).",
+     "skills": [
+      "forecasting"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to partner with non-technical executives and translate ambiguous business problems into tractable work.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Own the data science and applied AI roadmap for G&A\u2014agentic systems, forecasting, lead scoring, and decision-support that improve throughput, reliability, and unit economics. Bu\u2026",
+     "skills": [
+      "forecasting"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Partner with operations, and product leadership to identify high-leverage problems, frame them, and translate them into operational decisions and shipped AI capabilities.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Communicate findings and recommendations to executive stakeholders, balancing technical depth with business clarity.",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "m15",
+   "role": "ms-dir",
+   "original": "Represented the analytics team in shaping an AI survey with an outside agency before fielding, and brought team members into the research",
+   "final": "Represented the analytics team in shaping an AI survey with an outside agency before fielding, and brought team members into the research",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 16.45,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Strong background managing analytics teams",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Strong foundation in statistics and ML, plus depth in modern AI: LLMs, agentic systems, orchestration (e.g., tool use, MCP), retrieval, and the evaluation practices these require.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Fluency in SQL and Python; familiarity with modern data and AI stacks (cloud warehouses, dbt, LLM/agent deployment pipelines).",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to partner with non-technical executives and translate ambiguous business problems into tractable work.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Proven expertise in analytics- driving decisions through deep analysis.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Own the data science and applied AI roadmap for G&A\u2014agentic systems, forecasting, lead scoring, and decision-support that improve throughput, reliability, and unit economics. Bu\u2026",
+     "skills": [
+      "genai",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Partner with operations, and product leadership to identify high-leverage problems, frame them, and translate them into operational decisions and shipped AI capabilities.",
+     "skills": [
+      "genai",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "Responsible for our finance analytics team that supports all of finance - accounting, FP&A, and pricing.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Communicate findings and recommendations to executive stakeholders, balancing technical depth with business clarity.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Champion an AI/agent-first way of working within the team\u2014both as a hands-on technical leader (e.g., Claude Code) and by inventing agentic systems that make the team faster.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Lead, hire, and develop a data science and analytics team executing on operational and product-facing work; set standards for technical rigor, evaluation, and production quality.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Use of AI Technology:",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "We use technology, including automated and AI-assisted tools, to support certain aspects of our recruitment process. These tools are designed to improve efficiency and enhance t\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Background in B2B SaaS, marketplaces, logistics, or field operations.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m19",
+   "role": "ms-head",
+   "original": "Added Microsoft Clarity behavioral data to the team's query-pathing tool",
+   "final": "Added Microsoft Clarity behavioral data to the team's query-pathing tool",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 6.77,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in data science or applied AI/ML, with 5+ years leading and growing teams.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Strong foundation in statistics and ML, plus depth in modern AI: LLMs, agentic systems, orchestration (e.g., tool use, MCP), retrieval, and the evaluation practices these require.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Fluency in SQL and Python; familiarity with modern data and AI stacks (cloud warehouses, dbt, LLM/agent deployment pipelines).",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r8",
+     "text": "Comfort operating in a fast-moving, data-rich environment where decisions carry real operational and cost consequences.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Own the data science and applied AI roadmap for G&A\u2014agentic systems, forecasting, lead scoring, and decision-support that improve throughput, reliability, and unit economics. Bu\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Collaborate with data engineering, machine learning engineering, and platform teams on the infrastructure, data quality, orchestration, tooling, and guardrails these systems dep\u2026",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r13",
+     "text": "Communicate findings and recommendations to executive stakeholders, balancing technical depth with business clarity.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Lead, hire, and develop a data science and analytics team executing on operational and product-facing work; set standards for technical rigor, evaluation, and production quality.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "We use technology, including automated and AI-assisted tools, to support certain aspects of our recruitment process. These tools are designed to improve efficiency and enhance t\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m1",
+   "role": "ms-head",
+   "original": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "final": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 21.29,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in data science or applied AI/ML, with 5+ years leading and growing teams.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Strong background managing analytics teams",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Demonstrated track record in influencing internal operational decisions based on ML systems (e.g. forecasts and lead scores).",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to partner with non-technical executives and translate ambiguous business problems into tractable work.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Own the data science and applied AI roadmap for G&A\u2014agentic systems, forecasting, lead scoring, and decision-support that improve throughput, reliability, and unit economics. Bu\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r10",
+     "text": "Partner with operations, and product leadership to identify high-leverage problems, frame them, and translate them into operational decisions and shipped AI capabilities.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Responsible for our finance analytics team that supports all of finance - accounting, FP&A, and pricing.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Communicate findings and recommendations to executive stakeholders, balancing technical depth with business clarity.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Champion an AI/agent-first way of working within the team\u2014both as a hands-on technical leader (e.g., Claude Code) and by inventing agentic systems that make the team faster.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Lead, hire, and develop a data science and analytics team executing on operational and product-facing work; set standards for technical rigor, evaluation, and production quality.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "We use technology, including automated and AI-assisted tools, to support certain aspects of our recruitment process. These tools are designed to improve efficiency and enhance t\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "role": "proj",
+   "original": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "final": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 10.07,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in data science or applied AI/ML, with 5+ years leading and growing teams.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Strong foundation in statistics and ML, plus depth in modern AI: LLMs, agentic systems, orchestration (e.g., tool use, MCP), retrieval, and the evaluation practices these require.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Fluency in SQL and Python; familiarity with modern data and AI stacks (cloud warehouses, dbt, LLM/agent deployment pipelines).",
+     "skills": [
+      "python"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r8",
+     "text": "Comfort operating in a fast-moving, data-rich environment where decisions carry real operational and cost consequences.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Own the data science and applied AI roadmap for G&A\u2014agentic systems, forecasting, lead scoring, and decision-support that improve throughput, reliability, and unit economics. Bu\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r12",
+     "text": "Collaborate with data engineering, machine learning engineering, and platform teams on the infrastructure, data quality, orchestration, tooling, and guardrails these systems dep\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Communicate findings and recommendations to executive stakeholders, balancing technical depth with business clarity.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Lead, hire, and develop a data science and analytics team executing on operational and product-facing work; set standards for technical rigor, evaluation, and production quality.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "p14",
+   "role": "proj",
+   "original": "Resume curator: scores my experience against each job posting, lets Claude suggest wording that I approve line by line, and publishes a receipt for every choice",
+   "final": "Resume curator: scores my experience against each job posting, lets Claude suggest wording that I approve line by line, and publishes a receipt for every choice",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 17.41,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Demonstrated track record in influencing internal operational decisions based on ML systems (e.g. forecasts and lead scores).",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Strong foundation in statistics and ML, plus depth in modern AI: LLMs, agentic systems, orchestration (e.g., tool use, MCP), retrieval, and the evaluation practices these require.",
+     "skills": [
+      "genai",
+      "llm-apps"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Fluency in SQL and Python; familiarity with modern data and AI stacks (cloud warehouses, dbt, LLM/agent deployment pipelines).",
+     "skills": [
+      "genai",
+      "python"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Own the data science and applied AI roadmap for G&A\u2014agentic systems, forecasting, lead scoring, and decision-support that improve throughput, reliability, and unit economics. Bu\u2026",
+     "skills": [
+      "genai",
+      "llm-apps"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Partner with operations, and product leadership to identify high-leverage problems, frame them, and translate them into operational decisions and shipped AI capabilities.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Champion an AI/agent-first way of working within the team\u2014both as a hands-on technical leader (e.g., Claude Code) and by inventing agentic systems that make the team faster.",
+     "skills": [
+      "genai",
+      "llm-apps"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Use of AI Technology:",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "We use technology, including automated and AI-assisted tools, to support certain aspects of our recruitment process. These tools are designed to improve efficiency and enhance t\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "role": "proj",
+   "original": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "final": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 18.36,
+   "matched": [
+    {
+     "req": "r4",
+     "text": "Strong foundation in statistics and ML, plus depth in modern AI: LLMs, agentic systems, orchestration (e.g., tool use, MCP), retrieval, and the evaluation practices these require.",
+     "skills": [
+      "genai",
+      "llm-apps"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Fluency in SQL and Python; familiarity with modern data and AI stacks (cloud warehouses, dbt, LLM/agent deployment pipelines).",
+     "skills": [
+      "genai",
+      "sql",
+      "python",
+      "cloud"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Own the data science and applied AI roadmap for G&A\u2014agentic systems, forecasting, lead scoring, and decision-support that improve throughput, reliability, and unit economics. Bu\u2026",
+     "skills": [
+      "genai",
+      "llm-apps"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Partner with operations, and product leadership to identify high-leverage problems, frame them, and translate them into operational decisions and shipped AI capabilities.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Champion an AI/agent-first way of working within the team\u2014both as a hands-on technical leader (e.g., Claude Code) and by inventing agentic systems that make the team faster.",
+     "skills": [
+      "genai",
+      "llm-apps"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Use of AI Technology:",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "We use technology, including automated and AI-assisted tools, to support certain aspects of our recruitment process. These tools are designed to improve efficiency and enhance t\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "why": "role already full",
+   "score": 21.56
+  },
+  {
+   "text": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "why": "others covered the same ground better",
+   "score": 20.04
+  },
+  {
+   "text": "Robuttal: an arena where AI models from several providers debate, judged by AI with fairness audits and Elo rankings; built with Python, FastAPI and Next.js",
+   "why": "role already full",
+   "score": 16.83
+  },
+  {
+   "text": "Gave analysts a framework for using AI at every step of an analysis, from idea to finished work",
+   "why": "others covered the same ground better",
+   "score": 14.84
+  },
+  {
+   "text": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "why": "role already full",
+   "score": 14.45
+  },
+  {
+   "text": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "why": "others covered the same ground better",
+   "score": 11.31
+  },
+  {
+   "text": "As Analytical Director, built the media analytics org's first AI-assisted analytics prototypes",
+   "why": "others covered the same ground better",
+   "score": 11.27
+  },
+  {
+   "text": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "why": "others covered the same ground better",
+   "score": 10.52
+  }
+ ],
+ "skills": [
+  "LLMs",
+  "Machine learning",
+  "Team leadership",
+  "Stakeholder management",
+  "LLM applications",
+  "Forecasting",
+  "Data pipelines",
+  "Statistics",
+  "SQL",
+  "Python",
+  "Cloud",
+  "Data storytelling",
+  "Revenue analytics",
+  "Strategy"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 8+ years; I have 12."
+  },
+  {
+   "kind": "degree",
+   "status": "warn",
+   "detail": "Mentions a master's; mine: a bachelor's."
+  }
+ ]
+}
