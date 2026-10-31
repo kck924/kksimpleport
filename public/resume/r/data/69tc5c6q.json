@@ -1,0 +1,1771 @@
+{
+ "id": "69tc5c6q",
+ "version": "1.5",
+ "created": "2026-10-31",
+ "job": {
+  "title": "Director, Business Insights & Analytics",
+  "company": "Collectors Universe, Inc."
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 10
+ },
+ "fit": 57,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "7-10+ years of experience working with data to drive analyses & business insights, ideally in Marketplaces, FinTech, or eCommerce industries",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "t3",
+    "m11",
+    "p1",
+    "m9",
+    "t4",
+    "n2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "Player / Coach DNA: you are equally as comfortable writing SQL queries yourself as you are guiding, mentoring, and managing a lean team of analysts",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "d1",
+    "m4",
+    "t3",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "Strong business acumen: you are strategic and curious. You ask questions to deeply understand the business and can carry forward analyses, test hypotheses, and present back stru\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "t4",
+    "m7",
+    "t3",
+    "n2",
+    "d1",
+    "m4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Strong communicator: you can communicate across all levels of the org, effectively translating between high level business leaders, to analysts, to engineers and technical count\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m11",
+    "m9",
+    "t4",
+    "t3",
+    "n2",
+    "p1",
+    "d1",
+    "m4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "Technical expertise: experience working with large datasets using SQL, building data abstractions to support reporting and analysis, and creating shareable deliverables for stak\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "t4",
+    "m11",
+    "m9",
+    "m7",
+    "x2",
+    "m1",
+    "p8"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "Health Insurance: All full-time employees are eligible to enroll in Medical, Dental, and Vision",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "t3",
+    "m4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "Collectibles or alternative-asset market familiarity is a plus, not required",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r8",
+   "text": "Vacation: All salaried employees are eligible for flexible time-off",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r9",
+   "text": "Holiday Pay: All regular, full-time employees are eligible for ten company paid holidays",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r10",
+   "text": "Employee Discounts: Employees receive discounts on select grading services for approved submissions",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r11",
+   "text": "Flexible Hours: Many of our teams offer flexible schedules with varying shifts and will work with you to accommodate your needs",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r12",
+   "text": "Fun Working Environment: Our team members are invited to participate in celebrations, holiday events, and team building activities",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r13",
+   "text": "#LI-Remote #BI-Remote #BI-Hybrid",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r14",
+   "text": "If you require an accommodation to apply or interview with us due to a disability or special need, please email interviewaccommodation@collectors.com.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r15",
+   "text": "U.S. residents: for disclosures relating to personal information we collect during the employment application and recruitment process, please see our Privacy Notice for U.S. App\u2026",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r16",
+   "text": "Define and own the Marketplace analytics stack to accurately and consistently monitor key business metrics such as: # of sellers / buyers / vaulters, GMV, AUM, take rate, LTV & \u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "m9",
+    "x2",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r17",
+   "text": "Strategic sounding board: partner with GMs and BD lead to pressure-test emerging ideas with data. In an advisory capacity, size opportunities, validate assumptions, and flag whe\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m7",
+    "m1",
+    "d1",
+    "m11",
+    "m9",
+    "t4",
+    "t3",
+    "x2",
+    "m4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r18",
+   "text": "Cross-functional coordination: collaborate with Product, Engineering, Finance, Operations and Marketing to ensure each function works off a shared, consistent view of Marketplac\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "x2",
+    "m9",
+    "m11",
+    "m7",
+    "t4",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "Product insights: partner with product to understand feature usage, funnel efficiency, and user cohort performance across the pods to inform Marketplace leadership",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "t4",
+    "m11",
+    "t3",
+    "m7",
+    "n2",
+    "m1",
+    "x2",
+    "p1",
+    "d1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r20",
+   "text": "Marketing insights: partner with Marketing to deliver acquisition, attribution, and segment data to inform Marketplace-specific marketing investments and GTM motions",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "t4",
+    "x2",
+    "m11",
+    "t3",
+    "p1",
+    "m7",
+    "n2",
+    "d1",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r21",
+   "text": "Data infrastructure requirements: partner closely with Central Data team Engineering and Product teams to inform data models / data infrastructure requirements, ensuring busines\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "t4",
+    "n2",
+    "m11",
+    "p1",
+    "t3",
+    "x2",
+    "m7",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r22",
+   "text": "Fraud coordination: partner with the Fraud team and GMs on shared data signals - anomalous transaction patterns, account behavior, and listing-level risk indicators - via data-s\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "t4",
+    "m11",
+    "m7",
+    "x2",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r23",
+   "text": "Deliver recurring insights and ad hoc analysis to the GMs and support Board / Exec reporting - examples include: vault cohort analysis, inform bidding engine logic",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "t4",
+    "m11",
+    "m9",
+    "t3",
+    "n2",
+    "p8",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r24",
+   "text": "We\u2019re looking for a Director, Business Insights & Analytics to own the data and insights function across PSA Marketplace, including PSA Exchange, Vault, and eBay Consignment bus\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m9",
+    "t4",
+    "t3",
+    "m7",
+    "d1",
+    "m4",
+    "m11",
+    "m1",
+    "p1",
+    "n2",
+    "p8"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r25",
+   "text": "This is a hands-on, part strategist, part executor role. Our ideal candidate is a player / coach that leads a lean team and acts as the connective tissue between the business, c\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "m1",
+    "m11",
+    "d1",
+    "t4",
+    "t3",
+    "x2",
+    "m4",
+    "p1"
+   ],
+   "gap": false
+  }
+ ],
+ "picks": [
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 48.43,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "7-10+ years of experience working with data to drive analyses & business insights, ideally in Marketplaces, FinTech, or eCommerce industries",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "Player / Coach DNA: you are equally as comfortable writing SQL queries yourself as you are guiding, mentoring, and managing a lean team of analysts",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Strong communicator: you can communicate across all levels of the org, effectively translating between high level business leaders, to analysts, to engineers and technical count\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Technical expertise: experience working with large datasets using SQL, building data abstractions to support reporting and analysis, and creating shareable deliverables for stak\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r7",
+     "text": "Collectibles or alternative-asset market familiarity is a plus, not required",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Define and own the Marketplace analytics stack to accurately and consistently monitor key business metrics such as: # of sellers / buyers / vaulters, GMV, AUM, take rate, LTV & \u2026",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Strategic sounding board: partner with GMs and BD lead to pressure-test emerging ideas with data. In an advisory capacity, size opportunities, validate assumptions, and flag whe\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Cross-functional coordination: collaborate with Product, Engineering, Finance, Operations and Marketing to ensure each function works off a shared, consistent view of Marketplac\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Product insights: partner with product to understand feature usage, funnel efficiency, and user cohort performance across the pods to inform Marketplace leadership",
+     "skills": [
+      "storytelling",
+      "product-analytics",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r20",
+     "text": "Marketing insights: partner with Marketing to deliver acquisition, attribution, and segment data to inform Marketplace-specific marketing investments and GTM motions",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "Data infrastructure requirements: partner closely with Central Data team Engineering and Product teams to inform data models / data infrastructure requirements, ensuring busines\u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r22",
+     "text": "Fraud coordination: partner with the Fraud team and GMs on shared data signals - anomalous transaction patterns, account behavior, and listing-level risk indicators - via data-s\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r23",
+     "text": "Deliver recurring insights and ad hoc analysis to the GMs and support Board / Exec reporting - examples include: vault cohort analysis, inform bidding engine logic",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r24",
+     "text": "We\u2019re looking for a Director, Business Insights & Analytics to own the data and insights function across PSA Marketplace, including PSA Exchange, Vault, and eBay Consignment bus\u2026",
+     "skills": [
+      "leadership",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r25",
+     "text": "This is a hands-on, part strategist, part executor role. Our ideal candidate is a player / coach that leads a lean team and acts as the connective tissue between the business, c\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "role": "ms-head",
+   "original": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "final": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 32.75,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Player / Coach DNA: you are equally as comfortable writing SQL queries yourself as you are guiding, mentoring, and managing a lean team of analysts",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Strong business acumen: you are strategic and curious. You ask questions to deeply understand the business and can carry forward analyses, test hypotheses, and present back stru\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Strong communicator: you can communicate across all levels of the org, effectively translating between high level business leaders, to analysts, to engineers and technical count\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Technical expertise: experience working with large datasets using SQL, building data abstractions to support reporting and analysis, and creating shareable deliverables for stak\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r6",
+     "text": "Health Insurance: All full-time employees are eligible to enroll in Medical, Dental, and Vision",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Define and own the Marketplace analytics stack to accurately and consistently monitor key business metrics such as: # of sellers / buyers / vaulters, GMV, AUM, take rate, LTV & \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Strategic sounding board: partner with GMs and BD lead to pressure-test emerging ideas with data. In an advisory capacity, size opportunities, validate assumptions, and flag whe\u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Cross-functional coordination: collaborate with Product, Engineering, Finance, Operations and Marketing to ensure each function works off a shared, consistent view of Marketplac\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Product insights: partner with product to understand feature usage, funnel efficiency, and user cohort performance across the pods to inform Marketplace leadership",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Marketing insights: partner with Marketing to deliver acquisition, attribution, and segment data to inform Marketplace-specific marketing investments and GTM motions",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Data infrastructure requirements: partner closely with Central Data team Engineering and Product teams to inform data models / data infrastructure requirements, ensuring busines\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Fraud coordination: partner with the Fraud team and GMs on shared data signals - anomalous transaction patterns, account behavior, and listing-level risk indicators - via data-s\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "Deliver recurring insights and ad hoc analysis to the GMs and support Board / Exec reporting - examples include: vault cohort analysis, inform bidding engine logic",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "We\u2019re looking for a Director, Business Insights & Analytics to own the data and insights function across PSA Marketplace, including PSA Exchange, Vault, and eBay Consignment bus\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r25",
+     "text": "This is a hands-on, part strategist, part executor role. Our ideal candidate is a player / coach that leads a lean team and acts as the connective tissue between the business, c\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "role": "ms-sal",
+   "original": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "final": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 23.6,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "7-10+ years of experience working with data to drive analyses & business insights, ideally in Marketplaces, FinTech, or eCommerce industries",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Strong business acumen: you are strategic and curious. You ask questions to deeply understand the business and can carry forward analyses, test hypotheses, and present back stru\u2026",
+     "skills": [
+      "speaking"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Strong communicator: you can communicate across all levels of the org, effectively translating between high level business leaders, to analysts, to engineers and technical count\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Technical expertise: experience working with large datasets using SQL, building data abstractions to support reporting and analysis, and creating shareable deliverables for stak\u2026",
+     "skills": [
+      "dashboards",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Strategic sounding board: partner with GMs and BD lead to pressure-test emerging ideas with data. In an advisory capacity, size opportunities, validate assumptions, and flag whe\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Cross-functional coordination: collaborate with Product, Engineering, Finance, Operations and Marketing to ensure each function works off a shared, consistent view of Marketplac\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Product insights: partner with product to understand feature usage, funnel efficiency, and user cohort performance across the pods to inform Marketplace leadership",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r20",
+     "text": "Marketing insights: partner with Marketing to deliver acquisition, attribution, and segment data to inform Marketplace-specific marketing investments and GTM motions",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "Data infrastructure requirements: partner closely with Central Data team Engineering and Product teams to inform data models / data infrastructure requirements, ensuring busines\u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r22",
+     "text": "Fraud coordination: partner with the Fraud team and GMs on shared data signals - anomalous transaction patterns, account behavior, and listing-level risk indicators - via data-s\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r23",
+     "text": "Deliver recurring insights and ad hoc analysis to the GMs and support Board / Exec reporting - examples include: vault cohort analysis, inform bidding engine logic",
+     "skills": [
+      "storytelling",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "We\u2019re looking for a Director, Business Insights & Analytics to own the data and insights function across PSA Marketplace, including PSA Exchange, Vault, and eBay Consignment bus\u2026",
+     "skills": [
+      "storytelling",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r25",
+     "text": "This is a hands-on, part strategist, part executor role. Our ideal candidate is a player / coach that leads a lean team and acts as the connective tissue between the business, c\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "role": "ms-al",
+   "original": "Created Bite-Sized Insights, a short format adopted across verticals and regions; the first put the team on record about COVID a month before the travel industry",
+   "final": "Created Bite-Sized Insights, a short format adopted across verticals and regions; the first put the team on record about COVID a month before the travel industry",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 16.92,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "7-10+ years of experience working with data to drive analyses & business insights, ideally in Marketplaces, FinTech, or eCommerce industries",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r2",
+     "text": "Player / Coach DNA: you are equally as comfortable writing SQL queries yourself as you are guiding, mentoring, and managing a lean team of analysts",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Strong business acumen: you are strategic and curious. You ask questions to deeply understand the business and can carry forward analyses, test hypotheses, and present back stru\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Strong communicator: you can communicate across all levels of the org, effectively translating between high level business leaders, to analysts, to engineers and technical count\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Technical expertise: experience working with large datasets using SQL, building data abstractions to support reporting and analysis, and creating shareable deliverables for stak\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Health Insurance: All full-time employees are eligible to enroll in Medical, Dental, and Vision",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Strategic sounding board: partner with GMs and BD lead to pressure-test emerging ideas with data. In an advisory capacity, size opportunities, validate assumptions, and flag whe\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Product insights: partner with product to understand feature usage, funnel efficiency, and user cohort performance across the pods to inform Marketplace leadership",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r20",
+     "text": "Marketing insights: partner with Marketing to deliver acquisition, attribution, and segment data to inform Marketplace-specific marketing investments and GTM motions",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Data infrastructure requirements: partner closely with Central Data team Engineering and Product teams to inform data models / data infrastructure requirements, ensuring busines\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r23",
+     "text": "Deliver recurring insights and ad hoc analysis to the GMs and support Board / Exec reporting - examples include: vault cohort analysis, inform bidding engine logic",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r24",
+     "text": "We\u2019re looking for a Director, Business Insights & Analytics to own the data and insights function across PSA Marketplace, including PSA Exchange, Vault, and eBay Consignment bus\u2026",
+     "skills": [
+      "leadership",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r25",
+     "text": "This is a hands-on, part strategist, part executor role. Our ideal candidate is a player / coach that leads a lean team and acts as the connective tissue between the business, c\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 8.26,
+   "matched": [
+    {
+     "req": "r5",
+     "text": "Technical expertise: experience working with large datasets using SQL, building data abstractions to support reporting and analysis, and creating shareable deliverables for stak\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r7",
+     "text": "Collectibles or alternative-asset market familiarity is a plus, not required",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Define and own the Marketplace analytics stack to accurately and consistently monitor key business metrics such as: # of sellers / buyers / vaulters, GMV, AUM, take rate, LTV & \u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Strategic sounding board: partner with GMs and BD lead to pressure-test emerging ideas with data. In an advisory capacity, size opportunities, validate assumptions, and flag whe\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Cross-functional coordination: collaborate with Product, Engineering, Finance, Operations and Marketing to ensure each function works off a shared, consistent view of Marketplac\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Product insights: partner with product to understand feature usage, funnel efficiency, and user cohort performance across the pods to inform Marketplace leadership",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Marketing insights: partner with Marketing to deliver acquisition, attribution, and segment data to inform Marketplace-specific marketing investments and GTM motions",
+     "skills": [
+      "measurement",
+      "revenue",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "Data infrastructure requirements: partner closely with Central Data team Engineering and Product teams to inform data models / data infrastructure requirements, ensuring busines\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Fraud coordination: partner with the Fraud team and GMs on shared data signals - anomalous transaction patterns, account behavior, and listing-level risk indicators - via data-s\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "Deliver recurring insights and ad hoc analysis to the GMs and support Board / Exec reporting - examples include: vault cohort analysis, inform bidding engine logic",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "We\u2019re looking for a Director, Business Insights & Analytics to own the data and insights function across PSA Marketplace, including PSA Exchange, Vault, and eBay Consignment bus\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "This is a hands-on, part strategist, part executor role. Our ideal candidate is a player / coach that leads a lean team and acts as the connective tissue between the business, c\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "role": "hanapin",
+   "original": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "final": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 8.08,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "7-10+ years of experience working with data to drive analyses & business insights, ideally in Marketplaces, FinTech, or eCommerce industries",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Strong business acumen: you are strategic and curious. You ask questions to deeply understand the business and can carry forward analyses, test hypotheses, and present back stru\u2026",
+     "skills": [
+      "speaking"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Strong communicator: you can communicate across all levels of the org, effectively translating between high level business leaders, to analysts, to engineers and technical count\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Holiday Pay: All regular, full-time employees are eligible for ten company paid holidays",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Fun Working Environment: Our team members are invited to participate in celebrations, holiday events, and team building activities",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "Product insights: partner with product to understand feature usage, funnel efficiency, and user cohort performance across the pods to inform Marketplace leadership",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Marketing insights: partner with Marketing to deliver acquisition, attribution, and segment data to inform Marketplace-specific marketing investments and GTM motions",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Data infrastructure requirements: partner closely with Central Data team Engineering and Product teams to inform data models / data infrastructure requirements, ensuring busines\u2026",
+     "skills": [
+      "stats",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r22",
+     "text": "Fraud coordination: partner with the Fraud team and GMs on shared data signals - anomalous transaction patterns, account behavior, and listing-level risk indicators - via data-s\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "Deliver recurring insights and ad hoc analysis to the GMs and support Board / Exec reporting - examples include: vault cohort analysis, inform bidding engine logic",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "We\u2019re looking for a Director, Business Insights & Analytics to own the data and insights function across PSA Marketplace, including PSA Exchange, Vault, and eBay Consignment bus\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 31.31,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Player / Coach DNA: you are equally as comfortable writing SQL queries yourself as you are guiding, mentoring, and managing a lean team of analysts",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Strong business acumen: you are strategic and curious. You ask questions to deeply understand the business and can carry forward analyses, test hypotheses, and present back stru\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Strong communicator: you can communicate across all levels of the org, effectively translating between high level business leaders, to analysts, to engineers and technical count\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r6",
+     "text": "Health Insurance: All full-time employees are eligible to enroll in Medical, Dental, and Vision",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Holiday Pay: All regular, full-time employees are eligible for ten company paid holidays",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Employee Discounts: Employees receive discounts on select grading services for approved submissions",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Define and own the Marketplace analytics stack to accurately and consistently monitor key business metrics such as: # of sellers / buyers / vaulters, GMV, AUM, take rate, LTV & \u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r17",
+     "text": "Strategic sounding board: partner with GMs and BD lead to pressure-test emerging ideas with data. In an advisory capacity, size opportunities, validate assumptions, and flag whe\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Product insights: partner with product to understand feature usage, funnel efficiency, and user cohort performance across the pods to inform Marketplace leadership",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r20",
+     "text": "Marketing insights: partner with Marketing to deliver acquisition, attribution, and segment data to inform Marketplace-specific marketing investments and GTM motions",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "We\u2019re looking for a Director, Business Insights & Analytics to own the data and insights function across PSA Marketplace, including PSA Exchange, Vault, and eBay Consignment bus\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r25",
+     "text": "This is a hands-on, part strategist, part executor role. Our ideal candidate is a player / coach that leads a lean team and acts as the connective tissue between the business, c\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m1",
+   "role": "ms-head",
+   "original": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "final": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 32.3,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Player / Coach DNA: you are equally as comfortable writing SQL queries yourself as you are guiding, mentoring, and managing a lean team of analysts",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Strong business acumen: you are strategic and curious. You ask questions to deeply understand the business and can carry forward analyses, test hypotheses, and present back stru\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Strong communicator: you can communicate across all levels of the org, effectively translating between high level business leaders, to analysts, to engineers and technical count\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Technical expertise: experience working with large datasets using SQL, building data abstractions to support reporting and analysis, and creating shareable deliverables for stak\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r6",
+     "text": "Health Insurance: All full-time employees are eligible to enroll in Medical, Dental, and Vision",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Employee Discounts: Employees receive discounts on select grading services for approved submissions",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Strategic sounding board: partner with GMs and BD lead to pressure-test emerging ideas with data. In an advisory capacity, size opportunities, validate assumptions, and flag whe\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r18",
+     "text": "Cross-functional coordination: collaborate with Product, Engineering, Finance, Operations and Marketing to ensure each function works off a shared, consistent view of Marketplac\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Product insights: partner with product to understand feature usage, funnel efficiency, and user cohort performance across the pods to inform Marketplace leadership",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Marketing insights: partner with Marketing to deliver acquisition, attribution, and segment data to inform Marketplace-specific marketing investments and GTM motions",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Data infrastructure requirements: partner closely with Central Data team Engineering and Product teams to inform data models / data infrastructure requirements, ensuring busines\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Fraud coordination: partner with the Fraud team and GMs on shared data signals - anomalous transaction patterns, account behavior, and listing-level risk indicators - via data-s\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "Deliver recurring insights and ad hoc analysis to the GMs and support Board / Exec reporting - examples include: vault cohort analysis, inform bidding engine logic",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "We\u2019re looking for a Director, Business Insights & Analytics to own the data and insights function across PSA Marketplace, including PSA Exchange, Vault, and eBay Consignment bus\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "This is a hands-on, part strategist, part executor role. Our ideal candidate is a player / coach that leads a lean team and acts as the connective tissue between the business, c\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "role": "ms-head",
+   "original": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "final": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 16.61,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Player / Coach DNA: you are equally as comfortable writing SQL queries yourself as you are guiding, mentoring, and managing a lean team of analysts",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Strong business acumen: you are strategic and curious. You ask questions to deeply understand the business and can carry forward analyses, test hypotheses, and present back stru\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Strong communicator: you can communicate across all levels of the org, effectively translating between high level business leaders, to analysts, to engineers and technical count\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r5",
+     "text": "Technical expertise: experience working with large datasets using SQL, building data abstractions to support reporting and analysis, and creating shareable deliverables for stak\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Health Insurance: All full-time employees are eligible to enroll in Medical, Dental, and Vision",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Employee Discounts: Employees receive discounts on select grading services for approved submissions",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Fun Working Environment: Our team members are invited to participate in celebrations, holiday events, and team building activities",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Define and own the Marketplace analytics stack to accurately and consistently monitor key business metrics such as: # of sellers / buyers / vaulters, GMV, AUM, take rate, LTV & \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Strategic sounding board: partner with GMs and BD lead to pressure-test emerging ideas with data. In an advisory capacity, size opportunities, validate assumptions, and flag whe\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Product insights: partner with product to understand feature usage, funnel efficiency, and user cohort performance across the pods to inform Marketplace leadership",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r21",
+     "text": "Data infrastructure requirements: partner closely with Central Data team Engineering and Product teams to inform data models / data infrastructure requirements, ensuring busines\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "We\u2019re looking for a Director, Business Insights & Analytics to own the data and insights function across PSA Marketplace, including PSA Exchange, Vault, and eBay Consignment bus\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r25",
+     "text": "This is a hands-on, part strategist, part executor role. Our ideal candidate is a player / coach that leads a lean team and acts as the connective tissue between the business, c\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "role": "ms-dir",
+   "original": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "final": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 39.33,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "7-10+ years of experience working with data to drive analyses & business insights, ideally in Marketplaces, FinTech, or eCommerce industries",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r3",
+     "text": "Strong business acumen: you are strategic and curious. You ask questions to deeply understand the business and can carry forward analyses, test hypotheses, and present back stru\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Strong communicator: you can communicate across all levels of the org, effectively translating between high level business leaders, to analysts, to engineers and technical count\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r5",
+     "text": "Technical expertise: experience working with large datasets using SQL, building data abstractions to support reporting and analysis, and creating shareable deliverables for stak\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "Define and own the Marketplace analytics stack to accurately and consistently monitor key business metrics such as: # of sellers / buyers / vaulters, GMV, AUM, take rate, LTV & \u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r17",
+     "text": "Strategic sounding board: partner with GMs and BD lead to pressure-test emerging ideas with data. In an advisory capacity, size opportunities, validate assumptions, and flag whe\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Cross-functional coordination: collaborate with Product, Engineering, Finance, Operations and Marketing to ensure each function works off a shared, consistent view of Marketplac\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Product insights: partner with product to understand feature usage, funnel efficiency, and user cohort performance across the pods to inform Marketplace leadership",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r20",
+     "text": "Marketing insights: partner with Marketing to deliver acquisition, attribution, and segment data to inform Marketplace-specific marketing investments and GTM motions",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "Data infrastructure requirements: partner closely with Central Data team Engineering and Product teams to inform data models / data infrastructure requirements, ensuring busines\u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r22",
+     "text": "Fraud coordination: partner with the Fraud team and GMs on shared data signals - anomalous transaction patterns, account behavior, and listing-level risk indicators - via data-s\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r23",
+     "text": "Deliver recurring insights and ad hoc analysis to the GMs and support Board / Exec reporting - examples include: vault cohort analysis, inform bidding engine logic",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r24",
+     "text": "We\u2019re looking for a Director, Business Insights & Analytics to own the data and insights function across PSA Marketplace, including PSA Exchange, Vault, and eBay Consignment bus\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r25",
+     "text": "This is a hands-on, part strategist, part executor role. Our ideal candidate is a player / coach that leads a lean team and acts as the connective tissue between the business, c\u2026",
+     "skills": [
+      "data-products",
+      "stakeholders"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "p8",
+   "role": "proj",
+   "original": "MCPS School Boundary Viewer: interactive map of 25+ years of school boundary changes with time travel and address lookup, in React and Mapbox",
+   "final": "MCPS School Boundary Viewer: interactive map of 25+ years of school boundary changes with time travel and address lookup, in React and Mapbox",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 6.53,
+   "matched": [
+    {
+     "req": "r5",
+     "text": "Technical expertise: experience working with large datasets using SQL, building data abstractions to support reporting and analysis, and creating shareable deliverables for stak\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Health Insurance: All full-time employees are eligible to enroll in Medical, Dental, and Vision",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Vacation: All salaried employees are eligible for flexible time-off",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Holiday Pay: All regular, full-time employees are eligible for ten company paid holidays",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Cross-functional coordination: collaborate with Product, Engineering, Finance, Operations and Marketing to ensure each function works off a shared, consistent view of Marketplac\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "Deliver recurring insights and ad hoc analysis to the GMs and support Board / Exec reporting - examples include: vault cohort analysis, inform bidding engine logic",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "We\u2019re looking for a Director, Business Insights & Analytics to own the data and insights function across PSA Marketplace, including PSA Exchange, Vault, and eBay Consignment bus\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "role": "proj",
+   "original": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "final": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 18.01,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "7-10+ years of experience working with data to drive analyses & business insights, ideally in Marketplaces, FinTech, or eCommerce industries",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Player / Coach DNA: you are equally as comfortable writing SQL queries yourself as you are guiding, mentoring, and managing a lean team of analysts",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Strong communicator: you can communicate across all levels of the org, effectively translating between high level business leaders, to analysts, to engineers and technical count\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Technical expertise: experience working with large datasets using SQL, building data abstractions to support reporting and analysis, and creating shareable deliverables for stak\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Strategic sounding board: partner with GMs and BD lead to pressure-test emerging ideas with data. In an advisory capacity, size opportunities, validate assumptions, and flag whe\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Cross-functional coordination: collaborate with Product, Engineering, Finance, Operations and Marketing to ensure each function works off a shared, consistent view of Marketplac\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "Product insights: partner with product to understand feature usage, funnel efficiency, and user cohort performance across the pods to inform Marketplace leadership",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Marketing insights: partner with Marketing to deliver acquisition, attribution, and segment data to inform Marketplace-specific marketing investments and GTM motions",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Data infrastructure requirements: partner closely with Central Data team Engineering and Product teams to inform data models / data infrastructure requirements, ensuring busines\u2026",
+     "skills": [
+      "stats",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r22",
+     "text": "Fraud coordination: partner with the Fraud team and GMs on shared data signals - anomalous transaction patterns, account behavior, and listing-level risk indicators - via data-s\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "Deliver recurring insights and ad hoc analysis to the GMs and support Board / Exec reporting - examples include: vault cohort analysis, inform bidding engine logic",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "We\u2019re looking for a Director, Business Insights & Analytics to own the data and insights function across PSA Marketplace, including PSA Exchange, Vault, and eBay Consignment bus\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "This is a hands-on, part strategist, part executor role. Our ideal candidate is a player / coach that leads a lean team and acts as the connective tissue between the business, c\u2026",
+     "skills": [],
+     "m": 0.3
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "why": "others covered the same ground better",
+   "score": 33.47
+  },
+  {
+   "text": "Secured new MSN content datasets, built an MSN insights prototype with the team, and took it to sellers and marketing once MSN leaders approved it",
+   "why": "others covered the same ground better",
+   "score": 27.23
+  },
+  {
+   "text": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "why": "others covered the same ground better",
+   "score": 26.16
+  },
+  {
+   "text": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "why": "others covered the same ground better",
+   "score": 25.99
+  },
+  {
+   "text": "Ran a roundtable with a regional sales VP's leadership team to answer their doubts about advanced analytics",
+   "why": "others covered the same ground better",
+   "score": 25.09
+  },
+  {
+   "text": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "why": "others covered the same ground better",
+   "score": 24.62
+  },
+  {
+   "text": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "why": "others covered the same ground better",
+   "score": 21.76
+  },
+  {
+   "text": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "why": "others covered the same ground better",
+   "score": 18.88
+  }
+ ],
+ "skills": [
+  "Stakeholder management",
+  "Data storytelling",
+  "Strategy",
+  "Dashboards",
+  "Team leadership",
+  "SQL",
+  "Data pipelines",
+  "Measurement",
+  "Product analytics",
+  "Public speaking",
+  "Statistics",
+  "Anomaly detection",
+  "Machine learning",
+  "Revenue analytics",
+  "Data products"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 10+ years; I have 12."
+  },
+  {
+   "kind": "location",
+   "status": "info",
+   "detail": "Mentions \"on-site\"; I check it against where I'd work."
+  }
+ ]
+}
