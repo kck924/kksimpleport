@@ -1,0 +1,1831 @@
+{
+ "id": "5chsrt6d",
+ "version": "1.5",
+ "created": "2026-11-01",
+ "job": {
+  "title": "Sr. Director, Value Creation Insights",
+  "company": "Avalara"
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 10
+ },
+ "fit": 67,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "10+ years of experience in analytics, data science, or data engineering, with at least 4 years in a people management role",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m7",
+    "s1",
+    "d1",
+    "m9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "Deep expertise in Snowflake, SQL, dbt, and modern data stack tooling; experience with Omni, Power BI, Hex, or similar BI/semantic-layer platforms",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "a1",
+    "m10",
+    "s1",
+    "t4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "Hands-on experience with LLM-powered / conversational analytics tools and building AI agents or automated workflows on top of a governed data model (vs. one-off prompting); able\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "p4",
+    "m7",
+    "s1",
+    "d1",
+    "m11",
+    "p6",
+    "m9",
+    "n2",
+    "m10",
+    "a1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Experience building and managing distributed teams that blend onshore and offshore talent across time zones, with a track record of sustaining quality, security, and stakeholder\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "a1",
+    "x2",
+    "m11",
+    "t4",
+    "s1",
+    "d1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "Strong command of statistical modeling, predictive analytics, and machine learning concepts applied to commercial use cases",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "p4",
+    "p6",
+    "n2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "Proven ability to work with and influence senior stakeholders across multiple functions",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "a1",
+    "x2",
+    "m11",
+    "t4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "Experience owning complex, multi-stakeholder analytical initiatives from problem framing through to business adoption",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "m11",
+    "m7",
+    "a1",
+    "x2",
+    "t4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r8",
+   "text": "Exceptional communication skills with strong ability to translate technical output into executive-ready narratives",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "m11",
+    "t4",
+    "m7",
+    "a1",
+    "x2",
+    "n2",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "SaaS business model fluency, including ARR, GRR, NRR, bookings, revenue recognition, and GTM funnel mechanics",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "x2",
+    "p4",
+    "p6",
+    "m9",
+    "n2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r10",
+   "text": "Avalara is an AI-first Company",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "m10",
+    "d1",
+    "m11",
+    "p4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r11",
+   "text": "AI is embedded in our workflows, decision-making, and products. Success here requires embracing AI as an essential capability.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "m10",
+    "d1",
+    "m11",
+    "p4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "You\u2019ll bring experience using AI and AI-related technologies, ready to thrive here.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "m10",
+    "d1",
+    "m11",
+    "p4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r13",
+   "text": "You\u2019ll apply AI every day to business challenges - improving efficiency, contributing solutions, and driving results for your team, our company, and our customers.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m10",
+    "m11",
+    "m9",
+    "m7",
+    "d1",
+    "p4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r14",
+   "text": "You\u2019ll grow with AI by staying curious about new trends and best practices, and by sharing what you learn so others can benefit too.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "m10",
+    "d1",
+    "m11",
+    "p4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r15",
+   "text": "We\u2019ve already built an industry-leading cloud compliance platform, processing over 54 billion customer API calls and over 6.6 million tax returns a year. Our growth is real - we\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "p4",
+    "s1",
+    "m10",
+    "t4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r16",
+   "text": "Experience with Salesforce data, marketing automation platforms, and CRM analytics a strong plus",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r17",
+   "text": "Inclusive culture and diversity",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r18",
+   "text": "Avalara strongly supports diversity, equity, and inclusion, and is committed to integrating them into our business practices and our organizational culture. We also have a total\u2026",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [
+    "m7",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "We\u2019re defining the relationship between tax and tech.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r20",
+   "text": "We\u2019re bright, innovative, and disruptive, like the orange we love to wear. It captures our quirky spirit and optimistic mindset. It shows off the culture we\u2019ve designed, that em\u2026",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r21",
+   "text": "This is a highly cross-functional leadership role. The Sr. Director operates as a trusted advisor to senior executives across Sales, Marketing, Finance, Accounting, and Revenue \u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "x2",
+    "a1",
+    "m11",
+    "t4",
+    "s1",
+    "d1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r22",
+   "text": "Revenue & Forecasting Analytics",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "t4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r23",
+   "text": "Own the design and maintenance of Avalara's revenue forecasting models, including providing feedback on policy and revenue recognition",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "t4",
+    "p4",
+    "p6",
+    "s1",
+    "n2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r24",
+   "text": "Lead development and governance of the demand generation reporting platform, which will serve as the company's primary source of truth for funnel performance including opportuni\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "x2",
+    "m10",
+    "d1",
+    "s1",
+    "a1",
+    "t4",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r25",
+   "text": "Partner with FP&A on forecast methodology, variance analysis, and reconciliation",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "t4",
+    "m9",
+    "m11",
+    "m7",
+    "a1",
+    "x2"
+   ],
+   "gap": false
+  }
+ ],
+ "picks": [
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 57.94,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in analytics, data science, or data engineering, with at least 4 years in a people management role",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Hands-on experience with LLM-powered / conversational analytics tools and building AI agents or automated workflows on top of a governed data model (vs. one-off prompting); able\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Experience building and managing distributed teams that blend onshore and offshore talent across time zones, with a track record of sustaining quality, security, and stakeholder\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to work with and influence senior stakeholders across multiple functions",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Experience owning complex, multi-stakeholder analytical initiatives from problem framing through to business adoption",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r8",
+     "text": "Exceptional communication skills with strong ability to translate technical output into executive-ready narratives",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "SaaS business model fluency, including ARR, GRR, NRR, bookings, revenue recognition, and GTM funnel mechanics",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Avalara is an AI-first Company",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "AI is embedded in our workflows, decision-making, and products. Success here requires embracing AI as an essential capability.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "You\u2019ll bring experience using AI and AI-related technologies, ready to thrive here.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "You\u2019ll apply AI every day to business challenges - improving efficiency, contributing solutions, and driving results for your team, our company, and our customers.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "You\u2019ll grow with AI by staying curious about new trends and best practices, and by sharing what you learn so others can benefit too.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "We\u2019ve already built an industry-leading cloud compliance platform, processing over 54 billion customer API calls and over 6.6 million tax returns a year. Our growth is real - we\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Experience with Salesforce data, marketing automation platforms, and CRM analytics a strong plus",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Avalara strongly supports diversity, equity, and inclusion, and is committed to integrating them into our business practices and our organizational culture. We also have a total\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r21",
+     "text": "This is a highly cross-functional leadership role. The Sr. Director operates as a trusted advisor to senior executives across Sales, Marketing, Finance, Accounting, and Revenue \u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Lead development and governance of the demand generation reporting platform, which will serve as the company's primary source of truth for funnel performance including opportuni\u2026",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r25",
+     "text": "Partner with FP&A on forecast methodology, variance analysis, and reconciliation",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "role": "ms-head",
+   "original": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "final": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 42.79,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in analytics, data science, or data engineering, with at least 4 years in a people management role",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Hands-on experience with LLM-powered / conversational analytics tools and building AI agents or automated workflows on top of a governed data model (vs. one-off prompting); able\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Experience building and managing distributed teams that blend onshore and offshore talent across time zones, with a track record of sustaining quality, security, and stakeholder\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Strong command of statistical modeling, predictive analytics, and machine learning concepts applied to commercial use cases",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to work with and influence senior stakeholders across multiple functions",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Experience owning complex, multi-stakeholder analytical initiatives from problem framing through to business adoption",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Exceptional communication skills with strong ability to translate technical output into executive-ready narratives",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Avalara is an AI-first Company",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "AI is embedded in our workflows, decision-making, and products. Success here requires embracing AI as an essential capability.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "You\u2019ll bring experience using AI and AI-related technologies, ready to thrive here.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "You\u2019ll apply AI every day to business challenges - improving efficiency, contributing solutions, and driving results for your team, our company, and our customers.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "You\u2019ll grow with AI by staying curious about new trends and best practices, and by sharing what you learn so others can benefit too.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Experience with Salesforce data, marketing automation platforms, and CRM analytics a strong plus",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Avalara strongly supports diversity, equity, and inclusion, and is committed to integrating them into our business practices and our organizational culture. We also have a total\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r21",
+     "text": "This is a highly cross-functional leadership role. The Sr. Director operates as a trusted advisor to senior executives across Sales, Marketing, Finance, Accounting, and Revenue \u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r22",
+     "text": "Revenue & Forecasting Analytics",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Lead development and governance of the demand generation reporting platform, which will serve as the company's primary source of truth for funnel performance including opportuni\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Partner with FP&A on forecast methodology, variance analysis, and reconciliation",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "role": "ms-sal",
+   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 23.63,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in analytics, data science, or data engineering, with at least 4 years in a people management role",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Deep expertise in Snowflake, SQL, dbt, and modern data stack tooling; experience with Omni, Power BI, Hex, or similar BI/semantic-layer platforms",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Hands-on experience with LLM-powered / conversational analytics tools and building AI agents or automated workflows on top of a governed data model (vs. one-off prompting); able\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Experience building and managing distributed teams that blend onshore and offshore talent across time zones, with a track record of sustaining quality, security, and stakeholder\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Strong command of statistical modeling, predictive analytics, and machine learning concepts applied to commercial use cases",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Experience owning complex, multi-stakeholder analytical initiatives from problem framing through to business adoption",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Exceptional communication skills with strong ability to translate technical output into executive-ready narratives",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "SaaS business model fluency, including ARR, GRR, NRR, bookings, revenue recognition, and GTM funnel mechanics",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "You\u2019ll apply AI every day to business challenges - improving efficiency, contributing solutions, and driving results for your team, our company, and our customers.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "We\u2019ve already built an industry-leading cloud compliance platform, processing over 54 billion customer API calls and over 6.6 million tax returns a year. Our growth is real - we\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r16",
+     "text": "Experience with Salesforce data, marketing automation platforms, and CRM analytics a strong plus",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Avalara strongly supports diversity, equity, and inclusion, and is committed to integrating them into our business practices and our organizational culture. We also have a total\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r21",
+     "text": "This is a highly cross-functional leadership role. The Sr. Director operates as a trusted advisor to senior executives across Sales, Marketing, Finance, Accounting, and Revenue \u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Revenue & Forecasting Analytics",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "Own the design and maintenance of Avalara's revenue forecasting models, including providing feedback on policy and revenue recognition",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "Lead development and governance of the demand generation reporting platform, which will serve as the company's primary source of truth for funnel performance including opportuni\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "a1",
+   "role": "ms-al",
+   "original": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
+   "final": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 13.56,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in analytics, data science, or data engineering, with at least 4 years in a people management role",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "Deep expertise in Snowflake, SQL, dbt, and modern data stack tooling; experience with Omni, Power BI, Hex, or similar BI/semantic-layer platforms",
+     "skills": [
+      "sql",
+      "powerbi"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Hands-on experience with LLM-powered / conversational analytics tools and building AI agents or automated workflows on top of a governed data model (vs. one-off prompting); able\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r4",
+     "text": "Experience building and managing distributed teams that blend onshore and offshore talent across time zones, with a track record of sustaining quality, security, and stakeholder\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to work with and influence senior stakeholders across multiple functions",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Experience owning complex, multi-stakeholder analytical initiatives from problem framing through to business adoption",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Exceptional communication skills with strong ability to translate technical output into executive-ready narratives",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "You\u2019ll grow with AI by staying curious about new trends and best practices, and by sharing what you learn so others can benefit too.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Experience with Salesforce data, marketing automation platforms, and CRM analytics a strong plus",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "We\u2019re bright, innovative, and disruptive, like the orange we love to wear. It captures our quirky spirit and optimistic mindset. It shows off the culture we\u2019ve designed, that em\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r21",
+     "text": "This is a highly cross-functional leadership role. The Sr. Director operates as a trusted advisor to senior executives across Sales, Marketing, Finance, Accounting, and Revenue \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r24",
+     "text": "Lead development and governance of the demand generation reporting platform, which will serve as the company's primary source of truth for funnel performance including opportuni\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Partner with FP&A on forecast methodology, variance analysis, and reconciliation",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 9.26,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in analytics, data science, or data engineering, with at least 4 years in a people management role",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Experience building and managing distributed teams that blend onshore and offshore talent across time zones, with a track record of sustaining quality, security, and stakeholder\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to work with and influence senior stakeholders across multiple functions",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Experience owning complex, multi-stakeholder analytical initiatives from problem framing through to business adoption",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Exceptional communication skills with strong ability to translate technical output into executive-ready narratives",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "SaaS business model fluency, including ARR, GRR, NRR, bookings, revenue recognition, and GTM funnel mechanics",
+     "skills": [
+      "revenue"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Experience with Salesforce data, marketing automation platforms, and CRM analytics a strong plus",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r21",
+     "text": "This is a highly cross-functional leadership role. The Sr. Director operates as a trusted advisor to senior executives across Sales, Marketing, Finance, Accounting, and Revenue \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r22",
+     "text": "Revenue & Forecasting Analytics",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "Own the design and maintenance of Avalara's revenue forecasting models, including providing feedback on policy and revenue recognition",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Lead development and governance of the demand generation reporting platform, which will serve as the company's primary source of truth for funnel performance including opportuni\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r25",
+     "text": "Partner with FP&A on forecast methodology, variance analysis, and reconciliation",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "role": "hanapin",
+   "original": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "final": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 5.33,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Hands-on experience with LLM-powered / conversational analytics tools and building AI agents or automated workflows on top of a governed data model (vs. one-off prompting); able\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Strong command of statistical modeling, predictive analytics, and machine learning concepts applied to commercial use cases",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Exceptional communication skills with strong ability to translate technical output into executive-ready narratives",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "SaaS business model fluency, including ARR, GRR, NRR, bookings, revenue recognition, and GTM funnel mechanics",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "This is a highly cross-functional leadership role. The Sr. Director operates as a trusted advisor to senior executives across Sales, Marketing, Finance, Accounting, and Revenue \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "Own the design and maintenance of Avalara's revenue forecasting models, including providing feedback on policy and revenue recognition",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "Lead development and governance of the demand generation reporting platform, which will serve as the company's primary source of truth for funnel performance including opportuni\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "role": "ms-dir",
+   "original": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "final": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 32.99,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Deep expertise in Snowflake, SQL, dbt, and modern data stack tooling; experience with Omni, Power BI, Hex, or similar BI/semantic-layer platforms",
+     "skills": [
+      "sql",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Hands-on experience with LLM-powered / conversational analytics tools and building AI agents or automated workflows on top of a governed data model (vs. one-off prompting); able\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Experience owning complex, multi-stakeholder analytical initiatives from problem framing through to business adoption",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "SaaS business model fluency, including ARR, GRR, NRR, bookings, revenue recognition, and GTM funnel mechanics",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Avalara is an AI-first Company",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "AI is embedded in our workflows, decision-making, and products. Success here requires embracing AI as an essential capability.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "You\u2019ll bring experience using AI and AI-related technologies, ready to thrive here.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "You\u2019ll apply AI every day to business challenges - improving efficiency, contributing solutions, and driving results for your team, our company, and our customers.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "You\u2019ll grow with AI by staying curious about new trends and best practices, and by sharing what you learn so others can benefit too.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "We\u2019ve already built an industry-leading cloud compliance platform, processing over 54 billion customer API calls and over 6.6 million tax returns a year. Our growth is real - we\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r18",
+     "text": "Avalara strongly supports diversity, equity, and inclusion, and is committed to integrating them into our business practices and our organizational culture. We also have a total\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Lead development and governance of the demand generation reporting platform, which will serve as the company's primary source of truth for funnel performance including opportuni\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.9
+    }
+   ]
+  },
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 40.96,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in analytics, data science, or data engineering, with at least 4 years in a people management role",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Hands-on experience with LLM-powered / conversational analytics tools and building AI agents or automated workflows on top of a governed data model (vs. one-off prompting); able\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Experience building and managing distributed teams that blend onshore and offshore talent across time zones, with a track record of sustaining quality, security, and stakeholder\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Strong command of statistical modeling, predictive analytics, and machine learning concepts applied to commercial use cases",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "SaaS business model fluency, including ARR, GRR, NRR, bookings, revenue recognition, and GTM funnel mechanics",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Avalara is an AI-first Company",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "AI is embedded in our workflows, decision-making, and products. Success here requires embracing AI as an essential capability.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "You\u2019ll bring experience using AI and AI-related technologies, ready to thrive here.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "You\u2019ll apply AI every day to business challenges - improving efficiency, contributing solutions, and driving results for your team, our company, and our customers.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "You\u2019ll grow with AI by staying curious about new trends and best practices, and by sharing what you learn so others can benefit too.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "We\u2019ve already built an industry-leading cloud compliance platform, processing over 54 billion customer API calls and over 6.6 million tax returns a year. Our growth is real - we\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Experience with Salesforce data, marketing automation platforms, and CRM analytics a strong plus",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Avalara strongly supports diversity, equity, and inclusion, and is committed to integrating them into our business practices and our organizational culture. We also have a total\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r21",
+     "text": "This is a highly cross-functional leadership role. The Sr. Director operates as a trusted advisor to senior executives across Sales, Marketing, Finance, Accounting, and Revenue \u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Revenue & Forecasting Analytics",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Lead development and governance of the demand generation reporting platform, which will serve as the company's primary source of truth for funnel performance including opportuni\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "role": "ms-dir",
+   "original": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "final": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 43.45,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in analytics, data science, or data engineering, with at least 4 years in a people management role",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "Deep expertise in Snowflake, SQL, dbt, and modern data stack tooling; experience with Omni, Power BI, Hex, or similar BI/semantic-layer platforms",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Hands-on experience with LLM-powered / conversational analytics tools and building AI agents or automated workflows on top of a governed data model (vs. one-off prompting); able\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Experience building and managing distributed teams that blend onshore and offshore talent across time zones, with a track record of sustaining quality, security, and stakeholder\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to work with and influence senior stakeholders across multiple functions",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Experience owning complex, multi-stakeholder analytical initiatives from problem framing through to business adoption",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r8",
+     "text": "Exceptional communication skills with strong ability to translate technical output into executive-ready narratives",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "SaaS business model fluency, including ARR, GRR, NRR, bookings, revenue recognition, and GTM funnel mechanics",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Avalara is an AI-first Company",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "AI is embedded in our workflows, decision-making, and products. Success here requires embracing AI as an essential capability.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "You\u2019ll bring experience using AI and AI-related technologies, ready to thrive here.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "You\u2019ll apply AI every day to business challenges - improving efficiency, contributing solutions, and driving results for your team, our company, and our customers.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "You\u2019ll grow with AI by staying curious about new trends and best practices, and by sharing what you learn so others can benefit too.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "We\u2019ve already built an industry-leading cloud compliance platform, processing over 54 billion customer API calls and over 6.6 million tax returns a year. Our growth is real - we\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Experience with Salesforce data, marketing automation platforms, and CRM analytics a strong plus",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Avalara strongly supports diversity, equity, and inclusion, and is committed to integrating them into our business practices and our organizational culture. We also have a total\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r21",
+     "text": "This is a highly cross-functional leadership role. The Sr. Director operates as a trusted advisor to senior executives across Sales, Marketing, Finance, Accounting, and Revenue \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r24",
+     "text": "Lead development and governance of the demand generation reporting platform, which will serve as the company's primary source of truth for funnel performance including opportuni\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r25",
+     "text": "Partner with FP&A on forecast methodology, variance analysis, and reconciliation",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "role": "ms-sal",
+   "original": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "final": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 22.03,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Deep expertise in Snowflake, SQL, dbt, and modern data stack tooling; experience with Omni, Power BI, Hex, or similar BI/semantic-layer platforms",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Hands-on experience with LLM-powered / conversational analytics tools and building AI agents or automated workflows on top of a governed data model (vs. one-off prompting); able\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Experience building and managing distributed teams that blend onshore and offshore talent across time zones, with a track record of sustaining quality, security, and stakeholder\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Strong command of statistical modeling, predictive analytics, and machine learning concepts applied to commercial use cases",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Proven ability to work with and influence senior stakeholders across multiple functions",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Experience owning complex, multi-stakeholder analytical initiatives from problem framing through to business adoption",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Exceptional communication skills with strong ability to translate technical output into executive-ready narratives",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "SaaS business model fluency, including ARR, GRR, NRR, bookings, revenue recognition, and GTM funnel mechanics",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "You\u2019ll apply AI every day to business challenges - improving efficiency, contributing solutions, and driving results for your team, our company, and our customers.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "We\u2019ve already built an industry-leading cloud compliance platform, processing over 54 billion customer API calls and over 6.6 million tax returns a year. Our growth is real - we\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r21",
+     "text": "This is a highly cross-functional leadership role. The Sr. Director operates as a trusted advisor to senior executives across Sales, Marketing, Finance, Accounting, and Revenue \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r22",
+     "text": "Revenue & Forecasting Analytics",
+     "skills": [
+      "forecasting"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r23",
+     "text": "Own the design and maintenance of Avalara's revenue forecasting models, including providing feedback on policy and revenue recognition",
+     "skills": [
+      "forecasting"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r24",
+     "text": "Lead development and governance of the demand generation reporting platform, which will serve as the company's primary source of truth for funnel performance including opportuni\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Partner with FP&A on forecast methodology, variance analysis, and reconciliation",
+     "skills": [
+      "forecasting",
+      "stakeholders"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "p4",
+   "role": "proj",
+   "original": "Robuttal: an arena where AI models from several providers debate, judged by AI with fairness audits and Elo rankings; built with Python, FastAPI and Next.js",
+   "final": "Robuttal: an arena where AI models from several providers debate, judged by AI with fairness audits and Elo rankings; built with Python, FastAPI and Next.js",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 26.54,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Hands-on experience with LLM-powered / conversational analytics tools and building AI agents or automated workflows on top of a governed data model (vs. one-off prompting); able\u2026",
+     "skills": [
+      "stats",
+      "genai",
+      "llm-apps"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Strong command of statistical modeling, predictive analytics, and machine learning concepts applied to commercial use cases",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "SaaS business model fluency, including ARR, GRR, NRR, bookings, revenue recognition, and GTM funnel mechanics",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Avalara is an AI-first Company",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "AI is embedded in our workflows, decision-making, and products. Success here requires embracing AI as an essential capability.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "You\u2019ll bring experience using AI and AI-related technologies, ready to thrive here.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "You\u2019ll apply AI every day to business challenges - improving efficiency, contributing solutions, and driving results for your team, our company, and our customers.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "You\u2019ll grow with AI by staying curious about new trends and best practices, and by sharing what you learn so others can benefit too.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "We\u2019ve already built an industry-leading cloud compliance platform, processing over 54 billion customer API calls and over 6.6 million tax returns a year. Our growth is real - we\u2026",
+     "skills": [
+      "web-dev"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r23",
+     "text": "Own the design and maintenance of Avalara's revenue forecasting models, including providing feedback on policy and revenue recognition",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.9
+    }
+   ]
+  },
+  {
+   "id": "p6",
+   "role": "proj",
+   "original": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "final": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 16.15,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Hands-on experience with LLM-powered / conversational analytics tools and building AI agents or automated workflows on top of a governed data model (vs. one-off prompting); able\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Strong command of statistical modeling, predictive analytics, and machine learning concepts applied to commercial use cases",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Experience owning complex, multi-stakeholder analytical initiatives from problem framing through to business adoption",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Exceptional communication skills with strong ability to translate technical output into executive-ready narratives",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "SaaS business model fluency, including ARR, GRR, NRR, bookings, revenue recognition, and GTM funnel mechanics",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "We\u2019ve already built an industry-leading cloud compliance platform, processing over 54 billion customer API calls and over 6.6 million tax returns a year. Our growth is real - we\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "We\u2019re bright, innovative, and disruptive, like the orange we love to wear. It captures our quirky spirit and optimistic mindset. It shows off the culture we\u2019ve designed, that em\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "Own the design and maintenance of Avalara's revenue forecasting models, including providing feedback on policy and revenue recognition",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "why": "others covered the same ground better",
+   "score": 30.8
+  },
+  {
+   "text": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "why": "role already full",
+   "score": 25.32
+  },
+  {
+   "text": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "why": "others covered the same ground better",
+   "score": 24.29
+  },
+  {
+   "text": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "why": "others covered the same ground better",
+   "score": 22.97
+  },
+  {
+   "text": "Secured new MSN content datasets, built an MSN insights prototype with the team, and took it to sellers and marketing once MSN leaders approved it",
+   "why": "others covered the same ground better",
+   "score": 19.3
+  },
+  {
+   "text": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "why": "others covered the same ground better",
+   "score": 18.6
+  },
+  {
+   "text": "Gave analysts a framework for using AI at every step of an analysis, from idea to finished work",
+   "why": "others covered the same ground better",
+   "score": 17.94
+  },
+  {
+   "text": "As Analytical Director, built the media analytics org's first AI-assisted analytics prototypes",
+   "why": "others covered the same ground better",
+   "score": 15.78
+  }
+ ],
+ "skills": [
+  "Generative AI",
+  "Cross-functional leadership",
+  "Statistical modeling",
+  "Machine learning",
+  "Data pipelines",
+  "People management",
+  "Forecasting",
+  "Dashboards",
+  "Product analytics",
+  "Data storytelling",
+  "SQL",
+  "Power BI",
+  "Revenue analytics",
+  "Cloud",
+  "LLM applications",
+  "Full-stack development",
+  "Measurement"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 10+ years; I have 12."
+  },
+  {
+   "kind": "authorization",
+   "status": "info",
+   "detail": "Asks about work authorization or sponsorship."
+  }
+ ]
+}
