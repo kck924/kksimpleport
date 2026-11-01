@@ -1,0 +1,1377 @@
+{
+ "id": "zspjbhb3",
+ "version": "1.5",
+ "created": "2026-11-01",
+ "job": {
+  "title": "Head of Data Analytics - Veeva Ostro",
+  "company": "Veeva Systems"
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 10
+ },
+ "fit": 45,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "Deep, hands-on expertise in SQL / Python and strong capabilities in data modeling, advanced quantitative analysis, and working with large data sets",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "p3",
+    "e5",
+    "p14",
+    "s1",
+    "n2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "Strong command of modern data architecture particularly in enabling AI readiness. You will not be the sole engineer building every component yourself, but you need enough techni\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "m9",
+    "p3",
+    "p14"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "10+ years of progressive experience in data science/analytics and/or data engineering roles including in a managerial capacity leading teams",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "s1",
+    "e5",
+    "m1",
+    "m7",
+    "m9",
+    "m2",
+    "m4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Undergrad or masters in a technical discipline (computer science, statistics, engineering, math, physics, etc.)",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "n2",
+    "e5"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "We value your time and believe in a transparent hiring process. Here is the process you can expect.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "e5",
+    "d1",
+    "m7",
+    "s1",
+    "m9",
+    "m1",
+    "m2",
+    "m4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "A conversation with the hiring manager",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "s1",
+    "e5",
+    "m9",
+    "m1",
+    "m2",
+    "m4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "Once all interviews are complete, the manager will be in touch with a final decision.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "s1",
+    "e5",
+    "m9",
+    "m1",
+    "m2",
+    "m4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r8",
+   "text": "Recent work experience should relate to the pharmaceutical / life sciences industry",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r9",
+   "text": "Follow the application process and submit your resume.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r10",
+   "text": "If moving to the interview stage, our process is as follows:",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r11",
+   "text": "A personality assessment (unless you have already completed it with Veeva previously)",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r12",
+   "text": "A practical case exercise",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r13",
+   "text": "A final conversation with our group's Senior Leader",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r14",
+   "text": "Flexible PTO and company paid holidays",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r15",
+   "text": "1% charitable giving program",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r16",
+   "text": "Veeva Ostro operates as a startup within Veeva, and sits at the intersection of life sciences, marketing, and artificial intelligence. We empower pharmaceutical brands, healthca\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "d1",
+    "m7",
+    "p3",
+    "p14"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r17",
+   "text": "As the leader of the Data Analytics team, you will contribute to the team in a \u201cplayer / coach\u201d capacity, providing both executive leadership and hands-on expertise and contribu\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "s1",
+    "e5",
+    "m9",
+    "m1",
+    "m2",
+    "m4",
+    "x2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r18",
+   "text": "Modern Data Architecture & Engineering: Work alongside platform and data engineers to upgrade our existing data architecture to be high fidelity, AI-ready, and easily accessible\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "d1",
+    "m7",
+    "p3",
+    "p14"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "Product Analyses: Uplevel our standard suite of analytics and measurement insights in partnership with our product team",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "e5",
+    "x2",
+    "n2",
+    "m9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r20",
+   "text": "Leadership & Team Mentorship: Direct and grow a team of data analysts and data engineers",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "e5",
+    "m9",
+    "m2",
+    "m4",
+    "s1",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r21",
+   "text": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing S\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "p3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r22",
+   "text": "Customer Data Integrations: Guide the execution of data integrations into select customer systems in partnership with our solutions engineering team",
+   "kind": "responsibility",
+   "weight": 2,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r23",
+   "text": "Custom Analyses: Execute on client-specific, custom analytical requests in partnership with our client services team",
+   "kind": "responsibility",
+   "weight": 2,
+   "coveredBy": [
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r24",
+   "text": "At the heart of Veeva are our values: Do the Right Thing, Customer Success, Employee Success, and Speed. We're not just any public company \u2013 we made history in 2021 by becoming \u2026",
+   "kind": "other",
+   "weight": 1.5,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r25",
+   "text": "As a Work Anywhere company, we support your flexibility to work from home or in the office, so you can thrive in your ideal environment.",
+   "kind": "other",
+   "weight": 1.5,
+   "coveredBy": [],
+   "gap": true
+  }
+ ],
+ "picks": [
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 35.93,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Strong command of modern data architecture particularly in enabling AI readiness. You will not be the sole engineer building every component yourself, but you need enough techni\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "10+ years of progressive experience in data science/analytics and/or data engineering roles including in a managerial capacity leading teams",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "We value your time and believe in a transparent hiring process. Here is the process you can expect.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "A conversation with the hiring manager",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Once all interviews are complete, the manager will be in touch with a final decision.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "A final conversation with our group's Senior Leader",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Veeva Ostro operates as a startup within Veeva, and sits at the intersection of life sciences, marketing, and artificial intelligence. We empower pharmaceutical brands, healthca\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "As the leader of the Data Analytics team, you will contribute to the team in a \u201cplayer / coach\u201d capacity, providing both executive leadership and hands-on expertise and contribu\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Modern Data Architecture & Engineering: Work alongside platform and data engineers to upgrade our existing data architecture to be high fidelity, AI-ready, and easily accessible\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Product Analyses: Uplevel our standard suite of analytics and measurement insights in partnership with our product team",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r20",
+     "text": "Leadership & Team Mentorship: Direct and grow a team of data analysts and data engineers",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r23",
+     "text": "Custom Analyses: Execute on client-specific, custom analytical requests in partnership with our client services team",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "role": "ms-head",
+   "original": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "final": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 24.28,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Strong command of modern data architecture particularly in enabling AI readiness. You will not be the sole engineer building every component yourself, but you need enough techni\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "10+ years of progressive experience in data science/analytics and/or data engineering roles including in a managerial capacity leading teams",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "We value your time and believe in a transparent hiring process. Here is the process you can expect.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "A conversation with the hiring manager",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Once all interviews are complete, the manager will be in touch with a final decision.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Veeva Ostro operates as a startup within Veeva, and sits at the intersection of life sciences, marketing, and artificial intelligence. We empower pharmaceutical brands, healthca\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "As the leader of the Data Analytics team, you will contribute to the team in a \u201cplayer / coach\u201d capacity, providing both executive leadership and hands-on expertise and contribu\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Modern Data Architecture & Engineering: Work alongside platform and data engineers to upgrade our existing data architecture to be high fidelity, AI-ready, and easily accessible\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Product Analyses: Uplevel our standard suite of analytics and measurement insights in partnership with our product team",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "Leadership & Team Mentorship: Direct and grow a team of data analysts and data engineers",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r25",
+     "text": "As a Work Anywhere company, we support your flexibility to work from home or in the office, so you can thrive in your ideal environment.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "role": "ms-sal",
+   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 19.72,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Deep, hands-on expertise in SQL / Python and strong capabilities in data modeling, advanced quantitative analysis, and working with large data sets",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "Strong command of modern data architecture particularly in enabling AI readiness. You will not be the sole engineer building every component yourself, but you need enough techni\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "10+ years of progressive experience in data science/analytics and/or data engineering roles including in a managerial capacity leading teams",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Undergrad or masters in a technical discipline (computer science, statistics, engineering, math, physics, etc.)",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r5",
+     "text": "We value your time and believe in a transparent hiring process. Here is the process you can expect.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "A conversation with the hiring manager",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Once all interviews are complete, the manager will be in touch with a final decision.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "A final conversation with our group's Senior Leader",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Veeva Ostro operates as a startup within Veeva, and sits at the intersection of life sciences, marketing, and artificial intelligence. We empower pharmaceutical brands, healthca\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "As the leader of the Data Analytics team, you will contribute to the team in a \u201cplayer / coach\u201d capacity, providing both executive leadership and hands-on expertise and contribu\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Product Analyses: Uplevel our standard suite of analytics and measurement insights in partnership with our product team",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "Leadership & Team Mentorship: Direct and grow a team of data analysts and data engineers",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "role": "ms-al",
+   "original": "Wrote training on time-series decomposition (MACD) and data distributions for the whole analytics org",
+   "final": "Wrote training on time-series decomposition (MACD) and data distributions for the whole analytics org",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 11.44,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Deep, hands-on expertise in SQL / Python and strong capabilities in data modeling, advanced quantitative analysis, and working with large data sets",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Strong command of modern data architecture particularly in enabling AI readiness. You will not be the sole engineer building every component yourself, but you need enough techni\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "10+ years of progressive experience in data science/analytics and/or data engineering roles including in a managerial capacity leading teams",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Undergrad or masters in a technical discipline (computer science, statistics, engineering, math, physics, etc.)",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "We value your time and believe in a transparent hiring process. Here is the process you can expect.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "A conversation with the hiring manager",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Once all interviews are complete, the manager will be in touch with a final decision.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "As the leader of the Data Analytics team, you will contribute to the team in a \u201cplayer / coach\u201d capacity, providing both executive leadership and hands-on expertise and contribu\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Modern Data Architecture & Engineering: Work alongside platform and data engineers to upgrade our existing data architecture to be high fidelity, AI-ready, and easily accessible\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "Product Analyses: Uplevel our standard suite of analytics and measurement insights in partnership with our product team",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Leadership & Team Mentorship: Direct and grow a team of data analysts and data engineers",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r22",
+     "text": "Customer Data Integrations: Guide the execution of data integrations into select customer systems in partnership with our solutions engineering team",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 2.6,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "10+ years of progressive experience in data science/analytics and/or data engineering roles including in a managerial capacity leading teams",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Undergrad or masters in a technical discipline (computer science, statistics, engineering, math, physics, etc.)",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Veeva Ostro operates as a startup within Veeva, and sits at the intersection of life sciences, marketing, and artificial intelligence. We empower pharmaceutical brands, healthca\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "As the leader of the Data Analytics team, you will contribute to the team in a \u201cplayer / coach\u201d capacity, providing both executive leadership and hands-on expertise and contribu\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Modern Data Architecture & Engineering: Work alongside platform and data engineers to upgrade our existing data architecture to be high fidelity, AI-ready, and easily accessible\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "Product Analyses: Uplevel our standard suite of analytics and measurement insights in partnership with our product team",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing S\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r22",
+     "text": "Customer Data Integrations: Guide the execution of data integrations into select customer systems in partnership with our solutions engineering team",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "role": "hanapin",
+   "original": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "final": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 3.22,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Deep, hands-on expertise in SQL / Python and strong capabilities in data modeling, advanced quantitative analysis, and working with large data sets",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Undergrad or masters in a technical discipline (computer science, statistics, engineering, math, physics, etc.)",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Product Analyses: Uplevel our standard suite of analytics and measurement insights in partnership with our product team",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "At the heart of Veeva are our values: Do the Right Thing, Customer Success, Employee Success, and Speed. We're not just any public company \u2013 we made history in 2021 by becoming \u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 33.8,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Deep, hands-on expertise in SQL / Python and strong capabilities in data modeling, advanced quantitative analysis, and working with large data sets",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "Strong command of modern data architecture particularly in enabling AI readiness. You will not be the sole engineer building every component yourself, but you need enough techni\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "10+ years of progressive experience in data science/analytics and/or data engineering roles including in a managerial capacity leading teams",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "We value your time and believe in a transparent hiring process. Here is the process you can expect.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "A conversation with the hiring manager",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Once all interviews are complete, the manager will be in touch with a final decision.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Veeva Ostro operates as a startup within Veeva, and sits at the intersection of life sciences, marketing, and artificial intelligence. We empower pharmaceutical brands, healthca\u2026",
+     "skills": [
+      "genai",
+      "product-analytics"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "As the leader of the Data Analytics team, you will contribute to the team in a \u201cplayer / coach\u201d capacity, providing both executive leadership and hands-on expertise and contribu\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Modern Data Architecture & Engineering: Work alongside platform and data engineers to upgrade our existing data architecture to be high fidelity, AI-ready, and easily accessible\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Product Analyses: Uplevel our standard suite of analytics and measurement insights in partnership with our product team",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Leadership & Team Mentorship: Direct and grow a team of data analysts and data engineers",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r21",
+     "text": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing S\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m1",
+   "role": "ms-head",
+   "original": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "final": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 22.12,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "10+ years of progressive experience in data science/analytics and/or data engineering roles including in a managerial capacity leading teams",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "We value your time and believe in a transparent hiring process. Here is the process you can expect.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "A conversation with the hiring manager",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Once all interviews are complete, the manager will be in touch with a final decision.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "A final conversation with our group's Senior Leader",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "As the leader of the Data Analytics team, you will contribute to the team in a \u201cplayer / coach\u201d capacity, providing both executive leadership and hands-on expertise and contribu\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r20",
+     "text": "Leadership & Team Mentorship: Direct and grow a team of data analysts and data engineers",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r23",
+     "text": "Custom Analyses: Execute on client-specific, custom analytical requests in partnership with our client services team",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r25",
+     "text": "As a Work Anywhere company, we support your flexibility to work from home or in the office, so you can thrive in your ideal environment.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "role": "ms-dir",
+   "original": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "final": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 18.84,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "10+ years of progressive experience in data science/analytics and/or data engineering roles including in a managerial capacity leading teams",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "We value your time and believe in a transparent hiring process. Here is the process you can expect.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "A conversation with the hiring manager",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Once all interviews are complete, the manager will be in touch with a final decision.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "1% charitable giving program",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Veeva Ostro operates as a startup within Veeva, and sits at the intersection of life sciences, marketing, and artificial intelligence. We empower pharmaceutical brands, healthca\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "As the leader of the Data Analytics team, you will contribute to the team in a \u201cplayer / coach\u201d capacity, providing both executive leadership and hands-on expertise and contribu\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r20",
+     "text": "Leadership & Team Mentorship: Direct and grow a team of data analysts and data engineers",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r23",
+     "text": "Custom Analyses: Execute on client-specific, custom analytical requests in partnership with our client services team",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "role": "ms-head",
+   "original": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "final": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 16.2,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Strong command of modern data architecture particularly in enabling AI readiness. You will not be the sole engineer building every component yourself, but you need enough techni\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "10+ years of progressive experience in data science/analytics and/or data engineering roles including in a managerial capacity leading teams",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "We value your time and believe in a transparent hiring process. Here is the process you can expect.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "A conversation with the hiring manager",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Once all interviews are complete, the manager will be in touch with a final decision.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "If moving to the interview stage, our process is as follows:",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "As the leader of the Data Analytics team, you will contribute to the team in a \u201cplayer / coach\u201d capacity, providing both executive leadership and hands-on expertise and contribu\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r19",
+     "text": "Product Analyses: Uplevel our standard suite of analytics and measurement insights in partnership with our product team",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "Leadership & Team Mentorship: Direct and grow a team of data analysts and data engineers",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r23",
+     "text": "Custom Analyses: Execute on client-specific, custom analytical requests in partnership with our client services team",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "role": "proj",
+   "original": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "final": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 12.12,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Deep, hands-on expertise in SQL / Python and strong capabilities in data modeling, advanced quantitative analysis, and working with large data sets",
+     "skills": [
+      "sql",
+      "python"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r2",
+     "text": "Strong command of modern data architecture particularly in enabling AI readiness. You will not be the sole engineer building every component yourself, but you need enough techni\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Veeva Ostro operates as a startup within Veeva, and sits at the intersection of life sciences, marketing, and artificial intelligence. We empower pharmaceutical brands, healthca\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Modern Data Architecture & Engineering: Work alongside platform and data engineers to upgrade our existing data architecture to be high fidelity, AI-ready, and easily accessible\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing S\u2026",
+     "skills": [
+      "cloud"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "p14",
+   "role": "proj",
+   "original": "Resume curator: scores my experience against each job posting, lets Claude suggest wording that I approve line by line, and publishes a receipt for every choice",
+   "final": "Resume curator: scores my experience against each job posting, lets Claude suggest wording that I approve line by line, and publishes a receipt for every choice",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 8.99,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Deep, hands-on expertise in SQL / Python and strong capabilities in data modeling, advanced quantitative analysis, and working with large data sets",
+     "skills": [
+      "python"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Strong command of modern data architecture particularly in enabling AI readiness. You will not be the sole engineer building every component yourself, but you need enough techni\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Follow the application process and submit your resume.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Veeva Ostro operates as a startup within Veeva, and sits at the intersection of life sciences, marketing, and artificial intelligence. We empower pharmaceutical brands, healthca\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Modern Data Architecture & Engineering: Work alongside platform and data engineers to upgrade our existing data architecture to be high fidelity, AI-ready, and easily accessible\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "why": "others covered the same ground better",
+   "score": 27.86
+  },
+  {
+   "text": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "why": "others covered the same ground better",
+   "score": 20.9
+  },
+  {
+   "text": "Gave analysts a framework for using AI at every step of an analysis, from idea to finished work",
+   "why": "others covered the same ground better",
+   "score": 16.7
+  },
+  {
+   "text": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "why": "others covered the same ground better",
+   "score": 16.48
+  },
+  {
+   "text": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "why": "others covered the same ground better",
+   "score": 15.11
+  },
+  {
+   "text": "Coached analysts to 3 promotions and moved much of the team from junior to senior band",
+   "why": "others covered the same ground better",
+   "score": 13.51
+  },
+  {
+   "text": "Raised the team's thriving score on the employee survey to 71, its highest ever, up 13 points in a year with 100% participation",
+   "why": "others covered the same ground better",
+   "score": 13.05
+  },
+  {
+   "text": "Robuttal: an arena where AI models from several providers debate, judged by AI with fairness audits and Elo rankings; built with Python, FastAPI and Next.js",
+   "why": "role already full",
+   "score": 12.6
+  }
+ ],
+ "skills": [
+  "Team leadership",
+  "Generative AI",
+  "Statistics",
+  "Data modeling",
+  "SQL",
+  "Python",
+  "Machine learning",
+  "Measurement",
+  "Data storytelling",
+  "Product analytics",
+  "Stakeholder management",
+  "Cloud"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 10+ years; I have 12."
+  },
+  {
+   "kind": "degree",
+   "status": "warn",
+   "detail": "Mentions a master's; mine: a bachelor's."
+  },
+  {
+   "kind": "field",
+   "status": "warn",
+   "detail": "Names a field of study (computer science, statistics, engineering, math, physics); mine: B.A., Jazz Guitar Performance, so my experience has to cover this one."
+  }
+ ]
+}
