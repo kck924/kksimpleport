@@ -1,0 +1,2313 @@
+{
+ "id": "fvwnrjb8",
+ "version": "1.5",
+ "created": "2026-11-01",
+ "job": {
+  "title": "Director, Data & AI",
+  "company": "NetApp"
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 10
+ },
+ "fit": 86,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "10+ years of progressive experience in data, analytics, business intelligence and AI/ML",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "m10",
+    "p10",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "2+ years' experience in enabling enterprises to leverage data to accelerate AI adoption",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "m12",
+    "m11",
+    "d1",
+    "m7",
+    "m10",
+    "p4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "Proven track record delivering enterprise analytics and Agentic AI with measurable business impact within Finance, HR, Customer Operations, or Professional Services environments",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "p4",
+    "d1",
+    "m7",
+    "m10",
+    "m11",
+    "m9",
+    "m12",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Technical depth in modern data architecture \u2014 cloud data platforms (Snowflake, Databricks, BigQuery, or equivalent), semantic modeling, knowledge graph, MCP, ETL/ELT pipelines, \u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "a1",
+    "m10",
+    "m12",
+    "p4",
+    "n2",
+    "p10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "Applied AI and machine learning experience \u2014 hands-on background with AI agent development, orchestration, and lifecycle management; familiarity with LLM-based solutions and pre\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "p4",
+    "m10",
+    "d1",
+    "m7",
+    "s1",
+    "n2",
+    "m9",
+    "m12",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "Executive stakeholder management \u2014 demonstrated ability to influence VP and C-suite audiences, drive consensus, and align diverse stakeholders around a shared data and AI vision",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "m9",
+    "m12",
+    "m11",
+    "a1",
+    "x2",
+    "m10",
+    "p4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "Program and budget management \u2014 skilled in managing complex, multi-workstream programs with OKRs tied to business outcomes; experienced in vendor negotiation, contract managemen\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "m9",
+    "m12",
+    "s1",
+    "m10",
+    "m11",
+    "a1",
+    "x2",
+    "p4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r8",
+   "text": "Bachelor's / Master\u2019s degree in computer science, Data Science, Statistics, Information Systems, Business Analytics, or a related field (or equivalent practical experience)",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "n2",
+    "p4",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "Strategic vision \u2014 you connect today\u2019s data investments to tomorrow\u2019s business outcomes; you think in systems and programs, not isolated projects",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m12",
+    "d1",
+    "m7",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r10",
+   "text": "Executive influence and storytelling \u2014 you build credibility with senior leaders by crafting compelling narratives from complex data; your clarity moves people to act",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "m11",
+    "m12",
+    "a1",
+    "n2",
+    "m7",
+    "x2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r11",
+   "text": "Change leadership \u2014 you have led organizational transformation before; you know how to bring skeptics along, build coalitions, and make AI adoption stick",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "d1",
+    "m7",
+    "m12",
+    "m10",
+    "m11",
+    "p4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "Metrics and impact orientation \u2014 you define and track KPIs and OKRs that link analytics initiatives to measurable business impact; you hold yourself and your team to that standard",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "a1",
+    "x2",
+    "m7",
+    "s1",
+    "m10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r13",
+   "text": "People development \u2014 you grow careers intentionally; your team members leave every conversation more capable and more motivated than when they arrived",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r14",
+   "text": "IC - Typically requires a minimum of 15 years of related experience.Mgr & Exec - Typically requires a minimum of 12 years of related experience.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r15",
+   "text": "You will own the forward-looking data science strategy, define and execute the roadmap, and enable self-service for advanced business users. You will lead through influence in a\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "s1",
+    "m9",
+    "m12",
+    "m11",
+    "a1",
+    "m10",
+    "x2",
+    "n2",
+    "p10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r16",
+   "text": "To be successful, you must bring extensive enterprise data & AI leadership experience, product lifecycle fluency (including SDLC), a track record of implementing cutting edge la\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m7",
+    "m9",
+    "m11",
+    "m12",
+    "d1",
+    "a1",
+    "x2",
+    "m10",
+    "p4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r17",
+   "text": "Develop and execute a comprehensive business intelligence and AI/ML strategy, roadmap aligned with NetApp\u2019s business model and organizational goals \u2014 setting objectives and key \u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m7",
+    "s1",
+    "d1",
+    "m10",
+    "m12",
+    "p4",
+    "p10",
+    "n2",
+    "m9",
+    "x2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r18",
+   "text": "Build and run AI/ML Center of excellence establishing standards, reusable assets, and a delivery model that scales data & AI/ML products consistently across corporate functions",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "p4",
+    "s1",
+    "n2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "Champion adoption \u2014 own change management and executive stakeholder alignment, driving the mindset and capability shifts needed for NetApp to operate as an AI-native organization",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m7",
+    "m9",
+    "m11",
+    "a1",
+    "x2",
+    "d1",
+    "m10",
+    "m12",
+    "p4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r20",
+   "text": "Lead through influence in a global, matrixed structure \u2014 building trusted partnerships with function leaders in HR, Finance, Tax & Treasury, Customer Support, and Professional S\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "s1",
+    "m9",
+    "x2",
+    "m12",
+    "m11",
+    "a1",
+    "m10",
+    "p10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r21",
+   "text": "Stand up Data & tools to support agentic workflows \u2014 e.g., workforce insights, financial forecast hygiene, customer support deflection, account next-best-action \u2014 and maintain f\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m12",
+    "m11",
+    "n2",
+    "m10",
+    "m9",
+    "p4",
+    "d1",
+    "a1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r22",
+   "text": "Partner with business to Identify & prioritize AI outcomes dependent on Data across HR analytics, financial planning, tax data automation, customer support automation, and PS ma\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "m9",
+    "m12",
+    "m11",
+    "a1",
+    "m10",
+    "x2",
+    "p4",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r23",
+   "text": "Oversee the deployment, governance, and lifecycle management of data, BI and AI/ML agents and solutions, ensuring they are auditable, explainable, and aligned to NetApp\u2019s respon\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m10",
+    "p4",
+    "m12",
+    "m11",
+    "d1",
+    "m7",
+    "s1",
+    "m9",
+    "p10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r24",
+   "text": "Lead the development and maintenance of the enterprise data domain model, taxonomy, and ontologies to ensure shared understanding, semantic consistency, and discoverability of d\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "s1",
+    "p4",
+    "n2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r25",
+   "text": "Design and evolve information and semantic models that make enterprise data AI\u2011ready, supporting use cases ranging from traditional analytics and BI to applied machine learning \u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "s1",
+    "m10",
+    "p4",
+    "m7",
+    "m12",
+    "d1",
+    "m9",
+    "m11",
+    "n2",
+    "p10"
+   ],
+   "gap": false
+  }
+ ],
+ "picks": [
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 61.67,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of progressive experience in data, analytics, business intelligence and AI/ML",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "2+ years' experience in enabling enterprises to leverage data to accelerate AI adoption",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Proven track record delivering enterprise analytics and Agentic AI with measurable business impact within Finance, HR, Customer Operations, or Professional Services environments",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r5",
+     "text": "Applied AI and machine learning experience \u2014 hands-on background with AI agent development, orchestration, and lifecycle management; familiarity with LLM-based solutions and pre\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Executive stakeholder management \u2014 demonstrated ability to influence VP and C-suite audiences, drive consensus, and align diverse stakeholders around a shared data and AI vision",
+     "skills": [
+      "genai",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Program and budget management \u2014 skilled in managing complex, multi-workstream programs with OKRs tied to business outcomes; experienced in vendor negotiation, contract managemen\u2026",
+     "skills": [
+      "leadership",
+      "measurement",
+      "genai"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "Bachelor's / Master\u2019s degree in computer science, Data Science, Statistics, Information Systems, Business Analytics, or a related field (or equivalent practical experience)",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Strategic vision \u2014 you connect today\u2019s data investments to tomorrow\u2019s business outcomes; you think in systems and programs, not isolated projects",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Executive influence and storytelling \u2014 you build credibility with senior leaders by crafting compelling narratives from complex data; your clarity moves people to act",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "Change leadership \u2014 you have led organizational transformation before; you know how to bring skeptics along, build coalitions, and make AI adoption stick",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Metrics and impact orientation \u2014 you define and track KPIs and OKRs that link analytics initiatives to measurable business impact; you hold yourself and your team to that standard",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "You will own the forward-looking data science strategy, define and execute the roadmap, and enable self-service for advanced business users. You will lead through influence in a\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "To be successful, you must bring extensive enterprise data & AI leadership experience, product lifecycle fluency (including SDLC), a track record of implementing cutting edge la\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Develop and execute a comprehensive business intelligence and AI/ML strategy, roadmap aligned with NetApp\u2019s business model and organizational goals \u2014 setting objectives and key \u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r19",
+     "text": "Champion adoption \u2014 own change management and executive stakeholder alignment, driving the mindset and capability shifts needed for NetApp to operate as an AI-native organization",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Lead through influence in a global, matrixed structure \u2014 building trusted partnerships with function leaders in HR, Finance, Tax & Treasury, Customer Support, and Professional S\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "Stand up Data & tools to support agentic workflows \u2014 e.g., workforce insights, financial forecast hygiene, customer support deflection, account next-best-action \u2014 and maintain f\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r22",
+     "text": "Partner with business to Identify & prioritize AI outcomes dependent on Data across HR analytics, financial planning, tax data automation, customer support automation, and PS ma\u2026",
+     "skills": [
+      "genai",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Oversee the deployment, governance, and lifecycle management of data, BI and AI/ML agents and solutions, ensuring they are auditable, explainable, and aligned to NetApp\u2019s respon\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "Lead the development and maintenance of the enterprise data domain model, taxonomy, and ontologies to ensure shared understanding, semantic consistency, and discoverability of d\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Design and evolve information and semantic models that make enterprise data AI\u2011ready, supporting use cases ranging from traditional analytics and BI to applied machine learning \u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "role": "ms-head",
+   "original": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "final": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 49.68,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of progressive experience in data, analytics, business intelligence and AI/ML",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "2+ years' experience in enabling enterprises to leverage data to accelerate AI adoption",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Proven track record delivering enterprise analytics and Agentic AI with measurable business impact within Finance, HR, Customer Operations, or Professional Services environments",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r5",
+     "text": "Applied AI and machine learning experience \u2014 hands-on background with AI agent development, orchestration, and lifecycle management; familiarity with LLM-based solutions and pre\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Executive stakeholder management \u2014 demonstrated ability to influence VP and C-suite audiences, drive consensus, and align diverse stakeholders around a shared data and AI vision",
+     "skills": [
+      "genai",
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Program and budget management \u2014 skilled in managing complex, multi-workstream programs with OKRs tied to business outcomes; experienced in vendor negotiation, contract managemen\u2026",
+     "skills": [
+      "leadership",
+      "genai"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "Bachelor's / Master\u2019s degree in computer science, Data Science, Statistics, Information Systems, Business Analytics, or a related field (or equivalent practical experience)",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Strategic vision \u2014 you connect today\u2019s data investments to tomorrow\u2019s business outcomes; you think in systems and programs, not isolated projects",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Executive influence and storytelling \u2014 you build credibility with senior leaders by crafting compelling narratives from complex data; your clarity moves people to act",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Change leadership \u2014 you have led organizational transformation before; you know how to bring skeptics along, build coalitions, and make AI adoption stick",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Metrics and impact orientation \u2014 you define and track KPIs and OKRs that link analytics initiatives to measurable business impact; you hold yourself and your team to that standard",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r15",
+     "text": "You will own the forward-looking data science strategy, define and execute the roadmap, and enable self-service for advanced business users. You will lead through influence in a\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "To be successful, you must bring extensive enterprise data & AI leadership experience, product lifecycle fluency (including SDLC), a track record of implementing cutting edge la\u2026",
+     "skills": [
+      "genai",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Develop and execute a comprehensive business intelligence and AI/ML strategy, roadmap aligned with NetApp\u2019s business model and organizational goals \u2014 setting objectives and key \u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Champion adoption \u2014 own change management and executive stakeholder alignment, driving the mindset and capability shifts needed for NetApp to operate as an AI-native organization",
+     "skills": [
+      "genai",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r20",
+     "text": "Lead through influence in a global, matrixed structure \u2014 building trusted partnerships with function leaders in HR, Finance, Tax & Treasury, Customer Support, and Professional S\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "Stand up Data & tools to support agentic workflows \u2014 e.g., workforce insights, financial forecast hygiene, customer support deflection, account next-best-action \u2014 and maintain f\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r22",
+     "text": "Partner with business to Identify & prioritize AI outcomes dependent on Data across HR analytics, financial planning, tax data automation, customer support automation, and PS ma\u2026",
+     "skills": [
+      "genai",
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Oversee the deployment, governance, and lifecycle management of data, BI and AI/ML agents and solutions, ensuring they are auditable, explainable, and aligned to NetApp\u2019s respon\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Design and evolve information and semantic models that make enterprise data AI\u2011ready, supporting use cases ranging from traditional analytics and BI to applied machine learning \u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.9
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "role": "ms-sal",
+   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 31.34,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of progressive experience in data, analytics, business intelligence and AI/ML",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Proven track record delivering enterprise analytics and Agentic AI with measurable business impact within Finance, HR, Customer Operations, or Professional Services environments",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r4",
+     "text": "Technical depth in modern data architecture \u2014 cloud data platforms (Snowflake, Databricks, BigQuery, or equivalent), semantic modeling, knowledge graph, MCP, ETL/ELT pipelines, \u2026",
+     "skills": [
+      "stats",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Applied AI and machine learning experience \u2014 hands-on background with AI agent development, orchestration, and lifecycle management; familiarity with LLM-based solutions and pre\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Program and budget management \u2014 skilled in managing complex, multi-workstream programs with OKRs tied to business outcomes; experienced in vendor negotiation, contract managemen\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r8",
+     "text": "Bachelor's / Master\u2019s degree in computer science, Data Science, Statistics, Information Systems, Business Analytics, or a related field (or equivalent practical experience)",
+     "skills": [
+      "stats"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Strategic vision \u2014 you connect today\u2019s data investments to tomorrow\u2019s business outcomes; you think in systems and programs, not isolated projects",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Executive influence and storytelling \u2014 you build credibility with senior leaders by crafting compelling narratives from complex data; your clarity moves people to act",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "Change leadership \u2014 you have led organizational transformation before; you know how to bring skeptics along, build coalitions, and make AI adoption stick",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Metrics and impact orientation \u2014 you define and track KPIs and OKRs that link analytics initiatives to measurable business impact; you hold yourself and your team to that standard",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r15",
+     "text": "You will own the forward-looking data science strategy, define and execute the roadmap, and enable self-service for advanced business users. You will lead through influence in a\u2026",
+     "skills": [
+      "leadership",
+      "dashboards",
+      "enablement"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "To be successful, you must bring extensive enterprise data & AI leadership experience, product lifecycle fluency (including SDLC), a track record of implementing cutting edge la\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Develop and execute a comprehensive business intelligence and AI/ML strategy, roadmap aligned with NetApp\u2019s business model and organizational goals \u2014 setting objectives and key \u2026",
+     "skills": [
+      "stats",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Build and run AI/ML Center of excellence establishing standards, reusable assets, and a delivery model that scales data & AI/ML products consistently across corporate functions",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Lead through influence in a global, matrixed structure \u2014 building trusted partnerships with function leaders in HR, Finance, Tax & Treasury, Customer Support, and Professional S\u2026",
+     "skills": [
+      "leadership",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r22",
+     "text": "Partner with business to Identify & prioritize AI outcomes dependent on Data across HR analytics, financial planning, tax data automation, customer support automation, and PS ma\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r23",
+     "text": "Oversee the deployment, governance, and lifecycle management of data, BI and AI/ML agents and solutions, ensuring they are auditable, explainable, and aligned to NetApp\u2019s respon\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "Lead the development and maintenance of the enterprise data domain model, taxonomy, and ontologies to ensure shared understanding, semantic consistency, and discoverability of d\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Design and evolve information and semantic models that make enterprise data AI\u2011ready, supporting use cases ranging from traditional analytics and BI to applied machine learning \u2026",
+     "skills": [
+      "stats",
+      "dashboards"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "a1",
+   "role": "ms-al",
+   "original": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
+   "final": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 15.94,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of progressive experience in data, analytics, business intelligence and AI/ML",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "2+ years' experience in enabling enterprises to leverage data to accelerate AI adoption",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Proven track record delivering enterprise analytics and Agentic AI with measurable business impact within Finance, HR, Customer Operations, or Professional Services environments",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Technical depth in modern data architecture \u2014 cloud data platforms (Snowflake, Databricks, BigQuery, or equivalent), semantic modeling, knowledge graph, MCP, ETL/ELT pipelines, \u2026",
+     "skills": [
+      "sql",
+      "powerbi"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "Executive stakeholder management \u2014 demonstrated ability to influence VP and C-suite audiences, drive consensus, and align diverse stakeholders around a shared data and AI vision",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r7",
+     "text": "Program and budget management \u2014 skilled in managing complex, multi-workstream programs with OKRs tied to business outcomes; experienced in vendor negotiation, contract managemen\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Bachelor's / Master\u2019s degree in computer science, Data Science, Statistics, Information Systems, Business Analytics, or a related field (or equivalent practical experience)",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Strategic vision \u2014 you connect today\u2019s data investments to tomorrow\u2019s business outcomes; you think in systems and programs, not isolated projects",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Executive influence and storytelling \u2014 you build credibility with senior leaders by crafting compelling narratives from complex data; your clarity moves people to act",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Metrics and impact orientation \u2014 you define and track KPIs and OKRs that link analytics initiatives to measurable business impact; you hold yourself and your team to that standard",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "People development \u2014 you grow careers intentionally; your team members leave every conversation more capable and more motivated than when they arrived",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "You will own the forward-looking data science strategy, define and execute the roadmap, and enable self-service for advanced business users. You will lead through influence in a\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "To be successful, you must bring extensive enterprise data & AI leadership experience, product lifecycle fluency (including SDLC), a track record of implementing cutting edge la\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Build and run AI/ML Center of excellence establishing standards, reusable assets, and a delivery model that scales data & AI/ML products consistently across corporate functions",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "Champion adoption \u2014 own change management and executive stakeholder alignment, driving the mindset and capability shifts needed for NetApp to operate as an AI-native organization",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Lead through influence in a global, matrixed structure \u2014 building trusted partnerships with function leaders in HR, Finance, Tax & Treasury, Customer Support, and Professional S\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Stand up Data & tools to support agentic workflows \u2014 e.g., workforce insights, financial forecast hygiene, customer support deflection, account next-best-action \u2014 and maintain f\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r22",
+     "text": "Partner with business to Identify & prioritize AI outcomes dependent on Data across HR analytics, financial planning, tax data automation, customer support automation, and PS ma\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r23",
+     "text": "Oversee the deployment, governance, and lifecycle management of data, BI and AI/ML agents and solutions, ensuring they are auditable, explainable, and aligned to NetApp\u2019s respon\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Lead the development and maintenance of the enterprise data domain model, taxonomy, and ontologies to ensure shared understanding, semantic consistency, and discoverability of d\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Design and evolve information and semantic models that make enterprise data AI\u2011ready, supporting use cases ranging from traditional analytics and BI to applied machine learning \u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 7.76,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Proven track record delivering enterprise analytics and Agentic AI with measurable business impact within Finance, HR, Customer Operations, or Professional Services environments",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Executive stakeholder management \u2014 demonstrated ability to influence VP and C-suite audiences, drive consensus, and align diverse stakeholders around a shared data and AI vision",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Program and budget management \u2014 skilled in managing complex, multi-workstream programs with OKRs tied to business outcomes; experienced in vendor negotiation, contract managemen\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Executive influence and storytelling \u2014 you build credibility with senior leaders by crafting compelling narratives from complex data; your clarity moves people to act",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Metrics and impact orientation \u2014 you define and track KPIs and OKRs that link analytics initiatives to measurable business impact; you hold yourself and your team to that standard",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "You will own the forward-looking data science strategy, define and execute the roadmap, and enable self-service for advanced business users. You will lead through influence in a\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "To be successful, you must bring extensive enterprise data & AI leadership experience, product lifecycle fluency (including SDLC), a track record of implementing cutting edge la\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Develop and execute a comprehensive business intelligence and AI/ML strategy, roadmap aligned with NetApp\u2019s business model and organizational goals \u2014 setting objectives and key \u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r19",
+     "text": "Champion adoption \u2014 own change management and executive stakeholder alignment, driving the mindset and capability shifts needed for NetApp to operate as an AI-native organization",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Lead through influence in a global, matrixed structure \u2014 building trusted partnerships with function leaders in HR, Finance, Tax & Treasury, Customer Support, and Professional S\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r22",
+     "text": "Partner with business to Identify & prioritize AI outcomes dependent on Data across HR analytics, financial planning, tax data automation, customer support automation, and PS ma\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "role": "hanapin",
+   "original": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "final": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 8.47,
+   "matched": [
+    {
+     "req": "r4",
+     "text": "Technical depth in modern data architecture \u2014 cloud data platforms (Snowflake, Databricks, BigQuery, or equivalent), semantic modeling, knowledge graph, MCP, ETL/ELT pipelines, \u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Applied AI and machine learning experience \u2014 hands-on background with AI agent development, orchestration, and lifecycle management; familiarity with LLM-based solutions and pre\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Bachelor's / Master\u2019s degree in computer science, Data Science, Statistics, Information Systems, Business Analytics, or a related field (or equivalent practical experience)",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Executive influence and storytelling \u2014 you build credibility with senior leaders by crafting compelling narratives from complex data; your clarity moves people to act",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "You will own the forward-looking data science strategy, define and execute the roadmap, and enable self-service for advanced business users. You will lead through influence in a\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Develop and execute a comprehensive business intelligence and AI/ML strategy, roadmap aligned with NetApp\u2019s business model and organizational goals \u2014 setting objectives and key \u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Build and run AI/ML Center of excellence establishing standards, reusable assets, and a delivery model that scales data & AI/ML products consistently across corporate functions",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Stand up Data & tools to support agentic workflows \u2014 e.g., workforce insights, financial forecast hygiene, customer support deflection, account next-best-action \u2014 and maintain f\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r24",
+     "text": "Lead the development and maintenance of the enterprise data domain model, taxonomy, and ontologies to ensure shared understanding, semantic consistency, and discoverability of d\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Design and evolve information and semantic models that make enterprise data AI\u2011ready, supporting use cases ranging from traditional analytics and BI to applied machine learning \u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "role": "ms-dir",
+   "original": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "final": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 57.06,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of progressive experience in data, analytics, business intelligence and AI/ML",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "2+ years' experience in enabling enterprises to leverage data to accelerate AI adoption",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Proven track record delivering enterprise analytics and Agentic AI with measurable business impact within Finance, HR, Customer Operations, or Professional Services environments",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Technical depth in modern data architecture \u2014 cloud data platforms (Snowflake, Databricks, BigQuery, or equivalent), semantic modeling, knowledge graph, MCP, ETL/ELT pipelines, \u2026",
+     "skills": [
+      "sql",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Applied AI and machine learning experience \u2014 hands-on background with AI agent development, orchestration, and lifecycle management; familiarity with LLM-based solutions and pre\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Executive stakeholder management \u2014 demonstrated ability to influence VP and C-suite audiences, drive consensus, and align diverse stakeholders around a shared data and AI vision",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Program and budget management \u2014 skilled in managing complex, multi-workstream programs with OKRs tied to business outcomes; experienced in vendor negotiation, contract managemen\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Bachelor's / Master\u2019s degree in computer science, Data Science, Statistics, Information Systems, Business Analytics, or a related field (or equivalent practical experience)",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Strategic vision \u2014 you connect today\u2019s data investments to tomorrow\u2019s business outcomes; you think in systems and programs, not isolated projects",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "Change leadership \u2014 you have led organizational transformation before; you know how to bring skeptics along, build coalitions, and make AI adoption stick",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Metrics and impact orientation \u2014 you define and track KPIs and OKRs that link analytics initiatives to measurable business impact; you hold yourself and your team to that standard",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r13",
+     "text": "People development \u2014 you grow careers intentionally; your team members leave every conversation more capable and more motivated than when they arrived",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "You will own the forward-looking data science strategy, define and execute the roadmap, and enable self-service for advanced business users. You will lead through influence in a\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "To be successful, you must bring extensive enterprise data & AI leadership experience, product lifecycle fluency (including SDLC), a track record of implementing cutting edge la\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Develop and execute a comprehensive business intelligence and AI/ML strategy, roadmap aligned with NetApp\u2019s business model and organizational goals \u2014 setting objectives and key \u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r19",
+     "text": "Champion adoption \u2014 own change management and executive stakeholder alignment, driving the mindset and capability shifts needed for NetApp to operate as an AI-native organization",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Lead through influence in a global, matrixed structure \u2014 building trusted partnerships with function leaders in HR, Finance, Tax & Treasury, Customer Support, and Professional S\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Stand up Data & tools to support agentic workflows \u2014 e.g., workforce insights, financial forecast hygiene, customer support deflection, account next-best-action \u2014 and maintain f\u2026",
+     "skills": [
+      "anomaly"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Partner with business to Identify & prioritize AI outcomes dependent on Data across HR analytics, financial planning, tax data automation, customer support automation, and PS ma\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r23",
+     "text": "Oversee the deployment, governance, and lifecycle management of data, BI and AI/ML agents and solutions, ensuring they are auditable, explainable, and aligned to NetApp\u2019s respon\u2026",
+     "skills": [
+      "genai",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Lead the development and maintenance of the enterprise data domain model, taxonomy, and ontologies to ensure shared understanding, semantic consistency, and discoverability of d\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Design and evolve information and semantic models that make enterprise data AI\u2011ready, supporting use cases ranging from traditional analytics and BI to applied machine learning \u2026",
+     "skills": [
+      "genai",
+      "dashboards"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 55.32,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "2+ years' experience in enabling enterprises to leverage data to accelerate AI adoption",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Proven track record delivering enterprise analytics and Agentic AI with measurable business impact within Finance, HR, Customer Operations, or Professional Services environments",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Applied AI and machine learning experience \u2014 hands-on background with AI agent development, orchestration, and lifecycle management; familiarity with LLM-based solutions and pre\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Executive stakeholder management \u2014 demonstrated ability to influence VP and C-suite audiences, drive consensus, and align diverse stakeholders around a shared data and AI vision",
+     "skills": [
+      "genai",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Program and budget management \u2014 skilled in managing complex, multi-workstream programs with OKRs tied to business outcomes; experienced in vendor negotiation, contract managemen\u2026",
+     "skills": [
+      "leadership",
+      "genai"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Executive influence and storytelling \u2014 you build credibility with senior leaders by crafting compelling narratives from complex data; your clarity moves people to act",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "Change leadership \u2014 you have led organizational transformation before; you know how to bring skeptics along, build coalitions, and make AI adoption stick",
+     "skills": [
+      "genai"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r15",
+     "text": "You will own the forward-looking data science strategy, define and execute the roadmap, and enable self-service for advanced business users. You will lead through influence in a\u2026",
+     "skills": [
+      "leadership",
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "To be successful, you must bring extensive enterprise data & AI leadership experience, product lifecycle fluency (including SDLC), a track record of implementing cutting edge la\u2026",
+     "skills": [
+      "genai",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Develop and execute a comprehensive business intelligence and AI/ML strategy, roadmap aligned with NetApp\u2019s business model and organizational goals \u2014 setting objectives and key \u2026",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Champion adoption \u2014 own change management and executive stakeholder alignment, driving the mindset and capability shifts needed for NetApp to operate as an AI-native organization",
+     "skills": [
+      "genai",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r20",
+     "text": "Lead through influence in a global, matrixed structure \u2014 building trusted partnerships with function leaders in HR, Finance, Tax & Treasury, Customer Support, and Professional S\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "Stand up Data & tools to support agentic workflows \u2014 e.g., workforce insights, financial forecast hygiene, customer support deflection, account next-best-action \u2014 and maintain f\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Partner with business to Identify & prioritize AI outcomes dependent on Data across HR analytics, financial planning, tax data automation, customer support automation, and PS ma\u2026",
+     "skills": [
+      "genai",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Oversee the deployment, governance, and lifecycle management of data, BI and AI/ML agents and solutions, ensuring they are auditable, explainable, and aligned to NetApp\u2019s respon\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Design and evolve information and semantic models that make enterprise data AI\u2011ready, supporting use cases ranging from traditional analytics and BI to applied machine learning \u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m12",
+   "role": "ms-dir",
+   "original": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "final": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 46.89,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of progressive experience in data, analytics, business intelligence and AI/ML",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "2+ years' experience in enabling enterprises to leverage data to accelerate AI adoption",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Proven track record delivering enterprise analytics and Agentic AI with measurable business impact within Finance, HR, Customer Operations, or Professional Services environments",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Technical depth in modern data architecture \u2014 cloud data platforms (Snowflake, Databricks, BigQuery, or equivalent), semantic modeling, knowledge graph, MCP, ETL/ELT pipelines, \u2026",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r5",
+     "text": "Applied AI and machine learning experience \u2014 hands-on background with AI agent development, orchestration, and lifecycle management; familiarity with LLM-based solutions and pre\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Executive stakeholder management \u2014 demonstrated ability to influence VP and C-suite audiences, drive consensus, and align diverse stakeholders around a shared data and AI vision",
+     "skills": [
+      "genai",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Program and budget management \u2014 skilled in managing complex, multi-workstream programs with OKRs tied to business outcomes; experienced in vendor negotiation, contract managemen\u2026",
+     "skills": [
+      "leadership",
+      "genai"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "Bachelor's / Master\u2019s degree in computer science, Data Science, Statistics, Information Systems, Business Analytics, or a related field (or equivalent practical experience)",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Strategic vision \u2014 you connect today\u2019s data investments to tomorrow\u2019s business outcomes; you think in systems and programs, not isolated projects",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Executive influence and storytelling \u2014 you build credibility with senior leaders by crafting compelling narratives from complex data; your clarity moves people to act",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r11",
+     "text": "Change leadership \u2014 you have led organizational transformation before; you know how to bring skeptics along, build coalitions, and make AI adoption stick",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "You will own the forward-looking data science strategy, define and execute the roadmap, and enable self-service for advanced business users. You will lead through influence in a\u2026",
+     "skills": [
+      "leadership",
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "To be successful, you must bring extensive enterprise data & AI leadership experience, product lifecycle fluency (including SDLC), a track record of implementing cutting edge la\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r17",
+     "text": "Develop and execute a comprehensive business intelligence and AI/ML strategy, roadmap aligned with NetApp\u2019s business model and organizational goals \u2014 setting objectives and key \u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r18",
+     "text": "Build and run AI/ML Center of excellence establishing standards, reusable assets, and a delivery model that scales data & AI/ML products consistently across corporate functions",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "Champion adoption \u2014 own change management and executive stakeholder alignment, driving the mindset and capability shifts needed for NetApp to operate as an AI-native organization",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Lead through influence in a global, matrixed structure \u2014 building trusted partnerships with function leaders in HR, Finance, Tax & Treasury, Customer Support, and Professional S\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Stand up Data & tools to support agentic workflows \u2014 e.g., workforce insights, financial forecast hygiene, customer support deflection, account next-best-action \u2014 and maintain f\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r22",
+     "text": "Partner with business to Identify & prioritize AI outcomes dependent on Data across HR analytics, financial planning, tax data automation, customer support automation, and PS ma\u2026",
+     "skills": [
+      "genai",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Oversee the deployment, governance, and lifecycle management of data, BI and AI/ML agents and solutions, ensuring they are auditable, explainable, and aligned to NetApp\u2019s respon\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r24",
+     "text": "Lead the development and maintenance of the enterprise data domain model, taxonomy, and ontologies to ensure shared understanding, semantic consistency, and discoverability of d\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Design and evolve information and semantic models that make enterprise data AI\u2011ready, supporting use cases ranging from traditional analytics and BI to applied machine learning \u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.9
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "role": "ms-dir",
+   "original": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "final": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 50.02,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of progressive experience in data, analytics, business intelligence and AI/ML",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r2",
+     "text": "2+ years' experience in enabling enterprises to leverage data to accelerate AI adoption",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Proven track record delivering enterprise analytics and Agentic AI with measurable business impact within Finance, HR, Customer Operations, or Professional Services environments",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Technical depth in modern data architecture \u2014 cloud data platforms (Snowflake, Databricks, BigQuery, or equivalent), semantic modeling, knowledge graph, MCP, ETL/ELT pipelines, \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Applied AI and machine learning experience \u2014 hands-on background with AI agent development, orchestration, and lifecycle management; familiarity with LLM-based solutions and pre\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Executive stakeholder management \u2014 demonstrated ability to influence VP and C-suite audiences, drive consensus, and align diverse stakeholders around a shared data and AI vision",
+     "skills": [
+      "genai",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Program and budget management \u2014 skilled in managing complex, multi-workstream programs with OKRs tied to business outcomes; experienced in vendor negotiation, contract managemen\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Bachelor's / Master\u2019s degree in computer science, Data Science, Statistics, Information Systems, Business Analytics, or a related field (or equivalent practical experience)",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r9",
+     "text": "Strategic vision \u2014 you connect today\u2019s data investments to tomorrow\u2019s business outcomes; you think in systems and programs, not isolated projects",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r10",
+     "text": "Executive influence and storytelling \u2014 you build credibility with senior leaders by crafting compelling narratives from complex data; your clarity moves people to act",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "Change leadership \u2014 you have led organizational transformation before; you know how to bring skeptics along, build coalitions, and make AI adoption stick",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Metrics and impact orientation \u2014 you define and track KPIs and OKRs that link analytics initiatives to measurable business impact; you hold yourself and your team to that standard",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "You will own the forward-looking data science strategy, define and execute the roadmap, and enable self-service for advanced business users. You will lead through influence in a\u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "To be successful, you must bring extensive enterprise data & AI leadership experience, product lifecycle fluency (including SDLC), a track record of implementing cutting edge la\u2026",
+     "skills": [
+      "genai",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Develop and execute a comprehensive business intelligence and AI/ML strategy, roadmap aligned with NetApp\u2019s business model and organizational goals \u2014 setting objectives and key \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Build and run AI/ML Center of excellence establishing standards, reusable assets, and a delivery model that scales data & AI/ML products consistently across corporate functions",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "Champion adoption \u2014 own change management and executive stakeholder alignment, driving the mindset and capability shifts needed for NetApp to operate as an AI-native organization",
+     "skills": [
+      "genai",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r20",
+     "text": "Lead through influence in a global, matrixed structure \u2014 building trusted partnerships with function leaders in HR, Finance, Tax & Treasury, Customer Support, and Professional S\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Stand up Data & tools to support agentic workflows \u2014 e.g., workforce insights, financial forecast hygiene, customer support deflection, account next-best-action \u2014 and maintain f\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r22",
+     "text": "Partner with business to Identify & prioritize AI outcomes dependent on Data across HR analytics, financial planning, tax data automation, customer support automation, and PS ma\u2026",
+     "skills": [
+      "genai",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Oversee the deployment, governance, and lifecycle management of data, BI and AI/ML agents and solutions, ensuring they are auditable, explainable, and aligned to NetApp\u2019s respon\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r24",
+     "text": "Lead the development and maintenance of the enterprise data domain model, taxonomy, and ontologies to ensure shared understanding, semantic consistency, and discoverability of d\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Design and evolve information and semantic models that make enterprise data AI\u2011ready, supporting use cases ranging from traditional analytics and BI to applied machine learning \u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "p4",
+   "role": "proj",
+   "original": "Robuttal: an arena where AI models from several providers debate, judged by AI with fairness audits and Elo rankings; built with Python, FastAPI and Next.js",
+   "final": "Robuttal: an arena where AI models from several providers debate, judged by AI with fairness audits and Elo rankings; built with Python, FastAPI and Next.js",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 36.77,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "2+ years' experience in enabling enterprises to leverage data to accelerate AI adoption",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Proven track record delivering enterprise analytics and Agentic AI with measurable business impact within Finance, HR, Customer Operations, or Professional Services environments",
+     "skills": [
+      "genai",
+      "llm-apps"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Technical depth in modern data architecture \u2014 cloud data platforms (Snowflake, Databricks, BigQuery, or equivalent), semantic modeling, knowledge graph, MCP, ETL/ELT pipelines, \u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Applied AI and machine learning experience \u2014 hands-on background with AI agent development, orchestration, and lifecycle management; familiarity with LLM-based solutions and pre\u2026",
+     "skills": [
+      "stats",
+      "genai",
+      "llm-apps"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "Executive stakeholder management \u2014 demonstrated ability to influence VP and C-suite audiences, drive consensus, and align diverse stakeholders around a shared data and AI vision",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Program and budget management \u2014 skilled in managing complex, multi-workstream programs with OKRs tied to business outcomes; experienced in vendor negotiation, contract managemen\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Bachelor's / Master\u2019s degree in computer science, Data Science, Statistics, Information Systems, Business Analytics, or a related field (or equivalent practical experience)",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Change leadership \u2014 you have led organizational transformation before; you know how to bring skeptics along, build coalitions, and make AI adoption stick",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "To be successful, you must bring extensive enterprise data & AI leadership experience, product lifecycle fluency (including SDLC), a track record of implementing cutting edge la\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Develop and execute a comprehensive business intelligence and AI/ML strategy, roadmap aligned with NetApp\u2019s business model and organizational goals \u2014 setting objectives and key \u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Build and run AI/ML Center of excellence establishing standards, reusable assets, and a delivery model that scales data & AI/ML products consistently across corporate functions",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Champion adoption \u2014 own change management and executive stakeholder alignment, driving the mindset and capability shifts needed for NetApp to operate as an AI-native organization",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Stand up Data & tools to support agentic workflows \u2014 e.g., workforce insights, financial forecast hygiene, customer support deflection, account next-best-action \u2014 and maintain f\u2026",
+     "skills": [
+      "llm-apps"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Partner with business to Identify & prioritize AI outcomes dependent on Data across HR analytics, financial planning, tax data automation, customer support automation, and PS ma\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "Oversee the deployment, governance, and lifecycle management of data, BI and AI/ML agents and solutions, ensuring they are auditable, explainable, and aligned to NetApp\u2019s respon\u2026",
+     "skills": [
+      "genai",
+      "llm-apps"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Lead the development and maintenance of the enterprise data domain model, taxonomy, and ontologies to ensure shared understanding, semantic consistency, and discoverability of d\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Design and evolve information and semantic models that make enterprise data AI\u2011ready, supporting use cases ranging from traditional analytics and BI to applied machine learning \u2026",
+     "skills": [
+      "stats",
+      "genai"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "p10",
+   "role": "proj",
+   "original": "OviGoals.com: animated visualization of all 912+ Alex Ovechkin goals, with a rink shot map and career comparisons",
+   "final": "OviGoals.com: animated visualization of all 912+ Alex Ovechkin goals, with a rink shot map and career comparisons",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 9.64,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of progressive experience in data, analytics, business intelligence and AI/ML",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Technical depth in modern data architecture \u2014 cloud data platforms (Snowflake, Databricks, BigQuery, or equivalent), semantic modeling, knowledge graph, MCP, ETL/ELT pipelines, \u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "People development \u2014 you grow careers intentionally; your team members leave every conversation more capable and more motivated than when they arrived",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "You will own the forward-looking data science strategy, define and execute the roadmap, and enable self-service for advanced business users. You will lead through influence in a\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Develop and execute a comprehensive business intelligence and AI/ML strategy, roadmap aligned with NetApp\u2019s business model and organizational goals \u2014 setting objectives and key \u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Lead through influence in a global, matrixed structure \u2014 building trusted partnerships with function leaders in HR, Finance, Tax & Treasury, Customer Support, and Professional S\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "Oversee the deployment, governance, and lifecycle management of data, BI and AI/ML agents and solutions, ensuring they are auditable, explainable, and aligned to NetApp\u2019s respon\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Design and evolve information and semantic models that make enterprise data AI\u2011ready, supporting use cases ranging from traditional analytics and BI to applied machine learning \u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "why": "role already full",
+   "score": 33.72
+  },
+  {
+   "text": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "why": "others covered the same ground better",
+   "score": 30.92
+  },
+  {
+   "text": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "why": "role already full",
+   "score": 24.75
+  },
+  {
+   "text": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "why": "others covered the same ground better",
+   "score": 22.44
+  },
+  {
+   "text": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "why": "others covered the same ground better",
+   "score": 22.31
+  },
+  {
+   "text": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "why": "role already full",
+   "score": 22.23
+  },
+  {
+   "text": "Gave analysts a framework for using AI at every step of an analysis, from idea to finished work",
+   "why": "others covered the same ground better",
+   "score": 22.1
+  },
+  {
+   "text": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "why": "others covered the same ground better",
+   "score": 22.07
+  }
+ ],
+ "skills": [
+  "Generative AI",
+  "Statistics",
+  "Business intelligence",
+  "Stakeholder management",
+  "Machine learning",
+  "Strategy",
+  "LLM applications",
+  "Team leadership",
+  "Data storytelling",
+  "Measurement",
+  "SQL",
+  "Power BI",
+  "Data pipelines",
+  "BigQuery",
+  "Cloud",
+  "Forecasting",
+  "Anomaly detection",
+  "Product analytics",
+  "Analytics training"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "warn",
+   "detail": "Asks for 15+ years; I have 12."
+  },
+  {
+   "kind": "degree",
+   "status": "ok",
+   "detail": "Mentions a bachelor's (as preferred or with an equivalent); mine: a bachelor's."
+  },
+  {
+   "kind": "field",
+   "status": "info",
+   "detail": "Names a field of study (computer science, data science, statistics, business, analytics) with an equivalent or as preferred; mine: B.A., Jazz Guitar Performance, so my experience has to cover this one."
+  },
+  {
+   "kind": "location",
+   "status": "info",
+   "detail": "Mentions \"hybrid\"; I check it against where I'd work."
+  }
+ ]
+}
