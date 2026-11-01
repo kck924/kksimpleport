@@ -1,0 +1,1589 @@
+{
+ "id": "zhqyynu5",
+ "version": "1.5",
+ "created": "2026-11-01",
+ "job": {
+  "title": "Job Application for Senior Manager, Data Science at Upstart",
+  "company": ""
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 10
+ },
+ "fit": 76,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "10+ years of experience in data science and analytics, including 5+ years managing teams of analysts and data scientists.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "s1",
+    "m9",
+    "m12"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "Technical depth across the core work of marketing analytics and data science, including reporting, experimentation, causal inference, and attribution, plus the judgment to choos\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "s1",
+    "a1",
+    "n2",
+    "m10",
+    "x2",
+    "m11",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "Working knowledge of SQL and Python, with the ability to review your team\u2019s work directly.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "p3",
+    "a1",
+    "m10",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "A track record of hiring strong talent and helping people grow into more senior roles.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m7",
+    "d1",
+    "s1",
+    "m9",
+    "m12"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "Clear written and verbal communication with marketing, finance, product, and technical audiences, and the confidence to tell senior leaders when the evidence doesn\u2019t support a p\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "m12",
+    "n2",
+    "m11",
+    "p6",
+    "s1",
+    "x2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "Strong judgment in ambiguous, greenfield areas: the ability to frame questions the business hasn\u2019t asked yet and assess whether they\u2019re worth pursuing.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r7",
+   "text": "At Upstart, we\u2019re united by a mission that matters: to radically reduce the cost and complexity of borrowing for all Americans. Every day, we bring creativity, experimentation, \u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m11",
+    "m7",
+    "m10",
+    "m9",
+    "m12",
+    "p3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r8",
+   "text": "At Upstart, a marketing dollar creates value when it reaches someone our AI models approve who goes on to take out a loan. That means our work goes well beyond clicks. Because w\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "x2",
+    "a1",
+    "m9",
+    "p6",
+    "m7",
+    "s1",
+    "n2",
+    "m10",
+    "m11",
+    "m12",
+    "p3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "As the Senior Manager for our Marketing Data Science team, you\u2019ll lead this team and work directly with Upstart\u2019s marketing leaders. You\u2019ll be a thought partner, helping the bus\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m7",
+    "s1",
+    "m9",
+    "d1",
+    "m11",
+    "a1",
+    "x2",
+    "m10",
+    "m12"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r10",
+   "text": "Lead a team of analysts and data scientists embedded across marketing channels, with end-to-end ownership of their work.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m9",
+    "m7",
+    "s1",
+    "m12"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r11",
+   "text": "Make experimentation central to the team\u2019s approach: prioritize high-value tests across channels and ensure the findings inform what marketing does next.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "m12"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "Guide the team in understanding why channel performance changes and translating those insights into clear, actionable recommendations.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "n2",
+    "m9",
+    "m11",
+    "m12",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r13",
+   "text": "Encourage proactive analysis that surfaces emerging risks and opportunities before stakeholders ask.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m9",
+    "m11",
+    "m7",
+    "a1",
+    "x2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r14",
+   "text": "Set a high bar for measurement, including incrementality testing and attribution, and ensure the team delivers rigorous, high-quality work.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "a1",
+    "x2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r15",
+   "text": "Partner with marketing, finance, and product leaders to shape the team\u2019s roadmap, bringing business context back to the team so it can focus on the right problems.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m7",
+    "x2",
+    "d1",
+    "m9",
+    "m11",
+    "a1",
+    "m12",
+    "s1",
+    "m10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r16",
+   "text": "Hire, develop, and retain a strong team that marketing leaders see as a trusted partner, not just a reporting service.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "x2",
+    "s1",
+    "m10",
+    "m9",
+    "m11",
+    "m7",
+    "a1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r17",
+   "text": "If you\u2019re energized by tackling meaningful problems, excited to innovate with purpose, and motivated by work that truly matters, we\u2019d love to hear from you.",
+   "kind": "other",
+   "weight": 1.5,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r18",
+   "text": "Marketing Science is part of Upstart\u2019s Growth, Product, and Ops Analytics team. We help answer two important questions: Is our marketing working, and where should we invest next?",
+   "kind": "other",
+   "weight": 1.5,
+   "coveredBy": [
+    "m9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "A PhD or master\u2019s degree in statistics, economics, computer science, or another quantitative field.",
+   "kind": "preferred",
+   "weight": 1.5,
+   "coveredBy": [
+    "s1",
+    "n2",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r20",
+   "text": "Experience incorporating AI tools into a team\u2019s analysis and reporting workflows.",
+   "kind": "preferred",
+   "weight": 1.5,
+   "coveredBy": [
+    "m10",
+    "m11",
+    "m9",
+    "d1",
+    "m7",
+    "s1",
+    "m12",
+    "p3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r21",
+   "text": "Position location This role is available in the following locations: Remote",
+   "kind": "preferred",
+   "weight": 1,
+   "coveredBy": [],
+   "gap": true
+  }
+ ],
+ "picks": [
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 36.8,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in data science and analytics, including 5+ years managing teams of analysts and data scientists.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r2",
+     "text": "Technical depth across the core work of marketing analytics and data science, including reporting, experimentation, causal inference, and attribution, plus the judgment to choos\u2026",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "A track record of hiring strong talent and helping people grow into more senior roles.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Clear written and verbal communication with marketing, finance, product, and technical audiences, and the confidence to tell senior leaders when the evidence doesn\u2019t support a p\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "At Upstart, we\u2019re united by a mission that matters: to radically reduce the cost and complexity of borrowing for all Americans. Every day, we bring creativity, experimentation, \u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "At Upstart, a marketing dollar creates value when it reaches someone our AI models approve who goes on to take out a loan. That means our work goes well beyond clicks. Because w\u2026",
+     "skills": [
+      "measurement",
+      "genai"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "As the Senior Manager for our Marketing Data Science team, you\u2019ll lead this team and work directly with Upstart\u2019s marketing leaders. You\u2019ll be a thought partner, helping the bus\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r10",
+     "text": "Lead a team of analysts and data scientists embedded across marketing channels, with end-to-end ownership of their work.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r11",
+     "text": "Make experimentation central to the team\u2019s approach: prioritize high-value tests across channels and ensure the findings inform what marketing does next.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Set a high bar for measurement, including incrementality testing and attribution, and ensure the team delivers rigorous, high-quality work.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r15",
+     "text": "Partner with marketing, finance, and product leaders to shape the team\u2019s roadmap, bringing business context back to the team so it can focus on the right problems.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Hire, develop, and retain a strong team that marketing leaders see as a trusted partner, not just a reporting service.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Marketing Science is part of Upstart\u2019s Growth, Product, and Ops Analytics team. We help answer two important questions: Is our marketing working, and where should we invest next?",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "Experience incorporating AI tools into a team\u2019s analysis and reporting workflows.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "role": "ms-head",
+   "original": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "final": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 25.44,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in data science and analytics, including 5+ years managing teams of analysts and data scientists.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r2",
+     "text": "Technical depth across the core work of marketing analytics and data science, including reporting, experimentation, causal inference, and attribution, plus the judgment to choos\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "A track record of hiring strong talent and helping people grow into more senior roles.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Clear written and verbal communication with marketing, finance, product, and technical audiences, and the confidence to tell senior leaders when the evidence doesn\u2019t support a p\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "At Upstart, we\u2019re united by a mission that matters: to radically reduce the cost and complexity of borrowing for all Americans. Every day, we bring creativity, experimentation, \u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "At Upstart, a marketing dollar creates value when it reaches someone our AI models approve who goes on to take out a loan. That means our work goes well beyond clicks. Because w\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "As the Senior Manager for our Marketing Data Science team, you\u2019ll lead this team and work directly with Upstart\u2019s marketing leaders. You\u2019ll be a thought partner, helping the bus\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Lead a team of analysts and data scientists embedded across marketing channels, with end-to-end ownership of their work.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Make experimentation central to the team\u2019s approach: prioritize high-value tests across channels and ensure the findings inform what marketing does next.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Encourage proactive analysis that surfaces emerging risks and opportunities before stakeholders ask.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Partner with marketing, finance, and product leaders to shape the team\u2019s roadmap, bringing business context back to the team so it can focus on the right problems.",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "Hire, develop, and retain a strong team that marketing leaders see as a trusted partner, not just a reporting service.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Marketing Science is part of Upstart\u2019s Growth, Product, and Ops Analytics team. We help answer two important questions: Is our marketing working, and where should we invest next?",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "Experience incorporating AI tools into a team\u2019s analysis and reporting workflows.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "role": "ms-sal",
+   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 18.26,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in data science and analytics, including 5+ years managing teams of analysts and data scientists.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Technical depth across the core work of marketing analytics and data science, including reporting, experimentation, causal inference, and attribution, plus the judgment to choos\u2026",
+     "skills": [
+      "stats",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "A track record of hiring strong talent and helping people grow into more senior roles.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Clear written and verbal communication with marketing, finance, product, and technical audiences, and the confidence to tell senior leaders when the evidence doesn\u2019t support a p\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r6",
+     "text": "Strong judgment in ambiguous, greenfield areas: the ability to frame questions the business hasn\u2019t asked yet and assess whether they\u2019re worth pursuing.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "At Upstart, a marketing dollar creates value when it reaches someone our AI models approve who goes on to take out a loan. That means our work goes well beyond clicks. Because w\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "As the Senior Manager for our Marketing Data Science team, you\u2019ll lead this team and work directly with Upstart\u2019s marketing leaders. You\u2019ll be a thought partner, helping the bus\u2026",
+     "skills": [
+      "leadership",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Lead a team of analysts and data scientists embedded across marketing channels, with end-to-end ownership of their work.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Partner with marketing, finance, and product leaders to shape the team\u2019s roadmap, bringing business context back to the team so it can focus on the right problems.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r16",
+     "text": "Hire, develop, and retain a strong team that marketing leaders see as a trusted partner, not just a reporting service.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Marketing Science is part of Upstart\u2019s Growth, Product, and Ops Analytics team. We help answer two important questions: Is our marketing working, and where should we invest next?",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "A PhD or master\u2019s degree in statistics, economics, computer science, or another quantitative field.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Experience incorporating AI tools into a team\u2019s analysis and reporting workflows.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "a1",
+   "role": "ms-al",
+   "original": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
+   "final": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 9.91,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in data science and analytics, including 5+ years managing teams of analysts and data scientists.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "Technical depth across the core work of marketing analytics and data science, including reporting, experimentation, causal inference, and attribution, plus the judgment to choos\u2026",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Working knowledge of SQL and Python, with the ability to review your team\u2019s work directly.",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "A track record of hiring strong talent and helping people grow into more senior roles.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "At Upstart, a marketing dollar creates value when it reaches someone our AI models approve who goes on to take out a loan. That means our work goes well beyond clicks. Because w\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "As the Senior Manager for our Marketing Data Science team, you\u2019ll lead this team and work directly with Upstart\u2019s marketing leaders. You\u2019ll be a thought partner, helping the bus\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Lead a team of analysts and data scientists embedded across marketing channels, with end-to-end ownership of their work.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Encourage proactive analysis that surfaces emerging risks and opportunities before stakeholders ask.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Set a high bar for measurement, including incrementality testing and attribution, and ensure the team delivers rigorous, high-quality work.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Partner with marketing, finance, and product leaders to shape the team\u2019s roadmap, bringing business context back to the team so it can focus on the right problems.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Hire, develop, and retain a strong team that marketing leaders see as a trusted partner, not just a reporting service.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 6.82,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Technical depth across the core work of marketing analytics and data science, including reporting, experimentation, causal inference, and attribution, plus the judgment to choos\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r5",
+     "text": "Clear written and verbal communication with marketing, finance, product, and technical audiences, and the confidence to tell senior leaders when the evidence doesn\u2019t support a p\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r8",
+     "text": "At Upstart, a marketing dollar creates value when it reaches someone our AI models approve who goes on to take out a loan. That means our work goes well beyond clicks. Because w\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r9",
+     "text": "As the Senior Manager for our Marketing Data Science team, you\u2019ll lead this team and work directly with Upstart\u2019s marketing leaders. You\u2019ll be a thought partner, helping the bus\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Lead a team of analysts and data scientists embedded across marketing channels, with end-to-end ownership of their work.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "Make experimentation central to the team\u2019s approach: prioritize high-value tests across channels and ensure the findings inform what marketing does next.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Encourage proactive analysis that surfaces emerging risks and opportunities before stakeholders ask.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Set a high bar for measurement, including incrementality testing and attribution, and ensure the team delivers rigorous, high-quality work.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Partner with marketing, finance, and product leaders to shape the team\u2019s roadmap, bringing business context back to the team so it can focus on the right problems.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r16",
+     "text": "Hire, develop, and retain a strong team that marketing leaders see as a trusted partner, not just a reporting service.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r18",
+     "text": "Marketing Science is part of Upstart\u2019s Growth, Product, and Ops Analytics team. We help answer two important questions: Is our marketing working, and where should we invest next?",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "Experience incorporating AI tools into a team\u2019s analysis and reporting workflows.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "role": "hanapin",
+   "original": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "final": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 4.71,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Technical depth across the core work of marketing analytics and data science, including reporting, experimentation, causal inference, and attribution, plus the judgment to choos\u2026",
+     "skills": [
+      "stats",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Clear written and verbal communication with marketing, finance, product, and technical audiences, and the confidence to tell senior leaders when the evidence doesn\u2019t support a p\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "At Upstart, a marketing dollar creates value when it reaches someone our AI models approve who goes on to take out a loan. That means our work goes well beyond clicks. Because w\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Guide the team in understanding why channel performance changes and translating those insights into clear, actionable recommendations.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "A PhD or master\u2019s degree in statistics, economics, computer science, or another quantitative field.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "role": "ms-dir",
+   "original": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "final": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 21.68,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Technical depth across the core work of marketing analytics and data science, including reporting, experimentation, causal inference, and attribution, plus the judgment to choos\u2026",
+     "skills": [
+      "advertising",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Working knowledge of SQL and Python, with the ability to review your team\u2019s work directly.",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Strong judgment in ambiguous, greenfield areas: the ability to frame questions the business hasn\u2019t asked yet and assess whether they\u2019re worth pursuing.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "At Upstart, we\u2019re united by a mission that matters: to radically reduce the cost and complexity of borrowing for all Americans. Every day, we bring creativity, experimentation, \u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "At Upstart, a marketing dollar creates value when it reaches someone our AI models approve who goes on to take out a loan. That means our work goes well beyond clicks. Because w\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "As the Senior Manager for our Marketing Data Science team, you\u2019ll lead this team and work directly with Upstart\u2019s marketing leaders. You\u2019ll be a thought partner, helping the bus\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Partner with marketing, finance, and product leaders to shape the team\u2019s roadmap, bringing business context back to the team so it can focus on the right problems.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r16",
+     "text": "Hire, develop, and retain a strong team that marketing leaders see as a trusted partner, not just a reporting service.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Experience incorporating AI tools into a team\u2019s analysis and reporting workflows.",
+     "skills": [
+      "genai",
+      "dashboards"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 34.73,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in data science and analytics, including 5+ years managing teams of analysts and data scientists.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Technical depth across the core work of marketing analytics and data science, including reporting, experimentation, causal inference, and attribution, plus the judgment to choos\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "A track record of hiring strong talent and helping people grow into more senior roles.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Clear written and verbal communication with marketing, finance, product, and technical audiences, and the confidence to tell senior leaders when the evidence doesn\u2019t support a p\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "At Upstart, we\u2019re united by a mission that matters: to radically reduce the cost and complexity of borrowing for all Americans. Every day, we bring creativity, experimentation, \u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "At Upstart, a marketing dollar creates value when it reaches someone our AI models approve who goes on to take out a loan. That means our work goes well beyond clicks. Because w\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "As the Senior Manager for our Marketing Data Science team, you\u2019ll lead this team and work directly with Upstart\u2019s marketing leaders. You\u2019ll be a thought partner, helping the bus\u2026",
+     "skills": [
+      "leadership",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Lead a team of analysts and data scientists embedded across marketing channels, with end-to-end ownership of their work.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r11",
+     "text": "Make experimentation central to the team\u2019s approach: prioritize high-value tests across channels and ensure the findings inform what marketing does next.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Guide the team in understanding why channel performance changes and translating those insights into clear, actionable recommendations.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Encourage proactive analysis that surfaces emerging risks and opportunities before stakeholders ask.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r15",
+     "text": "Partner with marketing, finance, and product leaders to shape the team\u2019s roadmap, bringing business context back to the team so it can focus on the right problems.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Hire, develop, and retain a strong team that marketing leaders see as a trusted partner, not just a reporting service.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Marketing Science is part of Upstart\u2019s Growth, Product, and Ops Analytics team. We help answer two important questions: Is our marketing working, and where should we invest next?",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r20",
+     "text": "Experience incorporating AI tools into a team\u2019s analysis and reporting workflows.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "role": "ms-dir",
+   "original": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "final": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 24.28,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in data science and analytics, including 5+ years managing teams of analysts and data scientists.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "Technical depth across the core work of marketing analytics and data science, including reporting, experimentation, causal inference, and attribution, plus the judgment to choos\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r5",
+     "text": "Clear written and verbal communication with marketing, finance, product, and technical audiences, and the confidence to tell senior leaders when the evidence doesn\u2019t support a p\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Strong judgment in ambiguous, greenfield areas: the ability to frame questions the business hasn\u2019t asked yet and assess whether they\u2019re worth pursuing.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "At Upstart, we\u2019re united by a mission that matters: to radically reduce the cost and complexity of borrowing for all Americans. Every day, we bring creativity, experimentation, \u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "At Upstart, a marketing dollar creates value when it reaches someone our AI models approve who goes on to take out a loan. That means our work goes well beyond clicks. Because w\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "As the Senior Manager for our Marketing Data Science team, you\u2019ll lead this team and work directly with Upstart\u2019s marketing leaders. You\u2019ll be a thought partner, helping the bus\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r10",
+     "text": "Lead a team of analysts and data scientists embedded across marketing channels, with end-to-end ownership of their work.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Guide the team in understanding why channel performance changes and translating those insights into clear, actionable recommendations.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Encourage proactive analysis that surfaces emerging risks and opportunities before stakeholders ask.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r15",
+     "text": "Partner with marketing, finance, and product leaders to shape the team\u2019s roadmap, bringing business context back to the team so it can focus on the right problems.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Hire, develop, and retain a strong team that marketing leaders see as a trusted partner, not just a reporting service.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Experience incorporating AI tools into a team\u2019s analysis and reporting workflows.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.9
+    }
+   ]
+  },
+  {
+   "id": "m12",
+   "role": "ms-dir",
+   "original": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "final": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 20.21,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in data science and analytics, including 5+ years managing teams of analysts and data scientists.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Technical depth across the core work of marketing analytics and data science, including reporting, experimentation, causal inference, and attribution, plus the judgment to choos\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "A track record of hiring strong talent and helping people grow into more senior roles.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Clear written and verbal communication with marketing, finance, product, and technical audiences, and the confidence to tell senior leaders when the evidence doesn\u2019t support a p\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "At Upstart, we\u2019re united by a mission that matters: to radically reduce the cost and complexity of borrowing for all Americans. Every day, we bring creativity, experimentation, \u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "At Upstart, a marketing dollar creates value when it reaches someone our AI models approve who goes on to take out a loan. That means our work goes well beyond clicks. Because w\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "As the Senior Manager for our Marketing Data Science team, you\u2019ll lead this team and work directly with Upstart\u2019s marketing leaders. You\u2019ll be a thought partner, helping the bus\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Lead a team of analysts and data scientists embedded across marketing channels, with end-to-end ownership of their work.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Make experimentation central to the team\u2019s approach: prioritize high-value tests across channels and ensure the findings inform what marketing does next.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Guide the team in understanding why channel performance changes and translating those insights into clear, actionable recommendations.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Set a high bar for measurement, including incrementality testing and attribution, and ensure the team delivers rigorous, high-quality work.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Partner with marketing, finance, and product leaders to shape the team\u2019s roadmap, bringing business context back to the team so it can focus on the right problems.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Experience incorporating AI tools into a team\u2019s analysis and reporting workflows.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p6",
+   "role": "proj",
+   "original": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "final": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 13.52,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Technical depth across the core work of marketing analytics and data science, including reporting, experimentation, causal inference, and attribution, plus the judgment to choos\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Working knowledge of SQL and Python, with the ability to review your team\u2019s work directly.",
+     "skills": [
+      "python"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Clear written and verbal communication with marketing, finance, product, and technical audiences, and the confidence to tell senior leaders when the evidence doesn\u2019t support a p\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "At Upstart, a marketing dollar creates value when it reaches someone our AI models approve who goes on to take out a loan. That means our work goes well beyond clicks. Because w\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Guide the team in understanding why channel performance changes and translating those insights into clear, actionable recommendations.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Partner with marketing, finance, and product leaders to shape the team\u2019s roadmap, bringing business context back to the team so it can focus on the right problems.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "If you\u2019re energized by tackling meaningful problems, excited to innovate with purpose, and motivated by work that truly matters, we\u2019d love to hear from you.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Marketing Science is part of Upstart\u2019s Growth, Product, and Ops Analytics team. We help answer two important questions: Is our marketing working, and where should we invest next?",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "A PhD or master\u2019s degree in statistics, economics, computer science, or another quantitative field.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "role": "proj",
+   "original": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "final": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 9.6,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Technical depth across the core work of marketing analytics and data science, including reporting, experimentation, causal inference, and attribution, plus the judgment to choos\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Working knowledge of SQL and Python, with the ability to review your team\u2019s work directly.",
+     "skills": [
+      "sql",
+      "python"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "Strong judgment in ambiguous, greenfield areas: the ability to frame questions the business hasn\u2019t asked yet and assess whether they\u2019re worth pursuing.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "At Upstart, we\u2019re united by a mission that matters: to radically reduce the cost and complexity of borrowing for all Americans. Every day, we bring creativity, experimentation, \u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "At Upstart, a marketing dollar creates value when it reaches someone our AI models approve who goes on to take out a loan. That means our work goes well beyond clicks. Because w\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Marketing Science is part of Upstart\u2019s Growth, Product, and Ops Analytics team. We help answer two important questions: Is our marketing working, and where should we invest next?",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "Experience incorporating AI tools into a team\u2019s analysis and reporting workflows.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "why": "role already full",
+   "score": 18.78
+  },
+  {
+   "text": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "why": "others covered the same ground better",
+   "score": 16.81
+  },
+  {
+   "text": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "why": "others covered the same ground better",
+   "score": 16.32
+  },
+  {
+   "text": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "why": "others covered the same ground better",
+   "score": 15.58
+  },
+  {
+   "text": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "why": "others covered the same ground better",
+   "score": 13.27
+  },
+  {
+   "text": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "why": "role already full",
+   "score": 12.95
+  },
+  {
+   "text": "Secured new MSN content datasets, built an MSN insights prototype with the team, and took it to sellers and marketing once MSN leaders approved it",
+   "why": "others covered the same ground better",
+   "score": 12.42
+  },
+  {
+   "text": "Robuttal: an arena where AI models from several providers debate, judged by AI with fairness audits and Elo rankings; built with Python, FastAPI and Next.js",
+   "why": "role already full",
+   "score": 11.77
+  }
+ ],
+ "skills": [
+  "Team leadership",
+  "Dashboards",
+  "Stakeholder management",
+  "Measurement",
+  "Statistics",
+  "Data storytelling",
+  "Generative AI",
+  "Strategy",
+  "Marketing analytics",
+  "SQL",
+  "Python",
+  "Machine learning"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 10+ years; I have 12."
+  },
+  {
+   "kind": "degree",
+   "status": "warn",
+   "detail": "Mentions a PhD; mine: a bachelor's."
+  },
+  {
+   "kind": "field",
+   "status": "warn",
+   "detail": "Names a field of study (statistics, economics, computer science, quantitative); mine: B.A., Jazz Guitar Performance, so my experience has to cover this one."
+  },
+  {
+   "kind": "location",
+   "status": "info",
+   "detail": "Mentions \"Onsite\"; I check it against where I'd work."
+  }
+ ]
+}
