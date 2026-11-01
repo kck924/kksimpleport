@@ -1,0 +1,1467 @@
+{
+ "id": "hzjr9ws9",
+ "version": "1.5",
+ "created": "2026-11-01",
+ "job": {
+  "title": "Staff Advanced Analytics, Community Blueprint & Quality - Careers at Airbnb",
+  "company": ""
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 10
+ },
+ "fit": 69,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "Conduct strategic deep dives into customer experience drivers (cleanliness, check-in, communication, etc.) to identify symptoms, diagnose root causes, and recommend interventions.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "t1",
+    "n2",
+    "d1",
+    "m8",
+    "t11",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "Design, execute, and analyze experiments (A/B tests and quasi-experiments) to measure the impact of quality and blueprint initiatives.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m19",
+    "t1",
+    "x2",
+    "d1",
+    "t11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "Build and apply causal inference frameworks (diff-in-diff, synthetic controls, propensity matching) to estimate the true impact of product, policy, and operational changes.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "s1",
+    "t1",
+    "n2",
+    "t11",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Leverage LLMs and AI-assisted analytics to extract structured insights from unstructured data and to scale root-cause taxonomy generation across millions of trips.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "m8",
+    "d1",
+    "t1",
+    "n2",
+    "m10",
+    "t11",
+    "p3",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "Develop and validate metrics and dimensions that monitor customer experience health and surface emerging quality issues.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m10",
+    "m19",
+    "t1",
+    "x2",
+    "d1",
+    "t11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "Build and maintain analytical artifacts (queries, dashboards, readouts) that let stakeholders self-serve on standard questions.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m10",
+    "m9",
+    "m19",
+    "s1",
+    "x2",
+    "p3",
+    "t1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "Partner with Product, Engineering, Data Science, Data Engineering, and other Advanced Analytics teams to align on methodology, assumptions, and interpretation.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m19",
+    "x2",
+    "m9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r8",
+   "text": "Translate complex analyses into clear, concise insights and recommendations for senior leadership.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "m8",
+    "t11",
+    "t1",
+    "n2",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "Strong hands-on expertise in SQL and at least one programming language (Python or R).",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "p3",
+    "m10",
+    "p6",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r10",
+   "text": "Proven experience designing and analyzing A/B experiments and applying statistical methods to real-world product problems.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "t11",
+    "p6",
+    "s1",
+    "t1",
+    "n2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r11",
+   "text": "Experience with causal inference techniques (diff-in-diff, synthetic controls, propensity scoring) and a track record of applying them to ambiguous business problems.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "s1",
+    "p6",
+    "t1",
+    "n2",
+    "t11",
+    "m10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "Hands-on experience with AI-assisted analytics workflows (Claude, ChatGPT, internal LLM agents) including prompt engineering, structured extraction from unstructured text, and u\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "p3",
+    "m8",
+    "d1",
+    "m9",
+    "m10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r13",
+   "text": "Experience building metrics end-to-end, including definitions, validation, and implementation in data pipelines.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m19",
+    "t1",
+    "x2",
+    "d1",
+    "t11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r14",
+   "text": "Strong analytical judgment, ability to balance rigor with speed and clearly communicate tradeoffs.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "t1",
+    "n2",
+    "m8",
+    "t11",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r15",
+   "text": "Excellent communication skills with experience presenting to senior, non-technical audiences.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "n2",
+    "m8",
+    "t11",
+    "m9",
+    "t1",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r16",
+   "text": "Experience in marketplace, product analytics, customer experience, or trust & safety contexts strongly preferred.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "m19",
+    "m10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r17",
+   "text": "Airbnb is committed to working with the broadest talent pool possible. We believe diverse ideas foster innovation and engagement, and allow us to attract creatively-led people, \u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "m19"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r18",
+   "text": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arri\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "p3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "10+ years of experience in advanced analytics, data science, or applied quantitative analysis (industry experience required).",
+   "kind": "responsibility",
+   "weight": 2,
+   "coveredBy": [
+    "m8"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r20",
+   "text": "Demonstrated ability to operate independently, manage multiple priorities, and deliver against agreed timelines.",
+   "kind": "responsibility",
+   "weight": 2,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r21",
+   "text": "Our Commitment To Inclusion & Belonging:",
+   "kind": "responsibility",
+   "weight": 2,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r22",
+   "text": "We ask that you only reach out to us if you are a candidate whose disability prevents you from being able to complete our online application.",
+   "kind": "responsibility",
+   "weight": 2,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r23",
+   "text": "Staff Advanced Analytics, Community Blueprint & Quality - Careers at Airbnb",
+   "kind": "other",
+   "weight": 1.5,
+   "coveredBy": [
+    "m8"
+   ],
+   "gap": false
+  }
+ ],
+ "picks": [
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 26.83,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Conduct strategic deep dives into customer experience drivers (cleanliness, check-in, communication, etc.) to identify symptoms, diagnose root causes, and recommend interventions.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Leverage LLMs and AI-assisted analytics to extract structured insights from unstructured data and to scale root-cause taxonomy generation across millions of trips.",
+     "skills": [
+      "storytelling",
+      "genai"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "Build and maintain analytical artifacts (queries, dashboards, readouts) that let stakeholders self-serve on standard questions.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Partner with Product, Engineering, Data Science, Data Engineering, and other Advanced Analytics teams to align on methodology, assumptions, and interpretation.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Translate complex analyses into clear, concise insights and recommendations for senior leadership.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Hands-on experience with AI-assisted analytics workflows (Claude, ChatGPT, internal LLM agents) including prompt engineering, structured extraction from unstructured text, and u\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Strong analytical judgment, ability to balance rigor with speed and clearly communicate tradeoffs.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Excellent communication skills with experience presenting to senior, non-technical audiences.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Experience in marketplace, product analytics, customer experience, or trust & safety contexts strongly preferred.",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Airbnb is committed to working with the broadest talent pool possible. We believe diverse ideas foster innovation and engagement, and allow us to attract creatively-led people, \u2026",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "10+ years of experience in advanced analytics, data science, or applied quantitative analysis (industry experience required).",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m19",
+   "role": "ms-head",
+   "original": "Added Microsoft Clarity behavioral data to the team's query-pathing tool",
+   "final": "Added Microsoft Clarity behavioral data to the team's query-pathing tool",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 11.01,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Design, execute, and analyze experiments (A/B tests and quasi-experiments) to measure the impact of quality and blueprint initiatives.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Leverage LLMs and AI-assisted analytics to extract structured insights from unstructured data and to scale root-cause taxonomy generation across millions of trips.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Develop and validate metrics and dimensions that monitor customer experience health and surface emerging quality issues.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Build and maintain analytical artifacts (queries, dashboards, readouts) that let stakeholders self-serve on standard questions.",
+     "skills": [
+      "data-products"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Partner with Product, Engineering, Data Science, Data Engineering, and other Advanced Analytics teams to align on methodology, assumptions, and interpretation.",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Experience building metrics end-to-end, including definitions, validation, and implementation in data pipelines.",
+     "skills": [
+      "measurement",
+      "pipelines"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "Experience in marketplace, product analytics, customer experience, or trust & safety contexts strongly preferred.",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Airbnb is committed to working with the broadest talent pool possible. We believe diverse ideas foster innovation and engagement, and allow us to attract creatively-led people, \u2026",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "10+ years of experience in advanced analytics, data science, or applied quantitative analysis (industry experience required).",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "role": "ms-sal",
+   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 10.72,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Build and apply causal inference frameworks (diff-in-diff, synthetic controls, propensity matching) to estimate the true impact of product, policy, and operational changes.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Leverage LLMs and AI-assisted analytics to extract structured insights from unstructured data and to scale root-cause taxonomy generation across millions of trips.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Build and maintain analytical artifacts (queries, dashboards, readouts) that let stakeholders self-serve on standard questions.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Partner with Product, Engineering, Data Science, Data Engineering, and other Advanced Analytics teams to align on methodology, assumptions, and interpretation.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Translate complex analyses into clear, concise insights and recommendations for senior leadership.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Strong hands-on expertise in SQL and at least one programming language (Python or R).",
+     "skills": [
+      "r"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Proven experience designing and analyzing A/B experiments and applying statistical methods to real-world product problems.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Experience with causal inference techniques (diff-in-diff, synthetic controls, propensity scoring) and a track record of applying them to ambiguous business problems.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Hands-on experience with AI-assisted analytics workflows (Claude, ChatGPT, internal LLM agents) including prompt engineering, structured extraction from unstructured text, and u\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Excellent communication skills with experience presenting to senior, non-technical audiences.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Experience in marketplace, product analytics, customer experience, or trust & safety contexts strongly preferred.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "10+ years of experience in advanced analytics, data science, or applied quantitative analysis (industry experience required).",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "Staff Advanced Analytics, Community Blueprint & Quality - Careers at Airbnb",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "role": "ms-al",
+   "original": "Created the Marketplace Rebound Gauge, a traffic-light signal of COVID recovery built on moving-average clustering, used in every vertical and later in EMEA",
+   "final": "Created the Marketplace Rebound Gauge, a traffic-light signal of COVID recovery built on moving-average clustering, used in every vertical and later in EMEA",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 13.65,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Conduct strategic deep dives into customer experience drivers (cleanliness, check-in, communication, etc.) to identify symptoms, diagnose root causes, and recommend interventions.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "Design, execute, and analyze experiments (A/B tests and quasi-experiments) to measure the impact of quality and blueprint initiatives.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Build and apply causal inference frameworks (diff-in-diff, synthetic controls, propensity matching) to estimate the true impact of product, policy, and operational changes.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Leverage LLMs and AI-assisted analytics to extract structured insights from unstructured data and to scale root-cause taxonomy generation across millions of trips.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Develop and validate metrics and dimensions that monitor customer experience health and surface emerging quality issues.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Build and maintain analytical artifacts (queries, dashboards, readouts) that let stakeholders self-serve on standard questions.",
+     "skills": [
+      "data-products"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Translate complex analyses into clear, concise insights and recommendations for senior leadership.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Proven experience designing and analyzing A/B experiments and applying statistical methods to real-world product problems.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Experience with causal inference techniques (diff-in-diff, synthetic controls, propensity scoring) and a track record of applying them to ambiguous business problems.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Experience building metrics end-to-end, including definitions, validation, and implementation in data pipelines.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Strong analytical judgment, ability to balance rigor with speed and clearly communicate tradeoffs.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Excellent communication skills with experience presenting to senior, non-technical audiences.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Experience in marketplace, product analytics, customer experience, or trust & safety contexts strongly preferred.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 4.05,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Design, execute, and analyze experiments (A/B tests and quasi-experiments) to measure the impact of quality and blueprint initiatives.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Develop and validate metrics and dimensions that monitor customer experience health and surface emerging quality issues.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Build and maintain analytical artifacts (queries, dashboards, readouts) that let stakeholders self-serve on standard questions.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Partner with Product, Engineering, Data Science, Data Engineering, and other Advanced Analytics teams to align on methodology, assumptions, and interpretation.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Hands-on experience with AI-assisted analytics workflows (Claude, ChatGPT, internal LLM agents) including prompt engineering, structured extraction from unstructured text, and u\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Experience building metrics end-to-end, including definitions, validation, and implementation in data pipelines.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "role": "hanapin",
+   "original": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "final": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 6.5,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Conduct strategic deep dives into customer experience drivers (cleanliness, check-in, communication, etc.) to identify symptoms, diagnose root causes, and recommend interventions.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Build and apply causal inference frameworks (diff-in-diff, synthetic controls, propensity matching) to estimate the true impact of product, policy, and operational changes.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Leverage LLMs and AI-assisted analytics to extract structured insights from unstructured data and to scale root-cause taxonomy generation across millions of trips.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Translate complex analyses into clear, concise insights and recommendations for senior leadership.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Proven experience designing and analyzing A/B experiments and applying statistical methods to real-world product problems.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Experience with causal inference techniques (diff-in-diff, synthetic controls, propensity scoring) and a track record of applying them to ambiguous business problems.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Strong analytical judgment, ability to balance rigor with speed and clearly communicate tradeoffs.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Excellent communication skills with experience presenting to senior, non-technical audiences.",
+     "skills": [
+      "storytelling",
+      "speaking"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "role": "ms-dir",
+   "original": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "final": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 18.67,
+   "matched": [
+    {
+     "req": "r4",
+     "text": "Leverage LLMs and AI-assisted analytics to extract structured insights from unstructured data and to scale root-cause taxonomy generation across millions of trips.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Develop and validate metrics and dimensions that monitor customer experience health and surface emerging quality issues.",
+     "skills": [
+      "anomaly"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "Build and maintain analytical artifacts (queries, dashboards, readouts) that let stakeholders self-serve on standard questions.",
+     "skills": [
+      "sql",
+      "dashboards",
+      "data-products"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Strong hands-on expertise in SQL and at least one programming language (Python or R).",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Experience with causal inference techniques (diff-in-diff, synthetic controls, propensity scoring) and a track record of applying them to ambiguous business problems.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r12",
+     "text": "Hands-on experience with AI-assisted analytics workflows (Claude, ChatGPT, internal LLM agents) including prompt engineering, structured extraction from unstructured text, and u\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Experience building metrics end-to-end, including definitions, validation, and implementation in data pipelines.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Experience in marketplace, product analytics, customer experience, or trust & safety contexts strongly preferred.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r17",
+     "text": "Airbnb is committed to working with the broadest talent pool possible. We believe diverse ideas foster innovation and engagement, and allow us to attract creatively-led people, \u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 20.54,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Conduct strategic deep dives into customer experience drivers (cleanliness, check-in, communication, etc.) to identify symptoms, diagnose root causes, and recommend interventions.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "Design, execute, and analyze experiments (A/B tests and quasi-experiments) to measure the impact of quality and blueprint initiatives.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Leverage LLMs and AI-assisted analytics to extract structured insights from unstructured data and to scale root-cause taxonomy generation across millions of trips.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Develop and validate metrics and dimensions that monitor customer experience health and surface emerging quality issues.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Partner with Product, Engineering, Data Science, Data Engineering, and other Advanced Analytics teams to align on methodology, assumptions, and interpretation.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Translate complex analyses into clear, concise insights and recommendations for senior leadership.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Hands-on experience with AI-assisted analytics workflows (Claude, ChatGPT, internal LLM agents) including prompt engineering, structured extraction from unstructured text, and u\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Experience building metrics end-to-end, including definitions, validation, and implementation in data pipelines.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Experience in marketplace, product analytics, customer experience, or trust & safety contexts strongly preferred.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Airbnb is committed to working with the broadest talent pool possible. We believe diverse ideas foster innovation and engagement, and allow us to attract creatively-led people, \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "10+ years of experience in advanced analytics, data science, or applied quantitative analysis (industry experience required).",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "Demonstrated ability to operate independently, manage multiple priorities, and deliver against agreed timelines.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "Staff Advanced Analytics, Community Blueprint & Quality - Careers at Airbnb",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m8",
+   "role": "ms-head",
+   "original": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "final": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 14.4,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Conduct strategic deep dives into customer experience drivers (cleanliness, check-in, communication, etc.) to identify symptoms, diagnose root causes, and recommend interventions.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Leverage LLMs and AI-assisted analytics to extract structured insights from unstructured data and to scale root-cause taxonomy generation across millions of trips.",
+     "skills": [
+      "storytelling",
+      "genai"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Partner with Product, Engineering, Data Science, Data Engineering, and other Advanced Analytics teams to align on methodology, assumptions, and interpretation.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Translate complex analyses into clear, concise insights and recommendations for senior leadership.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Hands-on experience with AI-assisted analytics workflows (Claude, ChatGPT, internal LLM agents) including prompt engineering, structured extraction from unstructured text, and u\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r14",
+     "text": "Strong analytical judgment, ability to balance rigor with speed and clearly communicate tradeoffs.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Excellent communication skills with experience presenting to senior, non-technical audiences.",
+     "skills": [
+      "storytelling",
+      "speaking"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "Experience in marketplace, product analytics, customer experience, or trust & safety contexts strongly preferred.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arri\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "10+ years of experience in advanced analytics, data science, or applied quantitative analysis (industry experience required).",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r23",
+     "text": "Staff Advanced Analytics, Community Blueprint & Quality - Careers at Airbnb",
+     "skills": [],
+     "m": 0.3
+    }
+   ]
+  },
+  {
+   "id": "t11",
+   "role": "ms-sal",
+   "original": "Used a market concentration index to show senior stakeholders where advertisers faced market risk, and taught the method to peers",
+   "final": "Used a market concentration index to show senior stakeholders where advertisers faced market risk, and taught the method to peers",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 11.25,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Conduct strategic deep dives into customer experience drivers (cleanliness, check-in, communication, etc.) to identify symptoms, diagnose root causes, and recommend interventions.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "Design, execute, and analyze experiments (A/B tests and quasi-experiments) to measure the impact of quality and blueprint initiatives.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Build and apply causal inference frameworks (diff-in-diff, synthetic controls, propensity matching) to estimate the true impact of product, policy, and operational changes.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Leverage LLMs and AI-assisted analytics to extract structured insights from unstructured data and to scale root-cause taxonomy generation across millions of trips.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Develop and validate metrics and dimensions that monitor customer experience health and surface emerging quality issues.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Build and maintain analytical artifacts (queries, dashboards, readouts) that let stakeholders self-serve on standard questions.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Translate complex analyses into clear, concise insights and recommendations for senior leadership.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Proven experience designing and analyzing A/B experiments and applying statistical methods to real-world product problems.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Experience with causal inference techniques (diff-in-diff, synthetic controls, propensity scoring) and a track record of applying them to ambiguous business problems.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Experience building metrics end-to-end, including definitions, validation, and implementation in data pipelines.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Strong analytical judgment, ability to balance rigor with speed and clearly communicate tradeoffs.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Excellent communication skills with experience presenting to senior, non-technical audiences.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "role": "proj",
+   "original": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "final": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 11.49,
+   "matched": [
+    {
+     "req": "r4",
+     "text": "Leverage LLMs and AI-assisted analytics to extract structured insights from unstructured data and to scale root-cause taxonomy generation across millions of trips.",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Build and maintain analytical artifacts (queries, dashboards, readouts) that let stakeholders self-serve on standard questions.",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Strong hands-on expertise in SQL and at least one programming language (Python or R).",
+     "skills": [
+      "sql",
+      "python"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r12",
+     "text": "Hands-on experience with AI-assisted analytics workflows (Claude, ChatGPT, internal LLM agents) including prompt engineering, structured extraction from unstructured text, and u\u2026",
+     "skills": [
+      "genai",
+      "llm-apps"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arri\u2026",
+     "skills": [
+      "cloud"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p6",
+   "role": "proj",
+   "original": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "final": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 18.06,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Conduct strategic deep dives into customer experience drivers (cleanliness, check-in, communication, etc.) to identify symptoms, diagnose root causes, and recommend interventions.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Build and apply causal inference frameworks (diff-in-diff, synthetic controls, propensity matching) to estimate the true impact of product, policy, and operational changes.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Leverage LLMs and AI-assisted analytics to extract structured insights from unstructured data and to scale root-cause taxonomy generation across millions of trips.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Translate complex analyses into clear, concise insights and recommendations for senior leadership.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Strong hands-on expertise in SQL and at least one programming language (Python or R).",
+     "skills": [
+      "python"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Proven experience designing and analyzing A/B experiments and applying statistical methods to real-world product problems.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Experience with causal inference techniques (diff-in-diff, synthetic controls, propensity scoring) and a track record of applying them to ambiguous business problems.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Strong analytical judgment, ability to balance rigor with speed and clearly communicate tradeoffs.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Excellent communication skills with experience presenting to senior, non-technical audiences.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arri\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "why": "others covered the same ground better",
+   "score": 21.42
+  },
+  {
+   "text": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "why": "others covered the same ground better",
+   "score": 18.62
+  },
+  {
+   "text": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "why": "role already full",
+   "score": 17.16
+  },
+  {
+   "text": "Secured new MSN content datasets, built an MSN insights prototype with the team, and took it to sellers and marketing once MSN leaders approved it",
+   "why": "others covered the same ground better",
+   "score": 14.03
+  },
+  {
+   "text": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "why": "others covered the same ground better",
+   "score": 13.72
+  },
+  {
+   "text": "Ran a roundtable with a regional sales VP's leadership team to answer their doubts about advanced analytics",
+   "why": "others covered the same ground better",
+   "score": 13.39
+  },
+  {
+   "text": "Robuttal: an arena where AI models from several providers debate, judged by AI with fairness audits and Elo rankings; built with Python, FastAPI and Next.js",
+   "why": "role already full",
+   "score": 11.83
+  },
+  {
+   "text": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "why": "others covered the same ground better",
+   "score": 11.12
+  }
+ ],
+ "skills": [
+  "Data storytelling",
+  "Statistics",
+  "Measurement",
+  "LLMs",
+  "SQL",
+  "Product analytics",
+  "Stakeholder management",
+  "Data pipelines",
+  "R",
+  "Python",
+  "Dashboards",
+  "Anomaly detection",
+  "Data products",
+  "Strategy",
+  "Presenting",
+  "LLM applications",
+  "Cloud"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 10+ years; I have 12."
+  }
+ ]
+}
