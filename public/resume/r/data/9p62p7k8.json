@@ -1,0 +1,160 @@
+{
+ "id": "9p62p7k8",
+ "version": "1.5",
+ "created": "2026-11-01",
+ "job": {
+  "title": "Data Scientist, Analytics (Technical Leadership)",
+  "company": "Meta"
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 10
+ },
+ "fit": 0,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  }
+ ],
+ "requirements": [],
+ "picks": [
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 0,
+   "matched": []
+  },
+  {
+   "id": "m1",
+   "role": "ms-head",
+   "original": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "final": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 0,
+   "matched": []
+  },
+  {
+   "id": "s1",
+   "role": "ms-sal",
+   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 0,
+   "matched": []
+  },
+  {
+   "id": "t1",
+   "role": "ms-al",
+   "original": "Created the Marketplace Rebound Gauge, a traffic-light signal of COVID recovery built on moving-average clustering, used in every vertical and later in EMEA",
+   "final": "Created the Marketplace Rebound Gauge, a traffic-light signal of COVID recovery built on moving-average clustering, used in every vertical and later in EMEA",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 0,
+   "matched": []
+  },
+  {
+   "id": "x1",
+   "role": "deluxe",
+   "original": "Managed search and display advertising on Google, Bing and Yahoo for 11 direct-to-consumer brands, and coordinated it with the affiliate and SEO programs",
+   "final": "Managed search and display advertising on Google, Bing and Yahoo for 11 direct-to-consumer brands, and coordinated it with the affiliate and SEO programs",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 0,
+   "matched": []
+  },
+  {
+   "id": "n1",
+   "role": "hanapin",
+   "original": "Ran client relationships and strategy for search and display accounts on Google Ads, Bing Ads and Yahoo, including optimization, monitoring and reporting",
+   "final": "Ran client relationships and strategy for search and display accounts on Google Ads, Bing Ads and Yahoo, including optimization, monitoring and reporting",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 0,
+   "matched": []
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "why": "matches nothing in this job",
+   "score": 0
+  },
+  {
+   "text": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "why": "matches nothing in this job",
+   "score": 0
+  },
+  {
+   "text": "Raised the team's thriving score on the employee survey to 71, its highest ever, up 13 points in a year with 100% participation",
+   "why": "matches nothing in this job",
+   "score": 0
+  },
+  {
+   "text": "Coached analysts to 3 promotions and moved much of the team from junior to senior band",
+   "why": "matches nothing in this job",
+   "score": 0
+  },
+  {
+   "text": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "why": "matches nothing in this job",
+   "score": 0
+  },
+  {
+   "text": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "why": "matches nothing in this job",
+   "score": 0
+  },
+  {
+   "text": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "why": "matches nothing in this job",
+   "score": 0
+  },
+  {
+   "text": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "why": "matches nothing in this job",
+   "score": 0
+  }
+ ],
+ "skills": [],
+ "checks": []
+}
