@@ -1,0 +1,1885 @@
+{
+ "id": "z4txuezz",
+ "version": "1.5",
+ "created": "2026-11-01",
+ "job": {
+  "title": "Director, Digital Analytics ",
+  "company": "PLTFRM"
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 10
+ },
+ "fit": 80,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "Deep, hands-on Amazon experience across both 1P and 3P models.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "p6",
+    "s1",
+    "n2",
+    "t1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "Demonstrated ownership of measurement for at least two major retail channels, one of which is Amazon or Walmart.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "h1",
+    "a1",
+    "x2",
+    "t1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "Track record designing and interpreting incrementality tests and reading geographic/DMA-level performance.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "n2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Comfortable working directly with data \u2014 writing your own SQL queries and building your own views in a BI tool rather than waiting on someone else to pull numbers. Power BI pref\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "a1",
+    "m10",
+    "p3",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "Ability to explain uncertainty honestly to a non-technical audience, and to say \"we can't measure that cleanly\" when it's true.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "h1",
+    "a1",
+    "x2",
+    "t1",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "Exceptional written and verbal communication. You can hold a room with a CMO and a category buyer in it.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "n2",
+    "m11",
+    "m9",
+    "t1",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "Experience with MMM, marketing mix or media measurement vendors, and third-party attribution platforms.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "a1",
+    "t1",
+    "x2",
+    "h1",
+    "n2",
+    "m10",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r8",
+   "text": "Walmart Connect media measurement and Walmart Marketplace experience.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "a1",
+    "t1",
+    "h1",
+    "x2",
+    "m10",
+    "n2",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "Familiarity with a modern cloud data platform (Microsoft Fabric, Databricks, Snowflake, or BigQuery).",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m10",
+    "p3",
+    "a1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r10",
+   "text": "Python or R for analysis.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "p3",
+    "p6",
+    "s1",
+    "a1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r11",
+   "text": "Experience building or evaluating AI/LLM-assisted analytics and reporting workflows.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "m10",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "8+ years in analytics, with 3+ years leading people, in retail, CPG, e-commerce, or an agency/consultancy serving them.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [
+    "d1",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r13",
+   "text": "We're looking for a Director of Digital Analytics to own how our digital team measures, explains, and improves performance across every channel our brands sell in. These channel\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "s1",
+    "d1",
+    "m9",
+    "h1",
+    "m10",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r14",
+   "text": "Act as the ultimate authority on all KPIs and calculations. You will define exactly what every metric means, document the exact methodology for how it is calculated, and ensure \u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "a1",
+    "d1",
+    "h1",
+    "x2",
+    "t1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r15",
+   "text": "Set the standard for data quality and definitions. Own the metric dictionary and be the absolute final word when two dashboards disagree.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m10",
+    "d1",
+    "s1",
+    "a1",
+    "h1",
+    "x2",
+    "t1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r16",
+   "text": "Own digital performance measurement end to end. Define the metrics, methodology, and reporting cadence for sales, share, media, content, and availability across all channels.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "a1",
+    "x2",
+    "m10",
+    "m11",
+    "t1",
+    "h1",
+    "n2",
+    "s1",
+    "m9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r17",
+   "text": "Build the closed loop. Connect retail media and social spend to downstream sell-through and true incremental sales. Move the team off last-click and platform-reported ROAS towar\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "a1",
+    "m10",
+    "t1",
+    "m11",
+    "h1",
+    "x2",
+    "s1",
+    "n2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r18",
+   "text": "Own the measurement toolkit. Design and interpret incrementality tests, geo/DMA holdouts and matched-market reads, dayparting and flighting analysis, PDP and content quality mea\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "t1",
+    "x2",
+    "d1",
+    "h1",
+    "a1",
+    "n2",
+    "s1",
+    "p6",
+    "m9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "Translate data into decisions. Analyze category and portfolio trends to deliver meaningful macro insights for quarterly business reviews and joint business planning for brand an\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m11",
+    "h1",
+    "x2",
+    "d1",
+    "n2",
+    "m9",
+    "t1",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r20",
+   "text": "Partner with data engineering to translate commercial questions into data requirements \u2014 which retailer and platform feeds we need, at what level of detail, how often, and what \u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m11",
+    "a1",
+    "x2",
+    "m9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r21",
+   "text": "Lead and grow the team. Manage and mentor and raise the bar on analytical rigor, writing, and client-facing storytelling.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "d1",
+    "s1",
+    "n2",
+    "m11",
+    "t1",
+    "p6",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r22",
+   "text": "Be a commercial partner. Support new business and renewals with analytics-led narratives. Identify where our findings should become productized capability rather than one-off de\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m11",
+    "m9",
+    "a1",
+    "x2",
+    "n2",
+    "t1",
+    "p6",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r23",
+   "text": "If you set a high bar for yourself and then look for ways to clear it, you'll fit right in. We're looking for ambitious, self-motivated people who want their work to make a visi\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "s1",
+    "m10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r24",
+   "text": "The right candidate has lived inside these retailer ecosystems \u2014 not read about them. You know why Walmart's POS data and Amazon's shipped-COGS numbers don't reconcile, what cha\u2026",
+   "kind": "responsibility",
+   "weight": 2,
+   "coveredBy": [],
+   "gap": true
+  }
+ ],
+ "picks": [
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 49.25,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Demonstrated ownership of measurement for at least two major retail channels, one of which is Amazon or Walmart.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Ability to explain uncertainty honestly to a non-technical audience, and to say \"we can't measure that cleanly\" when it's true.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Experience with MMM, marketing mix or media measurement vendors, and third-party attribution platforms.",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "Walmart Connect media measurement and Walmart Marketplace experience.",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "Experience building or evaluating AI/LLM-assisted analytics and reporting workflows.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "8+ years in analytics, with 3+ years leading people, in retail, CPG, e-commerce, or an agency/consultancy serving them.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r13",
+     "text": "We're looking for a Director of Digital Analytics to own how our digital team measures, explains, and improves performance across every channel our brands sell in. These channel\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Act as the ultimate authority on all KPIs and calculations. You will define exactly what every metric means, document the exact methodology for how it is calculated, and ensure \u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Set the standard for data quality and definitions. Own the metric dictionary and be the absolute final word when two dashboards disagree.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Own digital performance measurement end to end. Define the metrics, methodology, and reporting cadence for sales, share, media, content, and availability across all channels.",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Build the closed loop. Connect retail media and social spend to downstream sell-through and true incremental sales. Move the team off last-click and platform-reported ROAS towar\u2026",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Own the measurement toolkit. Design and interpret incrementality tests, geo/DMA holdouts and matched-market reads, dayparting and flighting analysis, PDP and content quality mea\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Translate data into decisions. Analyze category and portfolio trends to deliver meaningful macro insights for quarterly business reviews and joint business planning for brand an\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Lead and grow the team. Manage and mentor and raise the bar on analytical rigor, writing, and client-facing storytelling.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Be a commercial partner. Support new business and renewals with analytics-led narratives. Identify where our findings should become productized capability rather than one-off de\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "If you set a high bar for yourself and then look for ways to clear it, you'll fit right in. We're looking for ambitious, self-motivated people who want their work to make a visi\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "h1",
+   "role": "ms-head",
+   "original": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "final": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 27.74,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Demonstrated ownership of measurement for at least two major retail channels, one of which is Amazon or Walmart.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Ability to explain uncertainty honestly to a non-technical audience, and to say \"we can't measure that cleanly\" when it's true.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Experience with MMM, marketing mix or media measurement vendors, and third-party attribution platforms.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Walmart Connect media measurement and Walmart Marketplace experience.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "We're looking for a Director of Digital Analytics to own how our digital team measures, explains, and improves performance across every channel our brands sell in. These channel\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Act as the ultimate authority on all KPIs and calculations. You will define exactly what every metric means, document the exact methodology for how it is calculated, and ensure \u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Set the standard for data quality and definitions. Own the metric dictionary and be the absolute final word when two dashboards disagree.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Own digital performance measurement end to end. Define the metrics, methodology, and reporting cadence for sales, share, media, content, and availability across all channels.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r17",
+     "text": "Build the closed loop. Connect retail media and social spend to downstream sell-through and true incremental sales. Move the team off last-click and platform-reported ROAS towar\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Own the measurement toolkit. Design and interpret incrementality tests, geo/DMA holdouts and matched-market reads, dayparting and flighting analysis, PDP and content quality mea\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Translate data into decisions. Analyze category and portfolio trends to deliver meaningful macro insights for quarterly business reviews and joint business planning for brand an\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Partner with data engineering to translate commercial questions into data requirements \u2014 which retailer and platform feeds we need, at what level of detail, how often, and what \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r21",
+     "text": "Lead and grow the team. Manage and mentor and raise the bar on analytical rigor, writing, and client-facing storytelling.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Be a commercial partner. Support new business and renewals with analytics-led narratives. Identify where our findings should become productized capability rather than one-off de\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "role": "ms-sal",
+   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 23.14,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Deep, hands-on Amazon experience across both 1P and 3P models.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Comfortable working directly with data \u2014 writing your own SQL queries and building your own views in a BI tool rather than waiting on someone else to pull numbers. Power BI pref\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Ability to explain uncertainty honestly to a non-technical audience, and to say \"we can't measure that cleanly\" when it's true.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Python or R for analysis.",
+     "skills": [
+      "r"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Experience building or evaluating AI/LLM-assisted analytics and reporting workflows.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "8+ years in analytics, with 3+ years leading people, in retail, CPG, e-commerce, or an agency/consultancy serving them.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r13",
+     "text": "We're looking for a Director of Digital Analytics to own how our digital team measures, explains, and improves performance across every channel our brands sell in. These channel\u2026",
+     "skills": [
+      "leadership",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r15",
+     "text": "Set the standard for data quality and definitions. Own the metric dictionary and be the absolute final word when two dashboards disagree.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Own digital performance measurement end to end. Define the metrics, methodology, and reporting cadence for sales, share, media, content, and availability across all channels.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Build the closed loop. Connect retail media and social spend to downstream sell-through and true incremental sales. Move the team off last-click and platform-reported ROAS towar\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Own the measurement toolkit. Design and interpret incrementality tests, geo/DMA holdouts and matched-market reads, dayparting and flighting analysis, PDP and content quality mea\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Translate data into decisions. Analyze category and portfolio trends to deliver meaningful macro insights for quarterly business reviews and joint business planning for brand an\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "Partner with data engineering to translate commercial questions into data requirements \u2014 which retailer and platform feeds we need, at what level of detail, how often, and what \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r21",
+     "text": "Lead and grow the team. Manage and mentor and raise the bar on analytical rigor, writing, and client-facing storytelling.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Be a commercial partner. Support new business and renewals with analytics-led narratives. Identify where our findings should become productized capability rather than one-off de\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r23",
+     "text": "If you set a high bar for yourself and then look for ways to clear it, you'll fit right in. We're looking for ambitious, self-motivated people who want their work to make a visi\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "a1",
+   "role": "ms-al",
+   "original": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
+   "final": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 22.68,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Demonstrated ownership of measurement for at least two major retail channels, one of which is Amazon or Walmart.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Comfortable working directly with data \u2014 writing your own SQL queries and building your own views in a BI tool rather than waiting on someone else to pull numbers. Power BI pref\u2026",
+     "skills": [
+      "sql",
+      "powerbi"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Ability to explain uncertainty honestly to a non-technical audience, and to say \"we can't measure that cleanly\" when it's true.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Experience with MMM, marketing mix or media measurement vendors, and third-party attribution platforms.",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "Walmart Connect media measurement and Walmart Marketplace experience.",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Familiarity with a modern cloud data platform (Microsoft Fabric, Databricks, Snowflake, or BigQuery).",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r10",
+     "text": "Python or R for analysis.",
+     "skills": [
+      "r"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Act as the ultimate authority on all KPIs and calculations. You will define exactly what every metric means, document the exact methodology for how it is calculated, and ensure \u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Set the standard for data quality and definitions. Own the metric dictionary and be the absolute final word when two dashboards disagree.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Own digital performance measurement end to end. Define the metrics, methodology, and reporting cadence for sales, share, media, content, and availability across all channels.",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Build the closed loop. Connect retail media and social spend to downstream sell-through and true incremental sales. Move the team off last-click and platform-reported ROAS towar\u2026",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Own the measurement toolkit. Design and interpret incrementality tests, geo/DMA holdouts and matched-market reads, dayparting and flighting analysis, PDP and content quality mea\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Translate data into decisions. Analyze category and portfolio trends to deliver meaningful macro insights for quarterly business reviews and joint business planning for brand an\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "Partner with data engineering to translate commercial questions into data requirements \u2014 which retailer and platform feeds we need, at what level of detail, how often, and what \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Lead and grow the team. Manage and mentor and raise the bar on analytical rigor, writing, and client-facing storytelling.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r22",
+     "text": "Be a commercial partner. Support new business and renewals with analytics-led narratives. Identify where our findings should become productized capability rather than one-off de\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "If you set a high bar for yourself and then look for ways to clear it, you'll fit right in. We're looking for ambitious, self-motivated people who want their work to make a visi\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "The right candidate has lived inside these retailer ecosystems \u2014 not read about them. You know why Walmart's POS data and Amazon's shipped-COGS numbers don't reconcile, what cha\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 12.06,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Demonstrated ownership of measurement for at least two major retail channels, one of which is Amazon or Walmart.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Ability to explain uncertainty honestly to a non-technical audience, and to say \"we can't measure that cleanly\" when it's true.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Experience with MMM, marketing mix or media measurement vendors, and third-party attribution platforms.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r8",
+     "text": "Walmart Connect media measurement and Walmart Marketplace experience.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Experience building or evaluating AI/LLM-assisted analytics and reporting workflows.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "We're looking for a Director of Digital Analytics to own how our digital team measures, explains, and improves performance across every channel our brands sell in. These channel\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Act as the ultimate authority on all KPIs and calculations. You will define exactly what every metric means, document the exact methodology for how it is calculated, and ensure \u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Set the standard for data quality and definitions. Own the metric dictionary and be the absolute final word when two dashboards disagree.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Own digital performance measurement end to end. Define the metrics, methodology, and reporting cadence for sales, share, media, content, and availability across all channels.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Build the closed loop. Connect retail media and social spend to downstream sell-through and true incremental sales. Move the team off last-click and platform-reported ROAS towar\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Own the measurement toolkit. Design and interpret incrementality tests, geo/DMA holdouts and matched-market reads, dayparting and flighting analysis, PDP and content quality mea\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r19",
+     "text": "Translate data into decisions. Analyze category and portfolio trends to deliver meaningful macro insights for quarterly business reviews and joint business planning for brand an\u2026",
+     "skills": [
+      "revenue"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Partner with data engineering to translate commercial questions into data requirements \u2014 which retailer and platform feeds we need, at what level of detail, how often, and what \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Be a commercial partner. Support new business and renewals with analytics-led narratives. Identify where our findings should become productized capability rather than one-off de\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "role": "hanapin",
+   "original": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "final": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 10.13,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Deep, hands-on Amazon experience across both 1P and 3P models.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Track record designing and interpreting incrementality tests and reading geographic/DMA-level performance.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r6",
+     "text": "Exceptional written and verbal communication. You can hold a room with a CMO and a category buyer in it.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Experience with MMM, marketing mix or media measurement vendors, and third-party attribution platforms.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Walmart Connect media measurement and Walmart Marketplace experience.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "We're looking for a Director of Digital Analytics to own how our digital team measures, explains, and improves performance across every channel our brands sell in. These channel\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Own digital performance measurement end to end. Define the metrics, methodology, and reporting cadence for sales, share, media, content, and availability across all channels.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Build the closed loop. Connect retail media and social spend to downstream sell-through and true incremental sales. Move the team off last-click and platform-reported ROAS towar\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Own the measurement toolkit. Design and interpret incrementality tests, geo/DMA holdouts and matched-market reads, dayparting and flighting analysis, PDP and content quality mea\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Translate data into decisions. Analyze category and portfolio trends to deliver meaningful macro insights for quarterly business reviews and joint business planning for brand an\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Lead and grow the team. Manage and mentor and raise the bar on analytical rigor, writing, and client-facing storytelling.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Be a commercial partner. Support new business and renewals with analytics-led narratives. Identify where our findings should become productized capability rather than one-off de\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "The right candidate has lived inside these retailer ecosystems \u2014 not read about them. You know why Walmart's POS data and Amazon's shipped-COGS numbers don't reconcile, what cha\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "role": "ms-dir",
+   "original": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "final": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 38.92,
+   "matched": [
+    {
+     "req": "r4",
+     "text": "Comfortable working directly with data \u2014 writing your own SQL queries and building your own views in a BI tool rather than waiting on someone else to pull numbers. Power BI pref\u2026",
+     "skills": [
+      "sql",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Experience with MMM, marketing mix or media measurement vendors, and third-party attribution platforms.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Walmart Connect media measurement and Walmart Marketplace experience.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Familiarity with a modern cloud data platform (Microsoft Fabric, Databricks, Snowflake, or BigQuery).",
+     "skills": [
+      "sql",
+      "fabric"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "Experience building or evaluating AI/LLM-assisted analytics and reporting workflows.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "We're looking for a Director of Digital Analytics to own how our digital team measures, explains, and improves performance across every channel our brands sell in. These channel\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Act as the ultimate authority on all KPIs and calculations. You will define exactly what every metric means, document the exact methodology for how it is calculated, and ensure \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Set the standard for data quality and definitions. Own the metric dictionary and be the absolute final word when two dashboards disagree.",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r16",
+     "text": "Own digital performance measurement end to end. Define the metrics, methodology, and reporting cadence for sales, share, media, content, and availability across all channels.",
+     "skills": [
+      "advertising",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Build the closed loop. Connect retail media and social spend to downstream sell-through and true incremental sales. Move the team off last-click and platform-reported ROAS towar\u2026",
+     "skills": [
+      "advertising",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Translate data into decisions. Analyze category and portfolio trends to deliver meaningful macro insights for quarterly business reviews and joint business planning for brand an\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "Partner with data engineering to translate commercial questions into data requirements \u2014 which retailer and platform feeds we need, at what level of detail, how often, and what \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r22",
+     "text": "Be a commercial partner. Support new business and renewals with analytics-led narratives. Identify where our findings should become productized capability rather than one-off de\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "If you set a high bar for yourself and then look for ways to clear it, you'll fit right in. We're looking for ambitious, self-motivated people who want their work to make a visi\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "role": "ms-dir",
+   "original": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "final": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 32.66,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Track record designing and interpreting incrementality tests and reading geographic/DMA-level performance.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Comfortable working directly with data \u2014 writing your own SQL queries and building your own views in a BI tool rather than waiting on someone else to pull numbers. Power BI pref\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Exceptional written and verbal communication. You can hold a room with a CMO and a category buyer in it.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Experience with MMM, marketing mix or media measurement vendors, and third-party attribution platforms.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Walmart Connect media measurement and Walmart Marketplace experience.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Familiarity with a modern cloud data platform (Microsoft Fabric, Databricks, Snowflake, or BigQuery).",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Python or R for analysis.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "Experience building or evaluating AI/LLM-assisted analytics and reporting workflows.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r13",
+     "text": "We're looking for a Director of Digital Analytics to own how our digital team measures, explains, and improves performance across every channel our brands sell in. These channel\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Act as the ultimate authority on all KPIs and calculations. You will define exactly what every metric means, document the exact methodology for how it is calculated, and ensure \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Set the standard for data quality and definitions. Own the metric dictionary and be the absolute final word when two dashboards disagree.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Own digital performance measurement end to end. Define the metrics, methodology, and reporting cadence for sales, share, media, content, and availability across all channels.",
+     "skills": [
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Build the closed loop. Connect retail media and social spend to downstream sell-through and true incremental sales. Move the team off last-click and platform-reported ROAS towar\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r18",
+     "text": "Own the measurement toolkit. Design and interpret incrementality tests, geo/DMA holdouts and matched-market reads, dayparting and flighting analysis, PDP and content quality mea\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "Translate data into decisions. Analyze category and portfolio trends to deliver meaningful macro insights for quarterly business reviews and joint business planning for brand an\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r20",
+     "text": "Partner with data engineering to translate commercial questions into data requirements \u2014 which retailer and platform feeds we need, at what level of detail, how often, and what \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "Lead and grow the team. Manage and mentor and raise the bar on analytical rigor, writing, and client-facing storytelling.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Be a commercial partner. Support new business and renewals with analytics-led narratives. Identify where our findings should become productized capability rather than one-off de\u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "The right candidate has lived inside these retailer ecosystems \u2014 not read about them. You know why Walmart's POS data and Amazon's shipped-COGS numbers don't reconcile, what cha\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 24.79,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Track record designing and interpreting incrementality tests and reading geographic/DMA-level performance.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Exceptional written and verbal communication. You can hold a room with a CMO and a category buyer in it.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Experience with MMM, marketing mix or media measurement vendors, and third-party attribution platforms.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Python or R for analysis.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "We're looking for a Director of Digital Analytics to own how our digital team measures, explains, and improves performance across every channel our brands sell in. These channel\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Own digital performance measurement end to end. Define the metrics, methodology, and reporting cadence for sales, share, media, content, and availability across all channels.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r17",
+     "text": "Build the closed loop. Connect retail media and social spend to downstream sell-through and true incremental sales. Move the team off last-click and platform-reported ROAS towar\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Own the measurement toolkit. Design and interpret incrementality tests, geo/DMA holdouts and matched-market reads, dayparting and flighting analysis, PDP and content quality mea\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r19",
+     "text": "Translate data into decisions. Analyze category and portfolio trends to deliver meaningful macro insights for quarterly business reviews and joint business planning for brand an\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Partner with data engineering to translate commercial questions into data requirements \u2014 which retailer and platform feeds we need, at what level of detail, how often, and what \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Lead and grow the team. Manage and mentor and raise the bar on analytical rigor, writing, and client-facing storytelling.",
+     "skills": [
+      "leadership",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r22",
+     "text": "Be a commercial partner. Support new business and renewals with analytics-led narratives. Identify where our findings should become productized capability rather than one-off de\u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "The right candidate has lived inside these retailer ecosystems \u2014 not read about them. You know why Walmart's POS data and Amazon's shipped-COGS numbers don't reconcile, what cha\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "role": "ms-al",
+   "original": "Created the Marketplace Rebound Gauge, a traffic-light signal of COVID recovery built on moving-average clustering, used in every vertical and later in EMEA",
+   "final": "Created the Marketplace Rebound Gauge, a traffic-light signal of COVID recovery built on moving-average clustering, used in every vertical and later in EMEA",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 23.17,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Deep, hands-on Amazon experience across both 1P and 3P models.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "Demonstrated ownership of measurement for at least two major retail channels, one of which is Amazon or Walmart.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Ability to explain uncertainty honestly to a non-technical audience, and to say \"we can't measure that cleanly\" when it's true.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Exceptional written and verbal communication. You can hold a room with a CMO and a category buyer in it.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Experience with MMM, marketing mix or media measurement vendors, and third-party attribution platforms.",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "Walmart Connect media measurement and Walmart Marketplace experience.",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Act as the ultimate authority on all KPIs and calculations. You will define exactly what every metric means, document the exact methodology for how it is calculated, and ensure \u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Set the standard for data quality and definitions. Own the metric dictionary and be the absolute final word when two dashboards disagree.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Own digital performance measurement end to end. Define the metrics, methodology, and reporting cadence for sales, share, media, content, and availability across all channels.",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Build the closed loop. Connect retail media and social spend to downstream sell-through and true incremental sales. Move the team off last-click and platform-reported ROAS towar\u2026",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Own the measurement toolkit. Design and interpret incrementality tests, geo/DMA holdouts and matched-market reads, dayparting and flighting analysis, PDP and content quality mea\u2026",
+     "skills": [
+      "stats",
+      "measurement"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Translate data into decisions. Analyze category and portfolio trends to deliver meaningful macro insights for quarterly business reviews and joint business planning for brand an\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Lead and grow the team. Manage and mentor and raise the bar on analytical rigor, writing, and client-facing storytelling.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Be a commercial partner. Support new business and renewals with analytics-led narratives. Identify where our findings should become productized capability rather than one-off de\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "role": "proj",
+   "original": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "final": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 11.49,
+   "matched": [
+    {
+     "req": "r4",
+     "text": "Comfortable working directly with data \u2014 writing your own SQL queries and building your own views in a BI tool rather than waiting on someone else to pull numbers. Power BI pref\u2026",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Familiarity with a modern cloud data platform (Microsoft Fabric, Databricks, Snowflake, or BigQuery).",
+     "skills": [
+      "sql",
+      "bigquery",
+      "cloud"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Python or R for analysis.",
+     "skills": [
+      "python"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "8+ years in analytics, with 3+ years leading people, in retail, CPG, e-commerce, or an agency/consultancy serving them.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "Partner with data engineering to translate commercial questions into data requirements \u2014 which retailer and platform feeds we need, at what level of detail, how often, and what \u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "p6",
+   "role": "proj",
+   "original": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "final": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 22.05,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Deep, hands-on Amazon experience across both 1P and 3P models.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Demonstrated ownership of measurement for at least two major retail channels, one of which is Amazon or Walmart.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Ability to explain uncertainty honestly to a non-technical audience, and to say \"we can't measure that cleanly\" when it's true.",
+     "skills": [
+      "data-journalism"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Exceptional written and verbal communication. You can hold a room with a CMO and a category buyer in it.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Python or R for analysis.",
+     "skills": [
+      "python"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "We're looking for a Director of Digital Analytics to own how our digital team measures, explains, and improves performance across every channel our brands sell in. These channel\u2026",
+     "skills": [
+      "data-journalism"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Set the standard for data quality and definitions. Own the metric dictionary and be the absolute final word when two dashboards disagree.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Own the measurement toolkit. Design and interpret incrementality tests, geo/DMA holdouts and matched-market reads, dayparting and flighting analysis, PDP and content quality mea\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Translate data into decisions. Analyze category and portfolio trends to deliver meaningful macro insights for quarterly business reviews and joint business planning for brand an\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Lead and grow the team. Manage and mentor and raise the bar on analytical rigor, writing, and client-facing storytelling.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Be a commercial partner. Support new business and renewals with analytics-led narratives. Identify where our findings should become productized capability rather than one-off de\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Built a travel COVID risk map from CDC, state regulation, population and search data, refreshed every two weeks, that a major client's CMO asked for regularly",
+   "why": "others covered the same ground better",
+   "score": 28.89
+  },
+  {
+   "text": "Led analysts in building a ZIP-code inclusion metric from US Census data that joins to internal advertising data",
+   "why": "others covered the same ground better",
+   "score": 22.48
+  },
+  {
+   "text": "Added Microsoft Clarity behavioral data to the team's query-pathing tool",
+   "why": "others covered the same ground better",
+   "score": 22.17
+  },
+  {
+   "text": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "why": "role already full",
+   "score": 21.95
+  },
+  {
+   "text": "Took over measurement of a cross-Microsoft partner program, defined its scope, won direct access to the data cube, and showed leadership the program's positive returns",
+   "why": "others covered the same ground better",
+   "score": 21.91
+  },
+  {
+   "text": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "why": "others covered the same ground better",
+   "score": 19.75
+  },
+  {
+   "text": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "why": "others covered the same ground better",
+   "score": 19.53
+  },
+  {
+   "text": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "why": "others covered the same ground better",
+   "score": 18.91
+  }
+ ],
+ "skills": [
+  "Measurement",
+  "Dashboards",
+  "Advertising",
+  "Data storytelling",
+  "SQL",
+  "Statistics",
+  "Data pipelines",
+  "Data journalism",
+  "Team leadership",
+  "Stakeholder management",
+  "R",
+  "Python",
+  "Power BI",
+  "Machine learning",
+  "Microsoft Fabric",
+  "BigQuery",
+  "Cloud",
+  "Forecasting",
+  "Revenue analytics",
+  "Strategy"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 8+ years; I have 12."
+  },
+  {
+   "kind": "location",
+   "status": "info",
+   "detail": "Mentions \"Hybrid\"; I check it against where I'd work."
+  }
+ ]
+}
