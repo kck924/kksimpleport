@@ -1,0 +1,1430 @@
+{
+ "id": "apvr4nmz",
+ "version": "1.5",
+ "created": "2026-11-01",
+ "job": {
+  "title": "Director, Insights & Analytics",
+  "company": "Antenna"
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 10
+ },
+ "fit": 71,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "10+ years in data analytics, insights, or research, including 4+ years leading and growing teams. You have a track record of hiring well, developing people, and retaining them",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "m8",
+    "d1",
+    "m1",
+    "m4",
+    "p1",
+    "t4",
+    "t1",
+    "n2",
+    "p2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "You have excellent editorial judgment. You can look at a set of findings and know which one is the story, what is merely true, and what should not go out at all",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "p1",
+    "t4",
+    "m10",
+    "p2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "You are client-facing. You have presented to senior external audiences, handled skepticism in the room, and come out with the relationship stronger",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "t4",
+    "n2",
+    "m8"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "You are technical enough to lead credibly. You understand data structures and their tradeoffs, you know how to make SQL-based output more efficient and reusable, and you have a \u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m10",
+    "d1",
+    "m9",
+    "m8"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "You have leadership presence. Peers, executives, and customers take your point of view seriously, and you are comfortable holding a position under pressure",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "t4",
+    "m1",
+    "x2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "Exceptional communication skills, with a proven record of distilling complex data for both technical and non-technical audiences, including C-suite and clients",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "p1",
+    "m9",
+    "t4",
+    "t1",
+    "n2",
+    "m8",
+    "p2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "Proven track record of cross-functional partnership across levels and functions to deliver business impact",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "t4",
+    "m9",
+    "m1",
+    "x2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r8",
+   "text": "Deep interest or experience in media and entertainment, and you thrive in fast-paced, feedback-driven environments",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m1",
+    "t1",
+    "n2",
+    "d1",
+    "m10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "You are organized. You bring structure to ambiguous work, and the systems you build outlast you",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r10",
+   "text": "You operate with urgency. You have a strong sense for when good enough now beats perfect later, and you move the team accordingly",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r11",
+   "text": "Set the editorial standard for Antenna's insights. You will decide what makes something worth publishing, push the quality of the analysis and the storytelling, and hold the lin\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "p1",
+    "p2",
+    "m9",
+    "m8",
+    "t4",
+    "t1",
+    "n2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "Build and lead a high-performing team of analysts. You will hire, develop, and retain high potential talent",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "m4",
+    "m9",
+    "m1",
+    "m8"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r13",
+   "text": "Bring a product mindset to how insights get made. You will act as the key stakeholder for internal tool development, specifying the tools, interfaces, and data access your team \u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "t4",
+    "m1",
+    "t1",
+    "x2",
+    "p1",
+    "n2",
+    "m8",
+    "p2",
+    "m10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r14",
+   "text": "Run the operation with real rigor. You will own the intake, prioritization, and resource management system that fulfills requests from customers, sales, and marketing, and you w\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "m4",
+    "m9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r15",
+   "text": "Define and track the KPIs that tell you whether the function is working, and use them to tighten workflows and reallocate effort",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "t1",
+    "x2",
+    "d1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r16",
+   "text": "In collaboration with Client Services partners, drive positive customer engagement. You will present findings, field hard questions, and build credibility with senior stakeholde\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "t4",
+    "m1",
+    "x2",
+    "n2",
+    "m8",
+    "m4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r17",
+   "text": "Partner with co-founders and leadership to identify where custom analytics can open up new opportunities across Antenna's data products",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "m1",
+    "t4",
+    "t1",
+    "x2",
+    "m10",
+    "d1",
+    "m8",
+    "m4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r18",
+   "text": "We are looking for a Director, Insights & Analytics to raise the bar on the insights Antenna puts in front of the market, and to build the team that produces them. This is a rol\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m9",
+    "t4",
+    "m8",
+    "p1",
+    "p2",
+    "m4",
+    "d1",
+    "m1",
+    "t1",
+    "n2",
+    "m10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "Stay hands-on. You will know when to step into the queue, into a deliverable, or into a thorny analysis to get the team where it needs to be",
+   "kind": "responsibility",
+   "weight": 2,
+   "coveredBy": [],
+   "gap": true
+  }
+ ],
+ "picks": [
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 41.58,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years in data analytics, insights, or research, including 4+ years leading and growing teams. You have a track record of hiring well, developing people, and retaining them",
+     "skills": [
+      "leadership",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "You are technical enough to lead credibly. You understand data structures and their tradeoffs, you know how to make SQL-based output more efficient and reusable, and you have a \u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "You have leadership presence. Peers, executives, and customers take your point of view seriously, and you are comfortable holding a position under pressure",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r6",
+     "text": "Exceptional communication skills, with a proven record of distilling complex data for both technical and non-technical audiences, including C-suite and clients",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Proven track record of cross-functional partnership across levels and functions to deliver business impact",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Set the editorial standard for Antenna's insights. You will decide what makes something worth publishing, push the quality of the analysis and the storytelling, and hold the lin\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r12",
+     "text": "Build and lead a high-performing team of analysts. You will hire, develop, and retain high potential talent",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Bring a product mindset to how insights get made. You will act as the key stakeholder for internal tool development, specifying the tools, interfaces, and data access your team \u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Run the operation with real rigor. You will own the intake, prioritization, and resource management system that fulfills requests from customers, sales, and marketing, and you w\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r16",
+     "text": "In collaboration with Client Services partners, drive positive customer engagement. You will present findings, field hard questions, and build credibility with senior stakeholde\u2026",
+     "skills": [
+      "product-analytics",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Partner with co-founders and leadership to identify where custom analytics can open up new opportunities across Antenna's data products",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "We are looking for a Director, Insights & Analytics to raise the bar on the insights Antenna puts in front of the market, and to build the team that produces them. This is a rol\u2026",
+     "skills": [
+      "leadership",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Stay hands-on. You will know when to step into the queue, into a deliverable, or into a thorny analysis to get the team where it needs to be",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m1",
+   "role": "ms-head",
+   "original": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "final": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 28.92,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years in data analytics, insights, or research, including 4+ years leading and growing teams. You have a track record of hiring well, developing people, and retaining them",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "You are technical enough to lead credibly. You understand data structures and their tradeoffs, you know how to make SQL-based output more efficient and reusable, and you have a \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "You have leadership presence. Peers, executives, and customers take your point of view seriously, and you are comfortable holding a position under pressure",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Proven track record of cross-functional partnership across levels and functions to deliver business impact",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Deep interest or experience in media and entertainment, and you thrive in fast-paced, feedback-driven environments",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Build and lead a high-performing team of analysts. You will hire, develop, and retain high potential talent",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Bring a product mindset to how insights get made. You will act as the key stakeholder for internal tool development, specifying the tools, interfaces, and data access your team \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "In collaboration with Client Services partners, drive positive customer engagement. You will present findings, field hard questions, and build credibility with senior stakeholde\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r17",
+     "text": "Partner with co-founders and leadership to identify where custom analytics can open up new opportunities across Antenna's data products",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "We are looking for a Director, Insights & Analytics to raise the bar on the insights Antenna puts in front of the market, and to build the team that produces them. This is a rol\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "role": "ms-sal",
+   "original": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "final": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 21.07,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years in data analytics, insights, or research, including 4+ years leading and growing teams. You have a track record of hiring well, developing people, and retaining them",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "You have excellent editorial judgment. You can look at a set of findings and know which one is the story, what is merely true, and what should not go out at all",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "You are client-facing. You have presented to senior external audiences, handled skepticism in the room, and come out with the relationship stronger",
+     "skills": [
+      "speaking"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "You have leadership presence. Peers, executives, and customers take your point of view seriously, and you are comfortable holding a position under pressure",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r6",
+     "text": "Exceptional communication skills, with a proven record of distilling complex data for both technical and non-technical audiences, including C-suite and clients",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Proven track record of cross-functional partnership across levels and functions to deliver business impact",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Set the editorial standard for Antenna's insights. You will decide what makes something worth publishing, push the quality of the analysis and the storytelling, and hold the lin\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Bring a product mindset to how insights get made. You will act as the key stakeholder for internal tool development, specifying the tools, interfaces, and data access your team \u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Run the operation with real rigor. You will own the intake, prioritization, and resource management system that fulfills requests from customers, sales, and marketing, and you w\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "In collaboration with Client Services partners, drive positive customer engagement. You will present findings, field hard questions, and build credibility with senior stakeholde\u2026",
+     "skills": [
+      "stakeholders",
+      "speaking"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "Partner with co-founders and leadership to identify where custom analytics can open up new opportunities across Antenna's data products",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "We are looking for a Director, Insights & Analytics to raise the bar on the insights Antenna puts in front of the market, and to build the team that produces them. This is a rol\u2026",
+     "skills": [
+      "storytelling",
+      "dashboards"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "role": "ms-al",
+   "original": "Created the Marketplace Rebound Gauge, a traffic-light signal of COVID recovery built on moving-average clustering, used in every vertical and later in EMEA",
+   "final": "Created the Marketplace Rebound Gauge, a traffic-light signal of COVID recovery built on moving-average clustering, used in every vertical and later in EMEA",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 10.7,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years in data analytics, insights, or research, including 4+ years leading and growing teams. You have a track record of hiring well, developing people, and retaining them",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Exceptional communication skills, with a proven record of distilling complex data for both technical and non-technical audiences, including C-suite and clients",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Deep interest or experience in media and entertainment, and you thrive in fast-paced, feedback-driven environments",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "You operate with urgency. You have a strong sense for when good enough now beats perfect later, and you move the team accordingly",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "Set the editorial standard for Antenna's insights. You will decide what makes something worth publishing, push the quality of the analysis and the storytelling, and hold the lin\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Bring a product mindset to how insights get made. You will act as the key stakeholder for internal tool development, specifying the tools, interfaces, and data access your team \u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Define and track the KPIs that tell you whether the function is working, and use them to tighten workflows and reallocate effort",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Partner with co-founders and leadership to identify where custom analytics can open up new opportunities across Antenna's data products",
+     "skills": [
+      "data-products"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "We are looking for a Director, Insights & Analytics to raise the bar on the insights Antenna puts in front of the market, and to build the team that produces them. This is a rol\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 5.47,
+   "matched": [
+    {
+     "req": "r5",
+     "text": "You have leadership presence. Peers, executives, and customers take your point of view seriously, and you are comfortable holding a position under pressure",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Proven track record of cross-functional partnership across levels and functions to deliver business impact",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Bring a product mindset to how insights get made. You will act as the key stakeholder for internal tool development, specifying the tools, interfaces, and data access your team \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Run the operation with real rigor. You will own the intake, prioritization, and resource management system that fulfills requests from customers, sales, and marketing, and you w\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Define and track the KPIs that tell you whether the function is working, and use them to tighten workflows and reallocate effort",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "In collaboration with Client Services partners, drive positive customer engagement. You will present findings, field hard questions, and build credibility with senior stakeholde\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Partner with co-founders and leadership to identify where custom analytics can open up new opportunities across Antenna's data products",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "We are looking for a Director, Insights & Analytics to raise the bar on the insights Antenna puts in front of the market, and to build the team that produces them. This is a rol\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "role": "hanapin",
+   "original": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "final": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 7.24,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years in data analytics, insights, or research, including 4+ years leading and growing teams. You have a track record of hiring well, developing people, and retaining them",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "You are client-facing. You have presented to senior external audiences, handled skepticism in the room, and come out with the relationship stronger",
+     "skills": [
+      "speaking"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Exceptional communication skills, with a proven record of distilling complex data for both technical and non-technical audiences, including C-suite and clients",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Deep interest or experience in media and entertainment, and you thrive in fast-paced, feedback-driven environments",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Set the editorial standard for Antenna's insights. You will decide what makes something worth publishing, push the quality of the analysis and the storytelling, and hold the lin\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Bring a product mindset to how insights get made. You will act as the key stakeholder for internal tool development, specifying the tools, interfaces, and data access your team \u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "In collaboration with Client Services partners, drive positive customer engagement. You will present findings, field hard questions, and build credibility with senior stakeholde\u2026",
+     "skills": [
+      "speaking"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "We are looking for a Director, Insights & Analytics to raise the bar on the insights Antenna puts in front of the market, and to build the team that produces them. This is a rol\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 28.34,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years in data analytics, insights, or research, including 4+ years leading and growing teams. You have a track record of hiring well, developing people, and retaining them",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r2",
+     "text": "You have excellent editorial judgment. You can look at a set of findings and know which one is the story, what is merely true, and what should not go out at all",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "You are technical enough to lead credibly. You understand data structures and their tradeoffs, you know how to make SQL-based output more efficient and reusable, and you have a \u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "You have leadership presence. Peers, executives, and customers take your point of view seriously, and you are comfortable holding a position under pressure",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Deep interest or experience in media and entertainment, and you thrive in fast-paced, feedback-driven environments",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Set the editorial standard for Antenna's insights. You will decide what makes something worth publishing, push the quality of the analysis and the storytelling, and hold the lin\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Build and lead a high-performing team of analysts. You will hire, develop, and retain high potential talent",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r14",
+     "text": "Run the operation with real rigor. You will own the intake, prioritization, and resource management system that fulfills requests from customers, sales, and marketing, and you w\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Define and track the KPIs that tell you whether the function is working, and use them to tighten workflows and reallocate effort",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "In collaboration with Client Services partners, drive positive customer engagement. You will present findings, field hard questions, and build credibility with senior stakeholde\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Partner with co-founders and leadership to identify where custom analytics can open up new opportunities across Antenna's data products",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r18",
+     "text": "We are looking for a Director, Insights & Analytics to raise the bar on the insights Antenna puts in front of the market, and to build the team that produces them. This is a rol\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "role": "ms-dir",
+   "original": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "final": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 19.37,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years in data analytics, insights, or research, including 4+ years leading and growing teams. You have a track record of hiring well, developing people, and retaining them",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "You have excellent editorial judgment. You can look at a set of findings and know which one is the story, what is merely true, and what should not go out at all",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "You are technical enough to lead credibly. You understand data structures and their tradeoffs, you know how to make SQL-based output more efficient and reusable, and you have a \u2026",
+     "skills": [
+      "genai",
+      "sql"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Proven track record of cross-functional partnership across levels and functions to deliver business impact",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Deep interest or experience in media and entertainment, and you thrive in fast-paced, feedback-driven environments",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Build and lead a high-performing team of analysts. You will hire, develop, and retain high potential talent",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Bring a product mindset to how insights get made. You will act as the key stakeholder for internal tool development, specifying the tools, interfaces, and data access your team \u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r17",
+     "text": "Partner with co-founders and leadership to identify where custom analytics can open up new opportunities across Antenna's data products",
+     "skills": [
+      "data-products"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "We are looking for a Director, Insights & Analytics to raise the bar on the insights Antenna puts in front of the market, and to build the team that produces them. This is a rol\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m8",
+   "role": "ms-head",
+   "original": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "final": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 20.75,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years in data analytics, insights, or research, including 4+ years leading and growing teams. You have a track record of hiring well, developing people, and retaining them",
+     "skills": [
+      "leadership",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "You are client-facing. You have presented to senior external audiences, handled skepticism in the room, and come out with the relationship stronger",
+     "skills": [
+      "speaking"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "You are technical enough to lead credibly. You understand data structures and their tradeoffs, you know how to make SQL-based output more efficient and reusable, and you have a \u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "You have leadership presence. Peers, executives, and customers take your point of view seriously, and you are comfortable holding a position under pressure",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Exceptional communication skills, with a proven record of distilling complex data for both technical and non-technical audiences, including C-suite and clients",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Set the editorial standard for Antenna's insights. You will decide what makes something worth publishing, push the quality of the analysis and the storytelling, and hold the lin\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r12",
+     "text": "Build and lead a high-performing team of analysts. You will hire, develop, and retain high potential talent",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Bring a product mindset to how insights get made. You will act as the key stakeholder for internal tool development, specifying the tools, interfaces, and data access your team \u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "In collaboration with Client Services partners, drive positive customer engagement. You will present findings, field hard questions, and build credibility with senior stakeholde\u2026",
+     "skills": [
+      "speaking"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Partner with co-founders and leadership to identify where custom analytics can open up new opportunities across Antenna's data products",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r18",
+     "text": "We are looking for a Director, Insights & Analytics to raise the bar on the insights Antenna puts in front of the market, and to build the team that produces them. This is a rol\u2026",
+     "skills": [
+      "leadership",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Stay hands-on. You will know when to step into the queue, into a deliverable, or into a thorny analysis to get the team where it needs to be",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "role": "ms-head",
+   "original": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "final": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 12.27,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years in data analytics, insights, or research, including 4+ years leading and growing teams. You have a track record of hiring well, developing people, and retaining them",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "You have leadership presence. Peers, executives, and customers take your point of view seriously, and you are comfortable holding a position under pressure",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "You are organized. You bring structure to ambiguous work, and the systems you build outlast you",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Build and lead a high-performing team of analysts. You will hire, develop, and retain high potential talent",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r13",
+     "text": "Bring a product mindset to how insights get made. You will act as the key stakeholder for internal tool development, specifying the tools, interfaces, and data access your team \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Run the operation with real rigor. You will own the intake, prioritization, and resource management system that fulfills requests from customers, sales, and marketing, and you w\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "In collaboration with Client Services partners, drive positive customer engagement. You will present findings, field hard questions, and build credibility with senior stakeholde\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r17",
+     "text": "Partner with co-founders and leadership to identify where custom analytics can open up new opportunities across Antenna's data products",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r18",
+     "text": "We are looking for a Director, Insights & Analytics to raise the bar on the insights Antenna puts in front of the market, and to build the team that produces them. This is a rol\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "role": "proj",
+   "original": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "final": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 17.24,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years in data analytics, insights, or research, including 4+ years leading and growing teams. You have a track record of hiring well, developing people, and retaining them",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "You have excellent editorial judgment. You can look at a set of findings and know which one is the story, what is merely true, and what should not go out at all",
+     "skills": [
+      "data-journalism"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "You are technical enough to lead credibly. You understand data structures and their tradeoffs, you know how to make SQL-based output more efficient and reusable, and you have a \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Exceptional communication skills, with a proven record of distilling complex data for both technical and non-technical audiences, including C-suite and clients",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Deep interest or experience in media and entertainment, and you thrive in fast-paced, feedback-driven environments",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "Set the editorial standard for Antenna's insights. You will decide what makes something worth publishing, push the quality of the analysis and the storytelling, and hold the lin\u2026",
+     "skills": [
+      "storytelling",
+      "data-journalism"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "Bring a product mindset to how insights get made. You will act as the key stakeholder for internal tool development, specifying the tools, interfaces, and data access your team \u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Partner with co-founders and leadership to identify where custom analytics can open up new opportunities across Antenna's data products",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "We are looking for a Director, Insights & Analytics to raise the bar on the insights Antenna puts in front of the market, and to build the team that produces them. This is a rol\u2026",
+     "skills": [
+      "storytelling",
+      "data-journalism"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "p2",
+   "role": "proj",
+   "original": "When Did Purple Become a Halloween Color?: pixel analysis of 3,000 images, from vintage postcards to 27 years of Google Doodles, with Python and D3",
+   "final": "When Did Purple Become a Halloween Color?: pixel analysis of 3,000 images, from vintage postcards to 27 years of Google Doodles, with Python and D3",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 13.86,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years in data analytics, insights, or research, including 4+ years leading and growing teams. You have a track record of hiring well, developing people, and retaining them",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "You have excellent editorial judgment. You can look at a set of findings and know which one is the story, what is merely true, and what should not go out at all",
+     "skills": [
+      "data-journalism"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Exceptional communication skills, with a proven record of distilling complex data for both technical and non-technical audiences, including C-suite and clients",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Set the editorial standard for Antenna's insights. You will decide what makes something worth publishing, push the quality of the analysis and the storytelling, and hold the lin\u2026",
+     "skills": [
+      "storytelling",
+      "data-journalism"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "Bring a product mindset to how insights get made. You will act as the key stakeholder for internal tool development, specifying the tools, interfaces, and data access your team \u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "We are looking for a Director, Insights & Analytics to raise the bar on the insights Antenna puts in front of the market, and to build the team that produces them. This is a rol\u2026",
+     "skills": [
+      "storytelling",
+      "data-journalism"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Stay hands-on. You will know when to step into the queue, into a deliverable, or into a thorny analysis to get the team where it needs to be",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "why": "others covered the same ground better",
+   "score": 33.41
+  },
+  {
+   "text": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "why": "others covered the same ground better",
+   "score": 28.01
+  },
+  {
+   "text": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "why": "others covered the same ground better",
+   "score": 25.48
+  },
+  {
+   "text": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "why": "others covered the same ground better",
+   "score": 23.49
+  },
+  {
+   "text": "Secured new MSN content datasets, built an MSN insights prototype with the team, and took it to sellers and marketing once MSN leaders approved it",
+   "why": "others covered the same ground better",
+   "score": 20.49
+  },
+  {
+   "text": "Ran a roundtable with a regional sales VP's leadership team to answer their doubts about advanced analytics",
+   "why": "others covered the same ground better",
+   "score": 19.91
+  },
+  {
+   "text": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "why": "others covered the same ground better",
+   "score": 19.25
+  },
+  {
+   "text": "Beat client-engagement targets in both verticals in 2024 (119% and 125%) and met them in late 2023 with automotive at about half capacity",
+   "why": "others covered the same ground better",
+   "score": 15.69
+  }
+ ],
+ "skills": [
+  "Stakeholder management",
+  "Data storytelling",
+  "Team leadership",
+  "Data journalism",
+  "Public speaking",
+  "Dashboards",
+  "Advertising",
+  "Generative AI",
+  "SQL",
+  "Measurement",
+  "Data products",
+  "Product analytics",
+  "Strategy"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 10+ years; I have 12."
+  },
+  {
+   "kind": "authorization",
+   "status": "info",
+   "detail": "Asks about work authorization or sponsorship."
+  }
+ ]
+}
