@@ -1,0 +1,1031 @@
+{
+ "id": "nevs76sy",
+ "version": "1.5",
+ "created": "2026-11-02",
+ "job": {
+  "title": "Senior Principal, Competitive Intelligence - Careers at Airbnb",
+  "company": ""
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 10
+ },
+ "fit": 71,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "Competitive Monitoring: Develop and manage regular reporting to review key metrics across marketplace and product; track developing news and industry trends; lead monthly leader\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "t4",
+    "t3",
+    "m13",
+    "n1",
+    "d1",
+    "m11",
+    "m9",
+    "x2",
+    "m8",
+    "p5",
+    "m6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "Strategic Deep Dives: Partner with key stakeholders across Supply, Global Markets, Product, and Marketing to conduct deep dives that will inform key decisions",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "m13",
+    "t4",
+    "x2",
+    "n1",
+    "d1",
+    "m11",
+    "t3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "Data Strategy: Lead the competitive intelligence data strategy \u2014 evaluate data required to achieve key growth initiatives and potential data sources; own relationships with exte\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "t3",
+    "n1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Cross-Functional Enablement: Ensure competitive insights and datasets are accessible and actionable for XFN teams; partner with Engineering and Data teams to deliver reliable re\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "m13",
+    "t4",
+    "m8",
+    "m11",
+    "x2",
+    "t3",
+    "n1",
+    "p5"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "12+ years of relevant business and insights experience. Ideally you have a mix of finance and analytics, management consulting, investment banking, and/or business operations.",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m13",
+    "t3",
+    "m8",
+    "m11",
+    "m9",
+    "t4"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "AI proficient or able to become AI proficient (Claude or Gemini).",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "p3",
+    "m9",
+    "d1",
+    "m8",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "Ability to work and influence cross-functionally. You will need to partner across internal and external partners - proactively facilitating connections between teams",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "m13",
+    "t4",
+    "x2",
+    "n1",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r8",
+   "text": "Strong communication skills with audiences at various levels. You enjoy working with fragmented and synthesizing it into a story with recommendations",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "t4",
+    "m9",
+    "m13",
+    "t3",
+    "m8",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "Advanced presentation skills (Google Docs, Keynote, Excel)",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "t4",
+    "m8",
+    "m9",
+    "m13",
+    "t3",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r10",
+   "text": "Airbnb is committed to working with the broadest talent pool possible. We believe diverse ideas foster innovation and engagement, and allow us to attract creatively-led people, \u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "m13",
+    "m6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r11",
+   "text": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arri\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "p3",
+    "p5"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "Our Commitment To Inclusion & Belonging:",
+   "kind": "responsibility",
+   "weight": 2,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r13",
+   "text": "We ask that you only reach out to us if you are a candidate whose disability prevents you from being able to complete our online application.",
+   "kind": "responsibility",
+   "weight": 2,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r14",
+   "text": "Senior Principal, Competitive Intelligence - Careers at Airbnb",
+   "kind": "other",
+   "weight": 1.5,
+   "coveredBy": [],
+   "gap": true
+  }
+ ],
+ "picks": [
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 25.6,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Competitive Monitoring: Develop and manage regular reporting to review key metrics across marketplace and product; track developing news and industry trends; lead monthly leader\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Strategic Deep Dives: Partner with key stakeholders across Supply, Global Markets, Product, and Marketing to conduct deep dives that will inform key decisions",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Data Strategy: Lead the competitive intelligence data strategy \u2014 evaluate data required to achieve key growth initiatives and potential data sources; own relationships with exte\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Cross-Functional Enablement: Ensure competitive insights and datasets are accessible and actionable for XFN teams; partner with Engineering and Data teams to deliver reliable re\u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "12+ years of relevant business and insights experience. Ideally you have a mix of finance and analytics, management consulting, investment banking, and/or business operations.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "AI proficient or able to become AI proficient (Claude or Gemini).",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Ability to work and influence cross-functionally. You will need to partner across internal and external partners - proactively facilitating connections between teams",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Strong communication skills with audiences at various levels. You enjoy working with fragmented and synthesizing it into a story with recommendations",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Advanced presentation skills (Google Docs, Keynote, Excel)",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Airbnb is committed to working with the broadest talent pool possible. We believe diverse ideas foster innovation and engagement, and allow us to attract creatively-led people, \u2026",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m13",
+   "role": "ms-head",
+   "original": "Secured new MSN content datasets, built an MSN insights prototype with the team, and took it to sellers and marketing once MSN leaders approved it",
+   "final": "Secured new MSN content datasets, built an MSN insights prototype with the team, and took it to sellers and marketing once MSN leaders approved it",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 14.03,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Competitive Monitoring: Develop and manage regular reporting to review key metrics across marketplace and product; track developing news and industry trends; lead monthly leader\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r2",
+     "text": "Strategic Deep Dives: Partner with key stakeholders across Supply, Global Markets, Product, and Marketing to conduct deep dives that will inform key decisions",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r3",
+     "text": "Data Strategy: Lead the competitive intelligence data strategy \u2014 evaluate data required to achieve key growth initiatives and potential data sources; own relationships with exte\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Cross-Functional Enablement: Ensure competitive insights and datasets are accessible and actionable for XFN teams; partner with Engineering and Data teams to deliver reliable re\u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "12+ years of relevant business and insights experience. Ideally you have a mix of finance and analytics, management consulting, investment banking, and/or business operations.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Ability to work and influence cross-functionally. You will need to partner across internal and external partners - proactively facilitating connections between teams",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Strong communication skills with audiences at various levels. You enjoy working with fragmented and synthesizing it into a story with recommendations",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Advanced presentation skills (Google Docs, Keynote, Excel)",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Airbnb is committed to working with the broadest talent pool possible. We believe diverse ideas foster innovation and engagement, and allow us to attract creatively-led people, \u2026",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "role": "ms-sal",
+   "original": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "final": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 11.93,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Competitive Monitoring: Develop and manage regular reporting to review key metrics across marketplace and product; track developing news and industry trends; lead monthly leader\u2026",
+     "skills": [
+      "storytelling",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r2",
+     "text": "Strategic Deep Dives: Partner with key stakeholders across Supply, Global Markets, Product, and Marketing to conduct deep dives that will inform key decisions",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r4",
+     "text": "Cross-Functional Enablement: Ensure competitive insights and datasets are accessible and actionable for XFN teams; partner with Engineering and Data teams to deliver reliable re\u2026",
+     "skills": [
+      "storytelling",
+      "dashboards",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "12+ years of relevant business and insights experience. Ideally you have a mix of finance and analytics, management consulting, investment banking, and/or business operations.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Ability to work and influence cross-functionally. You will need to partner across internal and external partners - proactively facilitating connections between teams",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Strong communication skills with audiences at various levels. You enjoy working with fragmented and synthesizing it into a story with recommendations",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Advanced presentation skills (Google Docs, Keynote, Excel)",
+     "skills": [
+      "storytelling",
+      "speaking"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "role": "ms-al",
+   "original": "Created Bite-Sized Insights, a short format adopted across verticals and regions; the first put the team on record about COVID a month before the travel industry",
+   "final": "Created Bite-Sized Insights, a short format adopted across verticals and regions; the first put the team on record about COVID a month before the travel industry",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 8.67,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Competitive Monitoring: Develop and manage regular reporting to review key metrics across marketplace and product; track developing news and industry trends; lead monthly leader\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r2",
+     "text": "Strategic Deep Dives: Partner with key stakeholders across Supply, Global Markets, Product, and Marketing to conduct deep dives that will inform key decisions",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Data Strategy: Lead the competitive intelligence data strategy \u2014 evaluate data required to achieve key growth initiatives and potential data sources; own relationships with exte\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Cross-Functional Enablement: Ensure competitive insights and datasets are accessible and actionable for XFN teams; partner with Engineering and Data teams to deliver reliable re\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "12+ years of relevant business and insights experience. Ideally you have a mix of finance and analytics, management consulting, investment banking, and/or business operations.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Strong communication skills with audiences at various levels. You enjoy working with fragmented and synthesizing it into a story with recommendations",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Advanced presentation skills (Google Docs, Keynote, Excel)",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 3.71,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Competitive Monitoring: Develop and manage regular reporting to review key metrics across marketplace and product; track developing news and industry trends; lead monthly leader\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Strategic Deep Dives: Partner with key stakeholders across Supply, Global Markets, Product, and Marketing to conduct deep dives that will inform key decisions",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r4",
+     "text": "Cross-Functional Enablement: Ensure competitive insights and datasets are accessible and actionable for XFN teams; partner with Engineering and Data teams to deliver reliable re\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r5",
+     "text": "12+ years of relevant business and insights experience. Ideally you have a mix of finance and analytics, management consulting, investment banking, and/or business operations.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "Ability to work and influence cross-functionally. You will need to partner across internal and external partners - proactively facilitating connections between teams",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "n1",
+   "role": "hanapin",
+   "original": "Ran client relationships and strategy for search and display accounts on Google Ads, Bing Ads and Yahoo, including optimization, monitoring and reporting",
+   "final": "Ran client relationships and strategy for search and display accounts on Google Ads, Bing Ads and Yahoo, including optimization, monitoring and reporting",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 4.74,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Competitive Monitoring: Develop and manage regular reporting to review key metrics across marketplace and product; track developing news and industry trends; lead monthly leader\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r2",
+     "text": "Strategic Deep Dives: Partner with key stakeholders across Supply, Global Markets, Product, and Marketing to conduct deep dives that will inform key decisions",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Data Strategy: Lead the competitive intelligence data strategy \u2014 evaluate data required to achieve key growth initiatives and potential data sources; own relationships with exte\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r4",
+     "text": "Cross-Functional Enablement: Ensure competitive insights and datasets are accessible and actionable for XFN teams; partner with Engineering and Data teams to deliver reliable re\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Ability to work and influence cross-functionally. You will need to partner across internal and external partners - proactively facilitating connections between teams",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Advanced presentation skills (Google Docs, Keynote, Excel)",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 14.23,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Competitive Monitoring: Develop and manage regular reporting to review key metrics across marketplace and product; track developing news and industry trends; lead monthly leader\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r2",
+     "text": "Strategic Deep Dives: Partner with key stakeholders across Supply, Global Markets, Product, and Marketing to conduct deep dives that will inform key decisions",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Data Strategy: Lead the competitive intelligence data strategy \u2014 evaluate data required to achieve key growth initiatives and potential data sources; own relationships with exte\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r5",
+     "text": "12+ years of relevant business and insights experience. Ideally you have a mix of finance and analytics, management consulting, investment banking, and/or business operations.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "AI proficient or able to become AI proficient (Claude or Gemini).",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Airbnb is committed to working with the broadest talent pool possible. We believe diverse ideas foster innovation and engagement, and allow us to attract creatively-led people, \u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m8",
+   "role": "ms-head",
+   "original": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "final": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 12.19,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Competitive Monitoring: Develop and manage regular reporting to review key metrics across marketplace and product; track developing news and industry trends; lead monthly leader\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Cross-Functional Enablement: Ensure competitive insights and datasets are accessible and actionable for XFN teams; partner with Engineering and Data teams to deliver reliable re\u2026",
+     "skills": [
+      "storytelling",
+      "enablement"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "12+ years of relevant business and insights experience. Ideally you have a mix of finance and analytics, management consulting, investment banking, and/or business operations.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "AI proficient or able to become AI proficient (Claude or Gemini).",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Strong communication skills with audiences at various levels. You enjoy working with fragmented and synthesizing it into a story with recommendations",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Advanced presentation skills (Google Docs, Keynote, Excel)",
+     "skills": [
+      "storytelling",
+      "speaking"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arri\u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "role": "ms-dir",
+   "original": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "final": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 19.34,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Competitive Monitoring: Develop and manage regular reporting to review key metrics across marketplace and product; track developing news and industry trends; lead monthly leader\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r2",
+     "text": "Strategic Deep Dives: Partner with key stakeholders across Supply, Global Markets, Product, and Marketing to conduct deep dives that will inform key decisions",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Data Strategy: Lead the competitive intelligence data strategy \u2014 evaluate data required to achieve key growth initiatives and potential data sources; own relationships with exte\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Cross-Functional Enablement: Ensure competitive insights and datasets are accessible and actionable for XFN teams; partner with Engineering and Data teams to deliver reliable re\u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "12+ years of relevant business and insights experience. Ideally you have a mix of finance and analytics, management consulting, investment banking, and/or business operations.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "AI proficient or able to become AI proficient (Claude or Gemini).",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Ability to work and influence cross-functionally. You will need to partner across internal and external partners - proactively facilitating connections between teams",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Strong communication skills with audiences at various levels. You enjoy working with fragmented and synthesizing it into a story with recommendations",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Advanced presentation skills (Google Docs, Keynote, Excel)",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m6",
+   "role": "ms-head",
+   "original": "Coached analysts to 3 promotions and moved much of the team from junior to senior band",
+   "final": "Coached analysts to 3 promotions and moved much of the team from junior to senior band",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 1.75,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Competitive Monitoring: Develop and manage regular reporting to review key metrics across marketplace and product; track developing news and industry trends; lead monthly leader\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r10",
+     "text": "Airbnb is committed to working with the broadest talent pool possible. We believe diverse ideas foster innovation and engagement, and allow us to attract creatively-led people, \u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r14",
+     "text": "Senior Principal, Competitive Intelligence - Careers at Airbnb",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "role": "proj",
+   "original": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "final": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 4.44,
+   "matched": [
+    {
+     "req": "r6",
+     "text": "AI proficient or able to become AI proficient (Claude or Gemini).",
+     "skills": [
+      "genai",
+      "llm-apps"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arri\u2026",
+     "skills": [
+      "cloud"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p5",
+   "role": "proj",
+   "original": "Beasts of Bellevue: full-stack fantasy football analytics dashboard with 40+ components, built in React and deployed on Firebase",
+   "final": "Beasts of Bellevue: full-stack fantasy football analytics dashboard with 40+ components, built in React and deployed on Firebase",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 4.53,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Competitive Monitoring: Develop and manage regular reporting to review key metrics across marketplace and product; track developing news and industry trends; lead monthly leader\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Cross-Functional Enablement: Ensure competitive insights and datasets are accessible and actionable for XFN teams; partner with Engineering and Data teams to deliver reliable re\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "12+ years of relevant business and insights experience. Ideally you have a mix of finance and analytics, management consulting, investment banking, and/or business operations.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arri\u2026",
+     "skills": [
+      "cloud"
+     ],
+     "m": 0.6
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "why": "others covered the same ground better",
+   "score": 16.5
+  },
+  {
+   "text": "Ran a roundtable with a regional sales VP's leadership team to answer their doubts about advanced analytics",
+   "why": "others covered the same ground better",
+   "score": 13.35
+  },
+  {
+   "text": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "why": "others covered the same ground better",
+   "score": 12.88
+  },
+  {
+   "text": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "why": "others covered the same ground better",
+   "score": 10.5
+  },
+  {
+   "text": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "why": "role already full",
+   "score": 9.82
+  },
+  {
+   "text": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "why": "others covered the same ground better",
+   "score": 9.63
+  },
+  {
+   "text": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "why": "role already full",
+   "score": 9.44
+  },
+  {
+   "text": "When Did Purple Become a Halloween Color?: pixel analysis of 3,000 images, from vintage postcards to 27 years of Google Doodles, with Python and D3",
+   "why": "role already full",
+   "score": 9.08
+  }
+ ],
+ "skills": [
+  "Data storytelling",
+  "Stakeholder management",
+  "Dashboards",
+  "Strategy",
+  "Measurement",
+  "Generative AI",
+  "Excel",
+  "Anomaly detection",
+  "Product analytics",
+  "Analytics training",
+  "Public speaking",
+  "LLM applications",
+  "Cloud"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 12+ years; I have 12."
+  }
+ ]
+}
