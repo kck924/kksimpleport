@@ -1,0 +1,1466 @@
+{
+ "id": "7ckg2crs",
+ "version": "1.5",
+ "created": "2026-11-02",
+ "job": {
+  "title": "Director, Analytics - B2B Growth (Remote)",
+  "company": "Snap Finance US"
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 10
+ },
+ "fit": 53,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "3+ years of direct people management experience, leading and developing high-performing teams.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "d1",
+    "m1",
+    "m9",
+    "m7",
+    "t3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "10+ years of experience in analytics, strategy, or growth roles within B2B, fintech, or financial services environments, with demonstrated success across both enterprise and SMB\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "h2",
+    "m7",
+    "s1",
+    "t3",
+    "n2",
+    "m9",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "Proven ability to generate revenue impact through analytics in sales, marketing, and partner growth contexts.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "h2",
+    "x2",
+    "m7",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Deep experience supporting enterprise partnership development\u2014including forecasting, RFP response analytics, and market research.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m7",
+    "h2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "Strong understanding of lead qualification, funnel conversion, and lifecycle management in SMB contexts.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "d1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "Expertise in SQL and familiarity with Python or R for analytics and predictive modeling; ability to partner effectively with Data Engineering and Data Science teams.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "h2",
+    "m7",
+    "x2",
+    "m10",
+    "p2",
+    "m9",
+    "n2",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "Experience conducting web scraping and third-party data acquisition for market intelligence and strategic research.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "h2",
+    "m7",
+    "t3",
+    "d1",
+    "p8"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r8",
+   "text": "Proficiency with modern analytics tools (e.g., Snowflake, dbt, Tableau, Looker, Amplitude).",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m10",
+    "s1",
+    "p8"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "Excellent storytelling, communication, and executive influence skills; capable of turning complex data into business-aligned insights.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "t3",
+    "n2",
+    "p2",
+    "m7",
+    "x2",
+    "m1",
+    "h2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r10",
+   "text": "Bachelor\u2019s degree in a quantitative field (e.g., Statistics, Economics, Engineering); Master\u2019s degree or MBA preferred",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "n2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r11",
+   "text": "Competitive medical, dental & vision coverage",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m7",
+    "t3",
+    "d1",
+    "h2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "Company-paid life insurance",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r13",
+   "text": "Company-paid short-term and long-term disability",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r14",
+   "text": "Access to mental health and wellness resources",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r15",
+   "text": "Company-paid volunteer time to do good in your community",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r16",
+   "text": "Legal coverage and other supplemental options",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r17",
+   "text": "A value-based culture where growth opportunities are endless",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r18",
+   "text": "Snap values diversity and all qualified applicants will be considered for employment without attention to race, color, religion, sex, sexual orientation, gender identity, nation\u2026",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r19",
+   "text": "California Residents, please review our California Consumer Privacy Act Notice at https://snapfinance.com/ccpa-notice",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r20",
+   "text": "If you're looking to make an impact and grow with a team that values you, come join us!",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "s1",
+    "m10",
+    "p8"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r21",
+   "text": "Identify and quantify opportunities across existing and potential partners, including whitespace analysis and share-of-wallet opportunity sizing.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m9",
+    "h2",
+    "m7",
+    "x2",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r22",
+   "text": "Develop and own frameworks for tracking and improving key sales performance metrics across partner lifecycle stages\u2014from onboarding through growth and retention.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m9",
+    "x2",
+    "m7",
+    "h2",
+    "d1",
+    "m1",
+    "m10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r23",
+   "text": "Serve as a strategic partner to RevOps, Sales Leadership, Partner Strategy, and B2B Marketing, providing the analytical foundation for revenue-driving initiatives.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "m1",
+    "h2",
+    "t3",
+    "x2",
+    "d1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r24",
+   "text": "Conduct partner-level forecasting to project performance based on historical trends, cohort modeling, and macroeconomic indicators.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m9",
+    "n2",
+    "h2",
+    "m7",
+    "s1",
+    "x2",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r25",
+   "text": "Lead market research and prospect intelligence efforts for potential enterprise partnerships, including:",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "s1"
+   ],
+   "gap": false
+  }
+ ],
+ "picks": [
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 35.65,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "3+ years of direct people management experience, leading and developing high-performing teams.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "10+ years of experience in analytics, strategy, or growth roles within B2B, fintech, or financial services environments, with demonstrated success across both enterprise and SMB\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r3",
+     "text": "Proven ability to generate revenue impact through analytics in sales, marketing, and partner growth contexts.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Deep experience supporting enterprise partnership development\u2014including forecasting, RFP response analytics, and market research.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Strong understanding of lead qualification, funnel conversion, and lifecycle management in SMB contexts.",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Expertise in SQL and familiarity with Python or R for analytics and predictive modeling; ability to partner effectively with Data Engineering and Data Science teams.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Experience conducting web scraping and third-party data acquisition for market intelligence and strategic research.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Excellent storytelling, communication, and executive influence skills; capable of turning complex data into business-aligned insights.",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r17",
+     "text": "A value-based culture where growth opportunities are endless",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r21",
+     "text": "Identify and quantify opportunities across existing and potential partners, including whitespace analysis and share-of-wallet opportunity sizing.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Develop and own frameworks for tracking and improving key sales performance metrics across partner lifecycle stages\u2014from onboarding through growth and retention.",
+     "skills": [
+      "product-analytics",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Serve as a strategic partner to RevOps, Sales Leadership, Partner Strategy, and B2B Marketing, providing the analytical foundation for revenue-driving initiatives.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Conduct partner-level forecasting to project performance based on historical trends, cohort modeling, and macroeconomic indicators.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Lead market research and prospect intelligence efforts for potential enterprise partnerships, including:",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "role": "ms-head",
+   "original": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "final": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 31.27,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "3+ years of direct people management experience, leading and developing high-performing teams.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "10+ years of experience in analytics, strategy, or growth roles within B2B, fintech, or financial services environments, with demonstrated success across both enterprise and SMB\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r3",
+     "text": "Proven ability to generate revenue impact through analytics in sales, marketing, and partner growth contexts.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Deep experience supporting enterprise partnership development\u2014including forecasting, RFP response analytics, and market research.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r6",
+     "text": "Expertise in SQL and familiarity with Python or R for analytics and predictive modeling; ability to partner effectively with Data Engineering and Data Science teams.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Experience conducting web scraping and third-party data acquisition for market intelligence and strategic research.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Proficiency with modern analytics tools (e.g., Snowflake, dbt, Tableau, Looker, Amplitude).",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Excellent storytelling, communication, and executive influence skills; capable of turning complex data into business-aligned insights.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Competitive medical, dental & vision coverage",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Identify and quantify opportunities across existing and potential partners, including whitespace analysis and share-of-wallet opportunity sizing.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Develop and own frameworks for tracking and improving key sales performance metrics across partner lifecycle stages\u2014from onboarding through growth and retention.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r23",
+     "text": "Serve as a strategic partner to RevOps, Sales Leadership, Partner Strategy, and B2B Marketing, providing the analytical foundation for revenue-driving initiatives.",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Conduct partner-level forecasting to project performance based on historical trends, cohort modeling, and macroeconomic indicators.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "role": "ms-sal",
+   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 19.38,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "3+ years of direct people management experience, leading and developing high-performing teams.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "10+ years of experience in analytics, strategy, or growth roles within B2B, fintech, or financial services environments, with demonstrated success across both enterprise and SMB\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Proven ability to generate revenue impact through analytics in sales, marketing, and partner growth contexts.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Deep experience supporting enterprise partnership development\u2014including forecasting, RFP response analytics, and market research.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Strong understanding of lead qualification, funnel conversion, and lifecycle management in SMB contexts.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Expertise in SQL and familiarity with Python or R for analytics and predictive modeling; ability to partner effectively with Data Engineering and Data Science teams.",
+     "skills": [
+      "stats",
+      "r"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Experience conducting web scraping and third-party data acquisition for market intelligence and strategic research.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Proficiency with modern analytics tools (e.g., Snowflake, dbt, Tableau, Looker, Amplitude).",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Excellent storytelling, communication, and executive influence skills; capable of turning complex data into business-aligned insights.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Bachelor\u2019s degree in a quantitative field (e.g., Statistics, Economics, Engineering); Master\u2019s degree or MBA preferred",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "If you're looking to make an impact and grow with a team that values you, come join us!",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "Serve as a strategic partner to RevOps, Sales Leadership, Partner Strategy, and B2B Marketing, providing the analytical foundation for revenue-driving initiatives.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Conduct partner-level forecasting to project performance based on historical trends, cohort modeling, and macroeconomic indicators.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Lead market research and prospect intelligence efforts for potential enterprise partnerships, including:",
+     "skills": [],
+     "m": 0.3
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "role": "ms-al",
+   "original": "Created Bite-Sized Insights, a short format adopted across verticals and regions; the first put the team on record about COVID a month before the travel industry",
+   "final": "Created Bite-Sized Insights, a short format adopted across verticals and regions; the first put the team on record about COVID a month before the travel industry",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 9.83,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "3+ years of direct people management experience, leading and developing high-performing teams.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "10+ years of experience in analytics, strategy, or growth roles within B2B, fintech, or financial services environments, with demonstrated success across both enterprise and SMB\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Experience conducting web scraping and third-party data acquisition for market intelligence and strategic research.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Excellent storytelling, communication, and executive influence skills; capable of turning complex data into business-aligned insights.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r11",
+     "text": "Competitive medical, dental & vision coverage",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Company-paid short-term and long-term disability",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "Serve as a strategic partner to RevOps, Sales Leadership, Partner Strategy, and B2B Marketing, providing the analytical foundation for revenue-driving initiatives.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 7.18,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Proven ability to generate revenue impact through analytics in sales, marketing, and partner growth contexts.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r4",
+     "text": "Deep experience supporting enterprise partnership development\u2014including forecasting, RFP response analytics, and market research.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Expertise in SQL and familiarity with Python or R for analytics and predictive modeling; ability to partner effectively with Data Engineering and Data Science teams.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Experience conducting web scraping and third-party data acquisition for market intelligence and strategic research.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Excellent storytelling, communication, and executive influence skills; capable of turning complex data into business-aligned insights.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Bachelor\u2019s degree in a quantitative field (e.g., Statistics, Economics, Engineering); Master\u2019s degree or MBA preferred",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r21",
+     "text": "Identify and quantify opportunities across existing and potential partners, including whitespace analysis and share-of-wallet opportunity sizing.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Develop and own frameworks for tracking and improving key sales performance metrics across partner lifecycle stages\u2014from onboarding through growth and retention.",
+     "skills": [
+      "measurement",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Serve as a strategic partner to RevOps, Sales Leadership, Partner Strategy, and B2B Marketing, providing the analytical foundation for revenue-driving initiatives.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r24",
+     "text": "Conduct partner-level forecasting to project performance based on historical trends, cohort modeling, and macroeconomic indicators.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Lead market research and prospect intelligence efforts for potential enterprise partnerships, including:",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "role": "hanapin",
+   "original": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "final": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 5.63,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "10+ years of experience in analytics, strategy, or growth roles within B2B, fintech, or financial services environments, with demonstrated success across both enterprise and SMB\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Expertise in SQL and familiarity with Python or R for analytics and predictive modeling; ability to partner effectively with Data Engineering and Data Science teams.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Excellent storytelling, communication, and executive influence skills; capable of turning complex data into business-aligned insights.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Bachelor\u2019s degree in a quantitative field (e.g., Statistics, Economics, Engineering); Master\u2019s degree or MBA preferred",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Develop and own frameworks for tracking and improving key sales performance metrics across partner lifecycle stages\u2014from onboarding through growth and retention.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Conduct partner-level forecasting to project performance based on historical trends, cohort modeling, and macroeconomic indicators.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "role": "ms-dir",
+   "original": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "final": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 16.25,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "3+ years of direct people management experience, leading and developing high-performing teams.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Proven ability to generate revenue impact through analytics in sales, marketing, and partner growth contexts.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Deep experience supporting enterprise partnership development\u2014including forecasting, RFP response analytics, and market research.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Strong understanding of lead qualification, funnel conversion, and lifecycle management in SMB contexts.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Expertise in SQL and familiarity with Python or R for analytics and predictive modeling; ability to partner effectively with Data Engineering and Data Science teams.",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Proficiency with modern analytics tools (e.g., Snowflake, dbt, Tableau, Looker, Amplitude).",
+     "skills": [
+      "sql",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Excellent storytelling, communication, and executive influence skills; capable of turning complex data into business-aligned insights.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "If you're looking to make an impact and grow with a team that values you, come join us!",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Develop and own frameworks for tracking and improving key sales performance metrics across partner lifecycle stages\u2014from onboarding through growth and retention.",
+     "skills": [],
+     "m": 0.3
+    }
+   ]
+  },
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 27.68,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "3+ years of direct people management experience, leading and developing high-performing teams.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "10+ years of experience in analytics, strategy, or growth roles within B2B, fintech, or financial services environments, with demonstrated success across both enterprise and SMB\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Proven ability to generate revenue impact through analytics in sales, marketing, and partner growth contexts.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Deep experience supporting enterprise partnership development\u2014including forecasting, RFP response analytics, and market research.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Strong understanding of lead qualification, funnel conversion, and lifecycle management in SMB contexts.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r6",
+     "text": "Expertise in SQL and familiarity with Python or R for analytics and predictive modeling; ability to partner effectively with Data Engineering and Data Science teams.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "Experience conducting web scraping and third-party data acquisition for market intelligence and strategic research.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Proficiency with modern analytics tools (e.g., Snowflake, dbt, Tableau, Looker, Amplitude).",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "Competitive medical, dental & vision coverage",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Develop and own frameworks for tracking and improving key sales performance metrics across partner lifecycle stages\u2014from onboarding through growth and retention.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "Serve as a strategic partner to RevOps, Sales Leadership, Partner Strategy, and B2B Marketing, providing the analytical foundation for revenue-driving initiatives.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r25",
+     "text": "Lead market research and prospect intelligence efforts for potential enterprise partnerships, including:",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m1",
+   "role": "ms-head",
+   "original": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "final": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 27.17,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "3+ years of direct people management experience, leading and developing high-performing teams.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "10+ years of experience in analytics, strategy, or growth roles within B2B, fintech, or financial services environments, with demonstrated success across both enterprise and SMB\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r3",
+     "text": "Proven ability to generate revenue impact through analytics in sales, marketing, and partner growth contexts.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Deep experience supporting enterprise partnership development\u2014including forecasting, RFP response analytics, and market research.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Strong understanding of lead qualification, funnel conversion, and lifecycle management in SMB contexts.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Expertise in SQL and familiarity with Python or R for analytics and predictive modeling; ability to partner effectively with Data Engineering and Data Science teams.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Experience conducting web scraping and third-party data acquisition for market intelligence and strategic research.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Excellent storytelling, communication, and executive influence skills; capable of turning complex data into business-aligned insights.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Access to mental health and wellness resources",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r21",
+     "text": "Identify and quantify opportunities across existing and potential partners, including whitespace analysis and share-of-wallet opportunity sizing.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Develop and own frameworks for tracking and improving key sales performance metrics across partner lifecycle stages\u2014from onboarding through growth and retention.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "Serve as a strategic partner to RevOps, Sales Leadership, Partner Strategy, and B2B Marketing, providing the analytical foundation for revenue-driving initiatives.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Conduct partner-level forecasting to project performance based on historical trends, cohort modeling, and macroeconomic indicators.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Lead market research and prospect intelligence efforts for potential enterprise partnerships, including:",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "role": "ms-head",
+   "original": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "final": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 26.54,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "10+ years of experience in analytics, strategy, or growth roles within B2B, fintech, or financial services environments, with demonstrated success across both enterprise and SMB\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Proven ability to generate revenue impact through analytics in sales, marketing, and partner growth contexts.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Deep experience supporting enterprise partnership development\u2014including forecasting, RFP response analytics, and market research.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r6",
+     "text": "Expertise in SQL and familiarity with Python or R for analytics and predictive modeling; ability to partner effectively with Data Engineering and Data Science teams.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Experience conducting web scraping and third-party data acquisition for market intelligence and strategic research.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Proficiency with modern analytics tools (e.g., Snowflake, dbt, Tableau, Looker, Amplitude).",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Excellent storytelling, communication, and executive influence skills; capable of turning complex data into business-aligned insights.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Bachelor\u2019s degree in a quantitative field (e.g., Statistics, Economics, Engineering); Master\u2019s degree or MBA preferred",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "Competitive medical, dental & vision coverage",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Identify and quantify opportunities across existing and potential partners, including whitespace analysis and share-of-wallet opportunity sizing.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Develop and own frameworks for tracking and improving key sales performance metrics across partner lifecycle stages\u2014from onboarding through growth and retention.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r23",
+     "text": "Serve as a strategic partner to RevOps, Sales Leadership, Partner Strategy, and B2B Marketing, providing the analytical foundation for revenue-driving initiatives.",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Conduct partner-level forecasting to project performance based on historical trends, cohort modeling, and macroeconomic indicators.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Lead market research and prospect intelligence efforts for potential enterprise partnerships, including:",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "p8",
+   "role": "proj",
+   "original": "MCPS School Boundary Viewer: interactive map of 25+ years of school boundary changes with time travel and address lookup, in React and Mapbox",
+   "final": "MCPS School Boundary Viewer: interactive map of 25+ years of school boundary changes with time travel and address lookup, in React and Mapbox",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 5.79,
+   "matched": [
+    {
+     "req": "r7",
+     "text": "Experience conducting web scraping and third-party data acquisition for market intelligence and strategic research.",
+     "skills": [
+      "javascript"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Proficiency with modern analytics tools (e.g., Snowflake, dbt, Tableau, Looker, Amplitude).",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Company-paid volunteer time to do good in your community",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "If you're looking to make an impact and grow with a team that values you, come join us!",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p2",
+   "role": "proj",
+   "original": "When Did Purple Become a Halloween Color?: pixel analysis of 3,000 images, from vintage postcards to 27 years of Google Doodles, with Python and D3",
+   "final": "When Did Purple Become a Halloween Color?: pixel analysis of 3,000 images, from vintage postcards to 27 years of Google Doodles, with Python and D3",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 6.6,
+   "matched": [
+    {
+     "req": "r6",
+     "text": "Expertise in SQL and familiarity with Python or R for analytics and predictive modeling; ability to partner effectively with Data Engineering and Data Science teams.",
+     "skills": [
+      "python"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Excellent storytelling, communication, and executive influence skills; capable of turning complex data into business-aligned insights.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Snap values diversity and all qualified applicants will be considered for employment without attention to race, color, religion, sex, sexual orientation, gender identity, nation\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r21",
+     "text": "Identify and quantify opportunities across existing and potential partners, including whitespace analysis and share-of-wallet opportunity sizing.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "why": "others covered the same ground better",
+   "score": 22
+  },
+  {
+   "text": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "why": "others covered the same ground better",
+   "score": 21.61
+  },
+  {
+   "text": "Ran a roundtable with a regional sales VP's leadership team to answer their doubts about advanced analytics",
+   "why": "others covered the same ground better",
+   "score": 19.81
+  },
+  {
+   "text": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "why": "others covered the same ground better",
+   "score": 17.82
+  },
+  {
+   "text": "Secured new MSN content datasets, built an MSN insights prototype with the team, and took it to sellers and marketing once MSN leaders approved it",
+   "why": "others covered the same ground better",
+   "score": 17.41
+  },
+  {
+   "text": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "why": "others covered the same ground better",
+   "score": 16.54
+  },
+  {
+   "text": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "why": "others covered the same ground better",
+   "score": 16.04
+  },
+  {
+   "text": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "why": "others covered the same ground better",
+   "score": 15.25
+  }
+ ],
+ "skills": [
+  "Stakeholder management",
+  "Statistics",
+  "Strategy",
+  "Predictive modeling",
+  "SQL",
+  "Data pipelines",
+  "Dashboards",
+  "Forecasting",
+  "Product analytics",
+  "Survey research",
+  "People management",
+  "Data storytelling",
+  "R",
+  "Python",
+  "JavaScript",
+  "Measurement"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 10+ years; I have 12."
+  },
+  {
+   "kind": "degree",
+   "status": "info",
+   "detail": "Mentions a master's (as preferred or with an equivalent); mine: a bachelor's."
+  },
+  {
+   "kind": "field",
+   "status": "info",
+   "detail": "Names a field of study (quantitative, statistics, economics, engineering) with an equivalent or as preferred; mine: B.A., Jazz Guitar Performance, so my experience has to cover this one."
+  }
+ ]
+}
