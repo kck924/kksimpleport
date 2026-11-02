@@ -1,0 +1,1799 @@
+{
+ "id": "84h69ky6",
+ "version": "1.5",
+ "created": "2026-11-02",
+ "job": {
+  "title": "Senior Director, Business Strategy & Analytics | Washington Nationals Job Opportunities",
+  "company": ""
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 10
+ },
+ "fit": 69,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "Bachelors or better in Economics or related field.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r2",
+   "text": "Senior Director, Business Strategy & Analytics | Washington Nationals Job Opportunities",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "m15",
+    "e2",
+    "m9",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "\" style=\"display: inline-block; line-height: 1; vertical-align: bottom; padding: 0px; margin: 0px; text-indent: 0px;\">",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "t5",
+    "e2",
+    "n2",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "The Washington Nationals are seeking a strategic, analytically driven leader to serve as Senior Director, Business Strategy & Analytics. This role sits at the center of the orga\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "m1",
+    "m15",
+    "e2",
+    "m9",
+    "t5",
+    "x2",
+    "m13"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "This leader will act as a strategic advisor to senior leadership, using advanced analytics, market insights, and structured problem-solving to drive revenue growth, optimize pri\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "t5",
+    "e2",
+    "x2",
+    "m9",
+    "m13",
+    "m15",
+    "p6",
+    "n2",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "The ideal candidate blends strong business acumen with analytical rigor and thrives in a fast-paced, cross-functional environment.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m1",
+    "m7",
+    "t5",
+    "x2",
+    "m9",
+    "m15",
+    "m13"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "Lead the development of data-informed strategies to maximize revenue across ticketing and other consumer-driven business lines.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "e2",
+    "m7",
+    "m15"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r8",
+   "text": "Partner with senior leadership to define and execute short and long-term strategic initiatives.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m7",
+    "m15",
+    "m1",
+    "d1",
+    "m9",
+    "t5",
+    "e2",
+    "x2",
+    "m13"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "Translate complex analyses into clear, actionable recommendations for executive stakeholders.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m7",
+    "t5",
+    "x2",
+    "m9",
+    "m1",
+    "m15",
+    "m13"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r10",
+   "text": "Own ticket pricing strategy, inventory management, and demand forecasting across all products.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "e2",
+    "d1",
+    "m7",
+    "x2",
+    "m15",
+    "t5"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r11",
+   "text": "Evaluate and refine go-to-market strategies across primary and secondary ticket channels.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "e2",
+    "d1",
+    "m7",
+    "x2",
+    "m15",
+    "t5"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "Analyze market dynamics, consumer behavior, and competitive trends to inform pricing and packaging decisions.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "x2",
+    "t5",
+    "e2",
+    "m9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r13",
+   "text": "Develop strategies to optimize yield, attendance, and lifetime customer value.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "e2",
+    "d1",
+    "m7",
+    "m15",
+    "t5",
+    "x2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r14",
+   "text": "Build and oversee predictive models related to demand, retention, and customer segmentation.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "p6",
+    "n2",
+    "m9",
+    "m13"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r15",
+   "text": "Collaborate with stakeholders to solve complex business problems and evaluate new initiatives.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m7",
+    "t5",
+    "x2",
+    "m9",
+    "m1",
+    "m15",
+    "m13"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r16",
+   "text": "Support strategic planning processes with rigorous analysis and scenario modeling.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m7",
+    "p6",
+    "d1",
+    "e2",
+    "n2",
+    "m15",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r17",
+   "text": "Support the development and execution of strategies related to secondary ticket distribution partners.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m7",
+    "m15",
+    "d1",
+    "e2",
+    "m1",
+    "t5",
+    "x2",
+    "m9",
+    "m13"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r18",
+   "text": "Analyze broker and partner performance to inform operating models and partnership decisions.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "n2",
+    "m9",
+    "p6",
+    "m7",
+    "t5",
+    "x2",
+    "m1",
+    "m15",
+    "m13"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "Provide insights that shape negotiation strategies and maximize overall ticket ecosystem value.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "e2",
+    "m15",
+    "m13",
+    "n2",
+    "m9",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r20",
+   "text": "Lead, mentor, and develop a high-performing team of analysts and managers.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "m9",
+    "m1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r21",
+   "text": "British EnglishCA EnglishDanishDeutschDutchEspa\u00f1olFR FrenchFran\u00e7ais CanadienItalianPortugu\u00eas do BrasilSwedishU.S. English\u7b80\u4f53\u4e2d\u6587",
+   "kind": "other",
+   "weight": 1.5,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r22",
+   "text": "The Nationals are a military-friendly organization actively recruiting veterans and spouses.",
+   "kind": "other",
+   "weight": 1.5,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r23",
+   "text": "Lead deep-dive analyses that uncover revenue opportunities and operational efficiencies.",
+   "kind": "other",
+   "weight": 1.5,
+   "coveredBy": [
+    "e2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r24",
+   "text": "Identify key performance drivers and develop frameworks to guide decision-making across departments.",
+   "kind": "other",
+   "weight": 1.5,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r25",
+   "text": "Serve as an internal consultant to departments including Marketing, Corporate Partnerships, Concessions, Retail, and Ballpark Operations.",
+   "kind": "other",
+   "weight": 1.5,
+   "coveredBy": [],
+   "gap": true
+  }
+ ],
+ "picks": [
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 35.02,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Senior Director, Business Strategy & Analytics | Washington Nationals Job Opportunities",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "\" style=\"display: inline-block; line-height: 1; vertical-align: bottom; padding: 0px; margin: 0px; text-indent: 0px;\">",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "The Washington Nationals are seeking a strategic, analytically driven leader to serve as Senior Director, Business Strategy & Analytics. This role sits at the center of the orga\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "This leader will act as a strategic advisor to senior leadership, using advanced analytics, market insights, and structured problem-solving to drive revenue growth, optimize pri\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Lead the development of data-informed strategies to maximize revenue across ticketing and other consumer-driven business lines.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r8",
+     "text": "Partner with senior leadership to define and execute short and long-term strategic initiatives.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Own ticket pricing strategy, inventory management, and demand forecasting across all products.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Evaluate and refine go-to-market strategies across primary and secondary ticket channels.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Develop strategies to optimize yield, attendance, and lifetime customer value.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Support strategic planning processes with rigorous analysis and scenario modeling.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Support the development and execution of strategies related to secondary ticket distribution partners.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Provide insights that shape negotiation strategies and maximize overall ticket ecosystem value.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Lead, mentor, and develop a high-performing team of analysts and managers.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r23",
+     "text": "Lead deep-dive analyses that uncover revenue opportunities and operational efficiencies.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "role": "ms-head",
+   "original": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "final": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 33.36,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Senior Director, Business Strategy & Analytics | Washington Nationals Job Opportunities",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "The Washington Nationals are seeking a strategic, analytically driven leader to serve as Senior Director, Business Strategy & Analytics. This role sits at the center of the orga\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "This leader will act as a strategic advisor to senior leadership, using advanced analytics, market insights, and structured problem-solving to drive revenue growth, optimize pri\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "The ideal candidate blends strong business acumen with analytical rigor and thrives in a fast-paced, cross-functional environment.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Lead the development of data-informed strategies to maximize revenue across ticketing and other consumer-driven business lines.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Partner with senior leadership to define and execute short and long-term strategic initiatives.",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Translate complex analyses into clear, actionable recommendations for executive stakeholders.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Own ticket pricing strategy, inventory management, and demand forecasting across all products.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Evaluate and refine go-to-market strategies across primary and secondary ticket channels.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Develop strategies to optimize yield, attendance, and lifetime customer value.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Collaborate with stakeholders to solve complex business problems and evaluate new initiatives.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Support strategic planning processes with rigorous analysis and scenario modeling.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Support the development and execution of strategies related to secondary ticket distribution partners.",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Analyze broker and partner performance to inform operating models and partnership decisions.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Provide insights that shape negotiation strategies and maximize overall ticket ecosystem value.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Lead, mentor, and develop a high-performing team of analysts and managers.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "role": "ms-sal",
+   "original": "Helped Expedia beat its H1 2022 quota by about $9M, pacing at 123%, across 10 client engagements built on advanced analytics",
+   "final": "Helped Expedia beat its H1 2022 quota by about $9M, pacing at 123%, across 10 client engagements built on advanced analytics",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 14.17,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Senior Director, Business Strategy & Analytics | Washington Nationals Job Opportunities",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "\" style=\"display: inline-block; line-height: 1; vertical-align: bottom; padding: 0px; margin: 0px; text-indent: 0px;\">",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "The Washington Nationals are seeking a strategic, analytically driven leader to serve as Senior Director, Business Strategy & Analytics. This role sits at the center of the orga\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r5",
+     "text": "This leader will act as a strategic advisor to senior leadership, using advanced analytics, market insights, and structured problem-solving to drive revenue growth, optimize pri\u2026",
+     "skills": [
+      "revenue"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "The ideal candidate blends strong business acumen with analytical rigor and thrives in a fast-paced, cross-functional environment.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Lead the development of data-informed strategies to maximize revenue across ticketing and other consumer-driven business lines.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Partner with senior leadership to define and execute short and long-term strategic initiatives.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Translate complex analyses into clear, actionable recommendations for executive stakeholders.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Own ticket pricing strategy, inventory management, and demand forecasting across all products.",
+     "skills": [
+      "revenue"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Evaluate and refine go-to-market strategies across primary and secondary ticket channels.",
+     "skills": [
+      "revenue"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Analyze market dynamics, consumer behavior, and competitive trends to inform pricing and packaging decisions.",
+     "skills": [
+      "revenue"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Develop strategies to optimize yield, attendance, and lifetime customer value.",
+     "skills": [
+      "revenue"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Collaborate with stakeholders to solve complex business problems and evaluate new initiatives.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Support the development and execution of strategies related to secondary ticket distribution partners.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Analyze broker and partner performance to inform operating models and partnership decisions.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "Lead deep-dive analyses that uncover revenue opportunities and operational efficiencies.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "role": "ms-al",
+   "original": "Turned single-client analyses into industry-wide ones, taking one from a few million dollars of spend reached to $30M (six-month run rate)",
+   "final": "Turned single-client analyses into industry-wide ones, taking one from a few million dollars of spend reached to $30M (six-month run rate)",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 13.62,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Senior Director, Business Strategy & Analytics | Washington Nationals Job Opportunities",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "\" style=\"display: inline-block; line-height: 1; vertical-align: bottom; padding: 0px; margin: 0px; text-indent: 0px;\">",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "The Washington Nationals are seeking a strategic, analytically driven leader to serve as Senior Director, Business Strategy & Analytics. This role sits at the center of the orga\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r5",
+     "text": "This leader will act as a strategic advisor to senior leadership, using advanced analytics, market insights, and structured problem-solving to drive revenue growth, optimize pri\u2026",
+     "skills": [
+      "revenue",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Lead the development of data-informed strategies to maximize revenue across ticketing and other consumer-driven business lines.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r8",
+     "text": "Partner with senior leadership to define and execute short and long-term strategic initiatives.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Translate complex analyses into clear, actionable recommendations for executive stakeholders.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Own ticket pricing strategy, inventory management, and demand forecasting across all products.",
+     "skills": [
+      "revenue",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "Evaluate and refine go-to-market strategies across primary and secondary ticket channels.",
+     "skills": [
+      "revenue",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r12",
+     "text": "Analyze market dynamics, consumer behavior, and competitive trends to inform pricing and packaging decisions.",
+     "skills": [
+      "revenue"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Develop strategies to optimize yield, attendance, and lifetime customer value.",
+     "skills": [
+      "revenue",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "Support strategic planning processes with rigorous analysis and scenario modeling.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Support the development and execution of strategies related to secondary ticket distribution partners.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Provide insights that shape negotiation strategies and maximize overall ticket ecosystem value.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r23",
+     "text": "Lead deep-dive analyses that uncover revenue opportunities and operational efficiencies.",
+     "skills": [],
+     "m": 0.3
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 7.72,
+   "matched": [
+    {
+     "req": "r4",
+     "text": "The Washington Nationals are seeking a strategic, analytically driven leader to serve as Senior Director, Business Strategy & Analytics. This role sits at the center of the orga\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r5",
+     "text": "This leader will act as a strategic advisor to senior leadership, using advanced analytics, market insights, and structured problem-solving to drive revenue growth, optimize pri\u2026",
+     "skills": [
+      "revenue"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "The ideal candidate blends strong business acumen with analytical rigor and thrives in a fast-paced, cross-functional environment.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Lead the development of data-informed strategies to maximize revenue across ticketing and other consumer-driven business lines.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Partner with senior leadership to define and execute short and long-term strategic initiatives.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Translate complex analyses into clear, actionable recommendations for executive stakeholders.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Own ticket pricing strategy, inventory management, and demand forecasting across all products.",
+     "skills": [
+      "revenue"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Evaluate and refine go-to-market strategies across primary and secondary ticket channels.",
+     "skills": [
+      "revenue"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Analyze market dynamics, consumer behavior, and competitive trends to inform pricing and packaging decisions.",
+     "skills": [
+      "revenue"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r13",
+     "text": "Develop strategies to optimize yield, attendance, and lifetime customer value.",
+     "skills": [
+      "revenue"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Collaborate with stakeholders to solve complex business problems and evaluate new initiatives.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Support the development and execution of strategies related to secondary ticket distribution partners.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Analyze broker and partner performance to inform operating models and partnership decisions.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "Lead deep-dive analyses that uncover revenue opportunities and operational efficiencies.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Serve as an internal consultant to departments including Marketing, Corporate Partnerships, Concessions, Retail, and Ballpark Operations.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "role": "hanapin",
+   "original": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "final": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 3.86,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "\" style=\"display: inline-block; line-height: 1; vertical-align: bottom; padding: 0px; margin: 0px; text-indent: 0px;\">",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "This leader will act as a strategic advisor to senior leadership, using advanced analytics, market insights, and structured problem-solving to drive revenue growth, optimize pri\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Build and oversee predictive models related to demand, retention, and customer segmentation.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Support strategic planning processes with rigorous analysis and scenario modeling.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Analyze broker and partner performance to inform operating models and partnership decisions.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Provide insights that shape negotiation strategies and maximize overall ticket ecosystem value.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "Identify key performance drivers and develop frameworks to guide decision-making across departments.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 28.72,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Senior Director, Business Strategy & Analytics | Washington Nationals Job Opportunities",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "The Washington Nationals are seeking a strategic, analytically driven leader to serve as Senior Director, Business Strategy & Analytics. This role sits at the center of the orga\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "This leader will act as a strategic advisor to senior leadership, using advanced analytics, market insights, and structured problem-solving to drive revenue growth, optimize pri\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "The ideal candidate blends strong business acumen with analytical rigor and thrives in a fast-paced, cross-functional environment.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Partner with senior leadership to define and execute short and long-term strategic initiatives.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Translate complex analyses into clear, actionable recommendations for executive stakeholders.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Evaluate and refine go-to-market strategies across primary and secondary ticket channels.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Analyze market dynamics, consumer behavior, and competitive trends to inform pricing and packaging decisions.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r14",
+     "text": "Build and oversee predictive models related to demand, retention, and customer segmentation.",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Collaborate with stakeholders to solve complex business problems and evaluate new initiatives.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Support strategic planning processes with rigorous analysis and scenario modeling.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Support the development and execution of strategies related to secondary ticket distribution partners.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Analyze broker and partner performance to inform operating models and partnership decisions.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Provide insights that shape negotiation strategies and maximize overall ticket ecosystem value.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Lead, mentor, and develop a high-performing team of analysts and managers.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r24",
+     "text": "Identify key performance drivers and develop frameworks to guide decision-making across departments.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Serve as an internal consultant to departments including Marketing, Corporate Partnerships, Concessions, Retail, and Ballpark Operations.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m1",
+   "role": "ms-head",
+   "original": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "final": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 25.69,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Senior Director, Business Strategy & Analytics | Washington Nationals Job Opportunities",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "\" style=\"display: inline-block; line-height: 1; vertical-align: bottom; padding: 0px; margin: 0px; text-indent: 0px;\">",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "The Washington Nationals are seeking a strategic, analytically driven leader to serve as Senior Director, Business Strategy & Analytics. This role sits at the center of the orga\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "This leader will act as a strategic advisor to senior leadership, using advanced analytics, market insights, and structured problem-solving to drive revenue growth, optimize pri\u2026",
+     "skills": [],
+     "m": 0.45
+    },
+    {
+     "req": "r6",
+     "text": "The ideal candidate blends strong business acumen with analytical rigor and thrives in a fast-paced, cross-functional environment.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Lead the development of data-informed strategies to maximize revenue across ticketing and other consumer-driven business lines.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Partner with senior leadership to define and execute short and long-term strategic initiatives.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r9",
+     "text": "Translate complex analyses into clear, actionable recommendations for executive stakeholders.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Collaborate with stakeholders to solve complex business problems and evaluate new initiatives.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Support strategic planning processes with rigorous analysis and scenario modeling.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r17",
+     "text": "Support the development and execution of strategies related to secondary ticket distribution partners.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Analyze broker and partner performance to inform operating models and partnership decisions.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Lead, mentor, and develop a high-performing team of analysts and managers.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r23",
+     "text": "Lead deep-dive analyses that uncover revenue opportunities and operational efficiencies.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m15",
+   "role": "ms-dir",
+   "original": "Represented the analytics team in shaping an AI survey with an outside agency before fielding, and brought team members into the research",
+   "final": "Represented the analytics team in shaping an AI survey with an outside agency before fielding, and brought team members into the research",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 21.73,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelors or better in Economics or related field.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "Senior Director, Business Strategy & Analytics | Washington Nationals Job Opportunities",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r4",
+     "text": "The Washington Nationals are seeking a strategic, analytically driven leader to serve as Senior Director, Business Strategy & Analytics. This role sits at the center of the orga\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "This leader will act as a strategic advisor to senior leadership, using advanced analytics, market insights, and structured problem-solving to drive revenue growth, optimize pri\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r6",
+     "text": "The ideal candidate blends strong business acumen with analytical rigor and thrives in a fast-paced, cross-functional environment.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Lead the development of data-informed strategies to maximize revenue across ticketing and other consumer-driven business lines.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Partner with senior leadership to define and execute short and long-term strategic initiatives.",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Translate complex analyses into clear, actionable recommendations for executive stakeholders.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Own ticket pricing strategy, inventory management, and demand forecasting across all products.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Evaluate and refine go-to-market strategies across primary and secondary ticket channels.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Develop strategies to optimize yield, attendance, and lifetime customer value.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Collaborate with stakeholders to solve complex business problems and evaluate new initiatives.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Support strategic planning processes with rigorous analysis and scenario modeling.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Support the development and execution of strategies related to secondary ticket distribution partners.",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Analyze broker and partner performance to inform operating models and partnership decisions.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Provide insights that shape negotiation strategies and maximize overall ticket ecosystem value.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m13",
+   "role": "ms-head",
+   "original": "Secured new MSN content datasets, built an MSN insights prototype with the team, and took it to sellers and marketing once MSN leaders approved it",
+   "final": "Secured new MSN content datasets, built an MSN insights prototype with the team, and took it to sellers and marketing once MSN leaders approved it",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 13.57,
+   "matched": [
+    {
+     "req": "r4",
+     "text": "The Washington Nationals are seeking a strategic, analytically driven leader to serve as Senior Director, Business Strategy & Analytics. This role sits at the center of the orga\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r5",
+     "text": "This leader will act as a strategic advisor to senior leadership, using advanced analytics, market insights, and structured problem-solving to drive revenue growth, optimize pri\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "The ideal candidate blends strong business acumen with analytical rigor and thrives in a fast-paced, cross-functional environment.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "Lead the development of data-informed strategies to maximize revenue across ticketing and other consumer-driven business lines.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Partner with senior leadership to define and execute short and long-term strategic initiatives.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Translate complex analyses into clear, actionable recommendations for executive stakeholders.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Evaluate and refine go-to-market strategies across primary and secondary ticket channels.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Analyze market dynamics, consumer behavior, and competitive trends to inform pricing and packaging decisions.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Build and oversee predictive models related to demand, retention, and customer segmentation.",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Collaborate with stakeholders to solve complex business problems and evaluate new initiatives.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Support the development and execution of strategies related to secondary ticket distribution partners.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Analyze broker and partner performance to inform operating models and partnership decisions.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Provide insights that shape negotiation strategies and maximize overall ticket ecosystem value.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Lead, mentor, and develop a high-performing team of analysts and managers.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "Lead deep-dive analyses that uncover revenue opportunities and operational efficiencies.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Serve as an internal consultant to departments including Marketing, Corporate Partnerships, Concessions, Retail, and Ballpark Operations.",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "role": "proj",
+   "original": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "final": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 0.27,
+   "matched": [
+    {
+     "req": "r21",
+     "text": "British EnglishCA EnglishDanishDeutschDutchEspa\u00f1olFR FrenchFran\u00e7ais CanadienItalianPortugu\u00eas do BrasilSwedishU.S. English\u7b80\u4f53\u4e2d\u6587",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "p6",
+   "role": "proj",
+   "original": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "final": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 9.08,
+   "matched": [
+    {
+     "req": "r5",
+     "text": "This leader will act as a strategic advisor to senior leadership, using advanced analytics, market insights, and structured problem-solving to drive revenue growth, optimize pri\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Build and oversee predictive models related to demand, retention, and customer segmentation.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Collaborate with stakeholders to solve complex business problems and evaluate new initiatives.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Support strategic planning processes with rigorous analysis and scenario modeling.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Analyze broker and partner performance to inform operating models and partnership decisions.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Provide insights that shape negotiation strategies and maximize overall ticket ecosystem value.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "why": "others covered the same ground better",
+   "score": 26.84
+  },
+  {
+   "text": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "why": "others covered the same ground better",
+   "score": 22.33
+  },
+  {
+   "text": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "why": "others covered the same ground better",
+   "score": 22.04
+  },
+  {
+   "text": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "why": "others covered the same ground better",
+   "score": 21.86
+  },
+  {
+   "text": "Ran a roundtable with a regional sales VP's leadership team to answer their doubts about advanced analytics",
+   "why": "others covered the same ground better",
+   "score": 20.04
+  },
+  {
+   "text": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "why": "others covered the same ground better",
+   "score": 18.62
+  },
+  {
+   "text": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "why": "others covered the same ground better",
+   "score": 17.82
+  },
+  {
+   "text": "Created Bite-Sized Insights, a short format adopted across verticals and regions; the first put the team on record about COVID a month before the travel industry",
+   "why": "others covered the same ground better",
+   "score": 13.73
+  }
+ ],
+ "skills": [
+  "Strategy",
+  "Stakeholder management",
+  "Revenue analytics",
+  "Team leadership",
+  "Statistics",
+  "Machine learning",
+  "Data storytelling",
+  "Advertising",
+  "Forecasting",
+  "Product analytics"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 10+ years; I have 12."
+  },
+  {
+   "kind": "degree",
+   "status": "warn",
+   "detail": "Mentions a master's; mine: a bachelor's."
+  },
+  {
+   "kind": "field",
+   "status": "warn",
+   "detail": "Names a field of study (economics); mine: B.A., Jazz Guitar Performance, so my experience has to cover this one."
+  },
+  {
+   "kind": "authorization",
+   "status": "info",
+   "detail": "Asks about work authorization or sponsorship."
+  },
+  {
+   "kind": "location",
+   "status": "info",
+   "detail": "Mentions \"On-site\"; I check it against where I'd work."
+  }
+ ]
+}
