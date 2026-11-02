@@ -1,0 +1,2158 @@
+{
+ "id": "nm6yw8tv",
+ "version": "1.5",
+ "created": "2026-11-02",
+ "job": {
+  "title": "Sr. Director, Consumer Intelligence & Strategy\u200b",
+  "company": "OLLY"
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 10
+ },
+ "fit": 87,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "THE ROLE: SENIOR DIRECTOR - CONSUMER INTELLIGENCE AND STRATEGY\u200b",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "t3",
+    "m12",
+    "h1",
+    "s1",
+    "m9",
+    "m8"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "At OLLY and SmartyPants, we believe the best growth strategies start with a deep understanding of people. As Senior Director, Consumer Intelligence & Strategy, you will lead OLL\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "t3",
+    "m12",
+    "h1",
+    "s1",
+    "m9",
+    "m8"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "More than a traditional insights leader, you are a strategic business partner who translates consumer, shopper, cultural, commercial, and business intelligence into growth strat\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "s1",
+    "t3",
+    "m9",
+    "m12",
+    "h1",
+    "n1",
+    "x2",
+    "m8",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Define and lead OLLY/SPV consumer intelligence strategy and multi-year enterprise intelligence agenda.\u200b",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "t3",
+    "m12",
+    "h1",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "Translate consumer, shopper, cultural, commercial, and business intelligence into actionable recommendations that shape brand strategy, innovation priorities, campaign developme\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "s1",
+    "m7",
+    "t3",
+    "n1",
+    "m12",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "Partner closely with the leadership teams to identify strategic opportunities, risks, and future growth platforms, influencing organizational strategies, and long-term growth pr\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "t3",
+    "m9",
+    "m12",
+    "h1",
+    "n1",
+    "x2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "Guide the development of brand, innovation, and commercial strategies through deep consumer understanding and foresight.\u200b",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "t3",
+    "m12",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r8",
+   "text": "Lead strategic synthesis across consumer research, analytics, trend intelligence, and business performance to shape long-term priorities.\u200b",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "s1",
+    "t3",
+    "m12",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "Ensure robust measurement frameworks are in place across marketing, innovation, retail, and commercial initiatives.\u200b",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "x2",
+    "d1",
+    "n1",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r10",
+   "text": "Partner with Sales, Category Management, RGM, eCommerce and Finance to translate consumer behavior, category dynamics, and commercial performance into growth plans that carry th\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m9",
+    "x2",
+    "m7",
+    "n1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r11",
+   "text": "Lead the transformation of OLLY/SPV into an AI-first intelligence organization, redefining how consumer, shopper, cultural, and commercial signals are generated, synthesized, sh\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "m9",
+    "m8",
+    "m12",
+    "p3",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "Build and scale AI-enabled capabilities that help the business identify emerging opportunities, anticipate market shifts, and make faster, smarter growth decisions.\u200b",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m9",
+    "d1",
+    "m7",
+    "m8",
+    "m12",
+    "p3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r13",
+   "text": "Reimagine traditional insights, analytics, and research approaches through AI-enabled research, predictive intelligence, signal detection, automated synthesis, and scalable know\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m9",
+    "m8",
+    "m12",
+    "d1",
+    "m7",
+    "t3",
+    "p3",
+    "p6",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r14",
+   "text": "Enable smarter decisions\u200b",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "s1",
+    "m8"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r15",
+   "text": "Scale intelligence through AI and modern capabilities\u200b",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "m9",
+    "m8",
+    "m12",
+    "p3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r16",
+   "text": "Lead and develop a high-performing team across consumer insights, analytics, foresight, and intelligence capabilities.\u200b",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "t3",
+    "m8",
+    "m12",
+    "m9",
+    "p6",
+    "s1",
+    "d1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r17",
+   "text": "Foster a culture of curiosity, strategic thinking, experimentation, and continuous learning.\u200b",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "t3",
+    "m12",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r18",
+   "text": "Establish clear priorities, coach talent, and build capabilities that elevate the impact of the function.\u200b",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m8",
+    "m7",
+    "s1",
+    "t3",
+    "m9",
+    "m12",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "Create strong alignment and collaboration across OLLY and SPV insights resources, ensuring the function operates with clear priorities and consistent enterprise impact.\u200b",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "t3",
+    "m12",
+    "m9",
+    "m8",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r20",
+   "text": "You are a highly strategic, consumer and growth-obsessed leader who thrives at the intersection of insights, analytics, strategy, and business growth. You possess an unusual abi\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "t3",
+    "m9",
+    "m12",
+    "h1",
+    "n1",
+    "m8",
+    "x2",
+    "p6",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r21",
+   "text": "You are equally comfortable discussing consumer motivations, innovation platforms, commercial performance, marketing effectiveness, future trends, and AI-enabled capabilities. Y\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m9",
+    "m8",
+    "m12",
+    "t3",
+    "d1",
+    "m7",
+    "p3",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r22",
+   "text": "15+ years of progressive experience across consumer insights, strategy, analytics, innovation, consulting, marketing, or related disciplines.\u200b",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "t3",
+    "m12",
+    "d1",
+    "m7",
+    "h1",
+    "m9",
+    "m8",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r23",
+   "text": "Strong business acumen, senior stakeholder partnership, and ability to build alignment and drive action.\u200b",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m7",
+    "x2",
+    "n1",
+    "m9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r24",
+   "text": "Ability to translate consumer understanding into strategic priorities and business outcomes.\u200b",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "t3",
+    "m12",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r25",
+   "text": "Proven ability to define and lead a consumer intelligence strategy and multi-year enterprise intelligence agenda.\u200b",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "t3",
+    "m12",
+    "h1",
+    "s1"
+   ],
+   "gap": false
+  }
+ ],
+ "picks": [
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 56.26,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "THE ROLE: SENIOR DIRECTOR - CONSUMER INTELLIGENCE AND STRATEGY\u200b",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r2",
+     "text": "At OLLY and SmartyPants, we believe the best growth strategies start with a deep understanding of people. As Senior Director, Consumer Intelligence & Strategy, you will lead OLL\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "More than a traditional insights leader, you are a strategic business partner who translates consumer, shopper, cultural, commercial, and business intelligence into growth strat\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Define and lead OLLY/SPV consumer intelligence strategy and multi-year enterprise intelligence agenda.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r5",
+     "text": "Translate consumer, shopper, cultural, commercial, and business intelligence into actionable recommendations that shape brand strategy, innovation priorities, campaign developme\u2026",
+     "skills": [
+      "advertising",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "Partner closely with the leadership teams to identify strategic opportunities, risks, and future growth platforms, influencing organizational strategies, and long-term growth pr\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Guide the development of brand, innovation, and commercial strategies through deep consumer understanding and foresight.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Lead strategic synthesis across consumer research, analytics, trend intelligence, and business performance to shape long-term priorities.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Ensure robust measurement frameworks are in place across marketing, innovation, retail, and commercial initiatives.\u200b",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Lead the transformation of OLLY/SPV into an AI-first intelligence organization, redefining how consumer, shopper, cultural, and commercial signals are generated, synthesized, sh\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Build and scale AI-enabled capabilities that help the business identify emerging opportunities, anticipate market shifts, and make faster, smarter growth decisions.\u200b",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Reimagine traditional insights, analytics, and research approaches through AI-enabled research, predictive intelligence, signal detection, automated synthesis, and scalable know\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Scale intelligence through AI and modern capabilities\u200b",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Lead and develop a high-performing team across consumer insights, analytics, foresight, and intelligence capabilities.\u200b",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r17",
+     "text": "Foster a culture of curiosity, strategic thinking, experimentation, and continuous learning.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Establish clear priorities, coach talent, and build capabilities that elevate the impact of the function.\u200b",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Create strong alignment and collaboration across OLLY and SPV insights resources, ensuring the function operates with clear priorities and consistent enterprise impact.\u200b",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "You are a highly strategic, consumer and growth-obsessed leader who thrives at the intersection of insights, analytics, strategy, and business growth. You possess an unusual abi\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "You are equally comfortable discussing consumer motivations, innovation platforms, commercial performance, marketing effectiveness, future trends, and AI-enabled capabilities. Y\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "15+ years of progressive experience across consumer insights, strategy, analytics, innovation, consulting, marketing, or related disciplines.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r24",
+     "text": "Ability to translate consumer understanding into strategic priorities and business outcomes.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Proven ability to define and lead a consumer intelligence strategy and multi-year enterprise intelligence agenda.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "role": "ms-head",
+   "original": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "final": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 41.47,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "THE ROLE: SENIOR DIRECTOR - CONSUMER INTELLIGENCE AND STRATEGY\u200b",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r2",
+     "text": "At OLLY and SmartyPants, we believe the best growth strategies start with a deep understanding of people. As Senior Director, Consumer Intelligence & Strategy, you will lead OLL\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "More than a traditional insights leader, you are a strategic business partner who translates consumer, shopper, cultural, commercial, and business intelligence into growth strat\u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Define and lead OLLY/SPV consumer intelligence strategy and multi-year enterprise intelligence agenda.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Translate consumer, shopper, cultural, commercial, and business intelligence into actionable recommendations that shape brand strategy, innovation priorities, campaign developme\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Partner closely with the leadership teams to identify strategic opportunities, risks, and future growth platforms, influencing organizational strategies, and long-term growth pr\u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Guide the development of brand, innovation, and commercial strategies through deep consumer understanding and foresight.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Lead strategic synthesis across consumer research, analytics, trend intelligence, and business performance to shape long-term priorities.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Partner with Sales, Category Management, RGM, eCommerce and Finance to translate consumer behavior, category dynamics, and commercial performance into growth plans that carry th\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Lead the transformation of OLLY/SPV into an AI-first intelligence organization, redefining how consumer, shopper, cultural, and commercial signals are generated, synthesized, sh\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Build and scale AI-enabled capabilities that help the business identify emerging opportunities, anticipate market shifts, and make faster, smarter growth decisions.\u200b",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Reimagine traditional insights, analytics, and research approaches through AI-enabled research, predictive intelligence, signal detection, automated synthesis, and scalable know\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Scale intelligence through AI and modern capabilities\u200b",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Lead and develop a high-performing team across consumer insights, analytics, foresight, and intelligence capabilities.\u200b",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Foster a culture of curiosity, strategic thinking, experimentation, and continuous learning.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Establish clear priorities, coach talent, and build capabilities that elevate the impact of the function.\u200b",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "You are a highly strategic, consumer and growth-obsessed leader who thrives at the intersection of insights, analytics, strategy, and business growth. You possess an unusual abi\u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "You are equally comfortable discussing consumer motivations, innovation platforms, commercial performance, marketing effectiveness, future trends, and AI-enabled capabilities. Y\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "15+ years of progressive experience across consumer insights, strategy, analytics, innovation, consulting, marketing, or related disciplines.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r23",
+     "text": "Strong business acumen, senior stakeholder partnership, and ability to build alignment and drive action.\u200b",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r24",
+     "text": "Ability to translate consumer understanding into strategic priorities and business outcomes.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Proven ability to define and lead a consumer intelligence strategy and multi-year enterprise intelligence agenda.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "role": "ms-sal",
+   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 16.82,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "THE ROLE: SENIOR DIRECTOR - CONSUMER INTELLIGENCE AND STRATEGY\u200b",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "At OLLY and SmartyPants, we believe the best growth strategies start with a deep understanding of people. As Senior Director, Consumer Intelligence & Strategy, you will lead OLL\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r3",
+     "text": "More than a traditional insights leader, you are a strategic business partner who translates consumer, shopper, cultural, commercial, and business intelligence into growth strat\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Define and lead OLLY/SPV consumer intelligence strategy and multi-year enterprise intelligence agenda.\u200b",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r5",
+     "text": "Translate consumer, shopper, cultural, commercial, and business intelligence into actionable recommendations that shape brand strategy, innovation priorities, campaign developme\u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r6",
+     "text": "Partner closely with the leadership teams to identify strategic opportunities, risks, and future growth platforms, influencing organizational strategies, and long-term growth pr\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Lead strategic synthesis across consumer research, analytics, trend intelligence, and business performance to shape long-term priorities.\u200b",
+     "skills": [],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Lead the transformation of OLLY/SPV into an AI-first intelligence organization, redefining how consumer, shopper, cultural, and commercial signals are generated, synthesized, sh\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r12",
+     "text": "Build and scale AI-enabled capabilities that help the business identify emerging opportunities, anticipate market shifts, and make faster, smarter growth decisions.\u200b",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Reimagine traditional insights, analytics, and research approaches through AI-enabled research, predictive intelligence, signal detection, automated synthesis, and scalable know\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r14",
+     "text": "Enable smarter decisions\u200b",
+     "skills": [
+      "enablement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Scale intelligence through AI and modern capabilities\u200b",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Lead and develop a high-performing team across consumer insights, analytics, foresight, and intelligence capabilities.\u200b",
+     "skills": [],
+     "m": 0.45
+    },
+    {
+     "req": "r18",
+     "text": "Establish clear priorities, coach talent, and build capabilities that elevate the impact of the function.\u200b",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "You are a highly strategic, consumer and growth-obsessed leader who thrives at the intersection of insights, analytics, strategy, and business growth. You possess an unusual abi\u2026",
+     "skills": [],
+     "m": 0.45
+    },
+    {
+     "req": "r21",
+     "text": "You are equally comfortable discussing consumer motivations, innovation platforms, commercial performance, marketing effectiveness, future trends, and AI-enabled capabilities. Y\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r22",
+     "text": "15+ years of progressive experience across consumer insights, strategy, analytics, innovation, consulting, marketing, or related disciplines.\u200b",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "Strong business acumen, senior stakeholder partnership, and ability to build alignment and drive action.\u200b",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Ability to translate consumer understanding into strategic priorities and business outcomes.\u200b",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Proven ability to define and lead a consumer intelligence strategy and multi-year enterprise intelligence agenda.\u200b",
+     "skills": [],
+     "m": 0.3
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "role": "ms-al",
+   "original": "Created Bite-Sized Insights, a short format adopted across verticals and regions; the first put the team on record about COVID a month before the travel industry",
+   "final": "Created Bite-Sized Insights, a short format adopted across verticals and regions; the first put the team on record about COVID a month before the travel industry",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 19.84,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "THE ROLE: SENIOR DIRECTOR - CONSUMER INTELLIGENCE AND STRATEGY\u200b",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r2",
+     "text": "At OLLY and SmartyPants, we believe the best growth strategies start with a deep understanding of people. As Senior Director, Consumer Intelligence & Strategy, you will lead OLL\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "More than a traditional insights leader, you are a strategic business partner who translates consumer, shopper, cultural, commercial, and business intelligence into growth strat\u2026",
+     "skills": [
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Define and lead OLLY/SPV consumer intelligence strategy and multi-year enterprise intelligence agenda.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Translate consumer, shopper, cultural, commercial, and business intelligence into actionable recommendations that shape brand strategy, innovation priorities, campaign developme\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Partner closely with the leadership teams to identify strategic opportunities, risks, and future growth platforms, influencing organizational strategies, and long-term growth pr\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r7",
+     "text": "Guide the development of brand, innovation, and commercial strategies through deep consumer understanding and foresight.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Lead strategic synthesis across consumer research, analytics, trend intelligence, and business performance to shape long-term priorities.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Lead the transformation of OLLY/SPV into an AI-first intelligence organization, redefining how consumer, shopper, cultural, and commercial signals are generated, synthesized, sh\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Reimagine traditional insights, analytics, and research approaches through AI-enabled research, predictive intelligence, signal detection, automated synthesis, and scalable know\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Lead and develop a high-performing team across consumer insights, analytics, foresight, and intelligence capabilities.\u200b",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Foster a culture of curiosity, strategic thinking, experimentation, and continuous learning.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Establish clear priorities, coach talent, and build capabilities that elevate the impact of the function.\u200b",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Create strong alignment and collaboration across OLLY and SPV insights resources, ensuring the function operates with clear priorities and consistent enterprise impact.\u200b",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "You are a highly strategic, consumer and growth-obsessed leader who thrives at the intersection of insights, analytics, strategy, and business growth. You possess an unusual abi\u2026",
+     "skills": [
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "You are equally comfortable discussing consumer motivations, innovation platforms, commercial performance, marketing effectiveness, future trends, and AI-enabled capabilities. Y\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "15+ years of progressive experience across consumer insights, strategy, analytics, innovation, consulting, marketing, or related disciplines.\u200b",
+     "skills": [
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Ability to translate consumer understanding into strategic priorities and business outcomes.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Proven ability to define and lead a consumer intelligence strategy and multi-year enterprise intelligence agenda.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 4.18,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "More than a traditional insights leader, you are a strategic business partner who translates consumer, shopper, cultural, commercial, and business intelligence into growth strat\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Partner closely with the leadership teams to identify strategic opportunities, risks, and future growth platforms, influencing organizational strategies, and long-term growth pr\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Ensure robust measurement frameworks are in place across marketing, innovation, retail, and commercial initiatives.\u200b",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r10",
+     "text": "Partner with Sales, Category Management, RGM, eCommerce and Finance to translate consumer behavior, category dynamics, and commercial performance into growth plans that carry th\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Build and scale AI-enabled capabilities that help the business identify emerging opportunities, anticipate market shifts, and make faster, smarter growth decisions.\u200b",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "You are a highly strategic, consumer and growth-obsessed leader who thrives at the intersection of insights, analytics, strategy, and business growth. You possess an unusual abi\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "You are equally comfortable discussing consumer motivations, innovation platforms, commercial performance, marketing effectiveness, future trends, and AI-enabled capabilities. Y\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r22",
+     "text": "15+ years of progressive experience across consumer insights, strategy, analytics, innovation, consulting, marketing, or related disciplines.\u200b",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "Strong business acumen, senior stakeholder partnership, and ability to build alignment and drive action.\u200b",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "n1",
+   "role": "hanapin",
+   "original": "Ran client relationships and strategy for search and display accounts on Google Ads, Bing Ads and Yahoo, including optimization, monitoring and reporting",
+   "final": "Ran client relationships and strategy for search and display accounts on Google Ads, Bing Ads and Yahoo, including optimization, monitoring and reporting",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 6.6,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "THE ROLE: SENIOR DIRECTOR - CONSUMER INTELLIGENCE AND STRATEGY\u200b",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "At OLLY and SmartyPants, we believe the best growth strategies start with a deep understanding of people. As Senior Director, Consumer Intelligence & Strategy, you will lead OLL\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "More than a traditional insights leader, you are a strategic business partner who translates consumer, shopper, cultural, commercial, and business intelligence into growth strat\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Define and lead OLLY/SPV consumer intelligence strategy and multi-year enterprise intelligence agenda.\u200b",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Translate consumer, shopper, cultural, commercial, and business intelligence into actionable recommendations that shape brand strategy, innovation priorities, campaign developme\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Partner closely with the leadership teams to identify strategic opportunities, risks, and future growth platforms, influencing organizational strategies, and long-term growth pr\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Guide the development of brand, innovation, and commercial strategies through deep consumer understanding and foresight.\u200b",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Ensure robust measurement frameworks are in place across marketing, innovation, retail, and commercial initiatives.\u200b",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Partner with Sales, Category Management, RGM, eCommerce and Finance to translate consumer behavior, category dynamics, and commercial performance into growth plans that carry th\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "You are a highly strategic, consumer and growth-obsessed leader who thrives at the intersection of insights, analytics, strategy, and business growth. You possess an unusual abi\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "15+ years of progressive experience across consumer insights, strategy, analytics, innovation, consulting, marketing, or related disciplines.\u200b",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "Strong business acumen, senior stakeholder partnership, and ability to build alignment and drive action.\u200b",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Proven ability to define and lead a consumer intelligence strategy and multi-year enterprise intelligence agenda.\u200b",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 40.35,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "THE ROLE: SENIOR DIRECTOR - CONSUMER INTELLIGENCE AND STRATEGY\u200b",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "At OLLY and SmartyPants, we believe the best growth strategies start with a deep understanding of people. As Senior Director, Consumer Intelligence & Strategy, you will lead OLL\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "More than a traditional insights leader, you are a strategic business partner who translates consumer, shopper, cultural, commercial, and business intelligence into growth strat\u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Translate consumer, shopper, cultural, commercial, and business intelligence into actionable recommendations that shape brand strategy, innovation priorities, campaign developme\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Partner closely with the leadership teams to identify strategic opportunities, risks, and future growth platforms, influencing organizational strategies, and long-term growth pr\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r8",
+     "text": "Lead strategic synthesis across consumer research, analytics, trend intelligence, and business performance to shape long-term priorities.\u200b",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Ensure robust measurement frameworks are in place across marketing, innovation, retail, and commercial initiatives.\u200b",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Partner with Sales, Category Management, RGM, eCommerce and Finance to translate consumer behavior, category dynamics, and commercial performance into growth plans that carry th\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "Lead the transformation of OLLY/SPV into an AI-first intelligence organization, redefining how consumer, shopper, cultural, and commercial signals are generated, synthesized, sh\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Build and scale AI-enabled capabilities that help the business identify emerging opportunities, anticipate market shifts, and make faster, smarter growth decisions.\u200b",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r13",
+     "text": "Reimagine traditional insights, analytics, and research approaches through AI-enabled research, predictive intelligence, signal detection, automated synthesis, and scalable know\u2026",
+     "skills": [
+      "storytelling",
+      "genai"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r15",
+     "text": "Scale intelligence through AI and modern capabilities\u200b",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Lead and develop a high-performing team across consumer insights, analytics, foresight, and intelligence capabilities.\u200b",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Establish clear priorities, coach talent, and build capabilities that elevate the impact of the function.\u200b",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Create strong alignment and collaboration across OLLY and SPV insights resources, ensuring the function operates with clear priorities and consistent enterprise impact.\u200b",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "You are a highly strategic, consumer and growth-obsessed leader who thrives at the intersection of insights, analytics, strategy, and business growth. You possess an unusual abi\u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "You are equally comfortable discussing consumer motivations, innovation platforms, commercial performance, marketing effectiveness, future trends, and AI-enabled capabilities. Y\u2026",
+     "skills": [
+      "storytelling",
+      "genai"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r22",
+     "text": "15+ years of progressive experience across consumer insights, strategy, analytics, innovation, consulting, marketing, or related disciplines.\u200b",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r23",
+     "text": "Strong business acumen, senior stakeholder partnership, and ability to build alignment and drive action.\u200b",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m8",
+   "role": "ms-head",
+   "original": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "final": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 20.75,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "THE ROLE: SENIOR DIRECTOR - CONSUMER INTELLIGENCE AND STRATEGY\u200b",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "At OLLY and SmartyPants, we believe the best growth strategies start with a deep understanding of people. As Senior Director, Consumer Intelligence & Strategy, you will lead OLL\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "More than a traditional insights leader, you are a strategic business partner who translates consumer, shopper, cultural, commercial, and business intelligence into growth strat\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Partner closely with the leadership teams to identify strategic opportunities, risks, and future growth platforms, influencing organizational strategies, and long-term growth pr\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Lead strategic synthesis across consumer research, analytics, trend intelligence, and business performance to shape long-term priorities.\u200b",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "Lead the transformation of OLLY/SPV into an AI-first intelligence organization, redefining how consumer, shopper, cultural, and commercial signals are generated, synthesized, sh\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Build and scale AI-enabled capabilities that help the business identify emerging opportunities, anticipate market shifts, and make faster, smarter growth decisions.\u200b",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Reimagine traditional insights, analytics, and research approaches through AI-enabled research, predictive intelligence, signal detection, automated synthesis, and scalable know\u2026",
+     "skills": [
+      "storytelling",
+      "genai"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Enable smarter decisions\u200b",
+     "skills": [
+      "enablement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Scale intelligence through AI and modern capabilities\u200b",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Lead and develop a high-performing team across consumer insights, analytics, foresight, and intelligence capabilities.\u200b",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Establish clear priorities, coach talent, and build capabilities that elevate the impact of the function.\u200b",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Create strong alignment and collaboration across OLLY and SPV insights resources, ensuring the function operates with clear priorities and consistent enterprise impact.\u200b",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "You are a highly strategic, consumer and growth-obsessed leader who thrives at the intersection of insights, analytics, strategy, and business growth. You possess an unusual abi\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "You are equally comfortable discussing consumer motivations, innovation platforms, commercial performance, marketing effectiveness, future trends, and AI-enabled capabilities. Y\u2026",
+     "skills": [
+      "storytelling",
+      "genai"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r22",
+     "text": "15+ years of progressive experience across consumer insights, strategy, analytics, innovation, consulting, marketing, or related disciplines.\u200b",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m12",
+   "role": "ms-dir",
+   "original": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "final": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 36.52,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "THE ROLE: SENIOR DIRECTOR - CONSUMER INTELLIGENCE AND STRATEGY\u200b",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r2",
+     "text": "At OLLY and SmartyPants, we believe the best growth strategies start with a deep understanding of people. As Senior Director, Consumer Intelligence & Strategy, you will lead OLL\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "More than a traditional insights leader, you are a strategic business partner who translates consumer, shopper, cultural, commercial, and business intelligence into growth strat\u2026",
+     "skills": [
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Define and lead OLLY/SPV consumer intelligence strategy and multi-year enterprise intelligence agenda.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Translate consumer, shopper, cultural, commercial, and business intelligence into actionable recommendations that shape brand strategy, innovation priorities, campaign developme\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Partner closely with the leadership teams to identify strategic opportunities, risks, and future growth platforms, influencing organizational strategies, and long-term growth pr\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r7",
+     "text": "Guide the development of brand, innovation, and commercial strategies through deep consumer understanding and foresight.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Lead strategic synthesis across consumer research, analytics, trend intelligence, and business performance to shape long-term priorities.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Lead the transformation of OLLY/SPV into an AI-first intelligence organization, redefining how consumer, shopper, cultural, and commercial signals are generated, synthesized, sh\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Build and scale AI-enabled capabilities that help the business identify emerging opportunities, anticipate market shifts, and make faster, smarter growth decisions.\u200b",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Reimagine traditional insights, analytics, and research approaches through AI-enabled research, predictive intelligence, signal detection, automated synthesis, and scalable know\u2026",
+     "skills": [
+      "storytelling",
+      "genai"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r15",
+     "text": "Scale intelligence through AI and modern capabilities\u200b",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Lead and develop a high-performing team across consumer insights, analytics, foresight, and intelligence capabilities.\u200b",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Foster a culture of curiosity, strategic thinking, experimentation, and continuous learning.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Establish clear priorities, coach talent, and build capabilities that elevate the impact of the function.\u200b",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Create strong alignment and collaboration across OLLY and SPV insights resources, ensuring the function operates with clear priorities and consistent enterprise impact.\u200b",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "You are a highly strategic, consumer and growth-obsessed leader who thrives at the intersection of insights, analytics, strategy, and business growth. You possess an unusual abi\u2026",
+     "skills": [
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "You are equally comfortable discussing consumer motivations, innovation platforms, commercial performance, marketing effectiveness, future trends, and AI-enabled capabilities. Y\u2026",
+     "skills": [
+      "storytelling",
+      "genai"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r22",
+     "text": "15+ years of progressive experience across consumer insights, strategy, analytics, innovation, consulting, marketing, or related disciplines.\u200b",
+     "skills": [
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Ability to translate consumer understanding into strategic priorities and business outcomes.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Proven ability to define and lead a consumer intelligence strategy and multi-year enterprise intelligence agenda.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "h1",
+   "role": "ms-head",
+   "original": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "final": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 27.6,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "THE ROLE: SENIOR DIRECTOR - CONSUMER INTELLIGENCE AND STRATEGY\u200b",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r2",
+     "text": "At OLLY and SmartyPants, we believe the best growth strategies start with a deep understanding of people. As Senior Director, Consumer Intelligence & Strategy, you will lead OLL\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "More than a traditional insights leader, you are a strategic business partner who translates consumer, shopper, cultural, commercial, and business intelligence into growth strat\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r4",
+     "text": "Define and lead OLLY/SPV consumer intelligence strategy and multi-year enterprise intelligence agenda.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Translate consumer, shopper, cultural, commercial, and business intelligence into actionable recommendations that shape brand strategy, innovation priorities, campaign developme\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Partner closely with the leadership teams to identify strategic opportunities, risks, and future growth platforms, influencing organizational strategies, and long-term growth pr\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r7",
+     "text": "Guide the development of brand, innovation, and commercial strategies through deep consumer understanding and foresight.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Lead strategic synthesis across consumer research, analytics, trend intelligence, and business performance to shape long-term priorities.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Ensure robust measurement frameworks are in place across marketing, innovation, retail, and commercial initiatives.\u200b",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Partner with Sales, Category Management, RGM, eCommerce and Finance to translate consumer behavior, category dynamics, and commercial performance into growth plans that carry th\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Reimagine traditional insights, analytics, and research approaches through AI-enabled research, predictive intelligence, signal detection, automated synthesis, and scalable know\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Lead and develop a high-performing team across consumer insights, analytics, foresight, and intelligence capabilities.\u200b",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Foster a culture of curiosity, strategic thinking, experimentation, and continuous learning.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Establish clear priorities, coach talent, and build capabilities that elevate the impact of the function.\u200b",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Create strong alignment and collaboration across OLLY and SPV insights resources, ensuring the function operates with clear priorities and consistent enterprise impact.\u200b",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "You are a highly strategic, consumer and growth-obsessed leader who thrives at the intersection of insights, analytics, strategy, and business growth. You possess an unusual abi\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r21",
+     "text": "You are equally comfortable discussing consumer motivations, innovation platforms, commercial performance, marketing effectiveness, future trends, and AI-enabled capabilities. Y\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r22",
+     "text": "15+ years of progressive experience across consumer insights, strategy, analytics, innovation, consulting, marketing, or related disciplines.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r24",
+     "text": "Ability to translate consumer understanding into strategic priorities and business outcomes.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Proven ability to define and lead a consumer intelligence strategy and multi-year enterprise intelligence agenda.\u200b",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "role": "proj",
+   "original": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "final": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 7.56,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "More than a traditional insights leader, you are a strategic business partner who translates consumer, shopper, cultural, commercial, and business intelligence into growth strat\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "Lead the transformation of OLLY/SPV into an AI-first intelligence organization, redefining how consumer, shopper, cultural, and commercial signals are generated, synthesized, sh\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Build and scale AI-enabled capabilities that help the business identify emerging opportunities, anticipate market shifts, and make faster, smarter growth decisions.\u200b",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Reimagine traditional insights, analytics, and research approaches through AI-enabled research, predictive intelligence, signal detection, automated synthesis, and scalable know\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Scale intelligence through AI and modern capabilities\u200b",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "You are equally comfortable discussing consumer motivations, innovation platforms, commercial performance, marketing effectiveness, future trends, and AI-enabled capabilities. Y\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p6",
+   "role": "proj",
+   "original": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "final": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 10.16,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "More than a traditional insights leader, you are a strategic business partner who translates consumer, shopper, cultural, commercial, and business intelligence into growth strat\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Reimagine traditional insights, analytics, and research approaches through AI-enabled research, predictive intelligence, signal detection, automated synthesis, and scalable know\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Lead and develop a high-performing team across consumer insights, analytics, foresight, and intelligence capabilities.\u200b",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Create strong alignment and collaboration across OLLY and SPV insights resources, ensuring the function operates with clear priorities and consistent enterprise impact.\u200b",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "You are a highly strategic, consumer and growth-obsessed leader who thrives at the intersection of insights, analytics, strategy, and business growth. You possess an unusual abi\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "You are equally comfortable discussing consumer motivations, innovation platforms, commercial performance, marketing effectiveness, future trends, and AI-enabled capabilities. Y\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "15+ years of progressive experience across consumer insights, strategy, analytics, innovation, consulting, marketing, or related disciplines.\u200b",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "why": "others covered the same ground better",
+   "score": 29.51
+  },
+  {
+   "text": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "why": "others covered the same ground better",
+   "score": 26.21
+  },
+  {
+   "text": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "why": "others covered the same ground better",
+   "score": 26.16
+  },
+  {
+   "text": "Ran a roundtable with a regional sales VP's leadership team to answer their doubts about advanced analytics",
+   "why": "others covered the same ground better",
+   "score": 24.26
+  },
+  {
+   "text": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "why": "others covered the same ground better",
+   "score": 17.86
+  },
+  {
+   "text": "Secured new MSN content datasets, built an MSN insights prototype with the team, and took it to sellers and marketing once MSN leaders approved it",
+   "why": "others covered the same ground better",
+   "score": 16.93
+  },
+  {
+   "text": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "why": "others covered the same ground better",
+   "score": 15.05
+  },
+  {
+   "text": "Designed and ran a pilot matching analytics products to sales needs, to make the case for new headcount",
+   "why": "others covered the same ground better",
+   "score": 12.46
+  }
+ ],
+ "skills": [
+  "Strategy",
+  "Data storytelling",
+  "Generative AI",
+  "Stakeholder management",
+  "Team leadership",
+  "Business intelligence",
+  "Measurement",
+  "Advertising",
+  "Analytics training"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "warn",
+   "detail": "Asks for 15+ years; I have 12."
+  },
+  {
+   "kind": "authorization",
+   "status": "info",
+   "detail": "Asks about work authorization or sponsorship."
+  },
+  {
+   "kind": "location",
+   "status": "info",
+   "detail": "Mentions \"Hybrid\"; I check it against where I'd work."
+  }
+ ]
+}
