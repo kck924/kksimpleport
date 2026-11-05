@@ -1,0 +1,2138 @@
+{
+ "id": "bvjsbmb5",
+ "version": "1.5",
+ "created": "2026-11-05",
+ "job": {
+  "title": "Director, Advanced Analytics | CookUnity Careers",
+  "company": ""
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 10
+ },
+ "fit": 78,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "10+ years of experience in advanced analytics and advanced statistical analysis, with at least 5 years in leadership roles.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "t1",
+    "p6",
+    "p1",
+    "d1",
+    "m9",
+    "m7"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "Strong applied experience in product and growth experimentation, causal inference and customer retention analysis, alongside a practical understanding of marketing measurement a\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "t1",
+    "m9",
+    "x2",
+    "d1",
+    "n1",
+    "s1",
+    "p6",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "Proven experience partnering with Product teams and translating analytical insights into product decisions and measurable business outcomes.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "m1",
+    "m12",
+    "t1",
+    "x2",
+    "n1",
+    "m7",
+    "m2",
+    "p6",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Strong strategic judgment and business understanding, with the ability to identify the right questions and prioritize work based on potential impact.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "m12"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "Ability to communicate complex findings, methodological limitations, and recommendations clearly to senior stakeholders.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "m1",
+    "x2",
+    "n1",
+    "m7",
+    "m2",
+    "t1",
+    "m12",
+    "p6",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "A player-coach approach that combines technical depth, strategic thinking, and people leadership.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "m12",
+    "m1",
+    "s1",
+    "m9",
+    "m2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "Strong hands-on analytical capabilities, with experience independently investigating complex business problems and guiding others through them.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r8",
+   "text": "People leadership experience, including developing talent, providing technical guidance, and improving team performance.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [
+    "s1",
+    "m9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "High autonomy, intellectual curiosity, and a proactive approach to solving problems in an evolving environment.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r10",
+   "text": "As a Director, Advanced Analytics, you will lead CookUnity\u2019s Advanced Analytics function, helping the business understand performance, identify opportunities, and make better de\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "s1",
+    "m9",
+    "d1",
+    "m1",
+    "m7",
+    "m2",
+    "m12"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r11",
+   "text": "You will partner closely with Product, Finance, Operations and senior leadership to turn complex business questions into rigorous analyses and actionable recommendations. Your w\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "x2",
+    "n1",
+    "m9",
+    "m1",
+    "t1",
+    "m7",
+    "m2",
+    "p6",
+    "p1",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "This is a hands-on, player-coach leadership role. You will tackle complex analytical problems while developing the team, providing technical direction, and raising the quality a\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "s1",
+    "d1",
+    "m1",
+    "m9",
+    "m7",
+    "m2",
+    "m12",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r13",
+   "text": "Your focus will be advanced analytics, experimentation, and measurement, working in partnership with the separate Data Science/ML and Engineering teams responsible for deploying\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "t1",
+    "d1",
+    "x2",
+    "s1",
+    "n1",
+    "p6",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r14",
+   "text": "Strategic Direction & Business Partnership",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "m12"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r15",
+   "text": "Set the direction for Advanced Analytics. Build a proactive analytical agenda aligned with CookUnity\u2019s priorities. Establish clear ownership, prioritize high-impact questions, a\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "m12",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r16",
+   "text": "Turn insights into business impact. Bring an independent analytical perspective to leadership discussions, communicate recommendations clearly, and evaluate how the resulting de\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m12",
+    "m9",
+    "s1",
+    "t1",
+    "p6",
+    "p1",
+    "d1",
+    "m1",
+    "m7"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r17",
+   "text": "Advanced Analytics & Experimentation",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r18",
+   "text": "Measure the impact of product, operational, and pricing decisions. Use experimentation and causal inference to determine how changes to the customer experience, operational proc\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "t1",
+    "x2",
+    "m9",
+    "p6",
+    "p1",
+    "d1",
+    "n1",
+    "s1",
+    "m12"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "Lead growth experimentation. Partner with Growth and Product to design, prioritize and evaluate tests across acquisition, activation, offers and lifecycle engagement. Connect sh\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "d1",
+    "m1",
+    "m2",
+    "x2",
+    "n1",
+    "m12"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r20",
+   "text": "Lead hands-on analytical work. Dive into complex problems, challenge assumptions, and guide methodological choices. Provide technical direction from problem framing through anal\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "m12",
+    "p6",
+    "t1",
+    "p1",
+    "m1",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r21",
+   "text": "Explain churn and retention drivers. Investigate how customer mix, pricing, promotions, meal quality, menu availability and the delivery experience influence weekly ordering, sk\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "x2",
+    "m9",
+    "m7",
+    "d1",
+    "n1",
+    "m12",
+    "m1",
+    "m2",
+    "p6",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r22",
+   "text": "Influence product priorities. Translate customer behavior and product performance insights into recommendations that inform roadmaps, investment decisions, and opportunities to \u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "m9",
+    "m7",
+    "m12",
+    "d1",
+    "p1",
+    "m1",
+    "t1",
+    "x2",
+    "n1",
+    "m2",
+    "p6"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r23",
+   "text": "Strengthen marketing measurement. Bring a practical understanding of marketing mix modeling (MMM), multi-touch attribution (MTA) and incrementality testing. Help Marketing inter\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "t1",
+    "x2",
+    "d1",
+    "n1",
+    "p6",
+    "s1",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r24",
+   "text": "Team Leadership & Development",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "m1",
+    "s1",
+    "m9",
+    "m7",
+    "m2",
+    "m12"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r25",
+   "text": "Develop and strengthen the team. Coach Data Analysts, provide actionable feedback, and set clear expectations for analytical rigor, business understanding, and delivery quality.\u2026",
+   "kind": "responsibility",
+   "weight": 2.5,
+   "coveredBy": [
+    "d1",
+    "m9",
+    "m12",
+    "m1",
+    "s1",
+    "m7",
+    "m2",
+    "p1"
+   ],
+   "gap": false
+  }
+ ],
+ "picks": [
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 62.66,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in advanced analytics and advanced statistical analysis, with at least 5 years in leadership roles.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r2",
+     "text": "Strong applied experience in product and growth experimentation, causal inference and customer retention analysis, alongside a practical understanding of marketing measurement a\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Strong strategic judgment and business understanding, with the ability to identify the right questions and prioritize work based on potential impact.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "A player-coach approach that combines technical depth, strategic thinking, and people leadership.",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "People leadership experience, including developing talent, providing technical guidance, and improving team performance.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "As a Director, Advanced Analytics, you will lead CookUnity\u2019s Advanced Analytics function, helping the business understand performance, identify opportunities, and make better de\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r11",
+     "text": "You will partner closely with Product, Finance, Operations and senior leadership to turn complex business questions into rigorous analyses and actionable recommendations. Your w\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r12",
+     "text": "This is a hands-on, player-coach leadership role. You will tackle complex analytical problems while developing the team, providing technical direction, and raising the quality a\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r13",
+     "text": "Your focus will be advanced analytics, experimentation, and measurement, working in partnership with the separate Data Science/ML and Engineering teams responsible for deploying\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r14",
+     "text": "Strategic Direction & Business Partnership",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Set the direction for Advanced Analytics. Build a proactive analytical agenda aligned with CookUnity\u2019s priorities. Establish clear ownership, prioritize high-impact questions, a\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "Turn insights into business impact. Bring an independent analytical perspective to leadership discussions, communicate recommendations clearly, and evaluate how the resulting de\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r17",
+     "text": "Advanced Analytics & Experimentation",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Measure the impact of product, operational, and pricing decisions. Use experimentation and causal inference to determine how changes to the customer experience, operational proc\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Lead growth experimentation. Partner with Growth and Product to design, prioritize and evaluate tests across acquisition, activation, offers and lifecycle engagement. Connect sh\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Lead hands-on analytical work. Dive into complex problems, challenge assumptions, and guide methodological choices. Provide technical direction from problem framing through anal\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r21",
+     "text": "Explain churn and retention drivers. Investigate how customer mix, pricing, promotions, meal quality, menu availability and the delivery experience influence weekly ordering, sk\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Influence product priorities. Translate customer behavior and product performance insights into recommendations that inform roadmaps, investment decisions, and opportunities to \u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r23",
+     "text": "Strengthen marketing measurement. Bring a practical understanding of marketing mix modeling (MMM), multi-touch attribution (MTA) and incrementality testing. Help Marketing inter\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r24",
+     "text": "Team Leadership & Development",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Develop and strengthen the team. Coach Data Analysts, provide actionable feedback, and set clear expectations for analytical rigor, business understanding, and delivery quality.\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    }
+   ]
+  },
+  {
+   "id": "m1",
+   "role": "ms-head",
+   "original": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "final": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 41.33,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in advanced analytics and advanced statistical analysis, with at least 5 years in leadership roles.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Proven experience partnering with Product teams and translating analytical insights into product decisions and measurable business outcomes.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Strong strategic judgment and business understanding, with the ability to identify the right questions and prioritize work based on potential impact.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Ability to communicate complex findings, methodological limitations, and recommendations clearly to senior stakeholders.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "A player-coach approach that combines technical depth, strategic thinking, and people leadership.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r7",
+     "text": "Strong hands-on analytical capabilities, with experience independently investigating complex business problems and guiding others through them.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "People leadership experience, including developing talent, providing technical guidance, and improving team performance.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "As a Director, Advanced Analytics, you will lead CookUnity\u2019s Advanced Analytics function, helping the business understand performance, identify opportunities, and make better de\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "You will partner closely with Product, Finance, Operations and senior leadership to turn complex business questions into rigorous analyses and actionable recommendations. Your w\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "This is a hands-on, player-coach leadership role. You will tackle complex analytical problems while developing the team, providing technical direction, and raising the quality a\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r14",
+     "text": "Strategic Direction & Business Partnership",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Set the direction for Advanced Analytics. Build a proactive analytical agenda aligned with CookUnity\u2019s priorities. Establish clear ownership, prioritize high-impact questions, a\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r16",
+     "text": "Turn insights into business impact. Bring an independent analytical perspective to leadership discussions, communicate recommendations clearly, and evaluate how the resulting de\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r19",
+     "text": "Lead growth experimentation. Partner with Growth and Product to design, prioritize and evaluate tests across acquisition, activation, offers and lifecycle engagement. Connect sh\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Lead hands-on analytical work. Dive into complex problems, challenge assumptions, and guide methodological choices. Provide technical direction from problem framing through anal\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r21",
+     "text": "Explain churn and retention drivers. Investigate how customer mix, pricing, promotions, meal quality, menu availability and the delivery experience influence weekly ordering, sk\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Influence product priorities. Translate customer behavior and product performance insights into recommendations that inform roadmaps, investment decisions, and opportunities to \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "Team Leadership & Development",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Develop and strengthen the team. Coach Data Analysts, provide actionable feedback, and set clear expectations for analytical rigor, business understanding, and delivery quality.\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "role": "ms-sal",
+   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 28.86,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in advanced analytics and advanced statistical analysis, with at least 5 years in leadership roles.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r2",
+     "text": "Strong applied experience in product and growth experimentation, causal inference and customer retention analysis, alongside a practical understanding of marketing measurement a\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Proven experience partnering with Product teams and translating analytical insights into product decisions and measurable business outcomes.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Strong strategic judgment and business understanding, with the ability to identify the right questions and prioritize work based on potential impact.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "A player-coach approach that combines technical depth, strategic thinking, and people leadership.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r7",
+     "text": "Strong hands-on analytical capabilities, with experience independently investigating complex business problems and guiding others through them.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "People leadership experience, including developing talent, providing technical guidance, and improving team performance.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r10",
+     "text": "As a Director, Advanced Analytics, you will lead CookUnity\u2019s Advanced Analytics function, helping the business understand performance, identify opportunities, and make better de\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "You will partner closely with Product, Finance, Operations and senior leadership to turn complex business questions into rigorous analyses and actionable recommendations. Your w\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r12",
+     "text": "This is a hands-on, player-coach leadership role. You will tackle complex analytical problems while developing the team, providing technical direction, and raising the quality a\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "Your focus will be advanced analytics, experimentation, and measurement, working in partnership with the separate Data Science/ML and Engineering teams responsible for deploying\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r14",
+     "text": "Strategic Direction & Business Partnership",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Set the direction for Advanced Analytics. Build a proactive analytical agenda aligned with CookUnity\u2019s priorities. Establish clear ownership, prioritize high-impact questions, a\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r16",
+     "text": "Turn insights into business impact. Bring an independent analytical perspective to leadership discussions, communicate recommendations clearly, and evaluate how the resulting de\u2026",
+     "skills": [],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "Advanced Analytics & Experimentation",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Measure the impact of product, operational, and pricing decisions. Use experimentation and causal inference to determine how changes to the customer experience, operational proc\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Lead growth experimentation. Partner with Growth and Product to design, prioritize and evaluate tests across acquisition, activation, offers and lifecycle engagement. Connect sh\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "Lead hands-on analytical work. Dive into complex problems, challenge assumptions, and guide methodological choices. Provide technical direction from problem framing through anal\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r21",
+     "text": "Explain churn and retention drivers. Investigate how customer mix, pricing, promotions, meal quality, menu availability and the delivery experience influence weekly ordering, sk\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "Strengthen marketing measurement. Bring a practical understanding of marketing mix modeling (MMM), multi-touch attribution (MTA) and incrementality testing. Help Marketing inter\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "Team Leadership & Development",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Develop and strengthen the team. Coach Data Analysts, provide actionable feedback, and set clear expectations for analytical rigor, business understanding, and delivery quality.\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "role": "ms-al",
+   "original": "Created the Marketplace Rebound Gauge, a traffic-light signal of COVID recovery built on moving-average clustering, used in every vertical and later in EMEA",
+   "final": "Created the Marketplace Rebound Gauge, a traffic-light signal of COVID recovery built on moving-average clustering, used in every vertical and later in EMEA",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 17.24,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in advanced analytics and advanced statistical analysis, with at least 5 years in leadership roles.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "Strong applied experience in product and growth experimentation, causal inference and customer retention analysis, alongside a practical understanding of marketing measurement a\u2026",
+     "skills": [
+      "stats",
+      "measurement"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Proven experience partnering with Product teams and translating analytical insights into product decisions and measurable business outcomes.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Ability to communicate complex findings, methodological limitations, and recommendations clearly to senior stakeholders.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "You will partner closely with Product, Finance, Operations and senior leadership to turn complex business questions into rigorous analyses and actionable recommendations. Your w\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Your focus will be advanced analytics, experimentation, and measurement, working in partnership with the separate Data Science/ML and Engineering teams responsible for deploying\u2026",
+     "skills": [
+      "stats",
+      "measurement"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r16",
+     "text": "Turn insights into business impact. Bring an independent analytical perspective to leadership discussions, communicate recommendations clearly, and evaluate how the resulting de\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Measure the impact of product, operational, and pricing decisions. Use experimentation and causal inference to determine how changes to the customer experience, operational proc\u2026",
+     "skills": [
+      "stats",
+      "measurement",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r20",
+     "text": "Lead hands-on analytical work. Dive into complex problems, challenge assumptions, and guide methodological choices. Provide technical direction from problem framing through anal\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Influence product priorities. Translate customer behavior and product performance insights into recommendations that inform roadmaps, investment decisions, and opportunities to \u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "Strengthen marketing measurement. Bring a practical understanding of marketing mix modeling (MMM), multi-touch attribution (MTA) and incrementality testing. Help Marketing inter\u2026",
+     "skills": [
+      "stats",
+      "measurement"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 10.29,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Strong applied experience in product and growth experimentation, causal inference and customer retention analysis, alongside a practical understanding of marketing measurement a\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r3",
+     "text": "Proven experience partnering with Product teams and translating analytical insights into product decisions and measurable business outcomes.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Ability to communicate complex findings, methodological limitations, and recommendations clearly to senior stakeholders.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "You will partner closely with Product, Finance, Operations and senior leadership to turn complex business questions into rigorous analyses and actionable recommendations. Your w\u2026",
+     "skills": [
+      "measurement",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "Your focus will be advanced analytics, experimentation, and measurement, working in partnership with the separate Data Science/ML and Engineering teams responsible for deploying\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r18",
+     "text": "Measure the impact of product, operational, and pricing decisions. Use experimentation and causal inference to determine how changes to the customer experience, operational proc\u2026",
+     "skills": [
+      "measurement",
+      "revenue"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Lead growth experimentation. Partner with Growth and Product to design, prioritize and evaluate tests across acquisition, activation, offers and lifecycle engagement. Connect sh\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Explain churn and retention drivers. Investigate how customer mix, pricing, promotions, meal quality, menu availability and the delivery experience influence weekly ordering, sk\u2026",
+     "skills": [
+      "revenue",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r22",
+     "text": "Influence product priorities. Translate customer behavior and product performance insights into recommendations that inform roadmaps, investment decisions, and opportunities to \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "Strengthen marketing measurement. Bring a practical understanding of marketing mix modeling (MMM), multi-touch attribution (MTA) and incrementality testing. Help Marketing inter\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    }
+   ]
+  },
+  {
+   "id": "n1",
+   "role": "hanapin",
+   "original": "Ran client relationships and strategy for search and display accounts on Google Ads, Bing Ads and Yahoo, including optimization, monitoring and reporting",
+   "final": "Ran client relationships and strategy for search and display accounts on Google Ads, Bing Ads and Yahoo, including optimization, monitoring and reporting",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 11.19,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Strong applied experience in product and growth experimentation, causal inference and customer retention analysis, alongside a practical understanding of marketing measurement a\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Proven experience partnering with Product teams and translating analytical insights into product decisions and measurable business outcomes.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Ability to communicate complex findings, methodological limitations, and recommendations clearly to senior stakeholders.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "You will partner closely with Product, Finance, Operations and senior leadership to turn complex business questions into rigorous analyses and actionable recommendations. Your w\u2026",
+     "skills": [
+      "measurement",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "Your focus will be advanced analytics, experimentation, and measurement, working in partnership with the separate Data Science/ML and Engineering teams responsible for deploying\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Measure the impact of product, operational, and pricing decisions. Use experimentation and causal inference to determine how changes to the customer experience, operational proc\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r19",
+     "text": "Lead growth experimentation. Partner with Growth and Product to design, prioritize and evaluate tests across acquisition, activation, offers and lifecycle engagement. Connect sh\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Explain churn and retention drivers. Investigate how customer mix, pricing, promotions, meal quality, menu availability and the delivery experience influence weekly ordering, sk\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Influence product priorities. Translate customer behavior and product performance insights into recommendations that inform roadmaps, investment decisions, and opportunities to \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "Strengthen marketing measurement. Bring a practical understanding of marketing mix modeling (MMM), multi-touch attribution (MTA) and incrementality testing. Help Marketing inter\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 61.52,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in advanced analytics and advanced statistical analysis, with at least 5 years in leadership roles.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r2",
+     "text": "Strong applied experience in product and growth experimentation, causal inference and customer retention analysis, alongside a practical understanding of marketing measurement a\u2026",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "Proven experience partnering with Product teams and translating analytical insights into product decisions and measurable business outcomes.",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Ability to communicate complex findings, methodological limitations, and recommendations clearly to senior stakeholders.",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "A player-coach approach that combines technical depth, strategic thinking, and people leadership.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "People leadership experience, including developing talent, providing technical guidance, and improving team performance.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r10",
+     "text": "As a Director, Advanced Analytics, you will lead CookUnity\u2019s Advanced Analytics function, helping the business understand performance, identify opportunities, and make better de\u2026",
+     "skills": [
+      "leadership",
+      "product-analytics"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "You will partner closely with Product, Finance, Operations and senior leadership to turn complex business questions into rigorous analyses and actionable recommendations. Your w\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r12",
+     "text": "This is a hands-on, player-coach leadership role. You will tackle complex analytical problems while developing the team, providing technical direction, and raising the quality a\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Turn insights into business impact. Bring an independent analytical perspective to leadership discussions, communicate recommendations clearly, and evaluate how the resulting de\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Measure the impact of product, operational, and pricing decisions. Use experimentation and causal inference to determine how changes to the customer experience, operational proc\u2026",
+     "skills": [
+      "storytelling",
+      "product-analytics"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Lead growth experimentation. Partner with Growth and Product to design, prioritize and evaluate tests across acquisition, activation, offers and lifecycle engagement. Connect sh\u2026",
+     "skills": [
+      "product-analytics",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r20",
+     "text": "Lead hands-on analytical work. Dive into complex problems, challenge assumptions, and guide methodological choices. Provide technical direction from problem framing through anal\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Explain churn and retention drivers. Investigate how customer mix, pricing, promotions, meal quality, menu availability and the delivery experience influence weekly ordering, sk\u2026",
+     "skills": [
+      "product-analytics",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r22",
+     "text": "Influence product priorities. Translate customer behavior and product performance insights into recommendations that inform roadmaps, investment decisions, and opportunities to \u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Strengthen marketing measurement. Bring a practical understanding of marketing mix modeling (MMM), multi-touch attribution (MTA) and incrementality testing. Help Marketing inter\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Team Leadership & Development",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Develop and strengthen the team. Coach Data Analysts, provide actionable feedback, and set clear expectations for analytical rigor, business understanding, and delivery quality.\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "role": "ms-head",
+   "original": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "final": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 43.24,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in advanced analytics and advanced statistical analysis, with at least 5 years in leadership roles.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r3",
+     "text": "Proven experience partnering with Product teams and translating analytical insights into product decisions and measurable business outcomes.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Strong strategic judgment and business understanding, with the ability to identify the right questions and prioritize work based on potential impact.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Ability to communicate complex findings, methodological limitations, and recommendations clearly to senior stakeholders.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "A player-coach approach that combines technical depth, strategic thinking, and people leadership.",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "People leadership experience, including developing talent, providing technical guidance, and improving team performance.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "As a Director, Advanced Analytics, you will lead CookUnity\u2019s Advanced Analytics function, helping the business understand performance, identify opportunities, and make better de\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "You will partner closely with Product, Finance, Operations and senior leadership to turn complex business questions into rigorous analyses and actionable recommendations. Your w\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "This is a hands-on, player-coach leadership role. You will tackle complex analytical problems while developing the team, providing technical direction, and raising the quality a\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Your focus will be advanced analytics, experimentation, and measurement, working in partnership with the separate Data Science/ML and Engineering teams responsible for deploying\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Strategic Direction & Business Partnership",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Set the direction for Advanced Analytics. Build a proactive analytical agenda aligned with CookUnity\u2019s priorities. Establish clear ownership, prioritize high-impact questions, a\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Turn insights into business impact. Bring an independent analytical perspective to leadership discussions, communicate recommendations clearly, and evaluate how the resulting de\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r17",
+     "text": "Advanced Analytics & Experimentation",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "Lead growth experimentation. Partner with Growth and Product to design, prioritize and evaluate tests across acquisition, activation, offers and lifecycle engagement. Connect sh\u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "Explain churn and retention drivers. Investigate how customer mix, pricing, promotions, meal quality, menu availability and the delivery experience influence weekly ordering, sk\u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r22",
+     "text": "Influence product priorities. Translate customer behavior and product performance insights into recommendations that inform roadmaps, investment decisions, and opportunities to \u2026",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Team Leadership & Development",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Develop and strengthen the team. Coach Data Analysts, provide actionable feedback, and set clear expectations for analytical rigor, business understanding, and delivery quality.\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "role": "ms-dir",
+   "original": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "final": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 30.39,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in advanced analytics and advanced statistical analysis, with at least 5 years in leadership roles.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Proven experience partnering with Product teams and translating analytical insights into product decisions and measurable business outcomes.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Ability to communicate complex findings, methodological limitations, and recommendations clearly to senior stakeholders.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "A player-coach approach that combines technical depth, strategic thinking, and people leadership.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "People leadership experience, including developing talent, providing technical guidance, and improving team performance.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "High autonomy, intellectual curiosity, and a proactive approach to solving problems in an evolving environment.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "As a Director, Advanced Analytics, you will lead CookUnity\u2019s Advanced Analytics function, helping the business understand performance, identify opportunities, and make better de\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "You will partner closely with Product, Finance, Operations and senior leadership to turn complex business questions into rigorous analyses and actionable recommendations. Your w\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "This is a hands-on, player-coach leadership role. You will tackle complex analytical problems while developing the team, providing technical direction, and raising the quality a\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Turn insights into business impact. Bring an independent analytical perspective to leadership discussions, communicate recommendations clearly, and evaluate how the resulting de\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "Lead growth experimentation. Partner with Growth and Product to design, prioritize and evaluate tests across acquisition, activation, offers and lifecycle engagement. Connect sh\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Explain churn and retention drivers. Investigate how customer mix, pricing, promotions, meal quality, menu availability and the delivery experience influence weekly ordering, sk\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Influence product priorities. Translate customer behavior and product performance insights into recommendations that inform roadmaps, investment decisions, and opportunities to \u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "Team Leadership & Development",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Develop and strengthen the team. Coach Data Analysts, provide actionable feedback, and set clear expectations for analytical rigor, business understanding, and delivery quality.\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m12",
+   "role": "ms-dir",
+   "original": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "final": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 37.87,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in advanced analytics and advanced statistical analysis, with at least 5 years in leadership roles.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r3",
+     "text": "Proven experience partnering with Product teams and translating analytical insights into product decisions and measurable business outcomes.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Strong strategic judgment and business understanding, with the ability to identify the right questions and prioritize work based on potential impact.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Ability to communicate complex findings, methodological limitations, and recommendations clearly to senior stakeholders.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "A player-coach approach that combines technical depth, strategic thinking, and people leadership.",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "People leadership experience, including developing talent, providing technical guidance, and improving team performance.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "As a Director, Advanced Analytics, you will lead CookUnity\u2019s Advanced Analytics function, helping the business understand performance, identify opportunities, and make better de\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "You will partner closely with Product, Finance, Operations and senior leadership to turn complex business questions into rigorous analyses and actionable recommendations. Your w\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "This is a hands-on, player-coach leadership role. You will tackle complex analytical problems while developing the team, providing technical direction, and raising the quality a\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Your focus will be advanced analytics, experimentation, and measurement, working in partnership with the separate Data Science/ML and Engineering teams responsible for deploying\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Strategic Direction & Business Partnership",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Set the direction for Advanced Analytics. Build a proactive analytical agenda aligned with CookUnity\u2019s priorities. Establish clear ownership, prioritize high-impact questions, a\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Turn insights into business impact. Bring an independent analytical perspective to leadership discussions, communicate recommendations clearly, and evaluate how the resulting de\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r18",
+     "text": "Measure the impact of product, operational, and pricing decisions. Use experimentation and causal inference to determine how changes to the customer experience, operational proc\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r19",
+     "text": "Lead growth experimentation. Partner with Growth and Product to design, prioritize and evaluate tests across acquisition, activation, offers and lifecycle engagement. Connect sh\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Lead hands-on analytical work. Dive into complex problems, challenge assumptions, and guide methodological choices. Provide technical direction from problem framing through anal\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Explain churn and retention drivers. Investigate how customer mix, pricing, promotions, meal quality, menu availability and the delivery experience influence weekly ordering, sk\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Influence product priorities. Translate customer behavior and product performance insights into recommendations that inform roadmaps, investment decisions, and opportunities to \u2026",
+     "skills": [
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Team Leadership & Development",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Develop and strengthen the team. Coach Data Analysts, provide actionable feedback, and set clear expectations for analytical rigor, business understanding, and delivery quality.\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    }
+   ]
+  },
+  {
+   "id": "p6",
+   "role": "proj",
+   "original": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "final": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 29.89,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in advanced analytics and advanced statistical analysis, with at least 5 years in leadership roles.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "Strong applied experience in product and growth experimentation, causal inference and customer retention analysis, alongside a practical understanding of marketing measurement a\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Proven experience partnering with Product teams and translating analytical insights into product decisions and measurable business outcomes.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Ability to communicate complex findings, methodological limitations, and recommendations clearly to senior stakeholders.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "A player-coach approach that combines technical depth, strategic thinking, and people leadership.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "Strong hands-on analytical capabilities, with experience independently investigating complex business problems and guiding others through them.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "High autonomy, intellectual curiosity, and a proactive approach to solving problems in an evolving environment.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "You will partner closely with Product, Finance, Operations and senior leadership to turn complex business questions into rigorous analyses and actionable recommendations. Your w\u2026",
+     "skills": [
+      "data-journalism"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "This is a hands-on, player-coach leadership role. You will tackle complex analytical problems while developing the team, providing technical direction, and raising the quality a\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r13",
+     "text": "Your focus will be advanced analytics, experimentation, and measurement, working in partnership with the separate Data Science/ML and Engineering teams responsible for deploying\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Turn insights into business impact. Bring an independent analytical perspective to leadership discussions, communicate recommendations clearly, and evaluate how the resulting de\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Measure the impact of product, operational, and pricing decisions. Use experimentation and causal inference to determine how changes to the customer experience, operational proc\u2026",
+     "skills": [
+      "stats",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r20",
+     "text": "Lead hands-on analytical work. Dive into complex problems, challenge assumptions, and guide methodological choices. Provide technical direction from problem framing through anal\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Explain churn and retention drivers. Investigate how customer mix, pricing, promotions, meal quality, menu availability and the delivery experience influence weekly ordering, sk\u2026",
+     "skills": [
+      "data-journalism"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Influence product priorities. Translate customer behavior and product performance insights into recommendations that inform roadmaps, investment decisions, and opportunities to \u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "Strengthen marketing measurement. Bring a practical understanding of marketing mix modeling (MMM), multi-touch attribution (MTA) and incrementality testing. Help Marketing inter\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "role": "proj",
+   "original": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "final": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 26.18,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "10+ years of experience in advanced analytics and advanced statistical analysis, with at least 5 years in leadership roles.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r2",
+     "text": "Strong applied experience in product and growth experimentation, causal inference and customer retention analysis, alongside a practical understanding of marketing measurement a\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Proven experience partnering with Product teams and translating analytical insights into product decisions and measurable business outcomes.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Ability to communicate complex findings, methodological limitations, and recommendations clearly to senior stakeholders.",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "A player-coach approach that combines technical depth, strategic thinking, and people leadership.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "You will partner closely with Product, Finance, Operations and senior leadership to turn complex business questions into rigorous analyses and actionable recommendations. Your w\u2026",
+     "skills": [
+      "data-journalism"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "This is a hands-on, player-coach leadership role. You will tackle complex analytical problems while developing the team, providing technical direction, and raising the quality a\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Your focus will be advanced analytics, experimentation, and measurement, working in partnership with the separate Data Science/ML and Engineering teams responsible for deploying\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r16",
+     "text": "Turn insights into business impact. Bring an independent analytical perspective to leadership discussions, communicate recommendations clearly, and evaluate how the resulting de\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Measure the impact of product, operational, and pricing decisions. Use experimentation and causal inference to determine how changes to the customer experience, operational proc\u2026",
+     "skills": [
+      "stats",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r20",
+     "text": "Lead hands-on analytical work. Dive into complex problems, challenge assumptions, and guide methodological choices. Provide technical direction from problem framing through anal\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Explain churn and retention drivers. Investigate how customer mix, pricing, promotions, meal quality, menu availability and the delivery experience influence weekly ordering, sk\u2026",
+     "skills": [
+      "data-journalism"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Influence product priorities. Translate customer behavior and product performance insights into recommendations that inform roadmaps, investment decisions, and opportunities to \u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r23",
+     "text": "Strengthen marketing measurement. Bring a practical understanding of marketing mix modeling (MMM), multi-touch attribution (MTA) and incrementality testing. Help Marketing inter\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Develop and strengthen the team. Coach Data Analysts, provide actionable feedback, and set clear expectations for analytical rigor, business understanding, and delivery quality.\u2026",
+     "skills": [],
+     "m": 0.3
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "why": "others covered the same ground better",
+   "score": 36.82
+  },
+  {
+   "text": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "why": "others covered the same ground better",
+   "score": 35.07
+  },
+  {
+   "text": "Ran a roundtable with a regional sales VP's leadership team to answer their doubts about advanced analytics",
+   "why": "others covered the same ground better",
+   "score": 29.29
+  },
+  {
+   "text": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "why": "others covered the same ground better",
+   "score": 28.99
+  },
+  {
+   "text": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "why": "others covered the same ground better",
+   "score": 27.94
+  },
+  {
+   "text": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "why": "others covered the same ground better",
+   "score": 27.1
+  },
+  {
+   "text": "Secured new MSN content datasets, built an MSN insights prototype with the team, and took it to sellers and marketing once MSN leaders approved it",
+   "why": "others covered the same ground better",
+   "score": 24.96
+  },
+  {
+   "text": "Created Bite-Sized Insights, a short format adopted across verticals and regions; the first put the team on record about COVID a month before the travel industry",
+   "why": "others covered the same ground better",
+   "score": 22.6
+  }
+ ],
+ "skills": [
+  "Strategy",
+  "Data storytelling",
+  "Stakeholder management",
+  "Statistics",
+  "Team Leadership",
+  "Measurement",
+  "Product analytics",
+  "Machine learning",
+  "Revenue analytics",
+  "Data journalism"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 10+ years; I have 12."
+  }
+ ]
+}
