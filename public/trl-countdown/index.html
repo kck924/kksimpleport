@@ -287,6 +287,11 @@ svg text { font-family: Inter, sans-serif; }
 .pen svg { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; }
 .pen svg path { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; transition: opacity .16s ease; }
 footer { margin: 56px 0 0; padding: 26px 0 60px; border-top: 2px solid var(--ink); font: 400 13.5px/1.6 Inter, sans-serif; color: var(--ink-2); }
+footer summary { cursor: pointer; list-style: none; font: 600 12px 'IBM Plex Mono', monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--ink); padding: 4px 0; }
+footer summary::-webkit-details-marker { display: none; }
+footer summary::before { content: '+'; display: inline-block; width: 1.2em; }
+footer details[open] summary::before { content: '−'; }
+footer details[open] summary { margin-bottom: 14px; }
 footer h3 { font: 600 12px 'IBM Plex Mono', monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--ink); margin: 0 0 8px; }
 /* race storylines */
 .race-story { margin: 0 0 14px; }
@@ -312,7 +317,6 @@ footer h3 { font: 600 12px 'IBM Plex Mono', monospace; letter-spacing: .12em; te
 .ztitle small { display: block; font: 500 11px 'IBM Plex Mono', monospace; color: var(--ink-3); }
 @media (max-width: 560px) { .zoombar span, .ztitle small { display: none; } .ztitle { font-size: 13px; } .zoombar button { min-width: 44px; min-height: 38px; padding: 5px 10px; font-size: 16px; } .zoombar { height: 42px; } }
 .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
-.mock { display: inline-block; font: 600 11px 'IBM Plex Mono', monospace; letter-spacing: .1em; border: 1.5px dashed var(--ink-3); color: var(--ink-3); padding: 3px 7px; border-radius: 4px; margin-left: 8px; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 @media (max-width: 640px) {
   header { padding-top: 22px; }
@@ -331,7 +335,7 @@ footer h3 { font: 600 12px 'IBM Plex Mono', monospace; letter-spacing: .12em; te
 <header>
   <div class="crowd" aria-hidden="true"><canvas id="crowd"></canvas></div>
   <div class="head"><div>
-  <div class="kicker"><span class="live">Live</span> <span class="k-t">MTV, <span class="nw">1998–2007</span></span> <span class="mock">MOCKUP</span></div>
+  <div class="kicker"><span class="live">Live</span> <span class="k-t">MTV, <span class="nw">1998–2007</span></span></div>
   <h1>Total Request Live:<br><em>A Decade of Data</em></h1>
   <p class="dek">For nearly ten years, adolescent millennials came home from school, threw their backpacks on the ground, and crowded the television to watch MTV count down the 10 most-requested videos from an iconic studio above Times Square. Now we can revisit those days with the implements of adulthood: charts and data.</p>
   <div class="byline">By Kevin Klein · Data from fan recaps archived by the Wayback Machine</div>
@@ -434,6 +438,7 @@ footer h3 { font: 600 12px 'IBM Plex Mono', monospace; letter-spacing: .12em; te
 </div>
 
 <footer>
+  <details class="about"><summary>About the data</summary>
   <div class="cols">
     <div>
       <h3>Where this came from</h3>
@@ -448,6 +453,7 @@ footer h3 { font: 600 12px 'IBM Plex Mono', monospace; letter-spacing: .12em; te
       <p>Genres are my own calls, made per artist, so Avril Lavigne counts as pop-punk and Rihanna as pop. Fans spelled things many ways ('N Sync, *NSYNC, Nsync); those were merged into one name per video.</p>
     </div>
   </div>
+  </details>
   <p class="credits">Section photos from Wikimedia Commons, cropped and tinted: Times Square, July 1999, by <a href="https://commons.wikimedia.org/wiki/File:Times_Square_in_the_90s.jpg">Stephen Woods</a> (<a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>); Times Square, May 2003, by <a href="https://commons.wikimedia.org/wiki/File:2003-05-13_NYC_TimesSquare.jpg">J.B.</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>); the TRL studio window, April 2006, by <a href="https://commons.wikimedia.org/wiki/File:TRL_studios_in_Times_Square_in_2006.jpg">Diogo Almeida</a> (<a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>); Times Square at night, November 2003, by <a href="https://commons.wikimedia.org/wiki/File:Times_Square_at_Night_New_York_City_November_2003_II.jpg">Alistair McMillan</a> (<a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>).</p>
 </footer>
 </div>
@@ -513,7 +519,7 @@ function init(D) {
   const signText = t => esc(t).replace(/-/g, '<span class="hy">-</span>');
   GENRES.forEach(([g, name]) => {
     const b = document.createElement('button'); b.className = 'chip'; b.dataset.g = g; b.setAttribute('aria-pressed', 'true');
-    b.style.setProperty('--c', `var(--${g})`); b.innerHTML = `<i aria-hidden="true">♥</i>${signText(name)}`;
+    b.style.setProperty('--c', `var(--${g})`); b.innerHTML = `<i aria-hidden="true">♥\uFE0E</i>${signText(name)}`;
     b.onclick = () => {
       finishIntro(); closeZoom(false);
       // first click isolates a genre; clicking the only active one restores all
@@ -1370,7 +1376,7 @@ function init(D) {
   const lineup = document.getElementById('lineup');
   [[null, 'All genres'], ...GENRES.filter(([g]) => g !== 'other')].forEach(([g, name]) => {
     const b = document.createElement('button'); b.setAttribute('aria-pressed', g === null);
-    b.innerHTML = g ? `<i aria-hidden="true" style="--c:var(--${g})">♥</i>${signText(name)}` : name;
+    b.innerHTML = g ? `<i aria-hidden="true" style="--c:var(--${g})">♥\uFE0E</i>${signText(name)}` : name;
     b.onclick = () => { lineupG = g; setPair(false); lineup.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b)); animatePix(false); drawDrivers(); };
     lineup.appendChild(b);
   });
