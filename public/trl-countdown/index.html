@@ -363,7 +363,7 @@ footer h3 { font: 600 12px 'IBM Plex Mono', monospace; letter-spacing: .12em; te
 <section>
   <div class="prose">
     <p>From September 1998 through October 2007, MTV’s <i>Total Request Live</i> broadcast nearly 2,000 top-10 countdowns, featuring 975 different music videos, 240 of which spent time in the coveted #1 spot. Use the below tool to search for any song or artist to see when and where they spent time on the countdown.</p>
-    <p class="status" id="hint"><span class="h-mouse"><b>Hover</b> a square to follow one video. <b>Click</b> it to zoom in on that week.</span><span class="h-touch"><b>Tap</b> a square to zoom in on that week.</span></p>
+    <p class="status" id="hint"><span class="h-mouse"><b>Hover</b> a square to follow one video. <b>Click</b> it to zoom in on that week.</span><span class="h-touch"><b>Tap</b> a square to zoom in on that week, then tap a song for its full name.</span></p>
   </div>
   <div class="wall-bar" id="wallBar">
   <div class="controls">
@@ -789,7 +789,9 @@ function init(D) {
     if (nv !== S.hover) { S.hover = nv; drawWall(); }
     if (h) showTip(tipHtml(V[h.v], h.e, h.k), evt.clientX, evt.clientY); else hideTip();
   });
-  canvas.addEventListener('pointerleave', () => { S.hover = null; hideTip(); if (Z) { Z.hi = null; } drawWall(); });
+  // a tapped song's card is fixed to the screen, so it goes away once the page moves
+  if (TOUCH) addEventListener('scroll', hideTip, { passive: true });
+  canvas.addEventListener('pointerleave', evt => { if (Z && evt.pointerType === 'touch') return; S.hover = null; hideTip(); if (Z) { Z.hi = null; } drawWall(); });
   canvas.addEventListener('click', evt => {
     if (!showCells) finishIntro();   // a tap before the unspool lands finishes it and still opens the week
     if (!showCells) return;
@@ -823,7 +825,7 @@ function init(D) {
   }
   function setBar() {
     const eps = Z.eps, first = dates[eps[0]];
-    zTitle.innerHTML = `Week of ${fmtWk(d3.timeMonday.floor(first))}<small>${eps.length} show${eps.length > 1 ? 's' : ''} · ${TOUCH ? 'tap a song to follow its whole run' : 'hover a song, click to follow its whole run · Esc to zoom out'}</small>`;
+    zTitle.innerHTML = `Week of ${fmtWk(d3.timeMonday.floor(first))}<small>${eps.length} show${eps.length > 1 ? 's' : ''} · ${TOUCH ? 'tap a song for its full name, tap again to follow its run' : 'hover a song, click to follow its whole run · Esc to zoom out'}</small>`;
     document.getElementById('zPrev').disabled = eps[0] === 0;
     document.getElementById('zNext').disabled = eps[eps.length - 1] === nEp - 1;
   }
@@ -874,6 +876,18 @@ function init(D) {
 
   const inkOn = c => d3.lab(c).l > 62 ? '#1b1a17' : '#ffffff';
   const fit = (str, max) => { if (ctx.measureText(str).width <= max) return str; let t = str; while (t.length > 1 && ctx.measureText(t + '…').width > max) t = t.slice(0, -1); return t + '…'; };
+  // word-wrap into at most n lines, the last one cut with … if the rest still doesn't fit
+  const wrap = (str, max, n) => {
+    const out = []; let rest = str;
+    while (rest && out.length < n - 1 && ctx.measureText(rest).width > max) {
+      const words = rest.split(' '); let line = words[0], i = 1;
+      while (i < words.length && ctx.measureText(line + ' ' + words[i]).width <= max) line += ' ' + words[i++];
+      if (i === 1 && ctx.measureText(line).width > max) { let j = line.length; while (j > 1 && ctx.measureText(line.slice(0, j)).width > max) j--; out.push(line.slice(0, j)); rest = rest.slice(j); }
+      else { out.push(line); rest = words.slice(i).join(' '); }
+    }
+    if (rest) out.push(fit(rest, max));
+    return out;
+  };
   // how a video moved since the show before: up, down, same, new, or back after time away
   function moveOf(e, k, v) {
     if (V[v].runs[0][0] === e) return { t: 'NEW', c: 'new' };
@@ -976,7 +990,11 @@ function init(D) {
       if (!narrow) { ctx.textAlign = 'right'; ctx.globalAlpha *= mv.c === 'eq' ? .6 : 1; ctx.fillText(mv.t, x + w - pad, y + (Lz.ch >= 38 ? fs * .9 : h / 2)); ctx.globalAlpha = alpha * late * (dim ? .7 : 1); ctx.textAlign = 'left'; }
       ctx.font = `600 ${fs}px Inter, sans-serif`;
       const twoLine = Lz.ch >= 38 && !narrow;
-      ctx.fillText(fit(V[v].song, w - pad * 2 - mw), x + pad, twoLine ? y + fs * .9 : y + h / 2);
+      if (narrow) {
+        // phone cards are too narrow for one line, so the song wraps onto as many lines as the card holds
+        const lh = fs * 1.15, lines = wrap(V[v].song, w - pad * 2, Math.max(1, Math.floor((h - 4) / lh)));
+        lines.forEach((ln, i) => ctx.fillText(ln, x + pad, y + h / 2 + (i - (lines.length - 1) / 2) * lh));
+      } else ctx.fillText(fit(V[v].song, w - pad * 2 - mw), x + pad, twoLine ? y + fs * .9 : y + h / 2);
       if (twoLine) { ctx.font = `400 ${fs * .92}px Inter, sans-serif`; ctx.globalAlpha *= .8; ctx.fillText(fit(V[v].artist, w - pad * 2), x + pad, y + fs * 2.2); }
     }));
     ctx.restore();
@@ -991,7 +1009,7 @@ function init(D) {
     return null;
   }
   function zoomHover(evt) {
-    if (zT < 1 || Z.slide) return;
+    if (zT < 1 || Z.slide || evt.pointerType === 'touch') return;
     const h = zoomHit(evt), nv = h ? h.v : null;
     if (nv !== Z.hi) { Z.hi = nv; drawWall(); }
     canvas.style.cursor = h ? 'pointer' : 'default';
@@ -1000,7 +1018,14 @@ function init(D) {
   // clicking a song zooms back out with that video's whole run traced on the wall
   function zoomClick(evt) {
     if (zT < 1 || Z.slide) return;
-    const h = zoomHit(evt); if (!h) return;
+    const h = zoomHit(evt);
+    // on touch there's no hover, so the first tap picks the song and shows its full name; a second tap follows it
+    if (TOUCH && (!h || h.v !== Z.hi)) {
+      Z.hi = h ? h.v : null; drawWall();
+      if (h) showTip(tipHtml(V[h.v], h.e, h.k), evt.clientX, evt.clientY); else hideTip();
+      return;
+    }
+    if (!h) return;
     closeZoom(true, () => { S.pin = h.v; S.act = null; q.value = ''; canvas.style.cursor = ''; drawWall(); updateStatus(); });
   }
 
