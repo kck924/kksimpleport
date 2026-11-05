@@ -1,0 +1,1991 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Total Request Live: A Decade of Data</title>
+<meta name="description" content="Every TRL top 10 from 1998 to 2007, one square per slot.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+@font-face { font-family: 'KKHand'; src: url('/fonts/KKHand.ttf') format('truetype'); font-display: swap; }
+:root {
+  --bg: #f5efe3; --paper: #fbf7ee; --ink: #1b1a17; --ink-2: #57534a; --ink-3: #8d877a; --line: #e2d9c6; --grid: #ebe3d2; --empty: #ece4d3;
+  --pop: #E2407A; --groups: #7A4CD9; --hiphop: #F4A61B; --rnb: #0E8C7E; --rock: #1E2B5C; --punk: #7DC3EA; --other: #b9b0a0;
+  --hl: #1b1a17; --tip: #1b1a17; --tip-ink: #fbf7ee;
+  --sign: #fffdf8; --sign-sh: rgba(70,50,20,.2); --tape: rgba(232,214,160,.78);
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #141218; --paper: #1c1a21; --ink: #f1ebdf; --ink-2: #bdb6a8; --ink-3: #847d70; --line: #2f2c35; --grid: #26232c; --empty: #221f28;
+  --pop: #E8508C; --groups: #8F66EE; --hiphop: #F4AE33; --rnb: #0F6E62; --rock: #EFE8DA; --punk: #73C6F2; --other: #5d5866;
+  --hl: #ffffff; --tip: #f1ebdf; --tip-ink: #141218;
+  --sign: #2a2631; --sign-sh: rgba(0,0,0,.55); --tape: rgba(222,204,150,.42);
+} }
+:root[data-theme="dark"] {
+  --bg: #141218; --paper: #1c1a21; --ink: #f1ebdf; --ink-2: #bdb6a8; --ink-3: #847d70; --line: #2f2c35; --grid: #26232c; --empty: #221f28;
+  --pop: #E8508C; --groups: #8F66EE; --hiphop: #F4AE33; --rnb: #0F6E62; --rock: #EFE8DA; --punk: #73C6F2; --other: #5d5866;
+  --hl: #ffffff; --tip: #f1ebdf; --tip-ink: #141218;
+  --sign: #2a2631; --sign-sh: rgba(0,0,0,.55); --tape: rgba(222,204,150,.42);
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; overflow-x: clip; background: var(--bg); color: var(--ink); font: 400 17px/1.55 Inter, system-ui, sans-serif; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
+.prose { max-width: 640px; }
+a { color: inherit; }
+
+/* site bar, same as the other kckdata.com stories, but sticky at every width */
+:root { --topH: 45px; }
+.top { position: sticky; top: 0; z-index: 20; margin: 0 -16px; padding: 12px 16px; border-bottom: 1px solid var(--line);
+  background: color-mix(in srgb, var(--bg) 92%, transparent); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+  font: 500 .74rem/1 'IBM Plex Mono', monospace; text-transform: uppercase; letter-spacing: .08em; }
+.top a { color: var(--ink); text-decoration: none; }
+.top a b { font-family: KKHand, 'Comic Sans MS', cursive; text-transform: none; font-size: 1.25rem; letter-spacing: 0; font-weight: 400; }
+@media (min-width: 521px) { .top { padding: 14px 16px; font-size: .84rem; } .top a b { font-size: 1.6rem; } }
+
+/* masthead */
+header { padding: 40px 0 8px; position: relative; }
+/* the Times Square crowd, redrawn as a field of ink squares behind the masthead */
+.crowd { position: absolute; top: 0; height: min(760px, 100%); left: calc(50% - 50vw); width: 100vw; pointer-events: none; z-index: 0;
+  -webkit-mask-image: linear-gradient(to bottom, #000 0, #000 45%, transparent 92%); mask-image: linear-gradient(to bottom, #000 0, #000 45%, transparent 92%); }
+.crowd canvas { display: block; width: 100%; height: 100%; }
+/* keep the headline side readable; let the crowd show on the right */
+.crowd::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, color-mix(in srgb, var(--bg) 78%, transparent) 0, color-mix(in srgb, var(--bg) 55%, transparent) 38%, transparent 62%); }
+/* section photos: Times Square in each section's years, tinted with that era's genre color */
+.sec { position: relative; }
+.sec-photo { position: absolute; top: 0; left: calc(50% - 50vw); width: 100vw; height: 440px; overflow: hidden; pointer-events: none; z-index: 0;
+  -webkit-mask-image: linear-gradient(to bottom, #000 0, #000 35%, transparent 100%); mask-image: linear-gradient(to bottom, #000 0, #000 35%, transparent 100%); }
+.sec-photo canvas { position: absolute; left: 0; top: -10%; width: 100%; height: 120%; will-change: transform; }
+.sec-photo::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, color-mix(in srgb, var(--bg) 80%, transparent) 0, color-mix(in srgb, var(--bg) 60%, transparent) 42%, transparent 70%); }
+.sec-cap { position: absolute; right: max(16px, calc(50vw - 574px)); top: 14px; z-index: 1; font: 500 10.5px 'IBM Plex Mono', monospace; letter-spacing: .04em; color: var(--ink-2); background: color-mix(in srgb, var(--bg) 70%, transparent); padding: 2px 6px; border-radius: 3px; }
+.sec > :not(.sec-photo) { position: relative; z-index: 1; }
+.credits { font: 400 13px/1.5 Inter, sans-serif; color: var(--ink-2); margin-top: 18px; }
+@media (max-width: 760px) { .sec-photo { height: 320px; } .sec-photo::after { background: color-mix(in srgb, var(--bg) 52%, transparent); } }
+@media (max-width: 760px) { .crowd::after { background: color-mix(in srgb, var(--bg) 45%, transparent); } }
+header > :not(.crowd) { position: relative; z-index: 1; }
+/* the opener starts below a heavy rule, where the header ends */
+header + section { border-top: 2px solid var(--ink); margin-top: 28px; padding-top: 22px; }
+.kicker { font: 600 12px/1 'IBM Plex Mono', monospace; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-2); display: flex; gap: 10px; align-items: center; }
+.kicker .k-t { min-width: 0; } .kicker .nw { white-space: nowrap; }
+@media (max-width: 560px) { .kicker { letter-spacing: .08em; font-size: 11px; gap: 8px; } .kicker .k-mtv { display: none; } }
+.kicker .live { background: var(--pop); color: #fff; padding: 4px 7px 3px; border-radius: 3px; letter-spacing: .1em; }
+h1 { font: 900 clamp(38px, 6.4vw, 92px)/.95 Fraunces, Georgia, serif; letter-spacing: -.035em; margin: 18px 0 18px; font-variation-settings: 'opsz' 144; }
+h1 em { font-weight: 400; font-style: italic; color: var(--pop); }
+.dek { font: 400 clamp(19px, 2.3vw, 23px)/1.42 Fraunces, Georgia, serif; color: var(--ink-2); max-width: 720px; margin: 0; }
+/* the opener: a CD-R whose spiral track is every countdown */
+.head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 420px); gap: 28px; align-items: center; }
+.disc-box { position: relative; }
+#disc { display: block; width: 100%; aspect-ratio: 1; filter: drop-shadow(0 14px 26px rgba(0,0,0,.16)); }
+.disc-hint { text-align: center; font: 400 21px/1 KKHand, 'Comic Sans MS', cursive; color: var(--ink-2); margin-top: 6px; transition: opacity .4s; }
+#fly { position: fixed; left: 0; top: 0; pointer-events: none; z-index: 5; }
+@media (max-width: 760px) { .head { grid-template-columns: 1fr; gap: 6px; } .disc-box { max-width: 330px; width: 86%; margin: 0 auto; } }
+.byline { font: 500 13px/1.4 'IBM Plex Mono', monospace; color: var(--ink-3); margin-top: 18px; }
+
+h2 { font: 700 clamp(28px, 4vw, 40px)/1.05 Fraunces, Georgia, serif; letter-spacing: -.02em; margin: 0 0 10px; }
+.sec { padding: 56px 0 8px; border-top: 1px solid var(--line); margin-top: 48px; }
+.sec-num { font: 600 12px/1 'IBM Plex Mono', monospace; color: var(--ink-3); letter-spacing: .12em; margin-bottom: 14px; }
+p { margin: 0 0 14px; }
+/* phones and tablets get "tap" wording instead of "hover" */
+.h-touch { display: none; }
+@media (hover: none) { .h-mouse { display: none; } .h-touch { display: inline; } }
+.hand { font-family: KKHand, 'Comic Sans MS', cursive; }
+
+/* the filters ride along at the top of the screen while the wall is in view, and let go once it's passed */
+.wall-bar { position: sticky; top: calc(var(--topH) - 1px); z-index: 6; background: var(--bg); margin: 0 -16px; padding: 0 16px 2px; transition: box-shadow .2s; }
+.wall-bar.stuck { box-shadow: 0 1px 0 var(--line), 0 8px 14px -10px rgba(0,0,0,.25); }
+.wall-bar .status { padding-bottom: 6px; }
+/* phones: one row of signs to swipe through instead of three stacked rows */
+@media (max-width: 560px) {
+  .wall-bar .controls { gap: 8px; }
+  .wall-bar .legend { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; width: calc(100% + 16px); margin-right: -16px; padding: 9px 16px 8px 2px;
+    -webkit-mask-image: linear-gradient(90deg, #000 85%, transparent); mask-image: linear-gradient(90deg, #000 85%, transparent); }
+  .wall-bar .legend::-webkit-scrollbar { display: none; }
+  .wall-bar .legend .chip { flex: none; }
+  .wall-bar .search, .wall-bar .search input { width: 100%; }
+}
+/* controls */
+.controls { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; margin: 22px 0 14px; }
+.legend { display: flex; flex-wrap: wrap; gap: 10px 9px; padding-top: 4px; }
+/* Filter buttons are the posterboard signs the TRL crowd held up to the studio window: Sharpie lettering, a strip
+   of tape, each one a little crooked. A sign that's on is held up; one that's off is lowered and faded. */
+.chip, .presets button {
+  --r: -1.6deg; position: relative; display: inline-flex; align-items: center; gap: 6px;
+  font: 400 18px/1 KKHand, 'Comic Sans MS', cursive; -webkit-text-stroke: .3px currentColor; color: var(--ink);
+  background: var(--sign); border: 0; border-radius: 2px 4px 3px 2px; padding: 10px 13px 7px; cursor: pointer;
+  box-shadow: 0 1px 1px var(--sign-sh), 0 3px 8px var(--sign-sh);
+  rotate: var(--r); transition: translate .3s cubic-bezier(.3,1.7,.5,1), rotate .3s cubic-bezier(.3,1.7,.5,1), opacity .25s, box-shadow .25s, background .2s, color .2s;
+}
+.chip:nth-child(3n+2), .presets button:nth-child(3n+2) { --r: 1.3deg; }
+.chip:nth-child(3n), .presets button:nth-child(3n) { --r: -.5deg; }
+.chip:nth-child(4n), .presets button:nth-child(4n) { --r: 2deg; }
+.chip::before, .presets button::before { content: ''; position: absolute; top: -5px; left: 50%; width: 26px; height: 10px; margin-left: -13px; background: var(--tape); rotate: calc(var(--r) * -2.5); }
+.chip:hover, .presets button:hover { animation: wave .55s ease-in-out; }
+.chip:focus-visible, .presets button:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+@keyframes wave { 30% { rotate: calc(var(--r) - 3.5deg); } 65% { rotate: calc(var(--r) + 2.5deg); } }
+@keyframes pump { 40% { translate: 0 -7px; } }
+/* KKHand draws its hyphen up high, like an accent mark; drop it to the middle of the letters */
+.hy { display: inline-block; translate: 0 .2em; margin: 0 -.16em; }
+.chip i { font-style: normal; font-size: 17px; line-height: 1; color: var(--c); -webkit-text-stroke: .8px var(--ink); }
+.chip[aria-pressed="false"] { translate: 0 5px; opacity: .4; box-shadow: 0 1px 1px var(--sign-sh); }
+.chip[aria-pressed="false"] i { color: transparent; }
+@media (prefers-reduced-motion: reduce) { .chip, .presets button { transition: none; animation: none !important; } }
+.search { position: relative; }
+.search input { font: 500 14px Inter, sans-serif; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 99px; padding: 8px 14px 8px 32px; width: 260px; }
+.search input:focus { outline: 2px solid var(--ink); outline-offset: 1px; }
+.search svg { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); color: var(--ink-3); }
+.status { font: 500 13px/1.4 'IBM Plex Mono', monospace; color: var(--ink-2); min-height: 1.4em; }
+.status b { color: var(--ink); }
+button.reset { font: 500 12px 'IBM Plex Mono', monospace; color: var(--ink-2); background: none; border: 0; text-decoration: underline; cursor: pointer; padding: 0; }
+
+/* the wall */
+.wall-box { position: relative; margin-top: 6px; }
+.wall-end { margin-top: 22px; }
+#wall { display: block; width: 100%; cursor: crosshair; touch-action: pan-y; }
+.wall-notes { position: absolute; inset: 0; pointer-events: none; transition: opacity .4s; }
+.note { position: absolute; font: 400 17px/1.05 KKHand, 'Comic Sans MS', cursive; color: var(--ink); white-space: nowrap; }
+.note::before { content: ''; position: absolute; border-left: 1.5px solid var(--ink); left: -2px; }
+/* song labels that stay put while an act or song is searched */
+.slab { position: absolute; font: 600 11px/16px Inter, sans-serif; background: var(--tip); color: var(--tip-ink); border-radius: 4px; padding: 0 6px; white-space: nowrap; }
+.wall-notes > * { transition: opacity .3s ease, transform .3s ease, left .4s cubic-bezier(.3,.7,.3,1), top .4s cubic-bezier(.3,.7,.3,1), height .4s cubic-bezier(.3,.7,.3,1); }
+.wall-notes > .entering, .wall-notes > .leaving { opacity: 0; }
+.wall-notes > .slab.entering { transform: translateY(6px) scale(.94); }
+.wall-notes > .slab.leaving { transform: scale(.94); }
+.wall-notes > .slab-l.entering, .wall-notes > .slab-l.leaving { transform: scaleY(0); }
+.slab span { font-weight: 400; opacity: .7; margin-left: 4px; }
+.slab-l { position: absolute; border-left: 1.5px solid var(--hl); transform-origin: 50% 100%; }
+.wall-axis { display: flex; justify-content: space-between; font: 500 11px 'IBM Plex Mono', monospace; color: var(--ink-3); margin: 0 0 4px 46px; }
+
+/* tooltip */
+.tip { position: fixed; z-index: 30; pointer-events: none; background: var(--tip); color: var(--tip-ink); border-radius: 8px; padding: 10px 12px 11px; font: 400 13px/1.35 Inter, sans-serif; max-width: 270px; opacity: 0; transition: opacity .1s; box-shadow: 0 6px 22px rgba(0,0,0,.18); }
+.tip.on { opacity: 1; }
+.tip .t-date { font: 500 11px 'IBM Plex Mono', monospace; opacity: .7; margin-bottom: 4px; letter-spacing: .04em; }
+.tip .t-song { font: 700 16px/1.15 Fraunces, Georgia, serif; }
+.tip .t-art { margin: 2px 0 7px; opacity: .85; }
+.tip .t-g { display: inline-flex; align-items: center; gap: 6px; font: 500 11px 'IBM Plex Mono', monospace; text-transform: uppercase; letter-spacing: .06em; }
+.tip .t-g i { width: 9px; height: 9px; border-radius: 2px; background: var(--c); box-shadow: 0 0 0 1px rgba(127,127,127,.5); }
+.tip .t-stats { margin-top: 7px; font: 500 12px 'IBM Plex Mono', monospace; opacity: .9; }
+
+/* panels */
+.figure { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 20px 18px 14px; margin-top: 18px; }
+.fig-title { font: 700 15px/1.3 Inter, sans-serif; margin: 0 0 2px; }
+.fig-sub { font: 400 13px/1.4 Inter, sans-serif; color: var(--ink-2); margin: 0 0 12px; }
+svg text { font-family: Inter, sans-serif; }
+.axis text { font: 500 11px 'IBM Plex Mono', monospace; fill: var(--ink-3); }
+.axis line, .axis path { stroke: var(--grid); }
+.presets { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 14px; }
+.presets { gap: 10px 9px; margin: 10px 0 16px; }
+.lineup button i { font-style: normal; font-size: 17px; line-height: 1; color: var(--c); -webkit-text-stroke: .8px var(--ink); }
+.pix-box { position: relative; margin-top: 6px; }
+#pix { display: block; width: 100%; cursor: crosshair; touch-action: pan-y; }
+.pix-notes { position: absolute; inset: 0; pointer-events: none; }
+.pix-notes .note { font-size: 16px; line-height: 20px; padding: 0 3px; background: var(--paper); border-radius: 3px; transition: opacity .3s; }
+.pair-note { display: block; margin: 6px 0 0 30px; padding: 2px 4px; border: 0; background: none; color: var(--ink); cursor: pointer; text-align: left;
+  font: 400 19px/1.15 KKHand, 'Comic Sans MS', cursive; text-decoration: underline wavy var(--groups); text-decoration-thickness: 1.5px; text-underline-offset: 5px; }
+.pair-note .arr { display: inline-block; text-decoration: none; margin-right: 6px; }
+.pair-note:hover .arr { animation: nudge .6s ease-in-out infinite alternate; }
+.pair-note:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+@keyframes nudge { to { translate: 0 -4px; } }
+@media (prefers-reduced-motion: reduce) { .pair-note:hover .arr { animation: none; } }
+.drivers { margin-top: 18px; border-top: 1px solid var(--line); padding-top: 14px; }
+.drivers .reset { margin-left: 8px; }
+.d-row.still { animation: none; }
+.drivers .d-hint { font: 500 13px 'IBM Plex Mono', monospace; color: var(--ink-3); margin: 0; }
+.drivers .d-head { font: 700 15px/1.3 Inter, sans-serif; margin: 0 0 2px; }
+.drivers .d-sub { font: 400 13px/1.4 Inter, sans-serif; color: var(--ink-2); margin: 0 0 10px; }
+.d-row { cursor: pointer; border-radius: 6px; padding: 4px 0 2px; animation: dIn .4s both; }
+.d-row:hover, .d-row:focus { background: var(--bg); outline: none; }
+.d-row .d-name { display: flex; align-items: baseline; gap: 10px; font: 600 14px Inter, sans-serif; padding-left: 34px; }
+.d-row .d-name span { font: 500 11.5px 'IBM Plex Mono', monospace; color: var(--ink-3); }
+.d-row svg { display: block; width: 100%; height: 26px; }
+@keyframes dIn { from { opacity: 0; transform: translateY(6px); } }
+@media (max-width: 640px) { .d-row .d-name { padding-left: 0; flex-wrap: wrap; row-gap: 2px; } .d-row .d-name span { flex-basis: 100%; } }
+/* the chosen sign is the one pumped in the air: black posterboard, white marker */
+.presets button[aria-pressed="true"] { background: var(--ink); color: var(--bg); translate: 0 -3px; rotate: calc(var(--r) * -1); box-shadow: 0 2px 2px var(--sign-sh), 0 8px 16px var(--sign-sh); animation: pump .4s ease-out; }
+.presets button[aria-pressed="true"] i { -webkit-text-stroke-color: var(--bg); }
+.chip[aria-pressed="true"] { animation: pump .4s ease-out; }
+.chip[aria-pressed="true"]:hover, .presets button[aria-pressed="true"]:hover { animation: wave .55s ease-in-out; }
+
+/* the final countdown, #10 down to #1 */
+.cd-note p { font: 500 13px/1.5 'IBM Plex Mono', monospace; color: var(--ink-2); margin: 0; }
+.cd { list-style: none; margin: 6px 0 0; padding: 0; }
+.cd-row, .cd-axis { display: grid; grid-template-columns: 70px minmax(0, 330px) 1fr; column-gap: 18px; align-items: center; }
+.cd-axis { margin-top: 22px; font: 500 11px 'IBM Plex Mono', monospace; color: var(--ink-3); }
+.cd-axis .ax { grid-column: 3; position: relative; height: 18px; }
+.cd-axis .ax span { position: absolute; bottom: 0; border-left: 1px solid var(--line); padding: 0 0 3px 4px; white-space: nowrap; }
+.cd-row { position: relative; border-top: 1px solid var(--line); padding: 12px 0; cursor: pointer; background: var(--bg); }
+.cd-row:hover .cd-sg, .cd-row:focus .cd-sg { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.cd-row:focus { outline: none; }
+.cd-row:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.cd-rk { font: 900 46px/1 Fraunces, Georgia, serif; letter-spacing: -.03em; color: var(--ink-3); text-align: right; }
+.cd-rk small { font: 600 13px 'IBM Plex Mono', monospace; letter-spacing: 0; margin-right: 2px; vertical-align: 18px; }
+.cd-sg { font: 700 19px/1.15 Fraunces, Georgia, serif; }
+.cd-ar { font: 500 13px Inter, sans-serif; color: var(--ink-2); margin: 3px 0 6px; display: flex; align-items: center; gap: 6px; }
+.cd-ar i { width: 9px; height: 9px; border-radius: 2px; background: var(--c); flex: none; }
+.cd-st { font: 500 11.5px/1.5 'IBM Plex Mono', monospace; color: var(--ink-2); }
+.cd-st b { color: var(--ink); font-weight: 600; }
+.cd-run { position: relative; height: 62px; }
+.cd-run svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.cd-run .shape { transform-box: view-box; transform-origin: 0 0; }
+.cd-row.wait .shape { transform: scaleX(0); }
+.cd-run .cd-guide, .cd-run .cd-dot { opacity: 0; pointer-events: none; }
+.cd-run.hov .cd-guide { opacity: .35; }
+.cd-run.hov .cd-dot { opacity: 1; }
+.cd-dot { position: absolute; width: 9px; height: 9px; margin: -4.5px 0 0 -4.5px; border-radius: 50%; box-shadow: 0 0 0 2px var(--bg); }
+.cd-row.wait > :not(.cd-run) { opacity: 0; translate: 0 10px; }
+.cd-row .shape { transition: transform 1.1s cubic-bezier(.3,.7,.2,1) .15s; }
+.cd-row > :not(.cd-run) { transition: opacity .5s, translate .5s; }
+.cd-row.top { padding: 22px 0 26px; border-top: 2px solid var(--ink); }
+.cd-row.top .cd-rk { color: var(--ink); font-size: 84px; }
+.cd-row.top .cd-sg { font-size: 30px; }
+.cd-row.top .cd-run { height: 92px; }
+@media (max-width: 720px) {
+  .cd-row, .cd-axis { grid-template-columns: 52px 1fr; column-gap: 12px; row-gap: 8px; }
+  .cd-axis .ax, .cd-run { grid-column: 2; }
+  .cd-axis .ax span:nth-child(4) { display: none; }
+  .cd-rk { font-size: 36px; align-self: start; }
+  .cd-row.top .cd-rk { font-size: 56px; } .cd-row.top .cd-sg { font-size: 24px; }
+}
+@media (prefers-reduced-motion: reduce) { .cd-row .shape, .cd-row > * { transition: none !important; } }
+
+/* stars */
+.st-axis { position: relative; height: 18px; margin-left: 236px; font: 500 11px 'IBM Plex Mono', monospace; color: var(--ink-3); }
+.st-axis span { position: absolute; transform: translateX(-1px); border-left: 1px solid var(--line); padding-left: 4px; height: 18px; }
+#stars { position: relative; }
+.st-row { display: grid; grid-template-columns: 236px 1fr; align-items: center; border-top: 1px solid var(--line); padding: 7px 0; background: var(--paper); }
+.st-row.enter { animation: dIn .45s both; }
+.st-lab { display: grid; grid-template-columns: 30px 1fr; align-items: baseline; cursor: pointer; padding-right: 12px; }
+.st-lab:hover .st-name { text-decoration: underline; }
+.st-rk { font: 900 20px/1 Fraunces, Georgia, serif; color: var(--ink-3); }
+.st-name { font: 700 15px/1.2 Inter, sans-serif; display: flex; align-items: center; gap: 6px; }
+.st-name i { width: 9px; height: 9px; border-radius: 2px; background: var(--c); flex: none; }
+.st-stats { grid-column: 2; font: 500 11px/1.5 'IBM Plex Mono', monospace; color: var(--ink-3); }
+.st-stats b { color: var(--ink); font-weight: 600; }
+.st-row svg { display: block; width: 100%; overflow: visible; }
+.st-row svg .seg { cursor: pointer; transition: opacity .15s; }
+.st-row.hi svg .seg:not(.on) { opacity: .2; }
+.st-song { font: 600 11px Inter, sans-serif; fill: var(--ink-2); pointer-events: none; }
+.st-tick { font: 500 9.5px 'IBM Plex Mono', monospace; fill: var(--ink-3); }
+@media (max-width: 640px) {
+  .st-axis { margin-left: 0; }
+  .st-row { grid-template-columns: 1fr; row-gap: 5px; }
+}
+.signoff { margin: 84px 0 0; text-align: left; }
+.so-thanks { font: 400 clamp(24px, 3.4vw, 34px)/1.2 KKHand, 'Comic Sans MS', cursive; margin: 0 0 4px; max-width: 640px; }
+.so-thanks { color: var(--ink-2); }
+/* the signature: bigger, heavier, tilted and in TRL pink, so it reads as signed rather than set */
+.so-sig { display: block; width: max-content; margin: .35em 0 0 .1em; font: 400 clamp(52px, 7vw, 76px)/1.1 KKHand, 'Comic Sans MS', cursive; color: var(--pop);
+  letter-spacing: .02em; -webkit-text-stroke: 1.8px currentColor; paint-order: stroke fill; transform: rotate(-4deg); transform-origin: left; }
+.so-sig .under { position: absolute; left: -.1em; top: 100%; width: calc(100% + .35em); height: .42em; margin-top: -.08em; overflow: visible; pointer-events: none; }
+.so-sig .under path { fill: none; stroke: currentColor; stroke-width: 2.8px; stroke-linecap: round; }
+/* handwriting traced stroke by stroke, the same method as the signature on /resume/hello/ (strokes from /fonts/kkhand-strokes.json) */
+.pen { position: relative; }
+.pen .bl { transition: opacity .16s ease; }
+.pen.writing .bl { opacity: 0; }
+.pen.writing .bl.in { opacity: 1; }
+.pen svg { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; }
+.pen svg path { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; transition: opacity .16s ease; }
+footer { margin: 56px 0 0; padding: 26px 0 60px; border-top: 2px solid var(--ink); font: 400 13.5px/1.6 Inter, sans-serif; color: var(--ink-2); }
+footer h3 { font: 600 12px 'IBM Plex Mono', monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--ink); margin: 0 0 8px; }
+/* race storylines */
+.race-story { margin: 0 0 14px; }
+.race-story:empty { display: none; }
+.race-story .dek2 { font: 400 15px/1.45 Inter, sans-serif; margin: 0 0 10px; max-width: 760px; }
+.tug { display: flex; height: 26px; border-radius: 6px; overflow: hidden; font: 600 12px/26px 'IBM Plex Mono', monospace; max-width: 760px; }
+.tug > div { padding: 0 8px; white-space: nowrap; overflow: hidden; transition: flex-grow .5s cubic-bezier(.3,.7,.3,1); min-width: 0; }
+.tug .rest { background: var(--grid); color: var(--ink-3); text-align: center; }
+.tug-key { display: flex; flex-wrap: wrap; gap: 4px 16px; font: 500 12px 'IBM Plex Mono', monospace; color: var(--ink-2); margin-top: 6px; }
+.tug-key i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; background: var(--c); margin-right: 6px; vertical-align: -1px; }
+.back { display: block; margin: 2px 0 8px; }
+#raceFig { scroll-margin-top: calc(var(--topH) + 16px); }
+#raceFig.flash { animation: fig-flash 1.4s ease-out; }
+@keyframes fig-flash { from { box-shadow: 0 0 0 3px var(--ink); } to { box-shadow: 0 0 0 3px transparent; } }
+/* the zoomed-in week */
+.zoombar { position: absolute; left: 0; right: 0; top: 0; height: 38px; display: flex; align-items: center; gap: 8px; z-index: 2; opacity: 0; pointer-events: none; transition: opacity .3s; }
+.zoombar.on { opacity: 1; pointer-events: auto; }
+.zoombar button { font: 500 13px Inter, sans-serif; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 6px 11px; cursor: pointer; }
+.zoombar button:hover { border-color: var(--ink-3); }
+.zoombar button:disabled { opacity: .35; cursor: default; }
+.zoombar .zclose { margin-left: auto; background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.ztitle { font: 700 15px/1.2 Inter, sans-serif; padding: 0 4px; }
+.ztitle small { display: block; font: 500 11px 'IBM Plex Mono', monospace; color: var(--ink-3); }
+@media (max-width: 560px) { .zoombar span, .ztitle small { display: none; } .ztitle { font-size: 13px; } .zoombar button { min-width: 44px; min-height: 38px; padding: 5px 10px; font-size: 16px; } .zoombar { height: 42px; } }
+.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
+.mock { display: inline-block; font: 600 11px 'IBM Plex Mono', monospace; letter-spacing: .1em; border: 1.5px dashed var(--ink-3); color: var(--ink-3); padding: 3px 7px; border-radius: 4px; margin-left: 8px; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+@media (max-width: 640px) {
+  header { padding-top: 22px; }
+  .search input { width: 100%; }
+  .search { flex: 1 1 100%; }
+  .note { font-size: 14px; }
+}
+</style>
+</head>
+<body>
+<div class="tip" id="tip" role="status" aria-live="polite"></div>
+<canvas id="fly" aria-hidden="true"></canvas>
+
+<div class="wrap">
+<div class="top"><a href="/"><b>Kevin Klein</b> · kckdata.com</a></div>
+<header>
+  <div class="crowd" aria-hidden="true"><canvas id="crowd"></canvas></div>
+  <div class="head"><div>
+  <div class="kicker"><span class="live">Live</span> <span class="k-t">MTV, <span class="nw">1998–2007</span></span> <span class="mock">MOCKUP</span></div>
+  <h1>Total Request Live:<br><em>A Decade of Data</em></h1>
+  <p class="dek">For nearly ten years, adolescent millennials came home from school, threw their backpacks on the ground, and crowded the television to watch MTV count down the 10 most-requested videos from an iconic studio above Times Square. Now we can revisit those days with the implements of adulthood: charts and data.</p>
+  <div class="byline">By Kevin Klein · Data from fan recaps archived by the Wayback Machine</div>
+  </div>
+  <div class="disc-box">
+    <canvas id="disc" role="img" aria-label="A CD-R whose spiral track holds every countdown, 1998 at the center to 2007 at the edge, colored by genre"></canvas>
+    <div class="disc-hint" id="discHint">scroll to play it ↓</div>
+  </div></div>
+
+</header>
+
+<section>
+  <div class="prose">
+    <p>From September 1998 through October 2007, MTV’s <i>Total Request Live</i> broadcast nearly 2,000 top-10 countdowns, featuring 975 different music videos, 240 of which spent time in the coveted #1 spot. Use the below tool to search for any song or artist to see when and where they spent time on the countdown.</p>
+    <p class="status" id="hint"><span class="h-mouse"><b>Hover</b> a square to follow one video. <b>Click</b> it to zoom in on that week.</span><span class="h-touch"><b>Tap</b> a square to zoom in on that week.</span></p>
+  </div>
+  <div class="wall-bar" id="wallBar">
+  <div class="controls">
+    <div class="legend" id="legend" role="group" aria-label="Filter by genre"></div>
+    <div class="search">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" list="acts" placeholder="Find an act or song" autocomplete="off" aria-label="Find an act or song">
+      <datalist id="acts"></datalist>
+    </div>
+  </div>
+  <div class="status" id="status"></div>
+  </div>
+  <div class="wall-box" id="wallbox">
+    <div class="zoombar" id="zoombar" aria-hidden="true">
+      <button id="zPrev" aria-label="Previous week">‹<span> Prev</span></button>
+      <button id="zNext" aria-label="Next week"><span>Next </span>›</button>
+      <div class="ztitle" id="zTitle" aria-live="polite"></div>
+      <button id="zClose" class="zclose">✕<span> All years</span></button>
+    </div>
+    <canvas id="wall" aria-label="Grid of every TRL top 10 from 1998 to 2007, colored by genre"></canvas>
+    <div class="wall-notes" id="notes"></div>
+  </div>
+  <div class="prose wall-end"><p><b>Why the wall stops in October 2007.</b> On October 22, 2007, MTV stopped ranking the countdown on viewer requests alone and started mixing in sales, radio play and online streams. The requests became just one part of the equation. That was a fundamental shift in what the show was, and the beginning of the end: TRL aired its final countdown a year later, in November 2008. So the wall ends on October 18, 2007, the last countdown ranked purely by request.</p></div>
+</section>
+
+<section class="sec" id="race">
+  <div class="sec-photo" aria-hidden="true" data-src="photos/1999.jpg" data-tint="groups" data-tint-dark="groups" data-y="0.5"><canvas></canvas><span class="sec-cap">Times Square, July 1999</span></div>
+  <div class="sec-num">01 · THE RACE</div>
+  <h2>Memorable moments</h2>
+  <div class="prose"><p>Let’s take a look at the defining moments inside TRL’s run, as defined by one nostalgic millennial data analyst’s selective memory.</p></div>
+  <div class="figure" id="raceFig">
+    <div class="presets" id="presets"></div>
+    <div class="race-story" id="raceStory"></div>
+    <p class="fig-title" id="raceTitle"></p>
+    <p class="fig-sub" id="raceSub"></p>
+    <svg id="bump" role="img" aria-label="Rank of each video over the selected episodes"></svg>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="sec-photo" aria-hidden="true" data-src="photos/2003day.jpg" data-tint="hiphop" data-tint-dark="hiphop" data-y="0.45"><canvas></canvas><span class="sec-cap">Times Square, May 2003</span></div>
+  <div class="sec-num">02 · THE ERAS</div>
+  <h2>Genre flow through the decade</h2>
+  <div class="prose" id="eraText"></div>
+  <div class="figure">
+    <p class="fig-title">Every month of TRL in 100 squares</p>
+    <p class="fig-sub">Each column is one month; each square is 1% of that month's countdown slots. Line up a genre to follow it, and drag across the chart to pick a stretch of time.</p>
+    <div class="presets lineup" id="lineup" role="group" aria-label="Line up a genre"></div>
+    <div class="pix-box" id="pixbox">
+      <canvas id="pix" role="img" aria-label="Genre share of countdown slots by month, drawn as 100 squares per month"></canvas>
+      <div class="pix-notes" id="pixNotes"></div>
+    </div>
+    <button class="pair-note" id="pairNote" aria-pressed="false"></button>
+    <div class="drivers" id="drivers" aria-live="polite"></div>
+  </div>
+</section>
+
+<section class="sec" id="stars-sec">
+  <div class="sec-photo" aria-hidden="true" data-src="photos/trl2006.jpg" data-tint="pop" data-tint-dark="pop" data-y="0.4"><canvas></canvas><span class="sec-cap">The TRL studio window, April 2006</span></div>
+  <div class="sec-num">03 · THE STARS</div>
+  <h2>TRL's biggest stars</h2>
+  <div class="prose" id="starsText"></div>
+  <div class="figure">
+    <div class="presets" id="starSort" role="group" aria-label="Rank acts by"></div>
+    <p class="fig-sub">Each line is one video's rank, day by day, from #10 at the bottom of a row to #1 at the top. <span class="h-mouse">Hover a line for the video, click it to find it on the wall. Click a name to see all of that act's videos on the wall.</span><span class="h-touch">Tap a line to find that video on the wall, or a name to see all of the act's videos there.</span></p>
+    <div class="st-axis" id="starAxis"></div>
+    <div id="stars"></div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="sec-photo" aria-hidden="true" data-src="photos/2003night.jpg" data-tint="rnb" data-tint-dark="punk" data-y=".5"><canvas></canvas><span class="sec-cap">Times Square at night, November 2003</span></div>
+  <div class="sec-num">04 · THE FINAL COUNTDOWN</div>
+  <h2>The Top 10 TRL Videos of All Time</h2>
+  <div class="prose" id="cdText"></div>
+  <div class="presets" id="cdPick" role="group" aria-label="Which acts to count"></div>
+  <div class="prose cd-note" id="cdNote" aria-live="polite"></div>
+  <div class="cd-axis" id="cdAxis"></div>
+  <ol class="cd" id="hall" reversed></ol>
+</section>
+
+<div class="signoff" id="signoff">
+  <p class="so-thanks">Thanks for taking this trip back through time with me.</p>
+  <span class="so-sig pen" aria-label="Kevin Klein">Kevin Klein</span>
+</div>
+
+<footer>
+  <div class="cols">
+    <div>
+      <h3>Where this came from</h3>
+      <p>Countdowns are from the fan-run <a href="https://web.archive.org/web/2008/http://www.atrl.net/trlarchive/">TRL Archive at ATRL</a>, read from 112 monthly pages saved by the Wayback Machine. The #1s were checked against <a href="https://en.wikipedia.org/wiki/List_of_Total_Request_Live_number_one_music_videos">Wikipedia's list of TRL number ones</a> and match on 97.6% of the days both cover.</p>
+    </div>
+    <div>
+      <h3>What's left out</h3>
+      <p>Weekend shows and specials such as year-end countdowns. The week of September 11, 2001, when there was no show. And everything from October 22, 2007 on, when MTV stopped ranking the countdown on requests alone (see the note under the wall).</p>
+    </div>
+    <div>
+      <h3>Judgment calls</h3>
+      <p>Genres are my own calls, made per artist, so Avril Lavigne counts as pop-punk and Rihanna as pop. Fans spelled things many ways ('N Sync, *NSYNC, Nsync); those were merged into one name per video.</p>
+    </div>
+  </div>
+  <p class="credits">Section photos from Wikimedia Commons, cropped and tinted: Times Square, July 1999, by <a href="https://commons.wikimedia.org/wiki/File:Times_Square_in_the_90s.jpg">Stephen Woods</a> (<a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>); Times Square, May 2003, by <a href="https://commons.wikimedia.org/wiki/File:2003-05-13_NYC_TimesSquare.jpg">J.B.</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>); the TRL studio window, April 2006, by <a href="https://commons.wikimedia.org/wiki/File:TRL_studios_in_Times_Square_in_2006.jpg">Diogo Almeida</a> (<a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>); Times Square at night, November 2003, by <a href="https://commons.wikimedia.org/wiki/File:Times_Square_at_Night_New_York_City_November_2003_II.jpg">Alistair McMillan</a> (<a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>).</p>
+</footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const GENRES = [
+  ['pop', 'Pop'], ['groups', 'Boy bands & girl groups'], ['rock', 'Rap-rock & alt'],
+  ['punk', 'Pop-punk & emo'], ['rnb', 'R&B'], ['hiphop', 'Hip-hop'], ['other', 'Other'],
+];
+const GNAME = Object.fromEntries(GENRES);
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+let COL = {};
+const readColors = () => { COL = Object.fromEntries(GENRES.map(([g]) => [g, css('--' + g)])); ['empty','ink','ink-3','hl','bg','grid','line','paper'].forEach(k => COL[k] = css('--' + k)); };
+readColors();
+
+const fmt = d3.timeFormat('%b %-d, %Y'), fmtM = d3.timeFormat('%b %Y'), parse = d3.utcParse('%Y-%m-%d');
+const nf = d3.format(',');
+const tip = document.getElementById('tip');
+
+function showTip(html, x, y) {
+  tip.innerHTML = html; tip.classList.add('on');
+  const r = tip.getBoundingClientRect(), W = innerWidth;
+  let left = x + 16, top = y + 16;
+  if (left + r.width > W - 8) left = x - r.width - 16;
+  if (top + r.height > innerHeight - 8) top = y - r.height - 16;
+  tip.style.left = Math.max(8, left) + 'px'; tip.style.top = Math.max(8, top) + 'px';
+}
+const hideTip = () => tip.classList.remove('on');
+const TOUCH = matchMedia('(hover: none)').matches;
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+fetch('data.json?v=2002-10-03').then(r => r.json()).then(init);
+
+function init(D) {
+  // ---------- model ----------
+  const dates = D.dates.map(d => new Date(d + 'T12:00:00'));
+  const V = D.videos.map(([artist, song, genre, lead, days, peak, d1, first, last, retired], i) =>
+    ({ i, artist, song, genre, lead, days, peak, d1, first, last, retired, runs: [] }));
+  D.grid.forEach((row, e) => row.forEach((v, k) => { if (v >= 0) V[v].runs.push([e, k + 1]); }));
+  const nEp = dates.length, slots = d3.sum(D.grid, r => r.filter(v => v >= 0).length);
+  const years = d3.range(dates[0].getFullYear(), dates[nEp - 1].getFullYear() + 1);
+  // week-of-year slot: 5 columns per week, so holidays and the 9/11 gap show as holes
+  const slotOf = d => { const j1 = new Date(d.getFullYear(), 0, 1); const doy = Math.round((d - j1) / 864e5); const wk = Math.floor((doy + j1.getDay()) / 7); return wk * 5 + (d.getDay() - 1); };
+  const epSlot = dates.map(slotOf), epYear = dates.map(d => d.getFullYear());
+  const SLOTS = 54 * 5;
+  const lookup = {}; dates.forEach((d, e) => lookup[epYear[e] + ':' + epSlot[e]] = e);
+
+  const leads = d3.rollup(V, vs => d3.sum(vs, v => v.days), v => v.lead);
+
+  // ---------- state ----------
+  const S = { hover: null, pin: null, genres: new Set(GENRES.map(g => g[0])), act: null };
+  let showCells = true;   // false while the opener is still putting squares on the wall
+  const focusSet = () => {
+    const v = S.hover ?? S.pin;
+    if (v != null) return new Set([v]);
+    if (S.act) return new Set(V.filter(x => x.lead === S.act).map(x => x.i));
+    return null;
+  };
+
+  // ---------- legend + search ----------
+  const legend = document.getElementById('legend');
+  const signText = t => esc(t).replace(/-/g, '<span class="hy">-</span>');
+  GENRES.forEach(([g, name]) => {
+    const b = document.createElement('button'); b.className = 'chip'; b.dataset.g = g; b.setAttribute('aria-pressed', 'true');
+    b.style.setProperty('--c', `var(--${g})`); b.innerHTML = `<i aria-hidden="true">♥</i>${signText(name)}`;
+    b.onclick = () => {
+      finishIntro(); closeZoom(false);
+      // first click isolates a genre; clicking the only active one restores all
+      if (S.genres.size === GENRES.length) S.genres = new Set([g]);
+      else if (S.genres.has(g) && S.genres.size === 1) S.genres = new Set(GENRES.map(x => x[0]));
+      else S.genres.has(g) ? S.genres.delete(g) : S.genres.add(g);
+      legend.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', S.genres.has(c.dataset.g)));
+      drawWall(); updateStatus();
+    };
+    legend.appendChild(b);
+  });
+  // one box for acts and songs; songs are listed as "Song · Artist" so same-named songs stay apart
+  const songLabel = v => `${v.song} · ${v.artist}`;
+  const actsByDays = [...leads].sort((a, b) => b[1] - a[1]).map(x => x[0]);
+  const songsByDays = [...V].sort((a, b) => b.days - a.days);
+  document.getElementById('acts').innerHTML =
+    actsByDays.filter(a => leads.get(a) >= 15).map(a => `<option value="${esc(a)}" label="Act">`).join('') +
+    songsByDays.filter(v => v.days >= 5).map(v => `<option value="${esc(songLabel(v))}" label="Song">`).join('');
+  const q = document.getElementById('q');
+  const findHit = t => {
+    if (t.length < 2) return null;
+    const lc = s => s.toLowerCase();
+    const song = songsByDays.find(v => lc(songLabel(v)) === t);
+    if (song) return { song, exact: true };
+    const act = actsByDays.find(a => lc(a) === t);
+    if (act) return { act };
+    const title = songsByDays.find(v => lc(v.song) === t);
+    if (title) return { song: title };
+    // partial: names that start with the text beat names that only contain it; acts win ties
+    return (a => a && { act: a })(actsByDays.find(a => lc(a).startsWith(t)))
+      || (v => v && { song: v })(songsByDays.find(v => lc(v.song).startsWith(t)))
+      || (a => a && { act: a })(actsByDays.find(a => lc(a).includes(t)))
+      || (v => v && { song: v })(songsByDays.find(v => lc(v.song).includes(t)));
+  };
+  const runSearch = zoom => {
+    finishIntro(); closeZoom(false);
+    const h = findHit(q.value.trim().toLowerCase());
+    S.act = h && h.act || null; S.pin = h && h.song ? h.song.i : null; drawWall(); updateStatus();
+    // jump the race chart to the song's first week once it's picked from the list or Enter is pressed
+    if (h && h.song && (zoom || h.exact)) setRace(Math.max(0, h.song.runs[0][0] - 3), `"${h.song.song}"`, h.song.i);
+  };
+  q.addEventListener('input', () => runSearch(false));
+  q.addEventListener('keydown', e => { if (e.key === 'Enter') runSearch(true); });
+  const status = document.getElementById('status');
+  function updateStatus() {
+    if (S.pin != null && S.hover == null) {
+      const v = V[S.pin]; status.innerHTML = `Pinned: <b>${esc(v.song)}</b>, ${esc(v.artist)} · ${v.days} days, peak #${v.peak} <button class="reset" id="clr">clear</button>`;
+    } else if (S.act) {
+      const vs = V.filter(x => x.lead === S.act);
+      status.innerHTML = `<b>${esc(S.act)}</b>: ${vs.length} video${vs.length > 1 ? 's' : ''}, ${nf(d3.sum(vs, v => v.days))} days on the countdown, ${vs.filter(v => v.peak === 1).length} reached #1${unlabelled ? ` · ${unlabelled} too crowded to label, ${TOUCH ? 'tap a week' : 'hover'} to see` : ''} <button class="reset" id="clr">clear</button>`;
+    } else if (S.genres.size < GENRES.length) {
+      const n = d3.sum(D.grid, r => r.filter(v => v >= 0 && S.genres.has(V[v].genre)).length);
+      status.innerHTML = `Showing ${[...S.genres].map(g => GNAME[g]).join(', ')}: <b>${(100 * n / slots).toFixed(0)}%</b> of all slots <button class="reset" id="clr">clear</button>`;
+    } else status.innerHTML = '';
+    const c = document.getElementById('clr');
+    if (c) c.onclick = () => { closeZoom(false); S.pin = null; S.act = null; q.value = ''; S.genres = new Set(GENRES.map(g => g[0])); legend.querySelectorAll('.chip').forEach(x => x.setAttribute('aria-pressed', 'true')); drawWall(); updateStatus(); };
+  }
+
+  // ---------- the wall ----------
+  const canvas = document.getElementById('wall'), ctx = canvas.getContext('2d'), notes = document.getElementById('notes');
+  let L = {};
+  function layout() {
+    const W = canvas.parentElement.clientWidth;
+    const lab = W < 560 ? 30 : 46, slot = (W - lab) / SLOTS, cell = Math.max(2, Math.min(7, slot * 1.15)), bandH = cell * 10, gap = W < 560 ? 18 : 26, top = 18;
+    L = { W, lab, slot, cell, bandH, gap, top, H: top + years.length * (bandH + gap) };
+    const dpr = devicePixelRatio || 1;
+    canvas.width = W * dpr; canvas.height = L.H * dpr; canvas.style.height = L.H + 'px';
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+  const ex = e => L.lab + epSlot[e] * L.slot, ey = (e, k) => L.top + years.indexOf(epYear[e]) * (L.bandH + L.gap) + (k - 1) * L.cell;
+
+  function drawWall() {
+    readColors();
+    const { W, H, lab, slot, cell, bandH, gap, top } = L;
+    ctx.clearRect(0, 0, W, H);
+    notes.style.opacity = showCells && !Z ? 1 : 0;
+    if (!showCells) return;   // the opener draws the wall as it lands
+    if (Z) return drawZoom();
+    // month ticks and year labels
+    ctx.font = `500 ${W < 560 ? 10 : 11}px "IBM Plex Mono", monospace`; ctx.textBaseline = 'middle';
+    const months = ['J','F','M','A','M','J','J','A','S','O','N','D'];
+    years.forEach((y, yi) => {
+      const y0 = top + yi * (bandH + gap);
+      ctx.fillStyle = COL.ink; ctx.textAlign = 'left'; ctx.font = `600 ${W < 560 ? 11 : 13}px "IBM Plex Mono", monospace`;
+      ctx.fillText(W < 560 ? "'" + String(y).slice(2) : y, 0, y0 + bandH / 2);
+      ctx.fillStyle = COL.grid; ctx.fillRect(lab, y0 - 1, W - lab, bandH + 2);
+      if (yi === 0) {
+        ctx.font = `500 10px "IBM Plex Mono", monospace`; ctx.fillStyle = COL['ink-3']; ctx.textAlign = 'center';
+        months.forEach((m, mi) => { const s = slotOf(new Date(2001, mi, 15)); ctx.fillText(m, lab + s * slot, top - 10); });
+      }
+    });
+    const F = focusSet(), dim = F || S.genres.size < GENRES.length;
+    const w = Math.max(1, slot - (slot > 3 ? 1 : 0)), h = Math.max(1, cell - (cell > 3 ? 1 : 0));
+    for (let e = 0; e < nEp; e++) {
+      const row = D.grid[e], x = ex(e);
+      for (let k = 0; k < 10; k++) {
+        const v = row[k]; if (v < 0) continue;
+        const on = F ? F.has(v) : S.genres.has(V[v].genre);
+        ctx.globalAlpha = dim && !on ? 0.13 : 1;
+        ctx.fillStyle = COL[V[v].genre];
+        ctx.fillRect(x, ey(e, k + 1), w, h);
+      }
+    }
+    ctx.globalAlpha = 1;
+    // trail through the focused video(s)
+    if (F && F.size <= 40) {
+      ctx.strokeStyle = COL.hl; ctx.lineWidth = 1.5; ctx.lineJoin = 'round';
+      F.forEach(v => {
+        let prev = null; ctx.beginPath();
+        V[v].runs.forEach(([e, k]) => {
+          const px = ex(e) + w / 2, py = ey(e, k) + h / 2;
+          if (prev && (epYear[e] !== epYear[prev[0]] || e - prev[0] > 6)) { ctx.moveTo(px, py); } else if (prev) ctx.lineTo(px, py); else ctx.moveTo(px, py);
+          prev = [e, k];
+        });
+        ctx.stroke();
+        V[v].runs.forEach(([e, k]) => { ctx.strokeRect(ex(e) - .5, ey(e, k) - .5, w + 1, h + 1); });
+      });
+    }
+    placeNotes();
+  }
+
+  // annotations: found in the data, not typed in
+  function annotations() {
+    const out = [];
+    // longest unbroken run at #1
+    let best = { n: 0 }, cur = null, n = 0, s = 0;
+    D.grid.forEach((r, e) => { if (r[0] === cur) n++; else { cur = r[0]; n = 1; s = e; } if (n > best.n) best = { n, v: cur, s, e }; });
+    out.push({ e: best.s, k: 1, text: `${V[best.v].song}: #1 for ${best.n} shows straight`, side: 'up' });
+    // the 9/11 hole
+    const g = dates.findIndex((d, e) => e && d3.timeDay.count(dates[e - 1], d) > 5 && d.getFullYear() === 2001 && d.getMonth() === 8);
+    if (g > 0) out.push({ e: g - 1, k: 10, text: 'No shows the week of 9/11', side: 'down', gap: g });
+    // Britney's debut
+    const b = V.find(v => v.lead === 'Britney Spears');
+    if (b) out.push({ e: b.runs[0][0], k: b.runs[0][1], text: `Britney arrives`, side: 'up' });
+    // last boy band #1
+    const lastGroup = d3.max(D.grid.map((r, e) => (r[0] >= 0 && V[r[0]].genre === 'groups') ? e : -1));
+    if (lastGroup > 0) out.push({ e: lastGroup, k: 10, text: `Last #1 for a boy band or girl group: ${V[D.grid[lastGroup][0]].song}`, side: 'down' });
+    return out;
+  }
+  const ANN = annotations();
+  let notesKey = '', unlabelled = 0;
+  // What sits in the gaps between years: song labels for a searched act or song, or for the biggest hits of the
+  // genres being shown; otherwise the handwritten notes. Elements are keyed, so labels that stay glide to their new
+  // spots, new ones fade in and old ones fade out.
+  function placeNotes() {
+    const filtered = S.genres.size < GENRES.length;
+    let ids = null, cap = Infinity, withArtist = true;
+    if (S.act) { ids = V.filter(x => x.lead === S.act).map(x => x.i); withArtist = false; }
+    else if (S.pin != null) ids = [S.pin];
+    else if (filtered) { ids = V.filter(x => S.genres.has(x.genre)).map(x => x.i); cap = L.W < 560 ? 12 : 30; }
+    // rebuild only when what's labelled or the width changes, not on every hover
+    const key = (ids ? ids.join() : 'notes') + '|' + cap + '|' + L.W;
+    if (key === notesKey) return;
+    notesKey = key;
+    const next = new Map();
+    unlabelled = 0;
+    if (ids) placeSongLabels(ids, cap, withArtist, next);
+    else if (L.W >= 560) ANN.forEach((a, i) => {
+      // point at the square, or for a gap at the middle of the empty days
+      const x = a.gap ? (ex(a.e) + L.slot + ex(a.gap)) / 2 : ex(a.e) + L.slot / 2, yi = years.indexOf(epYear[a.e]), y0 = L.top + yi * (L.bandH + L.gap);
+      const down = !(a.side === 'up' && yi > 0), right = x > L.W * 0.62, arrow = down ? '↑' : '↓';
+      // the arrow goes on the end of the label nearest the point: the front when it reads rightward from it, the back when it ends at it
+      next.set('ann' + i, { cls: 'note', text: right ? `${a.text} ${arrow}` : `${arrow} ${a.text}`, style: {
+        left: Math.min(right ? x + 10 : x - 10, L.W - 2) + 'px', top: (down ? y0 + L.bandH + 3 : y0 - L.gap + 2) + 'px',
+        transform: right ? 'translateX(-100%)' : '', textAlign: right ? 'right' : '',
+        fontSize: '15px', lineHeight: (L.gap - 4) + 'px', padding: '0 4px', background: 'var(--bg)', borderRadius: '3px' } });
+    });
+    syncNotes(next);
+  }
+
+  const live = new Map();
+  function syncNotes(next) {
+    live.forEach((el, k) => {
+      if (next.has(k)) return;
+      live.delete(k); el.classList.add('leaving');
+      setTimeout(() => el.remove(), 320);
+    });
+    next.forEach((n, k) => {
+      let el = live.get(k);
+      const fresh = !el;
+      if (fresh) { el = document.createElement('div'); el.className = n.cls + ' entering'; live.set(k, el); notes.appendChild(el); }
+      if (n.html != null) el.innerHTML = n.html; else if (n.text != null) el.textContent = n.text;
+      if (n.title) el.title = n.title;
+      Object.assign(el.style, n.style);
+      if (fresh) requestAnimationFrame(() => requestAnimationFrame(() => el.classList.remove('entering')));
+    });
+  }
+
+  // one label per video at its peak, in the gap above or below that year's band; biggest runs claim space first
+  const meas = document.createElement('div');
+  function placeSongLabels(ids, cap, withArtist, next) {
+    const rows = {}, room = 4;
+    meas.className = 'slab'; meas.style.visibility = 'hidden'; notes.appendChild(meas);
+    let placed = 0, hidden = 0;
+    let order = ids.map(i => V[i]).sort((a, b) => b.days - a.days);
+    // with a cap, take each year's biggest hit in turn so the labels spread across the whole wall
+    if (cap < Infinity) {
+      const byYear = d3.groups(order, v => epYear[v.runs.find(([, k]) => k === v.peak)[0]]).map(d => d[1]);
+      order = d3.range(d3.max(byYear, d => d.length)).flatMap(r => byYear.map(d => d[r]).filter(Boolean));
+    }
+    order.forEach(v => {
+      if (placed >= cap) return;
+      const [e, k] = v.runs.find(([, k]) => k === v.peak);
+      const yi = years.indexOf(epYear[e]), y0 = L.top + yi * (L.bandH + L.gap), x = ex(e) + L.slot / 2;
+      const t = v.song.length > 26 ? v.song.slice(0, 24) + '…' : v.song;
+      const html = `${esc(t)}${withArtist ? `<span>${esc(v.lead)}</span>` : ''}`;
+      meas.innerHTML = html;
+      const w = meas.offsetWidth;
+      // above the band first (below for the top year, whose gap holds the month letters), then the other side
+      for (const side of yi === 0 ? ['down'] : ['up', 'down']) {
+        // the strip below one year is the strip above the next, so rows are keyed by strip
+        const taken = rows[side === 'up' ? yi : yi + 1] ||= [];
+        const want = Math.max(L.lab, Math.min(L.W - w, x - w / 2));
+        const fits = l => taken.every(([a, b]) => l + w + room <= a || l >= b + room);
+        // slide sideways past whatever's in the way, but keep the label over its square so the leader drops straight onto it
+        const cands = [want, ...taken.flatMap(([a, b]) => [a - w - room, b + room])]
+          .filter(l => l >= L.lab && l + w <= L.W && l + 3 <= x && x <= l + w - 3 && fits(l))
+          .sort((a, b) => Math.abs(a - want) - Math.abs(b - want));
+        if (!cands.length) continue;
+        const l = cands[0]; taken.push([l, l + w]); placed++;
+        const ly = side === 'up' ? y0 - L.gap + (L.gap - 16) / 2 : y0 + L.bandH + (L.gap - 16) / 2;
+        // leader from the label to the square (added first so it sits under the label)
+        const cy = ey(e, k), top = side === 'up' ? ly + 16 : cy + L.cell, bot = side === 'up' ? cy : ly;
+        next.set('l' + v.i, { cls: 'slab-l', style: { left: x - .75 + 'px', top: top + 'px', height: Math.max(0, bot - top) + 'px' } });
+        next.set('v' + v.i, { cls: 'slab', html, title: `${v.song}, ${v.artist}`, style: { left: l + 'px', top: ly + 'px' } });
+        return;
+      }
+      hidden++;
+    });
+    meas.remove();
+    unlabelled = hidden;
+  }
+
+  function hitWall(evt) {
+    const r = canvas.getBoundingClientRect(), x = evt.clientX - r.left, y = evt.clientY - r.top;
+    const yi = Math.floor((y - L.top + L.gap / 2) / (L.bandH + L.gap)); if (yi < 0 || yi >= years.length) return null;
+    const k = Math.floor((y - L.top - yi * (L.bandH + L.gap)) / L.cell) + 1; if (k < 1 || k > 10) return null;
+    const s = Math.round((x - L.lab - L.slot / 2) / L.slot);
+    // snap to the nearest show within 2 columns
+    for (const d of [0, -1, 1, -2, 2]) { const e = lookup[years[yi] + ':' + (s + d)]; if (e != null && D.grid[e][k - 1] >= 0) return { e, k, v: D.grid[e][k - 1] }; }
+    return null;
+  }
+  const tipHtml = (v, e, k) => {
+    const dayN = v.runs.findIndex(([x]) => x === e) + 1;
+    return `${e != null ? `<div class="t-date">${fmt(dates[e])} · #${k}</div>` : ''}<div class="t-song">${esc(v.song)}</div><div class="t-art">${esc(v.artist)}</div>` +
+      `<span class="t-g" style="--c:${COL[v.genre]}"><i></i>${GNAME[v.genre]}</span>` +
+      `<div class="t-stats">${e != null ? `Day ${dayN} of ${v.days} · ` : `${v.days} days · `}peak #${v.peak}${v.d1 ? ` · ${v.d1} at #1` : ''}</div>`;
+  };
+  canvas.addEventListener('pointermove', evt => {
+    if (!showCells) return;
+    if (Z) return zoomHover(evt);
+    const h = hitWall(evt);
+    const nv = h ? h.v : null;
+    if (nv !== S.hover) { S.hover = nv; drawWall(); }
+    if (h) showTip(tipHtml(V[h.v], h.e, h.k), evt.clientX, evt.clientY); else hideTip();
+  });
+  canvas.addEventListener('pointerleave', () => { S.hover = null; hideTip(); if (Z) { Z.hi = null; } drawWall(); });
+  canvas.addEventListener('click', evt => {
+    if (!showCells) finishIntro();   // a tap before the unspool lands finishes it and still opens the week
+    if (!showCells) return;
+    if (Z) return zoomClick(evt);
+    const h = hitWall(evt); if (!h) return;
+    S.hover = null; hideTip();
+    setRace(Math.max(0, h.e - 25), `Around ${fmt(dates[h.e])}`, h.v);
+    openZoom(h.e, h.v);
+  });
+
+  // ---------- zooming into one week ----------
+  // The wall pushes in on the clicked week: the rest of the decade scales up past the edges and fades, while that
+  // week's squares grow into cards, Monday to Friday across, #1 to #10 down, with ribbons tying each video day to day.
+  const zoombar = document.getElementById('zoombar'), zTitle = document.getElementById('zTitle');
+  const weekKey = e => +d3.timeMonday.floor(dates[e]);
+  const weekEps = e => { const k = weekKey(e); let a = e, b = e; while (a > 0 && weekKey(a - 1) === k) a--; while (b < nEp - 1 && weekKey(b + 1) === k) b++; return d3.range(a, b + 1); };
+  let Z = null, zT = 0, zTimer = null, snap = null;
+  const reduceMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const fmtDay = d3.timeFormat('%a %b %-d'), fmtWk = d3.timeFormat('%B %-d, %Y');
+
+  function zoomLayout(eps) {
+    const narrow = L.W < 560, top = narrow ? 66 : 70, gut = narrow ? 5 : 28, lab = narrow ? 24 : L.lab;
+    const cw = (L.W - lab - gut * 4) / 5, rowH = Math.min(62, (L.H - top - 4) / 10), ch = rowH * .84;
+    const col = e => dates[e].getDay() - 1;
+    const card = (e, k) => ({ x: lab + col(e) * (cw + gut), y: top + (k - 1) * rowH, w: cw, h: ch });
+    return { narrow, top, gut, lab, cw, rowH, ch, col, card, eps };
+  }
+  function weekState(e, focus) {
+    const eps = weekEps(e);
+    return { eps, focus, hi: null, Lz: zoomLayout(eps), slide: null };
+  }
+  function setBar() {
+    const eps = Z.eps, first = dates[eps[0]];
+    zTitle.innerHTML = `Week of ${fmtWk(d3.timeMonday.floor(first))}<small>${eps.length} show${eps.length > 1 ? 's' : ''} · ${TOUCH ? 'tap a song to follow its whole run' : 'hover a song, click to follow its whole run · Esc to zoom out'}</small>`;
+    document.getElementById('zPrev').disabled = eps[0] === 0;
+    document.getElementById('zNext').disabled = eps[eps.length - 1] === nEp - 1;
+  }
+  function animate(from, to, ms, step, done) {
+    if (zTimer) zTimer.stop();
+    if (reduceMotion()) ms = 1;
+    zTimer = d3.timer(el => {
+      const t = Math.min(1, el / ms); step(from + (to - from) * t);
+      if (t >= 1) { zTimer.stop(); zTimer = null; done && done(); }
+    });
+  }
+  function openZoom(e, focus) {
+    // freeze a picture of the whole wall (without any hover highlight) to push the camera through
+    S.hover = null; drawWall();
+    snap = document.createElement('canvas'); snap.width = canvas.width; snap.height = canvas.height;
+    snap.getContext('2d').drawImage(canvas, 0, 0);
+    Z = weekState(e, focus); zT = 0; setBar(); notesKey = '';
+    zoombar.classList.add('on'); zoombar.setAttribute('aria-hidden', 'false');
+    animate(0, 1, 1100, t => { zT = t; drawWall(); });
+  }
+  function closeZoom(animated = true, then) {
+    if (!Z) return then && then();
+    zoombar.classList.remove('on'); zoombar.setAttribute('aria-hidden', 'true'); hideTip();
+    const end = () => { Z = null; zT = 0; snap = null; notesKey = ''; drawWall(); then && then(); };
+    if (!animated) { if (zTimer) zTimer.stop(); return end(); }
+    Z.hi = null; Z.slide = null;
+    animate(zT, 0, 900, t => { zT = t; drawWall(); }, end);
+  }
+  function stepWeek(dir) {
+    if (!Z || Z.slide) return;
+    const edge = dir > 0 ? Z.eps[Z.eps.length - 1] + 1 : Z.eps[0] - 1;
+    if (edge < 0 || edge >= nEp) return;
+    const old = Z, nw = weekState(edge, null);
+    nw.slide = { old, dir, t: 0 };
+    Z = nw; setBar(); hideTip();
+    setRace(Math.max(0, nw.eps[0] - 22), `Around ${fmt(dates[nw.eps[0]])}`);
+    animate(0, 1, 520, t => { Z.slide && (Z.slide.t = t); drawWall(); }, () => { Z.slide = null; drawWall(); });
+  }
+  document.getElementById('zPrev').onclick = () => stepWeek(-1);
+  document.getElementById('zNext').onclick = () => stepWeek(1);
+  document.getElementById('zClose').onclick = () => closeZoom();
+  addEventListener('keydown', ev => {
+    if (!Z || ev.target.tagName === 'INPUT') return;
+    if (ev.key === 'Escape') closeZoom();
+    else if (ev.key === 'ArrowLeft') { ev.preventDefault(); stepWeek(-1); }
+    else if (ev.key === 'ArrowRight') { ev.preventDefault(); stepWeek(1); }
+  });
+
+  const inkOn = c => d3.lab(c).l > 62 ? '#1b1a17' : '#ffffff';
+  const fit = (str, max) => { if (ctx.measureText(str).width <= max) return str; let t = str; while (t.length > 1 && ctx.measureText(t + '…').width > max) t = t.slice(0, -1); return t + '…'; };
+  // how a video moved since the show before: up, down, same, new, or back after time away
+  function moveOf(e, k, v) {
+    if (V[v].runs[0][0] === e) return { t: 'NEW', c: 'new' };
+    const pk = e > 0 ? D.grid[e - 1].indexOf(v) : -1;
+    if (pk < 0) return { t: 'BACK', c: 'new' };
+    const d = pk + 1 - k;
+    return d > 0 ? { t: '▲' + d, c: 'up' } : d < 0 ? { t: '▼' + -d, c: 'dn' } : { t: '–', c: 'eq' };
+  }
+
+  function drawZoom() {
+    const { W, H } = L, z = Z, ez = d3.easeCubicInOut(zT);
+    const wallW = Math.max(1, L.slot - (L.slot > 3 ? 1 : 0)), wallH = Math.max(1, L.cell - (L.cell > 3 ? 1 : 0));
+    // camera: push in on the week, from where it sits on the wall to the middle of the frame
+    const xs = z.eps.map(e => ex(e)), y0 = ey(z.eps[0], 1);
+    const fx = (d3.min(xs) + d3.max(xs) + wallW) / 2, fy = y0 + L.bandH / 2;
+    const Lz = z.Lz, cx = Lz.lab + (W - Lz.lab) / 2, cy = Lz.top + Lz.rowH * 5;
+    const scale = 1 + 9 * ez, px = fx + (cx - fx) * ez, py = fy + (cy - fy) * ez;
+    if (snap && zT < 1) {
+      const a = Math.max(0, 1 - ez * 1.5);
+      if (a > 0) {
+        ctx.save(); ctx.globalAlpha = a;
+        ctx.translate(px, py); ctx.scale(scale, scale); ctx.translate(-fx, -fy);
+        ctx.drawImage(snap, 0, 0, W, H); ctx.restore();
+      }
+    }
+    if (z.slide) {
+      // the new week pushes the old one out sideways; the rank numbers stay put
+      const s = d3.easeCubicInOut(z.slide.t), dx = z.slide.dir * (W - Lz.lab + Lz.gut);
+      drawRanks(Lz, 1);
+      ctx.save(); ctx.beginPath(); ctx.rect(Lz.lab - 1, 0, W - Lz.lab + 1, H); ctx.clip();
+      drawWeek(z.slide.old, 1, -dx * s, 1);
+      drawWeek(z, 1, dx * (1 - s), 1);
+      ctx.restore();
+    } else { drawRanks(Lz, d3.easeCubicOut(Math.max(0, (zT - .62) / .38))); drawWeek(z, zT, 0, 1); }
+  }
+
+  function drawRanks(Lz, a) {
+    if (a <= 0) return;
+    ctx.save(); ctx.globalAlpha = a; ctx.fillStyle = COL['ink-3']; ctx.textBaseline = 'middle'; ctx.textAlign = 'left';
+    ctx.font = `600 ${Lz.narrow ? 10 : 12}px "IBM Plex Mono", monospace`;
+    for (let k = 1; k <= 10; k++) ctx.fillText('#' + k, 0, Lz.top + (k - 1) * Lz.rowH + Lz.ch / 2);
+    ctx.restore();
+  }
+
+  // one week: cards morph from their squares on the wall (t = 0) to the card grid (t = 1)
+  function drawWeek(z, t, dx, alpha) {
+    const Lz = z.Lz, { narrow } = Lz;
+    const wallW = Math.max(1, L.slot - (L.slot > 3 ? 1 : 0)), wallH = Math.max(1, L.cell - (L.cell > 3 ? 1 : 0));
+    const late = d3.easeCubicOut(Math.max(0, (t - .62) / .38));   // text, ribbons, axes come in at the end
+    ctx.save(); ctx.globalAlpha = alpha; ctx.translate(dx, 0);
+    // weekday heads
+    if (late > 0) {
+      ctx.globalAlpha = alpha * late; ctx.textBaseline = 'middle';
+      ctx.textAlign = 'center'; ctx.fillStyle = COL.ink; ctx.font = `600 ${narrow ? 10 : 12}px "IBM Plex Mono", monospace`;
+      const mon = d3.timeMonday.floor(dates[z.eps[0]]);
+      for (let c = 0; c < 5; c++) {
+        const d = d3.timeDay.offset(mon, c), has = z.eps.some(e => Lz.col(e) === c);
+        const x = Lz.lab + c * (Lz.cw + Lz.gut) + Lz.cw / 2;
+        ctx.fillStyle = has ? COL.ink : COL['ink-3'];
+        ctx.fillText(narrow ? d3.timeFormat('%a')(d) : fmtDay(d), x, Lz.top - 14);
+        if (!has) { ctx.font = `400 ${narrow ? 10 : 13}px Inter, sans-serif`; ctx.fillText('No show', x, Lz.top + Lz.rowH * 5); ctx.font = `600 ${narrow ? 10 : 12}px "IBM Plex Mono", monospace`; }
+      }
+    }
+    // ribbons: the same video on consecutive shows
+    if (late > 0) {
+      for (let i = 1; i < z.eps.length; i++) {
+        const ea = z.eps[i - 1], eb = z.eps[i];
+        D.grid[eb].forEach((v, kb) => {
+          if (v < 0) return;
+          const ka = D.grid[ea].indexOf(v); if (ka < 0) return;
+          const A = Lz.card(ea, ka + 1), B = Lz.card(eb, kb + 1), on = z.hi == null && z.focus == null || z.hi === v || (z.hi == null && z.focus === v);
+          const th = Lz.ch * .42, ya = A.y + Lz.ch / 2, yb = B.y + Lz.ch / 2, xa = A.x + A.w, xb = B.x, mx = (xa + xb) / 2;
+          ctx.globalAlpha = alpha * late * (on ? .5 : .12); ctx.fillStyle = COL[V[v].genre];
+          ctx.beginPath(); ctx.moveTo(xa, ya - th / 2); ctx.bezierCurveTo(mx, ya - th / 2, mx, yb - th / 2, xb, yb - th / 2);
+          ctx.lineTo(xb, yb + th / 2); ctx.bezierCurveTo(mx, yb + th / 2, mx, ya + th / 2, xa, ya + th / 2); ctx.closePath(); ctx.fill();
+        });
+      }
+    }
+    // cards
+    const sel = z.hi ?? z.focus;
+    z.eps.forEach(e => D.grid[e].forEach((v, k) => {
+      if (v < 0) return;
+      const c = Lz.card(e, k + 1), delay = Lz.col(e) * .05 + k * .012;
+      const u = d3.easeCubicInOut(Math.max(0, Math.min(1, (t - delay) / (1 - .32))));
+      // start: the square's spot on the wall, run through the same camera push as the rest of the wall
+      let sx = ex(e), sy = ey(e, k + 1), sw = wallW, sh = wallH;
+      const x = sx + (c.x - sx) * u, y = sy + (c.y - sy) * u, w = sw + (c.w - sw) * u, h = sh + (c.h - sh) * u;
+      const dim = sel != null && v !== sel;
+      ctx.globalAlpha = alpha * (dim ? 1 - .45 * late : 1);
+      ctx.fillStyle = COL[V[v].genre];
+      ctx.beginPath(); ctx.roundRect ? ctx.roundRect(x, y, w, h, 5 * u) : ctx.rect(x, y, w, h); ctx.fill();
+      if (sel === v && late > 0) { ctx.globalAlpha = alpha * late; ctx.strokeStyle = COL.hl; ctx.lineWidth = 2; ctx.stroke(); }
+      if (late <= 0 || w < 30) return;
+      // song, artist, and the move since the show before
+      const ink = inkOn(COL[V[v].genre]), pad = narrow ? 4 : 8, mv = moveOf(e, k + 1, v);
+      ctx.globalAlpha = alpha * late * (dim ? .7 : 1); ctx.fillStyle = ink; ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
+      const fs = narrow ? 9.5 : Math.min(13, Lz.ch * .3);
+      ctx.font = `600 ${narrow ? 8 : 10}px "IBM Plex Mono", monospace`;
+      const mw = narrow ? 0 : ctx.measureText(mv.t).width + 6;
+      if (!narrow) { ctx.textAlign = 'right'; ctx.globalAlpha *= mv.c === 'eq' ? .6 : 1; ctx.fillText(mv.t, x + w - pad, y + (Lz.ch >= 38 ? fs * .9 : h / 2)); ctx.globalAlpha = alpha * late * (dim ? .7 : 1); ctx.textAlign = 'left'; }
+      ctx.font = `600 ${fs}px Inter, sans-serif`;
+      const twoLine = Lz.ch >= 38 && !narrow;
+      ctx.fillText(fit(V[v].song, w - pad * 2 - mw), x + pad, twoLine ? y + fs * .9 : y + h / 2);
+      if (twoLine) { ctx.font = `400 ${fs * .92}px Inter, sans-serif`; ctx.globalAlpha *= .8; ctx.fillText(fit(V[v].artist, w - pad * 2), x + pad, y + fs * 2.2); }
+    }));
+    ctx.restore();
+  }
+
+  function zoomHit(evt) {
+    const r = canvas.getBoundingClientRect(), x = evt.clientX - r.left, y = evt.clientY - r.top, Lz = Z.Lz;
+    for (const e of Z.eps) for (let k = 1; k <= 10; k++) {
+      const v = D.grid[e][k - 1]; if (v < 0) continue;
+      const c = Lz.card(e, k); if (x >= c.x && x <= c.x + c.w && y >= c.y && y <= c.y + c.h) return { e, k, v };
+    }
+    return null;
+  }
+  function zoomHover(evt) {
+    if (zT < 1 || Z.slide) return;
+    const h = zoomHit(evt), nv = h ? h.v : null;
+    if (nv !== Z.hi) { Z.hi = nv; drawWall(); }
+    canvas.style.cursor = h ? 'pointer' : 'default';
+    if (h) showTip(tipHtml(V[h.v], h.e, h.k), evt.clientX, evt.clientY); else hideTip();
+  }
+  // clicking a song zooms back out with that video's whole run traced on the wall
+  function zoomClick(evt) {
+    if (zT < 1 || Z.slide) return;
+    const h = zoomHit(evt); if (!h) return;
+    closeZoom(true, () => { S.pin = h.v; S.act = null; q.value = ''; canvas.style.cursor = ''; drawWall(); updateStatus(); });
+  }
+
+  // ---------- the race (bump chart) ----------
+  const bump = d3.select('#bump');
+  const WIN = 50;
+  const findEp = s => d3.bisectLeft(D.dates, s);
+  // Each storyline names its sides; the chart colors only them. Windows were picked from the data: where the
+  // rivalry was closest or the genre's share of the countdown peaked.
+  const act = name => ({ label: name, m: v => V[v].lead === name });
+  const genreSide = g => ({ label: GNAME[g], m: v => V[v].genre === g, g });
+  const PRESETS = [
+    { name: 'Boy band wars, 1999', start: '1999-04-23', sides: [act('Backstreet Boys'), act('*NSYNC')] },
+    { name: 'Britney vs. Christina, 2000', start: '2000-08-03', sides: [act('Britney Spears'), act('Christina Aguilera')] },
+    { name: 'After 9/11', start: '2001-08-27', sides: [act('*NSYNC'), act('Backstreet Boys')], gap: true },
+    { name: "Hip-hop's peak, 2005", start: '2005-02-15', sides: [genreSide('hiphop')] },
+    { name: 'Pop-punk summer, 2005', start: '2005-08-05', sides: [genreSide('punk')] },
+  ].map(p => ({ ...p, e: findEp(p.start) }));
+  const presets = document.getElementById('presets');
+  PRESETS.forEach(p => {
+    const b = document.createElement('button'); b.innerHTML = signText(p.name); b.onclick = () => setRace(p.e, p.name, null, p); presets.appendChild(b);
+  });
+  let race = { s: 0, focus: null };
+  function setRace(s, name, focus = null, story = null) {
+    race = { s: Math.min(s, nEp - WIN), name, focus, story, fresh: true };
+    presets.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', b.textContent === name));
+    drawBump();
+  }
+  function drawBump() {
+    const W = bump.node().parentElement.clientWidth - 36, narrow = W < 560;
+    const st = race.focus == null ? race.story : null;
+    const m = { t: st && st.sides.length > 1 ? 44 : 14, r: narrow ? 10 : 210, b: 30, l: 30 }, H = (narrow ? 360 : 420) + (st ? 30 : 0);
+    bump.attr('width', W).attr('height', H).attr('viewBox', `0 0 ${W} ${H}`);
+    bump.selectAll('*').remove();
+    const win = narrow ? 24 : WIN, s = Math.min(race.s + (narrow && race.focus != null ? 13 : 0), nEp - win), e1 = Math.min(nEp, s + win), eps = d3.range(s, e1);
+    document.getElementById('raceTitle').textContent = `${race.name || ''}: ${fmt(dates[s])} to ${fmt(dates[e1 - 1])}`;
+    // shows are evenly spaced, except that in the 9/11 storyline a week without shows gets its own room on the chart
+    const GAPW = 4, gaps = st && st.gap ? eps.slice(1).filter((e, i) => d3.timeDay.count(dates[eps[i]], dates[e]) > 5) : [];
+    const P = new Map(); let off = 0; eps.forEach((e, i) => { if (gaps.includes(e)) off += GAPW; P.set(e, i + off); });
+    const step = (W - m.l - m.r) / Math.max(1, eps.length - 1 + off), x = e => m.l + P.get(e) * step;
+    const y = d3.scaleLinear([1, 10], [m.t + 8, H - m.b - 8]);
+    const g = bump.append('g');
+    // rank gridlines
+    g.append('g').attr('class', 'axis').selectAll('text').data(d3.range(1, 11)).join('text')
+      .attr('x', m.l - 10).attr('y', d => y(d)).attr('dy', '.35em').attr('text-anchor', 'end').text(d => '#' + d);
+    g.append('g').selectAll('line').data(d3.range(1, 11)).join('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y).attr('y2', y).attr('stroke', COL.grid);
+    // month ticks
+    // a month starting just after the window opens would crowd the first label, so skip labels that land too close
+    let lastTx = -Infinity;
+    const ticks = eps.filter((e, i) => i === 0 || dates[e].getMonth() !== dates[e - 1].getMonth()).filter(e => x(e) - lastTx >= 66 && (lastTx = x(e), true));
+    g.append('g').attr('class', 'axis').selectAll('text').data(ticks).join('text').attr('x', d => x(d)).attr('y', H - 8).attr('text-anchor', 'start').text(d => fmtM(dates[d]));
+    // series
+    const inWin = new Map();
+    eps.forEach(e => D.grid[e].forEach((v, k) => { if (v >= 0) { if (!inWin.has(v)) inWin.set(v, []); inWin.get(v).push([e, k + 1]); } }));
+    const series = [...inWin].map(([v, pts]) => ({ v, pts, n: pts.length })).sort((a, b) => a.n - b.n);
+    const line = d3.line().defined(d => d.k != null).x(d => x(d.e)).y(d => y(d.k)).curve(d3.curveMonotoneX);
+    const asLine = pts => { const map = new Map(pts); return eps.map(e => ({ e, k: map.get(e) })); };
+    // in a storyline, each side gets one color and everyone else turns into gray background
+    const sideCols = st ? (st.sides.length === 1 ? [COL[st.sides[0].g]] : [COL.groups, COL.hiphop]) : null;
+    const sideOf = v => st ? st.sides.findIndex(sd => sd.m(v)) : -1;
+    if (st) series.sort((a, b) => (sideOf(a.v) >= 0) - (sideOf(b.v) >= 0) || a.n - b.n);
+    const colOf = v => st ? (sideOf(v) >= 0 ? sideCols[sideOf(v)] : COL['ink-3']) : COL[V[v].genre];
+    const big = d => st ? sideOf(d.v) >= 0 : d.n > 8;
+    // a one-genre storyline is about share, so it draws every show as a column of ten slots and fills the genre's slots
+    // (hovering still picks out one video)
+    const tiles = st && st.sides.length === 1;
+    const sel = g.append('g').selectAll('g').data(series).join('g').attr('class', 'ser').style('cursor', 'pointer');
+    if (tiles) {
+      const cw = Math.max(2, step - (step > 8 ? 2 : 1)), ch = (y(2) - y(1)) - 4;
+      sel.selectAll('rect').data(d => d.pts.map(p => [...p, d.v])).join('rect')
+        .attr('x', p => x(p[0]) - cw / 2).attr('y', p => y(p[1]) - ch / 2).attr('width', cw).attr('height', ch).attr('rx', Math.min(3, cw / 4))
+        .attr('fill', p => sideOf(p[2]) >= 0 ? sideCols[0] : COL.grid);
+    }
+    const paths = tiles ? d3.select(null) : sel.append('path').attr('d', d => line(asLine(d.pts))).attr('fill', 'none').attr('stroke', d => colOf(d.v))
+      .attr('stroke-width', d => big(d) ? (st ? 3.4 : 3) : (st ? 1.1 : 1.6)).attr('stroke-linecap', 'round')
+      .attr('opacity', d => big(d) ? 1 : st ? .3 : .55);
+    if (!tiles) sel.selectAll('circle').data(d => (st && !big(d) ? [] : d.pts).map(p => [...p, d.v])).join('circle').attr('cx', p => x(p[0])).attr('cy', p => y(p[1])).attr('r', p => st ? 3.2 : inWin.get(p[2]).length > 8 ? 3.2 : 2.4)
+      .attr('fill', p => colOf(p[2])).attr('stroke', COL.paper).attr('stroke-width', 1.5);
+    if (st && !tiles) {
+      // who held #1 each day, colored by side
+      g.append('text').attr('class', 'axis').attr('x', m.l).attr('y', 8).attr('dy', '.35em').style('font', "500 10.5px 'IBM Plex Mono', monospace").attr('fill', COL['ink-3']).text('WHO HELD #1');
+      const bw = Math.max(1, step);
+      g.append('g').selectAll('rect').data(eps).join('rect').attr('x', e => x(e) - bw / 2 + .5).attr('y', 18).attr('width', Math.max(1, bw - 1)).attr('height', 12).attr('rx', 1.5)
+        .attr('fill', e => { const v = D.grid[e][0]; return v >= 0 && sideOf(v) >= 0 ? sideCols[sideOf(v)] : COL.grid; });
+      // a week with no shows (9/11)
+      gaps.forEach(e => {
+        const a = x(e - 1) + step * .6, b = x(e) - step * .6, gx = (a + b) / 2;
+        g.insert('rect', ':first-child').attr('x', a).attr('y', 14).attr('width', b - a).attr('height', H - m.b - 14).attr('fill', COL.grid).attr('opacity', .9);
+        [a, b].forEach(xx => g.append('line').attr('x1', xx).attr('x2', xx).attr('y1', 14).attr('y2', H - m.b).attr('stroke', COL.ink).attr('stroke-dasharray', '3 3').attr('opacity', .45));
+        g.append('text').attr('transform', `translate(${gx},${(m.t + H - m.b) / 2}) rotate(-90)`).attr('text-anchor', 'middle').attr('dy', '.35em')
+          .style('font', `400 ${narrow ? 16 : 19}px KKHand, 'Comic Sans MS', cursive`).attr('fill', COL.ink).attr('stroke', COL.grid).attr('stroke-width', 4).attr('paint-order', 'stroke')
+          .text(`no shows ${d3.timeFormat('%b %-d')(d3.timeDay.offset(dates[e - 1], 1))}–${d3.timeFormat('%-d')(d3.timeDay.offset(dates[e], -1))}`);
+      });
+      // draw the rivals' lines in when the storyline is picked
+      if (race.fresh && !matchMedia('(prefers-reduced-motion: reduce)').matches) paths.filter(big).each(function () {
+        const L0 = this.getTotalLength();
+        d3.select(this).attr('stroke-dasharray', `${L0} ${L0}`).attr('stroke-dashoffset', L0).transition().duration(1100).ease(d3.easeCubicInOut).attr('stroke-dashoffset', 0)
+          .on('end', function () { d3.select(this).attr('stroke-dasharray', null); });
+      });
+    }
+    race.fresh = false;
+    drawStory(st, eps, sideOf, sideCols);
+    // labels at the right edge: one per rank on the last show, so they never collide
+    if (!narrow) {
+      const last = eps[eps.length - 1];
+      g.append('g').selectAll('text').data(D.grid[last].map((v, k) => ({ v, k: k + 1 })).filter(d => d.v >= 0)).join('text')
+        .attr('x', W - m.r + 10).attr('y', d => y(d.k)).attr('dy', '.35em').attr('font-size', 12.5)
+        .attr('fill', d => st && sideOf(d.v) < 0 ? COL['ink-3'] : COL.ink).attr('font-weight', d => st && sideOf(d.v) >= 0 ? 700 : 400)
+        .text(d => { const t = `${V[d.v].song} · ${V[d.v].lead}`; return t.length > 30 ? t.slice(0, 29) + '…' : t; });
+    }
+    const focus = v => { sel.attr('opacity', d => v == null || d.v === v ? 1 : 0.12); };
+    if (race.focus != null && inWin.has(race.focus)) focus(race.focus);
+    // hit layer: nearest point
+    const pts = series.flatMap(d => d.pts.map(([e, k]) => ({ e, k, v: d.v })));
+    const dl = d3.Delaunay.from(pts, p => x(p.e), p => y(p.k));
+    bump.on('pointermove', evt => {
+      const [px, py] = d3.pointer(evt); const p = pts[dl.find(px, py)];
+      if (!p || Math.hypot(x(p.e) - px, y(p.k) - py) > 28) { focus(race.focus != null && inWin.has(race.focus) ? race.focus : null); hideTip(); return; }
+      focus(p.v); showTip(tipHtml(V[p.v], p.e, p.k), evt.clientX, evt.clientY);
+    }).on('pointerleave', () => { focus(race.focus != null && inWin.has(race.focus) ? race.focus : null); hideTip(); });
+    const nVid = series.length, top = series.filter(d => d.pts.some(p => p[1] === 1));
+    document.getElementById('raceSub').textContent = `${nVid} videos made the countdown in these ${eps.length} shows; ${top.length} of them reached #1.` +
+      (tiles ? ` Each column is one show, #1 on top; filled squares are ${st.sides[0].label.toLowerCase()} videos.` : '');
+  }
+
+  // the storyline's summary line and the tug-of-war bar for days at #1
+  function drawStory(st, eps, sideOf, sideCols) {
+    const box = document.getElementById('raceStory');
+    if (!st) { box.innerHTML = ''; return; }
+    const n = eps.length, held = st.sides.map(() => 0), slotsBy = st.sides.map(() => 0);
+    let slots = 0;
+    eps.forEach(e => {
+      const v1 = D.grid[e][0]; if (v1 >= 0 && sideOf(v1) >= 0) held[sideOf(v1)]++;
+      D.grid[e].forEach(v => { if (v < 0) return; slots++; if (sideOf(v) >= 0) slotsBy[sideOf(v)]++; });
+    });
+    const rest = n - d3.sum(held), lab = st.sides.map(sd => esc(sd.label)), pct = x => Math.round(100 * x);
+    const poss = t => t + (t.endsWith('s') ? "'" : "'s");
+    let dek;
+    if (st.sides.length === 1) {
+      // compare with the same stretch a year earlier
+      const e0 = Math.max(0, findEp(d3.timeFormat('%Y-%m-%d')(d3.timeYear.offset(dates[eps[0]], -1))));
+      let a = 0, t = 0; d3.range(e0, Math.min(nEp, e0 + n)).forEach(e => D.grid[e].forEach(v => { if (v >= 0) { t++; if (sideOf(v) >= 0) a++; } }));
+      dek = `${lab[0]} filled <b>${pct(slotsBy[0] / slots)}%</b> of the countdown in these ${n} shows, up from ${pct(a / t)}% a year earlier, and held #1 on <b>${held[0]}</b> of them.`;
+    } else if (st.gap) {
+      const after = eps.filter((e, i) => i && d3.timeDay.count(dates[eps[0]], dates[e]) > 14);
+      const h2 = st.sides.map((sd, i) => after.filter(e => D.grid[e][0] >= 0 && sideOf(D.grid[e][0]) === i).length);
+      const songs = st.sides.map((sd, i) => { const c = d3.rollup(after.filter(e => D.grid[e][0] >= 0 && sideOf(D.grid[e][0]) === i), v => v.length, e => D.grid[e][0]); const top = d3.greatest(c, d => d[1]); return top ? `“${esc(V[top[0]].song)}”` : ''; });
+      // name only the sides that actually held #1 after the break (in a short phone window, one may not have yet)
+      const named = st.sides.map((sd, i) => songs[i] ? `${poss(lab[i])} ${songs[i]}` : null).filter(Boolean);
+      dek = `TRL went dark the week of September 11. When it came back, ${named.join(' and ')} held #1 on <b>${h2[0] + h2[1]}</b> of the next ${after.length} shows.`;
+    } else {
+      const lead = held[0] === held[1] ? `Dead even: <b>${held[0]}</b> days at #1 each.` : `${lab[held[0] > held[1] ? 0 : 1]} won the top spot, <b>${Math.max(...held)}</b> days to ${Math.min(...held)}.`;
+      dek = `${lead} Between them they filled ${pct((slotsBy[0] + slotsBy[1]) / slots)}% of all countdown slots in these ${n} shows (${lab[0]} ${slotsBy[0]}, ${lab[1]} ${slotsBy[1]}).`;
+    }
+    const segs = st.sides.length === 1
+      ? [{ n: held[0], c: sideCols[0], t: `${held[0]} days at #1` }, { n: rest, rest: true, t: `${rest} everyone else` }]
+      : [{ n: held[0], c: sideCols[0], t: held[0] }, { n: rest, rest: true, t: rest ? `${rest} others` : '' }, { n: held[1], c: sideCols[1], t: held[1], right: true }];
+    box.innerHTML = `<p class="dek2">${dek}</p><div class="tug" role="img" aria-label="Days at #1 in these shows">${segs.map(sg =>
+      `<div class="${sg.rest ? 'rest' : ''}" style="flex-grow:${sg.n};${sg.c ? `background:${sg.c};color:${inkOn(sg.c)};` : ''}${sg.right ? 'text-align:right;' : ''}">${sg.n ? sg.t : ''}</div>`).join('')}</div>` +
+      `<div class="tug-key">${st.sides.map((sd, i) => `<span style="--c:${sideCols[i]}"><i></i>${esc(sd.label)}</span>`).join('')}<span>bar = days at #1</span></div>`;
+  }
+
+  // ---------- the eras (stacked share) ----------
+  const ORDER = ['rock', 'groups', 'pop', 'punk', 'rnb', 'hiphop', 'other'];
+  const byMonth = d3.rollups(D.grid.map((r, e) => [D.dates[e].slice(0, 7), r]), rs => {
+    const c = Object.fromEntries(ORDER.map(g => [g, 0])); let t = 0;
+    rs.forEach(([, r]) => r.forEach(v => { if (v >= 0) { c[V[v].genre]++; t++; } }));
+    ORDER.forEach(g => c[g] /= t); return c;
+  }, d => d[0]).map(([m, c]) => ({ m: new Date(m + '-15T12:00:00'), ...c }));
+  const yearShare = y => { const c = Object.fromEntries(ORDER.map(g => [g, 0])); let t = 0; D.grid.forEach((r, e) => { if (epYear[e] === y) r.forEach(v => { if (v >= 0) { c[V[v].genre]++; t++; } }); }); ORDER.forEach(g => c[g] = Math.round(100 * c[g] / t)); return c; };
+  const ys = Object.fromEntries(years.map(y => [y, yearShare(y)]));
+  const peakGroups = d3.greatest(years, y => ys[y].groups);
+  document.getElementById('eraText').innerHTML = `<p>In ${peakGroups}, boy bands and girl groups held <b>${ys[peakGroups].groups}%</b> of all countdown slots. By 2004 they were down to <b>${ys[2004].groups}%</b>. Rap-rock and alt went from <b>${ys[1998].rock}%</b> in TRL's first months to almost nothing by 2004, while hip-hop grew from <b>${ys[1998].hiphop}%</b> to <b>${ys[2004].hiphop}%</b>. Pop-punk and emo grew more slowly, peaking at about <b>${d3.max(years, y => ys[y].punk)}%</b>.</p>`;
+
+  // the eras as a unit chart: 100 squares per month, stacked by genre; "line up" re-sorts one genre to the baseline
+  const pixC = document.getElementById('pix'), px = pixC.getContext('2d'), pixNotes = document.getElementById('pixNotes');
+  const MON = byMonth.map((d, mi) => {
+    // largest remainder, so each month is exactly 100 squares
+    const raw = ORDER.map(g => [g, d[g] * 100]), n = Object.fromEntries(raw.map(([g, x]) => [g, Math.floor(x)]));
+    let left = 100 - d3.sum(Object.values(n));
+    raw.sort((a, b) => (b[1] % 1) - (a[1] % 1)).slice(0, left).forEach(([g]) => n[g]++);
+    return { ...d, mi, n };
+  });
+  // the video with the most days at #1 in each month, for the tooltip
+  const monthTop = d3.rollup(D.grid.map((r, e) => [D.dates[e].slice(0, 7), r[0]]).filter(x => x[1] >= 0), xs => d3.greatest(d3.rollups(xs, v => v.length, x => x[1]), x => x[1])[0], x => x[0]);
+  const monKey = d3.timeFormat('%Y-%m'), miOf = new Map(MON.map(m => [monKey(m.m), m.mi]));
+  const ART = MON.map(() => Object.fromEntries(ORDER.map(g => [g, new Map()]))); // month -> genre -> artist -> slots
+  D.grid.forEach((r, e) => { const mi = miOf.get(D.dates[e].slice(0, 7)); r.forEach(v => { if (v < 0) return; const M = ART[mi][V[v].genre]; M.set(V[v].lead, (M.get(V[v].lead) || 0) + 1); }); });
+  const genreArtists = Object.fromEntries(ORDER.map(g => {
+    const tot = new Map(); ART.forEach(a => a[g].forEach((n, k) => tot.set(k, (tot.get(k) || 0) + n)));
+    return [g, [...tot].sort((a, b) => b[1] - a[1])];
+  }));
+  const artRank = Object.fromEntries(ORDER.map(g => [g, new Map(genreArtists[g].map(([a], i) => [a, i]))]));
+  const SQ = MON.flatMap(m => ORDER.flatMap(g => {
+    // split the genre's squares among its artists, largest remainder again
+    const arts = [...ART[m.mi][g]], tot = d3.sum(arts, x => x[1]); if (!m.n[g] || !tot) return [];
+    const raw = arts.map(([a, c]) => [a, c / tot * m.n[g]]), n = new Map(raw.map(([a, x]) => [a, Math.floor(x)]));
+    raw.sort((a, b) => (b[1] % 1) - (a[1] % 1)).slice(0, m.n[g] - d3.sum([...n.values()])).forEach(([a]) => n.set(a, n.get(a) + 1));
+    return [...n].sort((a, b) => artRank[g].get(a[0]) - artRank[g].get(b[0])).flatMap(([a, k]) => d3.range(k).map(() => ({ mi: m.mi, g, art: a, x: 0, y: 0, a: 1 })));
+  }));
+  const MED = Object.fromEntries(ORDER.map(g => [g, d3.median(MON, m => m[g] * 100)]));
+  let hiArt = null;
+  let lineupG = null, PL = {}, pixHover = null, animating = false, dropped = false;
+  // the pair view: boy bands & girl groups grow up from a center line and rap-rock & alt hang down from it, so their shapes mirror
+  const PAIR = ['groups', 'rock'];
+  let pairOn = false;
+  const pairMid = (() => { const a = d3.max(MON, m => m.n.groups), b = d3.max(MON, m => m.n.rock); return b + (100 - a - b) / 2; })();
+  const midY = () => PL.base - pairMid / PL.cols * PL.s;
+  const orderFor = g => g ? [g, ...ORDER.filter(x => x !== g)] : ORDER;
+  function layoutPix() {
+    const W = pixC.parentElement.clientWidth, narrow = W < 560, lab = 34, cols = narrow ? 1 : 2;
+    const colW = (W - lab - 2) / MON.length, s = Math.max(1.4, (colW - (narrow ? .6 : 1.2)) / cols), rows = 100 / cols, pad = narrow ? 52 : 74;
+    PL = { W, narrow, lab, cols, colW, s, rows, pad, base: pad + rows * s, H: pad + rows * s + 30 };
+    const dpr = devicePixelRatio || 1; pixC.width = W * dpr; pixC.height = PL.H * dpr; pixC.style.height = PL.H + 'px'; px.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+  function targets() {
+    const fill = {};
+    orderFor(lineupG).forEach(g => SQ.forEach(q => { if (q.g !== g) return;
+      const p = fill[q.mi] = (fill[q.mi] ?? -1) + 1;
+      q.tx = PL.lab + q.mi * PL.colW + (p % PL.cols) * PL.s; q.ty = PL.base - (Math.floor(p / PL.cols) + 1) * PL.s; q.ta = !lineupG || q.g === lineupG ? 1 : .14; }));
+    if (pairOn) {
+      const pf = {}, my = midY();
+      SQ.forEach(q => {
+        const i = PAIR.indexOf(q.g); if (i < 0) { q.ta = 0; return; }
+        const k = q.mi + q.g, p = pf[k] = (pf[k] ?? -1) + 1, r = Math.floor(p / PL.cols);
+        q.ty = i === 0 ? my - 1 - (r + 1) * PL.s : my + 1 + r * PL.s; q.ta = 1;
+      });
+    }
+  }
+  // top edge of genre g's stack in month mi under the current order
+  const stackMid = (mi, g) => { if (pairOn) return midY() + (g === PAIR[0] ? -1 : 1) * MON[mi].n[g] / 2 / PL.cols * PL.s; let n = 0; for (const x of orderFor(lineupG)) { if (x === g) break; n += MON[mi].n[x]; } return PL.base - (n + MON[mi].n[g] / 2) / PL.cols * PL.s; };
+  function drawPix() {
+    const { W, H, lab, s, base, rows, colW } = PL;
+    px.clearRect(0, 0, W, H);
+    const gap = s > 3 ? .7 : s > 2 ? .45 : .25;
+    SQ.forEach(q => { px.globalAlpha = hiArt && (!lineupG || q.g === lineupG) && q.art !== hiArt ? Math.min(q.a, .3) : q.a; px.fillStyle = COL[q.g]; px.fillRect(q.x, q.y, s - gap, s - gap); });
+    px.globalAlpha = 1;
+    // 25/50/75% rules cut through the squares, like a paper fold
+    px.font = '500 11px "IBM Plex Mono", monospace'; px.textAlign = 'right'; px.textBaseline = 'middle';
+    if (pairOn) {
+      const my = midY();
+      [-50, -25, 25, 50].forEach(p => { const y = my - p / PL.cols * s; if (y < base + 4 && y > base - rows * s - 8) { px.fillStyle = COL.paper; px.fillRect(lab, y - .5, W - lab, 1); px.fillStyle = COL['ink-3']; px.fillText(Math.abs(p) + '%', lab - 6, y); } });
+      px.fillStyle = COL.ink; px.fillRect(lab, my - .5, W - lab, 1); px.fillStyle = COL['ink-3']; px.fillText('0%', lab - 6, my);
+      px.font = '500 11px "IBM Plex Mono", monospace'; px.textAlign = 'right';
+    } else [0, 25, 50, 75, 100].forEach(p => {
+      const y = base - (p / 100) * rows * PL.cols * s / PL.cols;
+      if (p > 0 && p < 100) { px.fillStyle = COL.paper; px.fillRect(lab, y - .5, W - lab, 1); }
+      px.fillStyle = COL['ink-3']; px.fillText(p + '%', lab - 6, y);
+    });
+    px.textAlign = 'left';
+    MON.forEach((m, i) => { if (m.m.getMonth() === 0 || i === 0) {
+      const x = lab + i * colW; px.fillStyle = COL['ink-3']; px.fillRect(x, base + 3, 1, 6);
+      if (!PL.narrow || m.m.getFullYear() % 2 === 0) px.fillText(PL.narrow ? "'" + String(m.m.getFullYear()).slice(2) : m.m.getFullYear(), x + 3, base + 16); } });
+    if (range) {
+      // fade the months outside the range and underline the range
+      px.globalAlpha = .72; px.fillStyle = COL.paper;
+      if (range[0] > 0) px.fillRect(lab, base - rows * s - 2, range[0] * colW, rows * s + 4);
+      if (range[1] < MON.length - 1) px.fillRect(lab + (range[1] + 1) * colW, base - rows * s - 2, (MON.length - 1 - range[1]) * colW, rows * s + 4);
+      px.globalAlpha = 1; px.fillStyle = COL.ink; px.fillRect(lab + range[0] * colW, base + 1, (range[1] - range[0] + 1) * colW, 2.5);
+    }
+    // a lined-up genre sits on the baseline, so its typical month can be drawn as a level: the median monthly share
+    if (lineupG && !pairOn) {
+      const med = MED[lineupG], y = base - med / PL.cols * s, t = `Median month: ${Math.round(med)}%`;
+      px.save(); px.strokeStyle = COL.ink; px.lineWidth = 1.5; px.setLineDash([5, 4]);
+      px.beginPath(); px.moveTo(lab, y); px.lineTo(W, y); px.stroke(); px.restore();
+      px.font = '600 11px "IBM Plex Mono", monospace'; px.textBaseline = 'bottom';
+      // the label goes at whichever end of the line no note's leader runs through
+      const tw = px.measureText(t).width, ends = [[W - 2 - tw, W - 2], [lab + 8, lab + 8 + tw], [(lab + W - tw) / 2, (lab + W + tw) / 2]];
+      const [tx] = ends.find(([a, b]) => !NOTES.some(n => !n.skip && n.cx > a - 8 && n.cx < b + 8)) || ends[0];
+      px.textAlign = 'left'; px.lineWidth = 4; px.strokeStyle = COL.paper; px.lineJoin = 'round'; px.strokeText(t, tx, y - 3);
+      px.fillStyle = COL.ink; px.fillText(t, tx, y - 3); px.textBaseline = 'middle'; px.lineWidth = 1;
+    }
+    if (pixHover != null) { px.strokeStyle = COL.ink; px.lineWidth = 1.5; px.strokeRect(lab + pixHover * colW - 1, base - rows * s - 2, colW + 1, rows * s + 3); }
+    if (!animating) leaders();
+  }
+  // notes: found in the data for the current view, placed in rows above the chart with a leader line down to the stack
+  let NOTES = [];
+  function pixAnnotations() {
+    const peak = g => d3.greatest(MON, m => m.n[g]);
+    if (pairOn) {
+      const yr = y => MON.filter(m => m.m.getFullYear() === y), avg = (ms, g) => Math.round(d3.mean(ms, m => m[g] * 100));
+      const y9900 = [...yr(1999), ...yr(2000)], y03 = yr(2003), at = (y, mo) => MON.find(m => m.m.getFullYear() === y && m.m.getMonth() === mo).mi;
+      return [
+        { mi: at(1999, 11), g: 'groups', text: `1999–2000: boy bands ${avg(y9900, 'groups')}%, rap-rock ${avg(y9900, 'rock')}%` },
+        { mi: at(2003, 5), g: 'groups', text: `By 2003: ${avg(y03, 'groups')}% and ${avg(y03, 'rock')}%` },
+      ];
+    }
+    if (lineupG) {
+      // the low after the peak uses a 6-month average, so one odd month doesn't read as a collapse
+      const pk = peak(lineupG), avg6 = mi => d3.mean(MON.slice(Math.max(0, mi - 5), mi + 1), m => m.n[lineupG]);
+      const after = MON.filter(m => m.mi >= pk.mi + 6), lo = after.length ? d3.least(after, m => avg6(m.mi)) : null;
+      const out = [{ mi: pk.mi, g: lineupG, text: `Peak: ${pk.n[lineupG]}% in ${fmtM(pk.m)}` }];
+      if (lo && pk.n[lineupG] - avg6(lo.mi) >= 15) out.push({ mi: lo.mi, g: lineupG, text: `Averaging ${Math.round(avg6(lo.mi))}% by ${fmtM(lo.m)}` });
+      // a comeback: the best month after that low, if the genre climbed most of the way back
+      const back = lo && d3.greatest(MON.filter(m => m.mi > lo.mi), m => m.n[lineupG]);
+      if (back && back.n[lineupG] - avg6(lo.mi) >= 15 && back.n[lineupG] >= .8 * pk.n[lineupG]) {
+        out.push({ mi: back.mi, g: lineupG, text: `Back to ${back.n[lineupG]}% in ${fmtM(back.m)}` });
+        // two peaks: label just the peaks (the dip between them shows on its own, and its leader would cross the notes)
+        out.splice(1, 1);
+        return out;
+      }
+      const first = MON[0]; if (Math.abs(first.mi - pk.mi) > 12) out.push({ mi: 0, g: lineupG, text: `${first.n[lineupG]}% at the start` });
+      return out;
+    }
+    const gp = peak('groups'), hp = peak('hiphop'), pp = peak('punk');
+    return [
+      { mi: 0, g: 'rock', text: `Rap-rock & alt: ${MON[0].n.rock}% in TRL's first month` },
+      { mi: gp.mi, g: 'groups', text: `Boy bands & girl groups peak at ${gp.n.groups}%` },
+      { mi: hp.mi, g: 'hiphop', text: `Hip-hop's best month: ${hp.n.hiphop}%` },
+      { mi: pp.mi, g: 'punk', text: `Pop-punk & emo top out at ${pp.n.punk}%` },
+    ];
+  }
+  function placePixNotes() {
+    pixNotes.innerHTML = ''; NOTES = pixAnnotations();
+    const rowsR = [-Infinity, -Infinity, -Infinity];
+    NOTES.sort((a, b) => a.mi - b.mi).forEach(n => {
+      const el = document.createElement('div'); el.className = 'note'; el.textContent = n.text; pixNotes.appendChild(el);
+      const w = el.offsetWidth, cx = PL.lab + (n.mi + .5) * PL.colW;
+      const flip = cx + w > PL.W - 4, left = Math.max(0, flip ? cx - w : cx - 3);
+      if (left + w > PL.W) { el.remove(); n.skip = true; return; }
+      const r = rowsR.findIndex(rr => left > rr + 10);
+      if (r < 0 || (PL.narrow && r > 1)) { el.remove(); n.skip = true; return; }
+      rowsR[r] = left + w; n.row = r; n.cx = cx;
+      el.style.left = left + 'px'; el.style.top = (4 + r * 23) + 'px';
+    });
+  }
+  function leaders() {
+    px.strokeStyle = COL.ink; px.lineWidth = 1;
+    NOTES.forEach(n => { if (n.skip) return;
+      const y0 = 4 + n.row * 23 + 20, y1 = stackMid(n.mi, n.g);
+      px.beginPath(); px.moveTo(n.cx, y0); px.lineTo(n.cx, y1); px.stroke();
+      px.beginPath(); px.arc(n.cx, y1, 3, 0, 7); px.fillStyle = COL.ink; px.fill(); px.strokeStyle = COL.paper; px.lineWidth = 1.5; px.stroke(); px.strokeStyle = COL.ink; px.lineWidth = 1; });
+  }
+  function animatePix(drop) {
+    targets(); placePixNotes(); pixNotes.style.opacity = 0;
+    SQ.forEach((q, i) => {
+      if (drop) { q.x = q.tx; q.y = q.ty - 120 - Math.random() * 160; q.a = 0; }
+      q.fx = q.x; q.fy = q.y; q.fa = q.a; q.delay = q.mi * (drop ? 9 : 4) + Math.random() * (drop ? 260 : 120);
+    });
+    animating = true; const dur = drop ? 700 : 650, ease = drop ? d3.easeBounceOut : d3.easeCubicInOut;
+    const t = d3.timer(el => {
+      let done = true;
+      SQ.forEach(q => { const k = Math.max(0, Math.min(1, (el - q.delay) / dur)); if (k < 1) done = false; const e = ease(k);
+        q.x = q.fx + (q.tx - q.fx) * e; q.y = q.fy + (q.ty - q.fy) * e; q.a = q.fa + (q.ta - q.fa) * Math.min(1, k * 1.6); });
+      if (done) { t.stop(); animating = false; pixNotes.style.opacity = 1; }
+      drawPix();
+    });
+  }
+  function settlePix() { targets(); SQ.forEach(q => { q.x = q.tx; q.y = q.ty; q.a = q.ta; }); placePixNotes(); drawPix(); drawDrivers(false); }
+  // the artists behind a lined-up genre: one strip per artist, on the same month columns as the chart
+  const drivers = document.getElementById('drivers');
+  let range = null;
+  const actGenre = new Map(); ORDER.forEach(g => genreArtists[g].forEach(([a, n]) => { if (!actGenre.has(a) || n > actGenre.get(a)[1]) actGenre.set(a, [g, n]); }));
+  const monTot = MON.map(m => d3.sum(ORDER, x => d3.sum([...ART[m.mi][x].values()])));
+  const rangeLabel = () => !range ? '' : range[0] === range[1] ? fmtM(MON[range[0]].m) : `${fmtM(MON[range[0]].m)} to ${fmtM(MON[range[1]].m)}`;
+  function drawDrivers(animate = true) {
+    hiArt = null;
+    if (!lineupG && !pairOn && !range) { drivers.innerHTML = '<p class="d-hint">Line up a genre, or drag across the chart, to see the acts behind it.</p>'; return; }
+    const [r0, r1] = range || [0, MON.length - 1], inR = mi => mi >= r0 && mi <= r1;
+    const gs = pairOn ? PAIR : lineupG ? [lineupG] : ORDER;
+    // slots per act inside the range (all genres when none is lined up; an act's slots in other genres don't count toward a lined-up one)
+    const tot = new Map();
+    for (let mi = r0; mi <= r1; mi++) gs.forEach(g => ART[mi][g].forEach((n, a) => tot.set(a, (tot.get(a) || 0) + n)));
+    const ranked = [...tot].sort((a, b) => b[1] - a[1]), gTot = d3.sum(ranked, x => x[1]), top = ranked.slice(0, PL.narrow ? 5 : 7);
+    const slotsIn = d3.sum(d3.range(r0, r1 + 1), mi => monTot[mi]);
+    const what = pairOn ? 'boy bands and rap-rock' : lineupG ? GNAME[lineupG].toLowerCase().replace('r&b', 'R&B') : 'TRL';
+    const ofWhat = pairOn ? 'of the two genres' : lineupG ? 'of the genre' : 'of all slots';
+    const shareOf = (a, mi) => d3.sum(gs, g => ART[mi][g].get(a) || 0) / monTot[mi];
+    const ymax = Math.max(.1, d3.max(top, ([a]) => d3.max(MON, m => shareOf(a, m.mi))) || .1);
+    const when = range ? `, ${rangeLabel()}` : '';
+    drivers.innerHTML = `<p class="d-head">Who drove ${what}${when}${range ? '<button class="reset" id="clrRange">clear range</button>' : ''}</p>
+      <p class="d-sub">${gTot ? `These ${top.length} acts filled ${Math.round(100 * d3.sum(top, x => x[1]) / gTot)}% of ${pairOn ? `the two genres' ${nf(gTot)} countdown slots` : lineupG ? `the genre's ${nf(gTot)} countdown slots` : `all ${nf(slotsIn)} countdown slots`}${range ? ' in this stretch' : ''}${lineupG && range ? ` (the genre had ${Math.round(100 * gTot / slotsIn)}% of all slots)` : ''}.` : `No ${what} videos in this stretch.`} A full bar means the act had a video in the top 10 on every show that month; acts rarely had two at once. ${TOUCH ? 'Tap' : 'Hover'} an act to find it in the chart.</p>`;
+    const clr = document.getElementById('clrRange'); if (clr) clr.onclick = () => { range = null; drawPix(); drawDrivers(); };
+    top.forEach(([a, n], i) => {
+      const row = document.createElement('div'); row.className = 'd-row' + (animate ? '' : ' still'); row.tabIndex = 0; row.style.animationDelay = i * 50 + 'ms';
+      const vids = V.filter(v => v.lead === a && gs.includes(v.genre) && (!range || v.runs.some(([e]) => inR(miOf.get(D.dates[e].slice(0, 7)))))), ones = vids.filter(v => v.peak === 1).length;
+      const col = COL[lineupG || actGenre.get(a)[0]];
+      const bars = MON.map(m => { const h = shareOf(a, m.mi) / ymax * 24; return h > 0 ? `<rect x="${PL.lab + m.mi * PL.colW}" y="${26 - h}" width="${Math.max(1, PL.colW - .6)}" height="${h}" fill="${col}" opacity="${inR(m.mi) ? 1 : .22}"/>` : ''; }).join('');
+      row.innerHTML = `<div class="d-name">${esc(a)}<span>${nf(n)} days · ${Math.round(100 * n / gTot)}% ${ofWhat}${ones ? ` · ${ones} #1 video${ones > 1 ? 's' : ''}` : ''}</span></div>
+        <svg viewBox="0 0 ${PL.W} 26" preserveAspectRatio="none"><line x1="${PL.lab}" x2="${PL.W}" y1="25.5" y2="25.5" stroke="${COL.line}"/>${bars}</svg>`;
+      const on = () => { hiArt = a; drawPix(); }, off = () => { if (hiArt === a) { hiArt = null; drawPix(); } };
+      row.addEventListener('pointerenter', on); row.addEventListener('pointerleave', off); row.addEventListener('focus', on); row.addEventListener('blur', off);
+      drivers.appendChild(row);
+    });
+  }
+  const lineup = document.getElementById('lineup');
+  [[null, 'All genres'], ...GENRES.filter(([g]) => g !== 'other')].forEach(([g, name]) => {
+    const b = document.createElement('button'); b.setAttribute('aria-pressed', g === null);
+    b.innerHTML = g ? `<i aria-hidden="true" style="--c:var(--${g})">♥</i>${signText(name)}` : name;
+    b.onclick = () => { lineupG = g; setPair(false); lineup.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b)); animatePix(false); drawDrivers(); };
+    lineup.appendChild(b);
+  });
+  const pairNote = document.getElementById('pairNote');
+  function setPair(on) {
+    pairOn = on; pairNote.setAttribute('aria-pressed', on);
+    pairNote.innerHTML = on ? '<span class="arr">↩</span>Back to all genres' : '<span class="arr">↑</span>Check out how similar the trends for boy bands &amp; girl groups and rap-rock were';
+  }
+  setPair(false);
+  pairNote.onclick = () => {
+    const on = !pairOn; lineupG = null; setPair(on);
+    lineup.querySelectorAll('button').forEach((x, i) => x.setAttribute('aria-pressed', !on && i === 0));
+    animatePix(false); drawDrivers();
+  };
+  let drag = null, dRaf = 0;
+  const miAt = evt => { const r = pixC.getBoundingClientRect(); return Math.max(0, Math.min(MON.length - 1, Math.floor((evt.clientX - r.left - PL.lab) / PL.colW))); };
+  pixC.addEventListener('pointerdown', evt => { drag = { a: miAt(evt), x: evt.clientX, prev: range, moved: false }; pixC.setPointerCapture(evt.pointerId); });
+  pixC.addEventListener('pointerup', () => {
+    if (!drag) return;
+    if (!drag.moved) range = drag.prev && drag.prev[0] === drag.a && drag.prev[1] === drag.a ? null : [drag.a, drag.a];
+    drag = null; drawPix(); drawDrivers(false);
+  });
+  pixC.addEventListener('pointermove', evt => {
+    if (drag) {
+      if (Math.abs(evt.clientX - drag.x) > 4) drag.moved = true;
+      if (drag.moved) { const b = miAt(evt); range = [Math.min(drag.a, b), Math.max(drag.a, b)]; hideTip(); drawPix();
+        cancelAnimationFrame(dRaf); dRaf = requestAnimationFrame(() => drawDrivers(false)); return; }
+    }
+    const r = pixC.getBoundingClientRect(), mi = Math.floor((evt.clientX - r.left - PL.lab) / PL.colW);
+    if (mi < 0 || mi >= MON.length) { pixHover = null; hideTip(); drawPix(); return; }
+    if (mi !== pixHover) { pixHover = mi; if (!animating) drawPix(); }
+    const m = MON[mi], top = monthTop.get(d3.timeFormat('%Y-%m')(m.m));
+    showTip(`<div class="t-date">${fmtM(m.m)}</div>` + orderFor(lineupG).filter(g => m.n[g] > 0).sort((a, b) => lineupG ? (b === lineupG) - (a === lineupG) || m.n[b] - m.n[a] : m.n[b] - m.n[a]).map(g => `<div class="t-g" style="--c:${COL[g]};display:flex;justify-content:space-between;gap:14px;margin:3px 0;${lineupG && g !== lineupG ? 'opacity:.55' : ''}"><span style="display:inline-flex;gap:6px;align-items:center"><i></i>${GNAME[g]}</span><span>${m.n[g]}%</span></div>`).join('') +
+      (lineupG && ART[mi][lineupG].size ? `<div class="t-stats" style="margin-top:8px">${[...ART[mi][lineupG]].sort((a, b) => b[1] - a[1]).slice(0, 3).map(([a, c]) => `${esc(a)} ${Math.round(100 * c / d3.sum(ORDER, x => d3.sum([...ART[mi][x].values()])))}%`).join(' · ')}</div>` : '') +
+      (top != null ? `<div class="t-stats" style="margin-top:8px">Most days at #1: ${esc(V[top].song)}, ${esc(V[top].lead)}</div>` : ''), evt.clientX, evt.clientY);
+  });
+  pixC.addEventListener('pointerleave', () => { pixHover = null; hideTip(); if (!animating) drawPix(); });
+
+  // ---------- the stars: career lanes ----------
+  const STAR = [...d3.group(V, v => v.lead)].map(([a, vs]) => {
+    const g = d3.greatest(d3.rollups(vs, x => d3.sum(x, v => v.days), v => v.genre), x => x[1])[0];
+    return { a, vs, g, days: d3.sum(vs, v => v.days), d1: d3.sum(vs, v => v.d1), ones: vs.filter(v => v.peak === 1).length, n: vs.length };
+  });
+  const METRICS = [
+    ['days', 'Days on the countdown', s => `${nf(s.days)} days`],
+    ['d1', 'Days at #1', s => `${s.d1} at #1`],
+    ['ones', '#1 videos', s => `${s.ones} #1${s.ones === 1 ? '' : 's'}`],
+    ['n', 'Videos on the countdown', s => `${s.n} video${s.n === 1 ? '' : 's'}`],
+  ];
+  const leader = k => d3.greatest(STAR, s => s[k]);
+  {
+    const L = Object.fromEntries(METRICS.map(([k]) => [k, leader(k)]));
+    const b = d3.sort(STAR, s => -s.d1)[1];
+    document.getElementById('starsText').innerHTML = `<p>${esc(L.days.a)} spent more days on the countdown than any other act: <b>${nf(L.days.days)}</b>, across ${L.days.n} videos. But ${esc(L.d1.a)} owned the top spot, with <b>${L.d1.d1}</b> days at #1 to ${esc(b.a)}'s ${b.d1}. Switch the ranking to see who wins on each measure.</p>`;
+  }
+  let starKey = 'days';
+  const starBox = document.getElementById('stars'), starAxis = document.getElementById('starAxis'), starRows = new Map();
+  const sortBox = document.getElementById('starSort');
+  METRICS.forEach(([k, name]) => {
+    const b = document.createElement('button'); b.textContent = name; b.setAttribute('aria-pressed', k === starKey);
+    b.onclick = () => { starKey = k; sortBox.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b)); drawStars(true); };
+    sortBox.appendChild(b);
+  });
+  // a video's run, split where it left the countdown for more than ~5 weeks
+  const segsOf = v => { const out = []; let cur = null;
+    v.runs.forEach(([e, k]) => { if (cur && e - cur.e1 <= 25) { cur.e1 = e; } else { cur = { v, e0: e, e1: e }; out.push(cur); } if (k === 1) (cur.ones = cur.ones || []).push(e); });
+    return out; };
+  function drawStars(animate) {
+    const N = PL.narrow ? 12 : 16;
+    const list = d3.sort(STAR, s => -s[starKey], s => -s.days).slice(0, N);
+    const laneW = PL.narrow ? starBox.clientWidth : starBox.clientWidth - 236;
+    const RK = 30; // room at the right for the rank labels
+    const x = d3.scaleTime([d3.timeMonth.floor(dates[0]), d3.timeMonth.ceil(dates[nEp - 1])], [0, laneW - RK]);
+    starAxis.innerHTML = years.map(y => `<span style="left:${x(new Date(y, 0, 1)) < 0 ? 0 : x(new Date(y, 0, 1))}px">${PL.narrow ? "'" + String(y).slice(2) : y}</span>`).filter((_, i) => !PL.narrow || i % 2 === 0).join('');
+    // FLIP: remember where rows were before re-ranking
+    const before = new Map([...starRows].map(([a, el]) => [a, el.getBoundingClientRect().top]));
+    starBox.innerHTML = '';
+    const seen = new Set();
+    list.forEach((st, i) => {
+      seen.add(st.a);
+      let row = starRows.get(st.a);
+      if (!row) { row = document.createElement('div'); row.className = 'st-row'; starRows.set(st.a, row); }
+      const stats = METRICS.map(([k, , f]) => k === starKey ? `<b>${f(st)}</b>` : f(st)).join(' · ');
+      // each video's climb and fall through the countdown, on a #1-to-#10 axis
+      const h = PL.narrow ? 66 : 80, y = d3.scaleLinear([1, 10], [16, h - 4]);
+      const line = d3.line().x(r => x(dates[r[0]])).y(r => y(r[1])).curve(d3.curveMonotoneX);
+      const segs = st.vs.flatMap(segsOf), runOf = sg => sg.v.runs.filter(([e]) => e >= sg.e0 && e <= sg.e1);
+      const dOf = sg => { const r = runOf(sg); return r.length > 1 ? line(r) : `M${x(dates[r[0][0]]) - 1},${y(r[0][1])}h2`; };
+      const grid = [1, 10].map(k => `<line x1="0" x2="${laneW - RK + 4}" y1="${y(k)}" y2="${y(k)}" stroke="${k === 1 ? COL['ink-3'] : COL.line}" stroke-dasharray="${k === 1 ? '2 3' : ''}"/>` +
+        `<text x="${laneW - RK + 8}" y="${y(k)}" dy=".35em" class="st-tick">#${k}</text>`).join('');
+      // songs take turns between the full genre color and a pale tint, in release order, so neighbors separate;
+      // the act's biggest hits draw on top, thicker, with their titles over their peaks
+      const byDays = d3.sort(st.vs, v => -v.days), big = new Set(byDays.slice(0, 2).map(v => v.i));
+      const tone = new Map(d3.sort(st.vs, v => v.runs[0][0]).map((v, j) => [v.i, j % 2 ? d3.interpolateRgb(COL[v.genre], COL.paper)(.5) : COL[v.genre]]));
+      const ord = d3.sort(segs, sg => big.has(sg.v.i), sg => sg.v.days);
+      const bars = grid + ord.map(sg => { const b = big.has(sg.v.i), c = b ? COL[sg.v.genre] : tone.get(sg.v.i);
+        return `<g class="seg" data-v="${sg.v.i}"><path d="${dOf(sg)}" fill="none" stroke="${COL.paper}" stroke-width="${b ? 5 : 3.5}" stroke-linecap="round" stroke-linejoin="round"/>` +
+        `<path d="${dOf(sg)}" fill="none" stroke="${c}" stroke-width="${b ? 2.6 : 1.4}" stroke-linecap="round" stroke-linejoin="round"/>` +
+        `<path d="${dOf(sg)}" fill="none" stroke="transparent" stroke-width="10" stroke-linecap="round"/></g>`; }).join('');
+      // titles for the biggest hits, at the first day of their peak, skipped if they'd run into each other
+      let labR = -Infinity;
+      const labs = d3.sort(byDays.slice(0, 2), v => v.runs[0][0]).map(v => {
+        const lx = Math.max(0, x(dates[v.runs.find(r => r[1] === v.peak)[0]]) - 4), t = v.song.length > 26 ? v.song.slice(0, 25) + '…' : v.song, w = t.length * 6.2;
+        if (lx < labR + 10 || lx + w > laneW - RK) return ''; labR = lx + w;
+        return `<text x="${lx}" y="8" class="st-song">${esc(t)}</text>`; }).join('');
+      row.innerHTML = `<div class="st-lab" data-a="${esc(st.a)}"><span class="st-rk">${i + 1}</span><span class="st-name" style="--c:${COL[st.g]}"><i></i>${esc(st.a)}</span><span class="st-stats">${stats}</span></div>
+        <svg viewBox="0 0 ${laneW} ${h}" width="${laneW}" height="${h}">${bars}${labs}</svg>`;
+      row.classList.toggle('enter', animate && !before.has(st.a));
+      starBox.appendChild(row);
+    });
+    [...starRows.keys()].forEach(a => { if (!seen.has(a)) starRows.delete(a); });
+    if (animate) list.forEach(st => {
+      const row = starRows.get(st.a), b0 = before.get(st.a); if (b0 == null) return;
+      const dy = b0 - row.getBoundingClientRect().top; if (!dy) return;
+      row.animate([{ transform: `translateY(${dy}px)` }, { transform: 'none' }], { duration: 550, easing: 'cubic-bezier(.2,.7,.2,1)' });
+    });
+  }
+  starBox.addEventListener('pointermove', evt => {
+    const r = evt.target.closest('.seg'), row = evt.target.closest('.st-row');
+    starBox.querySelectorAll('.st-row.hi').forEach(x => x !== row && x.classList.remove('hi'));
+    if (row) { row.classList.toggle('hi', !!r); row.querySelectorAll('.seg').forEach(g => g.classList.toggle('on', g === r)); }
+    if (!r) { hideTip(); return; }
+    showTip(tipHtml(V[+r.dataset.v]), evt.clientX, evt.clientY);
+  });
+  starBox.addEventListener('pointerleave', () => { hideTip(); starBox.querySelectorAll('.st-row.hi').forEach(x => x.classList.remove('hi')); });
+  starBox.addEventListener('click', evt => {
+    const r = evt.target.closest('.seg'), lab = evt.target.closest('.st-lab');
+    if (r) { S.pin = +r.dataset.v; S.act = null; q.value = ''; }
+    else if (lab) { S.pin = null; S.act = lab.dataset.a; q.value = lab.dataset.a; }
+    else return;
+    hideTip(); drawWall(); updateStatus(); document.getElementById('wallbox').scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
+
+  // ---------- the final countdown ----------
+  // Every day on the countdown earns points, 10 for #1 down to 1 for #10. That's days on the countdown times
+  // (11 - average rank), so a video has to stay a long time and stay high. Only the main run counts: a few videos
+  // pop back up for a day months later on throwback shows the cleaning missed, so a run ends at its first gap of 45+ days.
+  const hall = document.getElementById('hall');
+  const mainRun = v => { const t = v.runs.map(r => +dates[r[0]]), n = t.findIndex((x, j) => j && x - t[j - 1] > 45 * 864e5); return n < 0 ? v.runs : v.runs.slice(0, n); };
+  const SCORED = V.map(v => { const run = mainRun(v), pts = d3.sum(run, r => 11 - r[1]); return { v, run, pts, days: run.length, avg: 11 - pts / run.length }; });
+  const topTen = keep => {
+    const top = d3.sort(SCORED.filter(keep), o => -o.pts, o => o.avg).slice(0, 10);
+    top.forEach((o, i) => { o.rank = i && top[i - 1].pts === o.pts ? top[i - 1].rank : i + 1; });
+    return top.map(o => ({ ...o, tie: top.filter(x => x.rank === o.rank).length > 1 }));
+  };
+  const BOYS = ['Backstreet Boys', '*NSYNC'];
+  const CD = topTen(() => true), CD_REST = topTen(o => !BOYS.includes(o.v.lead));
+  let cdList = CD;
+  // the toggle: the real top 10, or the top 10 once the two boy bands are taken out
+  const cdPick = document.getElementById('cdPick'), cdNote = document.getElementById('cdNote');
+  [[CD, 'Everybody'], [CD_REST, 'Everyone but BSB & *NSYNC']].forEach(([list, name]) => {
+    const b = document.createElement('button'); b.innerHTML = signText(name); b.setAttribute('aria-pressed', list === cdList);
+    b.onclick = () => { cdList = list; cdPick.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b)); drawHall(true); };
+    cdPick.appendChild(b);
+  });
+  function noteAll() {
+    const byAct = d3.sort(d3.rollups(CD, os => os.length, o => o.v.lead), d => -d[1]);
+    return byAct.length === 2 ? `${esc(byAct[0][0])} ${byAct[0][1]}, ${esc(byAct[1][0])} ${byAct[1][1]}, everyone else 0. Flip the sign to see who comes next.` : '';
+  }
+  function noteRest() {
+    const byAct = d3.sort(d3.rollups(CD_REST, os => os.length, o => o.v.lead), d => -d[1]), [a, n] = byAct[0];
+    const cut = CD_REST[0].pts, ahead = SCORED.filter(o => o.pts > cut && BOYS.includes(o.v.lead)).length;
+    const lead3 = CD_REST.slice(0, n).every(o => o.v.lead === a);
+    return `Take out the two boy bands and ${esc(a)} ${lead3 ? `takes the top ${['', 'spot', 'two spots', 'three spots', 'four spots'][n] || n + ' spots'}` : `has ${n} of the ten`}. ${esc(CD_REST[0].v.song)}, the best of the rest at ${nf(cut)} points, would rank behind ${ahead} Backstreet Boys and *NSYNC videos.`;
+  }
+  document.getElementById('cdText').innerHTML = `<p>There’s no more fitting way to end this project than with a countdown from 10 to 1, declaring the top 10 in TRL’s esteemed history. I scored this by giving each video 10 points for every day it spent at #1, 9 points for a day at #2, so on and so forth down to 1 point for a day at #10. This system rewards videos that stuck around on the countdown, and stayed towards the top of it.</p>
+    <p>What we find, however, is the slightly unsatisfying truth that all 10 of TRL’s all timers were either Backstreet Boys (7) or *NSYNC videos (3). Guess the boy band wars had a winner after all. In order to take a closer look under the hood, use the buttons below to filter those boy bands out of the dataset.</p>`;
+  // Ten rows that stay put. Switching lists morphs each one into its new video: the run's shape reshapes and recolors,
+  // the text swaps with a quick fade, top to bottom like the countdown being re-read.
+  const cdSeen = new Set();   // rows already counted in stay put when the page redraws
+  const CDX = { maxD: 80, W: 600, H: 100 };
+  const cdX = d3.scaleLinear([0, CDX.maxD], [0, CDX.W]), cdY = d3.scaleLinear([0, 10], [CDX.H, 0]);
+  // one step per day, 11 - rank tall, so the shape's area is the score. Always 2 * maxD points (the days past the end of
+  // the run pile up on its last point), so any two runs can be morphed point for point.
+  const runPts = o => {
+    const out = new Float64Array(CDX.maxD * 4), last = 11 - o.run.at(-1)[1];
+    for (let j = 0; j < CDX.maxD; j++) {
+      const h = j < o.days ? 11 - o.run[j][1] : last;
+      out.set([Math.min(j, o.days), h, Math.min(j + 1, o.days), h], j * 4);
+    }
+    return out;
+  };
+  const runPaths = a => {
+    let line = '';
+    for (let j = 0; j < a.length; j += 2) line += (j ? 'L' : 'M') + cdX(a[j]).toFixed(1) + ',' + cdY(a[j + 1]).toFixed(1);
+    return { line, area: line + `L${cdX(a[a.length - 2]).toFixed(1)},${CDX.H}L0,${CDX.H}Z` };
+  };
+  const rowText = o => {
+    const v = o.v;
+    return [`${o.tie ? '<small>T</small>' : ''}${o.rank}`,
+      `<div class="cd-sg">${esc(v.song)}</div><div class="cd-ar" style="--c:${COL[v.genre]}"><i></i>${esc(v.artist)}</div>
+       <div class="cd-st"><b>${nf(o.pts)} points</b> · ${o.days} days · avg rank ${o.avg.toFixed(2)}<br>${o.run.filter(r => r[1] === 1).length} days at #1 · ${fmtM(dates[o.run[0][0]])} – ${fmtM(dates[o.run.at(-1)[0]])}</div>`];
+  };
+  function setRow(li, o, delay) {
+    const R = li._r, from = li._o, P = runPts(o), [rk, info] = rowText(o), col = COL[o.v.genre];
+    li._o = o; li._tok = (li._tok || 0) + 1;
+    R.svg.setAttribute('aria-label', `${o.days} days, average rank ${o.avg.toFixed(2)}`);
+    const avgTo = { x2: cdX(o.days), y: cdY(11 - o.avg) };
+    if (delay == null || !from) {
+      const ps = runPaths(P); R.rk.innerHTML = rk; R.info.innerHTML = info; li._P = P;
+      d3.select(R.area).interrupt().attr('d', ps.area).attr('fill', col);
+      d3.select(R.line).interrupt().attr('d', ps.line).attr('stroke', col);
+      d3.select(R.avg).interrupt().attr('x2', avgTo.x2).attr('y1', avgTo.y).attr('y2', avgTo.y);
+      return;
+    }
+    // text: out, swap, in
+    const tok = li._tok, out = [{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'translateY(-6px)' }], inn = [{ opacity: 0, transform: 'translateY(8px)' }, { opacity: 1, transform: 'none' }];
+    [R.rk, R.info].forEach(el => el.animate(out, { duration: 170, delay, easing: 'ease-in', fill: 'forwards' }));
+    setTimeout(() => {
+      if (li._tok !== tok) return;
+      R.rk.innerHTML = rk; R.info.innerHTML = info;
+      [R.rk, R.info].forEach((el, k) => { el.getAnimations().forEach(x => x.cancel()); el.animate(inn, { duration: 320, delay: k * 50, easing: 'cubic-bezier(.2,.8,.3,1)', fill: 'backwards' }); });
+    }, delay + 170);
+    // shape: every point slides to its new spot while the color shifts
+    // start from wherever the shape is now, in case a morph is cut off by another click
+    const lerp = d3.interpolateNumberArray(li._P, P);
+    const t = d3.transition().duration(800).delay(delay + 60).ease(d3.easeCubicInOut);
+    d3.select(R.area).interrupt().transition(t).attr('fill', col).attrTween('d', () => u => { li._P = lerp(u); return runPaths(li._P).area; });
+    d3.select(R.line).interrupt().transition(t).attr('stroke', col).attrTween('d', () => u => runPaths(lerp(u)).line);
+    d3.select(R.avg).interrupt().transition(t).attr('x2', avgTo.x2).attr('y1', avgTo.y).attr('y2', avgTo.y);
+  }
+  function drawHall(animate = false) {
+    cdNote.innerHTML = `<p>${cdList === CD ? noteAll() : noteRest()}</p>`;
+    const list = [...cdList].reverse();
+    if (animate && hall.children.length === list.length) {
+      list.forEach((o, i) => setRow(hall.children[i], o, reduce ? null : i * 55));
+      return;
+    }
+    hall.innerHTML = '';
+    document.getElementById('cdAxis').innerHTML = `<div></div><div></div><div class="ax">${[0, 20, 40, 60, 80].map(d => d === CDX.maxD ? `<span style="right:0;border-left:0;border-right:1px solid var(--line);padding:0 4px 3px 0">${d} days</span>` : `<span style="left:${d / CDX.maxD * 100}%">${d}</span>`).join('')}</div>`;
+    const io = reduce ? null : new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.remove('wait'); cdSeen.add(e.target.dataset.slot); io.unobserve(e.target); } }), { threshold: .4 });
+    list.forEach((o, i) => {
+      const li = document.createElement('li');
+      li.className = 'cd-row' + (i === list.length - 1 ? ' top' : '') + (io && !cdSeen.has(String(i)) ? ' wait' : ''); li.tabIndex = 0; li.dataset.slot = i;
+      li.innerHTML = `<div class="cd-rk"></div><div></div>
+        <div class="cd-run"><svg viewBox="0 0 ${CDX.W} ${CDX.H}" preserveAspectRatio="none" role="img">
+          <line x1="0" x2="${CDX.W}" y1="${cdY(10)}" y2="${cdY(10)}" stroke="${COL.grid}" stroke-dasharray="2 3" vector-effect="non-scaling-stroke"/>
+          <g class="shape"><path opacity=".28"/><path fill="none" stroke-width="1.5" vector-effect="non-scaling-stroke"/>
+          <line x1="0" stroke="${COL.ink}" stroke-width="1.2" stroke-dasharray="4 3" vector-effect="non-scaling-stroke"/></g>
+          <line class="cd-guide" y1="0" y2="${CDX.H}" stroke="${COL.ink}" stroke-width="1" vector-effect="non-scaling-stroke"/>
+        </svg><i class="cd-dot"></i></div>`;
+      const [rk, info, run] = li.children, svg = run.firstElementChild, [area, line, avg] = svg.querySelector('.shape').children;
+      li._r = { rk, info, svg, area, line, avg };
+      setRow(li, o);
+      // hover (or touch) the run for that day's rank and date
+      const guide = svg.querySelector('.cd-guide'), dot = run.querySelector('.cd-dot');
+      const off = () => { run.classList.remove('hov'); hideTip(); };
+      const over = evt => {
+        const b = run.getBoundingClientRect(), o = li._o, j = Math.floor((evt.clientX - b.left) / b.width * CDX.maxD);
+        if (j < 0 || j >= o.days) return off();
+        const [e, k] = o.run[j], x = cdX(j + .5);
+        guide.setAttribute('x1', x); guide.setAttribute('x2', x);
+        dot.style.left = x / CDX.W * 100 + '%'; dot.style.top = cdY(11 - k) / CDX.H * 100 + '%'; dot.style.background = COL[o.v.genre];
+        run.classList.add('hov');
+        showTip(`<div class="t-date">${fmt(dates[e])} · #${k}</div><div class="t-song">${esc(o.v.song)}</div><div class="t-art">${esc(o.v.artist)}</div>` +
+          `<div class="t-stats">Day ${j + 1} of ${o.days}${k === 1 ? ' · at #1' : ''}</div>`, evt.clientX, evt.clientY);
+      };
+      run.addEventListener('pointermove', over); run.addEventListener('pointerdown', over); run.addEventListener('pointerleave', off);
+      const go = () => { S.pin = li._o.v.i; S.act = null; q.value = ''; drawWall(); updateStatus(); document.getElementById('wallbox').scrollIntoView({ behavior: 'smooth', block: 'center' }); };
+      li.onclick = go; li.onkeydown = e => { if (e.key === 'Enter') go(); };
+      hall.appendChild(li); if (io) io.observe(li);
+    });
+  }
+
+  // ---------- the opener: every countdown pressed onto a CD-R, which unspools into the wall ----------
+  // A CD is written from the center out, so 1998 sits by the hub and 2007 at the rim. Each turn of the spiral
+  // track is a run of shows; each show is 10 dots across the track, #1 on the inside.
+  const discC = document.getElementById('disc'), dctx = discC.getContext('2d');
+  const fly = document.getElementById('fly'), fctx = fly.getContext('2d');
+  const hint = document.getElementById('discHint');
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const GI = GENRES.map(g => g[0]), r0 = .385, r1 = .965;
+  // shows leave the disc over the first SPAN of the unspool and each takes FLIGHT to land; long, overlapping flights read as one ribbon
+  const SPAN = .55, FLIGHT = .45;
+  const cellSz = Math.sqrt(Math.PI * (r1 * r1 - r0 * r0) / (10 * nEp));       // square-ish dots, in units of the radius
+  const turns = (r1 - r0) / (10 * cellSz), trackW = (r1 - r0) / turns;
+  const sOf = e => (Math.sqrt(r0 * r0 + (r1 * r1 - r0 * r0) * e / nEp) - r0) / (r1 - r0);   // equal track length per show
+  const CE = [], CK = [], CR = [], CA = [], REL = [], byG = GI.map(() => []);
+  D.grid.forEach((row, e) => {
+    const s = sOf(e + .5), rc = r0 + (r1 - r0) * s, a = 2 * Math.PI * turns * s;
+    row.forEach((v, k) => {
+      if (v < 0) return;
+      const i = CE.length;
+      CE.push(e); CK.push(k); CR.push(rc - trackW / 2 + (k + .5) * trackW / 10); CA.push(a);
+      REL.push(SPAN * e / nEp + k * .0015);     // when it leaves the disc, as a share of the whole unspool
+      byG[GI.indexOf(V[v].genre)].push(i);
+    });
+  });
+  const yearStart = years.map(y => epYear.findIndex(x => x === y));
+  // once the shows have left, the blank disc gets what a kid in 2002 would have Sharpied on a burned mix: the biggest
+  // #1s from summer 2001 through 2002, one per act, in the order they hit
+  const MIX = (() => {
+    const seen = new Set(), out = [];
+    for (const v of d3.sort(V.filter(v => v.first >= '2001-06-01' && v.first <= '2002-12-31'), v => -v.d1, v => -v.days)) {
+      if (seen.has(v.lead)) continue;
+      seen.add(v.lead); out.push(v);
+      if (out.length === 12) break;
+    }
+    return d3.sort(out, v => v.first).map(v => `${v.song} – ${v.lead}`.toLowerCase());
+  })();
+  const DR = { size: 0, R: 0 };
+  let pS = 0, mode = 'scroll', forced = reduce, autoT0 = null, spinA = 0, omega = 0, lastT = null, flyDirty = false, settle = null, mixA = 0, mixRest = 0;
+  function finishIntro() { if (!forced) { forced = true; tick(performance.now()); } }
+  function layoutDisc() {
+    const size = discC.parentElement.clientWidth, dpr = devicePixelRatio || 1;
+    DR.size = size; DR.R = size / 2 - 4;
+    discC.width = size * dpr; discC.height = size * dpr; dctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    // the full-screen flight layer is mostly tiny moving squares, so phones (dpr 2-3) draw it at 1.5x to keep the frame rate up
+    const fd = Math.min(dpr, 1.5);
+    fly.width = innerWidth * fd; fly.height = innerHeight * fd; fly.style.width = innerWidth + 'px'; fly.style.height = innerHeight + 'px';
+    fctx.setTransform(fd, 0, 0, fd, 0, 0); flyDirty = true;
+  }
+  // scrolling plays it: done when the wall's top is a fifth of the way down the screen
+  const scrollEnd = () => canvas.getBoundingClientRect().top + scrollY - innerHeight * .2;
+  function progress(now) {
+    if (forced) return 1;
+    if (mode === 'auto') return autoT0 == null ? 0 : Math.max(0, Math.min(1, (now - autoT0) / 6500));
+    return Math.max(0, Math.min(1, scrollY / scrollEnd()));
+  }
+  const isDark = () => d3.lab(COL.bg).l < 50;
+
+  function drawDisc(p, rot) {
+    const g = dctx, size = DR.size, R = DR.R, c = size / 2, dark = isDark(), TAU = Math.PI * 2;
+    g.clearRect(0, 0, size, size);
+    const ring = (a, b) => { g.beginPath(); g.arc(c, c, b, 0, TAU); g.arc(c, c, a, 0, TAU, true); };
+    // polycarbonate body
+    let grd = g.createRadialGradient(c, c, R * .1, c, c, R);
+    grd.addColorStop(0, dark ? '#4a4752' : '#f1eee8'); grd.addColorStop(1, dark ? '#2c2a32' : '#d6d1c7');
+    ring(R * .12, R); g.fillStyle = grd; g.fill();
+    // recordable dye, darker where it has been burned (here: where the shows have already left)
+    const dyeIn = R * (r0 - trackW / 2), dyeOut = R * (r1 + trackW / 2);
+    ring(dyeIn, dyeOut); g.fillStyle = dark ? 'rgba(110,190,170,.10)' : 'rgba(70,120,110,.10)'; g.fill();
+    const front = Math.min(nEp, p / SPAN * nEp);
+    if (front > 0) { ring(dyeIn, R * (r0 + (r1 - r0) * sOf(front) + trackW / 2)); g.fillStyle = dark ? 'rgba(0,0,0,.28)' : 'rgba(60,40,80,.16)'; g.fill(); }
+    // the shows still on the disc
+    const cs = Math.max(1, cellSz * R * .95), h = cs / 2;
+    byG.forEach((ids, gi) => {
+      g.fillStyle = COL[GI[gi]];
+      for (const i of ids) {
+        if (p > REL[i]) continue;
+        const a = CA[i] + rot, r = CR[i] * R;
+        g.fillRect(c + r * Math.cos(a) - h, c + r * Math.sin(a) - h, cs, cs);
+      }
+    });
+    // the mix tracklist, written on the empty data side, upright when the disc comes to rest
+    if (mixA > .01) writeMix(g, c, R, rot - mixRest, mixA);
+    // rainbow sheen: a reflection, so it stays put while the disc turns
+    if (g.createConicGradient) {
+      const sh = g.createConicGradient(-.9, c, c);
+      ['#ff5f8f', '#ffd36a', '#7cf0b8', '#6ac8ff', '#b48cff', '#ff5f8f', '#ffd36a', '#7cf0b8', '#6ac8ff', '#b48cff', '#ff5f8f']
+        .forEach((col, j, arr) => sh.addColorStop(j / (arr.length - 1), col));
+      g.save(); g.globalCompositeOperation = dark ? 'screen' : 'soft-light'; g.globalAlpha = dark ? .16 : .55;
+      ring(R * .36, R); g.fillStyle = sh; g.fill(); g.restore();
+    }
+    // a glint
+    grd = g.createLinearGradient(c - R, c - R, c + R, c + R);
+    grd.addColorStop(.3, 'rgba(255,255,255,0)'); grd.addColorStop(.42, `rgba(255,255,255,${dark ? .10 : .35})`); grd.addColorStop(.5, 'rgba(255,255,255,0)');
+    ring(R * .36, R); g.fillStyle = grd; g.fill();
+    // hub: mirror band, clear plastic, stacking ring, hole
+    ring(R * .335, R * .37); g.fillStyle = dark ? 'rgba(255,255,255,.10)' : 'rgba(255,255,255,.55)'; g.fill();
+    ring(R * .12, R * .335); g.fillStyle = dark ? 'rgba(255,255,255,.05)' : 'rgba(255,255,255,.35)'; g.fill();
+    g.lineWidth = 1; g.strokeStyle = dark ? 'rgba(255,255,255,.14)' : 'rgba(0,0,0,.10)';
+    [R * .2, R * .12, R].forEach(r => { g.beginPath(); g.arc(c, c, r, 0, TAU); g.stroke(); });
+    // Sharpie on the hub, turning with the disc
+    const txt = "TRL  ·  '98 – '07  ·  every countdown  ·  ", fs = Math.max(11, R * .085), rr = R * .245;
+    g.font = `400 ${fs}px KKHand, 'Comic Sans MS', cursive`; g.fillStyle = g.strokeStyle = COL.ink; g.textAlign = 'center';
+    // KKHand has one weight, so a stroke in the same ink thickens it like a fat Sharpie
+    g.lineWidth = Math.max(.8, fs * .07); g.lineJoin = 'round'; g.textBaseline = 'middle';
+    const ws = [...txt].map(ch => g.measureText(ch).width), tot = d3.sum(ws), k = TAU * rr / tot;
+    let ang = rot - Math.PI / 2;
+    [...txt].forEach((ch, j) => {
+      const da = ws[j] * k / rr; ang += da / 2;
+      g.save(); g.translate(c + rr * Math.cos(ang), c + rr * Math.sin(ang)); g.rotate(ang + Math.PI / 2); g.strokeText(ch, 0, 0); g.fillText(ch, 0, 0); g.restore();
+      ang += da / 2;
+    });
+  }
+
+  function writeMix(g, c, R, rot, alpha) {
+    const fs = Math.max(10, R * .074), lh = fs * 1.12, edge = R * .93, hole = R * .4;
+    g.save(); g.globalAlpha = alpha; g.translate(c, c); g.rotate(rot - .05);
+    g.fillStyle = g.strokeStyle = COL.ink; g.textBaseline = 'alphabetic'; g.lineJoin = 'round'; g.textAlign = 'center';
+    // one line of Sharpie: squeezed to fit the chord at its height, a little crooked like it was written on a knee
+    const line = (t, y, size, j) => {
+      const half = Math.sqrt(Math.max(0, edge * edge - (y - size * .35) ** 2, 0)), half2 = Math.sqrt(Math.max(0, edge * edge - y * y));
+      const avail = 2 * Math.min(half, half2) - size * .6;
+      g.font = `400 ${size}px KKHand, 'Comic Sans MS', cursive`; g.lineWidth = Math.max(.6, size * .06);
+      const w = g.measureText(t).width, k = Math.min(1, avail / w);
+      g.save(); g.translate(Math.sin(j * 2.3) * size * .25, y); g.rotate(Math.sin(j * 1.7) * .018); g.scale(k, 1);
+      g.strokeText(t, 0, 0); g.fillText(t, 0, 0); g.restore();
+      return w * k;
+    };
+    const tracks = MIX.map((t, i) => `${i + 1}. ${t}`), top = Math.ceil(tracks.length / 2) - 1;
+    // title above the hole, then tracks fill down to it and carry on below it
+    const ty = -edge + fs * 1.55, tw = line("~*mix '02*~", ty, fs * 1.35, 0);
+    g.lineWidth = Math.max(.8, fs * .07); g.beginPath();
+    g.moveTo(-tw / 2, ty + fs * .28); g.quadraticCurveTo(0, ty + fs * .5, tw / 2, ty + fs * .2); g.stroke();
+    const y0 = ty + fs * 1.45, gapT = (-hole - y0) / Math.max(1, top);
+    tracks.slice(0, top).forEach((t, i) => line(t, y0 + i * Math.min(lh, gapT), fs, i + 1));
+    const rest = tracks.slice(top), y1 = hole + fs * .95, gapB = (edge - fs * 1.4 - y1) / Math.max(1, rest.length - 1);
+    rest.forEach((t, i) => line(t, y1 + i * Math.min(lh, gapB), fs, i + top + 1));
+    g.restore();
+  }
+
+  // the shows in flight, and the ones that have landed, on a layer over the whole screen until the wall takes over
+  function drawFly(p, rot) {
+    fctx.clearRect(0, 0, innerWidth, innerHeight);
+    if (p <= 0 || p >= 1) return;
+    const wr = canvas.getBoundingClientRect(), dr = discC.getBoundingClientRect();
+    const cx = dr.left + DR.size / 2, cy = dr.top + DR.size / 2, R = DR.R;
+    const cs = Math.max(1, cellSz * R * .95);
+    const w = Math.max(1, L.slot - (L.slot > 3 ? 1 : 0)), h = Math.max(1, L.cell - (L.cell > 3 ? 1 : 0));
+    const ease = d3.easeSinInOut, H = innerHeight;
+    // the wall's year bands get laid down behind the landing shows, so it builds from a blank page
+    const front = (p - FLIGHT * .97) / SPAN * nEp, ox = wr.left, oy = wr.top, small = L.W < 560;
+    if (front > 0) {
+      fctx.textBaseline = 'middle';
+      fctx.globalAlpha = Math.min(1, front / 25);
+      fctx.font = '500 10px "IBM Plex Mono", monospace'; fctx.fillStyle = COL['ink-3']; fctx.textAlign = 'center';
+      ['J','F','M','A','M','J','J','A','S','O','N','D'].forEach((m, mi) => fctx.fillText(m, ox + L.lab + slotOf(new Date(2001, mi, 15)) * L.slot, oy + L.top - 10));
+      years.forEach((y, yi) => {
+        const e0 = yearStart[yi]; if (front <= e0) return;
+        const y0 = oy + L.top + yi * (L.bandH + L.gap), done = yi + 1 < years.length && front >= yearStart[yi + 1];
+        const x1 = done ? ox + L.W : Math.min(ox + L.W, ox + ex(Math.min(nEp - 1, Math.floor(front))) + L.slot);
+        fctx.globalAlpha = Math.min(1, (front - e0) / 15);
+        fctx.fillStyle = COL.grid; fctx.fillRect(ox + L.lab, y0 - 1, x1 - ox - L.lab, L.bandH + 2);
+        fctx.fillStyle = COL.ink; fctx.textAlign = 'left'; fctx.font = `600 ${small ? 11 : 13}px "IBM Plex Mono", monospace`;
+        fctx.fillText(small ? "'" + String(y).slice(2) : y, ox, y0 + L.bandH / 2);
+      });
+      fctx.globalAlpha = 1;
+    }
+    byG.forEach((ids, gi) => {
+      fctx.fillStyle = COL[GI[gi]];
+      for (const i of ids) {
+        if (p <= REL[i]) continue;
+        const u = ease(Math.min(1, (p - REL[i]) / FLIGHT));
+        const tx = wr.left + ex(CE[i]), ty = wr.top + ey(CE[i], CK[i] + 1);
+        let x, y;
+        if (u >= 1) { x = tx; y = ty; }
+        else {
+          // thrown off along the direction the disc is turning, then pulled down to its square
+          const a = CA[i] + rot, r = CR[i] * R, sx = cx + r * Math.cos(a) - cs / 2, sy = cy + r * Math.sin(a) - cs / 2;
+          const qx = sx - Math.sin(a) * R * .9, qy = sy + Math.cos(a) * R * .9, m = 1 - u;
+          x = m * m * sx + 2 * u * m * qx + u * u * tx; y = m * m * sy + 2 * u * m * qy + u * u * ty;
+        }
+        if (y < -12 || y > H + 12) continue;
+        fctx.fillRect(x, y, cs + (w - cs) * u, cs + (h - cs) * u);
+      }
+    });
+  }
+
+  function tick(now) {
+    const dt = lastT == null ? 0 : Math.min(.05, (now - lastT) / 1000); lastT = now;
+    // the unspool eases after the scroll instead of jumping with each wheel step, and never runs faster than ~3s end to end
+    const goal = progress(now);
+    if (forced || !dt) pS = goal;
+    else { const d = (goal - pS) * (1 - Math.exp(-dt / .35)), cap = dt / 2.6; pS += Math.max(-cap, Math.min(cap, d)); if (Math.abs(goal - pS) < .004) pS = goal; }
+    const p = pS;
+    // it only plays once: after the first full unspool the wall stays and the disc keeps its tracklist, even scrolling back up
+    if (p >= 1) forced = true;
+    // spins up on load and keeps turning while it plays. Once it's empty it coasts to a stop over 3s, slowing evenly
+    // from its current speed, and the tracklist is written so it reads upright wherever the disc comes to rest.
+    const PR = Math.PI * 5, COAST = 3;
+    if (!reduce && dt) {
+      if (p >= 1) {
+        if (!settle) {
+          const w = Math.max(.4, omega);
+          settle = { from: spinA, w, t: 0 };
+          mixRest = spinA + w * COAST / 2 + PR;
+        }
+        settle.t += dt; const u = Math.min(1, settle.t / COAST);
+        spinA = settle.from + settle.w * COAST / 2 * (1 - (1 - u) * (1 - u)); omega = settle.w * (1 - u);
+      } else { settle = null; omega += (1.5 - omega) * Math.min(1, dt * 1.8); spinA += omega * dt; }
+      // the writing comes up as it slows, and goes away as soon as the shows start coming back
+      mixA = settle ? Math.min(1, settle.t / COAST * 1.4) : Math.max(0, mixA - dt * 3);
+    }
+    const rot = spinA + p * PR;   // scrolling also turns it
+    const dr = discC.getBoundingClientRect();
+    if (dr.bottom > 0 && dr.top < innerHeight) drawDisc(reduce ? 0 : p, rot);
+    if ((p > 0 && p < 1) || flyDirty) { drawFly(p, rot); flyDirty = p > 0 && p < 1; }
+    const landed = p >= 1;
+    if (landed !== showCells) { showCells = landed; drawWall(); }
+    hint.style.opacity = mode === 'scroll' && p < .02 && !forced ? 1 : 0;
+    parallax();
+  }
+  function loop(now) { tick(now); requestAnimationFrame(loop); }
+  const wallBar = document.getElementById('wallBar');
+  const topBar = document.querySelector('.top'), setTopH = () => document.documentElement.style.setProperty('--topH', topBar.offsetHeight + 'px');
+  setTopH(); addEventListener('resize', setTopH);
+  const pinBar = () => { const r = wallBar.getBoundingClientRect(); wallBar.classList.toggle('stuck', r.top <= topBar.offsetHeight + .5 && canvas.getBoundingClientRect().bottom > r.bottom + 40); };
+  addEventListener('scroll', pinBar, { passive: true });
+  // the sign-off signs itself the first time it comes into view: each letter's pen strokes (the glyph skeleton, in em
+  // units with y up from the baseline) are traced with a dash animation, then the letter settles into the real KKHand
+  // glyph; two quick strokes underline it. Same code as /resume/hello/. Reduced motion, or no stroke data, shows it signed.
+  {
+    const sig = document.querySelector('.so-sig'), still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const SPEED = .2, MIN_STROKE = 90, PEN_LIFT = 110, LETTER_GAP = 140, WORD_GAP = 260, SETTLE = 260;
+    const ns = 'http://www.w3.org/2000/svg';
+    const write = S => {
+      const base = sig.querySelector('i').offsetTop, size = parseFloat(getComputedStyle(sig).fontSize), svg = document.createElementNS(ns, 'svg');
+      svg.setAttribute('width', sig.offsetWidth); svg.setAttribute('height', sig.offsetHeight); sig.appendChild(svg);
+      let t = 0;
+      [...sig.querySelectorAll('.bl')].forEach((span, k) => {
+        const paths = [], g = document.createElementNS(ns, 'g');
+        if (span.textContent === ' ') { t += WORD_GAP; span.classList.add('in'); return; }
+        g.setAttribute('transform', `translate(${span.offsetLeft} ${base}) scale(${size} ${-size})`);
+        g.setAttribute('stroke-width', S.width + 3.6 / size); svg.appendChild(g);
+        if (k) t += LETTER_GAP;
+        (S.glyphs[span.textContent] || []).forEach((pts, j) => {
+          const p = document.createElementNS(ns, 'path');
+          p.setAttribute('d', pts.reduce((a, v, i) => a + (i % 2 ? `,${v}` : `${i ? ' L' : 'M'}${v}`), '')); g.appendChild(p);
+          const len = p.getTotalLength(), dur = Math.max(MIN_STROKE, len * size / SPEED);
+          if (j) t += PEN_LIFT;
+          p.style.strokeDasharray = `${len} ${len}`; p.style.strokeDashoffset = len; p.style.opacity = 0;
+          p.animate([{ strokeDashoffset: len, opacity: 1 }, { strokeDashoffset: 0, opacity: 1 }], { duration: dur, delay: t, easing: 'ease-in-out', fill: 'forwards' });
+          t += dur; paths.push(p);
+        });
+        const done = t;
+        setTimeout(() => { span.classList.add('in'); setTimeout(() => paths.forEach(p => { p.getAnimations().forEach(a => a.cancel()); p.style.opacity = 0; }), SETTLE); }, done);
+      });
+      setTimeout(() => { sig.classList.remove('writing'); svg.remove(); }, t + SETTLE * 2);
+      return t;
+    };
+    const underline = delay => {
+      const svg = document.createElementNS(ns, 'svg');
+      svg.setAttribute('class', 'under'); sig.appendChild(svg);
+      // the strokes are drawn on a 200 x 26 grid and scaled to the signature here, so dashes measure in real pixels
+      // (measured from the unrotated box: the signature is tilted, so its screen rect runs taller than the strokes' box)
+      const em = parseFloat(getComputedStyle(sig).fontSize), w = sig.offsetWidth + .35 * em, h = .42 * em, sx = w / 200, sy = h / 26;
+      const fit = d => d.replace(/(-?[\d.]+)\s*,?\s*(-?[\d.]+)/g, (m, a, b) => `${(+a * sx).toFixed(1)},${(+b * sy).toFixed(1)}`);
+      svg.setAttribute('viewBox', `0 0 ${w} ${h}`); svg.setAttribute('preserveAspectRatio', 'none');
+      svg.innerHTML = ['M2 13 C 30 8, 70 15, 110 10 S 175 3, 199 1', 'M22 23 C 55 18, 110 24, 150 19 S 176 16, 184 13'].map(d => `<path d="${fit(d)}"/>`).join('');
+      [...svg.children].forEach(p => { const L = p.getTotalLength(); p.style.strokeDasharray = `${L} ${L}`; p.style.strokeDashoffset = still ? 0 : L; p._L = L; });
+      if (still) return;
+      [...svg.children].forEach((p, i) => p.animate([{ strokeDashoffset: p._L }, { strokeDashoffset: 0 }],
+        { duration: i ? 300 : 380, delay: delay + (i ? 520 : 0), easing: 'cubic-bezier(.5,0,.3,1)', fill: 'both' }));
+    };
+    if (!still && 'IntersectionObserver' in window) {
+      sig.innerHTML = [...sig.textContent].map(c => `<span class="bl">${c}</span>`).join('') + '<i style="display:inline-block;width:0;height:0;vertical-align:baseline"></i>';
+      sig.classList.add('writing');
+      const ready = Promise.all([fetch('/fonts/kkhand-strokes.json').then(r => r.json()), document.fonts.load('20px KKHand')]).then(([S]) => S);
+      // half visible: the signature is tilted, and a rotated box can measure a hair under fully visible forever
+      const io = new IntersectionObserver(es => { if (!es[0].isIntersecting) return; io.disconnect();
+        ready.then(S => setTimeout(() => { const t = write(S); setTimeout(() => underline(0), t + 200); }, 250)).catch(() => { sig.classList.remove('writing'); underline(0); }); }, { threshold: .5 });
+      io.observe(sig);
+    } else underline(0);
+  }
+
+  // ---------- masthead photo ----------
+  // Fans packing Times Square under the TRL studio, printed in two tones (paper and ink) with a fine screen-door grid,
+  // like the photo is up on one of the square's video boards.
+  const crowdC = document.getElementById('crowd'), crowdImg = new Image();
+  crowdImg.src = 'times-square.avif';
+  // paint a photo in two tones (page background to `color`) with a fine screen-door grid
+  function paintPhoto(cv, img, color, anchor, str) {
+    if (!img.complete || !img.naturalWidth) return;
+    const W = Math.round(cv.clientWidth), H = Math.round(cv.clientHeight);
+    if (!W || !H) return;
+    cv.width = W; cv.height = H;
+    const g = cv.getContext('2d', { willReadFrequently: true });
+    const iw = img.naturalWidth, ih = img.naturalHeight, k = Math.max(W / iw, H / ih);
+    g.drawImage(img, (W - iw * k) / 2, (H - ih * k) * anchor, iw * k, ih * k);
+    const im = g.getImageData(0, 0, W, H), px = im.data, dark = isDark();
+    const bg = d3.rgb(COL.bg), c = d3.rgb(color);
+    for (let i = 0; i < px.length; i += 4) {
+      const lum = (.299 * px[i] + .587 * px[i + 1] + .114 * px[i + 2]) / 255;
+      const c2 = Math.min(1, Math.max(0, (lum - .08) / .8)), t = (dark ? c2 : 1 - c2) * str;
+      px[i] = bg.r + (c.r - bg.r) * t; px[i + 1] = bg.g + (c.g - bg.g) * t; px[i + 2] = bg.b + (c.b - bg.b) * t;
+    }
+    g.putImageData(im, 0, 0);
+    const cell = W < 560 ? 3 : 4;
+    g.fillStyle = COL.bg; g.globalAlpha = .55;
+    for (let x = cell - 1; x < W; x += cell) g.fillRect(x, 0, 1, H);
+    for (let y = cell - 1; y < H; y += cell) g.fillRect(0, y, W, 1);
+    g.globalAlpha = 1;
+  }
+  function drawCrowd() {
+    paintPhoto(crowdC, crowdImg, COL.ink, .45, (isDark() ? .5 : .46) * (innerWidth < 560 ? .75 : 1));
+    secPhotos.forEach(paintSec);
+  }
+  const secPhotos = [...document.querySelectorAll('.sec-photo')].map(box => {
+    const img = new Image(), o = { box, cv: box.querySelector('canvas'), img };
+    img.onload = () => paintSec(o); img.src = box.dataset.src;
+    return o;
+  });
+  function paintSec(o) {
+    const dark = isDark(), g = dark ? o.box.dataset.tintDark : o.box.dataset.tint;
+    paintPhoto(o.cv, o.img, COL[g], +o.box.dataset.y, dark ? .62 : .6);
+  }
+  // photos drift a little slower than the page
+  function parallax() {
+    if (reduce) return;
+    for (const o of secPhotos) {
+      const r = o.box.getBoundingClientRect();
+      if (r.bottom < 0 || r.top > innerHeight) continue;
+      const f = Math.max(-1, Math.min(1, (r.top + r.height / 2 - innerHeight / 2) / innerHeight));
+      o.cv.style.transform = `translateY(${(f * 7).toFixed(2)}%)`;
+    }
+  }
+  crowdImg.onload = drawCrowd;
+
+  // ---------- boot ----------
+  const all = () => { layout(); layoutDisc(); drawCrowd(); drawWall(); drawBump(); layoutPix(); if (dropped) settlePix(); else { targets(); SQ.forEach(q => { q.a = 0; }); drawPix(); drawDrivers(); } drawStars(false); drawHall(); };
+  setRace(PRESETS[0].e, PRESETS[0].name, null, PRESETS[0]);
+  all();
+  // squares drop in the first time the chart scrolls into view
+  new IntersectionObserver((es, o) => { if (es[0].isIntersecting) { dropped = true; animatePix(true); o.disconnect(); } }, { threshold: .35 }).observe(pixC);
+  let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(all, 120); });
+  matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => { readColors(); all(); });
+  document.fonts && document.fonts.ready.then(() => drawWall());
+  // play on its own when the wall is already in view or there's too little page above it to scroll through
+  if (!forced && scrollEnd() < 260) { mode = 'auto'; autoT0 = performance.now() + 900; }
+  pS = progress(performance.now()); showCells = pS >= 1; drawWall();
+  requestAnimationFrame(loop);
+  document.body.dataset.ready = 1;
+}
+</script>
+</body>
+</html>
