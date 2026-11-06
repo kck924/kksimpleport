@@ -1,0 +1,1640 @@
+{
+ "id": "ppmtu3vp",
+ "version": "1.5",
+ "created": "2026-11-06",
+ "job": {
+  "title": "Senior Manager, Marketing Decision Science",
+  "company": "Instacart"
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 10
+ },
+ "fit": 72,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "8+ years in data science, analytics, or a quantitative function; 3+ years managing teams of analysts or decision scientists",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "s1",
+    "m9",
+    "m1",
+    "m16"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "Deep expertise in paid marketing measurement: incrementality testing, marketing mix modeling, attribution, LTV-based optimization, and channel-level performance analytics",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "x2",
+    "s1",
+    "a1",
+    "n2",
+    "m16",
+    "p1",
+    "m9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "Strong SQL and data fluency; comfort working directly in data to validate and pressure-test team output",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "a1",
+    "m10",
+    "p3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Proven ability to independently own senior cross-functional relationships and represent a data science function in leadership forums without requiring escalation",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m1",
+    "a1",
+    "m9",
+    "m7",
+    "x2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "Experience managing and developing Decision Scientists or Marketing Analysts with a high bar for quality and direct feedback delivery",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m9",
+    "d1",
+    "m7",
+    "m1",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "Track record of translating complex analyses into clear investment recommendations for non-technical audiences",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r7",
+   "text": "We're looking for a Senior Manager to lead the Marketing Decision Science team \u2014 a group of Decision Scientists embedded across Paid Media, SEO, and Retailer Marketing. This is \u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m1",
+    "s1",
+    "m10",
+    "m9",
+    "m7",
+    "a1",
+    "n2",
+    "m16",
+    "x2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r8",
+   "text": "Lead and develop a team of 5 Decision Scientists and Marketing Analysts, owning their performance, growth, and day-to-day direction \u2014 setting and enforcing a high quality bar ac\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m9",
+    "d1",
+    "m1",
+    "s1",
+    "m7"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "Own the end-to-end delivery of MDSA's paid marketing analytics workstreams: channel-level goal-setting, pacing, incrementality testing, acquisition and retention analysis, and R\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "a1",
+    "m16",
+    "x2",
+    "m9",
+    "m1",
+    "n2",
+    "m10",
+    "m7"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r10",
+   "text": "Lead the team's contribution to the unified marketing measurement framework - MMM, incrementality testing, LTV, MTA \u2014 coordinating MMM inputs, incrementality test organization, \u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "x2",
+    "d1",
+    "s1",
+    "a1",
+    "m16",
+    "m10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r11",
+   "text": "Drive re-goaling, rebasing, and scenario modeling exercises that directly inform how Instacart allocates its marketing budget",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "s1",
+    "n2",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "Define and drive the Marketing Decision Science roadmap in partnership with the Director, translating business priorities into sequenced analytical investments",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "m1",
+    "s1",
+    "m9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r13",
+   "text": "Partner with Marketing Data Science on Measurement architecture, LTV modeling, and measurement infrastructure",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "a1",
+    "x2",
+    "m16",
+    "d1",
+    "m9",
+    "p1",
+    "m1",
+    "s1",
+    "n2",
+    "m7"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r14",
+   "text": "Identify opportunities to improve analytical self-serve and reduce recurring reporting burden through tooling and automation",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m10",
+    "s1",
+    "m16"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r15",
+   "text": "Anticipate stakeholder needs and surface proactive insights \u2014 not just reactive analysis",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "m9",
+    "m1",
+    "a1",
+    "x2",
+    "m7",
+    "n2",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r16",
+   "text": "Instacart has become a lifeline for millions of people, and we\u2019re building the team to help push our shopping cart forward. If you\u2019re ready to do the best work of your life, com\u2026",
+   "kind": "other",
+   "weight": 1.5,
+   "coveredBy": [
+    "m16"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r17",
+   "text": "There\u2019s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work\u2014whether it\u2019s from home, an office, o\u2026",
+   "kind": "other",
+   "weight": 1.5,
+   "coveredBy": [
+    "n2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r18",
+   "text": "Serve as the primary analytical point of contact for senior marketing leadership and Finance \u2014 owning those relationships independently and representing MDSA in MBRs, SBRs, and \u2026",
+   "kind": "other",
+   "weight": 1.5,
+   "coveredBy": [
+    "x2",
+    "m1",
+    "m9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "Build team capacity and coverage plans proactively, including across periods of reduced availability",
+   "kind": "other",
+   "weight": 1.5,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r20",
+   "text": "Familiarity with geo-experimentation, Bayesian methods, or causal inference frameworks",
+   "kind": "preferred",
+   "weight": 1.5,
+   "coveredBy": [
+    "s1",
+    "n2",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r21",
+   "text": "Experience with LTV-based media optimization and budget allocation modeling",
+   "kind": "preferred",
+   "weight": 1.5,
+   "coveredBy": [
+    "n2",
+    "d1",
+    "m1",
+    "s1",
+    "a1",
+    "m10",
+    "m16",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r22",
+   "text": "Background in building or overhauling channel-level reporting and pacing infrastructure",
+   "kind": "preferred",
+   "weight": 1.5,
+   "coveredBy": [
+    "s1",
+    "m10"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r23",
+   "text": "Experience at a consumer-facing marketplace or high-growth technology company",
+   "kind": "preferred",
+   "weight": 1,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r24",
+   "text": "$242,000\u2014$255,500 USD",
+   "kind": "preferred",
+   "weight": 1,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r25",
+   "text": "$232,000\u2014$245,000 USD",
+   "kind": "preferred",
+   "weight": 1,
+   "coveredBy": [],
+   "gap": true
+  }
+ ],
+ "picks": [
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 35.76,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in data science, analytics, or a quantitative function; 3+ years managing teams of analysts or decision scientists",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r2",
+     "text": "Deep expertise in paid marketing measurement: incrementality testing, marketing mix modeling, attribution, LTV-based optimization, and channel-level performance analytics",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to independently own senior cross-functional relationships and represent a data science function in leadership forums without requiring escalation",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Experience managing and developing Decision Scientists or Marketing Analysts with a high bar for quality and direct feedback delivery",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "We're looking for a Senior Manager to lead the Marketing Decision Science team \u2014 a group of Decision Scientists embedded across Paid Media, SEO, and Retailer Marketing. This is \u2026",
+     "skills": [
+      "leadership",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "Lead and develop a team of 5 Decision Scientists and Marketing Analysts, owning their performance, growth, and day-to-day direction \u2014 setting and enforcing a high quality bar ac\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r9",
+     "text": "Own the end-to-end delivery of MDSA's paid marketing analytics workstreams: channel-level goal-setting, pacing, incrementality testing, acquisition and retention analysis, and R\u2026",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Lead the team's contribution to the unified marketing measurement framework - MMM, incrementality testing, LTV, MTA \u2014 coordinating MMM inputs, incrementality test organization, \u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r12",
+     "text": "Define and drive the Marketing Decision Science roadmap in partnership with the Director, translating business priorities into sequenced analytical investments",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "Partner with Marketing Data Science on Measurement architecture, LTV modeling, and measurement infrastructure",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Serve as the primary analytical point of contact for senior marketing leadership and Finance \u2014 owning those relationships independently and representing MDSA in MBRs, SBRs, and \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r21",
+     "text": "Experience with LTV-based media optimization and budget allocation modeling",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m1",
+   "role": "ms-head",
+   "original": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "final": "Led 7 analytical leads supporting about 45 strategic advertisers in financial services, automotive and health, roughly $800M in annual spend",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 26.83,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in data science, analytics, or a quantitative function; 3+ years managing teams of analysts or decision scientists",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to independently own senior cross-functional relationships and represent a data science function in leadership forums without requiring escalation",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Experience managing and developing Decision Scientists or Marketing Analysts with a high bar for quality and direct feedback delivery",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r7",
+     "text": "We're looking for a Senior Manager to lead the Marketing Decision Science team \u2014 a group of Decision Scientists embedded across Paid Media, SEO, and Retailer Marketing. This is \u2026",
+     "skills": [
+      "leadership",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "Lead and develop a team of 5 Decision Scientists and Marketing Analysts, owning their performance, growth, and day-to-day direction \u2014 setting and enforcing a high quality bar ac\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Own the end-to-end delivery of MDSA's paid marketing analytics workstreams: channel-level goal-setting, pacing, incrementality testing, acquisition and retention analysis, and R\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Lead the team's contribution to the unified marketing measurement framework - MMM, incrementality testing, LTV, MTA \u2014 coordinating MMM inputs, incrementality test organization, \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Define and drive the Marketing Decision Science roadmap in partnership with the Director, translating business priorities into sequenced analytical investments",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Partner with Marketing Data Science on Measurement architecture, LTV modeling, and measurement infrastructure",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Identify opportunities to improve analytical self-serve and reduce recurring reporting burden through tooling and automation",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Anticipate stakeholder needs and surface proactive insights \u2014 not just reactive analysis",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Serve as the primary analytical point of contact for senior marketing leadership and Finance \u2014 owning those relationships independently and representing MDSA in MBRs, SBRs, and \u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r21",
+     "text": "Experience with LTV-based media optimization and budget allocation modeling",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "role": "ms-sal",
+   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 21.27,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in data science, analytics, or a quantitative function; 3+ years managing teams of analysts or decision scientists",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Deep expertise in paid marketing measurement: incrementality testing, marketing mix modeling, attribution, LTV-based optimization, and channel-level performance analytics",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to independently own senior cross-functional relationships and represent a data science function in leadership forums without requiring escalation",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Experience managing and developing Decision Scientists or Marketing Analysts with a high bar for quality and direct feedback delivery",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Track record of translating complex analyses into clear investment recommendations for non-technical audiences",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "We're looking for a Senior Manager to lead the Marketing Decision Science team \u2014 a group of Decision Scientists embedded across Paid Media, SEO, and Retailer Marketing. This is \u2026",
+     "skills": [
+      "leadership",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "Lead and develop a team of 5 Decision Scientists and Marketing Analysts, owning their performance, growth, and day-to-day direction \u2014 setting and enforcing a high quality bar ac\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Own the end-to-end delivery of MDSA's paid marketing analytics workstreams: channel-level goal-setting, pacing, incrementality testing, acquisition and retention analysis, and R\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Lead the team's contribution to the unified marketing measurement framework - MMM, incrementality testing, LTV, MTA \u2014 coordinating MMM inputs, incrementality test organization, \u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Drive re-goaling, rebasing, and scenario modeling exercises that directly inform how Instacart allocates its marketing budget",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Define and drive the Marketing Decision Science roadmap in partnership with the Director, translating business priorities into sequenced analytical investments",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Partner with Marketing Data Science on Measurement architecture, LTV modeling, and measurement infrastructure",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r14",
+     "text": "Identify opportunities to improve analytical self-serve and reduce recurring reporting burden through tooling and automation",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "There\u2019s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work\u2014whether it\u2019s from home, an office, o\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r18",
+     "text": "Serve as the primary analytical point of contact for senior marketing leadership and Finance \u2014 owning those relationships independently and representing MDSA in MBRs, SBRs, and \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r20",
+     "text": "Familiarity with geo-experimentation, Bayesian methods, or causal inference frameworks",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Experience with LTV-based media optimization and budget allocation modeling",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Background in building or overhauling channel-level reporting and pacing infrastructure",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "a1",
+   "role": "ms-al",
+   "original": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
+   "final": "Data expert on Microsoft account teams for Fortune 100 advertisers: used R, SQL, Power BI and Excel to show what Microsoft delivered and where they could grow",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 11.43,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in data science, analytics, or a quantitative function; 3+ years managing teams of analysts or decision scientists",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "Deep expertise in paid marketing measurement: incrementality testing, marketing mix modeling, attribution, LTV-based optimization, and channel-level performance analytics",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Strong SQL and data fluency; comfort working directly in data to validate and pressure-test team output",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to independently own senior cross-functional relationships and represent a data science function in leadership forums without requiring escalation",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "We're looking for a Senior Manager to lead the Marketing Decision Science team \u2014 a group of Decision Scientists embedded across Paid Media, SEO, and Retailer Marketing. This is \u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Own the end-to-end delivery of MDSA's paid marketing analytics workstreams: channel-level goal-setting, pacing, incrementality testing, acquisition and retention analysis, and R\u2026",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Lead the team's contribution to the unified marketing measurement framework - MMM, incrementality testing, LTV, MTA \u2014 coordinating MMM inputs, incrementality test organization, \u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Partner with Marketing Data Science on Measurement architecture, LTV modeling, and measurement infrastructure",
+     "skills": [
+      "measurement",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r15",
+     "text": "Anticipate stakeholder needs and surface proactive insights \u2014 not just reactive analysis",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Experience with LTV-based media optimization and budget allocation modeling",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 7.23,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Deep expertise in paid marketing measurement: incrementality testing, marketing mix modeling, attribution, LTV-based optimization, and channel-level performance analytics",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to independently own senior cross-functional relationships and represent a data science function in leadership forums without requiring escalation",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Experience managing and developing Decision Scientists or Marketing Analysts with a high bar for quality and direct feedback delivery",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "We're looking for a Senior Manager to lead the Marketing Decision Science team \u2014 a group of Decision Scientists embedded across Paid Media, SEO, and Retailer Marketing. This is \u2026",
+     "skills": [],
+     "m": 0.45
+    },
+    {
+     "req": "r8",
+     "text": "Lead and develop a team of 5 Decision Scientists and Marketing Analysts, owning their performance, growth, and day-to-day direction \u2014 setting and enforcing a high quality bar ac\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Own the end-to-end delivery of MDSA's paid marketing analytics workstreams: channel-level goal-setting, pacing, incrementality testing, acquisition and retention analysis, and R\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r10",
+     "text": "Lead the team's contribution to the unified marketing measurement framework - MMM, incrementality testing, LTV, MTA \u2014 coordinating MMM inputs, incrementality test organization, \u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "Drive re-goaling, rebasing, and scenario modeling exercises that directly inform how Instacart allocates its marketing budget",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Define and drive the Marketing Decision Science roadmap in partnership with the Director, translating business priorities into sequenced analytical investments",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r13",
+     "text": "Partner with Marketing Data Science on Measurement architecture, LTV modeling, and measurement infrastructure",
+     "skills": [
+      "measurement",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r14",
+     "text": "Identify opportunities to improve analytical self-serve and reduce recurring reporting burden through tooling and automation",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Anticipate stakeholder needs and surface proactive insights \u2014 not just reactive analysis",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Serve as the primary analytical point of contact for senior marketing leadership and Finance \u2014 owning those relationships independently and representing MDSA in MBRs, SBRs, and \u2026",
+     "skills": [],
+     "m": 0.45
+    },
+    {
+     "req": "r22",
+     "text": "Background in building or overhauling channel-level reporting and pacing infrastructure",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "role": "hanapin",
+   "original": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "final": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 6.04,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "Deep expertise in paid marketing measurement: incrementality testing, marketing mix modeling, attribution, LTV-based optimization, and channel-level performance analytics",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "We're looking for a Senior Manager to lead the Marketing Decision Science team \u2014 a group of Decision Scientists embedded across Paid Media, SEO, and Retailer Marketing. This is \u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Lead and develop a team of 5 Decision Scientists and Marketing Analysts, owning their performance, growth, and day-to-day direction \u2014 setting and enforcing a high quality bar ac\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Own the end-to-end delivery of MDSA's paid marketing analytics workstreams: channel-level goal-setting, pacing, incrementality testing, acquisition and retention analysis, and R\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Drive re-goaling, rebasing, and scenario modeling exercises that directly inform how Instacart allocates its marketing budget",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Partner with Marketing Data Science on Measurement architecture, LTV modeling, and measurement infrastructure",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Anticipate stakeholder needs and surface proactive insights \u2014 not just reactive analysis",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r17",
+     "text": "There\u2019s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work\u2014whether it\u2019s from home, an office, o\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r20",
+     "text": "Familiarity with geo-experimentation, Bayesian methods, or causal inference frameworks",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Experience with LTV-based media optimization and budget allocation modeling",
+     "skills": [
+      "stats",
+      "advertising"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "role": "ms-dir",
+   "original": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "final": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 18.63,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Strong SQL and data fluency; comfort working directly in data to validate and pressure-test team output",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Experience managing and developing Decision Scientists or Marketing Analysts with a high bar for quality and direct feedback delivery",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "We're looking for a Senior Manager to lead the Marketing Decision Science team \u2014 a group of Decision Scientists embedded across Paid Media, SEO, and Retailer Marketing. This is \u2026",
+     "skills": [
+      "advertising",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "Lead and develop a team of 5 Decision Scientists and Marketing Analysts, owning their performance, growth, and day-to-day direction \u2014 setting and enforcing a high quality bar ac\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Own the end-to-end delivery of MDSA's paid marketing analytics workstreams: channel-level goal-setting, pacing, incrementality testing, acquisition and retention analysis, and R\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Lead the team's contribution to the unified marketing measurement framework - MMM, incrementality testing, LTV, MTA \u2014 coordinating MMM inputs, incrementality test organization, \u2026",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r12",
+     "text": "Define and drive the Marketing Decision Science roadmap in partnership with the Director, translating business priorities into sequenced analytical investments",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Identify opportunities to improve analytical self-serve and reduce recurring reporting burden through tooling and automation",
+     "skills": [
+      "dashboards",
+      "data-products"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "Experience with LTV-based media optimization and budget allocation modeling",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Background in building or overhauling channel-level reporting and pacing infrastructure",
+     "skills": [
+      "dashboards"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "Experience at a consumer-facing marketplace or high-growth technology company",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 32.73,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in data science, analytics, or a quantitative function; 3+ years managing teams of analysts or decision scientists",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "Deep expertise in paid marketing measurement: incrementality testing, marketing mix modeling, attribution, LTV-based optimization, and channel-level performance analytics",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to independently own senior cross-functional relationships and represent a data science function in leadership forums without requiring escalation",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Experience managing and developing Decision Scientists or Marketing Analysts with a high bar for quality and direct feedback delivery",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r7",
+     "text": "We're looking for a Senior Manager to lead the Marketing Decision Science team \u2014 a group of Decision Scientists embedded across Paid Media, SEO, and Retailer Marketing. This is \u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r8",
+     "text": "Lead and develop a team of 5 Decision Scientists and Marketing Analysts, owning their performance, growth, and day-to-day direction \u2014 setting and enforcing a high quality bar ac\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Own the end-to-end delivery of MDSA's paid marketing analytics workstreams: channel-level goal-setting, pacing, incrementality testing, acquisition and retention analysis, and R\u2026",
+     "skills": [
+      "product-analytics"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r10",
+     "text": "Lead the team's contribution to the unified marketing measurement framework - MMM, incrementality testing, LTV, MTA \u2014 coordinating MMM inputs, incrementality test organization, \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "Drive re-goaling, rebasing, and scenario modeling exercises that directly inform how Instacart allocates its marketing budget",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Define and drive the Marketing Decision Science roadmap in partnership with the Director, translating business priorities into sequenced analytical investments",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Partner with Marketing Data Science on Measurement architecture, LTV modeling, and measurement infrastructure",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Anticipate stakeholder needs and surface proactive insights \u2014 not just reactive analysis",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Serve as the primary analytical point of contact for senior marketing leadership and Finance \u2014 owning those relationships independently and representing MDSA in MBRs, SBRs, and \u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r23",
+     "text": "Experience at a consumer-facing marketplace or high-growth technology company",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m16",
+   "role": "ms-head",
+   "original": "Led analysts in building a ZIP-code inclusion metric from US Census data that joins to internal advertising data",
+   "final": "Led analysts in building a ZIP-code inclusion metric from US Census data that joins to internal advertising data",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 12.9,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in data science, analytics, or a quantitative function; 3+ years managing teams of analysts or decision scientists",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r2",
+     "text": "Deep expertise in paid marketing measurement: incrementality testing, marketing mix modeling, attribution, LTV-based optimization, and channel-level performance analytics",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r3",
+     "text": "Strong SQL and data fluency; comfort working directly in data to validate and pressure-test team output",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to independently own senior cross-functional relationships and represent a data science function in leadership forums without requiring escalation",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Experience managing and developing Decision Scientists or Marketing Analysts with a high bar for quality and direct feedback delivery",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "We're looking for a Senior Manager to lead the Marketing Decision Science team \u2014 a group of Decision Scientists embedded across Paid Media, SEO, and Retailer Marketing. This is \u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Lead and develop a team of 5 Decision Scientists and Marketing Analysts, owning their performance, growth, and day-to-day direction \u2014 setting and enforcing a high quality bar ac\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Own the end-to-end delivery of MDSA's paid marketing analytics workstreams: channel-level goal-setting, pacing, incrementality testing, acquisition and retention analysis, and R\u2026",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Lead the team's contribution to the unified marketing measurement framework - MMM, incrementality testing, LTV, MTA \u2014 coordinating MMM inputs, incrementality test organization, \u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r13",
+     "text": "Partner with Marketing Data Science on Measurement architecture, LTV modeling, and measurement infrastructure",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r14",
+     "text": "Identify opportunities to improve analytical self-serve and reduce recurring reporting burden through tooling and automation",
+     "skills": [
+      "data-products"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r16",
+     "text": "Instacart has become a lifeline for millions of people, and we\u2019re building the team to help push our shopping cart forward. If you\u2019re ready to do the best work of your life, com\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r17",
+     "text": "There\u2019s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work\u2014whether it\u2019s from home, an office, o\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r19",
+     "text": "Build team capacity and coverage plans proactively, including across periods of reduced availability",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r21",
+     "text": "Experience with LTV-based media optimization and budget allocation modeling",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Background in building or overhauling channel-level reporting and pacing infrastructure",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "role": "ms-head",
+   "original": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "final": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 23.83,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in data science, analytics, or a quantitative function; 3+ years managing teams of analysts or decision scientists",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r2",
+     "text": "Deep expertise in paid marketing measurement: incrementality testing, marketing mix modeling, attribution, LTV-based optimization, and channel-level performance analytics",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to independently own senior cross-functional relationships and represent a data science function in leadership forums without requiring escalation",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Experience managing and developing Decision Scientists or Marketing Analysts with a high bar for quality and direct feedback delivery",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Track record of translating complex analyses into clear investment recommendations for non-technical audiences",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "We're looking for a Senior Manager to lead the Marketing Decision Science team \u2014 a group of Decision Scientists embedded across Paid Media, SEO, and Retailer Marketing. This is \u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r8",
+     "text": "Lead and develop a team of 5 Decision Scientists and Marketing Analysts, owning their performance, growth, and day-to-day direction \u2014 setting and enforcing a high quality bar ac\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Own the end-to-end delivery of MDSA's paid marketing analytics workstreams: channel-level goal-setting, pacing, incrementality testing, acquisition and retention analysis, and R\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r11",
+     "text": "Drive re-goaling, rebasing, and scenario modeling exercises that directly inform how Instacart allocates its marketing budget",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Define and drive the Marketing Decision Science roadmap in partnership with the Director, translating business priorities into sequenced analytical investments",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r13",
+     "text": "Partner with Marketing Data Science on Measurement architecture, LTV modeling, and measurement infrastructure",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r15",
+     "text": "Anticipate stakeholder needs and surface proactive insights \u2014 not just reactive analysis",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Serve as the primary analytical point of contact for senior marketing leadership and Finance \u2014 owning those relationships independently and representing MDSA in MBRs, SBRs, and \u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "role": "proj",
+   "original": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "final": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 10.64,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "8+ years in data science, analytics, or a quantitative function; 3+ years managing teams of analysts or decision scientists",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "Deep expertise in paid marketing measurement: incrementality testing, marketing mix modeling, attribution, LTV-based optimization, and channel-level performance analytics",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r3",
+     "text": "Strong SQL and data fluency; comfort working directly in data to validate and pressure-test team output",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Proven ability to independently own senior cross-functional relationships and represent a data science function in leadership forums without requiring escalation",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r7",
+     "text": "We're looking for a Senior Manager to lead the Marketing Decision Science team \u2014 a group of Decision Scientists embedded across Paid Media, SEO, and Retailer Marketing. This is \u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "Drive re-goaling, rebasing, and scenario modeling exercises that directly inform how Instacart allocates its marketing budget",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r13",
+     "text": "Partner with Marketing Data Science on Measurement architecture, LTV modeling, and measurement infrastructure",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r15",
+     "text": "Anticipate stakeholder needs and surface proactive insights \u2014 not just reactive analysis",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r20",
+     "text": "Familiarity with geo-experimentation, Bayesian methods, or causal inference frameworks",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Experience with LTV-based media optimization and budget allocation modeling",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "role": "proj",
+   "original": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "final": "Baseball LLM Semantic Layer: Claude turns plain-English MLB questions into BigQuery SQL through a semantic layer, served by FastAPI and React on Cloud Run",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 3.15,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "Strong SQL and data fluency; comfort working directly in data to validate and pressure-test team output",
+     "skills": [
+      "sql"
+     ],
+     "m": 0.75
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "why": "others covered the same ground better",
+   "score": 23.23
+  },
+  {
+   "text": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "why": "others covered the same ground better",
+   "score": 19.18
+  },
+  {
+   "text": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "why": "others covered the same ground better",
+   "score": 18.85
+  },
+  {
+   "text": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "why": "others covered the same ground better",
+   "score": 15.24
+  },
+  {
+   "text": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "why": "others covered the same ground better",
+   "score": 15.1
+  },
+  {
+   "text": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "why": "others covered the same ground better",
+   "score": 15.08
+  },
+  {
+   "text": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "why": "others covered the same ground better",
+   "score": 14.04
+  },
+  {
+   "text": "Beat client-engagement targets in both verticals in 2024 (119% and 125%) and met them in late 2023 with automotive at about half capacity",
+   "why": "others covered the same ground better",
+   "score": 13.34
+  }
+ ],
+ "skills": [
+  "Team leadership",
+  "Statistics",
+  "Measurement",
+  "Machine learning",
+  "Dashboards",
+  "Stakeholder management",
+  "Marketing analytics",
+  "SQL",
+  "Data storytelling",
+  "Data products",
+  "Product analytics",
+  "Strategy"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 8+ years; I have 12."
+  },
+  {
+   "kind": "degree",
+   "status": "warn",
+   "detail": "Mentions a master's; mine: a bachelor's."
+  }
+ ]
+}
