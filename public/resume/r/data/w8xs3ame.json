@@ -1,0 +1,2056 @@
+{
+ "id": "w8xs3ame",
+ "version": "1.5",
+ "created": "2026-11-06",
+ "job": {
+  "title": "Director, Data Strategy & Analytics",
+  "company": "LXA Lexia Voyager Sopris Inc."
+ },
+ "method": {
+  "parsedBy": "rules",
+  "rewrittenBy": null,
+  "budget": 10
+ },
+ "fit": 74,
+ "roles": [
+  {
+   "id": "ms-dir",
+   "org": "Microsoft Advertising",
+   "title": "Director, Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-head",
+   "org": "Microsoft Advertising",
+   "title": "Head of Advertiser Analytics",
+   "section": "experience"
+  },
+  {
+   "id": "ms-sal",
+   "org": "Microsoft Advertising",
+   "title": "Senior Analytical Lead, then Analytical Director",
+   "section": "experience"
+  },
+  {
+   "id": "ms-al",
+   "org": "Microsoft Advertising",
+   "title": "Analytical Lead",
+   "section": "experience"
+  },
+  {
+   "id": "deluxe",
+   "org": "Deluxe Corporation",
+   "title": "Senior Search Specialist",
+   "section": "experience"
+  },
+  {
+   "id": "hanapin",
+   "org": "Hanapin Marketing",
+   "title": "Account Manager",
+   "section": "experience"
+  },
+  {
+   "id": "proj",
+   "org": "kckdata.com",
+   "title": "Side projects",
+   "section": "projects"
+  }
+ ],
+ "requirements": [
+  {
+   "id": "r1",
+   "text": "Bachelor's degree in data science, statistics, economics, business, computer science, or a related field; advanced degree preferred.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "n2",
+    "p1",
+    "p4",
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r2",
+   "text": "10+ years of experience in analytics, data strategy, or a related field, with a proven track record of delivering data-driven solutions that drive business impact.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m7",
+    "d1",
+    "t3",
+    "m12",
+    "h1",
+    "s1",
+    "m11",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r3",
+   "text": "5+ years of experience managing, coaching, or leading data analysts or analytics teams.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "s1",
+    "m9",
+    "m12",
+    "t3",
+    "h1",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r4",
+   "text": "Excellent quantitative and analytical skills with experience in data visualization, statistical modeling/machine learning, and go-to-market domain analyses (e.g., campaign attri\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "s1",
+    "x2",
+    "n2",
+    "m11",
+    "p1",
+    "h1",
+    "p4",
+    "m9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r5",
+   "text": "Professional proficiency in analytics and BI tools that align with our tech stack (e.g., SQL, Tableau, Python or R), and working knowledge of data engineering and cloud data pla\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "s1",
+    "p1",
+    "m7",
+    "x2",
+    "m11",
+    "m12",
+    "p4",
+    "m9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r6",
+   "text": "Experience owning BI platform strategy and governance, and managing analytics vendor and tool relationships.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "s1",
+    "t3",
+    "m12",
+    "h1",
+    "m9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r7",
+   "text": "Expertise in data management, including metric definition, data governance, and data quality management.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "d1",
+    "x2",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r8",
+   "text": "Demonstrated experience building or implementing AI-assisted analytics workflows, such as AI agents, natural language query interfaces, or LLM-driven analytics, with a deep unde\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "p4",
+    "m11",
+    "m12",
+    "d1",
+    "m7",
+    "m9",
+    "p1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r9",
+   "text": "Excellent communication, data storytelling, and collaboration skills, with the ability to translate complex data insights into clear, actionable recommendations for executive an\u2026",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m11",
+    "m9",
+    "m12",
+    "t3",
+    "p1",
+    "n2",
+    "m7",
+    "x2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r10",
+   "text": "Strategic mindset and the ability to manage challenging priorities across multiple stakeholders.",
+   "kind": "required",
+   "weight": 3.5,
+   "coveredBy": [
+    "m7",
+    "d1",
+    "x2",
+    "m11",
+    "m9",
+    "t3",
+    "m12",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r11",
+   "text": "Exceptional leadership and management skills, with experience leading high-performing teams in a fast-paced and dynamic environment.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [
+    "d1",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r12",
+   "text": "Familiarity with sales and customer data platforms (e.g., Salesforce) and experience within a SaaS B2B or B2G organization preferred.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [
+    "m11"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r13",
+   "text": "To learn more about our organization and the exciting work we do, visit https://www.lexialearning.com/.",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r14",
+   "text": "Remote First Work Environment",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r15",
+   "text": "Our Remote First approach gives employees the flexibility and trust they need to effectively balance work with life. It creates a culture in which all employees are valued and w\u2026",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [
+    "t3"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r16",
+   "text": "If you will be working remotely, either occasionally or on a permanent basis, you must have a reliable internet connection through a cable or fiber-optic broadband service with \u2026",
+   "kind": "required",
+   "weight": 3,
+   "coveredBy": [],
+   "gap": true
+  },
+  {
+   "id": "r17",
+   "text": "Lexia's data assets are central to how we grow and how we demonstrate impact. We are seeking a Director of Data Strategy & Analytics to lead the team that turns those assets int\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "s1",
+    "t3",
+    "m9",
+    "m12",
+    "h1",
+    "m11",
+    "p1",
+    "n2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r18",
+   "text": "Reporting to this role is the leader of the Data Engineering team, responsible for data infrastructure and architecture. The Director of Data Strategy & Analytics will provide s\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "s1",
+    "t3",
+    "m11",
+    "m9",
+    "m12",
+    "h1",
+    "p1",
+    "n2",
+    "x2"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r19",
+   "text": "Team Leadership & Development",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "s1",
+    "t3",
+    "m9",
+    "m12",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r20",
+   "text": "Develop and execute a comprehensive strategy for data and analytics that aligns with the organization's mission, vision, and strategy, leveraging data to optimize decision-makin\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "m12",
+    "t3",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r21",
+   "text": "Manage, mentor, and develop a team of analysts, providing regular feedback and fostering a collaborative and high-performing environment.",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "m9",
+    "s1",
+    "t3",
+    "m12",
+    "h1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r22",
+   "text": "Own project management and prioritization for all business analytics work, including analyst and AI-enabled analytics projects, and oversee review and QA to ensure data products\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "t3",
+    "m11",
+    "m9",
+    "m12",
+    "p1",
+    "n2",
+    "h1",
+    "p4",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r23",
+   "text": "Support the Director of Analytics Engineering and foster a culture of continuous learning and development across the Data Strategy & Analytics team, promoting collaboration, inn\u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "d1",
+    "m7",
+    "s1",
+    "t3",
+    "m12",
+    "h1",
+    "m9"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r24",
+   "text": "Business Analytics & Insights",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "t3",
+    "m11",
+    "m12",
+    "n2",
+    "m9",
+    "p1",
+    "s1"
+   ],
+   "gap": false
+  },
+  {
+   "id": "r25",
+   "text": "Drive analyst efforts to mine revenue, operational, and customer data and turn them into insightful KPIs, models, and dashboards that help our teams pursue revenue optimization \u2026",
+   "kind": "other",
+   "weight": 2,
+   "coveredBy": [
+    "s1",
+    "d1",
+    "x2",
+    "p1",
+    "p4",
+    "n2",
+    "h1"
+   ],
+   "gap": false
+  }
+ ],
+ "picks": [
+  {
+   "id": "d1",
+   "role": "ms-dir",
+   "original": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "final": "Lead a multinational team of 10 analysts covering financial services, automotive, pharma, global agencies and ad measurement, and set its priorities for full-funnel analytics, measurement and AI",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 61.09,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "10+ years of experience in analytics, data strategy, or a related field, with a proven track record of delivering data-driven solutions that drive business impact.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r3",
+     "text": "5+ years of experience managing, coaching, or leading data analysts or analytics teams.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r4",
+     "text": "Excellent quantitative and analytical skills with experience in data visualization, statistical modeling/machine learning, and go-to-market domain analyses (e.g., campaign attri\u2026",
+     "skills": [
+      "measurement",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Professional proficiency in analytics and BI tools that align with our tech stack (e.g., SQL, Tableau, Python or R), and working knowledge of data engineering and cloud data pla\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r6",
+     "text": "Experience owning BI platform strategy and governance, and managing analytics vendor and tool relationships.",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Expertise in data management, including metric definition, data governance, and data quality management.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Demonstrated experience building or implementing AI-assisted analytics workflows, such as AI agents, natural language query interfaces, or LLM-driven analytics, with a deep unde\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r10",
+     "text": "Strategic mindset and the ability to manage challenging priorities across multiple stakeholders.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Exceptional leadership and management skills, with experience leading high-performing teams in a fast-paced and dynamic environment.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r17",
+     "text": "Lexia's data assets are central to how we grow and how we demonstrate impact. We are seeking a Director of Data Strategy & Analytics to lead the team that turns those assets int\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Reporting to this role is the leader of the Data Engineering team, responsible for data infrastructure and architecture. The Director of Data Strategy & Analytics will provide s\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Team Leadership & Development",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Develop and execute a comprehensive strategy for data and analytics that aligns with the organization's mission, vision, and strategy, leveraging data to optimize decision-makin\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r21",
+     "text": "Manage, mentor, and develop a team of analysts, providing regular feedback and fostering a collaborative and high-performing environment.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Own project management and prioritization for all business analytics work, including analyst and AI-enabled analytics projects, and oversee review and QA to ensure data products\u2026",
+     "skills": [
+      "genai",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Support the Director of Analytics Engineering and foster a culture of continuous learning and development across the Data Strategy & Analytics team, promoting collaboration, inn\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Business Analytics & Insights",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Drive analyst efforts to mine revenue, operational, and customer data and turn them into insightful KPIs, models, and dashboards that help our teams pursue revenue optimization \u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "role": "ms-head",
+   "original": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "final": "Wrote the analytics org's AI strategy, with goals every analyst could track, and won leadership support to roll it out",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 44.89,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "10+ years of experience in analytics, data strategy, or a related field, with a proven track record of delivering data-driven solutions that drive business impact.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r3",
+     "text": "5+ years of experience managing, coaching, or leading data analysts or analytics teams.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r5",
+     "text": "Professional proficiency in analytics and BI tools that align with our tech stack (e.g., SQL, Tableau, Python or R), and working knowledge of data engineering and cloud data pla\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Experience owning BI platform strategy and governance, and managing analytics vendor and tool relationships.",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "Demonstrated experience building or implementing AI-assisted analytics workflows, such as AI agents, natural language query interfaces, or LLM-driven analytics, with a deep unde\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r9",
+     "text": "Excellent communication, data storytelling, and collaboration skills, with the ability to translate complex data insights into clear, actionable recommendations for executive an\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Strategic mindset and the ability to manage challenging priorities across multiple stakeholders.",
+     "skills": [
+      "stakeholders",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r11",
+     "text": "Exceptional leadership and management skills, with experience leading high-performing teams in a fast-paced and dynamic environment.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Lexia's data assets are central to how we grow and how we demonstrate impact. We are seeking a Director of Data Strategy & Analytics to lead the team that turns those assets int\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Reporting to this role is the leader of the Data Engineering team, responsible for data infrastructure and architecture. The Director of Data Strategy & Analytics will provide s\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Team Leadership & Development",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Develop and execute a comprehensive strategy for data and analytics that aligns with the organization's mission, vision, and strategy, leveraging data to optimize decision-makin\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r21",
+     "text": "Manage, mentor, and develop a team of analysts, providing regular feedback and fostering a collaborative and high-performing environment.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Own project management and prioritization for all business analytics work, including analyst and AI-enabled analytics projects, and oversee review and QA to ensure data products\u2026",
+     "skills": [
+      "genai",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Support the Director of Analytics Engineering and foster a culture of continuous learning and development across the Data Strategy & Analytics team, promoting collaboration, inn\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Business Analytics & Insights",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Drive analyst efforts to mine revenue, operational, and customer data and turn them into insightful KPIs, models, and dashboards that help our teams pursue revenue optimization \u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "role": "ms-sal",
+   "original": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "final": "Technical lead for a 50-person analytics team: taught statistics, R and their use in business intelligence",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 31.12,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor's degree in data science, statistics, economics, business, computer science, or a related field; advanced degree preferred.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r2",
+     "text": "10+ years of experience in analytics, data strategy, or a related field, with a proven track record of delivering data-driven solutions that drive business impact.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r3",
+     "text": "5+ years of experience managing, coaching, or leading data analysts or analytics teams.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r4",
+     "text": "Excellent quantitative and analytical skills with experience in data visualization, statistical modeling/machine learning, and go-to-market domain analyses (e.g., campaign attri\u2026",
+     "skills": [
+      "stats",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Professional proficiency in analytics and BI tools that align with our tech stack (e.g., SQL, Tableau, Python or R), and working knowledge of data engineering and cloud data pla\u2026",
+     "skills": [
+      "r",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r6",
+     "text": "Experience owning BI platform strategy and governance, and managing analytics vendor and tool relationships.",
+     "skills": [
+      "leadership",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r8",
+     "text": "Demonstrated experience building or implementing AI-assisted analytics workflows, such as AI agents, natural language query interfaces, or LLM-driven analytics, with a deep unde\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r9",
+     "text": "Excellent communication, data storytelling, and collaboration skills, with the ability to translate complex data insights into clear, actionable recommendations for executive an\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r11",
+     "text": "Exceptional leadership and management skills, with experience leading high-performing teams in a fast-paced and dynamic environment.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r17",
+     "text": "Lexia's data assets are central to how we grow and how we demonstrate impact. We are seeking a Director of Data Strategy & Analytics to lead the team that turns those assets int\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Reporting to this role is the leader of the Data Engineering team, responsible for data infrastructure and architecture. The Director of Data Strategy & Analytics will provide s\u2026",
+     "skills": [
+      "leadership",
+      "dashboards"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Team Leadership & Development",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Develop and execute a comprehensive strategy for data and analytics that aligns with the organization's mission, vision, and strategy, leveraging data to optimize decision-makin\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r21",
+     "text": "Manage, mentor, and develop a team of analysts, providing regular feedback and fostering a collaborative and high-performing environment.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Own project management and prioritization for all business analytics work, including analyst and AI-enabled analytics projects, and oversee review and QA to ensure data products\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r23",
+     "text": "Support the Director of Analytics Engineering and foster a culture of continuous learning and development across the Data Strategy & Analytics team, promoting collaboration, inn\u2026",
+     "skills": [
+      "leadership",
+      "enablement"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Business Analytics & Insights",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r25",
+     "text": "Drive analyst efforts to mine revenue, operational, and customer data and turn them into insightful KPIs, models, and dashboards that help our teams pursue revenue optimization \u2026",
+     "skills": [
+      "stats",
+      "dashboards"
+     ],
+     "m": 1
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "role": "ms-al",
+   "original": "Created Bite-Sized Insights, a short format adopted across verticals and regions; the first put the team on record about COVID a month before the travel industry",
+   "final": "Created Bite-Sized Insights, a short format adopted across verticals and regions; the first put the team on record about COVID a month before the travel industry",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 20.25,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "10+ years of experience in analytics, data strategy, or a related field, with a proven track record of delivering data-driven solutions that drive business impact.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r3",
+     "text": "5+ years of experience managing, coaching, or leading data analysts or analytics teams.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Experience owning BI platform strategy and governance, and managing analytics vendor and tool relationships.",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Excellent communication, data storytelling, and collaboration skills, with the ability to translate complex data insights into clear, actionable recommendations for executive an\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r10",
+     "text": "Strategic mindset and the ability to manage challenging priorities across multiple stakeholders.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Exceptional leadership and management skills, with experience leading high-performing teams in a fast-paced and dynamic environment.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r14",
+     "text": "Remote First Work Environment",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r15",
+     "text": "Our Remote First approach gives employees the flexibility and trust they need to effectively balance work with life. It creates a culture in which all employees are valued and w\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r17",
+     "text": "Lexia's data assets are central to how we grow and how we demonstrate impact. We are seeking a Director of Data Strategy & Analytics to lead the team that turns those assets int\u2026",
+     "skills": [
+      "leadership",
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Reporting to this role is the leader of the Data Engineering team, responsible for data infrastructure and architecture. The Director of Data Strategy & Analytics will provide s\u2026",
+     "skills": [
+      "leadership",
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Team Leadership & Development",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Develop and execute a comprehensive strategy for data and analytics that aligns with the organization's mission, vision, and strategy, leveraging data to optimize decision-makin\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Manage, mentor, and develop a team of analysts, providing regular feedback and fostering a collaborative and high-performing environment.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Own project management and prioritization for all business analytics work, including analyst and AI-enabled analytics projects, and oversee review and QA to ensure data products\u2026",
+     "skills": [
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Support the Director of Analytics Engineering and foster a culture of continuous learning and development across the Data Strategy & Analytics team, promoting collaboration, inn\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Business Analytics & Insights",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "role": "deluxe",
+   "original": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "final": "Spoke for digital marketing in meetings with engineering, finance and executives, and worked out reporting and pricing with them",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 7.04,
+   "matched": [
+    {
+     "req": "r4",
+     "text": "Excellent quantitative and analytical skills with experience in data visualization, statistical modeling/machine learning, and go-to-market domain analyses (e.g., campaign attri\u2026",
+     "skills": [
+      "measurement",
+      "revenue"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r5",
+     "text": "Professional proficiency in analytics and BI tools that align with our tech stack (e.g., SQL, Tableau, Python or R), and working knowledge of data engineering and cloud data pla\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Expertise in data management, including metric definition, data governance, and data quality management.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Excellent communication, data storytelling, and collaboration skills, with the ability to translate complex data insights into clear, actionable recommendations for executive an\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r10",
+     "text": "Strategic mindset and the ability to manage challenging priorities across multiple stakeholders.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Reporting to this role is the leader of the Data Engineering team, responsible for data infrastructure and architecture. The Director of Data Strategy & Analytics will provide s\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r22",
+     "text": "Own project management and prioritization for all business analytics work, including analyst and AI-enabled analytics projects, and oversee review and QA to ensure data products\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r23",
+     "text": "Support the Director of Analytics Engineering and foster a culture of continuous learning and development across the Data Strategy & Analytics team, promoting collaboration, inn\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Drive analyst efforts to mine revenue, operational, and customer data and turn them into insightful KPIs, models, and dashboards that help our teams pursue revenue optimization \u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "role": "hanapin",
+   "original": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "final": "Wrote regularly for the PPC Hero blog about using statistics to read account performance, and spoke at Hero Conf London and a Hero Conf event in Indianapolis",
+   "rewritten": false,
+   "reason": "keeps the timeline whole",
+   "score": 7.67,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor's degree in data science, statistics, economics, business, computer science, or a related field; advanced degree preferred.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Excellent quantitative and analytical skills with experience in data visualization, statistical modeling/machine learning, and go-to-market domain analyses (e.g., campaign attri\u2026",
+     "skills": [
+      "stats",
+      "advertising"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r9",
+     "text": "Excellent communication, data storytelling, and collaboration skills, with the ability to translate complex data insights into clear, actionable recommendations for executive an\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r17",
+     "text": "Lexia's data assets are central to how we grow and how we demonstrate impact. We are seeking a Director of Data Strategy & Analytics to lead the team that turns those assets int\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r18",
+     "text": "Reporting to this role is the leader of the Data Engineering team, responsible for data infrastructure and architecture. The Director of Data Strategy & Analytics will provide s\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r21",
+     "text": "Manage, mentor, and develop a team of analysts, providing regular feedback and fostering a collaborative and high-performing environment.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r22",
+     "text": "Own project management and prioritization for all business analytics work, including analyst and AI-enabled analytics projects, and oversee review and QA to ensure data products\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r24",
+     "text": "Business Analytics & Insights",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Drive analyst efforts to mine revenue, operational, and customer data and turn them into insightful KPIs, models, and dashboards that help our teams pursue revenue optimization \u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "role": "ms-dir",
+   "original": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "final": "Added AI-assisted analysis to a weekly business memo and to reports for regional sales VPs that combine performance data with news and financials, then taught the method org-wide",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 35.49,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor's degree in data science, statistics, economics, business, computer science, or a related field; advanced degree preferred.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r2",
+     "text": "10+ years of experience in analytics, data strategy, or a related field, with a proven track record of delivering data-driven solutions that drive business impact.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r3",
+     "text": "5+ years of experience managing, coaching, or leading data analysts or analytics teams.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r4",
+     "text": "Excellent quantitative and analytical skills with experience in data visualization, statistical modeling/machine learning, and go-to-market domain analyses (e.g., campaign attri\u2026",
+     "skills": [
+      "advertising"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r5",
+     "text": "Professional proficiency in analytics and BI tools that align with our tech stack (e.g., SQL, Tableau, Python or R), and working knowledge of data engineering and cloud data pla\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r7",
+     "text": "Expertise in data management, including metric definition, data governance, and data quality management.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Demonstrated experience building or implementing AI-assisted analytics workflows, such as AI agents, natural language query interfaces, or LLM-driven analytics, with a deep unde\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r9",
+     "text": "Excellent communication, data storytelling, and collaboration skills, with the ability to translate complex data insights into clear, actionable recommendations for executive an\u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Strategic mindset and the ability to manage challenging priorities across multiple stakeholders.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r12",
+     "text": "Familiarity with sales and customer data platforms (e.g., Salesforce) and experience within a SaaS B2B or B2G organization preferred.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r17",
+     "text": "Lexia's data assets are central to how we grow and how we demonstrate impact. We are seeking a Director of Data Strategy & Analytics to lead the team that turns those assets int\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r18",
+     "text": "Reporting to this role is the leader of the Data Engineering team, responsible for data infrastructure and architecture. The Director of Data Strategy & Analytics will provide s\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r20",
+     "text": "Develop and execute a comprehensive strategy for data and analytics that aligns with the organization's mission, vision, and strategy, leveraging data to optimize decision-makin\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r22",
+     "text": "Own project management and prioritization for all business analytics work, including analyst and AI-enabled analytics projects, and oversee review and QA to ensure data products\u2026",
+     "skills": [
+      "storytelling",
+      "genai",
+      "data-products"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Support the Director of Analytics Engineering and foster a culture of continuous learning and development across the Data Strategy & Analytics team, promoting collaboration, inn\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Business Analytics & Insights",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Drive analyst efforts to mine revenue, operational, and customer data and turn them into insightful KPIs, models, and dashboards that help our teams pursue revenue optimization \u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "role": "ms-dir",
+   "original": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "final": "Led a global team of 7 analysts on a 100-slide analysis of Copilot adoption, feature growth, user behavior and ad performance for sales, marketing and executives",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 44.2,
+   "matched": [
+    {
+     "req": "r3",
+     "text": "5+ years of experience managing, coaching, or leading data analysts or analytics teams.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Excellent quantitative and analytical skills with experience in data visualization, statistical modeling/machine learning, and go-to-market domain analyses (e.g., campaign attri\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r5",
+     "text": "Professional proficiency in analytics and BI tools that align with our tech stack (e.g., SQL, Tableau, Python or R), and working knowledge of data engineering and cloud data pla\u2026",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Experience owning BI platform strategy and governance, and managing analytics vendor and tool relationships.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r8",
+     "text": "Demonstrated experience building or implementing AI-assisted analytics workflows, such as AI agents, natural language query interfaces, or LLM-driven analytics, with a deep unde\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Excellent communication, data storytelling, and collaboration skills, with the ability to translate complex data insights into clear, actionable recommendations for executive an\u2026",
+     "skills": [
+      "storytelling",
+      "stakeholders"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Strategic mindset and the ability to manage challenging priorities across multiple stakeholders.",
+     "skills": [
+      "stakeholders"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r11",
+     "text": "Exceptional leadership and management skills, with experience leading high-performing teams in a fast-paced and dynamic environment.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Familiarity with sales and customer data platforms (e.g., Salesforce) and experience within a SaaS B2B or B2G organization preferred.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Lexia's data assets are central to how we grow and how we demonstrate impact. We are seeking a Director of Data Strategy & Analytics to lead the team that turns those assets int\u2026",
+     "skills": [
+      "leadership",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Reporting to this role is the leader of the Data Engineering team, responsible for data infrastructure and architecture. The Director of Data Strategy & Analytics will provide s\u2026",
+     "skills": [
+      "leadership",
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Team Leadership & Development",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Manage, mentor, and develop a team of analysts, providing regular feedback and fostering a collaborative and high-performing environment.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r22",
+     "text": "Own project management and prioritization for all business analytics work, including analyst and AI-enabled analytics projects, and oversee review and QA to ensure data products\u2026",
+     "skills": [
+      "storytelling",
+      "genai"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Support the Director of Analytics Engineering and foster a culture of continuous learning and development across the Data Strategy & Analytics team, promoting collaboration, inn\u2026",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r24",
+     "text": "Business Analytics & Insights",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Drive analyst efforts to mine revenue, operational, and customer data and turn them into insightful KPIs, models, and dashboards that help our teams pursue revenue optimization \u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "m12",
+   "role": "ms-dir",
+   "original": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "final": "Set a repeatable format for MSN insight stories (data point, interpretation, support) and prepared them for AI-assisted automation",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 41.17,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor's degree in data science, statistics, economics, business, computer science, or a related field; advanced degree preferred.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r2",
+     "text": "10+ years of experience in analytics, data strategy, or a related field, with a proven track record of delivering data-driven solutions that drive business impact.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r3",
+     "text": "5+ years of experience managing, coaching, or leading data analysts or analytics teams.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r4",
+     "text": "Excellent quantitative and analytical skills with experience in data visualization, statistical modeling/machine learning, and go-to-market domain analyses (e.g., campaign attri\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r5",
+     "text": "Professional proficiency in analytics and BI tools that align with our tech stack (e.g., SQL, Tableau, Python or R), and working knowledge of data engineering and cloud data pla\u2026",
+     "skills": [
+      "pipelines"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r6",
+     "text": "Experience owning BI platform strategy and governance, and managing analytics vendor and tool relationships.",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Expertise in data management, including metric definition, data governance, and data quality management.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Demonstrated experience building or implementing AI-assisted analytics workflows, such as AI agents, natural language query interfaces, or LLM-driven analytics, with a deep unde\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r9",
+     "text": "Excellent communication, data storytelling, and collaboration skills, with the ability to translate complex data insights into clear, actionable recommendations for executive an\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r10",
+     "text": "Strategic mindset and the ability to manage challenging priorities across multiple stakeholders.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Exceptional leadership and management skills, with experience leading high-performing teams in a fast-paced and dynamic environment.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Familiarity with sales and customer data platforms (e.g., Salesforce) and experience within a SaaS B2B or B2G organization preferred.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Lexia's data assets are central to how we grow and how we demonstrate impact. We are seeking a Director of Data Strategy & Analytics to lead the team that turns those assets int\u2026",
+     "skills": [
+      "leadership",
+      "storytelling",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Reporting to this role is the leader of the Data Engineering team, responsible for data infrastructure and architecture. The Director of Data Strategy & Analytics will provide s\u2026",
+     "skills": [
+      "leadership",
+      "storytelling",
+      "strategy",
+      "pipelines"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Team Leadership & Development",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Develop and execute a comprehensive strategy for data and analytics that aligns with the organization's mission, vision, and strategy, leveraging data to optimize decision-makin\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r21",
+     "text": "Manage, mentor, and develop a team of analysts, providing regular feedback and fostering a collaborative and high-performing environment.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Own project management and prioritization for all business analytics work, including analyst and AI-enabled analytics projects, and oversee review and QA to ensure data products\u2026",
+     "skills": [
+      "storytelling",
+      "genai",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r23",
+     "text": "Support the Director of Analytics Engineering and foster a culture of continuous learning and development across the Data Strategy & Analytics team, promoting collaboration, inn\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Business Analytics & Insights",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r25",
+     "text": "Drive analyst efforts to mine revenue, operational, and customer data and turn them into insightful KPIs, models, and dashboards that help our teams pursue revenue optimization \u2026",
+     "skills": [],
+     "m": 0.15
+    }
+   ]
+  },
+  {
+   "id": "h1",
+   "role": "ms-head",
+   "original": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "final": "Expanded the team's work from insights to measurement solutions as it took on measurement support for sales",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 32.43,
+   "matched": [
+    {
+     "req": "r2",
+     "text": "10+ years of experience in analytics, data strategy, or a related field, with a proven track record of delivering data-driven solutions that drive business impact.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r3",
+     "text": "5+ years of experience managing, coaching, or leading data analysts or analytics teams.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Excellent quantitative and analytical skills with experience in data visualization, statistical modeling/machine learning, and go-to-market domain analyses (e.g., campaign attri\u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r6",
+     "text": "Experience owning BI platform strategy and governance, and managing analytics vendor and tool relationships.",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r7",
+     "text": "Expertise in data management, including metric definition, data governance, and data quality management.",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r9",
+     "text": "Excellent communication, data storytelling, and collaboration skills, with the ability to translate complex data insights into clear, actionable recommendations for executive an\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r10",
+     "text": "Strategic mindset and the ability to manage challenging priorities across multiple stakeholders.",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r11",
+     "text": "Exceptional leadership and management skills, with experience leading high-performing teams in a fast-paced and dynamic environment.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r12",
+     "text": "Familiarity with sales and customer data platforms (e.g., Salesforce) and experience within a SaaS B2B or B2G organization preferred.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Lexia's data assets are central to how we grow and how we demonstrate impact. We are seeking a Director of Data Strategy & Analytics to lead the team that turns those assets int\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r18",
+     "text": "Reporting to this role is the leader of the Data Engineering team, responsible for data infrastructure and architecture. The Director of Data Strategy & Analytics will provide s\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r19",
+     "text": "Team Leadership & Development",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Develop and execute a comprehensive strategy for data and analytics that aligns with the organization's mission, vision, and strategy, leveraging data to optimize decision-makin\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r21",
+     "text": "Manage, mentor, and develop a team of analysts, providing regular feedback and fostering a collaborative and high-performing environment.",
+     "skills": [
+      "leadership"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r22",
+     "text": "Own project management and prioritization for all business analytics work, including analyst and AI-enabled analytics projects, and oversee review and QA to ensure data products\u2026",
+     "skills": [
+      "strategy"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r23",
+     "text": "Support the Director of Analytics Engineering and foster a culture of continuous learning and development across the Data Strategy & Analytics team, promoting collaboration, inn\u2026",
+     "skills": [
+      "leadership",
+      "strategy"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r24",
+     "text": "Business Analytics & Insights",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r25",
+     "text": "Drive analyst efforts to mine revenue, operational, and customer data and turn them into insightful KPIs, models, and dashboards that help our teams pursue revenue optimization \u2026",
+     "skills": [
+      "measurement"
+     ],
+     "m": 0.6
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "role": "proj",
+   "original": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "final": "Don't Fire Dan Quinn: data story on all 246 NFL head-coach exits since 1996, with scroll-driven D3 charts",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 26.15,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor's degree in data science, statistics, economics, business, computer science, or a related field; advanced degree preferred.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r2",
+     "text": "10+ years of experience in analytics, data strategy, or a related field, with a proven track record of delivering data-driven solutions that drive business impact.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r3",
+     "text": "5+ years of experience managing, coaching, or leading data analysts or analytics teams.",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r4",
+     "text": "Excellent quantitative and analytical skills with experience in data visualization, statistical modeling/machine learning, and go-to-market domain analyses (e.g., campaign attri\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r5",
+     "text": "Professional proficiency in analytics and BI tools that align with our tech stack (e.g., SQL, Tableau, Python or R), and working knowledge of data engineering and cloud data pla\u2026",
+     "skills": [
+      "python"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r7",
+     "text": "Expertise in data management, including metric definition, data governance, and data quality management.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r8",
+     "text": "Demonstrated experience building or implementing AI-assisted analytics workflows, such as AI agents, natural language query interfaces, or LLM-driven analytics, with a deep unde\u2026",
+     "skills": [],
+     "m": 0.3
+    },
+    {
+     "req": "r9",
+     "text": "Excellent communication, data storytelling, and collaboration skills, with the ability to translate complex data insights into clear, actionable recommendations for executive an\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r12",
+     "text": "Familiarity with sales and customer data platforms (e.g., Salesforce) and experience within a SaaS B2B or B2G organization preferred.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r17",
+     "text": "Lexia's data assets are central to how we grow and how we demonstrate impact. We are seeking a Director of Data Strategy & Analytics to lead the team that turns those assets int\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r18",
+     "text": "Reporting to this role is the leader of the Data Engineering team, responsible for data infrastructure and architecture. The Director of Data Strategy & Analytics will provide s\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r20",
+     "text": "Develop and execute a comprehensive strategy for data and analytics that aligns with the organization's mission, vision, and strategy, leveraging data to optimize decision-makin\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r22",
+     "text": "Own project management and prioritization for all business analytics work, including analyst and AI-enabled analytics projects, and oversee review and QA to ensure data products\u2026",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.9
+    },
+    {
+     "req": "r23",
+     "text": "Support the Director of Analytics Engineering and foster a culture of continuous learning and development across the Data Strategy & Analytics team, promoting collaboration, inn\u2026",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r24",
+     "text": "Business Analytics & Insights",
+     "skills": [
+      "storytelling"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Drive analyst efforts to mine revenue, operational, and customer data and turn them into insightful KPIs, models, and dashboards that help our teams pursue revenue optimization \u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    }
+   ]
+  },
+  {
+   "id": "p4",
+   "role": "proj",
+   "original": "Robuttal: an arena where AI models from several providers debate, judged by AI with fairness audits and Elo rankings; built with Python, FastAPI and Next.js",
+   "final": "Robuttal: an arena where AI models from several providers debate, judged by AI with fairness audits and Elo rankings; built with Python, FastAPI and Next.js",
+   "rewritten": false,
+   "reason": "highest added coverage",
+   "score": 14.66,
+   "matched": [
+    {
+     "req": "r1",
+     "text": "Bachelor's degree in data science, statistics, economics, business, computer science, or a related field; advanced degree preferred.",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r4",
+     "text": "Excellent quantitative and analytical skills with experience in data visualization, statistical modeling/machine learning, and go-to-market domain analyses (e.g., campaign attri\u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r5",
+     "text": "Professional proficiency in analytics and BI tools that align with our tech stack (e.g., SQL, Tableau, Python or R), and working knowledge of data engineering and cloud data pla\u2026",
+     "skills": [
+      "python"
+     ],
+     "m": 0.75
+    },
+    {
+     "req": "r8",
+     "text": "Demonstrated experience building or implementing AI-assisted analytics workflows, such as AI agents, natural language query interfaces, or LLM-driven analytics, with a deep unde\u2026",
+     "skills": [
+      "genai",
+      "llm-apps"
+     ],
+     "m": 1
+    },
+    {
+     "req": "r21",
+     "text": "Manage, mentor, and develop a team of analysts, providing regular feedback and fostering a collaborative and high-performing environment.",
+     "skills": [],
+     "m": 0.15
+    },
+    {
+     "req": "r22",
+     "text": "Own project management and prioritization for all business analytics work, including analyst and AI-enabled analytics projects, and oversee review and QA to ensure data products\u2026",
+     "skills": [
+      "genai"
+     ],
+     "m": 0.6
+    },
+    {
+     "req": "r25",
+     "text": "Drive analyst efforts to mine revenue, operational, and customer data and turn them into insightful KPIs, models, and dashboards that help our teams pursue revenue optimization \u2026",
+     "skills": [
+      "stats"
+     ],
+     "m": 0.75
+    }
+   ]
+  }
+ ],
+ "leftOut": [
+  {
+   "text": "Built a prototype marketplace monitor in SQL on Microsoft Fabric that scores daily advertiser spend from normal to anomalous across 6 business contexts, with a metric developed using AI",
+   "why": "others covered the same ground better",
+   "score": 32.3
+  },
+  {
+   "text": "Built the financial services and automotive analytics teams from scratch in 2023, moving 5 of 6 analysts into new verticals through two reductions in force",
+   "why": "others covered the same ground better",
+   "score": 30.2
+  },
+  {
+   "text": "Set client-facing analytics strategy for financial services and automotive with engineering, product, marketplace and marketing partners",
+   "why": "others covered the same ground better",
+   "score": 29.12
+  },
+  {
+   "text": "Led the team to 144 client engagements against a target of 116 by giving analysts more autonomy",
+   "why": "others covered the same ground better",
+   "score": 28.51
+  },
+  {
+   "text": "Taught Microsoft Advertising's analytics community how the team uses AI, and coached analysts to use LLMs for analysis they couldn't do before",
+   "why": "others covered the same ground better",
+   "score": 26.82
+  },
+  {
+   "text": "Ran a roundtable with a regional sales VP's leadership team to answer their doubts about advanced analytics",
+   "why": "others covered the same ground better",
+   "score": 24.67
+  },
+  {
+   "text": "NHL Has a Refereeing Problem: two seasons of play-by-play show referees evening up penalty calls, with model-adjusted estimates and intervals",
+   "why": "role already full",
+   "score": 19.42
+  },
+  {
+   "text": "Built global travel forecasts with COVID-aware models and custom charts, and presented them to CMO- and SVP-level executives at one of the largest global advertisers",
+   "why": "others covered the same ground better",
+   "score": 18.09
+  }
+ ],
+ "skills": [
+  "Strategy",
+  "Team Leadership",
+  "Dashboards",
+  "Data storytelling",
+  "Stakeholder management",
+  "Statistics",
+  "Measurement",
+  "SQL",
+  "Generative AI",
+  "Data pipelines",
+  "Advertising",
+  "R",
+  "Python",
+  "Revenue analytics",
+  "Cloud",
+  "LLM applications",
+  "Machine learning",
+  "Data products",
+  "Learning and development"
+ ],
+ "checks": [
+  {
+   "kind": "years",
+   "status": "ok",
+   "detail": "Asks for 10+ years; I have 12."
+  },
+  {
+   "kind": "degree",
+   "status": "ok",
+   "detail": "Mentions a bachelor's (as preferred or with an equivalent); mine: a bachelor's."
+  },
+  {
+   "kind": "field",
+   "status": "info",
+   "detail": "Names a field of study (data science, statistics, economics, business, computer science) with an equivalent or as preferred; mine: B.A., Jazz Guitar Performance, so my experience has to cover this one."
+  }
+ ]
+}
